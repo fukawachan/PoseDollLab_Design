@@ -1,0 +1,56 @@
+{
+  "revision": "RevD_proportion_requirement_2026-09-20",
+  "status": "REQUIRED_NOT_YET_SATISFIED",
+  "target_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+  "target_rig": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+  "user_requirement": "人偶主要身体比例应与已验证 Manny 大致一致；摆姿势尽量所见即所得。",
+  "single_uniform_scale_required": true,
+  "selected_scale": null,
+  "body_height_mm": null,
+  "preferred_height_mm_exploratory": 500,
+  "stature_definition": "Neutral sole surface to crown surface, excluding fixed stand and protruding electronics.",
+  "design_targets_not_validated": {
+    "major_link_length_relative_error_max": 0.01,
+    "shoulder_and_hip_span_relative_error_max": 0.01,
+    "neutral_semantic_landmark_error_divided_by_stature_max": 0.005,
+    "sampled_wrist_ankle_head_position_error_divided_by_stature_max": 0.01,
+    "task_contact_point_error_divided_by_stature_max": 0.01
+  },
+  "required_lengths": [
+    "upper_arm",
+    "forearm",
+    "thigh",
+    "shin",
+    "shoulder_span",
+    "hip_span",
+    "pelvis_to_shoulder_height",
+    "head_extent",
+    "hand_extent",
+    "foot_extent"
+  ],
+  "required_pose_checks": [
+    "neutral",
+    "arms_forward",
+    "arms_side",
+    "arms_overhead",
+    "arms_crossed",
+    "hands_together",
+    "hand_to_forehead",
+    "hands_on_hips",
+    "sitting",
+    "crouch",
+    "kneeling",
+    "foot_contacts"
+  ],
+  "policies": [
+    "Choose joint centres before packing hardware.",
+    "Do not independently lengthen limbs or widen shoulders to fit components.",
+    "Use global scale or mechanism redesign when components do not fit.",
+    "Include moving multi-axis pivot offsets in kinematics, not only reference-pose link lengths.",
+    "Compare actual mapped Manny endpoint positions and contact surfaces; visual pose names alone are not acceptance.",
+    "Keep 44 axis IDs and existing virtual profile unchanged; export a new physical profile."
+  ],
+  "manufacturing_release": false,
+  "user_testing_required_now": false,
+  "physical_validation": "not_run"
+}

@@ -1,0 +1,171 @@
+[
+  {
+    "part": "H1-001_fit_coupon",
+    "status": "fit_test",
+    "bbox_mm": [
+      110.0,
+      74.0,
+      6.0
+    ],
+    "volume_mm3": 44148.59,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "7c51db26f67af1ba22eab7d658053a6b4ef44c3eb1440e0fad4b969ce00fae6a"
+  },
+  {
+    "part": "H1-002_nut_magnet_coupon",
+    "status": "fit_test",
+    "bbox_mm": [
+      86.0,
+      40.0,
+      8.0
+    ],
+    "volume_mm3": 26442.28,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "2b878565aa172f1c69a2b611645b87110c4ff839d92e723aa28b53f9e924f4af"
+  },
+  {
+    "part": "H1-003_gap_gauge",
+    "status": "fit_test",
+    "bbox_mm": [
+      58.0,
+      29.0,
+      3.0
+    ],
+    "volume_mm3": 3072.0,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "c7cdf116d203da64278ca46c2b3a606a36338f789a72b7f2e6b29031256530e6"
+  },
+  {
+    "part": "H1-010_base",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      112.0,
+      66.0,
+      6.0
+    ],
+    "volume_mm3": 43441.57,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "03168f18114706b4cfe5b813f6df12c050e032e3bcfdfa0eb544a8adde3a2faf"
+  },
+  {
+    "part": "H1-011_spine",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      12.0,
+      20.0,
+      76.0
+    ],
+    "volume_mm3": 14670.5,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "f44cd032d50e0d033d26036fd0638e107c4a26bef1e2c26a463653bb5d6cfb3f"
+  },
+  {
+    "part": "H1-012_upper_fork",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      76.0,
+      42.0,
+      5.0
+    ],
+    "volume_mm3": 9064.72,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "49d8c306fdf592e59e963457a21c67226fcb6e49a676cded18840e8ebd75b4cf"
+  },
+  {
+    "part": "H1-013_rotor_lever",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      115.0,
+      32.0,
+      19.0
+    ],
+    "volume_mm3": 19501.04,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "046655a64f8ba44bbb3edbd29545423e3891388fcf9f4b9e14b0f620a34cb853"
+  },
+  {
+    "part": "H1-014_magnet_bridge",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      48.0,
+      18.0,
+      43.0
+    ],
+    "volume_mm3": 6677.83,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "c7f95aee81d8a594101e039eb513cf6c4dc3aa384aff9d47d998d929d4f12389"
+  },
+  {
+    "part": "H1-015_magnet_cover",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      17.0,
+      17.0,
+      0.8
+    ],
+    "volume_mm3": 173.09,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "400018faac00552b0d63b5934ee0564475682486699060203801a083497b334a"
+  },
+  {
+    "part": "H1-016_sensor_arm",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      81.0,
+      50.0,
+      5.0
+    ],
+    "volume_mm3": 9563.01,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "245fa4c52c4a7544559b3e39dff5d0dfe36192af04915e3891835bf53d9b2eac"
+  },
+  {
+    "part": "H1-017_sensor_carrier",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      54.0,
+      56.0,
+      4.0
+    ],
+    "volume_mm3": 10589.95,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "937cd948fafe4500f1d83ef4c3969ee4bc5c6e1f8ebac9fb983b7cce02a0e43d"
+  },
+  {
+    "part": "H1-018_edge_clamp",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      15.0,
+      8.0,
+      4.0
+    ],
+    "volume_mm3": 367.65,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "6f2b1b2a4643063546ce8105b67a2f9c676cb559869bda021cf3255af9e9d032"
+  },
+  {
+    "part": "H1-019_stop",
+    "status": "draft_mechanism",
+    "bbox_mm": [
+      10.0,
+      10.0,
+      20.0
+    ],
+    "volume_mm3": 1367.22,
+    "solid_valid": true,
+    "solids": 1,
+    "stl_sha256": "f9f0104fac537fd84823cb696e3c891b1c5ee6a83493327142216b18a54133b5"
+  }
+]

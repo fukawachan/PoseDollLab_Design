@@ -1,0 +1,68 @@
+[
+  {
+    "kind": "sensor_revM_side",
+    "pcb_sha256": "3e3cffc02c0ff494cfe45a51623d8c36a30bd1e69852b52a60db9a2da537082e",
+    "schematic_sha256": "be189a123641cf223f02a46a82356fb08dc3d4dbd05b1fffaa4680bdff6a455f",
+    "erc_pass": true,
+    "drc_parity_pass": true,
+    "missing_vendor_3D_models": [],
+    "manufacturing_released": false,
+    "hardware_tested": false
+  },
+  {
+    "kind": "sensor_revM_large_sh",
+    "pcb_sha256": "ef1489c2a59024333f5702cb925bebfce70326dddce2db629b4546e858ba01a6",
+    "schematic_sha256": "f58121d1826917f3e77f82709b74be1a5ee90b54872fb341ce7038aaf9fee204",
+    "erc_pass": true,
+    "drc_parity_pass": true,
+    "missing_vendor_3D_models": [],
+    "manufacturing_released": false,
+    "hardware_tested": false
+  },
+  {
+    "kind": "regional_revM",
+    "pcb_sha256": "b32901e526e97c61e97a11575728b087a06e2cefde69f0061203a4563e31e455",
+    "schematic_sha256": "02ff864328207f41631d27ee2306782431bc3e6a0630d473bde0f2975cfeefe1",
+    "erc_pass": true,
+    "drc_parity_pass": true,
+    "missing_vendor_3D_models": [
+      {
+        "ref": "U4",
+        "model": "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/Texas_UQFN-10_1.5x2mm_P0.5mm.step"
+      },
+      {
+        "ref": "J4",
+        "model": "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+      },
+      {
+        "ref": "J1",
+        "model": "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical.step"
+      },
+      {
+        "ref": "L1",
+        "model": "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Taiyo-Yuden_NR-40xx.step"
+      },
+      {
+        "ref": "U2",
+        "model": "${KICAD10_3DMODEL_DIR}/Package_SON.3dshapes/Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
+      }
+    ],
+    "manufacturing_released": false,
+    "hardware_tested": false
+  },
+  {
+    "kind": "power_revM",
+    "pcb_sha256": "c682ffe5083fac43c5d2f57401150cdc3c6fee8190190fba2006aec322cc4391",
+    "schematic_sha256": "41a7aed2937f90a1106108dd87dcfd5372fe8df5a70f906d0f85a957bbd6cb11",
+    "erc_pass": true,
+    "drc_parity_pass": true,
+    "missing_vendor_3D_models": [
+      {
+        "ref": "F0",
+        "model": "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+      }
+    ],
+    "manufacturing_released": false,
+    "hardware_tested": false
+  }
+]

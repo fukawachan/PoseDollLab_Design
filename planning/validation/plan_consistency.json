@@ -1,0 +1,124 @@
+{
+  "scope": "PLAN_INTERNAL_CONSISTENCY_ONLY_NOT_HARDWARE_VALIDATION",
+  "checks": [
+    {
+      "check": "44 unique axis ids",
+      "passed": true
+    },
+    {
+      "check": "exactly 44 allocation records",
+      "passed": true
+    },
+    {
+      "check": "allocation uses protocol order",
+      "passed": true
+    },
+    {
+      "check": "protocol indices cover 0..43",
+      "passed": true
+    },
+    {
+      "check": "six unique regional nodes",
+      "passed": true
+    },
+    {
+      "check": "all axes allocated once to regional ports",
+      "passed": true
+    },
+    {
+      "check": "regions partition all indices",
+      "passed": true
+    },
+    {
+      "check": "regional axis totals equal 44",
+      "passed": true
+    },
+    {
+      "check": "regional list counts agree",
+      "passed": true
+    },
+    {
+      "check": "port capacity is not exceeded",
+      "passed": true
+    },
+    {
+      "check": "regional membership agrees with allocation",
+      "passed": true
+    },
+    {
+      "check": "ports sequential within region",
+      "passed": true
+    },
+    {
+      "check": "reference rotation axes are normalized",
+      "passed": true
+    },
+    {
+      "check": "unreleased mechanical limits not fabricated",
+      "passed": true
+    },
+    {
+      "check": "unreleased connector pinouts not fabricated",
+      "passed": true
+    },
+    {
+      "check": "no manufacturing or procurement gates released",
+      "passed": true
+    },
+    {
+      "check": "sensor count matches scope",
+      "passed": true
+    },
+    {
+      "check": "gateway and node count matches architecture",
+      "passed": true
+    },
+    {
+      "check": "external CAN transceiver required",
+      "passed": true
+    },
+    {
+      "check": "classic CAN specified",
+      "passed": true
+    },
+    {
+      "check": "preferred part envelope below printer volume",
+      "passed": true
+    },
+    {
+      "check": "all physical targets explicitly untested",
+      "passed": true
+    },
+    {
+      "check": "all hardware stages explicitly untested",
+      "passed": true
+    },
+    {
+      "check": "estimated bus load below budget",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "calculations_not_measurements": {
+    "axis_count": 44,
+    "regional_data_frames_per_epoch": 16,
+    "frames_including_sync_per_epoch": 17,
+    "nominal_can_load_fraction": 0.4752,
+    "assumed_bits_per_full_can_frame": 135,
+    "epoch_u16_wrap_seconds_at_target_rate": 655.36,
+    "encoder_quantization_deg": 0.02197265625,
+    "sensor_only_current_ceiling_ma_from_15ma_per_part": 660
+  },
+  "not_verified": [
+    "CAD geometry",
+    "manufacturability",
+    "electrical design",
+    "power safety",
+    "actual parts availability",
+    "sensor accuracy",
+    "mechanical strength",
+    "physical wear",
+    "new firmware",
+    "UE hardware integration"
+  ]
+}

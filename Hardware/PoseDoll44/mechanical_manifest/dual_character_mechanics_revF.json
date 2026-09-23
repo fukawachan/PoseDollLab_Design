@@ -1,0 +1,1974 @@
+{
+  "status": "ALL_44_AXES_TRACKED_PARTIAL_MECHANICAL_INTEGRATION",
+  "manufacturing_released": false,
+  "profiles_modified": false,
+  "units": "mm and degrees",
+  "characters": {
+    "manny": {
+      "source_profile_sha256": "45dc6a3f0485733f89901ddbd363bf8109f3bd3a862909c02a7cd03ae52af636",
+      "axes": [
+        {
+          "id": "pelvis.yaw",
+          "node": "pelvis.yaw_frame",
+          "neutral_axis_point_mm": [
+            0.0,
+            0.0,
+            323.1974638054135
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "pelvis.pitch",
+          "node": "pelvis.pitch_frame",
+          "neutral_axis_point_mm": [
+            0.0,
+            0.0,
+            323.1974638054135
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            45.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "pelvis.roll",
+          "node": "pelvis",
+          "neutral_axis_point_mm": [
+            0.0,
+            0.0,
+            323.1974638054135
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "waist.yaw",
+          "node": "waist.yaw_frame",
+          "neutral_axis_point_mm": [
+            5.022291054656477,
+            5.513471567228152e-16,
+            369.6411989744838
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -35.0,
+            35.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "waist.pitch",
+          "node": "waist.pitch_frame",
+          "neutral_axis_point_mm": [
+            5.022291054656477,
+            5.513471567228152e-16,
+            369.6411989744838
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            40.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "waist.roll",
+          "node": "waist",
+          "neutral_axis_point_mm": [
+            5.022291054656477,
+            5.513471567228152e-16,
+            369.6411989744838
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "chest.yaw",
+          "node": "chest.yaw_frame",
+          "neutral_axis_point_mm": [
+            4.7903367023621914,
+            -6.483240912028764e-16,
+            409.96286007232874
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -35.0,
+            35.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "chest.pitch",
+          "node": "chest.pitch_frame",
+          "neutral_axis_point_mm": [
+            4.7903367023621914,
+            -6.483240912028764e-16,
+            409.96286007232874
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "chest.roll",
+          "node": "chest",
+          "neutral_axis_point_mm": [
+            4.7903367023621914,
+            -6.483240912028764e-16,
+            409.96286007232874
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            20.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "head.yaw",
+          "node": "head.yaw_frame",
+          "neutral_axis_point_mm": [
+            -8.99386058263631,
+            -1.1385243887149843e-10,
+            529.2603544286211
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -75.0,
+            75.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "head.pitch",
+          "node": "head.pitch_frame",
+          "neutral_axis_point_mm": [
+            -8.99386058263631,
+            -1.1385243887149843e-10,
+            529.2603544286211
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -45.0,
+            55.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "head.roll",
+          "node": "head",
+          "neutral_axis_point_mm": [
+            -8.99386058263631,
+            -1.1385243887149843e-10,
+            529.2603544286211
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -35.0,
+            35.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_l.protract",
+          "node": "clavicle_l.protract_frame",
+          "neutral_axis_point_mm": [
+            -13.402265933731451,
+            4.759680827526948,
+            491.2116925834032
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -20.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_l.elevate",
+          "node": "clavicle_l",
+          "neutral_axis_point_mm": [
+            -13.402265933731451,
+            4.759680827526948,
+            491.2116925834032
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -14.999999999999998,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_l.flex",
+          "node": "upperarm_l.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.12699819189869,
+            63.36626369872653,
+            482.15319055455257
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -50.0,
+            160.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_l.abduct",
+          "node": "upperarm_l.abduct_frame",
+          "neutral_axis_point_mm": [
+            -16.12699819189869,
+            63.36626369872653,
+            482.15319055455257
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            150.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_l.twist",
+          "node": "upperarm_l",
+          "neutral_axis_point_mm": [
+            -16.12699819189869,
+            63.36626369872653,
+            482.15319055455257
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "elbow_l.flex",
+          "node": "elbow_l",
+          "neutral_axis_point_mm": [
+            -16.12699819189869,
+            63.36626369872654,
+            389.5827267382277
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "POPULATED_IN_PARTIAL_LEFT_ARM",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "forearm_l.twist",
+          "node": "forearm_l",
+          "neutral_axis_point_mm": [
+            -16.126998191898686,
+            63.36626369872654,
+            348.7061159823073
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_l.flex",
+          "node": "hand_l.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.12699819189868,
+            63.36626369872654,
+            298.74581394729347
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -65.0,
+            65.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "POPULATED_IN_PARTIAL_LEFT_ARM",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_l.deviate",
+          "node": "hand_l",
+          "neutral_axis_point_mm": [
+            -16.12699819189868,
+            63.36626369872654,
+            298.74581394729347
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            35.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_l.flex",
+          "node": "thigh_l.flex_frame",
+          "neutral_axis_point_mm": [
+            0.8657702949675787,
+            33.23067665100098,
+            315.3508517049072
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            125.00000000000001
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_l.abduct",
+          "node": "thigh_l.abduct_frame",
+          "neutral_axis_point_mm": [
+            0.8657702949675787,
+            33.23067665100098,
+            315.3508517049072
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            65.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_l.twist",
+          "node": "thigh_l",
+          "neutral_axis_point_mm": [
+            0.8657702949675787,
+            33.23067665100098,
+            315.3508517049072
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -50.0,
+            50.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "calf_l.flex",
+          "node": "calf_l",
+          "neutral_axis_point_mm": [
+            0.8657702949675787,
+            33.23067665100098,
+            170.8798230590739
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_l.dorsiflex",
+          "node": "foot_l.dorsiflex_frame",
+          "neutral_axis_point_mm": [
+            0.865770294967577,
+            33.23067665100098,
+            30.153441121411163
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -45.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_l.invert",
+          "node": "foot_l",
+          "neutral_axis_point_mm": [
+            0.865770294967577,
+            33.23067665100098,
+            30.153441121411163
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "ball_l.flex",
+          "node": "ball_l",
+          "neutral_axis_point_mm": [
+            56.802909237544,
+            33.23067665100098,
+            30.153441121411163
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            59.99999999999999
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_r.protract",
+          "node": "clavicle_r.protract_frame",
+          "neutral_axis_point_mm": [
+            -13.40238565713882,
+            -4.7595755258513455,
+            491.2115064881835
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -20.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_r.elevate",
+          "node": "clavicle_r",
+          "neutral_axis_point_mm": [
+            -13.40238565713882,
+            -4.7595755258513455,
+            491.2115064881835
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -14.999999999999998,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_r.flex",
+          "node": "upperarm_r.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.12711908084779,
+            -63.36627493674486,
+            482.1515088243902
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -50.0,
+            160.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_r.abduct",
+          "node": "upperarm_r.abduct_frame",
+          "neutral_axis_point_mm": [
+            -16.12711908084779,
+            -63.36627493674486,
+            482.1515088243902
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            150.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_r.twist",
+          "node": "upperarm_r",
+          "neutral_axis_point_mm": [
+            -16.12711908084779,
+            -63.36627493674486,
+            482.1515088243902
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "elbow_r.flex",
+          "node": "elbow_r",
+          "neutral_axis_point_mm": [
+            -16.12711908084779,
+            -63.36627493674488,
+            389.5825263821701
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "forearm_r.twist",
+          "node": "forearm_r",
+          "neutral_axis_point_mm": [
+            -16.12711908084779,
+            -63.36627493674487,
+            348.7060100400071
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_r.flex",
+          "node": "hand_r.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.127119080847788,
+            -63.36627493674486,
+            298.7458233995855
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -65.0,
+            65.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_r.deviate",
+          "node": "hand_r",
+          "neutral_axis_point_mm": [
+            -16.127119080847788,
+            -63.36627493674486,
+            298.7458233995855
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            35.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_r.flex",
+          "node": "thigh_r.flex_frame",
+          "neutral_axis_point_mm": [
+            0.8971902952488371,
+            -33.23030471801758,
+            315.35279654284165
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            125.00000000000001
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_r.abduct",
+          "node": "thigh_r.abduct_frame",
+          "neutral_axis_point_mm": [
+            0.8971902952488371,
+            -33.23030471801758,
+            315.35279654284165
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            65.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_r.twist",
+          "node": "thigh_r",
+          "neutral_axis_point_mm": [
+            0.8971902952488371,
+            -33.23030471801758,
+            315.35279654284165
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -50.0,
+            50.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "calf_r.flex",
+          "node": "calf_r",
+          "neutral_axis_point_mm": [
+            0.8971902952488371,
+            -33.23030471801758,
+            170.88192048489898
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_r.dorsiflex",
+          "node": "foot_r.dorsiflex_frame",
+          "neutral_axis_point_mm": [
+            0.8971902952488371,
+            -33.23030471801758,
+            30.155424106318264
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -45.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_r.invert",
+          "node": "foot_r",
+          "neutral_axis_point_mm": [
+            0.8971902952488371,
+            -33.23030471801758,
+            30.155424106318264
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "ball_r.flex",
+          "node": "ball_r",
+          "neutral_axis_point_mm": [
+            56.83435278433133,
+            -33.23030471801758,
+            30.155424106318264
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            59.99999999999999
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        }
+      ],
+      "critical_centre_distances_mm": {
+        "clavicle_roots": 9.51925635595019,
+        "shoulder_centres": 126.73253864668725,
+        "hip_centres": 66.4609888245115,
+        "pelvis_to_waist": 46.71449393809612,
+        "waist_to_chest": 40.322328262527314
+      }
+    },
+    "quinn": {
+      "source_profile_sha256": "a1ed6e4ab6e29d6c5c303acb77b40d344f87355886932560f3861f707e9d47d8",
+      "axes": [
+        {
+          "id": "pelvis.yaw",
+          "node": "pelvis.yaw_frame",
+          "neutral_axis_point_mm": [
+            0.0,
+            0.0,
+            333.6518555673697
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "pelvis.pitch",
+          "node": "pelvis.pitch_frame",
+          "neutral_axis_point_mm": [
+            0.0,
+            0.0,
+            333.6518555673697
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            45.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "pelvis.roll",
+          "node": "pelvis",
+          "neutral_axis_point_mm": [
+            0.0,
+            0.0,
+            333.6518555673697
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "waist.yaw",
+          "node": "waist.yaw_frame",
+          "neutral_axis_point_mm": [
+            4.913036045713749,
+            3.194123888848396e-13,
+            370.65086174730004
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -35.0,
+            35.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "waist.pitch",
+          "node": "waist.pitch_frame",
+          "neutral_axis_point_mm": [
+            4.913036045713749,
+            3.194123888848396e-13,
+            370.65086174730004
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            40.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "waist.roll",
+          "node": "waist",
+          "neutral_axis_point_mm": [
+            4.913036045713749,
+            3.194123888848396e-13,
+            370.65086174730004
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "L8",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "chest.yaw",
+          "node": "chest.yaw_frame",
+          "neutral_axis_point_mm": [
+            4.61988249275929,
+            1.078878327316325e-12,
+            412.7193790761937
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -35.0,
+            35.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "chest.pitch",
+          "node": "chest.pitch_frame",
+          "neutral_axis_point_mm": [
+            4.61988249275929,
+            1.078878327316325e-12,
+            412.7193790761937
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "chest.roll",
+          "node": "chest",
+          "neutral_axis_point_mm": [
+            4.61988249275929,
+            1.078878327316325e-12,
+            412.7193790761937
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            20.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "head.yaw",
+          "node": "head.yaw_frame",
+          "neutral_axis_point_mm": [
+            -11.645220174066006,
+            -1.5616677679681295e-06,
+            527.5133908411993
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -75.0,
+            75.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "head.pitch",
+          "node": "head.pitch_frame",
+          "neutral_axis_point_mm": [
+            -11.645220174066006,
+            -1.5616677679681295e-06,
+            527.5133908411993
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -45.0,
+            55.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "head.roll",
+          "node": "head",
+          "neutral_axis_point_mm": [
+            -11.645220174066006,
+            -1.5616677679681295e-06,
+            527.5133908411993
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -35.0,
+            35.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_l.protract",
+          "node": "clavicle_l.protract_frame",
+          "neutral_axis_point_mm": [
+            -14.881835956958176,
+            3.104532963694396,
+            488.0624622032806
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -20.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_l.elevate",
+          "node": "clavicle_l",
+          "neutral_axis_point_mm": [
+            -14.881835956958176,
+            3.104532963694396,
+            488.0624622032806
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -14.999999999999998,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_l.flex",
+          "node": "upperarm_l.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.29099440435875,
+            53.517820474043454,
+            480.79687718763375
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -50.0,
+            160.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_l.abduct",
+          "node": "upperarm_l.abduct_frame",
+          "neutral_axis_point_mm": [
+            -16.29099440435875,
+            53.517820474043454,
+            480.79687718763375
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            150.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_l.twist",
+          "node": "upperarm_l",
+          "neutral_axis_point_mm": [
+            -16.29099440435875,
+            53.517820474043454,
+            480.79687718763375
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "elbow_l.flex",
+          "node": "elbow_l",
+          "neutral_axis_point_mm": [
+            -16.290994404358752,
+            53.51782047404345,
+            390.4957004806839
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "POPULATED_IN_PARTIAL_LEFT_ARM",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "forearm_l.twist",
+          "node": "forearm_l",
+          "neutral_axis_point_mm": [
+            -16.290994404358763,
+            53.51782047404344,
+            351.35296118472445
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_l.flex",
+          "node": "hand_l.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.29099440435877,
+            53.517820474043425,
+            303.5118353785517
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -65.0,
+            65.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "POPULATED_IN_PARTIAL_LEFT_ARM",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_l.deviate",
+          "node": "hand_l",
+          "neutral_axis_point_mm": [
+            -16.29099440435877,
+            53.517820474043425,
+            303.5118353785517
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            35.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_l.flex",
+          "node": "thigh_l.flex_frame",
+          "neutral_axis_point_mm": [
+            0.9032820715769319,
+            37.1819527943929,
+            322.9140899881445
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            125.00000000000001
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_l.abduct",
+          "node": "thigh_l.abduct_frame",
+          "neutral_axis_point_mm": [
+            0.9032820715769319,
+            37.1819527943929,
+            322.9140899881445
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            65.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_l.twist",
+          "node": "thigh_l",
+          "neutral_axis_point_mm": [
+            0.9032820715769319,
+            37.1819527943929,
+            322.9140899881445
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "limits_deg": [
+            -50.0,
+            50.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "calf_l.flex",
+          "node": "calf_l",
+          "neutral_axis_point_mm": [
+            0.9032820715769319,
+            37.1819527943929,
+            170.4072998270117
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_l.dorsiflex",
+          "node": "foot_l.dorsiflex_frame",
+          "neutral_axis_point_mm": [
+            0.9032820715769319,
+            37.1819527943929,
+            31.389228334498682
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -45.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_l.invert",
+          "node": "foot_l",
+          "neutral_axis_point_mm": [
+            0.9032820715769319,
+            37.1819527943929,
+            31.389228334498682
+          ],
+          "neutral_axis_direction": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "ball_l.flex",
+          "node": "ball_l",
+          "neutral_axis_point_mm": [
+            51.28924626675925,
+            37.1819527943929,
+            31.389228334498682
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            59.99999999999999
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_r.protract",
+          "node": "clavicle_r.protract_frame",
+          "neutral_axis_point_mm": [
+            -14.881827686258765,
+            -3.1045323550617447,
+            488.06094637072374
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -20.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "clavicle_r.elevate",
+          "node": "clavicle_r",
+          "neutral_axis_point_mm": [
+            -14.881827686258765,
+            -3.1045323550617447,
+            488.06094637072374
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -14.999999999999998,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_r.flex",
+          "node": "upperarm_r.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.290998638013576,
+            -53.51766432759377,
+            480.7967368736462
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -50.0,
+            160.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_r.abduct",
+          "node": "upperarm_r.abduct_frame",
+          "neutral_axis_point_mm": [
+            -16.290998638013576,
+            -53.51766432759377,
+            480.7967368736462
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            150.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "upperarm_r.twist",
+          "node": "upperarm_r",
+          "neutral_axis_point_mm": [
+            -16.290998638013576,
+            -53.51766432759377,
+            480.7967368736462
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "elbow_r.flex",
+          "node": "elbow_r",
+          "neutral_axis_point_mm": [
+            -16.290998638013576,
+            -53.517664327593764,
+            390.49699067817096
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "forearm_r.twist",
+          "node": "forearm_r",
+          "neutral_axis_point_mm": [
+            -16.29099863801357,
+            -53.517664327593764,
+            351.3537478421724
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -90.0,
+            90.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_r.flex",
+          "node": "hand_r.flex_frame",
+          "neutral_axis_point_mm": [
+            -16.290998638013562,
+            -53.517664327593764,
+            303.51200659817414
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -65.0,
+            65.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "hand_r.deviate",
+          "node": "hand_r",
+          "neutral_axis_point_mm": [
+            -16.290998638013562,
+            -53.517664327593764,
+            303.51200659817414
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            35.0
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_r.flex",
+          "node": "thigh_r.flex_frame",
+          "neutral_axis_point_mm": [
+            0.9031610459788855,
+            -37.18200047810872,
+            322.9139087743555
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -29.999999999999996,
+            125.00000000000001
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_r.abduct",
+          "node": "thigh_r.abduct_frame",
+          "neutral_axis_point_mm": [
+            0.9031610459788855,
+            -37.18200047810872,
+            322.9139087743555
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            65.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "thigh_r.twist",
+          "node": "thigh_r",
+          "neutral_axis_point_mm": [
+            0.9031610459788855,
+            -37.18200047810872,
+            322.9139087743555
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "limits_deg": [
+            -50.0,
+            50.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "calf_r.flex",
+          "node": "calf_r",
+          "neutral_axis_point_mm": [
+            0.9031610459788855,
+            -37.18200047810872,
+            170.40744922031902
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "limits_deg": [
+            0.0,
+            145.0
+          ],
+          "friction_component_candidate": "H6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_r.dorsiflex",
+          "node": "foot_r.dorsiflex_frame",
+          "neutral_axis_point_mm": [
+            0.9031610459788855,
+            -37.18200047810872,
+            31.38922513991531
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -45.0,
+            29.999999999999996
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "foot_r.invert",
+          "node": "foot_r",
+          "neutral_axis_point_mm": [
+            0.9031610459788855,
+            -37.18200047810872,
+            31.38922513991531
+          ],
+          "neutral_axis_direction": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "limits_deg": [
+            -25.0,
+            25.0
+          ],
+          "friction_component_candidate": "M6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        },
+        {
+          "id": "ball_r.flex",
+          "node": "ball_r",
+          "neutral_axis_point_mm": [
+            51.2891302413023,
+            -37.18200047810872,
+            31.38922513991531
+          ],
+          "neutral_axis_direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "limits_deg": [
+            -20.0,
+            59.99999999999999
+          ],
+          "friction_component_candidate": "S6",
+          "component_size_selection_validated_for_full_body": false,
+          "integration_status": "FRAME_OR_MULTI_AXIS_INTEGRATION_PENDING",
+          "reference_axis_line_may_be_offset_for_packaging": false
+        }
+      ],
+      "critical_centre_distances_mm": {
+        "clavicle_roots": 6.209065503793387,
+        "shoulder_centres": 107.03548480172928,
+        "hip_centres": 74.3639532728209,
+        "pelvis_to_waist": 37.323777695847006,
+        "waist_to_chest": 42.06953873359009
+      }
+    }
+  },
+  "integration_constraints": [
+    "Keep the Rev E rotation lines and link dimensions; any future change requires an explicit profile revision and FK comparison.",
+    "Use shared frames for shoulder/hip/torso/shoulder-girdle multi-axis joints. Do not stack 44 independent fork fixtures.",
+    "Shoulder datum plate in arm STEP is provisional and is not the shoulder joint.",
+    "Right-side asymmetric fasteners, sensors and cable routing require a separate mirrored assembly check."
+  ]
+}

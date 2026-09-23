@@ -1,0 +1,1286 @@
+{
+  "status": "DIGITAL_DEVELOPMENT_CHECKS_COMPLETE",
+  "utc": "2026-09-20T12:47:14.983116+00:00",
+  "source_snapshot_utc": "2026-09-20T12:42:31.279384+00:00",
+  "sources": {
+    "Hardware/PoseDoll44/cad/build.py": "3e1f8124d1566cf97256f5c6725186d8e77dc0b49b25fd5b7c5ad914f126c4f2",
+    "Hardware/PoseDoll44/cad/fits.py": "1e0c5e46c0f5af77cb5efd344a475f3513d0cbe19963f30dfca4f08b333c1d67",
+    "Hardware/PoseDoll44/cad/inspect_fits.py": "48043a2bb9df0a3015f4a908373ec8e578d8460812f5829501bc7a85620feb0f",
+    "Hardware/PoseDoll44/cad/inspect_geometry.py": "1aec90d81c711a7a407d1c7be2bf272183a85d15ef55c97fb4e4a51a493622e1",
+    "Hardware/PoseDoll44/cad/model.py": "022f0bf7157c10d062c55667e3813cd4015412576c6091a5b4ae69151c08002b",
+    "Hardware/PoseDoll44/cad/open_in_cq_editor.py": "6f24842f6e7ec667c75741c6b9f4308b2e59ec6db8ce30da713bb6e7db585aa4",
+    "Hardware/PoseDoll44/cad/parts.py": "1f5539e86409e7db174b840ebb374be091f317366983c76943239eed2bf3c660",
+    "Hardware/PoseDoll44/cad/revC/check_motion.py": "4ff8441531df902bcff1552cf35e2d63d4bb69d84b9d20ffee5e4a4cfb1efa23",
+    "Hardware/PoseDoll44/cad/revC/clutch.py": "39f956a16cbc760301ff89fd85dc6707f3b906a78e5a62e082bba143a53bbca6",
+    "Hardware/PoseDoll44/cad/revC/design.py": "d2baa68333cc89b7be2dfb800ea510d1b9b09c1a75417af725c57c2dc6b9cc90",
+    "Hardware/PoseDoll44/cad/revC/inspect_sensor.py": "7fad0f2d2222be1d05cc04e52aac1dd1f605d7184b98e07b1041fa92ece1f8ae",
+    "Hardware/PoseDoll44/cad/revC/loads.py": "99ded079af552034bf36eb68e1368ce24bcf46c0aea993f3a2f9d1898ca45c84",
+    "Hardware/PoseDoll44/cad/revC/open_in_cq_editor.py": "94893b4b372168f0327b3df9e7a06422d5df4fa045ffdb5b2c6958ec3d200866",
+    "Hardware/PoseDoll44/cad/revD/compact_joint.py": "a9ea86644751d01b4cb80b2ee6a4083b219310aa5b3d30ed58f9a49c6b97d45b",
+    "Hardware/PoseDoll44/cad/revE/build_layout.py": "d397b7da5a07a7e16f2eb199bf21a4ec9d298dc951f63a1d7b256acfb9a30715",
+    "Hardware/PoseDoll44/cad/revE/build_review.py": "7d0de48b85d451e85253bb4a082f5f084cd4149d4c286b5f6017074874edac9d",
+    "Hardware/PoseDoll44/cad/revE/character_reference.py": "402f17060a8e832c9d6177ad460031a8e16f52c3808f4fa02d2434a07bec0236",
+    "Hardware/PoseDoll44/cad/revE/check_neck_limits.py": "cc7581e96a0aaf5c5351069dfaae9e662cddd3d389d8dbbea9defed8c1675511",
+    "Hardware/PoseDoll44/cad/revE/check_proportions.py": "b60cbc08f8134275d82b46fa73b0e4cab716798f194f05645ef9b2fd88823699",
+    "Hardware/PoseDoll44/cad/revE/open_in_cq_editor.py": "d4c2859888cf52d5ec763b8cc66611e1c9f9b512c3682a4aa7dd211b29dc496b",
+    "Hardware/PoseDoll44/cad/revE/study_distributed_neck.py": "ff9dff2343482b0a5435f4faf976e8f956e3b9b2c3c7d6de985eaf26045f36b1",
+    "Hardware/PoseDoll44/cad/revE/study_neck_pivot.py": "d6e87aeb458e7bb9ec7fce89a0f2c46229a8dbdea1fbd1c2b9a955d55622a9d3",
+    "Hardware/PoseDoll44/cad/revF/arm_packaging.py": "c0bd1ccd0c3485a0f5fb6a7e43113a480bd644bf15f971f23507b5a35828599c",
+    "Hardware/PoseDoll44/cad/revF/build_review.py": "b5d48a3760c25cc337423c4163c60d29c883637256c304c4960399b4fb3f498c",
+    "Hardware/PoseDoll44/cad/revF/common.py": "e0d8f12cfadf1a2e9954cbdff124ea0a236828ddca4f068944b6333d54d92739",
+    "Hardware/PoseDoll44/cad/revF/fork_joint.py": "99288da1565f1d6b1916baf41c6f452b366dedaa5daf8231732d3c301bbc5839",
+    "Hardware/PoseDoll44/cad/revF/open_in_cq_editor.py": "153b22b2acad244650a1554aa9b03e8f7d080dc216ec6064328ddf7c0df4a47b",
+    "Hardware/PoseDoll44/cad/revF/pivot.py": "618b0694a1879d11f39b40595b96ee6d7a2c59e867863cb55dd72263aceb5c77",
+    "Hardware/PoseDoll44/cad/revF/review.template.html": "fab528874433971fff29985a847360178ab52061a01a86a7ae2973d39e9d6556",
+    "Hardware/PoseDoll44/cad/revF/verify_design.py": "1e07717c8d3605be6d76297ca7811f2c5c8c1ec0afe5f35c54c1121763e6f66e",
+    "Hardware/PoseDoll44/electronics/sensor_revB/mechanical_interface.json": "cd704254af439ac8246d87a87fd1b668c7f7f0ab2e3a11eb06a3df3a50d52347",
+    "Hardware/PoseDoll44/generated/revC/step/sensor_revB.step": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+    "Hardware/PoseDoll44/mechanical_manifest/physical_manny_44_revE_proportion.json": "45dc6a3f0485733f89901ddbd363bf8109f3bd3a862909c02a7cd03ae52af636",
+    "Hardware/PoseDoll44/mechanical_manifest/physical_quinn_44_revE_proportion.json": "a1ed6e4ab6e29d6c5c303acb77b40d344f87355886932560f3861f707e9d47d8",
+    "Hardware/PoseDoll44/mechanical_manifest/print_fit_profile_revB.json": "efea8c9c158538726fb2a840d5d7933b79e407d16155c2fb3cf5214286b72d4a",
+    "Hardware/PoseDoll44/tools/Build-RevF.ps1": "5fa9a456847072cce05f7789a99d3e46dd51c71d10f696e491f2d475b63fc17d",
+    "Hardware/PoseDoll44/tools/report_revF.py": "75c72435432eb02f76b71f4c21e227d903a066e9d30cb7c3a2b2ef39bd48569b",
+    "Hardware/PoseDoll44/tools/run_cad.py": "b361e8c443848d1a8b3313f45b3e689e7ddfbc23ed61ac1b7cf5b5ff2321aa38",
+    "Hardware/PoseDoll44/verification/revE_proportion_baselines.json": "2f79597fac1165780e6d43dea0d641162a8246b50bfa80d36b982680510dca29",
+    "Shared/Profiles/virtual_humanoid_44_v1.json": "a7047b7c1bdefaee37acf547d5a823cc2f89d08f5c3e9cd9710a6f6bf79ef224"
+  },
+  "manufacturing_released": false,
+  "physical_tested": false,
+  "numeric_intersection_threshold_mm3": 0.02,
+  "numeric_checks_pass": true,
+  "failures": [],
+  "counts": {
+    "standalone_component_rotation_samples": 72,
+    "complete_fork_rotation_samples": 48,
+    "arm_pose_samples": 30
+  },
+  "printed_part_envelope_checks": [
+    {
+      "assembly": "pivot/E6",
+      "name": "D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.200000000000006
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "pivot/E6",
+      "name": "magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8000000000000007
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "pivot/E6",
+      "name": "PCB_alignment_bridge",
+      "bbox_mm": [
+        25.0,
+        14.0,
+        3.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "pivot/E8",
+      "name": "D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.200000000000006
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "pivot/E8",
+      "name": "magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8000000000000007
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "pivot/E8",
+      "name": "PCB_alignment_bridge",
+      "bbox_mm": [
+        25.0,
+        14.0,
+        3.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/S6",
+      "name": "E_D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.200000000000006
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/S6",
+      "name": "E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8000000000000007
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/S6",
+      "name": "printed_fixed_fork",
+      "bbox_mm": [
+        40.8,
+        48.0000001,
+        58.7000001
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/S6",
+      "name": "split_rotor_hub",
+      "bbox_mm": [
+        14.3,
+        14.0,
+        14.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/S6",
+      "name": "printed_output_flange",
+      "bbox_mm": [
+        32.0,
+        32.0,
+        4.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/M6",
+      "name": "E_D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.200000000000006
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/M6",
+      "name": "E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8000000000000007
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/M6",
+      "name": "printed_fixed_fork",
+      "bbox_mm": [
+        40.8,
+        48.0000001,
+        58.7000001
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/M6",
+      "name": "split_rotor_hub",
+      "bbox_mm": [
+        14.3,
+        14.0,
+        14.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/M6",
+      "name": "printed_output_flange",
+      "bbox_mm": [
+        32.0,
+        32.0,
+        4.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/H6",
+      "name": "E_D_magnet_carrier",
+      "bbox_mm": [
+        18.00272045630568,
+        24.000000200000017,
+        8.203808058461686
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/H6",
+      "name": "E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.00000020000001,
+        22.00000020000001,
+        0.8110318738717268
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/H6",
+      "name": "printed_fixed_fork",
+      "bbox_mm": [
+        40.8,
+        51.0,
+        58.700652917798294
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/H6",
+      "name": "split_rotor_hub",
+      "bbox_mm": [
+        14.3,
+        14.0,
+        14.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/H6",
+      "name": "printed_output_flange",
+      "bbox_mm": [
+        32.0,
+        32.0,
+        4.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/L8",
+      "name": "E_D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.200000000000006
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/L8",
+      "name": "E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8000000000000007
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/L8",
+      "name": "printed_fixed_fork",
+      "bbox_mm": [
+        40.8,
+        59.0,
+        58.7
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/L8",
+      "name": "split_rotor_hub",
+      "bbox_mm": [
+        16.3000001,
+        16.0000002,
+        14.0000002
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "fork/L8",
+      "name": "printed_output_flange",
+      "bbox_mm": [
+        32.0,
+        32.0,
+        4.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "elbow__E_D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        8.200000000000006,
+        24.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "elbow__E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        0.8000000000000007,
+        22.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "elbow__printed_fixed_fork",
+      "bbox_mm": [
+        40.8,
+        58.7000001,
+        48.0000001
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "elbow__split_rotor_hub",
+      "bbox_mm": [
+        14.3,
+        14.0,
+        14.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "elbow__printed_output_flange",
+      "bbox_mm": [
+        32.0,
+        4.0,
+        32.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "wrist__E_D_magnet_carrier",
+      "bbox_mm": [
+        18.0,
+        8.200000000000006,
+        24.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "wrist__E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.0,
+        0.8000000000000007,
+        22.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "wrist__printed_fixed_fork",
+      "bbox_mm": [
+        40.8,
+        58.7000001,
+        48.000000099999994
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "wrist__split_rotor_hub",
+      "bbox_mm": [
+        14.3,
+        14.0,
+        14.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "wrist__printed_output_flange",
+      "bbox_mm": [
+        32.0,
+        4.0,
+        32.0
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "upperarm_datum_link",
+      "bbox_mm": [
+        68.0,
+        35.0,
+        110.57046381632489
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/manny",
+      "name": "forearm_return_link",
+      "bbox_mm": [
+        63.0,
+        58.676,
+        126.8369127909342
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "elbow__E_D_magnet_carrier",
+      "bbox_mm": [
+        18.00272045630568,
+        8.203808058461686,
+        24.000000200000017
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "elbow__E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.00000020000001,
+        0.8110318738717268,
+        22.00000020000001
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "elbow__printed_fixed_fork",
+      "bbox_mm": [
+        40.802535750161105,
+        58.70219175238567,
+        48.001043947276145
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "elbow__split_rotor_hub",
+      "bbox_mm": [
+        14.303205279360407,
+        14.006410358720807,
+        14.002058906732236
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "elbow__printed_output_flange",
+      "bbox_mm": [
+        32.00994637597388,
+        4.0099463759738825,
+        32.0000002
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "wrist__E_D_magnet_carrier",
+      "bbox_mm": [
+        18.00272045630568,
+        8.203808058461686,
+        24.000000200000017
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "wrist__E_magnet_retaining_bridge",
+      "bbox_mm": [
+        7.00000020000001,
+        0.8110318738717268,
+        22.000000200000017
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "wrist__printed_fixed_fork",
+      "bbox_mm": [
+        40.80253575016111,
+        58.70219175238567,
+        48.001043947276166
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "wrist__split_rotor_hub",
+      "bbox_mm": [
+        14.303205279360425,
+        14.00641035872082,
+        14.002058906732245
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "wrist__printed_output_flange",
+      "bbox_mm": [
+        32.00994637597391,
+        4.009946375973911,
+        32.000000200000045
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "upperarm_datum_link",
+      "bbox_mm": [
+        68.0,
+        35.0,
+        108.30117670694983
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    },
+    {
+      "assembly": "arm/quinn",
+      "name": "forearm_return_link",
+      "bbox_mm": [
+        63.0,
+        58.676,
+        122.9838651021322
+      ],
+      "one_solid": true,
+      "fits_180mm_box_in_recorded_orientation": true
+    }
+  ],
+  "print_scope": "Bounding boxes only. Orientation, support, bridging, slicer settings and real dimensions not validated. Mass uses solid CAD material, not slicer infill.",
+  "partial_arm_loads": {
+    "manny": {
+      "scope": "Actual parts in this partial assembly only; no hand, other arm axes, cables, acceleration, human interaction or impact. Friction coefficient and preload are assumptions. No rated payload or measured holding torque is established.",
+      "summary": {
+        "elbow": {
+          "worst_sample": {
+            "joint": "elbow",
+            "elbow_deg": 0.0,
+            "wrist_deg": -65.0,
+            "gravity_torque_upright_Nm": 0.009478594085150362,
+            "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0681908297100074,
+            "with_1p5_gravity_margin_Nm": 0.10228624456501109,
+            "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+            "estimate_exceeds_partial_load_bound": true
+          },
+          "all_sampled_partial_load_estimates_pass": true
+        },
+        "wrist": {
+          "worst_sample": {
+            "joint": "wrist",
+            "elbow_deg": 135,
+            "wrist_deg": -65.0,
+            "gravity_torque_upright_Nm": 1.9915303880139396e-06,
+            "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0001228273705781985,
+            "with_1p5_gravity_margin_Nm": 0.00018424105586729774,
+            "friction_estimate_mu_0p15_Nm": 0.18291,
+            "estimate_exceeds_partial_load_bound": true
+          },
+          "all_sampled_partial_load_estimates_pass": true
+        }
+      },
+      "samples": [
+        {
+          "joint": "elbow",
+          "elbow_deg": 0.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.009478594085150362,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0681908297100074,
+          "with_1p5_gravity_margin_Nm": 0.10228624456501109,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 0.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 8.543242473881132e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819722,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729584,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 0.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.009447940565325124,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06805943492512505,
+          "with_1p5_gravity_margin_Nm": 0.10208915238768757,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 0.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.00011608594456404945,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819698,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729546,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 0.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.009551338854419613,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06799264025687235,
+          "with_1p5_gravity_margin_Nm": 0.10198896038530852,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 0.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 1.2687655469560267e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819722,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729584,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 45,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.041047729232061424,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0681908297100074,
+          "with_1p5_gravity_margin_Nm": 0.10228624456501109,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 45,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.00012281122412005925,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0001228273705781973,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729595,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 45,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.04097862521350001,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06805943492512506,
+          "with_1p5_gravity_margin_Nm": 0.10208915238768759,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 45,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 5.370720555864345e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819692,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729538,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 45,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.0408475020755336,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06799264025687235,
+          "with_1p5_gravity_margin_Nm": 0.10198896038530852,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 45,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 7.741593240776977e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819643,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729465,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 90,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.06752884946975019,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0681908297100074,
+          "with_1p5_gravity_margin_Nm": 0.10228624456501109,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 90,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 8.824887402341817e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819722,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729584,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 90,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.06740046810966088,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06805943492512505,
+          "with_1p5_gravity_margin_Nm": 0.10208915238768757,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 90,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 4.013248606585643e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819698,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729546,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 90,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.06731843027870237,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06799264025687235,
+          "with_1p5_gravity_margin_Nm": 0.10198896038530852,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 90,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.00012217031702438822,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819722,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729584,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 135,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.05445248553951047,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06819082971000738,
+          "with_1p5_gravity_margin_Nm": 0.10228624456501106,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 135,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 1.9915303880139396e-06,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0001228273705781985,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729774,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 135,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.05434003089747772,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06805943492512505,
+          "with_1p5_gravity_margin_Nm": 0.10208915238768757,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 135,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.00011046311164472659,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819708,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729563,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 135,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.0543551350222749,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06799264025687234,
+          "with_1p5_gravity_margin_Nm": 0.1019889603853085,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 135,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 9.535898684753954e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819624,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729438,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 145.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.046497366551581994,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0681908297100074,
+          "with_1p5_gravity_margin_Nm": 0.10228624456501109,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 145.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 1.9364670699018455e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819765,
+          "with_1p5_gravity_margin_Nm": 0.0001842410558672965,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 145.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.046398620135138596,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06805943492512506,
+          "with_1p5_gravity_margin_Nm": 0.10208915238768759,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 145.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.00011811108714242211,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819752,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729628,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 145.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.04643626408829916,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06799264025687235,
+          "with_1p5_gravity_margin_Nm": 0.10198896038530852,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 145.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 8.046713398185118e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819687,
+          "with_1p5_gravity_margin_Nm": 0.0001842410558672953,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        }
+      ]
+    },
+    "quinn": {
+      "scope": "Actual parts in this partial assembly only; no hand, other arm axes, cables, acceleration, human interaction or impact. Friction coefficient and preload are assumptions. No rated payload or measured holding torque is established.",
+      "summary": {
+        "elbow": {
+          "worst_sample": {
+            "joint": "elbow",
+            "elbow_deg": 45,
+            "wrist_deg": -65.0,
+            "gravity_torque_upright_Nm": 0.039022808766943314,
+            "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06517016994216039,
+            "with_1p5_gravity_margin_Nm": 0.09775525491324058,
+            "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+            "estimate_exceeds_partial_load_bound": true
+          },
+          "all_sampled_partial_load_estimates_pass": true
+        },
+        "wrist": {
+          "worst_sample": {
+            "joint": "wrist",
+            "elbow_deg": 145.0,
+            "wrist_deg": -65.0,
+            "gravity_torque_upright_Nm": 1.9364670699018523e-05,
+            "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819828,
+            "with_1p5_gravity_margin_Nm": 0.00018424105586729741,
+            "friction_estimate_mu_0p15_Nm": 0.18291,
+            "estimate_exceeds_partial_load_bound": true
+          },
+          "all_sampled_partial_load_estimates_pass": true
+        }
+      },
+      "samples": [
+        {
+          "joint": "elbow",
+          "elbow_deg": 0.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.009314507601704774,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06517016994216034,
+          "with_1p5_gravity_margin_Nm": 0.0977552549132405,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 0.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 8.543242473881132e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819717,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729573,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 0.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.009283854081879536,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06503872654596998,
+          "with_1p5_gravity_margin_Nm": 0.09755808981895497,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 0.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.00011608594456404944,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819695,
+          "with_1p5_gravity_margin_Nm": 0.0001842410558672954,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 0.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.009387252370974025,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06497238833626084,
+          "with_1p5_gravity_margin_Nm": 0.09745858250439127,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 0.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 1.2687655469560247e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819733,
+          "with_1p5_gravity_margin_Nm": 0.000184241055867296,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 45,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.039022808766943314,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06517016994216039,
+          "with_1p5_gravity_margin_Nm": 0.09775525491324058,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 45,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.00012281122412005865,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819665,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729498,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 45,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.0389537047483819,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06503872654597001,
+          "with_1p5_gravity_margin_Nm": 0.09755808981895502,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 45,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 5.370720555864267e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819725,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729587,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 45,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.038822581610415484,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06497238833626086,
+          "with_1p5_gravity_margin_Nm": 0.0974585825043913,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 45,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 7.741593240777087e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819787,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729682,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 90,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.06450109300180767,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06517016994216034,
+          "with_1p5_gravity_margin_Nm": 0.0977552549132405,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 90,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 8.82488740234181e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819717,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729573,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 90,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.06437271164171841,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06503872654596998,
+          "with_1p5_gravity_margin_Nm": 0.09755808981895497,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 90,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 4.013248606585641e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819692,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729538,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 90,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.06429067381075988,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06497238833626084,
+          "with_1p5_gravity_margin_Nm": 0.09745858250439127,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 90,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.00012217031702438833,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819733,
+          "with_1p5_gravity_margin_Nm": 0.000184241055867296,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 135,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.05219551174410149,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06517016994216038,
+          "with_1p5_gravity_margin_Nm": 0.09775525491324057,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 135,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 1.991530388013055e-06,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819757,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729636,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 135,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.05208305710206875,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06503872654597001,
+          "with_1p5_gravity_margin_Nm": 0.09755808981895502,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 135,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.00011046311164472735,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0001228273705781976,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729638,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 135,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.052098161226865926,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06497238833626084,
+          "with_1p5_gravity_margin_Nm": 0.09745858250439127,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 135,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 9.535898684754047e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819765,
+          "with_1p5_gravity_margin_Nm": 0.0001842410558672965,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 145.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 0.044626305008206066,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06517016994216035,
+          "with_1p5_gravity_margin_Nm": 0.09775525491324052,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 145.0,
+          "wrist_deg": -65.0,
+          "gravity_torque_upright_Nm": 1.9364670699018523e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819828,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729741,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 145.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.04452755859176266,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06503872654597,
+          "with_1p5_gravity_margin_Nm": 0.097558089818955,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 145.0,
+          "wrist_deg": 0.0,
+          "gravity_torque_upright_Nm": 0.00011811108714242206,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.00012282737057819754,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729633,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "elbow",
+          "elbow_deg": 145.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 0.044565202544923244,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.06497238833626084,
+          "with_1p5_gravity_margin_Nm": 0.09745858250439127,
+          "friction_estimate_mu_0p15_Nm": 0.4558471345029241,
+          "estimate_exceeds_partial_load_bound": true
+        },
+        {
+          "joint": "wrist",
+          "elbow_deg": 145.0,
+          "wrist_deg": 65.0,
+          "gravity_torque_upright_Nm": 8.046713398185124e-05,
+          "gravity_torque_any_whole_arm_orientation_bound_Nm": 0.0001228273705781969,
+          "with_1p5_gravity_margin_Nm": 0.00018424105586729535,
+          "friction_estimate_mu_0p15_Nm": 0.18291,
+          "estimate_exceeds_partial_load_bound": true
+        }
+      ]
+    }
+  },
+  "remaining": [
+    "All-body and all-axis shared-frame integration, right-side assemblies",
+    "Continuous clearance, hands/tools/access, hard stops, connector mating and full cable bend envelopes",
+    "Shaft finish, wear, lining material, preload tolerance, holding torque, backlash and fatigue validation",
+    "Whole-device mass, stand and grip-force calculations",
+    "Rev E extreme-neck position error",
+    "Quinn UE adapter and real hardware calibration"
+  ]
+}

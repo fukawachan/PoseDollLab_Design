@@ -1,0 +1,856 @@
+{
+  "status": "ANTHROPOMORPHIC_CENTRELINE_AND_SHELL_FEASIBILITY",
+  "manufacturing_released": false,
+  "physical_tested": false,
+  "selected_trial_scale": 0.5,
+  "checks_scope": "Cross-owner non-reserved solids and neutral shell vs all contents; does not certify same-owner assembly, tooth engagement, moving pickup gear or the reserved spring/PCB/cable spaces.",
+  "characters": {
+    "manny": {
+      "meta": {
+        "character": "manny",
+        "scale": 0.5,
+        "outer_oval_semiaxis_allowance_mm": 0.8,
+        "shell_policy": "rigid_segment_shells_exposed_motion_zones",
+        "elbow_relief": {
+          "slope": 2.5,
+          "reach_mm": 24.0,
+          "cover_required": false
+        },
+        "height_mm": 907.9303891285306,
+        "upperarm_mm": 138.85569572448733,
+        "forearm_mm": 136.2553691864013,
+        "shoulder_datum_mm": [
+          0,
+          0,
+          138.85569572448733
+        ],
+        "elbow_mm": [
+          0,
+          0,
+          0
+        ],
+        "wrist_datum_mm": [
+          0,
+          0,
+          -136.2553691864013
+        ],
+        "shells": [
+          {
+            "name": "upperarm_front",
+            "bbox_mm": [
+              31.856708917346207,
+              63.42253837626608,
+              79.64177199931184
+            ],
+            "one_solid": true,
+            "volume_mm3": 5232.171547080343
+          },
+          {
+            "name": "upperarm_back",
+            "bbox_mm": [
+              39.430677750546984,
+              63.79508277639533,
+              90.25620243059203
+            ],
+            "one_solid": true,
+            "volume_mm3": 14311.270428526845
+          },
+          {
+            "name": "forearm_front",
+            "bbox_mm": [
+              20.19343616621911,
+              54.906922234470855,
+              77.69152708980101
+            ],
+            "one_solid": true,
+            "volume_mm3": 4868.350840794873
+          },
+          {
+            "name": "forearm_back",
+            "bbox_mm": [
+              29.1291295947424,
+              55.72017520581596,
+              88.56599017243686
+            ],
+            "one_solid": true,
+            "volume_mm3": 11703.905358532846
+          }
+        ],
+        "scope": "Elbow centreline packaging and open limb shell study; other 43 axes not mechanically integrated. Reservations are not finished parts."
+      },
+      "parts": [
+        {
+          "name": "upperarm_centreline_fork",
+          "material": "frame",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "Axial preload compliance/guidance and mounting details pending; not a finalized load-rated clevis",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            24.0,
+            17.0,
+            125.85569572448733
+          ]
+        },
+        {
+          "name": "forearm_centreline_link",
+          "material": "frame",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "Elbow-to-wrist centre distance retained; distal wrist integration pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.0,
+            10.0,
+            124.25536918640131
+          ]
+        },
+        {
+          "name": "rotor_radial_bush",
+          "material": "bush",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            8.0,
+            9.8,
+            8.0
+          ]
+        },
+        {
+          "name": "friction_face_-6",
+          "material": "lining",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.0,
+            1.0,
+            20.0
+          ]
+        },
+        {
+          "name": "friction_face_5",
+          "material": "lining",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.0,
+            1.0,
+            20.0
+          ]
+        },
+        {
+          "name": "smooth_pivot_pin",
+          "material": "metal",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "6mm stationary pin; thread/retention details not finalized",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            9.6,
+            26.0,
+            9.6
+          ]
+        },
+        {
+          "name": "left_load_washer",
+          "material": "metal",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            11.0,
+            1.5,
+            11.0
+          ]
+        },
+        {
+          "name": "right_spring_seat",
+          "material": "metal",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            13.0,
+            0.5,
+            13.0
+          ]
+        },
+        {
+          "name": "spring_stack_reserved",
+          "material": "spring_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "Two series springs: nominal envelope only, preload adjustment pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            12.5,
+            0.9260000000000002,
+            12.5
+          ]
+        },
+        {
+          "name": "preload_cap_reserved",
+          "material": "spring_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            13.0,
+            2.0,
+            13.0
+          ]
+        },
+        {
+          "name": "preload_screw_reserved",
+          "material": "spring_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            5.5,
+            3.0,
+            5.5
+          ]
+        },
+        {
+          "name": "input_gear_reserved",
+          "material": "transfer_space",
+          "owner": "forearm",
+          "role": "reservation",
+          "note": "m0.6, 40T candidate pitch diameter24; teeth, fastening, backlash and tolerances pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            25.2,
+            2.0,
+            25.2
+          ]
+        },
+        {
+          "name": "pickup_gear_reserved",
+          "material": "transfer_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "1:1 external gear reading candidate; nominal sensor angle = -elbow angle; actual rotor must rotate, envelope is stationary",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            25.2,
+            2.0,
+            25.200000000000003
+          ]
+        },
+        {
+          "name": "pickup_shaft_reserved",
+          "material": "transfer_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            4.0,
+            9.5,
+            4.0
+          ]
+        },
+        {
+          "name": "magnet_reserved",
+          "material": "transfer_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "6x3 diametric magnet dimension candidate; field and alignment untested",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            6.0,
+            3.0,
+            6.0
+          ]
+        },
+        {
+          "name": "sensor_package_reserved",
+          "material": "sensor_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            6.4,
+            1.0999999999999996,
+            5.0
+          ]
+        },
+        {
+          "name": "sensor_PCB_reserved",
+          "material": "sensor_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "New board outline reservation; not routed or electrically reviewed",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            16.0,
+            1.0,
+            18.0
+          ]
+        },
+        {
+          "name": "flat_cable_exit_reserved",
+          "material": "sensor_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "Flat cable route space; bend radius and fastening pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            8.0,
+            2.0,
+            8.0
+          ]
+        },
+        {
+          "name": "upperarm_shell_front",
+          "material": "shell",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            31.856708917346207,
+            63.42253837626608,
+            79.64177199931184
+          ]
+        },
+        {
+          "name": "upperarm_shell_back",
+          "material": "shell",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            39.430677750546984,
+            63.79508277639533,
+            90.25620243059203
+          ]
+        },
+        {
+          "name": "forearm_shell_front",
+          "material": "shell",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.19343616621911,
+            54.906922234470855,
+            77.69152708980101
+          ]
+        },
+        {
+          "name": "forearm_shell_back",
+          "material": "shell",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            29.1291295947424,
+            55.72017520581596,
+            88.56599017243686
+          ]
+        }
+      ],
+      "motion_samples": [
+        {
+          "elbow_deg": 0,
+          "hits": []
+        },
+        {
+          "elbow_deg": 30,
+          "hits": []
+        },
+        {
+          "elbow_deg": 60,
+          "hits": []
+        },
+        {
+          "elbow_deg": 90,
+          "hits": []
+        },
+        {
+          "elbow_deg": 110,
+          "hits": []
+        },
+        {
+          "elbow_deg": 120,
+          "hits": []
+        },
+        {
+          "elbow_deg": 130,
+          "hits": []
+        },
+        {
+          "elbow_deg": 145,
+          "hits": []
+        }
+      ],
+      "neutral_shell_intersections_including_reservations": []
+    },
+    "quinn": {
+      "meta": {
+        "character": "quinn",
+        "scale": 0.5,
+        "outer_oval_semiaxis_allowance_mm": 0.8,
+        "shell_policy": "rigid_segment_shells_exposed_motion_zones",
+        "elbow_relief": {
+          "slope": 2.5,
+          "reach_mm": 24.0,
+          "cover_required": false
+        },
+        "height_mm": 907.6993867446095,
+        "upperarm_mm": 135.45176506042475,
+        "forearm_mm": 130.4757976531983,
+        "shoulder_datum_mm": [
+          0,
+          0,
+          135.45176506042475
+        ],
+        "elbow_mm": [
+          0,
+          0,
+          0
+        ],
+        "wrist_datum_mm": [
+          0,
+          0,
+          -130.4757976531983
+        ],
+        "shells": [
+          {
+            "name": "upperarm_front",
+            "bbox_mm": [
+              23.09847001581158,
+              50.0110102974895,
+              77.08882399605093
+            ],
+            "one_solid": true,
+            "volume_mm3": 5210.7093717068
+          },
+          {
+            "name": "upperarm_back",
+            "bbox_mm": [
+              26.90028310992605,
+              50.24729479856909,
+              88.04364749017405
+            ],
+            "one_solid": true,
+            "volume_mm3": 10679.61680455353
+          },
+          {
+            "name": "forearm_front",
+            "bbox_mm": [
+              17.55821142259276,
+              44.634723412035,
+              73.35684843992131
+            ],
+            "one_solid": true,
+            "volume_mm3": 4119.712293754294
+          },
+          {
+            "name": "forearm_back",
+            "bbox_mm": [
+              26.247595296859842,
+              45.23361834783712,
+              84.80926867511057
+            ],
+            "one_solid": true,
+            "volume_mm3": 9475.509100785208
+          }
+        ],
+        "scope": "Elbow centreline packaging and open limb shell study; other 43 axes not mechanically integrated. Reservations are not finished parts."
+      },
+      "parts": [
+        {
+          "name": "upperarm_centreline_fork",
+          "material": "frame",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "Axial preload compliance/guidance and mounting details pending; not a finalized load-rated clevis",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            24.0,
+            17.0,
+            122.45176506042475
+          ]
+        },
+        {
+          "name": "forearm_centreline_link",
+          "material": "frame",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "Elbow-to-wrist centre distance retained; distal wrist integration pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.0,
+            10.0,
+            118.4757976531983
+          ]
+        },
+        {
+          "name": "rotor_radial_bush",
+          "material": "bush",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            8.0,
+            9.8,
+            8.0
+          ]
+        },
+        {
+          "name": "friction_face_-6",
+          "material": "lining",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.0,
+            1.0,
+            20.0
+          ]
+        },
+        {
+          "name": "friction_face_5",
+          "material": "lining",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            20.0,
+            1.0,
+            20.0
+          ]
+        },
+        {
+          "name": "smooth_pivot_pin",
+          "material": "metal",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "6mm stationary pin; thread/retention details not finalized",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            9.6,
+            26.0,
+            9.6
+          ]
+        },
+        {
+          "name": "left_load_washer",
+          "material": "metal",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            11.0,
+            1.5,
+            11.0
+          ]
+        },
+        {
+          "name": "right_spring_seat",
+          "material": "metal",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            13.0,
+            0.5,
+            13.0
+          ]
+        },
+        {
+          "name": "spring_stack_reserved",
+          "material": "spring_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "Two series springs: nominal envelope only, preload adjustment pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            12.5,
+            0.9260000000000002,
+            12.5
+          ]
+        },
+        {
+          "name": "preload_cap_reserved",
+          "material": "spring_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            13.0,
+            2.0,
+            13.0
+          ]
+        },
+        {
+          "name": "preload_screw_reserved",
+          "material": "spring_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            5.5,
+            3.0,
+            5.5
+          ]
+        },
+        {
+          "name": "input_gear_reserved",
+          "material": "transfer_space",
+          "owner": "forearm",
+          "role": "reservation",
+          "note": "m0.6, 40T candidate pitch diameter24; teeth, fastening, backlash and tolerances pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            25.2,
+            2.0,
+            25.2
+          ]
+        },
+        {
+          "name": "pickup_gear_reserved",
+          "material": "transfer_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "1:1 external gear reading candidate; nominal sensor angle = -elbow angle; actual rotor must rotate, envelope is stationary",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            25.2,
+            2.0,
+            25.200000000000003
+          ]
+        },
+        {
+          "name": "pickup_shaft_reserved",
+          "material": "transfer_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            4.0,
+            9.5,
+            4.0
+          ]
+        },
+        {
+          "name": "magnet_reserved",
+          "material": "transfer_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "6x3 diametric magnet dimension candidate; field and alignment untested",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            6.0,
+            3.0,
+            6.0
+          ]
+        },
+        {
+          "name": "sensor_package_reserved",
+          "material": "sensor_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            6.4,
+            1.0999999999999996,
+            5.0
+          ]
+        },
+        {
+          "name": "sensor_PCB_reserved",
+          "material": "sensor_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "New board outline reservation; not routed or electrically reviewed",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            16.0,
+            1.0,
+            18.0
+          ]
+        },
+        {
+          "name": "flat_cable_exit_reserved",
+          "material": "sensor_space",
+          "owner": "upperarm",
+          "role": "reservation",
+          "note": "Flat cable route space; bend radius and fastening pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            8.0,
+            2.0,
+            8.0
+          ]
+        },
+        {
+          "name": "upperarm_shell_front",
+          "material": "shell",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            23.09847001581158,
+            50.0110102974895,
+            77.08882399605093
+          ]
+        },
+        {
+          "name": "upperarm_shell_back",
+          "material": "shell",
+          "owner": "upperarm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            26.90028310992605,
+            50.24729479856909,
+            88.04364749017405
+          ]
+        },
+        {
+          "name": "forearm_shell_front",
+          "material": "shell",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            17.55821142259276,
+            44.634723412035,
+            73.35684843992131
+          ]
+        },
+        {
+          "name": "forearm_shell_back",
+          "material": "shell",
+          "owner": "forearm",
+          "role": "solid_concept",
+          "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+          "valid": true,
+          "solids": 1,
+          "bbox_mm": [
+            26.247595296859842,
+            45.23361834783712,
+            84.80926867511057
+          ]
+        }
+      ],
+      "motion_samples": [
+        {
+          "elbow_deg": 0,
+          "hits": []
+        },
+        {
+          "elbow_deg": 30,
+          "hits": []
+        },
+        {
+          "elbow_deg": 60,
+          "hits": []
+        },
+        {
+          "elbow_deg": 90,
+          "hits": []
+        },
+        {
+          "elbow_deg": 110,
+          "hits": []
+        },
+        {
+          "elbow_deg": 120,
+          "hits": []
+        },
+        {
+          "elbow_deg": 130,
+          "hits": []
+        },
+        {
+          "elbow_deg": 145,
+          "hits": []
+        }
+      ],
+      "neutral_shell_intersections_including_reservations": []
+    }
+  },
+  "not_covered": [
+    "Elbow remains intentionally exposed; soft coverings are excluded by the user decision",
+    "Preload stack compliance and adjustment",
+    "Gear tooth geometry, backlash, bearings and calibration",
+    "New sensor PCB layout and wiring",
+    "Shoulder, wrist and other axes",
+    "Shell fasteners, rounded exposed edges and continuous collision path",
+    "Full-body load, grip force, stand and physical handling"
+  ]
+}

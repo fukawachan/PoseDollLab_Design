@@ -1,0 +1,2 @@
+cadquery\utils.py:82: FutureWarning: save will be removed in the next release.
+{"parts": 13, "axes": 44, "height_head_tip_mm": 681.0, "output": "E:\\UnrealProjects\\DollSimulation\\Hardware\\PoseDoll44\\generated"}

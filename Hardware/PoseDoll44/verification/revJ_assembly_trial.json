@@ -1,0 +1,269 @@
+{
+  "status": "SUPERSEDED_DEVELOPMENT_SNAPSHOT_NOT_CURRENT_DESIGN",
+  "data": [
+    {
+      "a": "l_flex_clutch_flanged_shaft",
+      "b": "l_flex_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_clutch_flanged_shaft",
+      "b": "l_flex_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_clutch_mount_M3x10_0",
+      "b": "l_flex_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_clutch_mount_M3x10_1",
+      "b": "l_flex_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_flanged_shaft",
+      "b": "l_abduct_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_flanged_shaft",
+      "b": "l_abduct_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_mount_M3x10_0",
+      "b": "l_abduct_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_mount_M3x10_1",
+      "b": "l_abduct_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_flanged_shaft",
+      "b": "r_flex_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_flanged_shaft",
+      "b": "r_flex_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_mount_M3x10_0",
+      "b": "r_flex_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_mount_M3x10_1",
+      "b": "r_flex_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_flanged_shaft",
+      "b": "r_abduct_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_flanged_shaft",
+      "b": "r_abduct_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_mount_M3x10_0",
+      "b": "r_abduct_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_mount_M3x10_1",
+      "b": "r_abduct_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_drive_split_hub",
+      "b": "l_flex_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_drive_mount_M2x4_0",
+      "b": "l_flex_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_drive_mount_M2x4_1",
+      "b": "l_flex_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_drive_split_hub",
+      "b": "l_abduct_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_drive_mount_M2x4_0",
+      "b": "l_abduct_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_drive_mount_M2x4_1",
+      "b": "l_abduct_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_drive_split_hub",
+      "b": "r_flex_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_drive_mount_M2x4_0",
+      "b": "r_flex_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_drive_mount_M2x4_1",
+      "b": "r_flex_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_drive_split_hub",
+      "b": "r_abduct_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_drive_mount_M2x4_0",
+      "b": "r_abduct_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_drive_mount_M2x4_1",
+      "b": "r_abduct_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_rear_journal",
+      "b": "l_abduct_sensor_journal_radial_M2x4",
+      "volume_mm3": 1.6965,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_rear_journal",
+      "b": "l_abduct_sensor_carrier_axial_M2x6",
+      "volume_mm3": 5.6549,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_magnet_carrier",
+      "b": "l_abduct_sensor_magnet_cover_M2x6_0",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_magnet_carrier",
+      "b": "l_abduct_sensor_magnet_cover_M2x6_1",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_0",
+      "b": "l_abduct_sensor_board_M2x4_0",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_0",
+      "b": "l_abduct_sensor_support_M2x6_0",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_1",
+      "b": "l_abduct_sensor_board_M2x4_1",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_1",
+      "b": "l_abduct_sensor_support_M2x6_1",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_rear_journal",
+      "b": "r_abduct_sensor_journal_radial_M2x4",
+      "volume_mm3": 1.6965,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_rear_journal",
+      "b": "r_abduct_sensor_carrier_axial_M2x6",
+      "volume_mm3": 5.6549,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_magnet_carrier",
+      "b": "r_abduct_sensor_magnet_cover_M2x6_0",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_magnet_carrier",
+      "b": "r_abduct_sensor_magnet_cover_M2x6_1",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_0",
+      "b": "r_abduct_sensor_board_M2x4_0",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_0",
+      "b": "r_abduct_sensor_support_M2x6_0",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_1",
+      "b": "r_abduct_sensor_board_M2x4_1",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_1",
+      "b": "r_abduct_sensor_support_M2x6_1",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    }
+  ]
+}

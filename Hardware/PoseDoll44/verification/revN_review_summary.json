@@ -1,0 +1,38 @@
+{
+  "revision": "N1",
+  "implemented": "Chest facade and four fasteners removed; left shoulder tab clearance corrected; rear electronics retained",
+  "external_architecture_status": "FEASIBILITY_RECOMMENDATION_NOT_IMPLEMENTED",
+  "unchanged_M_geometry_reused_except_left_shoulder_frame": true,
+  "per_character": [
+    {
+      "character": "manny",
+      "affected_poses": 9,
+      "removed_contact_pairs": 77,
+      "contacts_before": 3129,
+      "contacts_after": 3052,
+      "clear_poses_before": 122,
+      "clear_poses_after": 127,
+      "removed_mass_g": 30.9839766951589,
+      "estimated_mass_kg": 3.1998012024614497,
+      "minimum_clutch_margin": 1.5794537498239603,
+      "guard_relief_volume_mm3": 0.6354166670057566,
+      "behind_back_contacts": 133,
+      "behind_equipment_pairs": 121
+    },
+    {
+      "character": "quinn",
+      "affected_poses": 12,
+      "removed_contact_pairs": 142,
+      "contacts_before": 2482,
+      "contacts_after": 2340,
+      "clear_poses_before": 115,
+      "clear_poses_after": 123,
+      "removed_mass_g": 28.573802794596613,
+      "estimated_mass_kg": 3.1576805835269455,
+      "minimum_clutch_margin": 1.6408704198122033,
+      "guard_relief_volume_mm3": 0.6354166668979815,
+      "behind_back_contacts": 66,
+      "behind_equipment_pairs": 47
+    }
+  ]
+}

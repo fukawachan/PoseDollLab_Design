@@ -1,0 +1,54 @@
+{
+  "neutral": {
+    "state": {
+      "character": "quinn",
+      "pose": "neutral",
+      "anchors": true,
+      "az": -0.22,
+      "el": 0.1,
+      "zoom": 1,
+      "triangles": 5032
+    },
+    "metric": "0.0 mm"
+  },
+  "forward": "39.2 mm",
+  "quinnCombined": "54.7 mm",
+  "mannyCombined": {
+    "state": {
+      "character": "manny",
+      "pose": "forward_up",
+      "anchors": true,
+      "az": 1.5707963267948966,
+      "el": 0,
+      "zoom": 1,
+      "triangles": 8314
+    },
+    "metric": "63.7 mm"
+  },
+  "poseCases": 14,
+  "responsive": {
+    "scroll": 745,
+    "width": 760,
+    "canvasWidth": 745
+  },
+  "linkResults": [
+    {
+      "url": "http://127.0.0.1:8874/docs/HUMAN_FORM_REVG.zh-CN.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8874/verification/REVG_REPORT.zh-CN.md",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8874/generated/revG/images/quinn_exposed_elbow_145.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8874/generated/revG/step/quinn/Quinn_centreline_shell_study.step",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "htmlSha256": "c54fa7917410c8a8d4fdb5ef879799b612f4b8f991925aec6c30e5bbddc60edf"
+}

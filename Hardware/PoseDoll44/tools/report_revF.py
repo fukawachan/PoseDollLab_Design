@@ -1,0 +1,89 @@
+"""Generate the user-facing Rev F report from completed numerical checks."""
+from pathlib import Path
+import json
+ROOT=Path(__file__).resolve().parents[1]
+def read(name):return json.loads((ROOT/name).read_text(encoding='utf8'))
+def main():
+ p=read('verification/revF_pivot_components.json');j=read('verification/revF_fork_joints.json');a=read('verification/revF_arm_packaging.json');v=read('verification/revF_design_audit.json');r=read('mechanical_manifest/dual_character_mechanics_revF.json')
+ families=[]
+ for name,d in j['families'].items():
+  sp=p['families'][name];families.append(f"| {name} | {sp['spec']['shaft']} | {sp['nominal_force_N']:.0f} | {sp['friction_estimate_Nm_mu_0p15']:.3f} | {d['mass_g']:.2f} | {len(d['parts'])} |")
+ arms=[];loads=[]
+ for name,d in a['characters'].items():
+  m=d['meta'];arms.append(f"| {name.title()} | {m['upper_arm_mm']:.3f} | {m['forearm_mm']:.3f} | {d['mass_g']:.2f} | {len(d['parts'])} | {len(d['pose_checks'])} |")
+  for label,l in v['partial_arm_loads'][name]['summary'].items():
+   s=l['worst_sample'];loads.append(f"| {name.title()} / {'肘' if label=='elbow' else '腕'} | {s['gravity_torque_any_whole_arm_orientation_bound_Nm']:.4f} | {s['with_1p5_gravity_margin_Nm']:.4f} | {s['friction_estimate_mu_0p15_Nm']:.4f} |")
+ maxdim=max(max(d['bbox_mm']) for d in v['printed_part_envelope_checks'])
+ report=f"""# Rev F 机械设计检查报告
+
+本轮按 Rev E 的 Manny、Quinn **1:3 独立比例**生成了新的双侧支撑关节，以及分别符合两款臂长的连接总装。数字检查状态：**{'通过本轮检查' if v['numeric_checks_pass'] else '有失败项，请查看 JSON'}**。这不是整机制造放行，也没有实物测试。
+
+[可旋转的机械查看页](../generated/revF/RevF_Mechanical_Review.html) · [结构与装配说明](../docs/FORK_JOINT_REVF.zh-CN.md) · [重建方法](../docs/BUILD_REVF.zh-CN.md)
+
+![当前两款手臂连接结构](../generated/revF/images/Manny_Quinn_arm_comparison.png)
+
+## 实际完成的结构
+
+- 四种摩擦侧组件 S6 / M6 / H6 / L8，6 mm、8 mm 两种测角侧组件，以及四套完整单轴叉架总装。
+- 关节有金属轴和承力嵌件、POM 径向轴套、独立摩擦片、钢背复合止推片、碟簧、轴端定位帽、夹紧结构和现有 AS5048A 测角板。
+- 每款左臂总装实际装入 **肘屈伸与腕屈伸两轴**；不同长度的上臂基准连接件、前臂回接件已有 STEP。顶部肩部接口为临时集成接口。
+- 44 轴名称、顺序、方向、限制和目标中心均继续登记在 [Rev F 全轴设计记录](../mechanical_manifest/dual_character_mechanics_revF.json)。这不是把全人偶范围缩成两轴；其余轴明确保留待集成状态。
+
+| 总装 | 上臂中心距 / mm | 前臂中心距 / mm | 当前部分总装质量估算 / g | CAD 零件数 | 组合姿态样本 |
+|---|---:|---:|---:|---:|---:|
+{chr(10).join(arms)}
+
+这里的质量只包含当前模型中的材料体积和元件估算，打印件按实体材料计算，不是切片软件称重结果；缺少肩、前臂扭转、腕侧偏、手部和线束，因此不是完整手臂重量。PCB 按 2.2 g 估算，复合止推片按钢的密度保守估算。
+
+## 关节负载依据
+
+| 规格 | 光轴直径 / mm | 碟簧目录名义轴向力 / N | μ=0.15 时主动摩擦面扭矩估算 / N·m | 单轴叉架总装估算 / g | CAD 零件数 |
+|---|---:|---:|---:|---:|---:|
+{chr(10).join(families)}
+
+碟簧尺寸与力来自 [SCHNORR 2024 产品目录](https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf) 的 75% 锥高挠度数据。L8 采用两片并联、两组串联；这些是目录设计点，装配公差、摩擦片压缩和材料差异都会影响实际力。
+
+主动摩擦只有一面。按均匀压力近似计算有效摩擦半径，并假设 μ=0.15；**摩擦材料尚未定型，该数字不是额定持姿能力**。止推片的附加阻力没有计入主动摩擦估算。
+
+止推片采用 [SKF 复合滑动轴承目录](https://cdn.skfmediahub.skf.com/api/public/0901d19680090e01/pdf_preview_medium/0901d19680090e01_pdf_preview_medium.pdf) 中 PCMW 102001.5 E 的 10×20×1.5 mm 尺寸作为候选。目录材料为钢背复合结构；实际采购规格、滑动面朝向和对偶面加工要求仍须冻结。
+
+对每个组合姿态，按实际 CAD 零件的质量和重心求重力矩，再取整条手臂任意空间朝向下的上界。下表为样本中的最不利值，余量系数为 1.5。
+
+| 当前模型 | 重力矩上界 / N·m | 加 1.5 倍余量 / N·m | 主动摩擦估算 / N·m |
+|---|---:|---:|---:|
+{chr(10).join(loads)}
+
+本次部分总装的重力估算可由选定摩擦设计点覆盖。这不包含将来补入的转轴、手部、外壳、线束、加速度、冲击或用户施力，不能据此给出完整手臂载荷、整机重量或手感结论。
+
+## 干涉与尺寸检查
+
+- 独立摩擦 / 测角组件共 {v['counts']['standalone_component_rotation_samples']} 个旋转样本；四套叉架共 {v['counts']['complete_fork_rotation_samples']} 个旋转样本，按 0° 至 330° 每 30° 取样。
+- 两款手臂合计 {v['counts']['arm_pose_samples']} 个组合样本：肘 0°、45°、90°、135°、145°；腕 −65°、0°、65°。
+- 中立装配检查包含同一运动部件内部的零件；运动检查再检查不同运动部件。只排除逐对登记的螺纹简化包络配合，没有按整个分组跳过中立检查。
+- CAD 布尔交集体积超过 0.02 mm³ 记为穿插。本轮没有未解释的中立或运动样本穿插；接触、微小间隙、连续路径以及真实公差不能靠这项检查保证。
+- 当前打印件均为单一实体，所记录方向的包围盒均小于 180 mm；最大边长 {maxdim:.2f} mm。仅说明可放进 A1 mini 的名义空间，尚未完成打印朝向、支撑与切片验证。
+- 运动样本中的肘至腕距离保持不变，误差阈值 0.000001 mm。所有 Rev E 比例参数保持原值。
+- 构建前后校验输入文件 SHA-256；详细零件、体积、包围盒、螺纹例外和姿态记录见下方 JSON。
+
+## 仍需继续设计
+
+1. 肩、髋、躯干、肩带的共用多轴支架；不能将独立叉架直接堆到每个共心轴上。尤其两侧肩带根部间距只有 Manny {r['characters']['manny']['critical_centre_distances_mm']['clavicle_roots']:.2f} mm、Quinn {r['characters']['quinn']['critical_centre_distances_mm']['clavicle_roots']:.2f} mm。
+2. 前臂扭转、腕侧偏、完整腿脚、右侧零件和底座；前臂回接件可能随这些轴的加入继续修改。
+3. 机械限位、完整线束及接头弯折空间、工具装配空间、整机质量与各级持姿扭矩。
+4. 轴系材料和表面、公差、摩擦片、碟簧预紧调节与止动垫片；持续承载、磨损、回差、线束恢复力和操作手感。
+5. Rev E 已记录的极端颈部位置误差，以及 Quinn 的独立 UE 适配。此轮没有修改模拟器或 UE 插件。
+
+当前不用打印、测量或采购。以后发布的首轮样件会附确定的紧固件与轴系规格，不要求用户自行选择测试圆棒或螺钉。
+
+## 原始记录
+
+- [摩擦与测角组件](revF_pivot_components.json)
+- [完整单轴叉架](revF_fork_joints.json)
+- [两款部分手臂总装](revF_arm_packaging.json)
+- [汇总、负载与源码校验](revF_design_audit.json)
+
+记录生成于 {v['utc']}。
+"""
+ (ROOT/'verification/REVF_REPORT.zh-CN.md').write_text(report,encoding='utf8')
+ print('Rev F Chinese report generated.')
+if __name__=='__main__':main()

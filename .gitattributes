@@ -1,0 +1,9 @@
+# Source/verification manifests contain byte hashes. Preserve exact line endings.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.step -diff
+*.stl -diff
+*.png binary
+*.pdf binary
+*.npz binary
+*.bin binary

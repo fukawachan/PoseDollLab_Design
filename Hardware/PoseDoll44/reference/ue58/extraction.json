@@ -1,0 +1,45 @@
+{
+  "engine": "5.8.2-56702186+++UE5+Release-5.8",
+  "utc": "2026-09-20T08:56:07.912704+00:00",
+  "assets": {
+    "Manny": {
+      "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+      "bones": 89,
+      "vertices": 46098,
+      "triangles": 92178,
+      "imported_bounds": {
+        "origin_cm": [
+          0.0,
+          6.853570938110352,
+          90.25166976638138
+        ],
+        "extent_cm": [
+          55.43703079223633,
+          21.24590492248535,
+          90.27195083908737
+        ],
+        "sphere_radius_cm": 108.04479611406211
+      }
+    },
+    "Quinn": {
+      "mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+      "bones": 89,
+      "vertices": 43761,
+      "triangles": 87280,
+      "imported_bounds": {
+        "origin_cm": [
+          0.0,
+          7.110689640045166,
+          90.0531793832779
+        ],
+        "extent_cm": [
+          51.937191009521484,
+          18.293385982513428,
+          90.08436334133148
+        ],
+        "sphere_radius_cm": 105.58083301091048
+      }
+    }
+  },
+  "read_only_assets": true
+}

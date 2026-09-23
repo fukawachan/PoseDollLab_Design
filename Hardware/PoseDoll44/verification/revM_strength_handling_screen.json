@@ -1,0 +1,712 @@
+{
+  "source_load_sha256": "f536af86a43f419ad23281074134ab83c60040f4efbcdf732bc0af6327911dc2",
+  "physical_tested": false,
+  "rated_capacity": false,
+  "characters": {
+    "manny": {
+      "estimated_total_mass_kg": 3.2307851791566087,
+      "handling": [
+        {
+          "axis": "elbow_l.flex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.19847630003082695,
+          "measured_holding_target_Nm": 0.2977144500462404,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "forearm_l.twist",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.025685094714602005,
+          "measured_holding_target_Nm": 0.038527642071903005,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "elbow_r.flex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.19851129564783257,
+          "measured_holding_target_Nm": 0.29776694347174887,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "forearm_r.twist",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.025858570658406466,
+          "measured_holding_target_Nm": 0.0387878559876097,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_l.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.01590665940216369,
+          "measured_holding_target_Nm": 0.023859989103245535,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_l.deviate",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.01791825472384862,
+          "measured_holding_target_Nm": 0.026877382085772932,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_r.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.015908657825879847,
+          "measured_holding_target_Nm": 0.023862986738819772,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_r.deviate",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.0179189353121146,
+          "measured_holding_target_Nm": 0.0268784029681719,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "thigh_l.flex",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1273391365649745,
+          "measured_holding_target_Nm": 1.6910087048474618,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_l.abduct",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1309175826484315,
+          "measured_holding_target_Nm": 1.6963763739726472,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_l.twist",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 0.4120267186747208,
+          "measured_holding_target_Nm": 0.6180400780120812,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "calf_l.flex",
+          "nominal_torque_Nm": 0.929364776119403,
+          "gravity_bound_Nm": 0.44968476853061695,
+          "measured_holding_target_Nm": 0.6745271527959255,
+          "tangential_force_at_100mm_N": 9.29364776119403,
+          "tangential_force_at_50mm_N": 18.58729552238806
+        },
+        {
+          "axis": "foot_l.dorsiflex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.0542095744562764,
+          "measured_holding_target_Nm": 0.08131436168441461,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "foot_l.invert",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.013444958348349967,
+          "measured_holding_target_Nm": 0.02016743752252495,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "ball_l.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.002625857213865253,
+          "measured_holding_target_Nm": 0.0039387858207978795,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "thigh_r.flex",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1276474160506111,
+          "measured_holding_target_Nm": 1.6914711240759166,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_r.abduct",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1312952217087058,
+          "measured_holding_target_Nm": 1.6969428325630587,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_r.twist",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 0.4125431197269405,
+          "measured_holding_target_Nm": 0.6188146795904108,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "calf_r.flex",
+          "nominal_torque_Nm": 0.929364776119403,
+          "gravity_bound_Nm": 0.450057482730349,
+          "measured_holding_target_Nm": 0.6750862240955235,
+          "tangential_force_at_100mm_N": 9.29364776119403,
+          "tangential_force_at_50mm_N": 18.58729552238806
+        },
+        {
+          "axis": "foot_r.dorsiflex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.05444139409286354,
+          "measured_holding_target_Nm": 0.08166209113929532,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "foot_r.invert",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.013816637334157531,
+          "measured_holding_target_Nm": 0.0207249560012363,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "ball_r.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.002627185691171196,
+          "measured_holding_target_Nm": 0.003940778536756794,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "waist.yaw",
+          "nominal_torque_Nm": 5.187110904977376,
+          "gravity_bound_Nm": 1.0499277936267162,
+          "measured_holding_target_Nm": 1.5748916904400743,
+          "tangential_force_at_100mm_N": 51.87110904977376,
+          "tangential_force_at_50mm_N": 103.74221809954751
+        },
+        {
+          "axis": "waist.pitch",
+          "nominal_torque_Nm": 5.187110904977376,
+          "gravity_bound_Nm": 3.3171922257323745,
+          "measured_holding_target_Nm": 4.975788338598562,
+          "tangential_force_at_100mm_N": 51.87110904977376,
+          "tangential_force_at_50mm_N": 103.74221809954751
+        },
+        {
+          "axis": "waist.roll",
+          "nominal_torque_Nm": 5.187110904977376,
+          "gravity_bound_Nm": 3.315612470492338,
+          "measured_holding_target_Nm": 4.973418705738507,
+          "tangential_force_at_100mm_N": 51.87110904977376,
+          "tangential_force_at_50mm_N": 103.74221809954751
+        },
+        {
+          "axis": "chest.yaw",
+          "nominal_torque_Nm": 4.868444328358208,
+          "gravity_bound_Nm": 0.978177866963404,
+          "measured_holding_target_Nm": 1.4672668004451062,
+          "tangential_force_at_100mm_N": 48.684443283582084,
+          "tangential_force_at_50mm_N": 97.36888656716417
+        },
+        {
+          "axis": "chest.pitch",
+          "nominal_torque_Nm": 4.868444328358208,
+          "gravity_bound_Nm": 2.3799030080817407,
+          "measured_holding_target_Nm": 3.5698545121226113,
+          "tangential_force_at_100mm_N": 48.684443283582084,
+          "tangential_force_at_50mm_N": 97.36888656716417
+        },
+        {
+          "axis": "chest.roll",
+          "nominal_torque_Nm": 4.868444328358208,
+          "gravity_bound_Nm": 2.363621201285456,
+          "measured_holding_target_Nm": 3.545431801928184,
+          "tangential_force_at_100mm_N": 48.684443283582084,
+          "tangential_force_at_50mm_N": 97.36888656716417
+        },
+        {
+          "axis": "upperarm_l.twist",
+          "nominal_torque_Nm": 0.3161841444866921,
+          "gravity_bound_Nm": 0.1958824023057672,
+          "measured_holding_target_Nm": 0.2938236034586508,
+          "tangential_force_at_100mm_N": 3.1618414448669205,
+          "tangential_force_at_50mm_N": 6.323682889733841
+        },
+        {
+          "axis": "upperarm_r.twist",
+          "nominal_torque_Nm": 0.3161841444866921,
+          "gravity_bound_Nm": 0.19644142312241655,
+          "measured_holding_target_Nm": 0.29466213468362484,
+          "tangential_force_at_100mm_N": 3.1618414448669205,
+          "tangential_force_at_50mm_N": 6.323682889733841
+        },
+        {
+          "axis": "clavicle_l.protract",
+          "nominal_torque_Nm": 1.3029904709508646,
+          "gravity_bound_Nm": 0.8197378209435559,
+          "measured_holding_target_Nm": 1.2296067314153338,
+          "tangential_force_at_100mm_N": 13.029904709508646,
+          "tangential_force_at_50mm_N": 26.05980941901729
+        },
+        {
+          "axis": "clavicle_l.elevate",
+          "nominal_torque_Nm": 1.3700386254303782,
+          "gravity_bound_Nm": 0.8193084165184389,
+          "measured_holding_target_Nm": 1.2289626247776584,
+          "tangential_force_at_100mm_N": 13.700386254303782,
+          "tangential_force_at_50mm_N": 27.400772508607563
+        },
+        {
+          "axis": "clavicle_r.protract",
+          "nominal_torque_Nm": 1.3030433950010625,
+          "gravity_bound_Nm": 0.820275663849301,
+          "measured_holding_target_Nm": 1.2304134957739514,
+          "tangential_force_at_100mm_N": 13.030433950010623,
+          "tangential_force_at_50mm_N": 26.060867900021247
+        },
+        {
+          "axis": "clavicle_r.elevate",
+          "nominal_torque_Nm": 1.3700386254303782,
+          "gravity_bound_Nm": 0.8187396611457842,
+          "measured_holding_target_Nm": 1.2281094917186763,
+          "tangential_force_at_100mm_N": 13.700386254303782,
+          "tangential_force_at_50mm_N": 27.400772508607563
+        },
+        {
+          "axis": "head.yaw",
+          "nominal_torque_Nm": 0.28861,
+          "gravity_bound_Nm": 0.043725792973326724,
+          "measured_holding_target_Nm": 0.06558868945999008,
+          "tangential_force_at_100mm_N": 2.8860999999999994,
+          "tangential_force_at_50mm_N": 5.772199999999999
+        },
+        {
+          "axis": "head.pitch",
+          "nominal_torque_Nm": 0.28861,
+          "gravity_bound_Nm": 0.04468255873263701,
+          "measured_holding_target_Nm": 0.06702383809895551,
+          "tangential_force_at_100mm_N": 2.8860999999999994,
+          "tangential_force_at_50mm_N": 5.772199999999999
+        },
+        {
+          "axis": "head.roll",
+          "nominal_torque_Nm": 0.28861,
+          "gravity_bound_Nm": 0.0429918632627496,
+          "measured_holding_target_Nm": 0.0644877948941244,
+          "tangential_force_at_100mm_N": 2.8860999999999994,
+          "tangential_force_at_50mm_N": 5.772199999999999
+        },
+        {
+          "axis": "upperarm_l.flex",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.5106593727633625,
+          "measured_holding_target_Nm": 0.7659890591450438,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        },
+        {
+          "axis": "upperarm_l.abduct",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.510964162962328,
+          "measured_holding_target_Nm": 0.7664462444434921,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        },
+        {
+          "axis": "upperarm_r.flex",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.5105487684202242,
+          "measured_holding_target_Nm": 0.7658231526303363,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        },
+        {
+          "axis": "upperarm_r.abduct",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.5109577830632165,
+          "measured_holding_target_Nm": 0.7664366745948248,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        }
+      ]
+    },
+    "quinn": {
+      "estimated_total_mass_kg": 3.1862543863215422,
+      "handling": [
+        {
+          "axis": "elbow_l.flex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.1847236948463253,
+          "measured_holding_target_Nm": 0.27708554226948795,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "forearm_l.twist",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.02455013749578273,
+          "measured_holding_target_Nm": 0.036825206243674094,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "elbow_r.flex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.1847555944330887,
+          "measured_holding_target_Nm": 0.277133391649633,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "forearm_r.twist",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.02471934693458108,
+          "measured_holding_target_Nm": 0.03707902040187162,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_l.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.014861770666865181,
+          "measured_holding_target_Nm": 0.02229265600029777,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_l.deviate",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.01673241795335522,
+          "measured_holding_target_Nm": 0.02509862693003283,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_r.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.014862185389630389,
+          "measured_holding_target_Nm": 0.022293278084445582,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "hand_r.deviate",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.016730942169727748,
+          "measured_holding_target_Nm": 0.025096413254591624,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "thigh_l.flex",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1287779211205609,
+          "measured_holding_target_Nm": 1.6931668816808414,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_l.abduct",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1324612546548543,
+          "measured_holding_target_Nm": 1.6986918819822814,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_l.twist",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 0.39596951493998295,
+          "measured_holding_target_Nm": 0.5939542724099744,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "calf_l.flex",
+          "nominal_torque_Nm": 0.929364776119403,
+          "gravity_bound_Nm": 0.43082528928928165,
+          "measured_holding_target_Nm": 0.6462379339339225,
+          "tangential_force_at_100mm_N": 9.29364776119403,
+          "tangential_force_at_50mm_N": 18.58729552238806
+        },
+        {
+          "axis": "foot_l.dorsiflex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.04999330601075215,
+          "measured_holding_target_Nm": 0.07498995901612823,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "foot_l.invert",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.012902284461161345,
+          "measured_holding_target_Nm": 0.019353426691742018,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "ball_l.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.003037958912859317,
+          "measured_holding_target_Nm": 0.004556938369288976,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "thigh_r.flex",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.129019018497862,
+          "measured_holding_target_Nm": 1.6935285277467929,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_r.abduct",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 1.1327705277890898,
+          "measured_holding_target_Nm": 1.6991557916836348,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "thigh_r.twist",
+          "nominal_torque_Nm": 1.858729552238806,
+          "gravity_bound_Nm": 0.396466640845346,
+          "measured_holding_target_Nm": 0.594699961268019,
+          "tangential_force_at_100mm_N": 18.58729552238806,
+          "tangential_force_at_50mm_N": 37.17459104477612
+        },
+        {
+          "axis": "calf_r.flex",
+          "nominal_torque_Nm": 0.929364776119403,
+          "gravity_bound_Nm": 0.43119401426619575,
+          "measured_holding_target_Nm": 0.6467910213992936,
+          "tangential_force_at_100mm_N": 9.29364776119403,
+          "tangential_force_at_50mm_N": 18.58729552238806
+        },
+        {
+          "axis": "foot_r.dorsiflex",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.05024216258752536,
+          "measured_holding_target_Nm": 0.07536324388128804,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "foot_r.invert",
+          "nominal_torque_Nm": 0.4558471345029241,
+          "gravity_bound_Nm": 0.013253117838865696,
+          "measured_holding_target_Nm": 0.019879676758298544,
+          "tangential_force_at_100mm_N": 4.558471345029241,
+          "tangential_force_at_50mm_N": 9.116942690058481
+        },
+        {
+          "axis": "ball_r.flex",
+          "nominal_torque_Nm": 0.18291,
+          "gravity_bound_Nm": 0.0030495381303870285,
+          "measured_holding_target_Nm": 0.004574307195580543,
+          "tangential_force_at_100mm_N": 1.8290999999999997,
+          "tangential_force_at_50mm_N": 3.6581999999999995
+        },
+        {
+          "axis": "waist.yaw",
+          "nominal_torque_Nm": 5.187110904977376,
+          "gravity_bound_Nm": 1.024907812223147,
+          "measured_holding_target_Nm": 1.5373617183347204,
+          "tangential_force_at_100mm_N": 51.87110904977376,
+          "tangential_force_at_50mm_N": 103.74221809954751
+        },
+        {
+          "axis": "waist.pitch",
+          "nominal_torque_Nm": 5.187110904977376,
+          "gravity_bound_Nm": 3.1827823251167437,
+          "measured_holding_target_Nm": 4.774173487675116,
+          "tangential_force_at_100mm_N": 51.87110904977376,
+          "tangential_force_at_50mm_N": 103.74221809954751
+        },
+        {
+          "axis": "waist.roll",
+          "nominal_torque_Nm": 5.187110904977376,
+          "gravity_bound_Nm": 3.1783403529834926,
+          "measured_holding_target_Nm": 4.7675105294752385,
+          "tangential_force_at_100mm_N": 51.87110904977376,
+          "tangential_force_at_50mm_N": 103.74221809954751
+        },
+        {
+          "axis": "chest.yaw",
+          "nominal_torque_Nm": 4.868444328358208,
+          "gravity_bound_Nm": 0.9502640889903291,
+          "measured_holding_target_Nm": 1.4253961334854937,
+          "tangential_force_at_100mm_N": 48.684443283582084,
+          "tangential_force_at_50mm_N": 97.36888656716417
+        },
+        {
+          "axis": "chest.pitch",
+          "nominal_torque_Nm": 4.868444328358208,
+          "gravity_bound_Nm": 2.224876367676691,
+          "measured_holding_target_Nm": 3.3373145515150364,
+          "tangential_force_at_100mm_N": 48.684443283582084,
+          "tangential_force_at_50mm_N": 97.36888656716417
+        },
+        {
+          "axis": "chest.roll",
+          "nominal_torque_Nm": 4.868444328358208,
+          "gravity_bound_Nm": 2.2039130087898644,
+          "measured_holding_target_Nm": 3.3058695131847964,
+          "tangential_force_at_100mm_N": 48.684443283582084,
+          "tangential_force_at_50mm_N": 97.36888656716417
+        },
+        {
+          "axis": "upperarm_l.twist",
+          "nominal_torque_Nm": 0.3161841444866921,
+          "gravity_bound_Nm": 0.18345332189753993,
+          "measured_holding_target_Nm": 0.2751799828463099,
+          "tangential_force_at_100mm_N": 3.1618414448669205,
+          "tangential_force_at_50mm_N": 6.323682889733841
+        },
+        {
+          "axis": "upperarm_r.twist",
+          "nominal_torque_Nm": 0.3161841444866921,
+          "gravity_bound_Nm": 0.18405792130405396,
+          "measured_holding_target_Nm": 0.27608688195608094,
+          "tangential_force_at_100mm_N": 3.1618414448669205,
+          "tangential_force_at_50mm_N": 6.323682889733841
+        },
+        {
+          "axis": "clavicle_l.protract",
+          "nominal_torque_Nm": 1.3029904709508646,
+          "gravity_bound_Nm": 0.7341391357120027,
+          "measured_holding_target_Nm": 1.101208703568004,
+          "tangential_force_at_100mm_N": 13.029904709508646,
+          "tangential_force_at_50mm_N": 26.05980941901729
+        },
+        {
+          "axis": "clavicle_l.elevate",
+          "nominal_torque_Nm": 1.3700386254303782,
+          "gravity_bound_Nm": 0.7331725850552405,
+          "measured_holding_target_Nm": 1.0997588775828608,
+          "tangential_force_at_100mm_N": 13.700386254303782,
+          "tangential_force_at_50mm_N": 27.400772508607563
+        },
+        {
+          "axis": "clavicle_r.protract",
+          "nominal_torque_Nm": 1.3030433950010625,
+          "gravity_bound_Nm": 0.7341467841544235,
+          "measured_holding_target_Nm": 1.1012201762316352,
+          "tangential_force_at_100mm_N": 13.030433950010623,
+          "tangential_force_at_50mm_N": 26.060867900021247
+        },
+        {
+          "axis": "clavicle_r.elevate",
+          "nominal_torque_Nm": 1.3700386254303782,
+          "gravity_bound_Nm": 0.73283778540406,
+          "measured_holding_target_Nm": 1.09925667810609,
+          "tangential_force_at_100mm_N": 13.700386254303782,
+          "tangential_force_at_50mm_N": 27.400772508607563
+        },
+        {
+          "axis": "head.yaw",
+          "nominal_torque_Nm": 0.28861,
+          "gravity_bound_Nm": 0.0431538237028963,
+          "measured_holding_target_Nm": 0.06473073555434444,
+          "tangential_force_at_100mm_N": 2.8860999999999994,
+          "tangential_force_at_50mm_N": 5.772199999999999
+        },
+        {
+          "axis": "head.pitch",
+          "nominal_torque_Nm": 0.28861,
+          "gravity_bound_Nm": 0.04438079641146457,
+          "measured_holding_target_Nm": 0.06657119461719685,
+          "tangential_force_at_100mm_N": 2.8860999999999994,
+          "tangential_force_at_50mm_N": 5.772199999999999
+        },
+        {
+          "axis": "head.roll",
+          "nominal_torque_Nm": 0.28861,
+          "gravity_bound_Nm": 0.04264892388574812,
+          "measured_holding_target_Nm": 0.06397338582862218,
+          "tangential_force_at_100mm_N": 2.8860999999999994,
+          "tangential_force_at_50mm_N": 5.772199999999999
+        },
+        {
+          "axis": "upperarm_l.flex",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.47953089689573863,
+          "measured_holding_target_Nm": 0.719296345343608,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        },
+        {
+          "axis": "upperarm_l.abduct",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.47986443181892185,
+          "measured_holding_target_Nm": 0.7197966477283828,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        },
+        {
+          "axis": "upperarm_r.flex",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.4794002276293122,
+          "measured_holding_target_Nm": 0.7191003414439683,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        },
+        {
+          "axis": "upperarm_r.abduct",
+          "nominal_torque_Nm": 0.8222511917098445,
+          "gravity_bound_Nm": 0.47983841267132615,
+          "measured_holding_target_Nm": 0.7197576190069892,
+          "tangential_force_at_100mm_N": 8.222511917098444,
+          "tangential_force_at_50mm_N": 16.44502383419689
+        }
+      ]
+    }
+  },
+  "high_load_demands": {
+    "axial_nominal_N": 1656.0,
+    "axial_proof_target_N": 2484.0,
+    "M3_tensile_area_mm2": 5.03,
+    "M3_nominal_tensile_MPa": 329.22465208747514,
+    "M3_proof_tensile_MPa": 493.8369781312127,
+    "thread_effective_engagement_assumption_mm": 6.0,
+    "thread_shear_area_simplified_mm2": 25.211281045058087,
+    "thread_proof_mean_shear_MPa": 98.52732177950607,
+    "D8_flat_bearing_area_mm2": 19.171267563726715,
+    "D8_nominal_mean_flat_pressure_MPa": 77.30483559368255,
+    "upper_face_nominal_torque_Nm": 2.0803499999999997,
+    "D6_hollow_upper_branch_nominal_torsion_MPa": 50.575954083122745,
+    "warning": "Mean-section demands only. D-flat, transverse/axial holes, notch, contact distribution, preload scatter, bolt-head strength, bending and fatigue are not covered."
+  },
+  "PLA_beam_reference": {
+    "outer_mm": [
+      12,
+      10
+    ],
+    "inner_mm": [
+      8,
+      6
+    ],
+    "minimum_I_mm4": 856.0,
+    "section_modulus_mm3": 171.2,
+    "example_moment_Nm": 2.0,
+    "nominal_bending_MPa": 11.682242990654206,
+    "example_local_factor_assumed": 2.0,
+    "factored_bending_MPa": 23.364485981308412,
+    "status": "Illustrative nominal section from the design, not a global strength proof. Actual print anisotropy, stress concentration, walls, supports and full frame load path require sample proof tests."
+  },
+  "not_covered": [
+    "No FEA was run.",
+    "No material strength minimum is assumed from typical supplier values.",
+    "No universal screw-tightening torque or safe lifting/load rating is issued.",
+    "Use fitted geometry and supplier material certificates for production stress/thread review.",
+    "Minimum hand force depends on the actual grasp point and coupled joints; 50/100 mm figures are ideal isolated-joint examples."
+  ]
+}

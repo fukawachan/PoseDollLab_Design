@@ -1,0 +1,26 @@
+{
+  "S": {
+    "radius_mm": 12,
+    "axial_mm": 12,
+    "shaft_mm": 4,
+    "design_capacity_nm": 0.12,
+    "module_mass_g": 24,
+    "grip_radius_mm": 25
+  },
+  "M": {
+    "radius_mm": 18,
+    "axial_mm": 16,
+    "shaft_mm": 6,
+    "design_capacity_nm": 0.6,
+    "module_mass_g": 48,
+    "grip_radius_mm": 50
+  },
+  "L": {
+    "radius_mm": 26,
+    "axial_mm": 20,
+    "shaft_mm": 8,
+    "design_capacity_nm": 3.0,
+    "module_mass_g": 95,
+    "grip_radius_mm": 100
+  }
+}

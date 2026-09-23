@@ -1,0 +1,539 @@
+{
+  "revision": "C_mini",
+  "status": "DIGITAL_CANDIDATE_NOT_RELEASED",
+  "pcb_size_mm": [
+    12,
+    10,
+    1.0
+  ],
+  "corner_chamfer_mm": 1.0,
+  "origin": "AS5048A package XY center; KiCad +X/+Y",
+  "board_mount": "Removable insulating edge saddles/caps; no holes",
+  "spi_pins": {
+    "1": "GND",
+    "2": "+3V3",
+    "3": "SCK",
+    "4": "MOSI",
+    "5": "MISO",
+    "6": "CS_N"
+  },
+  "footprints": {
+    "R1": {
+      "xy_from_chip_mm": [
+        -2.299999999999997,
+        -3.700000000000003
+      ],
+      "side": "sensor",
+      "rotation_deg": 180.0
+    },
+    "R2": {
+      "xy_from_chip_mm": [
+        -2.299999999999997,
+        3.700000000000003
+      ],
+      "side": "sensor",
+      "rotation_deg": 0.0
+    },
+    "C1": {
+      "xy_from_chip_mm": [
+        2.299999999999997,
+        -3.700000000000003
+      ],
+      "side": "sensor",
+      "rotation_deg": 0.0
+    },
+    "C2": {
+      "xy_from_chip_mm": [
+        2.299999999999997,
+        3.75
+      ],
+      "side": "sensor",
+      "rotation_deg": 0.0
+    },
+    "U1": {
+      "xy_from_chip_mm": [
+        0.0,
+        0.0
+      ],
+      "side": "sensor",
+      "rotation_deg": 0.0
+    },
+    "J1": {
+      "xy_from_chip_mm": [
+        0.0,
+        0.0
+      ],
+      "side": "connector",
+      "rotation_deg": 180.0
+    }
+  },
+  "pads": [
+    {
+      "ref": "R1",
+      "pad": "1",
+      "net": "MISO_IC",
+      "xy_mm": [
+        -1.4749999999999943,
+        -3.700000000000003
+      ],
+      "size_mm": [
+        0.8,
+        0.95
+      ]
+    },
+    {
+      "ref": "R1",
+      "pad": "2",
+      "net": "MISO",
+      "xy_mm": [
+        -3.125,
+        -3.700000000000003
+      ],
+      "size_mm": [
+        0.8,
+        0.95
+      ]
+    },
+    {
+      "ref": "R2",
+      "pad": "1",
+      "net": "+3V3",
+      "xy_mm": [
+        -3.125,
+        3.700000000000003
+      ],
+      "size_mm": [
+        0.8,
+        0.95
+      ]
+    },
+    {
+      "ref": "R2",
+      "pad": "2",
+      "net": "CS_N",
+      "xy_mm": [
+        -1.4749999999999943,
+        3.700000000000003
+      ],
+      "size_mm": [
+        0.8,
+        0.95
+      ]
+    },
+    {
+      "ref": "C1",
+      "pad": "1",
+      "net": "+3V3",
+      "xy_mm": [
+        1.5250000000000057,
+        -3.700000000000003
+      ],
+      "size_mm": [
+        0.9,
+        0.95
+      ]
+    },
+    {
+      "ref": "C1",
+      "pad": "2",
+      "net": "GND",
+      "xy_mm": [
+        3.075000000000003,
+        -3.700000000000003
+      ],
+      "size_mm": [
+        0.9,
+        0.95
+      ]
+    },
+    {
+      "ref": "C2",
+      "pad": "1",
+      "net": "+3V3",
+      "xy_mm": [
+        1.3499999999999943,
+        3.75
+      ],
+      "size_mm": [
+        1.0,
+        1.45
+      ]
+    },
+    {
+      "ref": "C2",
+      "pad": "2",
+      "net": "GND",
+      "xy_mm": [
+        3.25,
+        3.75
+      ],
+      "size_mm": [
+        1.0,
+        1.45
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "1",
+      "net": "CS_N",
+      "xy_mm": [
+        -2.862499999999997,
+        -1.9500000000000028
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "2",
+      "net": "SCK",
+      "xy_mm": [
+        -2.862499999999997,
+        -1.2999999999999972
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "3",
+      "net": "MISO_IC",
+      "xy_mm": [
+        -2.862499999999997,
+        -0.6500000000000057
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "4",
+      "net": "MOSI",
+      "xy_mm": [
+        -2.862499999999997,
+        0.0
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "5",
+      "net": "GND",
+      "xy_mm": [
+        -2.862499999999997,
+        0.6500000000000057
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "6",
+      "net": "unconnected-(U1-TEST-Pad6)",
+      "xy_mm": [
+        -2.862499999999997,
+        1.2999999999999972
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "7",
+      "net": "unconnected-(U1-TEST-Pad7)",
+      "xy_mm": [
+        -2.862499999999997,
+        1.9500000000000028
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "8",
+      "net": "unconnected-(U1-TEST-Pad8)",
+      "xy_mm": [
+        2.862499999999997,
+        1.9500000000000028
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "9",
+      "net": "unconnected-(U1-TEST-Pad9)",
+      "xy_mm": [
+        2.862499999999997,
+        1.2999999999999972
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "10",
+      "net": "unconnected-(U1-TEST-Pad10)",
+      "xy_mm": [
+        2.862499999999997,
+        0.6500000000000057
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "11",
+      "net": "+3V3",
+      "xy_mm": [
+        2.862499999999997,
+        0.0
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "12",
+      "net": "+3V3",
+      "xy_mm": [
+        2.862499999999997,
+        -0.6500000000000057
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "13",
+      "net": "GND",
+      "xy_mm": [
+        2.862499999999997,
+        -1.2999999999999972
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "U1",
+      "pad": "14",
+      "net": "unconnected-(U1-PWM-Pad14)",
+      "xy_mm": [
+        2.862499999999997,
+        -1.9500000000000028
+      ],
+      "size_mm": [
+        1.475,
+        0.4
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "1",
+      "net": "GND",
+      "xy_mm": [
+        1.25,
+        -1.5
+      ],
+      "size_mm": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "net": "+3V3",
+      "xy_mm": [
+        0.75,
+        -1.5
+      ],
+      "size_mm": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "3",
+      "net": "SCK",
+      "xy_mm": [
+        0.25,
+        -1.5
+      ],
+      "size_mm": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "4",
+      "net": "MOSI",
+      "xy_mm": [
+        -0.25,
+        -1.5
+      ],
+      "size_mm": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "5",
+      "net": "MISO",
+      "xy_mm": [
+        -0.75,
+        -1.5
+      ],
+      "size_mm": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "6",
+      "net": "CS_N",
+      "xy_mm": [
+        -1.25,
+        -1.5
+      ],
+      "size_mm": [
+        0.3,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "MP",
+      "net": "",
+      "xy_mm": [
+        2.25,
+        1.0
+      ],
+      "size_mm": [
+        0.4,
+        0.8
+      ]
+    },
+    {
+      "ref": "J1",
+      "pad": "MP",
+      "net": "",
+      "xy_mm": [
+        -2.25,
+        1.0
+      ],
+      "size_mm": [
+        0.4,
+        0.8
+      ]
+    }
+  ],
+  "revB_netlist_equivalent": true,
+  "connector": {
+    "part": "Hirose FH19C-6S-0.5SH(10)",
+    "FPC_thickness_mm": 0.2,
+    "FPC_thickness_tolerance_mm": 0.03,
+    "FPC_width_mm": 3.5,
+    "pitch_mm": 0.5,
+    "contact_count": 6,
+    "body_nominal_mm": [
+      5,
+      2.5,
+      0.9
+    ],
+    "overall_depth_mm": 3,
+    "model": "Conservative 5.15 x 3.15 x 1.0 mm envelope including leads; not manufacturer STEP",
+    "source": "https://www.hirose.com/en/product/document?clcode=CL0580-0409-2-10&documentid=0000917166&documenttype=2DDrawing&lang=en&productname=FH19C-6S-0.5SH%2810%29&series=FH19C__FH19SC"
+  },
+  "rules": {
+    "max_error": 0.005,
+    "min_clearance": 0.15,
+    "min_connection": 0.0,
+    "min_copper_edge_clearance": 0.25,
+    "min_groove_width": 0.0,
+    "min_hole_clearance": 0.25,
+    "min_hole_to_hole": 0.25,
+    "min_microvia_diameter": 0.2,
+    "min_microvia_drill": 0.1,
+    "min_resolved_spokes": 2,
+    "min_silk_clearance": 0.0,
+    "min_text_height": 0.8,
+    "min_text_thickness": 0.08,
+    "min_through_hole_diameter": 0.3,
+    "min_track_width": 0.15,
+    "min_via_annular_width": 0.1,
+    "min_via_diameter": 0.5,
+    "solder_mask_to_copper_clearance": 0.0,
+    "use_height_for_length_calcs": true
+  },
+  "net_class": {
+    "bus_width": 12,
+    "clearance": 0.15,
+    "diff_pair_gap": 0.25,
+    "diff_pair_via_gap": 0.25,
+    "diff_pair_width": 0.2,
+    "line_style": 0,
+    "microvia_diameter": 0.3,
+    "microvia_drill": 0.1,
+    "name": "Default",
+    "pcb_color": "rgba(0, 0, 0, 0.000)",
+    "priority": 2147483647,
+    "schematic_color": "rgba(0, 0, 0, 0.000)",
+    "track_width": 0.15,
+    "tuning_profile": "",
+    "via_diameter": 0.6,
+    "via_drill": 0.3,
+    "wire_width": 6
+  },
+  "ignored_rule_categories": [
+    "footprint_filters_mismatch",
+    "footprint_type_mismatch",
+    "missing_courtyard",
+    "track_not_centered_on_via",
+    "tuning_profile_track_geometries"
+  ],
+  "track_widths_mm": [
+    0.15
+  ],
+  "vias": 11,
+  "source_sha256": "b2889bdb6cae427ed97bce540e0ba5c45f4fc0da8229a332c361d238e7e59387",
+  "manufacturing_released": false,
+  "physical_tested": false,
+  "notes": [
+    "3.3 V only; electrical netlist unchanged from Rev B",
+    "FPC pin numbering must be checked at both ends; the harness/adapter has not been designed",
+    "No EMC, SPI timing, magnetic field, hot-plug or dynamic cable life validation",
+    "0.91 mm STEP FR4 body does not include the full nominal 1.0 mm PCB stack"
+  ]
+}

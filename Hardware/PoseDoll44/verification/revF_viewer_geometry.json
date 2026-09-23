@@ -1,0 +1,15 @@
+{
+  "display_only": true,
+  "manufacturing_released": false,
+  "arms": {
+    "manny": {
+      "parts": 138,
+      "triangles": 77064
+    },
+    "quinn": {
+      "parts": 138,
+      "triangles": 77064
+    }
+  },
+  "joint_parts": 59
+}

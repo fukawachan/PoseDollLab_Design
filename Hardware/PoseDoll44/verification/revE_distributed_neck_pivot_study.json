@@ -1,0 +1,36 @@
+{
+  "manny": {
+    "candidate_offsets_mm": {
+      "yaw_x": -0.41,
+      "yaw_y": 0.56,
+      "pitch_x": 1.22,
+      "pitch_z": 0.18,
+      "roll_y": -0.95,
+      "roll_z": 1.13
+    },
+    "design_old_max_mm": 6.001299353939794,
+    "design_candidate_max_mm": 4.936762015722023,
+    "holdout_count": 855,
+    "holdout_old_max_mm": 9.547368558261004,
+    "holdout_candidate_max_mm": 8.734205070080485,
+    "threshold_mm": 6.052869260856871,
+    "applied": false
+  },
+  "quinn": {
+    "candidate_offsets_mm": {
+      "yaw_x": -0.45,
+      "yaw_y": 0.61,
+      "pitch_x": 1.41,
+      "pitch_z": 0.14,
+      "roll_y": -1.09,
+      "roll_z": 1.28
+    },
+    "design_old_max_mm": 6.9055996479224415,
+    "design_candidate_max_mm": 5.697128520399517,
+    "holdout_count": 855,
+    "holdout_old_max_mm": 11.014374119928027,
+    "holdout_candidate_max_mm": 10.00661152117787,
+    "threshold_mm": 6.051329244964063,
+    "applied": false
+  }
+}

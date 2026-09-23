@@ -1,0 +1,4890 @@
+{
+  "status": "ARM_PACKAGING_ASSEMBLY_TWO_AXES_POPULATED_NOT_FULL_ARM_RELEASE",
+  "source_sha256": "c0bd1ccd0c3485a0f5fb6a7e43113a480bd644bf15f971f23507b5a35828599c",
+  "characters": {
+    "manny": {
+      "parts": [
+        {
+          "name": "elbow__C_bearing_eye",
+          "material": "aluminum",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 7.602113858144229,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.0,
+            5.0,
+            45.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_radial_bush",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.0,
+            3.8000000000000007,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_friction_lining",
+          "material": "lining",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 0.8679065645055405,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.0,
+            1.0,
+            26.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_flanged_trunnion",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 6.078585082637422,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.0,
+            19.176000000000002,
+            28.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.0,
+            1.5,
+            20.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_spring_seat",
+          "material": "spring",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.0,
+            0.5,
+            20.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_spring_a_0",
+          "material": "spring",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.32540852325332087,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.0,
+            0.588000000000001,
+            12.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_spring_b_0",
+          "material": "spring",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3254085232533209,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.0,
+            0.588000000000001,
+            12.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_key_clamp_screw",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183867,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.0,
+            3.799999999999997,
+            3.8000000000000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_key_clamp_nut",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.0,
+            4.618802153517006
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983088,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.0,
+            3.0,
+            15.400000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_axial_retainer_screw",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795376,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            11.000000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_washer_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_screw_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_nut_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_washer_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_screw_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_nut_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_bearing_eye",
+          "material": "aluminum",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Same metal/POM bearing interface; two M3 mount ears",
+          "mass_g": 4.141497917681519,
+          "solid_count": 1,
+          "bbox_mm": [
+            16.0,
+            4.0,
+            47.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_radial_bush",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.0,
+            3.8000000000000007,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_trunnion",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Inner D drive; outer 8mm D head matches existing magnetic coupling",
+          "mass_g": 1.8353024006303575,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.0,
+            19.0,
+            9.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_thrust_washer",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Nominal end-float .6mm before adjustment; no clutch spring load",
+          "mass_g": 0.024049205922495247,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.6,
+            0.5000000000000018,
+            9.6
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_D_magnet_carrier",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "mass_g": 1.5865060666303712,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.0,
+            8.200000000000006,
+            24.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "mass_g": 0.13224091737724789,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.8000000000000007,
+            22.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.5301437602932776,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.0,
+            2.5,
+            6.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "mass_g": 2.2,
+          "solid_count": 7,
+          "bbox_mm": [
+            18.0,
+            7.175000000000004,
+            20.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007693,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.6000000000000005,
+            6.0,
+            4.6000000000000005
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.04297698750110835,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            7.5,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            5.399999999999999,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.026484568547558023,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.026484568547558023,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007696,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.6000000000000005,
+            6.0,
+            4.6000000000000005
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.04297698750110835,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            7.5,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            5.399999999999999,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.02648456854755803,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.02648456854755803,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.03406642542587857,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.4,
+            8.0,
+            4.3999999999999995
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            1.6000000000000014,
+            4.000000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.034066425425878566,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.4,
+            8.0,
+            4.3999999999999995
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            1.6000000000000014,
+            4.000000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3077755490868848,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            3.6000000000000014,
+            3.6
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025495,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.618802153517009,
+            4.000000000000001
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_washer_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_screw_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_nut_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_washer_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_screw_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_nut_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__printed_fixed_fork",
+          "material": "printed",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Metal bearing inserts bolt to four pads; two rear M3 ports; encoder side posts integrated",
+          "mass_g": 11.526040272516154,
+          "solid_count": 1,
+          "bbox_mm": [
+            40.8,
+            58.7000001,
+            48.0000001
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_screw_-4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.5233170794570268,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.7999999999999994,
+            3.8000000000000003,
+            16.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_nut_-4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025486,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000005
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_screw_4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.5233170794570268,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.7999999999999994,
+            3.8000000000000003,
+            16.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_nut_4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000001,
+            1.6000000000000005
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__split_rotor_hub",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Inner D sockets plus two M2 clamps; dimensions provisional for PLA",
+          "mass_g": 2.214324207313242,
+          "solid_count": 1,
+          "bbox_mm": [
+            14.3,
+            14.0,
+            14.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_spacer_-11",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.08550158566009983,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.0,
+            2.0,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_screw_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.4246710701343074,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8000000000000007,
+            12.0,
+            3.8
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_spacer_11",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.08550158566009981,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.0,
+            2.0,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_screw_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.4246710701343073,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8000000000000007,
+            12.0,
+            3.8
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__printed_output_flange",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Two downstream M3 ports at (0,+/-11); central tool access to preload screw",
+          "mass_g": 3.560555449872527,
+          "solid_count": 1,
+          "bbox_mm": [
+            32.0,
+            4.0,
+            32.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_bearing_eye",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 6.1551997599945665,
+          "solid_count": 1,
+          "bbox_mm": [
+            24.0,
+            5.0,
+            45.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_radial_bush",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.0,
+            3.8000000000000007,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_friction_lining",
+          "material": "lining",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 0.5964897959860709,
+          "solid_count": 1,
+          "bbox_mm": [
+            24.0,
+            1.0,
+            22.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_flanged_trunnion",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 4.736261081574807,
+          "solid_count": 1,
+          "bbox_mm": [
+            24.0,
+            18.926000000000002,
+            24.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.0,
+            1.5,
+            20.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_spring_seat",
+          "material": "spring",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.0,
+            0.5,
+            20.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_spring_a_0",
+          "material": "spring",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.2542200140880218,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.5,
+            0.46300000000000097,
+            12.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_spring_b_0",
+          "material": "spring",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.2542200140880219,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.5,
+            0.46300000000000097,
+            12.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_key_clamp_screw",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183871,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.0,
+            3.799999999999997,
+            3.8000000000000114
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_key_clamp_nut",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.1455277684502548,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.0,
+            4.618802153517009
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983094,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.0,
+            3.000000000000007,
+            15.400000000000006
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_axial_retainer_screw",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795376,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            11.000000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_washer_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.11948497879214397,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_screw_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_nut_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.39352948441755164,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_washer_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.11948497879214397,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_screw_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_nut_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_bearing_eye",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Same metal/POM bearing interface; two M3 mount ears",
+          "mass_g": 4.14149791768152,
+          "solid_count": 1,
+          "bbox_mm": [
+            16.0,
+            4.0,
+            47.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_radial_bush",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.0,
+            3.8000000000000007,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_trunnion",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Inner D drive; outer 8mm D head matches existing magnetic coupling",
+          "mass_g": 1.8353024006303575,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.0,
+            19.0,
+            9.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_thrust_washer",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Nominal end-float .6mm before adjustment; no clutch spring load",
+          "mass_g": 0.024049205922495247,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.6,
+            0.5000000000000018,
+            9.599999999999994
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_D_magnet_carrier",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "mass_g": 1.586506066630372,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.0,
+            8.200000000000006,
+            24.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "mass_g": 0.13224091737724789,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.8000000000000007,
+            22.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.5301437602932777,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.0,
+            2.5,
+            6.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "mass_g": 2.2,
+          "solid_count": 7,
+          "bbox_mm": [
+            18.0,
+            7.175000000000004,
+            20.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007692,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.6000000000000005,
+            6.0,
+            4.599999999999994
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.04297698750110833,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            7.5,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.034381590000886655,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            5.399999999999999,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558016,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558016,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007695,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.6000000000000005,
+            6.0,
+            4.599999999999994
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.04297698750110833,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            7.5,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.034381590000886655,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.0,
+            5.399999999999999,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558016,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558016,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            0.5,
+            8.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.03406642542587855,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.4,
+            8.0,
+            4.400000000000006
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.02113396892143829,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            1.6000000000000014,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.03406642542587855,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.4,
+            8.0,
+            4.400000000000006
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.02113396892143829,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            1.6000000000000014,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.3077755490868847,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.0,
+            3.6000000000000014,
+            3.5999999999999943
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.14552776845025495,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.618802153517009,
+            4.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_washer_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.119484978792144,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_screw_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_nut_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.39352948441755164,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_washer_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.119484978792144,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_screw_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            13.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_nut_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.39352948441755164,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.400000000000002,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__printed_fixed_fork",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Metal bearing inserts bolt to four pads; two rear M3 ports; encoder side posts integrated",
+          "mass_g": 11.526040272516155,
+          "solid_count": 1,
+          "bbox_mm": [
+            40.8,
+            58.7000001,
+            48.000000099999994
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_screw_-4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.523317079457027,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.7999999999999994,
+            3.8000000000000003,
+            16.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_nut_-4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.1455277684502547,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.5999999999999943
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_screw_4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.5233170794570269,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.7999999999999994,
+            3.8000000000000003,
+            16.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_nut_4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.1455277684502547,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000001,
+            1.5999999999999943
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__split_rotor_hub",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Inner D sockets plus two M2 clamps; dimensions provisional for PLA",
+          "mass_g": 2.214324207313242,
+          "solid_count": 1,
+          "bbox_mm": [
+            14.3,
+            14.0,
+            14.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_spacer_-11",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.08550158566009981,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.0,
+            2.0,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_screw_-11",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.4246710701343072,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8000000000000007,
+            12.0,
+            3.8000000000000114
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_spacer_11",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.08550158566009981,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.0,
+            2.0,
+            5.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_screw_11",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.4246710701343072,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8000000000000007,
+            12.0,
+            3.8000000000000114
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__printed_output_flange",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Two downstream M3 ports at (0,+/-11); central tool access to preload screw",
+          "mass_g": 3.5605554498725267,
+          "solid_count": 1,
+          "bbox_mm": [
+            32.0,
+            4.0,
+            32.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_washer_-12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_screw_-12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.447321918031775,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_nut_-12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.39352948441755176,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085884
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_washer_12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_screw_12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.447321918031775,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_nut_12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.39352948441755176,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085884
+          ],
+          "valid": true
+        },
+        {
+          "name": "upperarm_datum_link",
+          "material": "printed",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "Shoulder reference interface remains provisional; exact upper-arm length preserved",
+          "mass_g": 22.8816541664121,
+          "solid_count": 1,
+          "bbox_mm": [
+            68.0,
+            35.0,
+            110.57046381632489
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_screw_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.3363451575437155,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            17.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_nut_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.3999999999999986,
+            5.500000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_washer_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_screw_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.3363451575437155,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            17.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_nut_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.3999999999999986,
+            5.500000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_washer_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_washer_-12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_screw_-12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.4473219180317751,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_nut_-12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.3935294844175518,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085877
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_washer_12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_screw_12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.4473219180317751,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_nut_12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085877
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_return_link",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "Variant-specific forearm length; detachable connections; central joint centres unchanged",
+          "mass_g": 25.89998983426753,
+          "solid_count": 1,
+          "bbox_mm": [
+            63.0,
+            58.676,
+            126.8369127909342
+          ],
+          "valid": true
+        }
+      ],
+      "meta": {
+        "upper_arm_mm": 92.57046381632489,
+        "forearm_mm": 90.8369127909342,
+        "elbow_angle_deg": 0,
+        "wrist_flex_deg": 0,
+        "shoulder_reference_mm": [
+          0,
+          0,
+          92.57046381632489
+        ],
+        "elbow_centre_mm": [
+          0,
+          0,
+          0
+        ],
+        "wrist_centre_mm": [
+          0.0,
+          0.0,
+          -90.8369127909342
+        ],
+        "populated_axes": [
+          "elbow_l.flex",
+          "hand_l.flex"
+        ],
+        "remaining_arm_axes": "shoulder 3, forearm twist 1, wrist deviation 1, plus shoulder girdle 2; not yet integrated"
+      },
+      "mass_g": 177.91227177739577,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "elbow__C_flanged_trunnion",
+          "b": "elbow__C_axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_key_clamp_screw",
+          "b": "elbow__C_key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_keyed_stop_cap",
+          "b": "elbow__output_screw_-11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_keyed_stop_cap",
+          "b": "elbow__output_screw_11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_mount_screw_-1",
+          "b": "elbow__C_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_mount_screw_1",
+          "b": "elbow__C_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer0",
+          "b": "elbow__E_nylon_M2x6_top_screw0",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer0",
+          "b": "elbow__E_nylon_M2x4_board_screw0",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer1",
+          "b": "elbow__E_nylon_M2x6_top_screw1",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer1",
+          "b": "elbow__E_nylon_M2x4_board_screw1",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2x8_cap_screw0",
+          "b": "elbow__E_nylon_M2_cap_nut0",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2x8_cap_screw1",
+          "b": "elbow__E_nylon_M2_cap_nut1",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_M2_magnet_set_screw",
+          "b": "elbow__E_M2_magnet_set_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_mount_screw_-1",
+          "b": "elbow__E_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_mount_screw_1",
+          "b": "elbow__E_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__hub_clamp_screw_-4",
+          "b": "elbow__hub_clamp_nut_-4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__hub_clamp_screw_4",
+          "b": "elbow__hub_clamp_nut_4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_flanged_trunnion",
+          "b": "wrist__C_axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_key_clamp_screw",
+          "b": "wrist__C_key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_keyed_stop_cap",
+          "b": "wrist__output_screw_-11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_keyed_stop_cap",
+          "b": "wrist__output_screw_11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_mount_screw_-1",
+          "b": "wrist__C_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_mount_screw_1",
+          "b": "wrist__C_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer0",
+          "b": "wrist__E_nylon_M2x6_top_screw0",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer0",
+          "b": "wrist__E_nylon_M2x4_board_screw0",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer1",
+          "b": "wrist__E_nylon_M2x6_top_screw1",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer1",
+          "b": "wrist__E_nylon_M2x4_board_screw1",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2x8_cap_screw0",
+          "b": "wrist__E_nylon_M2_cap_nut0",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2x8_cap_screw1",
+          "b": "wrist__E_nylon_M2_cap_nut1",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_M2_magnet_set_screw",
+          "b": "wrist__E_M2_magnet_set_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_mount_screw_-1",
+          "b": "wrist__E_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_mount_screw_1",
+          "b": "wrist__E_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__hub_clamp_screw_-4",
+          "b": "wrist__hub_clamp_nut_-4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__hub_clamp_screw_4",
+          "b": "wrist__hub_clamp_nut_4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "upper_attach_screw_-12",
+          "b": "upper_attach_nut_-12",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "upper_attach_screw_12",
+          "b": "upper_attach_nut_12",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "forearm_out_screw_-11",
+          "b": "forearm_out_nut_-11",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "forearm_out_screw_11",
+          "b": "forearm_out_nut_11",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist_in_screw_-12",
+          "b": "wrist_in_nut_-12",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist_in_screw_12",
+          "b": "wrist_in_nut_12",
+          "mm3": 4.2223,
+          "same_owner": true
+        }
+      ],
+      "pose_checks": [
+        {
+          "elbow_deg": 0.0,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 0.0,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 0.0,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 45,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 45,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 45,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 90,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 90,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 90,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 135,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 135,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 135,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 145.0,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 145.0,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        },
+        {
+          "elbow_deg": 145.0,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 90.8369127909342
+        }
+      ]
+    },
+    "quinn": {
+      "parts": [
+        {
+          "name": "elbow__C_bearing_eye",
+          "material": "aluminum",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 7.602113858144229,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.008192733305407,
+            5.0081927333054,
+            45.00000020000025
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_radial_bush",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.001240595882084,
+            3.8024809917640994,
+            8.000349163462158
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_friction_lining",
+          "material": "lining",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 0.8679065645055405,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.000000200000358,
+            1.0080577255749077,
+            26.008057725574904
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_flanged_trunnion",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 6.078585082637422,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.008703103977144,
+            19.178392259461194,
+            28.00004153180647
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.006216559983677,
+            1.5062165599836774,
+            20.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_spring_seat",
+          "material": "spring",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.006216559983677,
+            0.5062165599836774,
+            20.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_spring_a_0",
+          "material": "spring",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.32540852325332087,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.038146468506959,
+            0.6261464685069598,
+            12.034416652516756
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_spring_b_0",
+          "material": "spring",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3254085232533209,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.038146468506959,
+            0.6261464685069598,
+            12.034416652516756
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_key_clamp_screw",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183867,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.001038321914955,
+            3.8011813083969095,
+            3.800000200000007
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_key_clamp_nut",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.601035794067542,
+            4.000000200000009,
+            4.6188023535170135
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983088,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.00090374391139,
+            3.0045628780669205,
+            15.400000200000061
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_axial_retainer_screw",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795376,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995511,
+            11.001321176496534,
+            5.500000200000001
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_washer_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994294,
+            0.502175925994294,
+            7.000000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_screw_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995516,
+            13.001321176496537,
+            5.500000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_nut_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085889,
+            2.400808326797879,
+            5.500000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_washer_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994291,
+            0.5021759259942904,
+            7.000000200000008
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_screw_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995516,
+            13.001321176496537,
+            5.500000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__C_mount_nut_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085889,
+            2.400808326797879,
+            5.500000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_bearing_eye",
+          "material": "aluminum",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Same metal/POM bearing interface; two M3 mount ears",
+          "mass_g": 4.141497917681519,
+          "solid_count": 1,
+          "bbox_mm": [
+            16.004973287986953,
+            4.004973287986964,
+            47.000000200000166
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_radial_bush",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.001240595882084,
+            3.8024809917640994,
+            8.000349163462158
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_trunnion",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Inner D drive; outer 8mm D head matches existing magnetic coupling",
+          "mass_g": 1.8353024006303575,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.002797561992654,
+            19.002160782993187,
+            9.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_encoder_thrust_washer",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Nominal end-float .6mm before adjustment; no clutch spring load",
+          "mass_g": 0.024049205922495247,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.602984052792166,
+            0.5029840527921667,
+            9.600000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_D_magnet_carrier",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "mass_g": 1.5865060666303712,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.00272045630568,
+            8.203808058461686,
+            24.000000200000017
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "mass_g": 0.13224091737724789,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.00000020000001,
+            0.8110318738717268,
+            22.00000020000001
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.5301437602932776,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.001865107995103,
+            2.5018651079951013,
+            6.0000002000000014
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "mass_g": 2.2,
+          "solid_count": 7,
+          "bbox_mm": [
+            18.00000020000001,
+            7.176363166948445,
+            20.00000020000001
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007693,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.601429962796249,
+            6.0014299627962515,
+            4.600000200000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.04297698750110835,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            7.501069403714869,
+            4.000000200000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            5.401069403714864,
+            4.000000200000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.026484568547558023,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.026484568547558023,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007696,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.601429962796249,
+            6.0014299627962515,
+            4.600000200000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.04297698750110835,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            7.501069403714869,
+            4.000000200000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            5.401069403714864,
+            4.000000200000003
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.02648456854755803,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.02648456854755803,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.03406642542587857,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.415574035688186,
+            8.008234685560588,
+            4.414206436491778
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517011,
+            1.601035794067542,
+            4.000000200000007
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.034066425425878566,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.415574035688186,
+            8.008234685560588,
+            4.414206436491778
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517011,
+            1.601035794067542,
+            4.000000200000008
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3077755490868848,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.001007240115035,
+            3.601119144797064,
+            3.6000002000000078
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025495,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.6010357940675473,
+            4.618802353517017,
+            4.0000002000000086
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_washer_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994294,
+            0.502175925994294,
+            7.000000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_screw_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995516,
+            13.001321176496537,
+            5.500000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_nut_-1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085889,
+            2.400808326797879,
+            5.500000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_washer_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994294,
+            0.502175925994294,
+            7.000000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_screw_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 1.1143916365675965,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995516,
+            13.001321176496537,
+            5.500000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__E_mount_nut_1",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085889,
+            2.400808326797879,
+            5.500000200000009
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__printed_fixed_fork",
+          "material": "printed",
+          "owner": "upperarm",
+          "group": "elbow",
+          "note": "Metal bearing inserts bolt to four pads; two rear M3 ports; encoder side posts integrated",
+          "mass_g": 11.526040272516154,
+          "solid_count": 1,
+          "bbox_mm": [
+            40.802535750161105,
+            58.70219175238567,
+            48.001043947276145
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_screw_-4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.5233170794570268,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8000002000000017,
+            3.8011813083969,
+            16.001038321914947
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_nut_-4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025486,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517008,
+            4.000000200000003,
+            1.6010357940675384
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_screw_4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.5233170794570268,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.800000200000002,
+            3.8011813083969006,
+            16.001038321914947
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__hub_clamp_nut_4",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517008,
+            4.000000200000003,
+            1.6010357940675384
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__split_rotor_hub",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Inner D sockets plus two M2 clamps; dimensions provisional for PLA",
+          "mass_g": 2.214324207313242,
+          "solid_count": 1,
+          "bbox_mm": [
+            14.303205279360407,
+            14.006410358720807,
+            14.002058906732236
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_spacer_-11",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.08550158566009983,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.001554289995923,
+            2.001554289995923,
+            5.000000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_screw_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.4246710701343074,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8011813083969024,
+            12.001038321914947,
+            3.800000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_spacer_11",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "",
+          "mass_g": 0.08550158566009981,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.001554289995923,
+            2.001554289995923,
+            5.000000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__output_screw_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.4246710701343073,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8011813083969024,
+            12.001038321914947,
+            3.800000200000004
+          ],
+          "valid": true
+        },
+        {
+          "name": "elbow__printed_output_flange",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "elbow",
+          "note": "Two downstream M3 ports at (0,+/-11); central tool access to preload screw",
+          "mass_g": 3.560555449872527,
+          "solid_count": 1,
+          "bbox_mm": [
+            32.00994637597388,
+            4.0099463759738825,
+            32.0000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_bearing_eye",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 6.1551997599945665,
+          "solid_count": 1,
+          "bbox_mm": [
+            24.007273085863154,
+            5.007323551341127,
+            45.00000020000034
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_radial_bush",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.00124059588211,
+            3.8024809917641313,
+            8.000349163462204
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_friction_lining",
+          "material": "lining",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 0.5964897959860709,
+          "solid_count": 1,
+          "bbox_mm": [
+            24.000000200000187,
+            1.0066905932749002,
+            22.006690593274897
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_flanged_trunnion",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 4.736261081574806,
+          "solid_count": 1,
+          "bbox_mm": [
+            24.00745983198041,
+            18.928392259461198,
+            24.000137225296456
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.006216559983702,
+            1.5062165599837005,
+            20.000000200000017
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_spring_seat",
+          "material": "spring",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "bbox_mm": [
+            20.006216559983702,
+            0.5062165599836987,
+            20.000000200000017
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_spring_a_0",
+          "material": "spring",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.25422001408802186,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.541227023563534,
+            0.5042270235635371,
+            12.53734179857372
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_spring_b_0",
+          "material": "spring",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.2542200140880219,
+          "solid_count": 1,
+          "bbox_mm": [
+            12.541227023563534,
+            0.5042270235635371,
+            12.53734179857372
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_key_clamp_screw",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183871,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.001038321914976,
+            3.801181308396931,
+            3.800000200000028
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_key_clamp_nut",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.6010357940675615,
+            4.000000200000045,
+            4.61880235351704
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983094,
+          "solid_count": 1,
+          "bbox_mm": [
+            28.000903743911415,
+            3.0045628780669347,
+            15.400000200000065
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_axial_retainer_screw",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795376,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.50170969899554,
+            11.00132117649656,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_washer_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.119484978792144,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994313,
+            0.5021759259943117,
+            7.000000200000045
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_screw_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995534,
+            13.001321176496557,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_nut_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.39352948441755164,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085911,
+            2.4008083267979146,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_washer_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.119484978792144,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994314,
+            0.5021759259943153,
+            7.000000200000045
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_screw_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995534,
+            13.001321176496557,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__C_mount_nut_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.39352948441755164,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085911,
+            2.4008083267979146,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_bearing_eye",
+          "material": "aluminum",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Same metal/POM bearing interface; two M3 mount ears",
+          "mass_g": 4.14149791768152,
+          "solid_count": 1,
+          "bbox_mm": [
+            16.004973287986953,
+            4.004973287986964,
+            47.00000020000016
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_radial_bush",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.10183218119827861,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.001240595882084,
+            3.8024809917640994,
+            8.000349163462147
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_trunnion",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Inner D drive; outer 8mm D head matches existing magnetic coupling",
+          "mass_g": 1.8353024006303575,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.002797561992654,
+            19.002160782993187,
+            9.000000199999988
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_encoder_thrust_washer",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Nominal end-float .6mm before adjustment; no clutch spring load",
+          "mass_g": 0.024049205922495247,
+          "solid_count": 1,
+          "bbox_mm": [
+            9.602984052792166,
+            0.5029840527921667,
+            9.600000199999982
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_D_magnet_carrier",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "mass_g": 1.5865060666303714,
+          "solid_count": 1,
+          "bbox_mm": [
+            18.00272045630568,
+            8.203808058461686,
+            24.000000200000017
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "mass_g": 0.13224091737724789,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.00000020000001,
+            0.8110318738717268,
+            22.000000200000017
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.5301437602932777,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.001865107995103,
+            2.5018651079951013,
+            6.0000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "mass_g": 2.2,
+          "solid_count": 7,
+          "bbox_mm": [
+            18.00000020000001,
+            7.176363166948445,
+            20.000000200000017
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007692,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.601429962796249,
+            6.0014299627962515,
+            4.600000199999982
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.04297698750110833,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            7.501069403714869,
+            4.000000199999988
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.034381590000886655,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            5.401069403714864,
+            4.000000199999988
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558023,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558023,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007695,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.601429962796249,
+            6.0014299627962515,
+            4.600000199999982
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.04297698750110833,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            7.501069403714869,
+            4.000000199999988
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.034381590000886655,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.001243471996738,
+            5.401069403714864,
+            4.000000199999988
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558016,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.026484568547558016,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.002486743993472,
+            0.5024867439934724,
+            8.000000200000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.03406642542587855,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.415574035688186,
+            8.008234685560588,
+            4.4142064364917815
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.021133968921438286,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517011,
+            1.601035794067542,
+            4.0000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.03406642542587855,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.415574035688186,
+            8.008234685560588,
+            4.4142064364917815
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.021133968921438286,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517011,
+            1.601035794067542,
+            4.0000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.3077755490868847,
+          "solid_count": 1,
+          "bbox_mm": [
+            8.001007240115035,
+            3.601119144797064,
+            3.600000200000011
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.14552776845025492,
+          "solid_count": 1,
+          "bbox_mm": [
+            1.6010357940675473,
+            4.618802353517017,
+            4.0000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_washer_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.11948497879214397,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994314,
+            0.5021759259943153,
+            7.000000200000038
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_screw_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995534,
+            13.001321176496557,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_nut_-1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085911,
+            2.4008083267979146,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_washer_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.11948497879214397,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.002175925994314,
+            0.5021759259943153,
+            7.000000200000045
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_screw_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 1.1143916365675968,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.501709698995534,
+            13.001321176496557,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__E_mount_nut_1",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.39352948441755164,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350853161085911,
+            2.4008083267979146,
+            5.5000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__printed_fixed_fork",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "wrist",
+          "note": "Metal bearing inserts bolt to four pads; two rear M3 ports; encoder side posts integrated",
+          "mass_g": 11.526040272516155,
+          "solid_count": 1,
+          "bbox_mm": [
+            40.80253575016111,
+            58.70219175238567,
+            48.001043947276166
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_screw_-4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.5233170794570268,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8000002000000017,
+            3.8011813083969,
+            16.001038321914947
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_nut_-4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.1455277684502547,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517035,
+            4.00000020000003,
+            1.601035794067542
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_screw_4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.5233170794570268,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.800000200000002,
+            3.8011813083969006,
+            16.001038321914947
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__hub_clamp_nut_4",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.1455277684502547,
+          "solid_count": 1,
+          "bbox_mm": [
+            4.618802353517035,
+            4.00000020000003,
+            1.601035794067542
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__split_rotor_hub",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Inner D sockets plus two M2 clamps; dimensions provisional for PLA",
+          "mass_g": 2.2143242073132434,
+          "solid_count": 1,
+          "bbox_mm": [
+            14.303205279360425,
+            14.00641035872082,
+            14.002058906732245
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_spacer_-11",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.08550158566009981,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.001554289995941,
+            2.001554289995944,
+            5.0000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_screw_-11",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.42467107013430716,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8011813083969272,
+            12.001038321914969,
+            3.800000200000028
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_spacer_11",
+          "material": "aluminum",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "",
+          "mass_g": 0.08550158566009981,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.001554289995941,
+            2.001554289995944,
+            5.0000002000000165
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__output_screw_11",
+          "material": "fastener",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "M2x10; engages tapped metal cap; tip clearance explicitly checked",
+          "mass_g": 0.42467107013430716,
+          "solid_count": 1,
+          "bbox_mm": [
+            3.8011813083969272,
+            12.001038321914969,
+            3.800000200000028
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist__printed_output_flange",
+          "material": "printed",
+          "owner": "hand",
+          "group": "wrist",
+          "note": "Two downstream M3 ports at (0,+/-11); central tool access to preload screw",
+          "mass_g": 3.5605554498725267,
+          "solid_count": 1,
+          "bbox_mm": [
+            32.00994637597391,
+            4.009946375973911,
+            32.000000200000045
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_washer_-12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_screw_-12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.447321918031775,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_nut_-12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.39352948441755176,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085884
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_washer_12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_screw_12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.447321918031775,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "upper_attach_nut_12",
+          "material": "fastener",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.39352948441755176,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085884
+          ],
+          "valid": true
+        },
+        {
+          "name": "upperarm_datum_link",
+          "material": "printed",
+          "owner": "upperarm",
+          "group": "arm",
+          "note": "Shoulder reference interface remains provisional; exact upper-arm length preserved",
+          "mass_g": 22.622323666412083,
+          "solid_count": 1,
+          "bbox_mm": [
+            68.0,
+            35.0,
+            108.30117670694983
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_screw_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.3363451575437155,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            17.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_nut_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.3999999999999986,
+            5.500000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_washer_-11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_screw_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.3363451575437155,
+          "solid_count": 1,
+          "bbox_mm": [
+            5.5,
+            17.0,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_nut_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.3935294844175517,
+          "solid_count": 1,
+          "bbox_mm": [
+            6.350852961085883,
+            2.3999999999999986,
+            5.500000000000002
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_out_washer_11",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214402,
+          "solid_count": 1,
+          "bbox_mm": [
+            7.0,
+            0.5,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_washer_-12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_screw_-12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.4473219180317753,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_nut_-12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.39352948441755176,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085877
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_washer_12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.11948497879214405,
+          "solid_count": 1,
+          "bbox_mm": [
+            0.5,
+            7.0,
+            7.0
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_screw_12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 1.4473219180317753,
+          "solid_count": 1,
+          "bbox_mm": [
+            19.0,
+            5.5,
+            5.5
+          ],
+          "valid": true
+        },
+        {
+          "name": "wrist_in_nut_12",
+          "material": "fastener",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "",
+          "mass_g": 0.39352948441755176,
+          "solid_count": 1,
+          "bbox_mm": [
+            2.3999999999999986,
+            5.5,
+            6.350852961085877
+          ],
+          "valid": true
+        },
+        {
+          "name": "forearm_return_link",
+          "material": "printed",
+          "owner": "forearm",
+          "group": "arm",
+          "note": "Variant-specific forearm length; detachable connections; central joint centres unchanged",
+          "mass_g": 25.459669709267537,
+          "solid_count": 1,
+          "bbox_mm": [
+            63.0,
+            58.676,
+            122.9838651021322
+          ],
+          "valid": true
+        }
+      ],
+      "meta": {
+        "upper_arm_mm": 90.30117670694983,
+        "forearm_mm": 86.9838651021322,
+        "elbow_angle_deg": 0,
+        "wrist_flex_deg": 0,
+        "shoulder_reference_mm": [
+          0,
+          0,
+          90.30117670694983
+        ],
+        "elbow_centre_mm": [
+          0,
+          0,
+          0
+        ],
+        "wrist_centre_mm": [
+          0.0,
+          0.0,
+          -86.9838651021322
+        ],
+        "populated_axes": [
+          "elbow_l.flex",
+          "hand_l.flex"
+        ],
+        "remaining_arm_axes": "shoulder 3, forearm twist 1, wrist deviation 1, plus shoulder girdle 2; not yet integrated"
+      },
+      "mass_g": 177.21262115239577,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "elbow__C_flanged_trunnion",
+          "b": "elbow__C_axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_key_clamp_screw",
+          "b": "elbow__C_key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_keyed_stop_cap",
+          "b": "elbow__output_screw_-11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_keyed_stop_cap",
+          "b": "elbow__output_screw_11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_mount_screw_-1",
+          "b": "elbow__C_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__C_mount_screw_1",
+          "b": "elbow__C_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer0",
+          "b": "elbow__E_nylon_M2x6_top_screw0",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer0",
+          "b": "elbow__E_nylon_M2x4_board_screw0",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer1",
+          "b": "elbow__E_nylon_M2x6_top_screw1",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2_female_spacer1",
+          "b": "elbow__E_nylon_M2x4_board_screw1",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2x8_cap_screw0",
+          "b": "elbow__E_nylon_M2_cap_nut0",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_nylon_M2x8_cap_screw1",
+          "b": "elbow__E_nylon_M2_cap_nut1",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_M2_magnet_set_screw",
+          "b": "elbow__E_M2_magnet_set_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_mount_screw_-1",
+          "b": "elbow__E_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__E_mount_screw_1",
+          "b": "elbow__E_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__hub_clamp_screw_-4",
+          "b": "elbow__hub_clamp_nut_-4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "elbow__hub_clamp_screw_4",
+          "b": "elbow__hub_clamp_nut_4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_flanged_trunnion",
+          "b": "wrist__C_axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_key_clamp_screw",
+          "b": "wrist__C_key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_keyed_stop_cap",
+          "b": "wrist__output_screw_-11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_keyed_stop_cap",
+          "b": "wrist__output_screw_11",
+          "mm3": 3.39292,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_mount_screw_-1",
+          "b": "wrist__C_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__C_mount_screw_1",
+          "b": "wrist__C_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer0",
+          "b": "wrist__E_nylon_M2x6_top_screw0",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer0",
+          "b": "wrist__E_nylon_M2x4_board_screw0",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer1",
+          "b": "wrist__E_nylon_M2x6_top_screw1",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2_female_spacer1",
+          "b": "wrist__E_nylon_M2x4_board_screw1",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2x8_cap_screw0",
+          "b": "wrist__E_nylon_M2_cap_nut0",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_nylon_M2x8_cap_screw1",
+          "b": "wrist__E_nylon_M2_cap_nut1",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_M2_magnet_set_screw",
+          "b": "wrist__E_M2_magnet_set_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_mount_screw_-1",
+          "b": "wrist__E_mount_nut_-1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__E_mount_screw_1",
+          "b": "wrist__E_mount_nut_1",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__hub_clamp_screw_-4",
+          "b": "wrist__hub_clamp_nut_-4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "wrist__hub_clamp_screw_4",
+          "b": "wrist__hub_clamp_nut_4",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "upper_attach_screw_-12",
+          "b": "upper_attach_nut_-12",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "upper_attach_screw_12",
+          "b": "upper_attach_nut_12",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "forearm_out_screw_-11",
+          "b": "forearm_out_nut_-11",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "forearm_out_screw_11",
+          "b": "forearm_out_nut_11",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist_in_screw_-12",
+          "b": "wrist_in_nut_-12",
+          "mm3": 4.2223,
+          "same_owner": true
+        },
+        {
+          "a": "wrist_in_screw_12",
+          "b": "wrist_in_nut_12",
+          "mm3": 4.2223,
+          "same_owner": true
+        }
+      ],
+      "pose_checks": [
+        {
+          "elbow_deg": 0.0,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 0.0,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 0.0,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 45,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 86.98386510213221
+        },
+        {
+          "elbow_deg": 45,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 86.98386510213221
+        },
+        {
+          "elbow_deg": 45,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 86.98386510213221
+        },
+        {
+          "elbow_deg": 90,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 90,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 90,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 135,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 135,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 135,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 145.0,
+          "wrist_deg": -65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 145.0,
+          "wrist_deg": 0.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        },
+        {
+          "elbow_deg": 145.0,
+          "wrist_deg": 65.0,
+          "hits": [],
+          "forearm_length_mm": 86.9838651021322
+        }
+      ]
+    }
+  },
+  "sampled_elbow_angles_deg": [
+    0.0,
+    45,
+    90,
+    135,
+    145.0
+  ],
+  "sampled_wrist_angles_deg": [
+    -65.0,
+    0.0,
+    65.0
+  ]
+}

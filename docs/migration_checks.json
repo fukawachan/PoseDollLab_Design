@@ -1,0 +1,114 @@
+{
+  "checked_utc": "2026-09-23T07:07:39.053473+00:00",
+  "migration_files": 18285,
+  "migration_bytes": 6872350860,
+  "pre_edit_move_hash_check": "PASS",
+  "current_geometry_source_hashes": {
+    "files": 69,
+    "status": "PASS"
+  },
+  "software_compatibility_snapshot": {
+    "files": 30,
+    "status": "PASS"
+  },
+  "python_tests": {
+    "passed": 81,
+    "failed": 0
+  },
+  "C_tests": {
+    "scenarios_passed": 9,
+    "C_Python_golden_bytes_identical": true
+  },
+  "source_only_git_index_checkout": {
+    "status": "PASS",
+    "python_tests_passed": 81,
+    "C_scenarios_passed": 9,
+    "C_Python_golden_match": true,
+    "note": "Tests run in a checkout created only from staged Git files; shared the new checkout Python environment, no large local exports or firmware caches copied."
+  },
+  "CAD_load_and_revision_application": {
+    "status": "PASS",
+    "characters": [
+      {
+        "character": "manny",
+        "parts": 1994,
+        "source_matches": true,
+        "shoulder_relief": [
+          {
+            "part": "l_abduct_ring_and_twist_seat",
+            "owner": "upperarm_l.abduct_frame",
+            "removed_volume_mm3": 0.6354166670057566,
+            "original_volume_mm3": 3538.294014831178,
+            "only_subtraction": true,
+            "one_valid_solid": true,
+            "protected_radius_mm": 9.5,
+            "nominal_extra_stop_approach_deg": 0.0
+          }
+        ]
+      },
+      {
+        "character": "quinn",
+        "parts": 1994,
+        "source_matches": true,
+        "shoulder_relief": [
+          {
+            "part": "l_abduct_ring_and_twist_seat",
+            "owner": "upperarm_l.abduct_frame",
+            "removed_volume_mm3": 0.6354166668979815,
+            "original_volume_mm3": 3538.294014825509,
+            "only_subtraction": true,
+            "one_valid_solid": true,
+            "protected_radius_mm": 9.5,
+            "nominal_extra_stop_approach_deg": 0.0
+          }
+        ]
+      }
+    ],
+    "scope": "Existing source-matched model caches loaded from the new directory; N1 deletion and local relief reapplied in memory. No full collision or physical validation repeated."
+  },
+  "browser": {
+    "status": "PASS",
+    "console_errors": [],
+    "horizontal_overflow": false,
+    "model_checks": [
+      {
+        "model": "manny",
+        "pose": "arms_forward",
+        "parts": 1994,
+        "report_matches": true
+      },
+      {
+        "model": "manny",
+        "pose": "hands_behind_lower_back",
+        "parts": 1994,
+        "report_matches": true
+      },
+      {
+        "model": "quinn",
+        "pose": "arms_forward",
+        "parts": 1994,
+        "report_matches": true
+      },
+      {
+        "model": "quinn",
+        "pose": "hands_behind_lower_back",
+        "parts": 1994,
+        "report_matches": true
+      }
+    ],
+    "STEP_and_BOM_HTTP_links": "PASS"
+  },
+  "git_policy": {
+    "largest_pre_report_staged_file_bytes": 10884091,
+    "no_file_at_or_above_50MB": true,
+    "environment_build_cache_and_JAR_excluded": true,
+    "required_geometry_input_closure": "PASS"
+  },
+  "original_UE_repository": {
+    "only_preexisting_change": "Config/DefaultEditor.ini",
+    "hardware_source_directories_removed": true,
+    "UE_plugin_and_simulator_unchanged": true
+  },
+  "remote_configured": false,
+  "pushed": false
+}

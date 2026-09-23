@@ -1,0 +1,3 @@
+# Versions matched to the validated software compatibility snapshot.
+numpy==2.5.3
+pytest==9.1.1

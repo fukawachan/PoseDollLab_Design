@@ -1,0 +1,2064 @@
+{
+  "status": "FORK_COMPONENT_DEVELOPMENT_NOT_MANUFACTURING_RELEASE",
+  "physical_tested": false,
+  "source_sha256": "618b0694a1879d11f39b40595b96ee6d7a2c59e867863cb55dd72263aceb5c77",
+  "spring_source": "https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf",
+  "thrust_washer_source": "https://cdn.skfmediahub.skf.com/api/public/0901d19680090e01/pdf_preview_medium/0901d19680090e01_pdf_preview_medium.pdf",
+  "thrust_washer_candidate": "PCMW 102001.5 E",
+  "material_density_note": "Composite washer mass conservatively approximates solid steel density; not a supplier weight.",
+  "units": "mm",
+  "families": {
+    "S6": {
+      "parts": [
+        {
+          "name": "bearing_eye",
+          "material": "aluminum",
+          "owner": "fixed",
+          "group": "friction_S6",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 6.155199759994568,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            24.0,
+            45.0,
+            5.0
+          ]
+        },
+        {
+          "name": "radial_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "friction_S6",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.1018321811982786,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            9.0,
+            8.0,
+            3.8000000000000003
+          ]
+        },
+        {
+          "name": "friction_lining",
+          "material": "lining",
+          "owner": "fixed",
+          "group": "friction_S6",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 0.5964897959860708,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            24.0,
+            22.0,
+            1.0
+          ]
+        },
+        {
+          "name": "flanged_trunnion",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 4.736261081574807,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            24.0,
+            24.0,
+            18.926000000000002
+          ]
+        },
+        {
+          "name": "thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "fixed",
+          "group": "friction_S6",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            1.5
+          ]
+        },
+        {
+          "name": "spring_seat",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            0.5
+          ]
+        },
+        {
+          "name": "spring_a_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "",
+          "mass_g": 0.254220014088022,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            12.5,
+            12.5,
+            0.4630000000000001
+          ]
+        },
+        {
+          "name": "spring_b_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "",
+          "mass_g": 0.254220014088022,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            12.5,
+            12.5,
+            0.4630000000000001
+          ]
+        },
+        {
+          "name": "key_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183866,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            3.8000000000000003,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "key_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.618802153517006,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983092,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            15.400000000000002,
+            3.000000000000008
+          ]
+        },
+        {
+          "name": "axial_retainer_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_S6",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795374,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            11.0
+          ]
+        }
+      ],
+      "mass_g": 19.449411248836377,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "flanged_trunnion",
+          "b": "axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "key_clamp_screw",
+          "b": "key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": []
+        },
+        {
+          "angle_deg": 210,
+          "hits": []
+        },
+        {
+          "angle_deg": 240,
+          "hits": []
+        },
+        {
+          "angle_deg": 270,
+          "hits": []
+        },
+        {
+          "angle_deg": 300,
+          "hits": []
+        },
+        {
+          "angle_deg": 330,
+          "hits": []
+        }
+      ],
+      "spec": {
+        "shaft": 6,
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "s": 0.338,
+        "test": 0.463,
+        "F": 151,
+        "parallel": 1
+      },
+      "spring_count": 2,
+      "nominal_force_N": 151,
+      "active_friction_faces": 1,
+      "friction_estimate_Nm_mu_0p15": 0.18291,
+      "thrust_washer_pressure_MPa": 0.6408639041833653
+    },
+    "M6": {
+      "parts": [
+        {
+          "name": "bearing_eye",
+          "material": "aluminum",
+          "owner": "fixed",
+          "group": "friction_M6",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 7.602113858144229,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            45.0,
+            5.0
+          ]
+        },
+        {
+          "name": "radial_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "friction_M6",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.1018321811982786,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            9.0,
+            8.0,
+            3.8000000000000003
+          ]
+        },
+        {
+          "name": "friction_lining",
+          "material": "lining",
+          "owner": "fixed",
+          "group": "friction_M6",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 0.8679065645055405,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            26.0,
+            1.0
+          ]
+        },
+        {
+          "name": "flanged_trunnion",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 6.078585082637422,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            28.0,
+            19.176000000000002
+          ]
+        },
+        {
+          "name": "thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "fixed",
+          "group": "friction_M6",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            1.5
+          ]
+        },
+        {
+          "name": "spring_seat",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            0.5
+          ]
+        },
+        {
+          "name": "spring_a_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "",
+          "mass_g": 0.3254085232533208,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            12.0,
+            12.0,
+            0.5880000000000001
+          ]
+        },
+        {
+          "name": "spring_b_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "",
+          "mass_g": 0.32540852325332104,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            12.0,
+            12.0,
+            0.5880000000000001
+          ]
+        },
+        {
+          "name": "key_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183866,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            3.8000000000000003,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "key_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.618802153517006,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983086,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            15.400000000000002,
+            3.0000000000000018
+          ]
+        },
+        {
+          "name": "axial_retainer_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_M6",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795374,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            11.0
+          ]
+        }
+      ],
+      "mass_g": 22.652443134898718,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "flanged_trunnion",
+          "b": "axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "key_clamp_screw",
+          "b": "key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": []
+        },
+        {
+          "angle_deg": 210,
+          "hits": []
+        },
+        {
+          "angle_deg": 240,
+          "hits": []
+        },
+        {
+          "angle_deg": 270,
+          "hits": []
+        },
+        {
+          "angle_deg": 300,
+          "hits": []
+        },
+        {
+          "angle_deg": 330,
+          "hits": []
+        }
+      ],
+      "spec": {
+        "shaft": 6,
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "s": 0.263,
+        "test": 0.588,
+        "F": 326,
+        "parallel": 1
+      },
+      "spring_count": 2,
+      "nominal_force_N": 326,
+      "active_friction_faces": 1,
+      "friction_estimate_Nm_mu_0p15": 0.4558471345029241,
+      "thrust_washer_pressure_MPa": 1.3835869719455436
+    },
+    "H6": {
+      "parts": [
+        {
+          "name": "bearing_eye",
+          "material": "aluminum",
+          "owner": "fixed",
+          "group": "friction_H6",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 10.802432606846944,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            34.0,
+            51.0,
+            5.0
+          ]
+        },
+        {
+          "name": "radial_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "friction_H6",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.1018321811982786,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            9.0,
+            8.0,
+            3.8000000000000003
+          ]
+        },
+        {
+          "name": "friction_lining",
+          "material": "lining",
+          "owner": "fixed",
+          "group": "friction_H6",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 1.3598626282685968,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            34.0,
+            32.0,
+            1.0
+          ]
+        },
+        {
+          "name": "flanged_trunnion",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 8.460414968883008,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            34.0,
+            34.0,
+            19.375999999999998
+          ]
+        },
+        {
+          "name": "thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "fixed",
+          "group": "friction_H6",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            1.5
+          ]
+        },
+        {
+          "name": "spring_seat",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.1145765978350768,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            0.5
+          ]
+        },
+        {
+          "name": "spring_a_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "",
+          "mass_g": 0.3904902279039849,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            12.0,
+            12.0,
+            0.6879999999999997
+          ]
+        },
+        {
+          "name": "spring_b_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "",
+          "mass_g": 0.39049022790398513,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            12.0,
+            12.0,
+            0.6879999999999997
+          ]
+        },
+        {
+          "name": "key_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183866,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            3.8000000000000003,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "key_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "",
+          "mass_g": 0.14552776845025486,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.618802153517006,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.7582815218983088,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            15.400000000000002,
+            3.0000000000000018
+          ]
+        },
+        {
+          "name": "axial_retainer_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_H6",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.0034148760795374,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            11.0
+          ]
+        }
+      ],
+      "mass_g": 28.856711242911405,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "flanged_trunnion",
+          "b": "axial_retainer_screw",
+          "mm3": 15.11891,
+          "same_owner": true
+        },
+        {
+          "a": "key_clamp_screw",
+          "b": "key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": []
+        },
+        {
+          "angle_deg": 210,
+          "hits": []
+        },
+        {
+          "angle_deg": 240,
+          "hits": []
+        },
+        {
+          "angle_deg": 270,
+          "hits": []
+        },
+        {
+          "angle_deg": 300,
+          "hits": []
+        },
+        {
+          "angle_deg": 330,
+          "hits": []
+        }
+      ],
+      "spec": {
+        "shaft": 6,
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "s": 0.263,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 1
+      },
+      "spring_count": 2,
+      "nominal_force_N": 552,
+      "active_friction_faces": 1,
+      "friction_estimate_Nm_mu_0p15": 0.929364776119403,
+      "thrust_washer_pressure_MPa": 2.3427607623126994
+    },
+    "L8": {
+      "parts": [
+        {
+          "name": "bearing_eye",
+          "material": "aluminum",
+          "owner": "fixed",
+          "group": "friction_L8",
+          "note": "Metal fork insert; two M3 mounts; non-round bush pocket",
+          "mass_g": 15.715745918081243,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            42.0,
+            59.0,
+            5.0
+          ]
+        },
+        {
+          "name": "radial_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "friction_L8",
+          "note": "Finished bore shaft+0.06; shaped OD prevents bush rotation; no axial preload",
+          "mass_g": 0.12816047293356794,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            11.0,
+            10.0,
+            3.8000000000000003
+          ]
+        },
+        {
+          "name": "friction_lining",
+          "material": "lining",
+          "owner": "fixed",
+          "group": "friction_L8",
+          "note": "1mm unqualified friction lining; two tabs prevent slipping in housing",
+          "mass_g": 2.122123648249005,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            42.0,
+            40.0,
+            1.0
+          ]
+        },
+        {
+          "name": "flanged_trunnion",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "Smooth shaft; inner D drive; outer D key; blind thread; one active friction face",
+          "mass_g": 13.428541010893237,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            42.0,
+            42.0,
+            21.0
+          ]
+        },
+        {
+          "name": "thrust_wear_washer",
+          "material": "ptfe_composite",
+          "owner": "fixed",
+          "group": "friction_L8",
+          "note": "SKF PCMW102001.5 E dimensional candidate; steel-backed PTFE facing spring seat; counterface finish and availability require review",
+          "mass_g": 2.7567475535250434,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            1.5
+          ]
+        },
+        {
+          "name": "spring_seat",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "Axially loaded steel spring seat; nominally follows spring stack",
+          "mass_g": 1.025795189444629,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            20.0,
+            20.0,
+            0.5
+          ]
+        },
+        {
+          "name": "spring_a_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "",
+          "mass_g": 0.6808547563454104,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            15.0,
+            15.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "spring_b_0",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "",
+          "mass_g": 0.6808547563454102,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            15.0,
+            15.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "spring_a_1",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "",
+          "mass_g": 0.6808547563454102,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            15.0,
+            15.0,
+            0.7999999999999998
+          ]
+        },
+        {
+          "name": "spring_b_1",
+          "material": "spring",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "",
+          "mass_g": 0.6808547563454102,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            15.0,
+            15.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "key_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "M2x16 closes split D key cap; shaft retention uses separate axial screw",
+          "mass_g": 0.5726400841183865,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            3.8000000000000007,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "key_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "",
+          "mass_g": 0.14552776845025484,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.618802153517006,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "keyed_stop_cap",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "Split D key with M2 clamp reduces assembly clearance; cap shoulder seats on shaft end; preload tolerance/shims and reversal backlash require testing",
+          "mass_g": 1.9028858770064412,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            28.0,
+            17.4,
+            3.0
+          ]
+        },
+        {
+          "name": "axial_retainer_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "friction_L8",
+          "note": "M3x8 or M4x8; simplified thread envelope; removable thread retention method pending",
+          "mass_g": 1.9975816887850697,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            12.0
+          ]
+        }
+      ],
+      "mass_g": 42.519168236868516,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "flanged_trunnion",
+          "b": "axial_retainer_screw",
+          "mm3": 28.09369,
+          "same_owner": true
+        },
+        {
+          "a": "key_clamp_screw",
+          "b": "key_clamp_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": []
+        },
+        {
+          "angle_deg": 210,
+          "hits": []
+        },
+        {
+          "angle_deg": 240,
+          "hits": []
+        },
+        {
+          "angle_deg": 270,
+          "hits": []
+        },
+        {
+          "angle_deg": 300,
+          "hits": []
+        },
+        {
+          "angle_deg": 330,
+          "hits": []
+        }
+      ],
+      "spec": {
+        "shaft": 8,
+        "ro": 20,
+        "spring": "003800",
+        "de": 15,
+        "di": 8.2,
+        "t": 0.7,
+        "free": 1.1,
+        "s": 0.3,
+        "test": 0.8,
+        "F": 666,
+        "parallel": 2
+      },
+      "spring_count": 4,
+      "nominal_force_N": 1332,
+      "active_friction_faces": 1,
+      "friction_estimate_Nm_mu_0p15": 2.8020291633466132,
+      "thrust_washer_pressure_MPa": 5.653183578624122
+    },
+    "E6": {
+      "parts": [
+        {
+          "name": "encoder_bearing_eye",
+          "material": "aluminum",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "Same metal/POM bearing interface; two M3 mount ears",
+          "mass_g": 4.141497917681519,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            16.0,
+            47.0,
+            4.0
+          ]
+        },
+        {
+          "name": "encoder_radial_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.1018321811982786,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            9.0,
+            8.0,
+            3.8000000000000003
+          ]
+        },
+        {
+          "name": "encoder_trunnion",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "Inner D drive; outer 8mm D head matches existing magnetic coupling",
+          "mass_g": 1.8353024006303575,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            9.0,
+            9.0,
+            19.0
+          ]
+        },
+        {
+          "name": "encoder_thrust_washer",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "Nominal end-float .6mm before adjustment; no clutch spring load",
+          "mass_g": 0.024049205922495216,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            9.6,
+            9.6,
+            0.5
+          ]
+        },
+        {
+          "name": "D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "mass_g": 1.5865060666303712,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "name": "magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "mass_g": 0.13224091737724789,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.5301437602932776,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "name": "AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "mass_g": 2.2,
+          "solid_count": 7,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.1750000000000025
+          ]
+        },
+        {
+          "name": "nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007693,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.042976987501108364,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.026484568547558027,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.026484568547558027,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007696,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.042976987501108364,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.026484568547558034,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.026484568547558034,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.034066425425878566,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.000000000000002
+          ]
+        },
+        {
+          "name": "nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.034066425425878566,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.000000000000002
+          ]
+        },
+        {
+          "name": "nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.30777554908688487,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.6000000000000005
+          ]
+        },
+        {
+          "name": "M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "encoder_6",
+          "note": "",
+          "mass_g": 0.145527768450255,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        },
+        {
+          "name": "PCB_alignment_bridge",
+          "material": "printed",
+          "owner": "fixed",
+          "group": "encoder_6",
+          "note": "Separate adjustment bridge; final fork supports use two side mounting pads",
+          "mass_g": 1.0240830883986576,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            25.0,
+            14.0,
+            3.0
+          ]
+        }
+      ],
+      "mass_g": 12.599858065438355,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "nylon_M2_female_spacer0",
+          "b": "nylon_M2x6_top_screw0",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2_female_spacer0",
+          "b": "nylon_M2x4_board_screw0",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2_female_spacer1",
+          "b": "nylon_M2x6_top_screw1",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2_female_spacer1",
+          "b": "nylon_M2x4_board_screw1",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2x8_cap_screw0",
+          "b": "nylon_M2_cap_nut0",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2x8_cap_screw1",
+          "b": "nylon_M2_cap_nut1",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "M2_magnet_set_screw",
+          "b": "M2_magnet_set_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": []
+        },
+        {
+          "angle_deg": 210,
+          "hits": []
+        },
+        {
+          "angle_deg": 240,
+          "hits": []
+        },
+        {
+          "angle_deg": 270,
+          "hits": []
+        },
+        {
+          "angle_deg": 300,
+          "hits": []
+        },
+        {
+          "angle_deg": 330,
+          "hits": []
+        }
+      ]
+    },
+    "E8": {
+      "parts": [
+        {
+          "name": "encoder_bearing_eye",
+          "material": "aluminum",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "Same metal/POM bearing interface; two M3 mount ears",
+          "mass_g": 3.8349836975307108,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            16.0,
+            47.0,
+            4.0
+          ]
+        },
+        {
+          "name": "encoder_radial_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.12816047293356794,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            11.0,
+            10.0,
+            3.8000000000000003
+          ]
+        },
+        {
+          "name": "encoder_trunnion",
+          "material": "aluminum",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "Inner D drive; outer 8mm D head matches existing magnetic coupling",
+          "mass_g": 2.78575387297247,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            11.0,
+            11.0,
+            19.0
+          ]
+        },
+        {
+          "name": "encoder_thrust_washer",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "Nominal end-float .6mm before adjustment; no clutch spring load",
+          "mass_g": 0.030137612485152246,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            11.6,
+            11.6,
+            0.5
+          ]
+        },
+        {
+          "name": "D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "mass_g": 1.5865060666303712,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "name": "magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "mass_g": 0.13224091737724789,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.5301437602932776,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "name": "AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "mass_g": 2.2,
+          "solid_count": 7,
+          "valid": true,
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.1750000000000025
+          ]
+        },
+        {
+          "name": "nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007693,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.042976987501108364,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.026484568547558027,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.026484568547558027,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "mass_g": 0.09992149594007696,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.042976987501108364,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "mass_g": 0.03438159000088667,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.026484568547558034,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.026484568547558034,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.034066425425878566,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.000000000000002
+          ]
+        },
+        {
+          "name": "nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.034066425425878566,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.000000000000002
+          ]
+        },
+        {
+          "name": "nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.021133968921438293,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.30777554908688487,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.6000000000000005
+          ]
+        },
+        {
+          "name": "M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "group": "encoder_8",
+          "note": "",
+          "mass_g": 0.145527768450255,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        },
+        {
+          "name": "PCB_alignment_bridge",
+          "material": "printed",
+          "owner": "fixed",
+          "group": "encoder_8",
+          "note": "Separate adjustment bridge; final fork supports use two side mounting pads",
+          "mass_g": 1.0240830883986576,
+          "solid_count": 1,
+          "valid": true,
+          "bbox_mm": [
+            25.0,
+            14.0,
+            3.0
+          ]
+        }
+      ],
+      "mass_g": 13.276212015927605,
+      "unplanned_assembly_hits": [],
+      "thread_envelope_hits": [
+        {
+          "a": "nylon_M2_female_spacer0",
+          "b": "nylon_M2x6_top_screw0",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2_female_spacer0",
+          "b": "nylon_M2x4_board_screw0",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2_female_spacer1",
+          "b": "nylon_M2x6_top_screw1",
+          "mm3": 2.26195,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2_female_spacer1",
+          "b": "nylon_M2x4_board_screw1",
+          "mm3": 2.71434,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2x8_cap_screw0",
+          "b": "nylon_M2_cap_nut0",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "nylon_M2x8_cap_screw1",
+          "b": "nylon_M2_cap_nut1",
+          "mm3": 1.39487,
+          "same_owner": true
+        },
+        {
+          "a": "M2_magnet_set_screw",
+          "b": "M2_magnet_set_nut",
+          "mm3": 1.39487,
+          "same_owner": true
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "hits": []
+        },
+        {
+          "angle_deg": 30,
+          "hits": []
+        },
+        {
+          "angle_deg": 60,
+          "hits": []
+        },
+        {
+          "angle_deg": 90,
+          "hits": []
+        },
+        {
+          "angle_deg": 120,
+          "hits": []
+        },
+        {
+          "angle_deg": 150,
+          "hits": []
+        },
+        {
+          "angle_deg": 180,
+          "hits": []
+        },
+        {
+          "angle_deg": 210,
+          "hits": []
+        },
+        {
+          "angle_deg": 240,
+          "hits": []
+        },
+        {
+          "angle_deg": 270,
+          "hits": []
+        },
+        {
+          "angle_deg": 300,
+          "hits": []
+        },
+        {
+          "angle_deg": 330,
+          "hits": []
+        }
+      ]
+    }
+  }
+}

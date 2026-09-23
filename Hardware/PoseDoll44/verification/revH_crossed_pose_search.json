@@ -1,0 +1,968 @@
+{
+  "coarse_candidates": 17,
+  "tested": [
+    {
+      "pose": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 105,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 43.341178454820295,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 11.2813,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 75.5068,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 55.9038,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 56.5976,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 77.3014,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 39.3473,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 161.3875,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 5.7196,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 74.901,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 58.6364,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 22.6188,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 23.9087,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 12.7421,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 12.3278,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 58.4257,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 52.674,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 37.0813,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 24.4783,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 35.809601679350806,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 86.1772,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 40.5347,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 146.8968,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 47.34515156982124,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 11.2813,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 75.5068,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 55.9038,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 56.5976,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 77.3014,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 39.3473,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 161.3875,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 5.7196,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 74.901,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 58.6364,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 22.6188,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 23.9087,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 12.7421,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 12.3278,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 58.4257,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 52.674,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 55,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 35.48443158231879,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 11.2813,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 75.5068,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 55.9038,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 56.5976,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 77.3014,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 39.3473,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 161.3875,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 5.7196,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 74.901,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 58.6364,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 22.6188,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 23.9087,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 12.7421,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 12.3278,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 58.4257,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 52.674,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 110.7873,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 106.8533,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 50,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 105,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 51.468039223740554,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 26.52,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 14.2579,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 38.2848,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 3.9527,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.273,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.0328,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 6.5606,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 50,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 65
+      },
+      "minimum_bone_segment_distance_mm": 43.560150403334774,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 26.52,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 14.2579,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 38.2848,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 3.9527,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.273,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.0328,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 6.5606,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 50,
+        "upperarm_r.flex": 55,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 105,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 43.34122196786114,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 26.52,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 14.2579,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 38.2848,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 3.9527,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.273,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.0328,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 6.5606,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 37.0789,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 24.4764,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 50,
+        "upperarm_r.flex": 55,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 35.80965063110262,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 86.1104,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 40.5347,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 146.8965,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 50,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 51.468039223740554,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 26.52,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 14.2579,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 38.2848,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 3.9527,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.273,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.0328,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 6.5606,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 80,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 35.48439588751796,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 2.7756,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 1.3928,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 79.8432,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 2.0377,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 17.0798,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_clavicle_output_frame",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 23.6658,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 46.419,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 23.5481,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_back",
+            "volume_mm3": 12.2028,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 25.4706,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 9.6907,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_back",
+            "volume_mm3": 6.3606,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 115.4023,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 24.3174,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_back",
+            "volume_mm3": 26.4898,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_elev_bush_43",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 21.6689,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 74.1877,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_shaft",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 31.4978,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 6.8803,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 62.1873,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 5.0772,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 31.8889,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 32.1077,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 130.6526,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 110.7872,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 106.8537,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 50,
+        "upperarm_r.flex": 55,
+        "elbow_l.flex": 130,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "minimum_bone_segment_distance_mm": 47.34519346481039,
+      "hits": {
+        "manny": [
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 26.52,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 14.2579,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_centreline_link",
+            "volume_mm3": 38.2848,
+            "reservation_involved": false
+          }
+        ],
+        "quinn": [
+          {
+            "a": "l_yaw_carriage",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 3.9527,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_fixed_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.273,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_friction",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 1.0328,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_elev_rotor_face",
+            "b": "l_arm_forearm_shell_front",
+            "volume_mm3": 6.5606,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 95,
+        "upperarm_r.flex": 40,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 65
+      },
+      "minimum_bone_segment_distance_mm": 40.164262198307696,
+      "hits": {
+        "manny": [],
+        "quinn": []
+      }
+    }
+  ],
+  "selected": {
+    "upperarm_l.flex": 95,
+    "upperarm_r.flex": 40,
+    "elbow_l.flex": 115,
+    "elbow_r.flex": 90,
+    "upperarm_l.abduct": -20,
+    "upperarm_r.abduct": -20,
+    "upperarm_l.twist": 65,
+    "upperarm_r.twist": 65
+  },
+  "scope": "Shoulder and arm CAD only; no torso surface, hand or head collision claim"
+}

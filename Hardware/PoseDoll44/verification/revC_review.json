@@ -1,0 +1,216 @@
+{
+  "recorded_at": "2026-09-20T16:05:19.191556+08:00",
+  "digital_checks_completed": true,
+  "manufacturing_release": false,
+  "physical_tests": "not_run_deferred",
+  "user_testing_requested_now": false,
+  "semantic_axes_preserved": 44,
+  "full_body_assembly_objects": 251,
+  "neutral_intersections": 0,
+  "motion_samples": 13,
+  "collision_free_samples": 12,
+  "retained_self_contact_cases": [
+    {
+      "name": "hip_abduction",
+      "count": 4,
+      "collisions": [
+        {
+          "a": "wrist_l__middle_yoke",
+          "b": "knee_l__input_fork",
+          "volume_mm3": 170.53
+        },
+        {
+          "a": "wrist_l__output_hub",
+          "b": "knee_l__input_fork",
+          "volume_mm3": 2.877
+        },
+        {
+          "a": "wrist_r__middle_yoke",
+          "b": "knee_r__input_fork",
+          "volume_mm3": 170.53
+        },
+        {
+          "a": "wrist_r__output_hub",
+          "b": "knee_r__input_fork",
+          "volume_mm3": 2.877
+        }
+      ]
+    }
+  ],
+  "H2_sweep_samples": 72,
+  "H2_unplanned_intersections": 0,
+  "H2_fixture_masses_g": {
+    "S": 137.80615537643388,
+    "M": 189.6024731021118,
+    "L": 279.02992551734735
+  },
+  "H2_copy_mass_g_rejected_for_integration": 7546.534453152826,
+  "load_scenarios": 357,
+  "sampled_mass_budget_g": 2010.3755392873306,
+  "maximum_sample_hold_target": {
+    "axis": "pelvis.pitch",
+    "max_gravity_nm": 1.6649379579706451,
+    "pose": "combined_random_097",
+    "downstream_mass_g": 1927.8907108388214,
+    "sizing_hold_target_nm": 2.5174069369559677,
+    "all_configuration_triangle_bound_nm": 4.590478224982031,
+    "bound_hold_target_nm": 6.905717337473046,
+    "candidate_clutch_family": "L",
+    "friction_outer_radius_mm": 27,
+    "friction_inner_radius_mm": 6.2,
+    "assumed_two_faces": true,
+    "preload_at_mu_015_N": 447.0171917490594,
+    "preload_at_mu_030_N": 223.5085958745297,
+    "grip_force_N": 22.885517608690616,
+    "grip_arm_mm": 110
+  },
+  "printable_mesh_checks": [
+    {
+      "path": "generated/revC/H2/L/H2L_D_magnet_carrier.stl",
+      "triangles": 7230,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.2
+      ],
+      "signed_volume_mm3": 1279.5435604106628
+    },
+    {
+      "path": "generated/revC/H2/L/H2L_magnet_retaining_bridge.stl",
+      "triangles": 1784,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8
+      ],
+      "signed_volume_mm3": 106.66633428219654
+    },
+    {
+      "path": "generated/revC/H2/L/H2L_pcb_carrier.stl",
+      "triangles": 3040,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        76.0,
+        75.97638,
+        3.0
+      ],
+      "signed_volume_mm3": 13429.076992901082
+    },
+    {
+      "path": "generated/revC/H2/L/H2L_split_output_lever.stl",
+      "triangles": 2568,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        105.0,
+        29.0,
+        8.0
+      ],
+      "signed_volume_mm3": 15314.115199026408
+    },
+    {
+      "path": "generated/revC/H2/M/H2M_D_magnet_carrier.stl",
+      "triangles": 7230,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.2
+      ],
+      "signed_volume_mm3": 1279.5435604106628
+    },
+    {
+      "path": "generated/revC/H2/M/H2M_magnet_retaining_bridge.stl",
+      "triangles": 1784,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8
+      ],
+      "signed_volume_mm3": 106.66633428219654
+    },
+    {
+      "path": "generated/revC/H2/M/H2M_pcb_carrier.stl",
+      "triangles": 3040,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        60.0,
+        59.981359999999995,
+        3.0
+      ],
+      "signed_volume_mm3": 8304.122061395992
+    },
+    {
+      "path": "generated/revC/H2/M/H2M_split_output_lever.stl",
+      "triangles": 2568,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        105.0,
+        29.0,
+        8.0
+      ],
+      "signed_volume_mm3": 15314.115199026408
+    },
+    {
+      "path": "generated/revC/H2/S/H2S_D_magnet_carrier.stl",
+      "triangles": 7230,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        18.0,
+        24.0,
+        8.2
+      ],
+      "signed_volume_mm3": 1279.5435604106628
+    },
+    {
+      "path": "generated/revC/H2/S/H2S_magnet_retaining_bridge.stl",
+      "triangles": 1784,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        7.0,
+        22.0,
+        0.8
+      ],
+      "signed_volume_mm3": 106.66633428219654
+    },
+    {
+      "path": "generated/revC/H2/S/H2S_pcb_carrier.stl",
+      "triangles": 3040,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        48.0,
+        47.985079999999996,
+        3.0
+      ],
+      "signed_volume_mm3": 5251.759690462492
+    },
+    {
+      "path": "generated/revC/H2/S/H2S_split_output_lever.stl",
+      "triangles": 2568,
+      "non_manifold_edges": 0,
+      "bbox_mm": [
+        105.0,
+        29.0,
+        8.0
+      ],
+      "signed_volume_mm3": 15314.115199026408
+    }
+  ],
+  "sensor_ERC_DRC_PARITY": "no_violations",
+  "remaining_design_work": [
+    "Integrate lighter friction cores with full-body fork structures, avoiding duplicated fixture frames.",
+    "Resolve true load/comfort requirements and full range/cable/hard-stop interference including final hardware.",
+    "Design fixed metal stand and grippable head/hands/feet interfaces.",
+    "Design the regional node/gateway/power boards and complete harness, firmware and end-to-end real 44-axis path.",
+    "Finalize machining drawings/tolerances, supplier parts and assembly/tool access before manufacturing release."
+  ],
+  "evidence_limits": [
+    "Full-body model does not yet contain the H2 fixtures, final friction cores, cables, fixed stand or final fasteners.",
+    "H2 thread envelopes overlap their explicit mating minor holes; only listed thread engagement pairs are excluded.",
+    "Geometry samples do not prove continuous clearances, structural strength, friction life, EMC or sensor accuracy.",
+    "Named body samples are preset angle groups, not verification of hand-to-head/hip contact or grip ergonomics.",
+    "No simulator/UE code was modified or UE real-hardware acceptance claimed."
+  ]
+}

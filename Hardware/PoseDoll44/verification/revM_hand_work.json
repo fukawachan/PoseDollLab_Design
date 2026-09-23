@@ -1,0 +1,340 @@
+{
+  "quinn": {
+    "meta": {
+      "character": "quinn",
+      "revision": "M-work",
+      "inherited_revision": "L",
+      "removed": [
+        "l_arm_coupling",
+        "l_arm_upperarm_centreline_fork",
+        "l_arm_forearm_centreline_link",
+        "l_arm_rotor_radial_bush",
+        "l_arm_friction_face_-6",
+        "l_arm_friction_face_5",
+        "l_arm_smooth_pivot_pin",
+        "l_arm_left_load_washer",
+        "l_arm_right_spring_seat",
+        "l_arm_spring_stack_reserved",
+        "l_arm_preload_cap_reserved",
+        "l_arm_preload_screw_reserved",
+        "l_arm_input_gear_reserved",
+        "l_arm_pickup_gear_reserved",
+        "l_arm_pickup_shaft_reserved",
+        "l_arm_magnet_reserved",
+        "l_arm_sensor_package_reserved",
+        "l_arm_sensor_PCB_reserved",
+        "l_arm_flat_cable_exit_reserved",
+        "r_arm_coupling",
+        "r_arm_upperarm_centreline_fork",
+        "r_arm_forearm_centreline_link",
+        "r_arm_rotor_radial_bush",
+        "r_arm_friction_face_-6",
+        "r_arm_friction_face_5",
+        "r_arm_smooth_pivot_pin",
+        "r_arm_left_load_washer",
+        "r_arm_right_spring_seat",
+        "r_arm_spring_stack_reserved",
+        "r_arm_preload_cap_reserved",
+        "r_arm_preload_screw_reserved",
+        "r_arm_input_gear_reserved",
+        "r_arm_pickup_gear_reserved",
+        "r_arm_pickup_shaft_reserved",
+        "r_arm_magnet_reserved",
+        "r_arm_sensor_package_reserved",
+        "r_arm_sensor_PCB_reserved",
+        "r_arm_flat_cable_exit_reserved"
+      ],
+      "channels": [
+        {
+          "axis_id": "elbow_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "upperarm_l",
+          "magnet_owner": "elbow_l",
+          "origin_neutral_mm": [
+            -24.436491606538127,
+            85.80173071106516,
+            585.7435507210259
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "forearm_l.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "elbow_l",
+          "magnet_owner": "forearm_l",
+          "origin_neutral_mm": [
+            -24.436491606538144,
+            80.27673071106514,
+            527.0294417770867
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "elbow_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "upperarm_r",
+          "magnet_owner": "elbow_r",
+          "origin_neutral_mm": [
+            -24.43649795702036,
+            -85.80149649139065,
+            585.7454860172566
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "forearm_r.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "elbow_r",
+          "magnet_owner": "forearm_r",
+          "origin_neutral_mm": [
+            -24.43649795702035,
+            -80.27649649139065,
+            527.0306217632588
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "forearm_l",
+          "magnet_owner": "hand_l.flex_frame",
+          "origin_neutral_mm": [
+            -24.436491606538155,
+            106.27673071106511,
+            455.26775306782764
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_l.deviate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "hand_l.flex_frame",
+          "magnet_owner": "hand_l",
+          "origin_neutral_mm": [
+            -10.436491606538155,
+            80.27673071106511,
+            455.26775306782764
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "forearm_r",
+          "magnet_owner": "hand_r.flex_frame",
+          "origin_neutral_mm": [
+            -24.43649795702034,
+            -106.27649649139065,
+            455.2680098972613
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_r.deviate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "hand_r.flex_frame",
+          "magnet_owner": "hand_r",
+          "origin_neutral_mm": [
+            -10.43649795702034,
+            -80.27649649139065,
+            455.2680098972613
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        }
+      ],
+      "stage": "complete_arm_geometry_candidate"
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "hits": [
+          {
+            "a": "hand_l_M_palm_rail",
+            "b": "hand_l_M_shell_front",
+            "owner_a": "hand_l",
+            "owner_b": "hand_l",
+            "volume_mm3": 48.8157
+          },
+          {
+            "a": "hand_l_M_palm_rail",
+            "b": "hand_l_M_shell_back",
+            "owner_a": "hand_l",
+            "owner_b": "hand_l",
+            "volume_mm3": 48.8157
+          },
+          {
+            "a": "hand_r_M_palm_rail",
+            "b": "hand_r_M_shell_front",
+            "owner_a": "hand_r",
+            "owner_b": "hand_r",
+            "volume_mm3": 48.8154
+          },
+          {
+            "a": "hand_r_M_palm_rail",
+            "b": "hand_r_M_shell_back",
+            "owner_a": "hand_r",
+            "owner_b": "hand_r",
+            "volume_mm3": 48.8157
+          }
+        ]
+      },
+      {
+        "pose": "elbows_145",
+        "angles_deg": {
+          "elbow_l.flex": 145,
+          "elbow_r.flex": 145
+        },
+        "hits": []
+      },
+      {
+        "pose": "wrist_max",
+        "angles_deg": {
+          "hand_l.flex": 65,
+          "hand_r.flex": -65,
+          "hand_l.deviate": 35,
+          "hand_r.deviate": -25
+        },
+        "hits": []
+      },
+      {
+        "pose": "forearm_twist",
+        "angles_deg": {
+          "elbow_l.flex": 90,
+          "elbow_r.flex": 90,
+          "forearm_l.twist": 90,
+          "forearm_r.twist": -90
+        },
+        "hits": []
+      }
+    ]
+  }
+}

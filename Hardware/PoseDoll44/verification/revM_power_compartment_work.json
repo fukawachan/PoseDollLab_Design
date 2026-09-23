@@ -1,0 +1,3246 @@
+{
+  "quinn": {
+    "power": {
+      "origin_mm": [
+        -105.0,
+        0.0,
+        480.47778335105454
+      ],
+      "PCB_mass_allowance_kg": 0.026,
+      "case_added_volume_mm3": 9100.36154888265,
+      "board_holes_yz_mm": [
+        [
+          -17,
+          -38
+        ],
+        [
+          -17,
+          17
+        ],
+        [
+          17,
+          -38
+        ],
+        [
+          17,
+          17
+        ]
+      ],
+      "PCB_plug_allocations": [
+        {
+          "node": 1,
+          "centre_local_mm": [
+            -28.6,
+            13.0,
+            10.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 2,
+          "centre_local_mm": [
+            -28.6,
+            -13.0,
+            10.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 3,
+          "centre_local_mm": [
+            -28.6,
+            13.0,
+            -5.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 4,
+          "centre_local_mm": [
+            -28.6,
+            -13.0,
+            -5.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 5,
+          "centre_local_mm": [
+            -28.6,
+            13.0,
+            -20.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 6,
+          "centre_local_mm": [
+            -28.6,
+            -13.0,
+            -20.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        }
+      ],
+      "power_input": "regulated 5 V / center positive / 5.5 OD plug / PJ-002AH socket",
+      "physical_tested": false
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "review": []
+      },
+      {
+        "pose": "relaxed",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "arms_forward",
+        "angles_deg": {
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "elbows_bent",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 145,
+          "elbow_r.flex": 145
+        },
+        "review": []
+      },
+      {
+        "pose": "sit",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": 90,
+          "thigh_r.flex": 90,
+          "calf_l.flex": 90,
+          "calf_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "trunk_bend",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": 40,
+          "chest.pitch": 30
+        },
+        "review": []
+      },
+      {
+        "pose": "trunk_extend",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": -20,
+          "chest.pitch": -20
+        },
+        "review": []
+      },
+      {
+        "pose": "hips_out",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": 65,
+          "thigh_r.abduct": 65
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_toe",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": -45,
+          "foot_r.dorsiflex": -45,
+          "ball_l.flex": 60,
+          "ball_r.flex": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_neutral",
+        "angles_deg": {},
+        "review": []
+      },
+      {
+        "pose": "functional_forward",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 0
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_backward",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": 0
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_shrug",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": 30
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_down",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": -15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_forward_up",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_back_down",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_asymmetric",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_forward",
+        "angles_deg": {
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_overhead",
+        "angles_deg": {
+          "upperarm_l.flex": 160,
+          "upperarm_r.flex": 160
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_side",
+        "angles_deg": {
+          "upperarm_l.abduct": 90,
+          "upperarm_r.abduct": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_hands_on_hips",
+        "angles_deg": {
+          "upperarm_l.abduct": 35,
+          "upperarm_r.abduct": 35,
+          "elbow_l.flex": 110,
+          "elbow_r.flex": 110,
+          "upperarm_l.twist": -40,
+          "upperarm_r.twist": -40
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_crossed",
+        "angles_deg": {
+          "upperarm_l.flex": 65,
+          "upperarm_r.flex": 65,
+          "upperarm_l.abduct": -20,
+          "upperarm_r.abduct": -20,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 115,
+          "upperarm_l.twist": 60,
+          "upperarm_r.twist": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_forehead",
+        "angles_deg": {
+          "upperarm_l.flex": 110,
+          "elbow_l.flex": 105,
+          "upperarm_l.twist": -30
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_forward_shrug_reach",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_elbows_closed",
+        "angles_deg": {
+          "elbow_l.flex": 145,
+          "elbow_r.flex": 145
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_down_arms_vertical",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": -15,
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_back_down_arms_clear",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "upperarm_l.abduct": 20,
+          "upperarm_r.abduct": 20
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_shrug_reach_parallel",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "upperarm_l.flex": 73.897886248,
+          "upperarm_l.abduct": 25.658906274,
+          "upperarm_r.flex": 73.897886248,
+          "upperarm_r.abduct": 25.658906274
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_crossed_staggered",
+        "angles_deg": {
+          "upperarm_l.flex": 80,
+          "upperarm_r.flex": 50,
+          "upperarm_l.abduct": -15,
+          "upperarm_r.abduct": -15,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 115,
+          "upperarm_l.twist": 60,
+          "upperarm_r.twist": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_crossed_clearance_candidate",
+        "angles_deg": {
+          "upperarm_l.flex": 60,
+          "upperarm_r.flex": 75,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 90,
+          "upperarm_l.abduct": -20,
+          "upperarm_r.abduct": -20,
+          "upperarm_l.twist": 65,
+          "upperarm_r.twist": 35
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_sitting",
+        "angles_deg": {
+          "thigh_l.flex": 90,
+          "thigh_r.flex": 90,
+          "calf_l.flex": 90,
+          "calf_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_crouch",
+        "angles_deg": {
+          "thigh_l.flex": 115,
+          "thigh_r.flex": 115,
+          "calf_l.flex": 135,
+          "calf_r.flex": 135,
+          "waist.pitch": 25
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_head_tilt",
+        "angles_deg": {
+          "head.roll": 30,
+          "head.pitch": 20
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_hip_abduction",
+        "angles_deg": {
+          "thigh_l.abduct": 60,
+          "thigh_r.abduct": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_palms_turn",
+        "angles_deg": {
+          "elbow_l.flex": 90,
+          "elbow_r.flex": 90,
+          "forearm_l.twist": 85,
+          "forearm_r.twist": -85
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.yaw": -35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.yaw": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.yaw": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": 10.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": 40.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.roll_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.roll": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.roll_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.roll": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.roll_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.roll": 25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.yaw": -35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.yaw": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.yaw": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.pitch": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.pitch": 4.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.pitch": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.roll_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.roll": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.roll_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.roll": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.roll_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.roll": 20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.yaw_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.yaw": -75.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.yaw_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.yaw": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.yaw_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.yaw": 75.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.pitch_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.pitch": -45.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.pitch_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.pitch": 5.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.pitch_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.pitch": 55.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.roll_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.roll": -35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.roll_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.roll": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.roll_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.roll": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.protract": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.protract": 4.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.protract": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.elevate": -14.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.elevate": 7.499999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.elevate": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.flex": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.flex": 55.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.flex": 160.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": -29.999999999999996,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 60.0,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 150.0,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_l.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_l.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_l.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.flex": -65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.flex": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.deviate": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.deviate": 5.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.deviate": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": -29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": 47.50000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": 125.00000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": 20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.twist": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.twist": 50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_l.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_l.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_l.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": -45.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": -7.500000000000002
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.invert": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.invert": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.invert": 25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_l.flex": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_l.flex": 19.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_l.flex": 59.99999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.protract": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.protract": 4.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.protract": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.elevate": -14.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.elevate": 7.499999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.elevate": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.flex": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.flex": 55.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.flex": 160.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": -29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 60.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 150.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_r.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_r.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_r.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_r.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_r.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_r.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.flex": -65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.flex": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.deviate": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.deviate": 5.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.deviate": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.flex": -29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.flex": 47.50000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.flex": 125.00000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.abduct": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.abduct": 20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.abduct": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.twist": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.twist": 50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_r.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_r.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_r.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.dorsiflex": -45.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.dorsiflex": -7.500000000000002
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.dorsiflex": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.invert": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.invert": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.invert": 25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_r.flex": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_r.flex": 19.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_r.flex": 59.99999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "wrist_l",
+        "angles_deg": {
+          "elbow_l.flex": 90,
+          "hand_l.flex": 65,
+          "hand_l.deviate": 35,
+          "forearm_l.twist": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_fold_l",
+        "angles_deg": {
+          "thigh_l.flex": 120,
+          "calf_l.flex": 145,
+          "foot_l.dorsiflex": 25
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_turn_l",
+        "angles_deg": {
+          "thigh_l.abduct": 65,
+          "thigh_l.twist": 50,
+          "calf_l.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "wrist_r",
+        "angles_deg": {
+          "elbow_r.flex": 90,
+          "hand_r.flex": 65,
+          "hand_r.deviate": 35,
+          "forearm_r.twist": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_fold_r",
+        "angles_deg": {
+          "thigh_r.flex": 120,
+          "calf_r.flex": 145,
+          "foot_r.dorsiflex": 25
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_turn_r",
+        "angles_deg": {
+          "thigh_r.abduct": 65,
+          "thigh_r.twist": 50,
+          "calf_r.flex": 90
+        },
+        "review": []
+      }
+    ]
+  },
+  "manny": {
+    "power": {
+      "origin_mm": [
+        -105.0,
+        0.0,
+        464.79619570812025
+      ],
+      "PCB_mass_allowance_kg": 0.026,
+      "case_added_volume_mm3": 9100.36154888264,
+      "board_holes_yz_mm": [
+        [
+          -17,
+          -38
+        ],
+        [
+          -17,
+          17
+        ],
+        [
+          17,
+          -38
+        ],
+        [
+          17,
+          17
+        ]
+      ],
+      "PCB_plug_allocations": [
+        {
+          "node": 1,
+          "centre_local_mm": [
+            -28.6,
+            13.0,
+            10.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 2,
+          "centre_local_mm": [
+            -28.6,
+            -13.0,
+            10.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 3,
+          "centre_local_mm": [
+            -28.6,
+            13.0,
+            -5.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 4,
+          "centre_local_mm": [
+            -28.6,
+            -13.0,
+            -5.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 5,
+          "centre_local_mm": [
+            -28.6,
+            13.0,
+            -20.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        },
+        {
+          "node": 6,
+          "centre_local_mm": [
+            -28.6,
+            -13.0,
+            -20.0
+          ],
+          "allocated_mm": [
+            8,
+            7.5,
+            10
+          ]
+        }
+      ],
+      "power_input": "regulated 5 V / center positive / 5.5 OD plug / PJ-002AH socket",
+      "physical_tested": false
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "review": []
+      },
+      {
+        "pose": "relaxed",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "arms_forward",
+        "angles_deg": {
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "elbows_bent",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 145,
+          "elbow_r.flex": 145
+        },
+        "review": []
+      },
+      {
+        "pose": "sit",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": 90,
+          "thigh_r.flex": 90,
+          "calf_l.flex": 90,
+          "calf_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "trunk_bend",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": 40,
+          "chest.pitch": 30
+        },
+        "review": []
+      },
+      {
+        "pose": "trunk_extend",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": -20,
+          "chest.pitch": -20
+        },
+        "review": []
+      },
+      {
+        "pose": "hips_out",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": 65,
+          "thigh_r.abduct": 65
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_toe",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": -45,
+          "foot_r.dorsiflex": -45,
+          "ball_l.flex": 60,
+          "ball_r.flex": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_neutral",
+        "angles_deg": {},
+        "review": []
+      },
+      {
+        "pose": "functional_forward",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 0
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_backward",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": 0
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_shrug",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": 30
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_down",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": -15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_forward_up",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_back_down",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_asymmetric",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_forward",
+        "angles_deg": {
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_overhead",
+        "angles_deg": {
+          "upperarm_l.flex": 160,
+          "upperarm_r.flex": 160
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_side",
+        "angles_deg": {
+          "upperarm_l.abduct": 90,
+          "upperarm_r.abduct": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_hands_on_hips",
+        "angles_deg": {
+          "upperarm_l.abduct": 35,
+          "upperarm_r.abduct": 35,
+          "elbow_l.flex": 110,
+          "elbow_r.flex": 110,
+          "upperarm_l.twist": -40,
+          "upperarm_r.twist": -40
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_arms_crossed",
+        "angles_deg": {
+          "upperarm_l.flex": 65,
+          "upperarm_r.flex": 65,
+          "upperarm_l.abduct": -20,
+          "upperarm_r.abduct": -20,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 115,
+          "upperarm_l.twist": 60,
+          "upperarm_r.twist": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_forehead",
+        "angles_deg": {
+          "upperarm_l.flex": 110,
+          "elbow_l.flex": 105,
+          "upperarm_l.twist": -30
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_forward_shrug_reach",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_elbows_closed",
+        "angles_deg": {
+          "elbow_l.flex": 145,
+          "elbow_r.flex": 145
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_down_arms_vertical",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": -15,
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_back_down_arms_clear",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "upperarm_l.abduct": 20,
+          "upperarm_r.abduct": 20
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_shrug_reach_parallel",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "upperarm_l.flex": 73.897886248,
+          "upperarm_l.abduct": 25.658906274,
+          "upperarm_r.flex": 73.897886248,
+          "upperarm_r.abduct": 25.658906274
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_crossed_staggered",
+        "angles_deg": {
+          "upperarm_l.flex": 80,
+          "upperarm_r.flex": 50,
+          "upperarm_l.abduct": -15,
+          "upperarm_r.abduct": -15,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 115,
+          "upperarm_l.twist": 60,
+          "upperarm_r.twist": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_crossed_clearance_candidate",
+        "angles_deg": {
+          "upperarm_l.flex": 60,
+          "upperarm_r.flex": 75,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 90,
+          "upperarm_l.abduct": -20,
+          "upperarm_r.abduct": -20,
+          "upperarm_l.twist": 65,
+          "upperarm_r.twist": 35
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_sitting",
+        "angles_deg": {
+          "thigh_l.flex": 90,
+          "thigh_r.flex": 90,
+          "calf_l.flex": 90,
+          "calf_r.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_crouch",
+        "angles_deg": {
+          "thigh_l.flex": 115,
+          "thigh_r.flex": 115,
+          "calf_l.flex": 135,
+          "calf_r.flex": 135,
+          "waist.pitch": 25
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_head_tilt",
+        "angles_deg": {
+          "head.roll": 30,
+          "head.pitch": 20
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_hip_abduction",
+        "angles_deg": {
+          "thigh_l.abduct": 60,
+          "thigh_r.abduct": 60
+        },
+        "review": []
+      },
+      {
+        "pose": "functional_palms_turn",
+        "angles_deg": {
+          "elbow_l.flex": 90,
+          "elbow_r.flex": 90,
+          "forearm_l.twist": 85,
+          "forearm_r.twist": -85
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.yaw": -35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.yaw": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.yaw": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": 10.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.pitch": 40.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.roll_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.roll": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.roll_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.roll": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "waist.roll_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "waist.roll": 25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.yaw": -35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.yaw": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.yaw": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.pitch": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.pitch": 4.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.pitch": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.roll_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.roll": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.roll_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.roll": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "chest.roll_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "chest.roll": 20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.yaw_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.yaw": -75.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.yaw_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.yaw": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.yaw_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.yaw": 75.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.pitch_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.pitch": -45.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.pitch_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.pitch": 5.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.pitch_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.pitch": 55.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.roll_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.roll": -35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.roll_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.roll": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "head.roll_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "head.roll": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.protract": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.protract": 4.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.protract": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.elevate": -14.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.elevate": 7.499999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_l.elevate": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.flex": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.flex": 55.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.flex": 160.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": -29.999999999999996,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 60.0,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 150.0,
+          "upperarm_r.abduct": 15
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_l.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_l.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_l.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_l.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_l.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.flex": -65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.flex": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.deviate": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.deviate": 5.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_l.deviate": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": -29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": 47.50000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.flex": 125.00000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": 20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.abduct": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.twist": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_l.twist": 50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_l.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_l.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_l.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": -45.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": -7.500000000000002
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.dorsiflex": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.invert": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.invert": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_l.invert": 25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_l.flex": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_l.flex": 19.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_l.flex": 59.99999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.protract": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.protract": 4.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.protract": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.elevate": -14.999999999999998
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.elevate": 7.499999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "clavicle_r.elevate": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.flex": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.flex": 55.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.flex": 160.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": -29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 60.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 150.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "upperarm_r.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_r.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_r.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "elbow_r.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_r.twist": -90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_r.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "forearm_r.twist": 90.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.flex": -65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.flex": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.deviate": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.deviate": 5.0
+        },
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "hand_r.deviate": 35.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.flex": -29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.flex": 47.50000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.flex": 125.00000000000001
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.abduct": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.abduct": 20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.abduct": 65.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.twist": -50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.twist": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "thigh_r.twist": 50.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_r.flex": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_r.flex": 72.5
+        },
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "calf_r.flex": 145.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.dorsiflex": -45.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.dorsiflex": -7.500000000000002
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.dorsiflex": 29.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.invert": -25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.invert": 0.0
+        },
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "foot_r.invert": 25.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_0",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_r.flex": -20.0
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_1",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_r.flex": 19.999999999999996
+        },
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_2",
+        "angles_deg": {
+          "upperarm_l.abduct": 15,
+          "upperarm_r.abduct": 15,
+          "ball_r.flex": 59.99999999999999
+        },
+        "review": []
+      },
+      {
+        "pose": "wrist_l",
+        "angles_deg": {
+          "elbow_l.flex": 90,
+          "hand_l.flex": 65,
+          "hand_l.deviate": 35,
+          "forearm_l.twist": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_fold_l",
+        "angles_deg": {
+          "thigh_l.flex": 120,
+          "calf_l.flex": 145,
+          "foot_l.dorsiflex": 25
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_turn_l",
+        "angles_deg": {
+          "thigh_l.abduct": 65,
+          "thigh_l.twist": 50,
+          "calf_l.flex": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "wrist_r",
+        "angles_deg": {
+          "elbow_r.flex": 90,
+          "hand_r.flex": 65,
+          "hand_r.deviate": 35,
+          "forearm_r.twist": 90
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_fold_r",
+        "angles_deg": {
+          "thigh_r.flex": 120,
+          "calf_r.flex": 145,
+          "foot_r.dorsiflex": 25
+        },
+        "review": []
+      },
+      {
+        "pose": "leg_turn_r",
+        "angles_deg": {
+          "thigh_r.abduct": 65,
+          "thigh_r.twist": 50,
+          "calf_r.flex": 90
+        },
+        "review": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,5737 @@
+{
+  "status": "DIGITAL_DEVELOPMENT_NOT_RELEASE",
+  "physical_tested": false,
+  "source_sha256": "a9ea86644751d01b4cb80b2ee6a4083b219310aa5b3d30ed58f9a49c6b97d45b",
+  "revC_clutch_sha256": "39f956a16cbc760301ff89fd85dc6707f3b906a78e5a62e082bba143a53bbca6",
+  "sensor_step_sha256": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+  "families": {
+    "S": {
+      "parts": [
+        {
+          "name": "D3S_shared_reaction_bearing",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Shared radial bearing + clutch reaction + fork mounting; precision bores and blind M3 threads",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2982.3575811024034,
+          "mass_g": 8.05236546897649,
+          "com_mm": [
+            -1.4989415254431805e-14,
+            -1.8239025278277293e-18,
+            0.5450525917201188
+          ],
+          "bbox_mm": [
+            49.5,
+            45.23909236273086,
+            6.5
+          ]
+        },
+        {
+          "name": "D3S_pressure_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Axial floating; guided by three metal sleeves",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1527.0870282330059,
+          "mass_g": 4.1231349762291165,
+          "com_mm": [
+            -1.589905803143136e-14,
+            2.1589590069020052e-15,
+            7.500000000000001
+          ],
+          "bbox_mm": [
+            45.5,
+            42.64101615137754,
+            2.0
+          ]
+        },
+        {
+          "name": "D3S_bearing_spider",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Second radial bearing and three M3 spring adjuster threads",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2060.0199862152444,
+          "mass_g": 5.56205396278116,
+          "com_mm": [
+            -9.464613353134693e-15,
+            -9.657768727688462e-16,
+            13.682240344181022
+          ],
+          "bbox_mm": [
+            45.5,
+            42.64101615137754,
+            5.0
+          ]
+        },
+        {
+          "name": "D3S_integral_flange_axle",
+          "material": "aluminum",
+          "owner": "rotor",
+          "note": "8.00/-0.02 journal; positive D ends, 7.5 across flat",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3024.5802925855082,
+          "mass_g": 8.166366789980872,
+          "com_mm": [
+            -0.020167918124806585,
+            -3.3372155866020396e-16,
+            4.840498308235564
+          ],
+          "bbox_mm": [
+            28.0,
+            28.0,
+            38.0
+          ]
+        },
+        {
+          "name": "D3S_lower_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Housing10.02..10.04; bushOD9.99..10.00, ID8.05..8.08; supplier-machined",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 239.74326061596915,
+          "mass_g": 0.2733073171022048,
+          "com_mm": [
+            -1.956085040291761e-15,
+            -6.276857577694815e-16,
+            -2.2862392408073884
+          ],
+          "bbox_mm": [
+            14.0,
+            14.0,
+            6.0
+          ]
+        },
+        {
+          "name": "D3S_upper_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Housing10.02..10.04; bushOD9.99..10.00, ID8.05..8.08; supplier-machined",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 239.74326061596904,
+          "mass_g": 0.2733073171022046,
+          "com_mm": [
+            -3.156409951379888e-15,
+            -6.658751724948391e-16,
+            15.78623924080739
+          ],
+          "bbox_mm": [
+            14.0,
+            14.0,
+            6.0
+          ]
+        },
+        {
+          "name": "D3S_lining0",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "1mm candidate friction sheet; COF and wear unqualified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 445.98049310360705,
+          "mass_g": 0.8027648875864927,
+          "com_mm": [
+            9.559288983453793e-17,
+            -3.865016586263234e-16,
+            3.0000000000000004
+          ],
+          "bbox_mm": [
+            26.0,
+            26.0,
+            1.0
+          ]
+        },
+        {
+          "name": "D3S_lining1",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "1mm candidate friction sheet; COF and wear unqualified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 445.98049310360705,
+          "mass_g": 0.8027648875864927,
+          "com_mm": [
+            9.559288983453793e-17,
+            -3.865016586263234e-16,
+            5.999999999999999
+          ],
+          "bbox_mm": [
+            26.0,
+            26.0,
+            1.0
+          ]
+        },
+        {
+          "name": "D3S_thrust0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.961058553662184,
+          "mass_g": 0.045555606751174885,
+          "com_mm": [
+            -5.334263616710299e-16,
+            -7.572519195392747e-16,
+            -4.949999999999999
+          ],
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_thrust1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.96105855366217,
+          "mass_g": 0.04555560675117487,
+          "com_mm": [
+            -6.223307552828684e-16,
+            -7.419776247822465e-16,
+            18.250000000000004
+          ],
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1279.4403763148157,
+          "mass_g": 1.5865060666303714,
+          "com_mm": [
+            0.792775787356687,
+            4.7964371520691855e-12,
+            22.839249181532644
+          ],
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "name": "D3S_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 106.64590111068375,
+          "mass_g": 0.13224091737724786,
+          "com_mm": [
+            -1.7177106401213505e-17,
+            1.9987905630502988e-16,
+            27.990950451417905
+          ],
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "D3S_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 70.68583470577035,
+          "mass_g": 0.5301437602932776,
+          "com_mm": [
+            -5.528667890741521e-16,
+            1.769054806638435e-16,
+            26.249999999999996
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "name": "D3S_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "solid_count": 7,
+          "valid": true,
+          "volume_mm3": 661.4384222447533,
+          "mass_g": 2.2,
+          "com_mm": [
+            0.023175351181003105,
+            -1.1052752104569132,
+            31.5506166594673
+          ],
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.175000000000004
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515521,
+          "mass_g": 0.09992149594007693,
+          "com_mm": [
+            -6.499999999999999,
+            6.499999999999998,
+            34.9
+          ],
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.6991118430775,
+          "mass_g": 0.04297698750110835,
+          "com_mm": [
+            -6.5,
+            6.5,
+            40.775
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.159289474461993,
+          "mass_g": 0.03438159000088667,
+          "com_mm": [
+            -6.5,
+            6.5,
+            30.72499999999999
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "D3S_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296512,
+          "mass_g": 0.026484568547558023,
+          "com_mm": [
+            -6.500000000000002,
+            6.5,
+            38.15
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296512,
+          "mass_g": 0.026484568547558023,
+          "com_mm": [
+            -6.500000000000002,
+            6.5,
+            41.64999999999999
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515524,
+          "mass_g": 0.09992149594007696,
+          "com_mm": [
+            6.5,
+            6.499999999999998,
+            34.89999999999999
+          ],
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.6991118430775,
+          "mass_g": 0.04297698750110835,
+          "com_mm": [
+            6.500000000000001,
+            6.5,
+            40.775
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.159289474461993,
+          "mass_g": 0.03438159000088667,
+          "com_mm": [
+            6.5,
+            6.5,
+            30.72499999999999
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "D3S_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "mass_g": 0.02648456854755803,
+          "com_mm": [
+            6.5,
+            6.500000000000001,
+            38.15
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "mass_g": 0.02648456854755803,
+          "com_mm": [
+            6.5,
+            6.500000000000001,
+            41.65
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.88282932094611,
+          "mass_g": 0.034066425425878566,
+          "com_mm": [
+            -2.0805422642972263e-16,
+            -8.0,
+            24.991547518923465
+          ],
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933183,
+          "mass_g": 0.021133968921438286,
+          "com_mm": [
+            -3.0280466085695184e-16,
+            -8.0,
+            21.8
+          ],
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.88282932094611,
+          "mass_g": 0.034066425425878566,
+          "com_mm": [
+            -2.0805422642972263e-16,
+            8.0,
+            24.991547518923465
+          ],
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "name": "D3S_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "mass_g": 0.021133968921438293,
+          "com_mm": [
+            -2.5190053987234674e-16,
+            7.999999999999998,
+            21.799999999999994
+          ],
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "D3S_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.207076316800624,
+          "mass_g": 0.30777554908688487,
+          "com_mm": [
+            8.57692307692308,
+            -2.1175375762159643e-17,
+            21.9
+          ],
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.6000000000000014
+          ]
+        },
+        {
+          "name": "D3S_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933184,
+          "mass_g": 0.14552776845025495,
+          "com_mm": [
+            7.8,
+            2.2402347125269313e-16,
+            21.899999999999995
+          ],
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        },
+        {
+          "name": "D3S_sensor_carrier",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "Open connector edge; oversize holes for XY adjustment",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1483.9358812616408,
+          "mass_g": 1.8400804927644347,
+          "com_mm": [
+            -0.19660011738954747,
+            1.9188176041291312,
+            39.899999994036506
+          ],
+          "bbox_mm": [
+            38.00000020000001,
+            42.641016351377544,
+            4.000000242418103
+          ]
+        },
+        {
+          "name": "D3S_split_output_hub",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Three M3 downstream mounting points, PCD20 at90/180/270deg; D flat transmits torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3485.7377820434067,
+          "mass_g": 4.322314849733824,
+          "com_mm": [
+            -0.11735121863798664,
+            0.04455284738395003,
+            -9.331564149574959
+          ],
+          "bbox_mm": [
+            26.99073776323204,
+            27.0000002,
+            8.000000199999999
+          ]
+        },
+        {
+          "name": "D3S_M2_output_clamp",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 85.51415203071414,
+          "mass_g": 0.671286093441106,
+          "com_mm": [
+            8.5,
+            3.117707567964731,
+            -9.2
+          ],
+          "bbox_mm": [
+            3.8000000000000007,
+            22.0,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "D3S_M2_output_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933183,
+          "mass_g": 0.14552776845025486,
+          "com_mm": [
+            8.5,
+            -8.8,
+            -9.2
+          ],
+          "bbox_mm": [
+            4.618802153517008,
+            1.5999999999999996,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "D3S_input_fork_interface",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "M3 attachments to metal reaction plate are outside spring preload path",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3286.777775389507,
+          "mass_g": 4.075604441482988,
+          "com_mm": [
+            -7.916590886784641e-14,
+            -1.6049363938691746e-14,
+            -5.5
+          ],
+          "bbox_mm": [
+            50.0,
+            56.0,
+            3.0
+          ]
+        },
+        {
+          "name": "D3S_M3_input_mount0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178063,
+          "mass_g": 0.8924381155914779,
+          "com_mm": [
+            10.750000000000005,
+            18.619546181365433,
+            -6.821243523316064
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3S_M3_input_mount1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178063,
+          "mass_g": 0.8924381155914779,
+          "com_mm": [
+            -21.499999999999996,
+            2.611109410702165e-15,
+            -6.821243523316062
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3S_M3_input_mount2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178066,
+          "mass_g": 0.8924381155914781,
+          "com_mm": [
+            10.750000000000002,
+            -18.619546181365425,
+            -6.821243523316063
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3S_guide_sleeve0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.3537455776196,
+          "mass_g": 0.49235511305957297,
+          "com_mm": [
+            20.000000000000004,
+            -1.8810289667010138e-16,
+            7.25
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3S_sensor_sleeve0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867287,
+          "mass_g": 1.0365370801254168,
+          "com_mm": [
+            20.0,
+            -2.6752152299555175e-16,
+            27.899999999999995
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3S_M3_tie0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            20.000000000000007,
+            -1.0318947570482363e-16,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3S_tie_washer0_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            20.0,
+            -1.757616369899334e-16,
+            15.250000000000002
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_tie_nut0_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "mass_g": 0.39352948441755176,
+          "com_mm": [
+            20.0,
+            -5.911368153454037e-16,
+            16.700000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_tie_washer0_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            20.0,
+            -1.8113229790627027e-16,
+            41.65
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_tie_nut0_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "mass_g": 0.39352948441755176,
+          "com_mm": [
+            20.0,
+            -4.671171266179964e-16,
+            43.09999999999999
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_sensor_support_washer0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            20.0,
+            -1.8113229790627027e-16,
+            38.150000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_guide_sleeve1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761958,
+          "mass_g": 0.4923551130595729,
+          "com_mm": [
+            -9.999999999999998,
+            17.320508075688778,
+            7.249999999999999
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3S_sensor_sleeve1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867276,
+          "mass_g": 1.0365370801254163,
+          "com_mm": [
+            -9.999999999999996,
+            17.320508075688775,
+            27.899999999999995
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3S_M3_tie1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            -9.999999999999996,
+            17.320508075688778,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3S_tie_washer1_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -9.999999999999996,
+            17.32050807568877,
+            15.25
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_tie_nut1_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            -9.999999999999996,
+            17.320508075688775,
+            16.7
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000002,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_tie_washer1_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -9.999999999999996,
+            17.32050807568877,
+            41.650000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_tie_nut1_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            -9.999999999999996,
+            17.320508075688775,
+            43.099999999999994
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000002,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_sensor_support_washer1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -9.999999999999996,
+            17.32050807568877,
+            38.15
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_guide_sleeve2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761958,
+          "mass_g": 0.4923551130595729,
+          "com_mm": [
+            -10.000000000000009,
+            -17.32050807568877,
+            7.249999999999999
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3S_sensor_sleeve2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.9026222686727,
+          "mass_g": 1.0365370801254163,
+          "com_mm": [
+            -10.000000000000009,
+            -17.32050807568877,
+            27.900000000000002
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3S_M3_tie2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.361139504285,
+          "mass_g": 3.056484945108637,
+          "com_mm": [
+            -10.000000000000007,
+            -17.320508075688767,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3S_tie_washer2_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -10.000000000000009,
+            -17.320508075688778,
+            15.250000000000004
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_tie_nut2_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            -10.00000000000001,
+            -17.32050807568877,
+            16.700000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085882,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_tie_washer2_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -10.00000000000001,
+            -17.320508075688778,
+            41.65000000000001
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_tie_nut2_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            -10.00000000000001,
+            -17.32050807568877,
+            43.1
+          ],
+          "bbox_mm": [
+            6.350852961085882,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_sensor_support_washer2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -10.00000000000001,
+            -17.320508075688778,
+            38.150000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_spring_washer0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "mass_g": 0.16572529566216876,
+          "com_mm": [
+            8.749999999999998,
+            15.15544456622767,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_spring_a0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274063,
+          "mass_g": 0.09943517739730139,
+          "com_mm": [
+            8.75,
+            15.155444566227676,
+            9.17657142857143
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3S_spring_b0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            8.75,
+            15.155444566227674,
+            9.54742857142857
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3S_spring_button0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 101.32892944888518,
+          "mass_g": 0.27358810951199003,
+          "com_mm": [
+            8.750000000000002,
+            15.155444566227676,
+            8.15180901593601
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.224
+          ]
+        },
+        {
+          "name": "D3S_M3_adjuster0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408879,
+          "mass_g": 1.1143916365675968,
+          "com_mm": [
+            8.75,
+            15.155444566227674,
+            18.98748547717842
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "name": "D3S_adjuster_nut0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            8.750000000000004,
+            15.155444566227679,
+            16.200000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085882,
+            5.500000000000002,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_spring_washer1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "mass_g": 0.16572529566216876,
+          "com_mm": [
+            -17.50000000000001,
+            2.3304673869759836e-15,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_spring_a1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -17.5,
+            2.1865654745144703e-15,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3S_spring_b1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -17.500000000000004,
+            2.182431532959926e-15,
+            9.54742857142857
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3S_spring_button1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 101.32892944888519,
+          "mass_g": 0.27358810951199003,
+          "com_mm": [
+            -17.499999999999996,
+            2.34903449260843e-15,
+            8.15180901593601
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.224
+          ]
+        },
+        {
+          "name": "D3S_M3_adjuster1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "mass_g": 1.1143916365675965,
+          "com_mm": [
+            -17.5,
+            2.1713670796421484e-15,
+            18.987485477178424
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "name": "D3S_adjuster_nut1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "mass_g": 0.39352948441755176,
+          "com_mm": [
+            -17.5,
+            2.038673781478427e-15,
+            16.2
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3S_spring_washer2",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "mass_g": 0.16572529566216876,
+          "com_mm": [
+            8.750000000000002,
+            -15.155444566227672,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3S_spring_a2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            8.750000000000004,
+            -15.155444566227676,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3S_spring_b2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            8.75,
+            -15.155444566227672,
+            9.54742857142857
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3S_spring_button2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 101.32892944888519,
+          "mass_g": 0.27358810951199003,
+          "com_mm": [
+            8.75,
+            -15.155444566227677,
+            8.151809015936008
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.224
+          ]
+        },
+        {
+          "name": "D3S_M3_adjuster2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "mass_g": 1.1143916365675965,
+          "com_mm": [
+            8.750000000000002,
+            -15.155444566227676,
+            18.98748547717842
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "name": "D3S_adjuster_nut2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            8.749999999999998,
+            -15.15544456622767,
+            16.199999999999996
+          ],
+          "bbox_mm": [
+            6.350852961085882,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        }
+      ],
+      "estimated_mass_g": 70.98338585847868,
+      "unplanned_assembly_intersections": [
+        {
+          "a": "D3S_nylon_spreader0_47.9",
+          "b": "D3S_sensor_carrier",
+          "volume_mm3": 0.241
+        },
+        {
+          "a": "D3S_nylon_spreader0_51.4",
+          "b": "D3S_sensor_carrier",
+          "volume_mm3": 0.241
+        },
+        {
+          "a": "D3S_nylon_spreader1_47.9",
+          "b": "D3S_sensor_carrier",
+          "volume_mm3": 4.846
+        },
+        {
+          "a": "D3S_nylon_spreader1_51.4",
+          "b": "D3S_sensor_carrier",
+          "volume_mm3": 4.846
+        },
+        {
+          "a": "D3S_sensor_carrier",
+          "b": "D3S_tie_washer0_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3S_sensor_carrier",
+          "b": "D3S_sensor_support_washer0",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3S_sensor_carrier",
+          "b": "D3S_tie_washer1_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3S_sensor_carrier",
+          "b": "D3S_sensor_support_washer1",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3S_sensor_carrier",
+          "b": "D3S_tie_washer2_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3S_sensor_carrier",
+          "b": "D3S_sensor_support_washer2",
+          "volume_mm3": 1.591
+        }
+      ],
+      "expected_thread_intersections": [
+        {
+          "a": "D3S_shared_reaction_bearing",
+          "b": "D3S_M3_input_mount0",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3S_shared_reaction_bearing",
+          "b": "D3S_M3_input_mount1",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3S_shared_reaction_bearing",
+          "b": "D3S_M3_input_mount2",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3S_bearing_spider",
+          "b": "D3S_M3_adjuster0",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3S_bearing_spider",
+          "b": "D3S_M3_adjuster1",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3S_bearing_spider",
+          "b": "D3S_M3_adjuster2",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3S_nylon_M2_female_spacer0",
+          "b": "D3S_nylon_M2x6_top_screw0",
+          "volume_mm3": 2.262
+        },
+        {
+          "a": "D3S_nylon_M2_female_spacer0",
+          "b": "D3S_nylon_M2x4_board_screw0",
+          "volume_mm3": 2.714
+        },
+        {
+          "a": "D3S_nylon_M2_female_spacer1",
+          "b": "D3S_nylon_M2x6_top_screw1",
+          "volume_mm3": 2.262
+        },
+        {
+          "a": "D3S_nylon_M2_female_spacer1",
+          "b": "D3S_nylon_M2x4_board_screw1",
+          "volume_mm3": 2.714
+        },
+        {
+          "a": "D3S_nylon_M2x8_cap_screw0",
+          "b": "D3S_nylon_M2_cap_nut0",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3S_nylon_M2x8_cap_screw1",
+          "b": "D3S_nylon_M2_cap_nut1",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3S_M2_magnet_set_screw",
+          "b": "D3S_M2_magnet_set_nut",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3S_M2_output_clamp",
+          "b": "D3S_M2_output_nut",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3S_M3_tie0",
+          "b": "D3S_tie_nut0_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_tie0",
+          "b": "D3S_tie_nut0_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_tie1",
+          "b": "D3S_tie_nut1_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_tie1",
+          "b": "D3S_tie_nut1_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_tie2",
+          "b": "D3S_tie_nut2_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_tie2",
+          "b": "D3S_tie_nut2_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_adjuster0",
+          "b": "D3S_adjuster_nut0",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_adjuster1",
+          "b": "D3S_adjuster_nut1",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3S_M3_adjuster2",
+          "b": "D3S_adjuster_nut2",
+          "volume_mm3": 4.222
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        },
+        {
+          "angle_deg": 105,
+          "collisions": []
+        },
+        {
+          "angle_deg": 120,
+          "collisions": []
+        },
+        {
+          "angle_deg": 135,
+          "collisions": []
+        },
+        {
+          "angle_deg": 150,
+          "collisions": []
+        },
+        {
+          "angle_deg": 165,
+          "collisions": []
+        },
+        {
+          "angle_deg": 180,
+          "collisions": []
+        },
+        {
+          "angle_deg": 195,
+          "collisions": []
+        },
+        {
+          "angle_deg": 210,
+          "collisions": []
+        },
+        {
+          "angle_deg": 225,
+          "collisions": []
+        },
+        {
+          "angle_deg": 240,
+          "collisions": []
+        },
+        {
+          "angle_deg": 255,
+          "collisions": []
+        },
+        {
+          "angle_deg": 270,
+          "collisions": []
+        },
+        {
+          "angle_deg": 285,
+          "collisions": []
+        },
+        {
+          "angle_deg": 300,
+          "collisions": []
+        },
+        {
+          "angle_deg": 315,
+          "collisions": []
+        },
+        {
+          "angle_deg": 330,
+          "collisions": []
+        },
+        {
+          "angle_deg": 345,
+          "collisions": []
+        }
+      ],
+      "preload_nominal_N": 312,
+      "friction_faces": 2,
+      "friction_outer_mm": 13,
+      "friction_inner_mm": 5.2
+    },
+    "M": {
+      "parts": [
+        {
+          "name": "D3M_shared_reaction_bearing",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Shared radial bearing + clutch reaction + fork mounting; precision bores and blind M3 threads",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 4581.632411811999,
+          "mass_g": 12.370407511892399,
+          "com_mm": [
+            1.6361473790308637e-16,
+            -3.168451812908206e-16,
+            0.7911231067028124
+          ],
+          "bbox_mm": [
+            61.5,
+            55.63139720814412,
+            6.5
+          ]
+        },
+        {
+          "name": "D3M_pressure_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Axial floating; guided by three metal sleeves",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2806.5068928006854,
+          "mass_g": 7.57756861056185,
+          "com_mm": [
+            2.622912760826568e-15,
+            4.6584550964487305e-16,
+            7.500000000000002
+          ],
+          "bbox_mm": [
+            57.5,
+            53.033320996790806,
+            2.0
+          ]
+        },
+        {
+          "name": "D3M_bearing_spider",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Second radial bearing and three M3 spring adjuster threads",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2708.019986215243,
+          "mass_g": 7.311653962781157,
+          "com_mm": [
+            -1.582703895806572e-14,
+            -3.148615177334029e-17,
+            13.638632193712994
+          ],
+          "bbox_mm": [
+            57.5,
+            53.033320996790806,
+            5.0
+          ]
+        },
+        {
+          "name": "D3M_integral_flange_axle",
+          "material": "aluminum",
+          "owner": "rotor",
+          "note": "8.00/-0.02 journal; positive D ends, 7.5 across flat",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 4306.3500952501445,
+          "mass_g": 11.62714525717539,
+          "com_mm": [
+            -0.014165008964332114,
+            -7.807221141599382e-16,
+            4.7391501967951735
+          ],
+          "bbox_mm": [
+            40.0,
+            40.0,
+            38.0
+          ]
+        },
+        {
+          "name": "D3M_lower_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Housing10.02..10.04; bushOD9.99..10.00, ID8.05..8.08; supplier-machined",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 239.74326061596915,
+          "mass_g": 0.2733073171022048,
+          "com_mm": [
+            -1.956085040291761e-15,
+            -6.276857577694815e-16,
+            -2.2862392408073884
+          ],
+          "bbox_mm": [
+            14.0,
+            14.0,
+            6.0
+          ]
+        },
+        {
+          "name": "D3M_upper_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Housing10.02..10.04; bushOD9.99..10.00, ID8.05..8.08; supplier-machined",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 239.74326061596904,
+          "mass_g": 0.2733073171022046,
+          "com_mm": [
+            -3.156409951379888e-15,
+            -6.658751724948391e-16,
+            15.78623924080739
+          ],
+          "bbox_mm": [
+            14.0,
+            14.0,
+            6.0
+          ]
+        },
+        {
+          "name": "D3M_lining0",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "1mm candidate friction sheet; COF and wear unqualified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1049.1662825928472,
+          "mass_g": 1.888499308667125,
+          "com_mm": [
+            -1.2867657113492091e-15,
+            -1.4229381836420668e-16,
+            3.0000000000000004
+          ],
+          "bbox_mm": [
+            38.0,
+            38.0,
+            1.0
+          ]
+        },
+        {
+          "name": "D3M_lining1",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "1mm candidate friction sheet; COF and wear unqualified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1049.1662825928472,
+          "mass_g": 1.888499308667125,
+          "com_mm": [
+            -1.2867657113492091e-15,
+            -1.4229381836420668e-16,
+            6.0
+          ],
+          "bbox_mm": [
+            38.0,
+            38.0,
+            1.0
+          ]
+        },
+        {
+          "name": "D3M_thrust0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.961058553662184,
+          "mass_g": 0.045555606751174885,
+          "com_mm": [
+            -5.334263616710299e-16,
+            -7.572519195392747e-16,
+            -4.949999999999999
+          ],
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_thrust1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.96105855366217,
+          "mass_g": 0.04555560675117487,
+          "com_mm": [
+            -6.223307552828684e-16,
+            -7.419776247822465e-16,
+            18.250000000000004
+          ],
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1279.4403763148157,
+          "mass_g": 1.5865060666303714,
+          "com_mm": [
+            0.792775787356687,
+            4.7964371520691855e-12,
+            22.839249181532644
+          ],
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "name": "D3M_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 106.64590111068375,
+          "mass_g": 0.13224091737724786,
+          "com_mm": [
+            -1.7177106401213505e-17,
+            1.9987905630502988e-16,
+            27.990950451417905
+          ],
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "D3M_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 70.68583470577035,
+          "mass_g": 0.5301437602932776,
+          "com_mm": [
+            -5.528667890741521e-16,
+            1.769054806638435e-16,
+            26.249999999999996
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "name": "D3M_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "solid_count": 7,
+          "valid": true,
+          "volume_mm3": 661.4384222447533,
+          "mass_g": 2.2,
+          "com_mm": [
+            0.023175351181003105,
+            -1.1052752104569132,
+            31.5506166594673
+          ],
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.175000000000004
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515521,
+          "mass_g": 0.09992149594007693,
+          "com_mm": [
+            -6.499999999999999,
+            6.499999999999998,
+            34.9
+          ],
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.6991118430775,
+          "mass_g": 0.04297698750110835,
+          "com_mm": [
+            -6.5,
+            6.5,
+            40.775
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.159289474461993,
+          "mass_g": 0.03438159000088667,
+          "com_mm": [
+            -6.5,
+            6.5,
+            30.72499999999999
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "D3M_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296512,
+          "mass_g": 0.026484568547558023,
+          "com_mm": [
+            -6.500000000000002,
+            6.5,
+            38.15
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296512,
+          "mass_g": 0.026484568547558023,
+          "com_mm": [
+            -6.500000000000002,
+            6.5,
+            41.64999999999999
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515524,
+          "mass_g": 0.09992149594007696,
+          "com_mm": [
+            6.5,
+            6.499999999999998,
+            34.89999999999999
+          ],
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.6991118430775,
+          "mass_g": 0.04297698750110835,
+          "com_mm": [
+            6.500000000000001,
+            6.5,
+            40.775
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.159289474461993,
+          "mass_g": 0.03438159000088667,
+          "com_mm": [
+            6.5,
+            6.5,
+            30.72499999999999
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "D3M_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "mass_g": 0.02648456854755803,
+          "com_mm": [
+            6.5,
+            6.500000000000001,
+            38.15
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "mass_g": 0.02648456854755803,
+          "com_mm": [
+            6.5,
+            6.500000000000001,
+            41.65
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.88282932094611,
+          "mass_g": 0.034066425425878566,
+          "com_mm": [
+            -2.0805422642972263e-16,
+            -8.0,
+            24.991547518923465
+          ],
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933183,
+          "mass_g": 0.021133968921438286,
+          "com_mm": [
+            -3.0280466085695184e-16,
+            -8.0,
+            21.8
+          ],
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.88282932094611,
+          "mass_g": 0.034066425425878566,
+          "com_mm": [
+            -2.0805422642972263e-16,
+            8.0,
+            24.991547518923465
+          ],
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "name": "D3M_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "mass_g": 0.021133968921438293,
+          "com_mm": [
+            -2.5190053987234674e-16,
+            7.999999999999998,
+            21.799999999999994
+          ],
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "D3M_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.207076316800624,
+          "mass_g": 0.30777554908688487,
+          "com_mm": [
+            8.57692307692308,
+            -2.1175375762159643e-17,
+            21.9
+          ],
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.6000000000000014
+          ]
+        },
+        {
+          "name": "D3M_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933184,
+          "mass_g": 0.14552776845025495,
+          "com_mm": [
+            7.8,
+            2.2402347125269313e-16,
+            21.899999999999995
+          ],
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        },
+        {
+          "name": "D3M_sensor_carrier",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "Open connector edge; oversize holes for XY adjustment",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1708.4233295484828,
+          "mass_g": 2.118444928640119,
+          "com_mm": [
+            -0.1677593697940775,
+            1.8617670017714951,
+            39.90000004732716
+          ],
+          "bbox_mm": [
+            47.00000020000002,
+            53.03332119679081,
+            4.000000201700182
+          ]
+        },
+        {
+          "name": "D3M_split_output_hub",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Three M3 downstream mounting points, PCD20 at90/180/270deg; D flat transmits torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3485.7377820434067,
+          "mass_g": 4.322314849733824,
+          "com_mm": [
+            -0.11735121863798664,
+            0.04455284738395003,
+            -9.331564149574959
+          ],
+          "bbox_mm": [
+            26.99073776323204,
+            27.0000002,
+            8.000000199999999
+          ]
+        },
+        {
+          "name": "D3M_M2_output_clamp",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 85.51415203071414,
+          "mass_g": 0.671286093441106,
+          "com_mm": [
+            8.5,
+            3.117707567964731,
+            -9.2
+          ],
+          "bbox_mm": [
+            3.8000000000000007,
+            22.0,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "D3M_M2_output_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933183,
+          "mass_g": 0.14552776845025486,
+          "com_mm": [
+            8.5,
+            -8.8,
+            -9.2
+          ],
+          "bbox_mm": [
+            4.618802153517008,
+            1.5999999999999996,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "D3M_input_fork_interface",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "M3 attachments to metal reaction plate are outside spring preload path",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 6450.085567308997,
+          "mass_g": 7.998106103463156,
+          "com_mm": [
+            -4.8800969949465015e-14,
+            -3.609729533417764e-14,
+            -5.499999999999999
+          ],
+          "bbox_mm": [
+            62.0,
+            68.0,
+            3.0
+          ]
+        },
+        {
+          "name": "D3M_M3_input_mount0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178066,
+          "mass_g": 0.8924381155914781,
+          "com_mm": [
+            13.750000000000002,
+            23.815698604072058,
+            -6.821243523316063
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3M_M3_input_mount1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178063,
+          "mass_g": 0.8924381155914779,
+          "com_mm": [
+            -27.500000000000004,
+            3.4632834414665223e-15,
+            -6.821243523316064
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3M_M3_input_mount2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178066,
+          "mass_g": 0.8924381155914781,
+          "com_mm": [
+            13.750000000000002,
+            -23.815698604072058,
+            -6.8212435233160615
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3M_guide_sleeve0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.3537455776196,
+          "mass_g": 0.49235511305957297,
+          "com_mm": [
+            25.999999999999996,
+            -1.7014524366592245e-16,
+            7.25
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3M_sensor_sleeve0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867287,
+          "mass_g": 1.0365370801254168,
+          "com_mm": [
+            26.0,
+            -2.495638699913729e-16,
+            27.899999999999995
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3M_M3_tie0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            26.000000000000007,
+            -1.0318947570482363e-16,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3M_tie_washer0_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            26.0,
+            -1.757616369899334e-16,
+            15.250000000000002
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_tie_nut0_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            26.000000000000007,
+            -6.091311261582105e-16,
+            16.700000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_tie_washer0_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            25.999999999999996,
+            -1.8113229790627027e-16,
+            41.65
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_tie_nut0_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            26.000000000000007,
+            -5.028285358204328e-16,
+            43.1
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_sensor_support_washer0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            25.999999999999996,
+            -1.8113229790627027e-16,
+            38.150000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_guide_sleeve1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761955,
+          "mass_g": 0.4923551130595728,
+          "com_mm": [
+            -12.999999999999993,
+            22.516660498395407,
+            7.25
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3M_sensor_sleeve1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867276,
+          "mass_g": 1.0365370801254163,
+          "com_mm": [
+            -12.999999999999995,
+            22.516660498395407,
+            27.899999999999995
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3M_M3_tie1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            -12.999999999999996,
+            22.51666049839541,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3M_tie_washer1_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -12.999999999999995,
+            22.516660498395414,
+            15.250000000000004
+          ],
+          "bbox_mm": [
+            6.999999999999998,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_tie_nut1_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            -12.999999999999995,
+            22.516660498395407,
+            16.700000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_tie_washer1_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -12.999999999999993,
+            22.516660498395407,
+            41.650000000000006
+          ],
+          "bbox_mm": [
+            6.999999999999998,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_tie_nut1_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            -12.999999999999995,
+            22.516660498395407,
+            43.1
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_sensor_support_washer1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -12.999999999999993,
+            22.516660498395407,
+            38.150000000000006
+          ],
+          "bbox_mm": [
+            6.999999999999998,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_guide_sleeve2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761955,
+          "mass_g": 0.4923551130595728,
+          "com_mm": [
+            -13.000000000000012,
+            -22.516660498395403,
+            7.25
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3M_sensor_sleeve2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867276,
+          "mass_g": 1.0365370801254163,
+          "com_mm": [
+            -13.000000000000009,
+            -22.516660498395392,
+            27.899999999999995
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3M_M3_tie2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            -13.000000000000012,
+            -22.5166604983954,
+            18.10665658093798
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3M_tie_washer2_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -13.000000000000009,
+            -22.5166604983954,
+            15.25
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_tie_nut2_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            -13.00000000000001,
+            -22.516660498395396,
+            16.699999999999996
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_tie_washer2_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -13.000000000000012,
+            -22.5166604983954,
+            41.650000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_tie_nut2_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            -13.00000000000001,
+            -22.516660498395396,
+            43.1
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_sensor_support_washer2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -13.000000000000012,
+            -22.5166604983954,
+            38.15
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_spring_washer0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "mass_g": 0.16572529566216876,
+          "com_mm": [
+            11.750000000000004,
+            20.351596988934308,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_spring_a0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274061,
+          "mass_g": 0.09943517739730137,
+          "com_mm": [
+            11.750000000000002,
+            20.351596988934308,
+            9.17657142857143
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3M_spring_b0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274063,
+          "mass_g": 0.09943517739730139,
+          "com_mm": [
+            11.750000000000004,
+            20.351596988934308,
+            9.547428571428572
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3M_spring_button0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 101.32892944888518,
+          "mass_g": 0.27358810951199003,
+          "com_mm": [
+            11.750000000000004,
+            20.351596988934308,
+            8.15180901593601
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.224
+          ]
+        },
+        {
+          "name": "D3M_M3_adjuster0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "mass_g": 1.1143916365675965,
+          "com_mm": [
+            11.750000000000002,
+            20.351596988934308,
+            18.987485477178424
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "name": "D3M_adjuster_nut0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            11.75,
+            20.35159698893431,
+            16.200000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_spring_washer1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "mass_g": 0.16572529566216873,
+          "com_mm": [
+            -23.5,
+            2.627024820496371e-15,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_spring_a1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -23.500000000000004,
+            2.936519025102904e-15,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3M_spring_b1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -23.499999999999996,
+            2.9372914440000898e-15,
+            9.54742857142857
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3M_spring_button1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 101.32892944888519,
+          "mass_g": 0.27358810951199003,
+          "com_mm": [
+            -23.500000000000004,
+            2.9215929579886903e-15,
+            8.15180901593601
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.224
+          ]
+        },
+        {
+          "name": "D3M_M3_adjuster1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "mass_g": 1.1143916365675965,
+          "com_mm": [
+            -23.500000000000004,
+            2.8143659733809513e-15,
+            18.98748547717842
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "name": "D3M_adjuster_nut1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            -23.5,
+            2.096224008224881e-15,
+            16.2
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3M_spring_washer2",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "mass_g": 0.16572529566216876,
+          "com_mm": [
+            11.749999999999998,
+            -20.351596988934308,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3M_spring_a2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274061,
+          "mass_g": 0.09943517739730137,
+          "com_mm": [
+            11.750000000000002,
+            -20.351596988934308,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3M_spring_b2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.66690157927406,
+          "mass_g": 0.09943517739730136,
+          "com_mm": [
+            11.750000000000007,
+            -20.351596988934308,
+            9.547428571428572
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3M_spring_button2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 101.32892944888519,
+          "mass_g": 0.27358810951199003,
+          "com_mm": [
+            11.750000000000004,
+            -20.35159698893431,
+            8.15180901593601
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.224
+          ]
+        },
+        {
+          "name": "D3M_M3_adjuster2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "mass_g": 1.1143916365675965,
+          "com_mm": [
+            11.750000000000002,
+            -20.351596988934308,
+            18.98748547717842
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "name": "D3M_adjuster_nut2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "mass_g": 0.3935294844175516,
+          "com_mm": [
+            11.75,
+            -20.351596988934308,
+            16.200000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        }
+      ],
+      "estimated_mass_g": 90.33857494293896,
+      "unplanned_assembly_intersections": [
+        {
+          "a": "D3M_nylon_spreader1_47.9",
+          "b": "D3M_sensor_carrier",
+          "volume_mm3": 4.474
+        },
+        {
+          "a": "D3M_nylon_spreader1_51.4",
+          "b": "D3M_sensor_carrier",
+          "volume_mm3": 4.474
+        },
+        {
+          "a": "D3M_sensor_carrier",
+          "b": "D3M_tie_washer0_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3M_sensor_carrier",
+          "b": "D3M_sensor_support_washer0",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3M_sensor_carrier",
+          "b": "D3M_tie_washer1_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3M_sensor_carrier",
+          "b": "D3M_sensor_support_washer1",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3M_sensor_carrier",
+          "b": "D3M_tie_washer2_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3M_sensor_carrier",
+          "b": "D3M_sensor_support_washer2",
+          "volume_mm3": 1.591
+        }
+      ],
+      "expected_thread_intersections": [
+        {
+          "a": "D3M_shared_reaction_bearing",
+          "b": "D3M_M3_input_mount0",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3M_shared_reaction_bearing",
+          "b": "D3M_M3_input_mount1",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3M_shared_reaction_bearing",
+          "b": "D3M_M3_input_mount2",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3M_bearing_spider",
+          "b": "D3M_M3_adjuster0",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3M_bearing_spider",
+          "b": "D3M_M3_adjuster1",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3M_bearing_spider",
+          "b": "D3M_M3_adjuster2",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3M_nylon_M2_female_spacer0",
+          "b": "D3M_nylon_M2x6_top_screw0",
+          "volume_mm3": 2.262
+        },
+        {
+          "a": "D3M_nylon_M2_female_spacer0",
+          "b": "D3M_nylon_M2x4_board_screw0",
+          "volume_mm3": 2.714
+        },
+        {
+          "a": "D3M_nylon_M2_female_spacer1",
+          "b": "D3M_nylon_M2x6_top_screw1",
+          "volume_mm3": 2.262
+        },
+        {
+          "a": "D3M_nylon_M2_female_spacer1",
+          "b": "D3M_nylon_M2x4_board_screw1",
+          "volume_mm3": 2.714
+        },
+        {
+          "a": "D3M_nylon_M2x8_cap_screw0",
+          "b": "D3M_nylon_M2_cap_nut0",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3M_nylon_M2x8_cap_screw1",
+          "b": "D3M_nylon_M2_cap_nut1",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3M_M2_magnet_set_screw",
+          "b": "D3M_M2_magnet_set_nut",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3M_M2_output_clamp",
+          "b": "D3M_M2_output_nut",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3M_M3_tie0",
+          "b": "D3M_tie_nut0_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_tie0",
+          "b": "D3M_tie_nut0_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_tie1",
+          "b": "D3M_tie_nut1_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_tie1",
+          "b": "D3M_tie_nut1_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_tie2",
+          "b": "D3M_tie_nut2_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_tie2",
+          "b": "D3M_tie_nut2_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_adjuster0",
+          "b": "D3M_adjuster_nut0",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_adjuster1",
+          "b": "D3M_adjuster_nut1",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3M_M3_adjuster2",
+          "b": "D3M_adjuster_nut2",
+          "volume_mm3": 4.222
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        },
+        {
+          "angle_deg": 105,
+          "collisions": []
+        },
+        {
+          "angle_deg": 120,
+          "collisions": []
+        },
+        {
+          "angle_deg": 135,
+          "collisions": []
+        },
+        {
+          "angle_deg": 150,
+          "collisions": []
+        },
+        {
+          "angle_deg": 165,
+          "collisions": []
+        },
+        {
+          "angle_deg": 180,
+          "collisions": []
+        },
+        {
+          "angle_deg": 195,
+          "collisions": []
+        },
+        {
+          "angle_deg": 210,
+          "collisions": []
+        },
+        {
+          "angle_deg": 225,
+          "collisions": []
+        },
+        {
+          "angle_deg": 240,
+          "collisions": []
+        },
+        {
+          "angle_deg": 255,
+          "collisions": []
+        },
+        {
+          "angle_deg": 270,
+          "collisions": []
+        },
+        {
+          "angle_deg": 285,
+          "collisions": []
+        },
+        {
+          "angle_deg": 300,
+          "collisions": []
+        },
+        {
+          "angle_deg": 315,
+          "collisions": []
+        },
+        {
+          "angle_deg": 330,
+          "collisions": []
+        },
+        {
+          "angle_deg": 345,
+          "collisions": []
+        }
+      ],
+      "preload_nominal_N": 312,
+      "friction_faces": 2,
+      "friction_outer_mm": 19,
+      "friction_inner_mm": 5.2
+    },
+    "L": {
+      "parts": [
+        {
+          "name": "D3L_shared_reaction_bearing",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Shared radial bearing + clutch reaction + fork mounting; precision bores and blind M3 threads",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 7595.618157921416,
+          "mass_g": 20.508169026387826,
+          "com_mm": [
+            6.1235473553062945e-15,
+            5.7721285595861845e-15,
+            0.9732081440047893
+          ],
+          "bbox_mm": [
+            77.5,
+            69.48780366869514,
+            6.5
+          ]
+        },
+        {
+          "name": "D3L_pressure_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Axial floating; guided by three metal sleeves",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 5217.695489688214,
+          "mass_g": 14.087777822158179,
+          "com_mm": [
+            3.1865983842188305e-15,
+            2.919686724685971e-15,
+            7.500000000000002
+          ],
+          "bbox_mm": [
+            73.5,
+            66.88972745734182,
+            2.0
+          ]
+        },
+        {
+          "name": "D3L_bearing_spider",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Second radial bearing and three M3 spring adjuster threads",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3572.0199862152426,
+          "mass_g": 9.644453962781155,
+          "com_mm": [
+            -2.675858734926157e-14,
+            6.970122663679195e-15,
+            13.605099846237259
+          ],
+          "bbox_mm": [
+            73.5,
+            66.88972745734182,
+            5.0
+          ]
+        },
+        {
+          "name": "D3L_integral_flange_axle",
+          "material": "aluminum",
+          "owner": "rotor",
+          "note": "8.00/-0.02 journal; positive D ends, 7.5 across flat",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 6719.0932532071065,
+          "mass_g": 18.14155178365919,
+          "com_mm": [
+            -0.009078529706914846,
+            -1.6238712608227007e-15,
+            4.653274323474588
+          ],
+          "bbox_mm": [
+            56.0,
+            56.0,
+            38.0
+          ]
+        },
+        {
+          "name": "D3L_lower_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Housing10.02..10.04; bushOD9.99..10.00, ID8.05..8.08; supplier-machined",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 239.74326061596915,
+          "mass_g": 0.2733073171022048,
+          "com_mm": [
+            -1.956085040291761e-15,
+            -6.276857577694815e-16,
+            -2.2862392408073884
+          ],
+          "bbox_mm": [
+            14.0,
+            14.0,
+            6.0
+          ]
+        },
+        {
+          "name": "D3L_upper_bush",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Housing10.02..10.04; bushOD9.99..10.00, ID8.05..8.08; supplier-machined",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 239.74326061596904,
+          "mass_g": 0.2733073171022046,
+          "com_mm": [
+            -3.156409951379888e-15,
+            -6.658751724948391e-16,
+            15.78623924080739
+          ],
+          "bbox_mm": [
+            14.0,
+            14.0,
+            6.0
+          ]
+        },
+        {
+          "name": "D3L_lining0",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "1mm candidate friction sheet; COF and wear unqualified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2169.4582228629674,
+          "mass_g": 3.9050248011533415,
+          "com_mm": [
+            1.2183774498037568e-15,
+            -1.0832364329048275e-15,
+            3.0
+          ],
+          "bbox_mm": [
+            54.0,
+            54.0,
+            1.0
+          ]
+        },
+        {
+          "name": "D3L_lining1",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "1mm candidate friction sheet; COF and wear unqualified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2169.4582228629674,
+          "mass_g": 3.9050248011533415,
+          "com_mm": [
+            1.2183774498037568e-15,
+            -1.0832364329048275e-15,
+            6.0
+          ],
+          "bbox_mm": [
+            54.0,
+            54.0,
+            1.0
+          ]
+        },
+        {
+          "name": "D3L_thrust0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.961058553662184,
+          "mass_g": 0.045555606751174885,
+          "com_mm": [
+            -5.334263616710299e-16,
+            -7.572519195392747e-16,
+            -4.949999999999999
+          ],
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_thrust1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.96105855366217,
+          "mass_g": 0.04555560675117487,
+          "com_mm": [
+            -6.223307552828684e-16,
+            -7.419776247822465e-16,
+            18.250000000000004
+          ],
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1279.4403763148157,
+          "mass_g": 1.5865060666303714,
+          "com_mm": [
+            0.792775787356687,
+            4.7964371520691855e-12,
+            22.839249181532644
+          ],
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "name": "D3L_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 106.64590111068375,
+          "mass_g": 0.13224091737724786,
+          "com_mm": [
+            -1.7177106401213505e-17,
+            1.9987905630502988e-16,
+            27.990950451417905
+          ],
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.8000000000000007
+          ]
+        },
+        {
+          "name": "D3L_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 70.68583470577035,
+          "mass_g": 0.5301437602932776,
+          "com_mm": [
+            -5.528667890741521e-16,
+            1.769054806638435e-16,
+            26.249999999999996
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "name": "D3L_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "solid_count": 7,
+          "valid": true,
+          "volume_mm3": 661.4384222447533,
+          "mass_g": 2.2,
+          "com_mm": [
+            0.023175351181003105,
+            -1.1052752104569132,
+            31.5506166594673
+          ],
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.175000000000004
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515521,
+          "mass_g": 0.09992149594007693,
+          "com_mm": [
+            -6.499999999999999,
+            6.499999999999998,
+            34.9
+          ],
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.6991118430775,
+          "mass_g": 0.04297698750110835,
+          "com_mm": [
+            -6.5,
+            6.5,
+            40.775
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.159289474461993,
+          "mass_g": 0.03438159000088667,
+          "com_mm": [
+            -6.5,
+            6.5,
+            30.72499999999999
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "D3L_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296512,
+          "mass_g": 0.026484568547558023,
+          "com_mm": [
+            -6.500000000000002,
+            6.5,
+            38.15
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296512,
+          "mass_g": 0.026484568547558023,
+          "com_mm": [
+            -6.500000000000002,
+            6.5,
+            41.64999999999999
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515524,
+          "mass_g": 0.09992149594007696,
+          "com_mm": [
+            6.5,
+            6.499999999999998,
+            34.89999999999999
+          ],
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.6991118430775,
+          "mass_g": 0.04297698750110835,
+          "com_mm": [
+            6.500000000000001,
+            6.5,
+            40.775
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.159289474461993,
+          "mass_g": 0.03438159000088667,
+          "com_mm": [
+            6.5,
+            6.5,
+            30.72499999999999
+          ],
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "name": "D3L_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "mass_g": 0.02648456854755803,
+          "com_mm": [
+            6.5,
+            6.500000000000001,
+            38.15
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "mass_g": 0.02648456854755803,
+          "com_mm": [
+            6.5,
+            6.500000000000001,
+            41.65
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.88282932094611,
+          "mass_g": 0.034066425425878566,
+          "com_mm": [
+            -2.0805422642972263e-16,
+            -8.0,
+            24.991547518923465
+          ],
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933183,
+          "mass_g": 0.021133968921438286,
+          "com_mm": [
+            -3.0280466085695184e-16,
+            -8.0,
+            21.8
+          ],
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.88282932094611,
+          "mass_g": 0.034066425425878566,
+          "com_mm": [
+            -2.0805422642972263e-16,
+            8.0,
+            24.991547518923465
+          ],
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "name": "D3L_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "mass_g": 0.021133968921438293,
+          "com_mm": [
+            -2.5190053987234674e-16,
+            7.999999999999998,
+            21.799999999999994
+          ],
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "name": "D3L_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.207076316800624,
+          "mass_g": 0.30777554908688487,
+          "com_mm": [
+            8.57692307692308,
+            -2.1175375762159643e-17,
+            21.9
+          ],
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.6000000000000014
+          ]
+        },
+        {
+          "name": "D3L_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933184,
+          "mass_g": 0.14552776845025495,
+          "com_mm": [
+            7.8,
+            2.2402347125269313e-16,
+            21.899999999999995
+          ],
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        },
+        {
+          "name": "D3L_sensor_carrier",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "Open connector edge; oversize holes for XY adjustment",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2007.4788128341686,
+          "mass_g": 2.489273727914369,
+          "com_mm": [
+            -0.13967725165395967,
+            1.811622211406864,
+            39.89999998337505
+          ],
+          "bbox_mm": [
+            59.00000020000002,
+            66.88972765734184,
+            4.000000222403941
+          ]
+        },
+        {
+          "name": "D3L_split_output_hub",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Three M3 downstream mounting points, PCD20 at90/180/270deg; D flat transmits torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3485.7377820434067,
+          "mass_g": 4.322314849733824,
+          "com_mm": [
+            -0.11735121863798664,
+            0.04455284738395003,
+            -9.331564149574959
+          ],
+          "bbox_mm": [
+            26.99073776323204,
+            27.0000002,
+            8.000000199999999
+          ]
+        },
+        {
+          "name": "D3L_M2_output_clamp",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 85.51415203071414,
+          "mass_g": 0.671286093441106,
+          "com_mm": [
+            8.5,
+            3.117707567964731,
+            -9.2
+          ],
+          "bbox_mm": [
+            3.8000000000000007,
+            22.0,
+            3.8000000000000007
+          ]
+        },
+        {
+          "name": "D3L_M2_output_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933183,
+          "mass_g": 0.14552776845025486,
+          "com_mm": [
+            8.5,
+            -8.8,
+            -9.2
+          ],
+          "bbox_mm": [
+            4.618802153517008,
+            1.5999999999999996,
+            4.000000000000002
+          ]
+        },
+        {
+          "name": "D3L_input_fork_interface",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "M3 attachments to metal reaction plate are outside spring preload path",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 11725.062954537307,
+          "mass_g": 14.539078063626262,
+          "com_mm": [
+            -3.988471608051352e-14,
+            -1.7530464731632054e-14,
+            -5.5000000000000036
+          ],
+          "bbox_mm": [
+            78.0,
+            84.0,
+            3.0
+          ]
+        },
+        {
+          "name": "D3L_M3_input_mount0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178066,
+          "mass_g": 0.8924381155914781,
+          "com_mm": [
+            17.750000000000004,
+            30.743901834347565,
+            -6.8212435233160615
+          ],
+          "bbox_mm": [
+            5.5,
+            5.4999999999999964,
+            9.0
+          ]
+        },
+        {
+          "name": "D3L_M3_input_mount1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178063,
+          "mass_g": 0.8924381155914779,
+          "com_mm": [
+            -35.50000000000001,
+            4.450203428688112e-15,
+            -6.821243523316062
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            9.0
+          ]
+        },
+        {
+          "name": "D3L_M3_input_mount2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x6; blind metal thread engagement3mm; validate thread and clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 113.68638415178066,
+          "mass_g": 0.8924381155914781,
+          "com_mm": [
+            17.75,
+            -30.743901834347565,
+            -6.8212435233160615
+          ],
+          "bbox_mm": [
+            5.5,
+            5.4999999999999964,
+            9.0
+          ]
+        },
+        {
+          "name": "D3L_guide_sleeve0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761943,
+          "mass_g": 0.49235511305957247,
+          "com_mm": [
+            33.99999999999999,
+            -2.3836340499509025e-16,
+            7.250000000000001
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3L_sensor_sleeve0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867253,
+          "mass_g": 1.036537080125416,
+          "com_mm": [
+            34.00000000000001,
+            -2.8890035732305624e-16,
+            27.900000000000002
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3L_M3_tie0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            34.0,
+            -8.355901942599376e-17,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3L_tie_washer0_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            33.99999999999999,
+            -1.7468750480666594e-16,
+            15.25
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_tie_nut0_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            33.99999999999999,
+            -7.332648876294929e-16,
+            16.7
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_tie_washer0_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            33.99999999999999,
+            -1.8005816572300282e-16,
+            41.64999999999999
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_tie_nut0_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            33.99999999999999,
+            -7.509819860191226e-16,
+            43.099999999999994
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_sensor_support_washer0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            33.99999999999999,
+            -1.8005816572300282e-16,
+            38.14999999999999
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_guide_sleeve1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761955,
+          "mass_g": 0.4923551130595728,
+          "com_mm": [
+            -16.99999999999999,
+            29.444863728670914,
+            7.249999999999999
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3L_sensor_sleeve1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867264,
+          "mass_g": 1.0365370801254161,
+          "com_mm": [
+            -16.999999999999993,
+            29.44486372867092,
+            27.900000000000002
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3L_M3_tie1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            -16.999999999999993,
+            29.44486372867092,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3L_tie_washer1_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "mass_g": 0.11948497879214402,
+          "com_mm": [
+            -16.999999999999993,
+            29.444863728670914,
+            15.25
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_tie_nut1_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "mass_g": 0.39352948441755176,
+          "com_mm": [
+            -16.999999999999996,
+            29.44486372867092,
+            16.700000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_tie_washer1_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            -16.999999999999993,
+            29.44486372867092,
+            41.650000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_tie_nut1_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "mass_g": 0.39352948441755176,
+          "com_mm": [
+            -16.999999999999996,
+            29.44486372867092,
+            43.1
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_sensor_support_washer1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            -16.999999999999993,
+            29.44486372867092,
+            38.150000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_guide_sleeve2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 182.35374557761955,
+          "mass_g": 0.4923551130595728,
+          "com_mm": [
+            -17.00000000000001,
+            -29.444863728670914,
+            7.249999999999999
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            9.5
+          ]
+        },
+        {
+          "name": "D3L_sensor_sleeve2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 383.90262226867264,
+          "mass_g": 1.0365370801254161,
+          "com_mm": [
+            -17.000000000000014,
+            -29.444863728670917,
+            27.900000000000002
+          ],
+          "bbox_mm": [
+            6.0,
+            6.0,
+            20.0
+          ]
+        },
+        {
+          "name": "D3L_M3_tie2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 389.3611395042849,
+          "mass_g": 3.056484945108636,
+          "com_mm": [
+            -17.000000000000014,
+            -29.444863728670917,
+            18.106656580937972
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            48.0
+          ]
+        },
+        {
+          "name": "D3L_tie_washer2_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            -17.000000000000018,
+            -29.44486372867091,
+            15.25
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_tie_nut2_15",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            -17.000000000000014,
+            -29.444863728670907,
+            16.700000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_tie_washer2_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            -17.000000000000014,
+            -29.44486372867091,
+            41.650000000000006
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_tie_nut2_41.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            -17.000000000000014,
+            -29.444863728670907,
+            43.1
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_sensor_support_washer2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "mass_g": 0.119484978792144,
+          "com_mm": [
+            -17.000000000000014,
+            -29.44486372867091,
+            38.15
+          ],
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_spring_washer0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "mass_g": 0.16572529566216873,
+          "com_mm": [
+            15.750000000000004,
+            27.279800219209815,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_spring_a0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000002,
+            27.279800219209815,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_b0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000002,
+            27.279800219209815,
+            9.847428571428573
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_a0_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000002,
+            27.279800219209815,
+            9.476571428571429
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_b0_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000005,
+            27.279800219209815,
+            10.147428571428572
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_button0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 105.5700795312314,
+          "mass_g": 0.2850392147343248,
+          "com_mm": [
+            15.750000000000004,
+            27.279800219209818,
+            8.512702297345557
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.824
+          ]
+        },
+        {
+          "name": "D3L_M3_adjuster0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408873,
+          "mass_g": 1.1143916365675963,
+          "com_mm": [
+            15.750000000000004,
+            27.27980021920982,
+            19.587485477178426
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            12.999999999999998
+          ]
+        },
+        {
+          "name": "D3L_adjuster_nut0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "mass_g": 0.3935294844175517,
+          "com_mm": [
+            15.750000000000004,
+            27.27980021920982,
+            16.200000000000003
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_spring_washer1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "mass_g": 0.16572529566216873,
+          "com_mm": [
+            -31.5,
+            4.193631221515632e-15,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_spring_a1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -31.5,
+            3.985930113670463e-15,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_b1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -31.5,
+            3.985930113670463e-15,
+            9.847428571428573
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_a1_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -31.5,
+            3.989222287585827e-15,
+            9.476571428571429
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_b1_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            -31.5,
+            3.977265051402684e-15,
+            10.147428571428572
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_button1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 105.57007953123139,
+          "mass_g": 0.2850392147343248,
+          "com_mm": [
+            -31.5,
+            4.001800713675755e-15,
+            8.512702297345555
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.824
+          ]
+        },
+        {
+          "name": "D3L_M3_adjuster1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "mass_g": 1.1143916365675965,
+          "com_mm": [
+            -31.500000000000004,
+            3.8001777386033704e-15,
+            19.587485477178426
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            12.999999999999998
+          ]
+        },
+        {
+          "name": "D3L_adjuster_nut1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451178999,
+          "mass_g": 0.3935294844175514,
+          "com_mm": [
+            -31.500000000000007,
+            4.213807653635911e-15,
+            16.2
+          ],
+          "bbox_mm": [
+            6.350852961085881,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "name": "D3L_spring_washer2",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "mass_g": 0.16572529566216873,
+          "com_mm": [
+            15.750000000000004,
+            -27.279800219209815,
+            8.75
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "name": "D3L_spring_a2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000002,
+            -27.279800219209815,
+            9.176571428571428
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_b2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000002,
+            -27.279800219209815,
+            9.847428571428573
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_a2_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000002,
+            -27.279800219209815,
+            9.476571428571429
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_b2_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274064,
+          "mass_g": 0.0994351773973014,
+          "com_mm": [
+            15.750000000000005,
+            -27.279800219209815,
+            10.147428571428572
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000001
+          ]
+        },
+        {
+          "name": "D3L_spring_button2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem reacts against fixed reaction plate; nominal spring travel only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 105.5700795312314,
+          "mass_g": 0.2850392147343248,
+          "com_mm": [
+            15.750000000000004,
+            -27.279800219209818,
+            8.512702297345557
+          ],
+          "bbox_mm": [
+            8.0,
+            8.0,
+            8.824
+          ]
+        },
+        {
+          "name": "D3L_M3_adjuster2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408873,
+          "mass_g": 1.1143916365675963,
+          "com_mm": [
+            15.750000000000004,
+            -27.27980021920982,
+            19.587485477178426
+          ],
+          "bbox_mm": [
+            5.5,
+            5.5,
+            12.999999999999998
+          ]
+        },
+        {
+          "name": "D3L_adjuster_nut2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "mass_g": 0.3935294844175518,
+          "com_mm": [
+            15.750000000000004,
+            -27.27980021920981,
+            16.199999999999996
+          ],
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        }
+      ],
+      "estimated_mass_g": 125.40956831997511,
+      "unplanned_assembly_intersections": [
+        {
+          "a": "D3L_nylon_spreader1_47.9",
+          "b": "D3L_sensor_carrier",
+          "volume_mm3": 4.093
+        },
+        {
+          "a": "D3L_nylon_spreader1_51.4",
+          "b": "D3L_sensor_carrier",
+          "volume_mm3": 4.093
+        },
+        {
+          "a": "D3L_sensor_carrier",
+          "b": "D3L_tie_washer0_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3L_sensor_carrier",
+          "b": "D3L_sensor_support_washer0",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3L_sensor_carrier",
+          "b": "D3L_tie_washer1_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3L_sensor_carrier",
+          "b": "D3L_sensor_support_washer1",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3L_sensor_carrier",
+          "b": "D3L_tie_washer2_41.4",
+          "volume_mm3": 1.591
+        },
+        {
+          "a": "D3L_sensor_carrier",
+          "b": "D3L_sensor_support_washer2",
+          "volume_mm3": 1.591
+        }
+      ],
+      "expected_thread_intersections": [
+        {
+          "a": "D3L_shared_reaction_bearing",
+          "b": "D3L_M3_input_mount0",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3L_shared_reaction_bearing",
+          "b": "D3L_M3_input_mount1",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3L_shared_reaction_bearing",
+          "b": "D3L_M3_input_mount2",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3L_bearing_spider",
+          "b": "D3L_M3_adjuster0",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3L_bearing_spider",
+          "b": "D3L_M3_adjuster1",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3L_bearing_spider",
+          "b": "D3L_M3_adjuster2",
+          "volume_mm3": 6.48
+        },
+        {
+          "a": "D3L_nylon_M2_female_spacer0",
+          "b": "D3L_nylon_M2x6_top_screw0",
+          "volume_mm3": 2.262
+        },
+        {
+          "a": "D3L_nylon_M2_female_spacer0",
+          "b": "D3L_nylon_M2x4_board_screw0",
+          "volume_mm3": 2.714
+        },
+        {
+          "a": "D3L_nylon_M2_female_spacer1",
+          "b": "D3L_nylon_M2x6_top_screw1",
+          "volume_mm3": 2.262
+        },
+        {
+          "a": "D3L_nylon_M2_female_spacer1",
+          "b": "D3L_nylon_M2x4_board_screw1",
+          "volume_mm3": 2.714
+        },
+        {
+          "a": "D3L_nylon_M2x8_cap_screw0",
+          "b": "D3L_nylon_M2_cap_nut0",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3L_nylon_M2x8_cap_screw1",
+          "b": "D3L_nylon_M2_cap_nut1",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3L_M2_magnet_set_screw",
+          "b": "D3L_M2_magnet_set_nut",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3L_M2_output_clamp",
+          "b": "D3L_M2_output_nut",
+          "volume_mm3": 1.395
+        },
+        {
+          "a": "D3L_M3_tie0",
+          "b": "D3L_tie_nut0_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_tie0",
+          "b": "D3L_tie_nut0_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_tie1",
+          "b": "D3L_tie_nut1_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_tie1",
+          "b": "D3L_tie_nut1_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_tie2",
+          "b": "D3L_tie_nut2_15",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_tie2",
+          "b": "D3L_tie_nut2_41.4",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_adjuster0",
+          "b": "D3L_adjuster_nut0",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_adjuster1",
+          "b": "D3L_adjuster_nut1",
+          "volume_mm3": 4.222
+        },
+        {
+          "a": "D3L_M3_adjuster2",
+          "b": "D3L_adjuster_nut2",
+          "volume_mm3": 4.222
+        }
+      ],
+      "rotation_samples": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        },
+        {
+          "angle_deg": 105,
+          "collisions": []
+        },
+        {
+          "angle_deg": 120,
+          "collisions": []
+        },
+        {
+          "angle_deg": 135,
+          "collisions": []
+        },
+        {
+          "angle_deg": 150,
+          "collisions": []
+        },
+        {
+          "angle_deg": 165,
+          "collisions": []
+        },
+        {
+          "angle_deg": 180,
+          "collisions": []
+        },
+        {
+          "angle_deg": 195,
+          "collisions": []
+        },
+        {
+          "angle_deg": 210,
+          "collisions": []
+        },
+        {
+          "angle_deg": 225,
+          "collisions": []
+        },
+        {
+          "angle_deg": 240,
+          "collisions": []
+        },
+        {
+          "angle_deg": 255,
+          "collisions": []
+        },
+        {
+          "angle_deg": 270,
+          "collisions": []
+        },
+        {
+          "angle_deg": 285,
+          "collisions": []
+        },
+        {
+          "angle_deg": 300,
+          "collisions": []
+        },
+        {
+          "angle_deg": 315,
+          "collisions": []
+        },
+        {
+          "angle_deg": 330,
+          "collisions": []
+        },
+        {
+          "angle_deg": 345,
+          "collisions": []
+        }
+      ],
+      "preload_nominal_N": 624,
+      "friction_faces": 2,
+      "friction_outer_mm": 27,
+      "friction_inner_mm": 6.2
+    }
+  }
+}

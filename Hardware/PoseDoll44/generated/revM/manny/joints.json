@@ -1,0 +1,4384 @@
+[
+  {
+    "axis_id": "waist.yaw",
+    "family": "H6P4",
+    "fixed_owner": "pelvis",
+    "rotor_owner": "waist.yaw_frame",
+    "geometry": {
+      "axis_id": "waist.yaw",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "pelvis",
+      "magnet_owner": "waist.yaw_frame",
+      "origin_neutral_mm": [
+        7.5334365819847156,
+        8.270207350842228e-16,
+        480.4617984617257
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 18.726,
+      "package_face_mm": 20.226,
+      "gap_mm": 1.5,
+      "family": "H6P4",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "waist_yaw_M_"
+    },
+    "cartridge": {
+      "family": "H6P4",
+      "clutch_outer_radius_mm": 18,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1656,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 4,
+        "clutch_ro": 18,
+        "rotor_mount_offset_mm": 22
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 5.187110904977376,
+      "cap_bottom_mm": 10.975999999999999,
+      "shaft_end_mm": 12.975999999999999,
+      "board_back_mm": 22.221,
+      "magnet_face_mm": 18.726,
+      "package_face_mm": 20.226,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -22,
+          -6,
+          -5.525
+        ],
+        [
+          -22,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false,
+      "friction_faces": 2,
+      "upper_contact_mean_radius_mm": 8.375,
+      "preload_validation_required": true
+    }
+  },
+  {
+    "axis_id": "waist.pitch",
+    "family": "H6P4",
+    "fixed_owner": "waist.yaw_frame",
+    "rotor_owner": "waist.pitch_frame",
+    "geometry": {
+      "axis_id": "waist.pitch",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "waist.yaw_frame",
+      "magnet_owner": "waist.pitch_frame",
+      "origin_neutral_mm": [
+        7.5334365819847156,
+        36.0,
+        554.4617984617257
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 18.726,
+      "package_face_mm": 20.226,
+      "gap_mm": 1.5,
+      "family": "H6P4",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "waist_pitch_M_"
+    },
+    "cartridge": {
+      "family": "H6P4",
+      "clutch_outer_radius_mm": 18,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1656,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 4,
+        "clutch_ro": 18,
+        "rotor_mount_offset_mm": 22
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 5.187110904977376,
+      "cap_bottom_mm": 10.975999999999999,
+      "shaft_end_mm": 12.975999999999999,
+      "board_back_mm": 22.221,
+      "magnet_face_mm": 18.726,
+      "package_face_mm": 20.226,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -22,
+          -6,
+          -5.525
+        ],
+        [
+          -22,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false,
+      "friction_faces": 2,
+      "upper_contact_mean_radius_mm": 8.375,
+      "preload_validation_required": true
+    }
+  },
+  {
+    "axis_id": "waist.roll",
+    "family": "H6P4",
+    "fixed_owner": "waist.pitch_frame",
+    "rotor_owner": "waist",
+    "geometry": {
+      "axis_id": "waist.roll",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "waist.pitch_frame",
+      "magnet_owner": "waist",
+      "origin_neutral_mm": [
+        51.533436581984716,
+        8.270207350842228e-16,
+        554.4617984617257
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 18.726,
+      "package_face_mm": 20.226,
+      "gap_mm": 1.5,
+      "family": "H6P4",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "waist_roll_M_"
+    },
+    "cartridge": {
+      "family": "H6P4",
+      "clutch_outer_radius_mm": 18,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1656,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 4,
+        "clutch_ro": 18,
+        "rotor_mount_offset_mm": 22
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 5.187110904977376,
+      "cap_bottom_mm": 10.975999999999999,
+      "shaft_end_mm": 12.975999999999999,
+      "board_back_mm": 22.221,
+      "magnet_face_mm": 18.726,
+      "package_face_mm": 20.226,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -22,
+          -6,
+          -5.525
+        ],
+        [
+          -22,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false,
+      "friction_faces": 2,
+      "upper_contact_mean_radius_mm": 8.375,
+      "preload_validation_required": true
+    }
+  },
+  {
+    "axis_id": "chest.yaw",
+    "family": "H6P3",
+    "fixed_owner": "waist",
+    "rotor_owner": "chest.yaw_frame",
+    "geometry": {
+      "axis_id": "chest.yaw",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "waist",
+      "magnet_owner": "chest.yaw_frame",
+      "origin_neutral_mm": [
+        7.185505053543287,
+        -9.724861368043147e-16,
+        574.9442901084931
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 17.526,
+      "package_face_mm": 19.026,
+      "gap_mm": 1.5,
+      "family": "H6P3",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "chest_yaw_M_"
+    },
+    "cartridge": {
+      "family": "H6P3",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1656,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 3
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 4.868444328358208,
+      "cap_bottom_mm": 9.776,
+      "shaft_end_mm": 11.776,
+      "board_back_mm": 21.021,
+      "magnet_face_mm": 17.526,
+      "package_face_mm": 19.026,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false,
+      "friction_faces": 2,
+      "upper_contact_mean_radius_mm": 8.375,
+      "preload_validation_required": true
+    }
+  },
+  {
+    "axis_id": "chest.pitch",
+    "family": "H6P3",
+    "fixed_owner": "chest.yaw_frame",
+    "rotor_owner": "chest.pitch_frame",
+    "geometry": {
+      "axis_id": "chest.pitch",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "chest.yaw_frame",
+      "magnet_owner": "chest.pitch_frame",
+      "origin_neutral_mm": [
+        7.185505053543287,
+        -36.0,
+        614.9442901084931
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 17.526,
+      "package_face_mm": 19.026,
+      "gap_mm": 1.5,
+      "family": "H6P3",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "chest_pitch_M_"
+    },
+    "cartridge": {
+      "family": "H6P3",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1656,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 3
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 4.868444328358208,
+      "cap_bottom_mm": 9.776,
+      "shaft_end_mm": 11.776,
+      "board_back_mm": 21.021,
+      "magnet_face_mm": 17.526,
+      "package_face_mm": 19.026,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false,
+      "friction_faces": 2,
+      "upper_contact_mean_radius_mm": 8.375,
+      "preload_validation_required": true
+    }
+  },
+  {
+    "axis_id": "chest.roll",
+    "family": "H6P3",
+    "fixed_owner": "chest.pitch_frame",
+    "rotor_owner": "chest",
+    "geometry": {
+      "axis_id": "chest.roll",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "chest.pitch_frame",
+      "magnet_owner": "chest",
+      "origin_neutral_mm": [
+        26.185505053543288,
+        -9.724861368043147e-16,
+        614.9442901084931
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 17.526,
+      "package_face_mm": 19.026,
+      "gap_mm": 1.5,
+      "family": "H6P3",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "chest_roll_M_"
+    },
+    "cartridge": {
+      "family": "H6P3",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1656,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 3
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 4.868444328358208,
+      "cap_bottom_mm": 9.776,
+      "shaft_end_mm": 11.776,
+      "board_back_mm": 21.021,
+      "magnet_face_mm": 17.526,
+      "package_face_mm": 19.026,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false,
+      "friction_faces": 2,
+      "upper_contact_mean_radius_mm": 8.375,
+      "preload_validation_required": true
+    }
+  },
+  {
+    "axis_id": "head.yaw",
+    "family": "T4_light",
+    "fixed_owner": "chest",
+    "rotor_owner": "head.yaw_frame",
+    "geometry": {
+      "axis_id": "head.yaw",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "chest",
+      "magnet_owner": "head.yaw_frame",
+      "origin_neutral_mm": [
+        -13.490790873954467,
+        -1.7077865830724765e-10,
+        759.8905316429316
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 9,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5,
+      "family": "T4_light",
+      "calibrated": false,
+      "part_prefix": "head_yaw_T4_"
+    },
+    "cartridge": {
+      "nominal_torque_Nm": 0.28861,
+      "clutch_force_nominal_N": 294,
+      "magnet_face_mm": 9,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5
+    }
+  },
+  {
+    "axis_id": "head.pitch",
+    "family": "T4_light",
+    "fixed_owner": "head.yaw_frame",
+    "rotor_owner": "head.pitch_frame",
+    "geometry": {
+      "axis_id": "head.pitch",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "head.yaw_frame",
+      "magnet_owner": "head.pitch_frame",
+      "origin_neutral_mm": [
+        -13.490790873954467,
+        -38.00000000017078,
+        793.8905316429316
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 9,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5,
+      "family": "T4_light",
+      "calibrated": false,
+      "part_prefix": "head_pitch_T4_"
+    },
+    "cartridge": {
+      "nominal_torque_Nm": 0.28861,
+      "clutch_force_nominal_N": 294,
+      "magnet_face_mm": 9,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5
+    }
+  },
+  {
+    "axis_id": "head.roll",
+    "family": "T4_light",
+    "fixed_owner": "head.pitch_frame",
+    "rotor_owner": "head",
+    "geometry": {
+      "axis_id": "head.roll",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "head.pitch_frame",
+      "magnet_owner": "head",
+      "origin_neutral_mm": [
+        -51.49079087395447,
+        -1.7077865830724765e-10,
+        793.8905316429316
+      ],
+      "normal_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 9,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5,
+      "family": "T4_light",
+      "calibrated": false,
+      "part_prefix": "head_roll_T4_"
+    },
+    "cartridge": {
+      "nominal_torque_Nm": 0.28861,
+      "clutch_force_nominal_N": 294,
+      "magnet_face_mm": 9,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5
+    }
+  },
+  {
+    "axis_id": "clavicle_l.protract",
+    "family": "G4P2",
+    "fixed_owner": "chest",
+    "rotor_owner": "clavicle_l.protract_frame",
+    "geometry": {
+      "axis_id": "clavicle_l.protract",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "chest",
+      "magnet_owner": "clavicle_l.protract_frame",
+      "origin_neutral_mm": [
+        -20.103398900597178,
+        7.139521241290422,
+        701.8175388751048
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 18.3,
+      "package_face_mm": 19.8,
+      "gap_mm": 1.5,
+      "family": "G4P2",
+      "calibrated": false,
+      "part_prefix": "clavicle_l_protract_G4_",
+      "board_rotation_deg": 180
+    },
+    "cartridge": {
+      "shaft_end": 32,
+      "clip_sign": 1,
+      "middle_key": null,
+      "nominal_force_N": 1114,
+      "gap_mm": 1.5,
+      "magnet_face_mm": -18.3,
+      "board_back_mm": -21.795,
+      "intended_thread_pairs": [
+        [
+          "stepped_D4_shaft",
+          "preload_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "jam_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_0"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_1"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_0"
+        ],
+        [
+          "post_0",
+          "board_M2x6_0"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_1"
+        ],
+        [
+          "post_1",
+          "board_M2x6_1"
+        ]
+      ],
+      "manufacturing_released": false,
+      "nominal_torque_Nm": 1.3029904709508646,
+      "clutch_force_nominal_N": 1114,
+      "contact_mean_radius_mm": 7.797668886600028
+    }
+  },
+  {
+    "axis_id": "clavicle_l.elevate",
+    "family": "G4P2",
+    "fixed_owner": "clavicle_l.protract_frame",
+    "rotor_owner": "clavicle_l",
+    "geometry": {
+      "axis_id": "clavicle_l.elevate",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "clavicle_l.protract_frame",
+      "magnet_owner": "clavicle_l",
+      "origin_neutral_mm": [
+        37.89660109940282,
+        7.139521241290422,
+        736.8175388751048
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 18.3,
+      "package_face_mm": 19.8,
+      "gap_mm": 1.5,
+      "family": "G4P2",
+      "calibrated": false,
+      "part_prefix": "clavicle_l_elevate_G4_"
+    },
+    "cartridge": {
+      "shaft_end": 38,
+      "clip_sign": null,
+      "middle_key": [
+        21,
+        27
+      ],
+      "nominal_force_N": 1114,
+      "gap_mm": 1.5,
+      "magnet_face_mm": -18.3,
+      "board_back_mm": -21.795,
+      "intended_thread_pairs": [
+        [
+          "stepped_D4_shaft",
+          "preload_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "jam_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_0"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_1"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_0"
+        ],
+        [
+          "post_0",
+          "board_M2x6_0"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_1"
+        ],
+        [
+          "post_1",
+          "board_M2x6_1"
+        ]
+      ],
+      "manufacturing_released": false,
+      "nominal_torque_Nm": 1.3700386254303782,
+      "clutch_force_nominal_N": 1114,
+      "contact_mean_radius_mm": 8.19891457468808
+    }
+  },
+  {
+    "axis_id": "upperarm_l.flex",
+    "family": "RevL_flex",
+    "fixed_owner": "clavicle_l",
+    "rotor_owner": "upperarm_l.flex_frame",
+    "geometry": {
+      "axis_id": "upperarm_l.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "clavicle_l",
+      "magnet_owner": "upperarm_l.flex_frame",
+      "origin_neutral_mm": [
+        -24.190497287848036,
+        95.04939554808979,
+        723.2297858318288
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": 1,
+      "board_rotation_deg": 270,
+      "magnet_face_mm": 58.275999999999996,
+      "package_face_mm": 59.775999999999996,
+      "gap_mm": 1.5,
+      "family": "RevL_flex",
+      "calibrated": false,
+      "part_prefix": "l_flex_sensor_"
+    },
+    "cartridge": {
+      "clutch_force_nominal_N": 552,
+      "nominal_torque_Nm": 0.8222511917098445,
+      "friction_inner_radius_mm": 6.8,
+      "friction_outer_radius_mm": 12.5,
+      "physical_tested": false
+    }
+  },
+  {
+    "axis_id": "upperarm_l.abduct",
+    "family": "RevL_abduct",
+    "fixed_owner": "upperarm_l.flex_frame",
+    "rotor_owner": "upperarm_l.abduct_frame",
+    "geometry": {
+      "axis_id": "upperarm_l.abduct",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "upperarm_l.flex_frame",
+      "magnet_owner": "upperarm_l.abduct_frame",
+      "origin_neutral_mm": [
+        -24.190497287848036,
+        95.04939554808979,
+        723.2297858318288
+      ],
+      "normal_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1,
+      "board_rotation_deg": 0,
+      "magnet_face_mm": 36.5,
+      "package_face_mm": 39.3,
+      "gap_mm": 2.8,
+      "family": "RevL_abduct",
+      "calibrated": false,
+      "part_prefix": "l_abduct_sensor_"
+    },
+    "cartridge": {
+      "clutch_force_nominal_N": 552,
+      "nominal_torque_Nm": 0.8222511917098445,
+      "friction_inner_radius_mm": 6.8,
+      "friction_outer_radius_mm": 12.5,
+      "physical_tested": false
+    }
+  },
+  {
+    "axis_id": "upperarm_l.twist",
+    "family": "RevL_twist",
+    "fixed_owner": "upperarm_l.abduct_frame",
+    "rotor_owner": "upperarm_l",
+    "geometry": {
+      "axis_id": "upperarm_l.twist",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "upperarm_l.abduct_frame",
+      "magnet_owner": "upperarm_l",
+      "origin_neutral_mm": [
+        -24.190497287848036,
+        95.04939554808979,
+        723.2297858318288
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": -1,
+      "board_rotation_deg": 0,
+      "magnet_face_mm": 9.0,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5,
+      "family": "RevL_twist",
+      "calibrated": false,
+      "part_prefix": "l_twist_sensor_"
+    },
+    "cartridge": {
+      "nominal_torque_Nm": 0.3161841444866921,
+      "clutch_force_nominal_N": 294,
+      "physical_tested": false
+    }
+  },
+  {
+    "axis_id": "elbow_l.flex",
+    "family": "M6",
+    "fixed_owner": "upperarm_l",
+    "rotor_owner": "elbow_l",
+    "geometry": {
+      "axis_id": "elbow_l.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "upperarm_l",
+      "magnet_owner": "elbow_l",
+      "origin_neutral_mm": [
+        -24.190497287848036,
+        100.57439554808983,
+        584.3740901073415
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "family": "M6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "elbow_l_flex_M_"
+    },
+    "cartridge": {
+      "family": "M6",
+      "clutch_outer_radius_mm": 13,
+      "mount_reference_radius_mm": 13,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 326,
+      "spring": {
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "test": 0.588,
+        "F": 326
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.4558471345029241,
+      "cap_bottom_mm": 7.176,
+      "shaft_end_mm": 9.176,
+      "board_back_mm": 18.421000000000003,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          21,
+          -6,
+          2.5
+        ],
+        [
+          21,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -17,
+          -6,
+          -5.525
+        ],
+        [
+          -17,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "forearm_l.twist",
+    "family": "S6",
+    "fixed_owner": "elbow_l",
+    "rotor_owner": "forearm_l",
+    "geometry": {
+      "axis_id": "forearm_l.twist",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "elbow_l",
+      "magnet_owner": "forearm_l",
+      "origin_neutral_mm": [
+        -24.190497287848032,
+        95.04939554808982,
+        523.059173973461
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "forearm_l_twist_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "hand_l.flex",
+    "family": "S6",
+    "fixed_owner": "forearm_l",
+    "rotor_owner": "hand_l.flex_frame",
+    "geometry": {
+      "axis_id": "hand_l.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "forearm_l",
+      "magnet_owner": "hand_l.flex_frame",
+      "origin_neutral_mm": [
+        -24.19049728784802,
+        121.04939554808982,
+        448.1187209209403
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "hand_l_flex_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "hand_l.deviate",
+    "family": "S6",
+    "fixed_owner": "hand_l.flex_frame",
+    "rotor_owner": "hand_l",
+    "geometry": {
+      "axis_id": "hand_l.deviate",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "hand_l.flex_frame",
+      "magnet_owner": "hand_l",
+      "origin_neutral_mm": [
+        -10.190497287848022,
+        95.04939554808982,
+        448.1187209209403
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "hand_l_deviate_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "thigh_l.flex",
+    "family": "H6P2",
+    "fixed_owner": "pelvis",
+    "rotor_owner": "thigh_l.flex_frame",
+    "geometry": {
+      "axis_id": "thigh_l.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "pelvis",
+      "magnet_owner": "thigh_l.flex_frame",
+      "origin_neutral_mm": [
+        1.298655442451368,
+        85.84601497650146,
+        473.0262775573608
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "family": "H6P2",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "thigh_l_flex_M_"
+    },
+    "cartridge": {
+      "family": "H6P2",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1104,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 2
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 1.858729552238806,
+      "cap_bottom_mm": 8.576,
+      "shaft_end_mm": 10.576,
+      "board_back_mm": 19.821,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "thigh_l.abduct",
+    "family": "H6P2",
+    "fixed_owner": "thigh_l.flex_frame",
+    "rotor_owner": "thigh_l.abduct_frame",
+    "geometry": {
+      "axis_id": "thigh_l.abduct",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "thigh_l.flex_frame",
+      "magnet_owner": "thigh_l.abduct_frame",
+      "origin_neutral_mm": [
+        20.29865544245137,
+        49.846014976501465,
+        473.0262775573608
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "family": "H6P2",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "thigh_l_abduct_M_"
+    },
+    "cartridge": {
+      "family": "H6P2",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1104,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 2
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 1.858729552238806,
+      "cap_bottom_mm": 8.576,
+      "shaft_end_mm": 10.576,
+      "board_back_mm": 19.821,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "thigh_l.twist",
+    "family": "H6P2",
+    "fixed_owner": "thigh_l.abduct_frame",
+    "rotor_owner": "thigh_l",
+    "geometry": {
+      "axis_id": "thigh_l.twist",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "thigh_l.abduct_frame",
+      "magnet_owner": "thigh_l",
+      "origin_neutral_mm": [
+        1.298655442451368,
+        49.846014976501465,
+        393.0262775573608
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "family": "H6P2",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "thigh_l_twist_M_"
+    },
+    "cartridge": {
+      "family": "H6P2",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1104,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 2
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 1.858729552238806,
+      "cap_bottom_mm": 8.576,
+      "shaft_end_mm": 10.576,
+      "board_back_mm": 19.821,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "calf_l.flex",
+    "family": "H6",
+    "fixed_owner": "thigh_l",
+    "rotor_owner": "calf_l",
+    "geometry": {
+      "axis_id": "calf_l.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "thigh_l",
+      "magnet_owner": "calf_l",
+      "origin_neutral_mm": [
+        1.298655442451368,
+        55.37101497650146,
+        256.3197345886109
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 15.126,
+      "package_face_mm": 16.625999999999998,
+      "gap_mm": 1.5,
+      "family": "H6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "calf_l_flex_M_"
+    },
+    "cartridge": {
+      "family": "H6",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 552,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.929364776119403,
+      "cap_bottom_mm": 7.3759999999999994,
+      "shaft_end_mm": 9.376,
+      "board_back_mm": 18.621,
+      "magnet_face_mm": 15.126,
+      "package_face_mm": 16.625999999999998,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "foot_l.dorsiflex",
+    "family": "M6",
+    "fixed_owner": "calf_l",
+    "rotor_owner": "foot_l.dorsiflex_frame",
+    "geometry": {
+      "axis_id": "foot_l.dorsiflex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "calf_l",
+      "magnet_owner": "foot_l.dorsiflex_frame",
+      "origin_neutral_mm": [
+        1.2986554424513654,
+        79.84601497650146,
+        45.230161682116744
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "family": "M6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "foot_l_dorsiflex_M_"
+    },
+    "cartridge": {
+      "family": "M6",
+      "clutch_outer_radius_mm": 13,
+      "mount_reference_radius_mm": 13,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 326,
+      "spring": {
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "test": 0.588,
+        "F": 326
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.4558471345029241,
+      "cap_bottom_mm": 7.176,
+      "shaft_end_mm": 9.176,
+      "board_back_mm": 18.421000000000003,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          21,
+          -6,
+          2.5
+        ],
+        [
+          21,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -17,
+          -6,
+          -5.525
+        ],
+        [
+          -17,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "foot_l.invert",
+    "family": "M6",
+    "fixed_owner": "foot_l.dorsiflex_frame",
+    "rotor_owner": "foot_l",
+    "geometry": {
+      "axis_id": "foot_l.invert",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "foot_l.dorsiflex_frame",
+      "magnet_owner": "foot_l",
+      "origin_neutral_mm": [
+        17.298655442451366,
+        49.846014976501465,
+        45.230161682116744
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "family": "M6",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "foot_l_invert_M_"
+    },
+    "cartridge": {
+      "family": "M6",
+      "clutch_outer_radius_mm": 13,
+      "mount_reference_radius_mm": 13,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 326,
+      "spring": {
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "test": 0.588,
+        "F": 326
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.4558471345029241,
+      "cap_bottom_mm": 7.176,
+      "shaft_end_mm": 9.176,
+      "board_back_mm": 18.421000000000003,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          21,
+          -6,
+          2.5
+        ],
+        [
+          21,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -17,
+          -6,
+          -5.525
+        ],
+        [
+          -17,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "ball_l.flex",
+    "family": "S6",
+    "fixed_owner": "foot_l",
+    "rotor_owner": "ball_l",
+    "geometry": {
+      "axis_id": "ball_l.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "foot_l",
+      "magnet_owner": "ball_l",
+      "origin_neutral_mm": [
+        85.204363856316,
+        55.37101497650146,
+        45.230161682116744
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "ball_l_flex_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "clavicle_r.protract",
+    "family": "G4P2",
+    "fixed_owner": "chest",
+    "rotor_owner": "clavicle_r.protract_frame",
+    "geometry": {
+      "axis_id": "clavicle_r.protract",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "chest",
+      "magnet_owner": "clavicle_r.protract_frame",
+      "origin_neutral_mm": [
+        -20.10357848570823,
+        -7.139363288777018,
+        660.8172597322753
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 18.3,
+      "package_face_mm": 19.8,
+      "gap_mm": 1.5,
+      "family": "G4P2",
+      "calibrated": false,
+      "part_prefix": "clavicle_r_protract_G4_"
+    },
+    "cartridge": {
+      "shaft_end": 73,
+      "clip_sign": -1,
+      "middle_key": null,
+      "nominal_force_N": 1114,
+      "gap_mm": 1.5,
+      "magnet_face_mm": -18.3,
+      "board_back_mm": -21.795,
+      "intended_thread_pairs": [
+        [
+          "stepped_D4_shaft",
+          "preload_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "jam_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_0"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_1"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_0"
+        ],
+        [
+          "post_0",
+          "board_M2x6_0"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_1"
+        ],
+        [
+          "post_1",
+          "board_M2x6_1"
+        ]
+      ],
+      "manufacturing_released": false,
+      "nominal_torque_Nm": 1.3030433950010625,
+      "clutch_force_nominal_N": 1114,
+      "contact_mean_radius_mm": 7.797985607427065
+    }
+  },
+  {
+    "axis_id": "clavicle_r.elevate",
+    "family": "G4P2",
+    "fixed_owner": "clavicle_r.protract_frame",
+    "rotor_owner": "clavicle_r",
+    "geometry": {
+      "axis_id": "clavicle_r.elevate",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "clavicle_r.protract_frame",
+      "magnet_owner": "clavicle_r",
+      "origin_neutral_mm": [
+        -78.10357848570823,
+        -7.139363288777018,
+        736.8172597322753
+      ],
+      "normal_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 18.3,
+      "package_face_mm": 19.8,
+      "gap_mm": 1.5,
+      "family": "G4P2",
+      "calibrated": false,
+      "part_prefix": "clavicle_r_elevate_G4_"
+    },
+    "cartridge": {
+      "shaft_end": 38,
+      "clip_sign": null,
+      "middle_key": [
+        21,
+        27
+      ],
+      "nominal_force_N": 1114,
+      "gap_mm": 1.5,
+      "magnet_face_mm": -18.3,
+      "board_back_mm": -21.795,
+      "intended_thread_pairs": [
+        [
+          "stepped_D4_shaft",
+          "preload_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "jam_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_0"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_1"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_0"
+        ],
+        [
+          "post_0",
+          "board_M2x6_0"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_1"
+        ],
+        [
+          "post_1",
+          "board_M2x6_1"
+        ]
+      ],
+      "manufacturing_released": false,
+      "nominal_torque_Nm": 1.3700386254303782,
+      "clutch_force_nominal_N": 1114,
+      "contact_mean_radius_mm": 8.19891457468808
+    }
+  },
+  {
+    "axis_id": "upperarm_r.flex",
+    "family": "RevL_flex",
+    "fixed_owner": "clavicle_r",
+    "rotor_owner": "upperarm_r.flex_frame",
+    "geometry": {
+      "axis_id": "upperarm_r.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "clavicle_r",
+      "magnet_owner": "upperarm_r.flex_frame",
+      "origin_neutral_mm": [
+        -24.190678621271683,
+        -95.04941240511728,
+        723.2272632365854
+      ],
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": -1,
+      "board_rotation_deg": 270,
+      "magnet_face_mm": 58.275999999999996,
+      "package_face_mm": 59.775999999999996,
+      "gap_mm": 1.5,
+      "family": "RevL_flex",
+      "calibrated": false,
+      "part_prefix": "r_flex_sensor_"
+    },
+    "cartridge": {
+      "clutch_force_nominal_N": 552,
+      "nominal_torque_Nm": 0.8222511917098445,
+      "friction_inner_radius_mm": 6.8,
+      "friction_outer_radius_mm": 12.5,
+      "physical_tested": false
+    }
+  },
+  {
+    "axis_id": "upperarm_r.abduct",
+    "family": "RevL_abduct",
+    "fixed_owner": "upperarm_r.flex_frame",
+    "rotor_owner": "upperarm_r.abduct_frame",
+    "geometry": {
+      "axis_id": "upperarm_r.abduct",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "upperarm_r.flex_frame",
+      "magnet_owner": "upperarm_r.abduct_frame",
+      "origin_neutral_mm": [
+        -24.190678621271683,
+        -95.04941240511728,
+        723.2272632365854
+      ],
+      "normal_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": 1,
+      "board_rotation_deg": 0,
+      "magnet_face_mm": 36.5,
+      "package_face_mm": 39.3,
+      "gap_mm": 2.8,
+      "family": "RevL_abduct",
+      "calibrated": false,
+      "part_prefix": "r_abduct_sensor_"
+    },
+    "cartridge": {
+      "clutch_force_nominal_N": 552,
+      "nominal_torque_Nm": 0.8222511917098445,
+      "friction_inner_radius_mm": 6.8,
+      "friction_outer_radius_mm": 12.5,
+      "physical_tested": false
+    }
+  },
+  {
+    "axis_id": "upperarm_r.twist",
+    "family": "RevL_twist",
+    "fixed_owner": "upperarm_r.abduct_frame",
+    "rotor_owner": "upperarm_r",
+    "geometry": {
+      "axis_id": "upperarm_r.twist",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "upperarm_r.abduct_frame",
+      "magnet_owner": "upperarm_r",
+      "origin_neutral_mm": [
+        -24.190678621271683,
+        -95.04941240511728,
+        723.2272632365854
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": 1,
+      "board_rotation_deg": 0,
+      "magnet_face_mm": 9.0,
+      "package_face_mm": 10.5,
+      "gap_mm": 1.5,
+      "family": "RevL_twist",
+      "calibrated": false,
+      "part_prefix": "r_twist_sensor_"
+    },
+    "cartridge": {
+      "nominal_torque_Nm": 0.3161841444866921,
+      "clutch_force_nominal_N": 294,
+      "physical_tested": false
+    }
+  },
+  {
+    "axis_id": "elbow_r.flex",
+    "family": "M6",
+    "fixed_owner": "upperarm_r",
+    "rotor_owner": "elbow_r",
+    "geometry": {
+      "axis_id": "elbow_r.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "upperarm_r",
+      "magnet_owner": "elbow_r",
+      "origin_neutral_mm": [
+        -24.190678621271683,
+        -100.57441240511731,
+        584.3737895732553
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "family": "M6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "elbow_r_flex_M_"
+    },
+    "cartridge": {
+      "family": "M6",
+      "clutch_outer_radius_mm": 13,
+      "mount_reference_radius_mm": 13,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 326,
+      "spring": {
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "test": 0.588,
+        "F": 326
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.4558471345029241,
+      "cap_bottom_mm": 7.176,
+      "shaft_end_mm": 9.176,
+      "board_back_mm": 18.421000000000003,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          21,
+          -6,
+          2.5
+        ],
+        [
+          21,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -17,
+          -6,
+          -5.525
+        ],
+        [
+          -17,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "forearm_r.twist",
+    "family": "S6",
+    "fixed_owner": "elbow_r",
+    "rotor_owner": "forearm_r",
+    "geometry": {
+      "axis_id": "forearm_r.twist",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "elbow_r",
+      "magnet_owner": "forearm_r",
+      "origin_neutral_mm": [
+        -24.190678621271683,
+        -95.0494124051173,
+        523.0590150600108
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "forearm_r_twist_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "hand_r.flex",
+    "family": "S6",
+    "fixed_owner": "forearm_r",
+    "rotor_owner": "hand_r.flex_frame",
+    "geometry": {
+      "axis_id": "hand_r.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "forearm_r",
+      "magnet_owner": "hand_r.flex_frame",
+      "origin_neutral_mm": [
+        -24.19067862127168,
+        -121.04941240511727,
+        448.11873509937845
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "hand_r_flex_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "hand_r.deviate",
+    "family": "S6",
+    "fixed_owner": "hand_r.flex_frame",
+    "rotor_owner": "hand_r",
+    "geometry": {
+      "axis_id": "hand_r.deviate",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "hand_r.flex_frame",
+      "magnet_owner": "hand_r",
+      "origin_neutral_mm": [
+        -10.19067862127168,
+        -95.04941240511727,
+        448.11873509937845
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "hand_r_deviate_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "thigh_r.flex",
+    "family": "H6P2",
+    "fixed_owner": "pelvis",
+    "rotor_owner": "thigh_r.flex_frame",
+    "geometry": {
+      "axis_id": "thigh_r.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "pelvis",
+      "magnet_owner": "thigh_r.flex_frame",
+      "origin_neutral_mm": [
+        1.3457854428732556,
+        -85.84545707702637,
+        473.02919481426244
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "family": "H6P2",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "thigh_r_flex_M_"
+    },
+    "cartridge": {
+      "family": "H6P2",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1104,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 2
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 1.858729552238806,
+      "cap_bottom_mm": 8.576,
+      "shaft_end_mm": 10.576,
+      "board_back_mm": 19.821,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "thigh_r.abduct",
+    "family": "H6P2",
+    "fixed_owner": "thigh_r.flex_frame",
+    "rotor_owner": "thigh_r.abduct_frame",
+    "geometry": {
+      "axis_id": "thigh_r.abduct",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "thigh_r.flex_frame",
+      "magnet_owner": "thigh_r.abduct_frame",
+      "origin_neutral_mm": [
+        20.345785442873257,
+        -49.84545707702637,
+        473.02919481426244
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "family": "H6P2",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "thigh_r_abduct_M_"
+    },
+    "cartridge": {
+      "family": "H6P2",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1104,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 2
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 1.858729552238806,
+      "cap_bottom_mm": 8.576,
+      "shaft_end_mm": 10.576,
+      "board_back_mm": 19.821,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "thigh_r.twist",
+    "family": "H6P2",
+    "fixed_owner": "thigh_r.abduct_frame",
+    "rotor_owner": "thigh_r",
+    "geometry": {
+      "axis_id": "thigh_r.twist",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "thigh_r.abduct_frame",
+      "magnet_owner": "thigh_r",
+      "origin_neutral_mm": [
+        1.3457854428732556,
+        -49.84545707702637,
+        393.02919481426244
+      ],
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "xdir_neutral": [
+        1,
+        0,
+        0
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "family": "H6P2",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "thigh_r_twist_M_"
+    },
+    "cartridge": {
+      "family": "H6P2",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 1104,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552,
+        "parallel": 2
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 1.858729552238806,
+      "cap_bottom_mm": 8.576,
+      "shaft_end_mm": 10.576,
+      "board_back_mm": 19.821,
+      "magnet_face_mm": 16.326,
+      "package_face_mm": 17.826,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "calf_r.flex",
+    "family": "H6",
+    "fixed_owner": "thigh_r",
+    "rotor_owner": "calf_r",
+    "geometry": {
+      "axis_id": "calf_r.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "thigh_r",
+      "magnet_owner": "calf_r",
+      "origin_neutral_mm": [
+        1.3457854428732556,
+        -55.370457077026366,
+        256.32288072734843
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 15.126,
+      "package_face_mm": 16.625999999999998,
+      "gap_mm": 1.5,
+      "family": "H6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "calf_r_flex_M_"
+    },
+    "cartridge": {
+      "family": "H6",
+      "clutch_outer_radius_mm": 16,
+      "mount_reference_radius_mm": 16,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 552,
+      "spring": {
+        "ro": 16,
+        "spring": "002200",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.6,
+        "free": 0.95,
+        "test": 0.688,
+        "F": 552
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.929364776119403,
+      "cap_bottom_mm": 7.3759999999999994,
+      "shaft_end_mm": 9.376,
+      "board_back_mm": 18.621,
+      "magnet_face_mm": 15.126,
+      "package_face_mm": 16.625999999999998,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          24,
+          -6,
+          2.5
+        ],
+        [
+          24,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -20,
+          -6,
+          -5.525
+        ],
+        [
+          -20,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "foot_r.dorsiflex",
+    "family": "M6",
+    "fixed_owner": "calf_r",
+    "rotor_owner": "foot_r.dorsiflex_frame",
+    "geometry": {
+      "axis_id": "foot_r.dorsiflex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "calf_r",
+      "magnet_owner": "foot_r.dorsiflex_frame",
+      "origin_neutral_mm": [
+        1.3457854428732556,
+        -79.84545707702637,
+        45.23313615947734
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        -1
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "family": "M6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "foot_r_dorsiflex_M_"
+    },
+    "cartridge": {
+      "family": "M6",
+      "clutch_outer_radius_mm": 13,
+      "mount_reference_radius_mm": 13,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 326,
+      "spring": {
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "test": 0.588,
+        "F": 326
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.4558471345029241,
+      "cap_bottom_mm": 7.176,
+      "shaft_end_mm": 9.176,
+      "board_back_mm": 18.421000000000003,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          21,
+          -6,
+          2.5
+        ],
+        [
+          21,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -17,
+          -6,
+          -5.525
+        ],
+        [
+          -17,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "foot_r.invert",
+    "family": "M6",
+    "fixed_owner": "foot_r.dorsiflex_frame",
+    "rotor_owner": "foot_r",
+    "geometry": {
+      "axis_id": "foot_r.invert",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "foot_r.dorsiflex_frame",
+      "magnet_owner": "foot_r",
+      "origin_neutral_mm": [
+        17.345785442873257,
+        -49.84545707702637,
+        45.23313615947734
+      ],
+      "normal_neutral": [
+        1,
+        0,
+        0
+      ],
+      "xdir_neutral": [
+        0,
+        0,
+        1
+      ],
+      "geometric_sign": -1.0,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "family": "M6",
+      "board_rotation_deg": 90,
+      "calibrated": false,
+      "part_prefix": "foot_r_invert_M_"
+    },
+    "cartridge": {
+      "family": "M6",
+      "clutch_outer_radius_mm": 13,
+      "mount_reference_radius_mm": 13,
+      "board_rotation_deg": 90,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 326,
+      "spring": {
+        "ro": 13,
+        "spring": "002100",
+        "de": 12,
+        "di": 6.2,
+        "t": 0.5,
+        "free": 0.85,
+        "test": 0.588,
+        "F": 326
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.4558471345029241,
+      "cap_bottom_mm": 7.176,
+      "shaft_end_mm": 9.176,
+      "board_back_mm": 18.421000000000003,
+      "magnet_face_mm": 14.926,
+      "package_face_mm": 16.426000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          21,
+          -6,
+          2.5
+        ],
+        [
+          21,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -17,
+          -6,
+          -5.525
+        ],
+        [
+          -17,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  },
+  {
+    "axis_id": "ball_r.flex",
+    "family": "S6",
+    "fixed_owner": "foot_r",
+    "rotor_owner": "ball_r",
+    "geometry": {
+      "axis_id": "ball_r.flex",
+      "kind": "AS5048A_direct",
+      "fixed_owner": "foot_r",
+      "magnet_owner": "ball_r",
+      "origin_neutral_mm": [
+        85.251529176497,
+        -55.370457077026366,
+        45.23313615947734
+      ],
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "xdir_neutral": [
+        -1,
+        0,
+        0
+      ],
+      "geometric_sign": 1.0,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "family": "S6",
+      "board_rotation_deg": 0,
+      "calibrated": false,
+      "part_prefix": "ball_r_flex_M_"
+    },
+    "cartridge": {
+      "family": "S6",
+      "clutch_outer_radius_mm": 11,
+      "mount_reference_radius_mm": 11,
+      "board_rotation_deg": 0,
+      "shaft_mm": 6,
+      "clutch_force_nominal_N": 151,
+      "spring": {
+        "ro": 11,
+        "spring": "002050",
+        "de": 12.5,
+        "di": 6.2,
+        "t": 0.35,
+        "free": 0.8,
+        "test": 0.463,
+        "F": 151
+      },
+      "friction_mu_assumed": 0.15,
+      "nominal_torque_Nm": 0.18291,
+      "cap_bottom_mm": 6.926,
+      "shaft_end_mm": 8.926,
+      "board_back_mm": 18.171000000000003,
+      "magnet_face_mm": 14.676,
+      "package_face_mm": 16.176000000000002,
+      "gap_mm": 1.5,
+      "fixed_mounts_mm": [
+        [
+          19,
+          -6,
+          2.5
+        ],
+        [
+          19,
+          6,
+          2.5
+        ]
+      ],
+      "rotor_mounts_mm": [
+        [
+          -15,
+          -6,
+          -5.525
+        ],
+        [
+          -15,
+          6,
+          -5.525
+        ]
+      ],
+      "intended_thread_pairs": [
+        [
+          "flanged_rotor_shaft",
+          "M3x8_button_retainer"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_0"
+        ],
+        [
+          "D_stop_cap",
+          "cup_M2x4_1"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "keyed_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "flanged_rotor_shaft",
+          "output_M2x6"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_0"
+        ],
+        [
+          "board_post_0",
+          "PCB_M2x6_0"
+        ],
+        [
+          "fixed_metal_eye",
+          "board_post_1"
+        ],
+        [
+          "board_post_1",
+          "PCB_M2x6_1"
+        ]
+      ],
+      "physical_tested": false,
+      "manufacturing_released": false
+    }
+  }
+]

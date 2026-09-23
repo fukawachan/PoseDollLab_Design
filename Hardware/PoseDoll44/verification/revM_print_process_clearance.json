@@ -1,0 +1,2147 @@
+{
+  "manny": {
+    "source_cad_sha256": {
+      "cad\\build.py": "3e1f8124d1566cf97256f5c6725186d8e77dc0b49b25fd5b7c5ad914f126c4f2",
+      "cad\\collision_policy.py": "c828fdedc455083373967a68dd59d21cfe772dc3343739b318cf98820d641ce1",
+      "cad\\fits.py": "1e0c5e46c0f5af77cb5efd344a475f3513d0cbe19963f30dfca4f08b333c1d67",
+      "cad\\model.py": "022f0bf7157c10d062c55667e3813cd4015412576c6091a5b4ae69151c08002b",
+      "cad\\parts.py": "1f5539e86409e7db174b840ebb374be091f317366983c76943239eed2bf3c660",
+      "cad\\revE\\character_reference.py": "402f17060a8e832c9d6177ad460031a8e16f52c3808f4fa02d2434a07bec0236",
+      "cad\\revG\\centerline_study.py": "afbe4c276896e4bd63e34b048bb8e1d5dac24e3a292795d379ed619e4250b397",
+      "cad\\revH\\shoulder_mechanism.py": "67efaf32fb5f77dd8061207faf495cebbdc6e268aad606a499515d52feedca76",
+      "cad\\revI\\shoulder_clutch.py": "234072eada33b490e5f60f493bce06f9348ebad5ac88f6a2cb15558ae2b2c63e",
+      "cad\\revI\\shoulder_integration.py": "99594e2b06c220d7c6966853d9326a30b4fe3e21afce5ba98834f3a8b6f6ad00",
+      "cad\\revJ\\abduct_encoder.py": "a2cdc911be011f1bff5133a5946ef95dfe767bd13b6b0c3cafff66d367d8bc23",
+      "cad\\revJ\\assembly_audit.py": "2905b46f8431086e6d525f4a5ea66ef7335b74b9a643d5042cc7cb4a361253f9",
+      "cad\\revJ\\build_and_verify.py": "d78d455d438cd37b154d1993188b6edf28172e85e4fe4c4694feb7194c952c02",
+      "cad\\revJ\\drive_clamp.py": "7cd801c483059d12cf8256d50380e0c74f7f927eef04067925ec1230353fbae8",
+      "cad\\revJ\\shoulder_revision.py": "079e01d1b33311a4321bd47695f0e3086f7dce13851bafcaca020197f7587810",
+      "cad\\revK\\assembly_check_k.py": "3504a9c067098c849a72129f5114ac055461e26fdc16b8ac00f127147f5605c4",
+      "cad\\revK\\compact_twist.py": "85ba974e53064ba4d2c9640ba5ccc20913bc088e71792b7e7748efe337c240e8",
+      "cad\\revK\\mini_head.py": "718374a4b32483123f3f3af6750a179c20a00cb72afc4efc07dd570e5220245e",
+      "cad\\revK\\verify_k.py": "e1f39dda2c1ee9904b5d774394d3b90cd6cf4d439b971573ad528616ce2cb213",
+      "cad\\revL\\flex_encoder.py": "b88b233cd14bf4246c310a73bb5254cc915d2afd75e66f608322d0430cf0be01",
+      "cad\\revM\\arm_integration.py": "fed533e052965dbdd6ac73dcad03ca4e63eb35a6cdb9aed3ffcf61306a81c5bf",
+      "cad\\revM\\assembly_core.py": "356b6eea947436b39fc919414e335f280c3aefbc68df080a5a9c0791b7df3fb9",
+      "cad\\revM\\body_integration.py": "a560d90993d5fdd24fadd65659e2c6f3ea48ee7c12f9daf31cfc325eb0a8dbc4",
+      "cad\\revM\\cad_cache.py": "b1dc0fc3b075b7f21fac7081dd88d3163d0a1a0f05c96dceb58b2b9bbaaa25c4",
+      "cad\\revM\\collision_cache.py": "7fc288e63f70103bee13079871c39abc7e27cb5afaa7c57ade6de1f790a399ab",
+      "cad\\revM\\collision_review.py": "2c464ba4ffa9e92e439c49b6ea7720162c7ca8cdc5dfcd67e548f184f13dae3c",
+      "cad\\revM\\compact_axis.py": "195e4b40b5acd2489c1667b85498ec1761e75bbbaede747bd06731d195bcfbea",
+      "cad\\revM\\completed_body.py": "eacc60e9b13a8e0a613f989cdb7ac7e56a196e066076eed91417b182080b0275",
+      "cad\\revM\\electronics_pods.py": "17eb2914c31a7bd3986451cbe29e1d6154114cb3c9e9245706aa89a74db1af78",
+      "cad\\revM\\final_model.py": "0e8aedcb7f1382a63a0c2a783c4844b5a47fa54357323fb1425b8c7d3067e9ed",
+      "cad\\revM\\foot_shells.py": "f53b8020468436f315e0ae3bf1fd6a0b868974f67020132a11c37611d31214fb",
+      "cad\\revM\\full_body_audit.py": "7330757870bacb51746fcfd4c2210bcac85d2b07008727796eef2b0fbd079de7",
+      "cad\\revM\\full_packaging.py": "2ff7a2b59af1a0a4ab54f09063c07564750de18f4c87b4005aafd5037b5e5dda",
+      "cad\\revM\\girdle_cartridge.py": "77eb513fccb77cbed0bf23642e865de3e954f7b5d50176ba8fc707b0d55f05e0",
+      "cad\\revM\\girdle_integration.py": "3d4c29637ecf7bc522e6aa7c4bdf0fdc8b4e4500c06f2fceb57496dd36834587",
+      "cad\\revM\\hand_shells.py": "a7f7981159c6d9dfcb4322980f36d577bfcf06b90f55896968900b65a953b478",
+      "cad\\revM\\head_shells.py": "9bea38ae895d3aceab8ab475e37a55efee390ea9d811544e02dbd0f475be7c6d",
+      "cad\\revM\\large_sensor_heads.py": "80ce44e1e0f23bf610eef386badb7295f173d694457cbcd95f49f962ce2e974c",
+      "cad\\revM\\leg_integration.py": "34ff4512b1b7256b261f168e1986fc999f6df17150aa00c67825e44cf11ca671",
+      "cad\\revM\\legacy_threads.py": "612fb1c50d9337e70d90ac2f8acce4c65ebb387272e5ce2892cb893b8087627e",
+      "cad\\revM\\mechanism_modules.py": "26269685563afc121ed1ee5ef53da1fc424a5d85d2b619064ed0647f1d59c330",
+      "cad\\revM\\neck_module.py": "66084a5537b9572cb39a58a71e6319d8f53235a6c35ae1bd135fcac8b9271f81",
+      "cad\\revM\\power_case.py": "664d10576a78f2efd67ee7282d21e9fdda89232280a8bf3c4d739a8d1825995f",
+      "cad\\revM\\retained_bushes.py": "7c0fd798acac337d67c50d262cf4d7e3a96ab866f8ae49bd5627a63beeb4fea5",
+      "cad\\revM\\rigid_shells.py": "c6a211ed20870ea56b5076305b3d214ec8c1a212baaf97bc195d2c992deb314b",
+      "cad\\revM\\sensor_cable_heads.py": "f3c5885cb6f26ac4b51b4ca593c0eb438c8266931c5f45409e60b191f8c591aa",
+      "cad\\revM\\shell_mounts.py": "9cff8e7ced2f92656b9d6b92e06fb613243793c6462a26b425c8e92a0805c046",
+      "cad\\revM\\special_travel_stops.py": "e386fdb88ff9e49882ed35ba4734a8296d31b16a3d88f0410e2f64e09515cd79",
+      "cad\\revM\\toe_caps.py": "1627ce10d7bcb054fac48dc6da95ade622acc5440a78e24ec722496d0f0b440f",
+      "cad\\revM\\torso_shells.py": "6319228ada377263d24e77841c2c034fa6cfff4f04992a91dae9949b166fcc27",
+      "cad\\revM\\travel_stops.py": "4bddcc72015d6c77e0e1371b9f0ed49fa3be1ad10209128b84e33d25bfd54cc5",
+      "cad\\revM\\trunk_dual_friction.py": "45f52ea1b3ba53235e9f62f93fbe47d54583d51e263b3e01f4d46bb8040a3e6b",
+      "cad\\revM\\trunk_integration.py": "ab670bf34e70cfa0272c24cec29ef2f5e44c8f3e36345cfa9366e349ed2eb02d",
+      "cad\\revM\\twist_completion.py": "2144fb515d9aa0eb2fb7bf0bd9c0d1a637f5b9a6bee66c480bdd469feb35298c",
+      "cad\\revM\\wire_saddles.py": "46f54ee86b418c833e0609463d67d6b9ec6089c40170396ef90a06adb6f69fc9",
+      "cad\\revM\\wrist_integration.py": "f1820de14a870424b2e13d3019c099c9c1ac817e5eb03fa6416beecc68144a9e",
+      "electronics\\power_revM\\pad_map.json": "8429cb0a21c4e555a4a483974719f85ff41a71a07e1e4d29438f4c9f9e6077cf",
+      "electronics\\power_revM\\power_assembly_work.step": "bb0b73133e8c8522fe06e67095e64930e305bda9a33a37dc5662de48b42e3455",
+      "electronics\\regional_revM\\regional_assembly_work.step": "21643a6fb2441387af1ebb8c1921555f715d4b727fed4ae00f7cecb3ca9f767d",
+      "generated\\revC\\step\\sensor_revB.step": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+      "generated\\revE\\manny\\neutral_landmarks.json": "b779173a4eb6fbc75b519aa520ebc73054376c74487f42afe6d0873f11ad7a22",
+      "generated\\revE\\quinn\\neutral_landmarks.json": "e84429a17fabc4c452b3ceb8ab5a946a27e35092145f2ee592fe093618fb4c3c",
+      "generated\\revK\\components\\sensor_revC_mini.step": "7cdc9c2099518fb0b673eafbd911d888b35d03a63a7fae74a5ed48d57f1e098f",
+      "mechanical_manifest\\physical_manny_44_revG_humanform_trial.json": "c4da2d61d0c079b406ae46e6b8e80630c836cee9abccbee10ec67d89cee2ddfc",
+      "mechanical_manifest\\physical_quinn_44_revG_humanform_trial.json": "e10426f26c128bb924b65b43ed780a95432656914bcc9333f38dc55f64f96a49",
+      "verification\\revE_proportion_baselines.json": "2f79597fac1165780e6d43dea0d641162a8246b50bfa80d36b982680510dca29",
+      "verification\\revG_surface_envelopes.json": "7b12f563490f9400ddc0fe352c247d39ca36caf88e0618444a80863e13f126e4"
+    },
+    "source_print_export_sha256": "7e0ff66ed4628012e613ba866992d19927ab13ab4aa9a164788ee7f344df7e30",
+    "changed_parts": [
+      {
+        "part": "elbow_l_flex_M_proximal_forearm",
+        "added_volume_mm3": 0.006311340636784735,
+        "STEP_sha256": "bb4bf557593314a7cadc0982c6b54c335ee60f0c3dc822af3ceda665651368e7",
+        "STL_sha256": "a3f1ef5353a45f403f30943cc089bb2dd447d22a5a91341ec1240be08fa4c5f5"
+      },
+      {
+        "part": "ball_l_M_toecap_left",
+        "added_volume_mm3": 0.004598663696924632,
+        "STEP_sha256": "4e42166666e2e631953fe3562eea0626799753e071de9ffcee144958827fae3d",
+        "STL_sha256": "90fac97301d83a4377afba964fca7891f4f8951b88f23c3dac0103042cb79f0a"
+      },
+      {
+        "part": "ball_l_M_toecap_right",
+        "added_volume_mm3": 0.003726064948068597,
+        "STEP_sha256": "be232347ca28cfb3cebb3c4088d0ffe8b4d3e0bcf14886518fc3f6321454a404",
+        "STL_sha256": "dcf9f38695e2bc48b534d24c88c204f4be69f7b4cb9675b8bd578ccee7291fdf"
+      },
+      {
+        "part": "ball_r_M_toecap_left",
+        "added_volume_mm3": 0.003879351530031272,
+        "STEP_sha256": "b597d01b4ea5824a02be430a236470f79f2223300adc80f3c814639a199dbebb",
+        "STL_sha256": "f4bb5d203521a7626e0c8694601ae12a60540d8cb3253f30c2b8206b8c68e115"
+      },
+      {
+        "part": "ball_r_M_toecap_right",
+        "added_volume_mm3": 0.005149392325620283,
+        "STEP_sha256": "0d30a54651629393126a33ec4b5da7193f084c33435c0b4b69a2b4434a8ea68c",
+        "STL_sha256": "dd3d54e0f460dfaad6fccb4ee14864cd1ed20058576f44cdda52c66b4d3269ab"
+      },
+      {
+        "part": "POWER_case_rear",
+        "added_volume_mm3": 0.014316412096377462,
+        "STEP_sha256": "b8d807e693e6d9d86f9b9f595740b4213a95e1837fa9ba666370b902d593873f",
+        "STL_sha256": "9ae869f7f7e21a3bbfccd93ee183da372a2ea96a5fdf201b4012f478d24eb220"
+      }
+    ],
+    "checks": [
+      {
+        "pose": "neutral",
+        "review": []
+      },
+      {
+        "pose": "relaxed",
+        "review": []
+      },
+      {
+        "pose": "arms_forward",
+        "review": []
+      },
+      {
+        "pose": "elbows_bent",
+        "review": []
+      },
+      {
+        "pose": "sit",
+        "review": []
+      },
+      {
+        "pose": "trunk_bend",
+        "review": []
+      },
+      {
+        "pose": "trunk_extend",
+        "review": []
+      },
+      {
+        "pose": "hips_out",
+        "review": []
+      },
+      {
+        "pose": "foot_toe",
+        "review": []
+      },
+      {
+        "pose": "functional_neutral",
+        "review": []
+      },
+      {
+        "pose": "functional_forward",
+        "review": []
+      },
+      {
+        "pose": "functional_backward",
+        "review": []
+      },
+      {
+        "pose": "functional_shrug",
+        "review": []
+      },
+      {
+        "pose": "functional_down",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "waist_M_yaw_pitch_frame",
+            "owner_a": "elbow_l",
+            "owner_b": "waist.yaw_frame",
+            "volume_mm3": 206.7253,
+            "region_a": "forearm_l",
+            "region_b": "waist",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_forward_up",
+        "review": []
+      },
+      {
+        "pose": "functional_back_down",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "waist_M_yaw_pitch_frame",
+            "owner_a": "elbow_l",
+            "owner_b": "waist.yaw_frame",
+            "volume_mm3": 379.6454,
+            "region_a": "forearm_l",
+            "region_b": "waist",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_asymmetric",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_forward",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_overhead",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_side",
+        "review": []
+      },
+      {
+        "pose": "functional_hands_on_hips",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_crossed",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "forearm_r_twist_M_fixed_metal_eye",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 56.2653,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "forearm_r_twist_M_fixed_mount_M3x8_0",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 69.2111,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 606.8564,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "chest_M_front_shell",
+            "owner_a": "elbow_l",
+            "owner_b": "chest",
+            "volume_mm3": 505.3201,
+            "region_a": "forearm_l",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_forehead",
+        "review": []
+      },
+      {
+        "pose": "functional_forward_shrug_reach",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_fixed_metal_eye",
+            "owner_a": "elbow_l",
+            "owner_b": "upperarm_r",
+            "volume_mm3": 4.0651,
+            "region_a": "forearm_l",
+            "region_b": "upperarm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_flanged_rotor_shaft",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 9.9098,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_D_output_cleat",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 182.7237,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_board_post_0",
+            "owner_a": "elbow_l",
+            "owner_b": "upperarm_r",
+            "volume_mm3": 0.2486,
+            "region_a": "forearm_l",
+            "region_b": "upperarm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_rotor_mount_M3x12_0",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 0.553,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_rotor_mount_nut_M3_0",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 11.7009,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_rotor_mount_M3x12_1",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 6.4,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_rotor_mount_nut_M3_1",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 2.1681,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "forearm_r_twist_M_fixed_mount_M3x8_0",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 9.2358,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 1710.5491,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_elbows_closed",
+        "review": []
+      },
+      {
+        "pose": "functional_down_arms_vertical",
+        "review": []
+      },
+      {
+        "pose": "functional_back_down_arms_clear",
+        "review": []
+      },
+      {
+        "pose": "functional_shrug_reach_parallel",
+        "review": []
+      },
+      {
+        "pose": "functional_crossed_staggered",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "forearm_r_twist_M_distal_forearm_carrier",
+            "owner_a": "elbow_l",
+            "owner_b": "forearm_r",
+            "volume_mm3": 340.5956,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "WIRE_forearm_r_saddle",
+            "owner_a": "elbow_l",
+            "owner_b": "forearm_r",
+            "volume_mm3": 43.9064,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "WIRE_forearm_r_pad",
+            "owner_a": "elbow_l",
+            "owner_b": "forearm_r",
+            "volume_mm3": 4.263,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "WIRE_forearm_r_strap",
+            "owner_a": "elbow_l",
+            "owner_b": "forearm_r",
+            "volume_mm3": 18.6215,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_crossed_clearance_candidate",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "chest_M_body_frame",
+            "owner_a": "elbow_l",
+            "owner_b": "chest",
+            "volume_mm3": 102.6261,
+            "region_a": "forearm_l",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "chest_shell_M2x20_1",
+            "owner_a": "elbow_l",
+            "owner_b": "chest",
+            "volume_mm3": 30.1802,
+            "region_a": "forearm_l",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "chest_M_front_shell",
+            "owner_a": "elbow_l",
+            "owner_b": "chest",
+            "volume_mm3": 895.4344,
+            "region_a": "forearm_l",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_sitting",
+        "review": []
+      },
+      {
+        "pose": "functional_crouch",
+        "review": []
+      },
+      {
+        "pose": "functional_head_tilt",
+        "review": []
+      },
+      {
+        "pose": "functional_hip_abduction",
+        "review": []
+      },
+      {
+        "pose": "functional_palms_turn",
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_0",
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_1",
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_2",
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_0",
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_1",
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_2",
+        "review": []
+      },
+      {
+        "pose": "waist.roll_0",
+        "review": []
+      },
+      {
+        "pose": "waist.roll_1",
+        "review": []
+      },
+      {
+        "pose": "waist.roll_2",
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_0",
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_1",
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_2",
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_0",
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_1",
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_2",
+        "review": []
+      },
+      {
+        "pose": "chest.roll_0",
+        "review": []
+      },
+      {
+        "pose": "chest.roll_1",
+        "review": []
+      },
+      {
+        "pose": "chest.roll_2",
+        "review": []
+      },
+      {
+        "pose": "head.yaw_0",
+        "review": []
+      },
+      {
+        "pose": "head.yaw_1",
+        "review": []
+      },
+      {
+        "pose": "head.yaw_2",
+        "review": []
+      },
+      {
+        "pose": "head.pitch_0",
+        "review": []
+      },
+      {
+        "pose": "head.pitch_1",
+        "review": []
+      },
+      {
+        "pose": "head.pitch_2",
+        "review": []
+      },
+      {
+        "pose": "head.roll_0",
+        "review": []
+      },
+      {
+        "pose": "head.roll_1",
+        "review": []
+      },
+      {
+        "pose": "head.roll_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_0",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "chest_M_yaw_pitch_frame",
+            "owner_a": "elbow_l",
+            "owner_b": "chest.yaw_frame",
+            "volume_mm3": 44.2387,
+            "region_a": "forearm_l",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "upperarm_l.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_2",
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_0",
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_1",
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_2",
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_0",
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_1",
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_2",
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_0",
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_1",
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_0",
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_1",
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_2",
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_2",
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_0",
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_1",
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_2",
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_0",
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_1",
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_2",
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_0",
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_1",
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_0",
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_1",
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_2",
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "wrist_l",
+        "review": []
+      },
+      {
+        "pose": "leg_fold_l",
+        "review": []
+      },
+      {
+        "pose": "leg_turn_l",
+        "review": []
+      },
+      {
+        "pose": "wrist_r",
+        "review": []
+      },
+      {
+        "pose": "leg_fold_r",
+        "review": []
+      },
+      {
+        "pose": "leg_turn_r",
+        "review": []
+      }
+    ],
+    "passed": true,
+    "scope": "R0.10 mm printable variant beads checked at the same 164 complete-body poses, only affected pairs; base complete audit covers every unchanged pair. No physical printing claim."
+  },
+  "quinn": {
+    "source_cad_sha256": {
+      "cad\\build.py": "3e1f8124d1566cf97256f5c6725186d8e77dc0b49b25fd5b7c5ad914f126c4f2",
+      "cad\\collision_policy.py": "c828fdedc455083373967a68dd59d21cfe772dc3343739b318cf98820d641ce1",
+      "cad\\fits.py": "1e0c5e46c0f5af77cb5efd344a475f3513d0cbe19963f30dfca4f08b333c1d67",
+      "cad\\model.py": "022f0bf7157c10d062c55667e3813cd4015412576c6091a5b4ae69151c08002b",
+      "cad\\parts.py": "1f5539e86409e7db174b840ebb374be091f317366983c76943239eed2bf3c660",
+      "cad\\revE\\character_reference.py": "402f17060a8e832c9d6177ad460031a8e16f52c3808f4fa02d2434a07bec0236",
+      "cad\\revG\\centerline_study.py": "afbe4c276896e4bd63e34b048bb8e1d5dac24e3a292795d379ed619e4250b397",
+      "cad\\revH\\shoulder_mechanism.py": "67efaf32fb5f77dd8061207faf495cebbdc6e268aad606a499515d52feedca76",
+      "cad\\revI\\shoulder_clutch.py": "234072eada33b490e5f60f493bce06f9348ebad5ac88f6a2cb15558ae2b2c63e",
+      "cad\\revI\\shoulder_integration.py": "99594e2b06c220d7c6966853d9326a30b4fe3e21afce5ba98834f3a8b6f6ad00",
+      "cad\\revJ\\abduct_encoder.py": "a2cdc911be011f1bff5133a5946ef95dfe767bd13b6b0c3cafff66d367d8bc23",
+      "cad\\revJ\\assembly_audit.py": "2905b46f8431086e6d525f4a5ea66ef7335b74b9a643d5042cc7cb4a361253f9",
+      "cad\\revJ\\build_and_verify.py": "d78d455d438cd37b154d1993188b6edf28172e85e4fe4c4694feb7194c952c02",
+      "cad\\revJ\\drive_clamp.py": "7cd801c483059d12cf8256d50380e0c74f7f927eef04067925ec1230353fbae8",
+      "cad\\revJ\\shoulder_revision.py": "079e01d1b33311a4321bd47695f0e3086f7dce13851bafcaca020197f7587810",
+      "cad\\revK\\assembly_check_k.py": "3504a9c067098c849a72129f5114ac055461e26fdc16b8ac00f127147f5605c4",
+      "cad\\revK\\compact_twist.py": "85ba974e53064ba4d2c9640ba5ccc20913bc088e71792b7e7748efe337c240e8",
+      "cad\\revK\\mini_head.py": "718374a4b32483123f3f3af6750a179c20a00cb72afc4efc07dd570e5220245e",
+      "cad\\revK\\verify_k.py": "e1f39dda2c1ee9904b5d774394d3b90cd6cf4d439b971573ad528616ce2cb213",
+      "cad\\revL\\flex_encoder.py": "b88b233cd14bf4246c310a73bb5254cc915d2afd75e66f608322d0430cf0be01",
+      "cad\\revM\\arm_integration.py": "fed533e052965dbdd6ac73dcad03ca4e63eb35a6cdb9aed3ffcf61306a81c5bf",
+      "cad\\revM\\assembly_core.py": "356b6eea947436b39fc919414e335f280c3aefbc68df080a5a9c0791b7df3fb9",
+      "cad\\revM\\body_integration.py": "a560d90993d5fdd24fadd65659e2c6f3ea48ee7c12f9daf31cfc325eb0a8dbc4",
+      "cad\\revM\\cad_cache.py": "b1dc0fc3b075b7f21fac7081dd88d3163d0a1a0f05c96dceb58b2b9bbaaa25c4",
+      "cad\\revM\\collision_cache.py": "7fc288e63f70103bee13079871c39abc7e27cb5afaa7c57ade6de1f790a399ab",
+      "cad\\revM\\collision_review.py": "2c464ba4ffa9e92e439c49b6ea7720162c7ca8cdc5dfcd67e548f184f13dae3c",
+      "cad\\revM\\compact_axis.py": "195e4b40b5acd2489c1667b85498ec1761e75bbbaede747bd06731d195bcfbea",
+      "cad\\revM\\completed_body.py": "eacc60e9b13a8e0a613f989cdb7ac7e56a196e066076eed91417b182080b0275",
+      "cad\\revM\\electronics_pods.py": "17eb2914c31a7bd3986451cbe29e1d6154114cb3c9e9245706aa89a74db1af78",
+      "cad\\revM\\final_model.py": "0e8aedcb7f1382a63a0c2a783c4844b5a47fa54357323fb1425b8c7d3067e9ed",
+      "cad\\revM\\foot_shells.py": "f53b8020468436f315e0ae3bf1fd6a0b868974f67020132a11c37611d31214fb",
+      "cad\\revM\\full_body_audit.py": "7330757870bacb51746fcfd4c2210bcac85d2b07008727796eef2b0fbd079de7",
+      "cad\\revM\\full_packaging.py": "2ff7a2b59af1a0a4ab54f09063c07564750de18f4c87b4005aafd5037b5e5dda",
+      "cad\\revM\\girdle_cartridge.py": "77eb513fccb77cbed0bf23642e865de3e954f7b5d50176ba8fc707b0d55f05e0",
+      "cad\\revM\\girdle_integration.py": "3d4c29637ecf7bc522e6aa7c4bdf0fdc8b4e4500c06f2fceb57496dd36834587",
+      "cad\\revM\\hand_shells.py": "a7f7981159c6d9dfcb4322980f36d577bfcf06b90f55896968900b65a953b478",
+      "cad\\revM\\head_shells.py": "9bea38ae895d3aceab8ab475e37a55efee390ea9d811544e02dbd0f475be7c6d",
+      "cad\\revM\\large_sensor_heads.py": "80ce44e1e0f23bf610eef386badb7295f173d694457cbcd95f49f962ce2e974c",
+      "cad\\revM\\leg_integration.py": "34ff4512b1b7256b261f168e1986fc999f6df17150aa00c67825e44cf11ca671",
+      "cad\\revM\\legacy_threads.py": "612fb1c50d9337e70d90ac2f8acce4c65ebb387272e5ce2892cb893b8087627e",
+      "cad\\revM\\mechanism_modules.py": "26269685563afc121ed1ee5ef53da1fc424a5d85d2b619064ed0647f1d59c330",
+      "cad\\revM\\neck_module.py": "66084a5537b9572cb39a58a71e6319d8f53235a6c35ae1bd135fcac8b9271f81",
+      "cad\\revM\\power_case.py": "664d10576a78f2efd67ee7282d21e9fdda89232280a8bf3c4d739a8d1825995f",
+      "cad\\revM\\retained_bushes.py": "7c0fd798acac337d67c50d262cf4d7e3a96ab866f8ae49bd5627a63beeb4fea5",
+      "cad\\revM\\rigid_shells.py": "c6a211ed20870ea56b5076305b3d214ec8c1a212baaf97bc195d2c992deb314b",
+      "cad\\revM\\sensor_cable_heads.py": "f3c5885cb6f26ac4b51b4ca593c0eb438c8266931c5f45409e60b191f8c591aa",
+      "cad\\revM\\shell_mounts.py": "9cff8e7ced2f92656b9d6b92e06fb613243793c6462a26b425c8e92a0805c046",
+      "cad\\revM\\special_travel_stops.py": "e386fdb88ff9e49882ed35ba4734a8296d31b16a3d88f0410e2f64e09515cd79",
+      "cad\\revM\\toe_caps.py": "1627ce10d7bcb054fac48dc6da95ade622acc5440a78e24ec722496d0f0b440f",
+      "cad\\revM\\torso_shells.py": "6319228ada377263d24e77841c2c034fa6cfff4f04992a91dae9949b166fcc27",
+      "cad\\revM\\travel_stops.py": "4bddcc72015d6c77e0e1371b9f0ed49fa3be1ad10209128b84e33d25bfd54cc5",
+      "cad\\revM\\trunk_dual_friction.py": "45f52ea1b3ba53235e9f62f93fbe47d54583d51e263b3e01f4d46bb8040a3e6b",
+      "cad\\revM\\trunk_integration.py": "ab670bf34e70cfa0272c24cec29ef2f5e44c8f3e36345cfa9366e349ed2eb02d",
+      "cad\\revM\\twist_completion.py": "2144fb515d9aa0eb2fb7bf0bd9c0d1a637f5b9a6bee66c480bdd469feb35298c",
+      "cad\\revM\\wire_saddles.py": "46f54ee86b418c833e0609463d67d6b9ec6089c40170396ef90a06adb6f69fc9",
+      "cad\\revM\\wrist_integration.py": "f1820de14a870424b2e13d3019c099c9c1ac817e5eb03fa6416beecc68144a9e",
+      "electronics\\power_revM\\pad_map.json": "8429cb0a21c4e555a4a483974719f85ff41a71a07e1e4d29438f4c9f9e6077cf",
+      "electronics\\power_revM\\power_assembly_work.step": "bb0b73133e8c8522fe06e67095e64930e305bda9a33a37dc5662de48b42e3455",
+      "electronics\\regional_revM\\regional_assembly_work.step": "21643a6fb2441387af1ebb8c1921555f715d4b727fed4ae00f7cecb3ca9f767d",
+      "generated\\revC\\step\\sensor_revB.step": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+      "generated\\revE\\manny\\neutral_landmarks.json": "b779173a4eb6fbc75b519aa520ebc73054376c74487f42afe6d0873f11ad7a22",
+      "generated\\revE\\quinn\\neutral_landmarks.json": "e84429a17fabc4c452b3ceb8ab5a946a27e35092145f2ee592fe093618fb4c3c",
+      "generated\\revK\\components\\sensor_revC_mini.step": "7cdc9c2099518fb0b673eafbd911d888b35d03a63a7fae74a5ed48d57f1e098f",
+      "mechanical_manifest\\physical_manny_44_revG_humanform_trial.json": "c4da2d61d0c079b406ae46e6b8e80630c836cee9abccbee10ec67d89cee2ddfc",
+      "mechanical_manifest\\physical_quinn_44_revG_humanform_trial.json": "e10426f26c128bb924b65b43ed780a95432656914bcc9333f38dc55f64f96a49",
+      "verification\\revE_proportion_baselines.json": "2f79597fac1165780e6d43dea0d641162a8246b50bfa80d36b982680510dca29",
+      "verification\\revG_surface_envelopes.json": "7b12f563490f9400ddc0fe352c247d39ca36caf88e0618444a80863e13f126e4"
+    },
+    "source_print_export_sha256": "7e0ff66ed4628012e613ba866992d19927ab13ab4aa9a164788ee7f344df7e30",
+    "changed_parts": [
+      {
+        "part": "elbow_r_flex_M_proximal_forearm",
+        "added_volume_mm3": 0.006326327998067427,
+        "STEP_sha256": "2c6aebb1a0b550cf6d1e7691864f8d97f18fa98524a087f305987c31ed65d8ff",
+        "STL_sha256": "baab7fa665c3c136f0602bfbf3d6423c940076dacfe691f86f2e3eabf0ddb8e6"
+      },
+      {
+        "part": "ball_l_M_toecap_left",
+        "added_volume_mm3": 0.004531317244982347,
+        "STEP_sha256": "426c725caea8ca11f8391e80390fd48f31610370815d59d49a26245cbd246599",
+        "STL_sha256": "5646c0441e8400b21ad89a72d57bc844a9bd7950c81d01370eb0a1ed459915e6"
+      },
+      {
+        "part": "ball_l_M_toecap_right",
+        "added_volume_mm3": 0.00478886824816982,
+        "STEP_sha256": "d07f7124d7c56583000ccdb2bc4365aff349da2619e3117e44b4215d111b7d33",
+        "STL_sha256": "c4148548e6b074882b0501ee148631ef883a27729e3d858e2801500c750e9160"
+      },
+      {
+        "part": "ball_r_M_toecap_left",
+        "added_volume_mm3": 0.004929020868303269,
+        "STEP_sha256": "8087f6762b12bdecee883404bc8d2ec4cacec9dcdce065ac0895a96368c0bf43",
+        "STL_sha256": "c832c2cdb343ed51f49a9bda5258428d1be970229736e742d2e47b93546092c0"
+      },
+      {
+        "part": "ball_r_M_toecap_right",
+        "added_volume_mm3": 0.005023987003824004,
+        "STEP_sha256": "98dce1f1e850105a8455865669c08d488d84a9c2d28d411cd378f4cea7259123",
+        "STL_sha256": "c8c7270f23856b7e81a57d2d1eb2d9b0181e78efe1a1ccac36a832554c2a5e4b"
+      },
+      {
+        "part": "POWER_case_rear",
+        "added_volume_mm3": 0.014316411650725058,
+        "STEP_sha256": "7ed814874342cb3001cfe2b01cb408abd0b3403fd0fa38a94d6d802edc9748c2",
+        "STL_sha256": "10f79f00539fccc4a2818ae15ef1e4c16dc6e8d8a19ca1b3cfd7137b37ebaaa1"
+      }
+    ],
+    "checks": [
+      {
+        "pose": "neutral",
+        "review": []
+      },
+      {
+        "pose": "relaxed",
+        "review": []
+      },
+      {
+        "pose": "arms_forward",
+        "review": []
+      },
+      {
+        "pose": "elbows_bent",
+        "review": []
+      },
+      {
+        "pose": "sit",
+        "review": []
+      },
+      {
+        "pose": "trunk_bend",
+        "review": []
+      },
+      {
+        "pose": "trunk_extend",
+        "review": []
+      },
+      {
+        "pose": "hips_out",
+        "review": []
+      },
+      {
+        "pose": "foot_toe",
+        "review": []
+      },
+      {
+        "pose": "functional_neutral",
+        "review": []
+      },
+      {
+        "pose": "functional_forward",
+        "review": []
+      },
+      {
+        "pose": "functional_backward",
+        "review": []
+      },
+      {
+        "pose": "functional_shrug",
+        "review": []
+      },
+      {
+        "pose": "functional_down",
+        "review": []
+      },
+      {
+        "pose": "functional_forward_up",
+        "review": []
+      },
+      {
+        "pose": "functional_back_down",
+        "review": []
+      },
+      {
+        "pose": "functional_asymmetric",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_forward",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_overhead",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_side",
+        "review": []
+      },
+      {
+        "pose": "functional_hands_on_hips",
+        "review": []
+      },
+      {
+        "pose": "functional_arms_crossed",
+        "review": [
+          {
+            "a": "forearm_l_twist_M_keyed_magnet_cup",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "forearm_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 2.6282,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "forearm_l_twist_M_magnet_keeper",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "forearm_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 7.932,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "forearm_l_twist_M_pcb_AS5048A",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 1.7268,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "forearm_l_twist_M_pcb_C1",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 0.9304,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "forearm_l_twist_M_pcb_board",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 20.3317,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "forearm_l_twist_M_pcb_J1_dimension_envelope",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 29.3694,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "forearm_l_twist_M_fixed_mount_M3x8_1",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 23.7554,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_proximal_forearm",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 197.7493,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_M_front_shell",
+            "owner_a": "elbow_r",
+            "owner_b": "chest",
+            "volume_mm3": 544.022,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_forehead",
+        "review": []
+      },
+      {
+        "pose": "functional_forward_shrug_reach",
+        "review": [
+          {
+            "a": "elbow_l_flex_M_fixed_metal_eye",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "upperarm_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 87.3322,
+            "region_a": "upperarm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_radial_bush",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "upperarm_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 2.6833,
+            "region_a": "upperarm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_friction_lining",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "upperarm_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 14.7747,
+            "region_a": "upperarm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_flanged_rotor_shaft",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 35.0435,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_thrust_wear_washer",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "upperarm_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 31.644,
+            "region_a": "upperarm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_spring_seat",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 13.6261,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_disc_spring_0_0",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 4.9345,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_disc_spring_1_0",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 6.0355,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_D_stop_cap",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 62.1236,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_M3x8_button_retainer",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 4.235,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_keyed_magnet_cup",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 91.5123,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_cup_M2x4_0",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 12.2893,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_diametric_magnet_6x2p5",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 0.9055,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_magnet_keeper",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 25.6382,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_l_flex_M_keeper_M2x3_0",
+            "b": "elbow_r_flex_M_proximal_forearm",
+            "owner_a": "elbow_l",
+            "owner_b": "elbow_r",
+            "volume_mm3": 1.2969,
+            "region_a": "forearm_l",
+            "region_b": "forearm_r",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_elbows_closed",
+        "review": []
+      },
+      {
+        "pose": "functional_down_arms_vertical",
+        "review": []
+      },
+      {
+        "pose": "functional_back_down_arms_clear",
+        "review": []
+      },
+      {
+        "pose": "functional_shrug_reach_parallel",
+        "review": []
+      },
+      {
+        "pose": "functional_crossed_staggered",
+        "review": [
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_M_body_frame",
+            "owner_a": "elbow_r",
+            "owner_b": "chest",
+            "volume_mm3": 98.412,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_shell_M2x20_0",
+            "owner_a": "elbow_r",
+            "owner_b": "chest",
+            "volume_mm3": 48.606,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_M_front_shell",
+            "owner_a": "elbow_r",
+            "owner_b": "chest",
+            "volume_mm3": 638.1352,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "functional_crossed_clearance_candidate",
+        "review": []
+      },
+      {
+        "pose": "functional_sitting",
+        "review": []
+      },
+      {
+        "pose": "functional_crouch",
+        "review": []
+      },
+      {
+        "pose": "functional_head_tilt",
+        "review": []
+      },
+      {
+        "pose": "functional_hip_abduction",
+        "review": []
+      },
+      {
+        "pose": "functional_palms_turn",
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_0",
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_1",
+        "review": []
+      },
+      {
+        "pose": "waist.yaw_2",
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_0",
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_1",
+        "review": []
+      },
+      {
+        "pose": "waist.pitch_2",
+        "review": []
+      },
+      {
+        "pose": "waist.roll_0",
+        "review": []
+      },
+      {
+        "pose": "waist.roll_1",
+        "review": []
+      },
+      {
+        "pose": "waist.roll_2",
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_0",
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_1",
+        "review": []
+      },
+      {
+        "pose": "chest.yaw_2",
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_0",
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_1",
+        "review": []
+      },
+      {
+        "pose": "chest.pitch_2",
+        "review": []
+      },
+      {
+        "pose": "chest.roll_0",
+        "review": []
+      },
+      {
+        "pose": "chest.roll_1",
+        "review": []
+      },
+      {
+        "pose": "chest.roll_2",
+        "review": []
+      },
+      {
+        "pose": "head.yaw_0",
+        "review": []
+      },
+      {
+        "pose": "head.yaw_1",
+        "review": []
+      },
+      {
+        "pose": "head.yaw_2",
+        "review": []
+      },
+      {
+        "pose": "head.pitch_0",
+        "review": []
+      },
+      {
+        "pose": "head.pitch_1",
+        "review": []
+      },
+      {
+        "pose": "head.pitch_2",
+        "review": []
+      },
+      {
+        "pose": "head.roll_0",
+        "review": []
+      },
+      {
+        "pose": "head.roll_1",
+        "review": []
+      },
+      {
+        "pose": "head.roll_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.protract_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_l.elevate_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_l.twist_2",
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "elbow_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_0",
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_1",
+        "review": []
+      },
+      {
+        "pose": "forearm_l.twist_2",
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "hand_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_0",
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_1",
+        "review": []
+      },
+      {
+        "pose": "hand_l.deviate_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_l.twist_2",
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "calf_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_0",
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_1",
+        "review": []
+      },
+      {
+        "pose": "foot_l.dorsiflex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_0",
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_1",
+        "review": []
+      },
+      {
+        "pose": "foot_l.invert_2",
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_0",
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_1",
+        "review": []
+      },
+      {
+        "pose": "ball_l.flex_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.protract_2",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_0",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_1",
+        "review": []
+      },
+      {
+        "pose": "clavicle_r.elevate_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_0",
+        "review": [
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_yaw_M_D_output_cleat",
+            "owner_a": "elbow_r",
+            "owner_b": "chest.yaw_frame",
+            "volume_mm3": 19.0916,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_yaw_M_rotor_mount_M3x12_1",
+            "owner_a": "elbow_r",
+            "owner_b": "chest.yaw_frame",
+            "volume_mm3": 0.0252,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          },
+          {
+            "a": "elbow_r_flex_M_proximal_forearm",
+            "b": "chest_M_yaw_pitch_frame",
+            "owner_a": "elbow_r",
+            "owner_b": "chest.yaw_frame",
+            "volume_mm3": 405.2046,
+            "region_a": "forearm_r",
+            "region_b": "chest",
+            "classification": "pose_restriction",
+            "reason": "separated_body_segments_adjust_pose"
+          }
+        ]
+      },
+      {
+        "pose": "upperarm_r.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_0",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_1",
+        "review": []
+      },
+      {
+        "pose": "upperarm_r.twist_2",
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "elbow_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_0",
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_1",
+        "review": []
+      },
+      {
+        "pose": "forearm_r.twist_2",
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "hand_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_0",
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_1",
+        "review": []
+      },
+      {
+        "pose": "hand_r.deviate_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.abduct_2",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_0",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_1",
+        "review": []
+      },
+      {
+        "pose": "thigh_r.twist_2",
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "calf_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_0",
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_1",
+        "review": []
+      },
+      {
+        "pose": "foot_r.dorsiflex_2",
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_0",
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_1",
+        "review": []
+      },
+      {
+        "pose": "foot_r.invert_2",
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_0",
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_1",
+        "review": []
+      },
+      {
+        "pose": "ball_r.flex_2",
+        "review": []
+      },
+      {
+        "pose": "wrist_l",
+        "review": []
+      },
+      {
+        "pose": "leg_fold_l",
+        "review": []
+      },
+      {
+        "pose": "leg_turn_l",
+        "review": []
+      },
+      {
+        "pose": "wrist_r",
+        "review": []
+      },
+      {
+        "pose": "leg_fold_r",
+        "review": []
+      },
+      {
+        "pose": "leg_turn_r",
+        "review": []
+      }
+    ],
+    "passed": true,
+    "scope": "R0.10 mm printable variant beads checked at the same 164 complete-body poses, only affected pairs; base complete audit covers every unchanged pair. No physical printing claim."
+  }
+}

@@ -1,0 +1,4394 @@
+{
+  "source_sha256": "39f956a16cbc760301ff89fd85dc6707f3b906a78e5a62e082bba143a53bbca6",
+  "sensor_step_sha256": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+  "status": "H2_DETAILED_DEVELOPMENT_NOT_MANUFACTURING_RELEASE",
+  "physical_tested": false,
+  "families": {
+    "S": {
+      "parts": [
+        {
+          "code": "010",
+          "name": "H2S_bottom_bearing_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "10.02 bore finish tolerance in drawing notes",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 6813.861881586914,
+          "bbox_mm": [
+            48.0,
+            48.0,
+            4.0
+          ]
+        },
+        {
+          "code": "011",
+          "name": "H2S_fixed_reaction_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 5092.113284424088,
+          "bbox_mm": [
+            48.0,
+            48.0,
+            3.0
+          ]
+        },
+        {
+          "code": "012",
+          "name": "H2S_floating_pressure_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Three 6.2 guide bores; axial sliding part",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 4829.727465996268,
+          "bbox_mm": [
+            48.0,
+            48.0,
+            3.0
+          ]
+        },
+        {
+          "code": "013",
+          "name": "H2S_top_bearing_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "3x M3 tapped holes; STEP represents 2.5 pilot only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 6754.957019332104,
+          "bbox_mm": [
+            48.0,
+            48.0,
+            4.0
+          ]
+        },
+        {
+          "code": "020",
+          "name": "H2S_pcb_carrier",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "4.2 holes permit XY alignment; washers spread clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 5253.9367220105,
+          "bbox_mm": [
+            48.0,
+            48.0,
+            3.000000000000007
+          ]
+        },
+        {
+          "code": "014",
+          "name": "H2S_flanged_axle",
+          "material": "aluminum",
+          "owner": "rotor",
+          "note": "8.00/-0.02 journals, 7.5mm across D flat; no thread as a bearing",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 3990.6211731207454,
+          "bbox_mm": [
+            28.0,
+            28.0,
+            46.0
+          ]
+        },
+        {
+          "code": "030",
+          "name": "H2S_POM_flanged_bush_030",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Supplier-made; finished ID8.05..8.08, OD9.99..10.00",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 212.35242112766673,
+          "bbox_mm": [
+            14.0,
+            14.0,
+            5.0
+          ]
+        },
+        {
+          "code": "031",
+          "name": "H2S_POM_flanged_bush_031",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Supplier-made; finished ID8.05..8.08, OD9.99..10.00",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 212.3524211276667,
+          "bbox_mm": [
+            14.0,
+            14.0,
+            5.0
+          ]
+        },
+        {
+          "code": "032",
+          "name": "H2S_friction_lining_032",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "Non-asbestos friction lining candidate; material/COF qualification pending",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 891.9609862072141,
+          "bbox_mm": [
+            26.0,
+            26.0,
+            2.0
+          ]
+        },
+        {
+          "code": "033",
+          "name": "H2S_friction_lining_033",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "Non-asbestos friction lining candidate; material/COF qualification pending",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 891.9609862072141,
+          "bbox_mm": [
+            26.0,
+            26.0,
+            2.0
+          ]
+        },
+        {
+          "code": "034",
+          "name": "H2S_POM_thrust_washer_034",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.961058553662184,
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "code": "035",
+          "name": "H2S_POM_thrust_washer_035",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.96105855366217,
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "code": "021",
+          "name": "H2S_split_output_lever",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "M3 transverse clamp and D flat; hand grip/hanging load hole at84mm",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15314.818967239424,
+          "bbox_mm": [
+            105.0,
+            29.0,
+            8.0
+          ]
+        },
+        {
+          "code": "022",
+          "name": "H2S_D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1279.4403763148168,
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "code": "023",
+          "name": "H2S_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 106.64590111068375,
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.7999999999999972
+          ]
+        },
+        {
+          "code": "040",
+          "name": "H2S_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 70.68583470577035,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "code": "041",
+          "name": "H2S_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "solid_count": 7,
+          "valid": true,
+          "volume_mm3": 661.4384222447529,
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.175000000000004
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_lower_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716819,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_guide_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746373,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_sensor_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.12209781493823,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2S_M3_tie_screw0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2S_carrier_support_washer0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2S_M3_washer_0_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2S_M3_nut_0_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2S_M3_washer_0_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2S_M3_nut_0_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179002,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_lower_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716818,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_guide_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746373,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_sensor_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.1220978149382,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2S_M3_tie_screw1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2S_carrier_support_washer1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2S_M3_washer_1_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2S_M3_nut_1_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000002,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2S_M3_washer_1_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2S_M3_nut_1_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000002,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_lower_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716816,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_guide_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.53670447463722,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2S_sensor_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.1220978149381,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2S_M3_tie_screw2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2S_carrier_support_washer2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2S_M3_washer_2_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2S_M3_nut_2_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "bbox_mm": [
+            6.350852961085882,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2S_M3_washer_2_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2S_M3_nut_2_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179,
+          "bbox_mm": [
+            6.350852961085882,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2S_spring_base_washer0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2S_schnorr_000300_a0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2S_schnorr_000300_b0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2S_spring_guide_button0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 129.60326333119332,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.224
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2S_M3_adjuster0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.9607180340888,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.000000000000004
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2S_M3_adjuster_locknut0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "bbox_mm": [
+            6.350852961085882,
+            5.500000000000002,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2S_spring_base_washer1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2S_schnorr_000300_a1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2S_schnorr_000300_b1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2S_spring_guide_button1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 129.60326333119332,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.224
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2S_M3_adjuster1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.9607180340888,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.000000000000004
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2S_M3_adjuster_locknut1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2S_spring_base_washer2",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2S_schnorr_000300_a2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2S_schnorr_000300_b2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2S_spring_guide_button2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 129.60326333119332,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.224
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2S_M3_adjuster2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408879,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.000000000000004
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2S_M3_adjuster_locknut2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "bbox_mm": [
+            6.350852961085882,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "060",
+          "name": "H2S_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515521,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "code": "061",
+          "name": "H2S_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.69911184307752,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "code": "071",
+          "name": "H2S_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.15928947446199,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2S_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2S_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "060",
+          "name": "H2S_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515524,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "code": "061",
+          "name": "H2S_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.69911184307752,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "code": "071",
+          "name": "H2S_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.15928947446199,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2S_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296526,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2S_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296526,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "064",
+          "name": "H2S_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.882829320946115,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "code": "065",
+          "name": "H2S_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "code": "064",
+          "name": "H2S_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.882829320946115,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "code": "065",
+          "name": "H2S_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "code": "066",
+          "name": "H2S_M3_lever_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 283.3323874456295,
+          "bbox_mm": [
+            5.5,
+            33.0,
+            5.5
+          ]
+        },
+        {
+          "code": "067",
+          "name": "H2S_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.20707631680062,
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.599999999999998
+          ]
+        },
+        {
+          "code": "068",
+          "name": "H2S_M3_lever_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179005,
+          "bbox_mm": [
+            6.3508529610858835,
+            2.4000000000000004,
+            5.500000000000002
+          ]
+        },
+        {
+          "code": "069",
+          "name": "H2S_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933184,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        }
+      ],
+      "fixed_rotating_intersections": [],
+      "sweep_15deg": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        },
+        {
+          "angle_deg": 105,
+          "collisions": []
+        },
+        {
+          "angle_deg": 120,
+          "collisions": []
+        },
+        {
+          "angle_deg": 135,
+          "collisions": []
+        },
+        {
+          "angle_deg": 150,
+          "collisions": []
+        },
+        {
+          "angle_deg": 165,
+          "collisions": []
+        },
+        {
+          "angle_deg": 180,
+          "collisions": []
+        },
+        {
+          "angle_deg": 195,
+          "collisions": []
+        },
+        {
+          "angle_deg": 210,
+          "collisions": []
+        },
+        {
+          "angle_deg": 225,
+          "collisions": []
+        },
+        {
+          "angle_deg": 240,
+          "collisions": []
+        },
+        {
+          "angle_deg": 255,
+          "collisions": []
+        },
+        {
+          "angle_deg": 270,
+          "collisions": []
+        },
+        {
+          "angle_deg": 285,
+          "collisions": []
+        },
+        {
+          "angle_deg": 300,
+          "collisions": []
+        },
+        {
+          "angle_deg": 315,
+          "collisions": []
+        },
+        {
+          "angle_deg": 330,
+          "collisions": []
+        },
+        {
+          "angle_deg": 345,
+          "collisions": []
+        }
+      ],
+      "estimated_fixture_mass_g": 137.80615537643388,
+      "assembly_unplanned_intersections": [],
+      "modeled_thread_intersections": [
+        {
+          "a": "H2S_top_bearing_plate",
+          "b": "H2S_M3_adjuster0",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_top_bearing_plate",
+          "b": "H2S_M3_adjuster1",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_top_bearing_plate",
+          "b": "H2S_M3_adjuster2",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_tie_screw0",
+          "b": "H2S_M3_nut_0_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_tie_screw0",
+          "b": "H2S_M3_nut_0_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_tie_screw1",
+          "b": "H2S_M3_nut_1_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_tie_screw1",
+          "b": "H2S_M3_nut_1_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_tie_screw2",
+          "b": "H2S_M3_nut_2_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_tie_screw2",
+          "b": "H2S_M3_nut_2_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_adjuster0",
+          "b": "H2S_M3_adjuster_locknut0",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_adjuster1",
+          "b": "H2S_M3_adjuster_locknut1",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_adjuster2",
+          "b": "H2S_M3_adjuster_locknut2",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_nylon_M2_female_spacer0",
+          "b": "H2S_nylon_M2x6_top_screw0",
+          "volume_mm3": 2.262,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_nylon_M2_female_spacer0",
+          "b": "H2S_nylon_M2x4_board_screw0",
+          "volume_mm3": 2.714,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_nylon_M2_female_spacer1",
+          "b": "H2S_nylon_M2x6_top_screw1",
+          "volume_mm3": 2.262,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_nylon_M2_female_spacer1",
+          "b": "H2S_nylon_M2x4_board_screw1",
+          "volume_mm3": 2.714,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_nylon_M2x8_cap_screw0",
+          "b": "H2S_nylon_M2_cap_nut0",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_nylon_M2x8_cap_screw1",
+          "b": "H2S_nylon_M2_cap_nut1",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M3_lever_clamp_screw",
+          "b": "H2S_M3_lever_clamp_nut",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2S_M2_magnet_set_screw",
+          "b": "H2S_M2_magnet_set_nut",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        }
+      ],
+      "spring_parallel_per_series_group": 1,
+      "spring_series_groups_per_location": 2,
+      "spring_locations": 3,
+      "catalog_nominal_total_N": 312,
+      "integration_status": "standalone_characterization_fixture_NOT_in_full_body_mass_BOM"
+    },
+    "M": {
+      "parts": [
+        {
+          "code": "010",
+          "name": "H2M_bottom_bearing_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "10.02 bore finish tolerance in drawing notes",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 10885.365960639285,
+          "bbox_mm": [
+            60.0,
+            60.0,
+            4.0
+          ]
+        },
+        {
+          "code": "011",
+          "name": "H2M_fixed_reaction_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 8145.741343713366,
+          "bbox_mm": [
+            60.0,
+            60.0,
+            3.0
+          ]
+        },
+        {
+          "code": "012",
+          "name": "H2M_floating_pressure_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Three 6.2 guide bores; axial sliding part",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 7883.355525285549,
+          "bbox_mm": [
+            60.0,
+            60.0,
+            3.0
+          ]
+        },
+        {
+          "code": "013",
+          "name": "H2M_top_bearing_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "3x M3 tapped holes; STEP represents 2.5 pilot only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 10826.461098384476,
+          "bbox_mm": [
+            60.0,
+            60.0,
+            4.0
+          ]
+        },
+        {
+          "code": "020",
+          "name": "H2M_pcb_carrier",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "4.2 holes permit XY alignment; washers spread clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 8307.564781299776,
+          "bbox_mm": [
+            60.0,
+            60.0,
+            3.000000000000007
+          ]
+        },
+        {
+          "code": "014",
+          "name": "H2M_flanged_axle",
+          "material": "aluminum",
+          "owner": "rotor",
+          "note": "8.00/-0.02 journals, 7.5mm across D flat; no thread as a bearing",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 5913.275877117699,
+          "bbox_mm": [
+            40.0,
+            40.0,
+            46.0
+          ]
+        },
+        {
+          "code": "030",
+          "name": "H2M_POM_flanged_bush_030",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Supplier-made; finished ID8.05..8.08, OD9.99..10.00",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 212.35242112766673,
+          "bbox_mm": [
+            14.0,
+            14.0,
+            5.0
+          ]
+        },
+        {
+          "code": "031",
+          "name": "H2M_POM_flanged_bush_031",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Supplier-made; finished ID8.05..8.08, OD9.99..10.00",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 212.3524211276667,
+          "bbox_mm": [
+            14.0,
+            14.0,
+            5.0
+          ]
+        },
+        {
+          "code": "032",
+          "name": "H2M_friction_lining_032",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "Non-asbestos friction lining candidate; material/COF qualification pending",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2098.3325651856944,
+          "bbox_mm": [
+            38.0,
+            38.0,
+            2.0
+          ]
+        },
+        {
+          "code": "033",
+          "name": "H2M_friction_lining_033",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "Non-asbestos friction lining candidate; material/COF qualification pending",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 2098.3325651856944,
+          "bbox_mm": [
+            38.0,
+            38.0,
+            2.0
+          ]
+        },
+        {
+          "code": "034",
+          "name": "H2M_POM_thrust_washer_034",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.961058553662184,
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "code": "035",
+          "name": "H2M_POM_thrust_washer_035",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.96105855366217,
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "code": "021",
+          "name": "H2M_split_output_lever",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "M3 transverse clamp and D flat; hand grip/hanging load hole at84mm",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15314.818967239424,
+          "bbox_mm": [
+            105.0,
+            29.0,
+            8.0
+          ]
+        },
+        {
+          "code": "022",
+          "name": "H2M_D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1279.4403763148168,
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "code": "023",
+          "name": "H2M_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 106.64590111068375,
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.7999999999999972
+          ]
+        },
+        {
+          "code": "040",
+          "name": "H2M_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 70.68583470577035,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "code": "041",
+          "name": "H2M_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "solid_count": 7,
+          "valid": true,
+          "volume_mm3": 661.4384222447529,
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.175000000000004
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_lower_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716819,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_guide_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746373,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_sensor_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.12209781493823,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2M_M3_tie_screw0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2M_carrier_support_washer0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2M_M3_washer_0_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2M_M3_nut_0_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2M_M3_washer_0_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2M_M3_nut_0_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_lower_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716816,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_guide_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746373,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_sensor_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.1220978149381,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2M_M3_tie_screw1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2M_carrier_support_washer1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            6.999999999999998,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2M_M3_washer_1_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            6.999999999999998,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2M_M3_nut_1_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179,
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2M_M3_washer_1_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            6.999999999999998,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2M_M3_nut_1_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179,
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_lower_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716816,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_guide_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746373,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2M_sensor_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.1220978149381,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2M_M3_tie_screw2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2M_carrier_support_washer2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2M_M3_washer_2_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2M_M3_nut_2_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2M_M3_washer_2_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2M_M3_nut_2_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2M_spring_base_washer0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2M_schnorr_000300_a0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274045,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2M_schnorr_000300_b0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274045,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2M_spring_guide_button0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 129.60326333119332,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.224
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2M_M3_adjuster0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.9607180340888,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.000000000000004
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2M_M3_adjuster_locknut0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179,
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2M_spring_base_washer1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2M_schnorr_000300_a1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2M_schnorr_000300_b1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2M_spring_guide_button1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 129.60326333119332,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.224
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2M_M3_adjuster1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408879,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.000000000000004
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2M_M3_adjuster_locknut1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "bbox_mm": [
+            6.350852961085884,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2M_spring_base_washer2",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123408,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2M_schnorr_000300_a2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274043,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2M_schnorr_000300_b2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274043,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2M_spring_guide_button2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 129.60326333119332,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.224
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2M_M3_adjuster2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408879,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.000000000000004
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2M_M3_adjuster_locknut2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179,
+          "bbox_mm": [
+            6.350852961085881,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "060",
+          "name": "H2M_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515521,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "code": "061",
+          "name": "H2M_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.69911184307752,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "code": "071",
+          "name": "H2M_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.15928947446199,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2M_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2M_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "060",
+          "name": "H2M_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515524,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "code": "061",
+          "name": "H2M_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.69911184307752,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "code": "071",
+          "name": "H2M_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.15928947446199,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2M_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296526,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2M_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296526,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "064",
+          "name": "H2M_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.882829320946115,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "code": "065",
+          "name": "H2M_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "code": "064",
+          "name": "H2M_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.882829320946115,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "code": "065",
+          "name": "H2M_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "code": "066",
+          "name": "H2M_M3_lever_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 283.3323874456295,
+          "bbox_mm": [
+            5.5,
+            33.0,
+            5.5
+          ]
+        },
+        {
+          "code": "067",
+          "name": "H2M_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.20707631680062,
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.599999999999998
+          ]
+        },
+        {
+          "code": "068",
+          "name": "H2M_M3_lever_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179005,
+          "bbox_mm": [
+            6.3508529610858835,
+            2.4000000000000004,
+            5.500000000000002
+          ]
+        },
+        {
+          "code": "069",
+          "name": "H2M_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933184,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        }
+      ],
+      "fixed_rotating_intersections": [],
+      "sweep_15deg": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        },
+        {
+          "angle_deg": 105,
+          "collisions": []
+        },
+        {
+          "angle_deg": 120,
+          "collisions": []
+        },
+        {
+          "angle_deg": 135,
+          "collisions": []
+        },
+        {
+          "angle_deg": 150,
+          "collisions": []
+        },
+        {
+          "angle_deg": 165,
+          "collisions": []
+        },
+        {
+          "angle_deg": 180,
+          "collisions": []
+        },
+        {
+          "angle_deg": 195,
+          "collisions": []
+        },
+        {
+          "angle_deg": 210,
+          "collisions": []
+        },
+        {
+          "angle_deg": 225,
+          "collisions": []
+        },
+        {
+          "angle_deg": 240,
+          "collisions": []
+        },
+        {
+          "angle_deg": 255,
+          "collisions": []
+        },
+        {
+          "angle_deg": 270,
+          "collisions": []
+        },
+        {
+          "angle_deg": 285,
+          "collisions": []
+        },
+        {
+          "angle_deg": 300,
+          "collisions": []
+        },
+        {
+          "angle_deg": 315,
+          "collisions": []
+        },
+        {
+          "angle_deg": 330,
+          "collisions": []
+        },
+        {
+          "angle_deg": 345,
+          "collisions": []
+        }
+      ],
+      "estimated_fixture_mass_g": 189.6024731021118,
+      "assembly_unplanned_intersections": [],
+      "modeled_thread_intersections": [
+        {
+          "a": "H2M_top_bearing_plate",
+          "b": "H2M_M3_adjuster0",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_top_bearing_plate",
+          "b": "H2M_M3_adjuster1",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_top_bearing_plate",
+          "b": "H2M_M3_adjuster2",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_tie_screw0",
+          "b": "H2M_M3_nut_0_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_tie_screw0",
+          "b": "H2M_M3_nut_0_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_tie_screw1",
+          "b": "H2M_M3_nut_1_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_tie_screw1",
+          "b": "H2M_M3_nut_1_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_tie_screw2",
+          "b": "H2M_M3_nut_2_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_tie_screw2",
+          "b": "H2M_M3_nut_2_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_adjuster0",
+          "b": "H2M_M3_adjuster_locknut0",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_adjuster1",
+          "b": "H2M_M3_adjuster_locknut1",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_adjuster2",
+          "b": "H2M_M3_adjuster_locknut2",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_nylon_M2_female_spacer0",
+          "b": "H2M_nylon_M2x6_top_screw0",
+          "volume_mm3": 2.262,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_nylon_M2_female_spacer0",
+          "b": "H2M_nylon_M2x4_board_screw0",
+          "volume_mm3": 2.714,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_nylon_M2_female_spacer1",
+          "b": "H2M_nylon_M2x6_top_screw1",
+          "volume_mm3": 2.262,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_nylon_M2_female_spacer1",
+          "b": "H2M_nylon_M2x4_board_screw1",
+          "volume_mm3": 2.714,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_nylon_M2x8_cap_screw0",
+          "b": "H2M_nylon_M2_cap_nut0",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_nylon_M2x8_cap_screw1",
+          "b": "H2M_nylon_M2_cap_nut1",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M3_lever_clamp_screw",
+          "b": "H2M_M3_lever_clamp_nut",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2M_M2_magnet_set_screw",
+          "b": "H2M_M2_magnet_set_nut",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        }
+      ],
+      "spring_parallel_per_series_group": 1,
+      "spring_series_groups_per_location": 2,
+      "spring_locations": 3,
+      "catalog_nominal_total_N": 312,
+      "integration_status": "standalone_characterization_fixture_NOT_in_full_body_mass_BOM"
+    },
+    "L": {
+      "parts": [
+        {
+          "code": "010",
+          "name": "H2L_bottom_bearing_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "10.02 bore finish tolerance in drawing notes",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 17721.471574850675,
+          "bbox_mm": [
+            76.0,
+            76.0,
+            4.0
+          ]
+        },
+        {
+          "code": "011",
+          "name": "H2L_fixed_reaction_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 13272.820554371909,
+          "bbox_mm": [
+            76.0,
+            76.0,
+            3.0
+          ]
+        },
+        {
+          "code": "012",
+          "name": "H2L_floating_pressure_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Three 6.2 guide bores; axial sliding part",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 13010.434735944084,
+          "bbox_mm": [
+            76.0,
+            76.0,
+            3.0
+          ]
+        },
+        {
+          "code": "013",
+          "name": "H2L_top_bearing_plate",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "3x M3 tapped holes; STEP represents 2.5 pilot only",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 17662.56671259586,
+          "bbox_mm": [
+            76.0,
+            76.0,
+            4.0
+          ]
+        },
+        {
+          "code": "020",
+          "name": "H2L_pcb_carrier",
+          "material": "printed",
+          "owner": "fixed",
+          "note": "4.2 holes permit XY alignment; washers spread clamp load",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 13434.643991958319,
+          "bbox_mm": [
+            76.0,
+            76.0,
+            3.000000000000007
+          ]
+        },
+        {
+          "code": "014",
+          "name": "H2L_flanged_axle",
+          "material": "aluminum",
+          "owner": "rotor",
+          "note": "8.00/-0.02 journals, 7.5mm across D flat; no thread as a bearing",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 9532.390614053138,
+          "bbox_mm": [
+            56.0,
+            56.0,
+            46.0
+          ]
+        },
+        {
+          "code": "030",
+          "name": "H2L_POM_flanged_bush_030",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Supplier-made; finished ID8.05..8.08, OD9.99..10.00",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 212.35242112766673,
+          "bbox_mm": [
+            14.0,
+            14.0,
+            5.0
+          ]
+        },
+        {
+          "code": "031",
+          "name": "H2L_POM_flanged_bush_031",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Supplier-made; finished ID8.05..8.08, OD9.99..10.00",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 212.3524211276667,
+          "bbox_mm": [
+            14.0,
+            14.0,
+            5.0
+          ]
+        },
+        {
+          "code": "032",
+          "name": "H2L_friction_lining_032",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "Non-asbestos friction lining candidate; material/COF qualification pending",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 4338.916445725935,
+          "bbox_mm": [
+            54.0,
+            54.0,
+            2.0
+          ]
+        },
+        {
+          "code": "033",
+          "name": "H2L_friction_lining_033",
+          "material": "lining",
+          "owner": "fixed",
+          "note": "Non-asbestos friction lining candidate; material/COF qualification pending",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 4338.916445725935,
+          "bbox_mm": [
+            54.0,
+            54.0,
+            2.0
+          ]
+        },
+        {
+          "code": "034",
+          "name": "H2L_POM_thrust_washer_034",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.961058553662184,
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "code": "035",
+          "name": "H2L_POM_thrust_washer_035",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.96105855366217,
+          "bbox_mm": [
+            13.0,
+            13.0,
+            0.5
+          ]
+        },
+        {
+          "code": "021",
+          "name": "H2L_split_output_lever",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "M3 transverse clamp and D flat; hand grip/hanging load hole at84mm",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15314.818967239424,
+          "bbox_mm": [
+            105.0,
+            29.0,
+            8.0
+          ]
+        },
+        {
+          "code": "022",
+          "name": "H2L_D_magnet_carrier",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "Nominal 6.2x2.6 magnet seat; calibration remains required",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 1279.4403763148168,
+          "bbox_mm": [
+            18.0,
+            24.0,
+            8.200000000000006
+          ]
+        },
+        {
+          "code": "023",
+          "name": "H2L_magnet_retaining_bridge",
+          "material": "printed",
+          "owner": "rotor",
+          "note": "0.8 mm / four 0.2 mm layers; M2x8 nylon countersunk fasteners",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 106.64590111068375,
+          "bbox_mm": [
+            7.0,
+            22.0,
+            0.7999999999999972
+          ]
+        },
+        {
+          "code": "040",
+          "name": "H2L_diametric_magnet_6x2p5",
+          "material": "magnet",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 70.68583470577035,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            2.5
+          ]
+        },
+        {
+          "code": "041",
+          "name": "H2L_AS5048A_sensor_revB",
+          "material": "pcb",
+          "owner": "fixed",
+          "note": "Library geometry; nominal magnet-to-package gap 1.805mm from library model; verify field physically",
+          "solid_count": 7,
+          "valid": true,
+          "volume_mm3": 661.4384222447529,
+          "bbox_mm": [
+            18.0,
+            20.0,
+            7.175000000000004
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_lower_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716813,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_guide_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746372,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_sensor_spacer0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.122097814938,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2L_M3_tie_screw0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100552,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2L_carrier_support_washer0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2L_M3_washer_0_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2L_M3_nut_0_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179001,
+          "bbox_mm": [
+            6.350852961085881,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2L_M3_washer_0_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2L_M3_nut_0_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "bbox_mm": [
+            6.350852961085881,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_lower_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716816,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_guide_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746372,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_sensor_spacer1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.1220978149381,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2L_M3_tie_screw1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2L_carrier_support_washer1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2L_M3_washer_1_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642551,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2L_M3_nut_1_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2L_M3_washer_1_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2L_M3_nut_1_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_lower_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 95.97565556716816,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            5.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_guide_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 249.5367044746372,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            13.0
+          ]
+        },
+        {
+          "code": "050",
+          "name": "H2L_sensor_spacer2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 307.1220978149381,
+          "bbox_mm": [
+            6.0,
+            6.0,
+            16.0
+          ]
+        },
+        {
+          "code": "051",
+          "name": "H2L_M3_tie_screw2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x55; threads simplified",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 460.0469742100553,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            58.0
+          ]
+        },
+        {
+          "code": "070",
+          "name": "H2L_carrier_support_washer2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2L_M3_washer_2_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2L_M3_nut_2_29",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "052",
+          "name": "H2L_M3_washer_2_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 15.221016406642548,
+          "bbox_mm": [
+            7.0,
+            7.0,
+            0.5
+          ]
+        },
+        {
+          "code": "053",
+          "name": "H2L_M3_nut_2_51.4",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "Lower nut locks metal stack independently of printed carrier",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179003,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2L_spring_base_washer0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_a0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_b0_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_a0_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_b0_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2L_spring_guide_button0",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 133.84441341353954,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.823999999999998
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2L_M3_adjuster0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2L_M3_adjuster_locknut0",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.131144511790026,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2L_spring_base_washer1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_a1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_b1_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_a1_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_b1_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2L_spring_guide_button1",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 133.8444134135395,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.823999999999998
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2L_M3_adjuster1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2L_M3_adjuster_locknut1",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179,
+          "bbox_mm": [
+            6.350852961085881,
+            5.500000000000001,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "054",
+          "name": "H2L_spring_base_washer2",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 21.111502632123404,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_a2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_b2_0",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_a2_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "055",
+          "name": "H2L_schnorr_000300_b2_1",
+          "material": "spring",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 12.666901579274047,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.3620000000000019
+          ]
+        },
+        {
+          "code": "056",
+          "name": "H2L_spring_guide_button2",
+          "material": "aluminum",
+          "owner": "fixed",
+          "note": "Stop stem passes through pressure plate and reacts against FIXED lower plate",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 133.84441341353954,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            12.823999999999998
+          ]
+        },
+        {
+          "code": "057",
+          "name": "H2L_M3_adjuster2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "M3x10 with locknut; do not infer preload from screw torque",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 141.96071803408876,
+          "bbox_mm": [
+            5.5,
+            5.5,
+            13.0
+          ]
+        },
+        {
+          "code": "058",
+          "name": "H2L_M3_adjuster_locknut2",
+          "material": "fastener",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179004,
+          "bbox_mm": [
+            6.350852961085884,
+            5.5000000000000036,
+            2.3999999999999986
+          ]
+        },
+        {
+          "code": "060",
+          "name": "H2L_nylon_M2_female_spacer0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515521,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "code": "061",
+          "name": "H2L_nylon_M2x6_top_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.69911184307752,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "code": "071",
+          "name": "H2L_nylon_M2x4_board_screw0",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.15928947446199,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2L_nylon_spreader0_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2L_nylon_spreader0_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.23207767329652,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "060",
+          "name": "H2L_nylon_M2_female_spacer1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "M2 female spacer L6, threads represented by minor bore",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 87.65043503515524,
+          "bbox_mm": [
+            4.6000000000000005,
+            4.6000000000000005,
+            6.0
+          ]
+        },
+        {
+          "code": "061",
+          "name": "H2L_nylon_M2x6_top_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 37.69911184307752,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            7.5
+          ]
+        },
+        {
+          "code": "071",
+          "name": "H2L_nylon_M2x4_board_screw1",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "Low-profile head max1.4mm; required for swept clearance",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 30.15928947446199,
+          "bbox_mm": [
+            4.0,
+            4.0,
+            5.399999999999999
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2L_nylon_spreader1_47.9",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296526,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "062",
+          "name": "H2L_nylon_spreader1_51.4",
+          "material": "pom",
+          "owner": "fixed",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 23.232077673296526,
+          "bbox_mm": [
+            8.0,
+            8.0,
+            0.5
+          ]
+        },
+        {
+          "code": "064",
+          "name": "H2L_nylon_M2x8_cap_screw0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.882829320946115,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "code": "065",
+          "name": "H2L_nylon_M2_cap_nut0",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "code": "064",
+          "name": "H2L_nylon_M2x8_cap_screw1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 29.882829320946115,
+          "bbox_mm": [
+            4.4,
+            4.3999999999999995,
+            8.0
+          ]
+        },
+        {
+          "code": "065",
+          "name": "H2L_nylon_M2_cap_nut1",
+          "material": "pom",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.538569229331838,
+          "bbox_mm": [
+            4.618802153517006,
+            4.000000000000002,
+            1.6000000000000014
+          ]
+        },
+        {
+          "code": "066",
+          "name": "H2L_M3_lever_clamp_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 283.3323874456295,
+          "bbox_mm": [
+            5.5,
+            33.0,
+            5.5
+          ]
+        },
+        {
+          "code": "067",
+          "name": "H2L_M2_magnet_set_screw",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 39.20707631680062,
+          "bbox_mm": [
+            8.0,
+            3.6,
+            3.599999999999998
+          ]
+        },
+        {
+          "code": "068",
+          "name": "H2L_M3_lever_clamp_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 50.13114451179005,
+          "bbox_mm": [
+            6.3508529610858835,
+            2.4000000000000004,
+            5.500000000000002
+          ]
+        },
+        {
+          "code": "069",
+          "name": "H2L_M2_magnet_set_nut",
+          "material": "fastener",
+          "owner": "rotor",
+          "note": "",
+          "solid_count": 1,
+          "valid": true,
+          "volume_mm3": 18.53856922933184,
+          "bbox_mm": [
+            1.5999999999999996,
+            4.000000000000001,
+            4.618802153517009
+          ]
+        }
+      ],
+      "fixed_rotating_intersections": [],
+      "sweep_15deg": [
+        {
+          "angle_deg": 0,
+          "collisions": []
+        },
+        {
+          "angle_deg": 15,
+          "collisions": []
+        },
+        {
+          "angle_deg": 30,
+          "collisions": []
+        },
+        {
+          "angle_deg": 45,
+          "collisions": []
+        },
+        {
+          "angle_deg": 60,
+          "collisions": []
+        },
+        {
+          "angle_deg": 75,
+          "collisions": []
+        },
+        {
+          "angle_deg": 90,
+          "collisions": []
+        },
+        {
+          "angle_deg": 105,
+          "collisions": []
+        },
+        {
+          "angle_deg": 120,
+          "collisions": []
+        },
+        {
+          "angle_deg": 135,
+          "collisions": []
+        },
+        {
+          "angle_deg": 150,
+          "collisions": []
+        },
+        {
+          "angle_deg": 165,
+          "collisions": []
+        },
+        {
+          "angle_deg": 180,
+          "collisions": []
+        },
+        {
+          "angle_deg": 195,
+          "collisions": []
+        },
+        {
+          "angle_deg": 210,
+          "collisions": []
+        },
+        {
+          "angle_deg": 225,
+          "collisions": []
+        },
+        {
+          "angle_deg": 240,
+          "collisions": []
+        },
+        {
+          "angle_deg": 255,
+          "collisions": []
+        },
+        {
+          "angle_deg": 270,
+          "collisions": []
+        },
+        {
+          "angle_deg": 285,
+          "collisions": []
+        },
+        {
+          "angle_deg": 300,
+          "collisions": []
+        },
+        {
+          "angle_deg": 315,
+          "collisions": []
+        },
+        {
+          "angle_deg": 330,
+          "collisions": []
+        },
+        {
+          "angle_deg": 345,
+          "collisions": []
+        }
+      ],
+      "estimated_fixture_mass_g": 279.02992551734735,
+      "assembly_unplanned_intersections": [],
+      "modeled_thread_intersections": [
+        {
+          "a": "H2L_top_bearing_plate",
+          "b": "H2L_M3_adjuster0",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_top_bearing_plate",
+          "b": "H2L_M3_adjuster1",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_top_bearing_plate",
+          "b": "H2L_M3_adjuster2",
+          "volume_mm3": 8.639,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_tie_screw0",
+          "b": "H2L_M3_nut_0_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_tie_screw0",
+          "b": "H2L_M3_nut_0_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_tie_screw1",
+          "b": "H2L_M3_nut_1_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_tie_screw1",
+          "b": "H2L_M3_nut_1_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_tie_screw2",
+          "b": "H2L_M3_nut_2_29",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_tie_screw2",
+          "b": "H2L_M3_nut_2_51.4",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_adjuster0",
+          "b": "H2L_M3_adjuster_locknut0",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_adjuster1",
+          "b": "H2L_M3_adjuster_locknut1",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_adjuster2",
+          "b": "H2L_M3_adjuster_locknut2",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_nylon_M2_female_spacer0",
+          "b": "H2L_nylon_M2x6_top_screw0",
+          "volume_mm3": 2.262,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_nylon_M2_female_spacer0",
+          "b": "H2L_nylon_M2x4_board_screw0",
+          "volume_mm3": 2.714,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_nylon_M2_female_spacer1",
+          "b": "H2L_nylon_M2x6_top_screw1",
+          "volume_mm3": 2.262,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_nylon_M2_female_spacer1",
+          "b": "H2L_nylon_M2x4_board_screw1",
+          "volume_mm3": 2.714,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_nylon_M2x8_cap_screw0",
+          "b": "H2L_nylon_M2_cap_nut0",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_nylon_M2x8_cap_screw1",
+          "b": "H2L_nylon_M2_cap_nut1",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M3_lever_clamp_screw",
+          "b": "H2L_M3_lever_clamp_nut",
+          "volume_mm3": 4.222,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        },
+        {
+          "a": "H2L_M2_magnet_set_screw",
+          "b": "H2L_M2_magnet_set_nut",
+          "volume_mm3": 1.395,
+          "reason": "intentional simplified thread envelope/minor-bore engagement"
+        }
+      ],
+      "spring_parallel_per_series_group": 2,
+      "spring_series_groups_per_location": 2,
+      "spring_locations": 3,
+      "catalog_nominal_total_N": 624,
+      "integration_status": "standalone_characterization_fixture_NOT_in_full_body_mass_BOM"
+    }
+  }
+}

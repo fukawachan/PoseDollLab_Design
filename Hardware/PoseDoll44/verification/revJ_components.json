@@ -1,0 +1,501 @@
+{
+  "status": "COMPONENT_DESIGN_CANDIDATE_NOT_MANUFACTURING_RELEASE",
+  "parts": [
+    {
+      "module": "D6_split_drive",
+      "name": "split_hub",
+      "material": "aluminum",
+      "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        17.0,
+        16.2000001,
+        5.5
+      ],
+      "volume_mm3": 593.4821423412795
+    },
+    {
+      "module": "D6_split_drive",
+      "name": "pinch_M2x10",
+      "material": "fastener",
+      "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        12.0,
+        3.7999999999999994,
+        3.8000000000000003
+      ],
+      "volume_mm3": 52.14966833630125
+    },
+    {
+      "module": "D6_split_drive",
+      "name": "mount_M2x4_0",
+      "material": "fastener",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.8000000000000007,
+        3.8000000000000007,
+        6.0
+      ],
+      "volume_mm3": 33.10525669891099
+    },
+    {
+      "module": "D6_split_drive",
+      "name": "mount_M2_nut_0",
+      "material": "fastener",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.618802153517006,
+        4.000000000000002,
+        1.6
+      ],
+      "volume_mm3": 18.953259459605682
+    },
+    {
+      "module": "D6_split_drive",
+      "name": "mount_M2x4_1",
+      "material": "fastener",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.8000000000000007,
+        3.8000000000000007,
+        6.0
+      ],
+      "volume_mm3": 33.105256698911
+    },
+    {
+      "module": "D6_split_drive",
+      "name": "mount_M2_nut_1",
+      "material": "fastener",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.618802153517006,
+        4.000000000000002,
+        1.6
+      ],
+      "volume_mm3": 18.953259459605682
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "rear_journal",
+      "material": "aluminum",
+      "note": "Custom nonferromagnetic 4 mm journal; inner radial M2 and outer axial M2 retention",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.0,
+        4.0,
+        18.0
+      ],
+      "volume_mm3": 202.1474773828754
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "journal_radial_M2x4",
+      "material": "brass",
+      "note": "Candidate nonferromagnetic M2x4; keyed shaft is installed after front clutch screw, before twist shaft",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        6.0,
+        3.8,
+        3.799999999999999
+      ],
+      "volume_mm3": 33.300112414762495
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "magnet_carrier",
+      "material": "frame",
+      "note": "D driven magnet cup with separate axial screw; 0.1 mm radial adhesive bed prevents magnet rotation; adhesive selection and rotational slip test pending",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        14.8,
+        10.6,
+        12.5
+      ],
+      "volume_mm3": 983.5430596436597
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "carrier_axial_M2x6",
+      "material": "nylon",
+      "note": "Insert before magnet; nonmagnetic M2 screw into rear journal",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "volume_mm3": 32.31913442380498
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "diametric_magnet_6x2p5",
+      "material": "magnet",
+      "note": "6 x 2.5 mm diametrically magnetized candidate, never axially magnetized; grade and diagnostics require testing",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        2.5
+      ],
+      "volume_mm3": 70.68583470577035
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "magnet_retaining_bridge",
+      "material": "frame",
+      "note": "Positive removable cover; magnet face seats at 36.5 mm, no adhesive-only axial retention",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        14.8,
+        4.8,
+        0.7999999999999972
+      ],
+      "volume_mm3": 50.74987662264997
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "magnet_cover_M2x6_0",
+      "material": "nylon",
+      "note": "Nominal M2 nylon screw into cup; printed threads not qualified",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "volume_mm3": 32.31913442380498
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "magnet_cover_M2x6_1",
+      "material": "nylon",
+      "note": "Nominal M2 nylon screw into cup; printed threads not qualified",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "volume_mm3": 32.31913442380498
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_AS5048A",
+      "material": "pcb_component",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        6.4,
+        5.000000200000001,
+        1.0000001000000012
+      ],
+      "volume_mm3": 19.559259977171145
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_passive_1",
+      "material": "pcb_component",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        1.5999999999999996,
+        0.8000000000000005,
+        0.8000000000000043
+      ],
+      "volume_mm3": 0.9303638934211728
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_passive_2",
+      "material": "pcb_component",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        1.6000000000000005,
+        0.8000000000000006,
+        0.45000000000000284
+      ],
+      "volume_mm3": 0.5372187601976334
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_passive_3",
+      "material": "pcb_component",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        2.0,
+        1.2500000000000002,
+        1.25
+      ],
+      "volume_mm3": 2.889933096491485
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_passive_4",
+      "material": "pcb_component",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        1.5999999999999996,
+        0.8000000000000007,
+        0.45000000000000284
+      ],
+      "volume_mm3": 0.5372187601976334
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_J1_back_connector",
+      "material": "pcb_component",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        10.75,
+        4.950400000000002,
+        4.250000000000007
+      ],
+      "volume_mm3": 104.86443563202143
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "pcb_board",
+      "material": "pcb",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        18.0,
+        20.0,
+        1.509999999999998
+      ],
+      "volume_mm3": 532.1199921252521
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "nylon_spacer_0",
+      "material": "nylon",
+      "note": "M2 female 6 mm spacer; electrical insulation and spreaders required",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.6000000000000005,
+        4.6000000000000005,
+        6.0
+      ],
+      "volume_mm3": 87.65043503515521
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "nylon_spreader_0",
+      "material": "nylon",
+      "note": "0.5 mm insulating spreader, OD4.4/ID2.2",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.3999999999999995,
+        4.3999999999999995,
+        0.5
+      ],
+      "volume_mm3": 5.701990666265475
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "board_M2x4_0",
+      "material": "nylon",
+      "note": "Front board screw; 1.99 mm nominal engagement",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        5.399999999999999
+      ],
+      "volume_mm3": 26.035949116625396
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "support_M2x6_0",
+      "material": "nylon",
+      "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "volume_mm3": 32.31913442380498
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "nylon_spacer_1",
+      "material": "nylon",
+      "note": "M2 female 6 mm spacer; electrical insulation and spreaders required",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.6000000000000005,
+        4.6000000000000005,
+        6.0
+      ],
+      "volume_mm3": 87.65043503515524
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "nylon_spreader_1",
+      "material": "nylon",
+      "note": "0.5 mm insulating spreader, OD4.4/ID2.2",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        4.3999999999999995,
+        4.3999999999999995,
+        0.5
+      ],
+      "volume_mm3": 5.7019906662654725
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "board_M2x4_1",
+      "material": "nylon",
+      "note": "Front board screw; 1.99 mm nominal engagement",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        5.399999999999999
+      ],
+      "volume_mm3": 26.035949116625396
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "support_M2x6_1",
+      "material": "nylon",
+      "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "volume_mm3": 32.31913442380498
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "plug_service_envelope",
+      "material": "sensor_space",
+      "note": "Unverified mated plug insertion envelope beyond actual connector",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        13.0,
+        8.0,
+        7.0
+      ],
+      "volume_mm3": 728.0
+    },
+    {
+      "module": "abduction_encoder",
+      "name": "wire_service_envelope",
+      "material": "sensor_space",
+      "note": "Initial cable bend allowance only; no routed harness",
+      "solid_count": 1,
+      "valid": true,
+      "bbox_mm": [
+        12.0,
+        10.0,
+        11.999999999999993
+      ],
+      "volume_mm3": 1439.9999999999993
+    }
+  ],
+  "physical_tested": false,
+  "qty_per_character": {
+    "D6_split_drive": 4,
+    "abduction_encoder": 2
+  },
+  "sensor_source_sha256": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+  "drive_interface_mm": {
+    "shaft_d": 6,
+    "shaft_flat_x": 2.5,
+    "socket_d": 6.06,
+    "socket_flat_x": 2.53,
+    "open_split": 0.6,
+    "flange_thickness": 1.5,
+    "mount_centres": [
+      [
+        -5.9,
+        -5.9
+      ],
+      [
+        5.9,
+        -5.9
+      ]
+    ],
+    "print_backing_start": 1.5,
+    "print_backing_end": 4,
+    "print_support_radial_limit": 11.25
+  },
+  "encoder_mm": {
+    "shaft_d": 4,
+    "shaft_flat_x": 1.5,
+    "shaft_start": 12,
+    "shaft_end": 30,
+    "board_datum": 41.895,
+    "magnet_diameter": 6,
+    "magnet_height": 2.5,
+    "magnet_front": 36.5,
+    "package_surface_gap": 2.8,
+    "pcb_mount_xy": [
+      [
+        -6.5,
+        6.5
+      ],
+      [
+        6.5,
+        6.5
+      ]
+    ],
+    "spacer_height": 6,
+    "nominal_board_thickness": 1.6,
+    "step_board_thickness": 1.51
+  },
+  "sources": {
+    "magnet_guide": "https://ams-osram.com/documents/20143/80162/AnglePositionOnAxis_AN000271_2-00.pdf/bd13692b-b589-af7f-560c-4d62bf25d9dd?t=1519844940990",
+    "M2_nominal_socket_head": "https://uk.misumi-ec.com/files/images/products/docs/hexsocketheadcapscrews.pdf"
+  },
+  "manufacturing_gaps": [
+    "No final dimensions/tolerance/finish drawing or purchased fastener qualification",
+    "No elastic clamp FEA or tightening torque rating",
+    "Printed flange creep and minimum web strength not qualified",
+    "Magnet adhesive selection, field and rotational slip untested",
+    "Nylon pan head envelope 3.5 mm diameter x 1.4 mm high is a purchasing constraint, not a confirmed product"
+  ]
+}

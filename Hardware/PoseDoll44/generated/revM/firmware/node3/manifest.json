@@ -1,0 +1,30 @@
+{
+  "node": 3,
+  "chip": "esp32s3",
+  "flash_settings": {
+    "flash_mode": "dio",
+    "flash_size": "8MB",
+    "flash_freq": "80m"
+  },
+  "images": [
+    {
+      "offset": "0x0",
+      "file": "bootloader/bootloader.bin",
+      "bytes": 21120,
+      "sha256": "3f8b683dfcb2ac114b34cf886d7c58ca11535ebeac011c4776971e911c113fb8"
+    },
+    {
+      "offset": "0x8000",
+      "file": "partition_table/partition-table.bin",
+      "bytes": 3072,
+      "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    },
+    {
+      "offset": "0x10000",
+      "file": "PoseDollFullBody.bin",
+      "bytes": 233632,
+      "sha256": "ead73cb79b90e8a8ca65275bdf5dd667640f9c435796d51b5cae130382832cf3"
+    }
+  ],
+  "hardware_flashed": false
+}

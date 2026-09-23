@@ -1,0 +1,10 @@
+{
+  "kind": "sensor_revM_side",
+  "pcb_sha256": "3e3cffc02c0ff494cfe45a51623d8c36a30bd1e69852b52a60db9a2da537082e",
+  "schematic_sha256": "be189a123641cf223f02a46a82356fb08dc3d4dbd05b1fffaa4680bdff6a455f",
+  "erc_pass": true,
+  "drc_parity_pass": true,
+  "missing_vendor_3D_models": [],
+  "manufacturing_released": false,
+  "hardware_tested": false
+}

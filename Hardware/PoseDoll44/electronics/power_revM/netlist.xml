@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\UnrealProjects\DollSimulation\Hardware\PoseDoll44\electronics\power_revM\PoseDoll_PD41_Power_revM.kicad_sch</source>
+    <date>2026-09-23T08:58:29</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PoseDoll_PD41_Power_revM.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>EEEFP1C101AP / 100u 16V</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x5.8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ac10d0c-0bfa-5d5d-b6db-04b700e5e92f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>LTST-C190KGKT / green</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc878c30-2599-581c-a117-3c70864db6e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F0">
+      <value>0451003.MRL / 3A</value>
+      <footprint>Fuse:Fuse_Littelfuse-NANO2-451_453</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_Littelfuse-NANO2-451_453</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5444c33d-f61c-5dbb-a7ec-0ac9f017be09</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>1206L075/13.2WR / 0.75A hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>905e84d3-7db2-5352-be6c-0b42099576b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F2">
+      <value>1206L075/13.2WR / 0.75A hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e786f61c-b7de-582f-b7da-697aa7f4b901</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F3">
+      <value>1206L075/13.2WR / 0.75A hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f34358ce-0c8e-59bd-a0b0-a0fece7a4d96</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F4">
+      <value>1206L075/13.2WR / 0.75A hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51e98af7-964e-55b5-a83b-2ed4556db733</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F5">
+      <value>1206L075/13.2WR / 0.75A hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f5281d1-40b5-56ad-b9f4-173d3e0e88c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F6">
+      <value>1206L075/13.2WR / 0.75A hold</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43013c8f-a749-572d-833a-4818f1b207a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H1">
+      <value>M2 clearance</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b41f943-79fa-5820-b40c-c04d910568e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H2">
+      <value>M2 clearance</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cb132df-de88-5803-9414-29b4665a80d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H3">
+      <value>M2 clearance</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51647cc7-c771-5bc1-8f1c-fb1ddadb5354</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="H4">
+      <value>M2 clearance</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <fields>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d214a02-b0f6-56b9-9e89-a928abe9e10f</tstamps>
+      <units>
+        <unit name="A">
+          <pins/>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-002AH / regulated 5V center +</value>
+      <footprint>PoseDoll:PJ_002AH_verified</footprint>
+      <fields>
+        <field name="Footprint">PoseDoll:PJ_002AH_verified</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="DC power barrel jack connector"/>
+      <property name="ki_fp_filters" value="BarrelJack*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23cf3553-d807-5c31-8167-bb8858587eca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>N1: +5V / GND</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1afa8ba1-36ec-5ebf-a06d-98acc05dd0c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>N2: +5V / GND</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af665390-e539-50bf-bbc2-34f2aef1bbf9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>N3: +5V / GND</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed906773-00a9-5848-b07f-67f221ffe69e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>N4: +5V / GND</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>294886be-6a06-5951-a601-88cebd1baa48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>N5: +5V / GND</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a5d496f-2e37-5a0c-a332-d0be5e641d7e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>N6: +5V / GND</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>585aebc2-978b-5f75-80db-0274764af3d9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO4409 / reverse polarity</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PoseDoll" part="AO4409" description=""/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>591930f1-938e-5b5d-b53a-d0069ed348f3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fec0e873-fed6-5d76-b793-c5c4359ab5e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PoseDoll_PD41_Power_revM"/>
+      <property name="Sheetfile" value="PoseDoll_PD41_Power_revM.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8269c2c4-4969-535e-b6d5-11d92d2911e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">DC Barrel Jack with an internal switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+    <libpart lib="PoseDoll" part="AO4409">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO4409</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="input"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>${KIPRJMOD}/symbols/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KIPRJMOD}/symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KIPRJMOD}/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>${KIPRJMOD}/symbols/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PoseDoll">
+      <uri>${KIPRJMOD}/symbols/PoseDoll.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+5V_BUS" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="F3" pin="2" pintype="passive"/>
+      <node ref="F4" pin="1" pintype="passive"/>
+      <node ref="F5" pin="2" pintype="passive"/>
+      <node ref="F6" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/FUSED_5V" class="Default">
+      <node ref="F0" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_5" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_6" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D_7" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D_8" pintype="passive"/>
+    </net>
+    <net code="3" name="/GATE" class="Default">
+      <node ref="Q1" pin="4" pinfunction="G_4" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/LED_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/NODE1_5V" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/NODE2_5V" class="Default">
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/NODE3_5V" class="Default">
+      <node ref="F3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/NODE4_5V" class="Default">
+      <node ref="F4" pin="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="10" name="/NODE5_5V" class="Default">
+      <node ref="F5" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/NODE6_5V" class="Default">
+      <node ref="F6" pin="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="/RAW_5V" class="Default">
+      <node ref="F0" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

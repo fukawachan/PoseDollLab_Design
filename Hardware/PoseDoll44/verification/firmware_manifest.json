@@ -1,0 +1,27 @@
+{
+  "recorded_at": "2026-09-20T16:05:19.454138+08:00",
+  "idf": "6.1",
+  "target": "esp32s3",
+  "flash_size": "8MB",
+  "flashed": false,
+  "sources": {
+    "main/main.c": "6d9d5380e30efb87ce7071857a0e435e0a9fb0b6f77f3bdad3d9eb74b96896f4",
+    "main/CMakeLists.txt": "a0b8bdee7107955d01a69c176b3429769589cde633ccedc85de6b3bee58f1325",
+    "CMakeLists.txt": "9ef82037d0b3b324577c63598096bf8896bc2255062db87c1a977c17654c0521",
+    "sdkconfig.defaults": "e39fddad1fd5b818f7acb4a360c6b88a8644b24bba30280ef8d33aa595208054"
+  },
+  "binaries": {
+    "build/posedoll_h1_diagnostic.bin": {
+      "bytes": 221856,
+      "sha256": "82a78693c5a3d3771f62825293b0fece4594491d132a90c54090e176b2424f2f"
+    },
+    "build/bootloader/bootloader.bin": {
+      "bytes": 21120,
+      "sha256": "0ec51f12aaab204aae0da563a965e5a240fdeb5a998c7011e7d89a53ae715fd1"
+    },
+    "build/partition_table/partition-table.bin": {
+      "bytes": 3072,
+      "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+    }
+  }
+}

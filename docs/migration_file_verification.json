@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "all_file_bytes_preserved_before_relocation_edits": true,
+  "files_verified": 18285,
+  "bytes_verified": 6872350860,
+  "inventory_sha256": "33473875059374f81d3fb2ab6c62bf3066c5c65696a6c6fac83d9a20ea941657",
+  "moves": [
+    {
+      "from": "Hardware/PoseDoll44",
+      "to": "Hardware/PoseDoll44"
+    },
+    {
+      "from": "Firmware/PoseDollHardware",
+      "to": "Firmware/PoseDollHardware"
+    },
+    {
+      "from": "Firmware/PoseDollFullBody",
+      "to": "Firmware/PoseDollFullBody"
+    },
+    {
+      "from": "Tools/PoseDollHardwareBridge",
+      "to": "Tools/PoseDollHardwareBridge"
+    },
+    {
+      "from": "tmp/pdfs/posedoll_datasheets",
+      "to": "Hardware/PoseDoll44/references/migrated_datasheets"
+    }
+  ]
+}

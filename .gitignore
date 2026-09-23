@@ -1,0 +1,61 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.local/
+archive/
+# Compiler / ESP-IDF build trees; retained locally after migration
+/Firmware/**/build*/
+/Firmware/**/managed_components/
+/Firmware/**/sdkconfig
+/Firmware/**/sdkconfig.old
+*.obj
+*.exe
+*.dll
+*.pdb
+*.a
+*.elf
+*.map
+*.log
+*.tmp
+*.bak
+# Machine paths and editors
+/Hardware/PoseDoll44/tools/local_toolchain.json
+**/*.kicad_prl
+**/*-backups/
+**/*.lck
+**/~$*
+.vscode/
+.vs/
+.idea/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+# Downloaded tools (license and instructions remain tracked)
+/Hardware/PoseDoll44/tools/vendor/*.jar
+# Generated delivery: retain manifests, evidence and required CAD inputs in Git.
+# All other exports are preserved on disk but excluded from the source repository.
+/Hardware/PoseDoll44/generated/**
+!/Hardware/PoseDoll44/generated/**/
+!/Hardware/PoseDoll44/generated/**/*.json
+!/Hardware/PoseDoll44/generated/**/*.csv
+!/Hardware/PoseDoll44/generated/**/*.md
+!/Hardware/PoseDoll44/generated/**/*.npz
+!/Hardware/PoseDoll44/generated/**/*.brep
+!/Hardware/PoseDoll44/generated/revC/step/sensor_revB.step
+!/Hardware/PoseDoll44/generated/revK/components/sensor_revC_mini.step
+!/Hardware/PoseDoll44/generated/revM/RevM_Full_Body_Review.html
+!/Hardware/PoseDoll44/generated/revN/RevN_Chest_Review.html
+!/Hardware/PoseDoll44/generated/revN/manny/front.png
+!/Hardware/PoseDoll44/generated/revN/manny/hands_behind.png
+!/Hardware/PoseDoll44/generated/revN/quinn/front.png
+!/Hardware/PoseDoll44/generated/revN/quinn/hands_behind.png
+/Hardware/PoseDoll44/verification/viewer_runtime/
+/Hardware/PoseDoll44/verification/firmware_revM/

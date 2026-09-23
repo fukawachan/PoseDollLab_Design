@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\UnrealProjects\DollSimulation\Hardware\PoseDoll44\electronics\sensor_revM_side\PoseDoll_AS5048A_revM_side.kicad_sch</source>
+    <date>2026-09-23T08:09:18</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PoseDoll_AS5048A_revM_side.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n X7R 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PoseDoll_AS5048A_revM_side"/>
+      <property name="Sheetfile" value="PoseDoll_AS5048A_revM_side.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>016200a5-f2cb-5674-a159-fdd078559556</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10u X5R 25V / CL21A106KAYNNNE</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="PoseDoll_AS5048A_revM_side"/>
+      <property name="Sheetfile" value="PoseDoll_AS5048A_revM_side.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8325dd7b-0a02-55eb-ba20-2cbf61118c64</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>SM06B-SRSS-TB(LF)(SN)</value>
+      <footprint>Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</footprint>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PoseDoll_AS5048A_revM_side"/>
+      <property name="Sheetfile" value="PoseDoll_AS5048A_revM_side.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>208b0fcb-0623-5ad1-a332-8db930bb9c42</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PoseDoll_AS5048A_revM_side"/>
+      <property name="Sheetfile" value="PoseDoll_AS5048A_revM_side.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9feec747-96b4-583a-821b-79586b777c95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="PoseDoll_AS5048A_revM_side"/>
+      <property name="Sheetfile" value="PoseDoll_AS5048A_revM_side.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d8b95d02-ba35-5e3c-b1a6-b0d8cb64f51c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>AS5048A-HTSP-500</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sensor_Magnetic" part="AS5048A" description="Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14"/>
+      <property name="Sheetname" value="PoseDoll_AS5048A_revM_side"/>
+      <property name="Sheetfile" value="PoseDoll_AS5048A_revM_side.kicad_sch"/>
+      <property name="ki_keywords" value="sensor magnetic hall position rotation spi"/>
+      <property name="ki_fp_filters" value="TSSOP*4.4x5mm*P0.65mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dbd487a-d33a-5fbc-bf41-ef13d3b976b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="12"/>
+            <pin num="7"/>
+            <pin num="11"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Magnetic" part="AS5048A">
+      <description>Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14</description>
+      <docs>https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS5048A</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf</field>
+        <field name="Description">Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CSn}" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TEST" type="passive"/>
+        <pin num="6" name="TEST" type="passive"/>
+        <pin num="7" name="TEST" type="passive"/>
+        <pin num="8" name="TEST" type="passive"/>
+        <pin num="9" name="TEST" type="passive"/>
+        <pin num="10" name="TEST" type="passive"/>
+        <pin num="11" name="VDD5V" type="power_in"/>
+        <pin num="12" name="VDD3V" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="PWM" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Magnetic">
+      <uri>D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/Sensor_Magnetic.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="VDD5V_11" pintype="power_in"/>
+      <node ref="U1" pin="12" pinfunction="VDD3V_12" pintype="power_in"/>
+    </net>
+    <net code="2" name="/CS_N" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{CSn}_1" pintype="input"/>
+    </net>
+    <net code="3" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GND_13" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="TEST_5" pintype="passive"/>
+    </net>
+    <net code="4" name="/MISO" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/MISO_IC" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="MISO_3" pintype="output"/>
+    </net>
+    <net code="6" name="/MOSI" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="MOSI_4" pintype="input"/>
+    </net>
+    <net code="7" name="/SCK" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CLK_2" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(U1-PWM-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="PWM_14" pintype="output+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(U1-TEST-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="TEST_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(U1-TEST-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="TEST_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(U1-TEST-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="TEST_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(U1-TEST-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="TEST_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(U1-TEST-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="TEST_10" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

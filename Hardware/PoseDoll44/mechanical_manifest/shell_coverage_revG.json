@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "status": "USER_APPROVED_COVERAGE_RULE_NOT_MANUFACTURING_RELEASE",
+  "applies_to": [
+    "manny",
+    "quinn"
+  ],
+  "scale_changed_by_this_decision": false,
+  "principle_zh": "形状稳定的独立刚性节段可以包壳；会因关节运动改变外形的区域保持机械骨架裸露。",
+  "rules": {
+    "soft_skin_required": false,
+    "joint_boots_required": false,
+    "floating_shoulder_caps_required": false,
+    "shell_must_not_bridge_mechanical_axes": true,
+    "shell_shape_must_be_trimmed_by_combined_motion_clearance": true,
+    "wire_guides_allowed_without_covering_motion_zone": true,
+    "all_44_axes_and_character_proportions_retained": true
+  },
+  "regions": [
+    {
+      "region": "head",
+      "coverage": "rigid_segment_shell",
+      "note_zh": "头部主体可包壳，颈部转轴裸露。",
+      "cad_status": "not_integrated"
+    },
+    {
+      "region": "upperarm_shaft",
+      "coverage": "partial_rigid_segment_shell",
+      "note_zh": "上臂主体保留握持壳；肩根、肘窝及运动扫过区开口。",
+      "cad_status": "left_local_space_study"
+    },
+    {
+      "region": "forearm_shaft",
+      "coverage": "partial_rigid_segment_shell",
+      "note_zh": "前臂主体包壳；旋转接缝、肘和腕附近开口，不跨接不同运动节段。",
+      "cad_status": "left_local_space_study"
+    },
+    {
+      "region": "thigh_and_shin_shafts",
+      "coverage": "partial_rigid_segment_shell",
+      "note_zh": "大腿、小腿主体可包壳；髋、膝及踝附近裸露。",
+      "cad_status": "not_integrated"
+    },
+    {
+      "region": "hand_and_foot_segments",
+      "coverage": "rigid_segment_shell",
+      "note_zh": "手掌、脚的独立刚性节段可包壳；腕、踝和前脚掌弯曲轴保持裸露。",
+      "cad_status": "not_integrated"
+    },
+    {
+      "region": "central_thorax_and_pelvis_frames",
+      "coverage": "conditional_local_rigid_shell",
+      "note_zh": "只在属于单个刚性框架且全部姿势不占活动空间的中央区域设置小壳；不能默认整片胸背或骨盆都能封闭。",
+      "cad_status": "requires_kinematic_partition"
+    },
+    {
+      "region": "shoulder_girdle_scapular_zone_and_armpit",
+      "coverage": "exposed",
+      "note_zh": "肩带、肩胛活动区、肩根与腋下无硬壳、无软皮、无浮动肩盖。",
+      "cad_status": "mechanism_not_integrated"
+    },
+    {
+      "region": "neck_waist_abdomen_groin",
+      "coverage": "exposed",
+      "note_zh": "各节段间相对运动和形变区裸露。",
+      "cad_status": "mechanism_not_integrated"
+    },
+    {
+      "region": "elbow_knee_wrist_ankle_and_twist_interfaces",
+      "coverage": "exposed",
+      "note_zh": "关节和旋转连接区裸露；壳体不得因追求完整轮廓侵入运动空间。",
+      "cad_status": "elbow_space_study_only"
+    }
+  ],
+  "implementation_notes_zh": [
+    "部位名称只是分区起点；最终壳边必须按多轴组合姿势修剪，不能仅以自然姿态外形定边。",
+    "裸露机构仍需整理走线、圆整接触边缘，并保留持握空间；这些处理不是重新覆盖活动区。",
+    "人体比例与44轴动作目标不因减少覆盖而改变。"
+  ]
+}

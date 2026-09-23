@@ -1,0 +1,123 @@
+{
+  "profile_id": "a1mini_pla_04_assumed_revB",
+  "profile_sha256": "efea8c9c158538726fb2a840d5d7933b79e407d16155c2fb3cf5214286b72d4a",
+  "kind": "sensitivity_only_not_printer_tolerance_or_acceptance",
+  "diameter_error_scenarios_mm": [
+    -0.4,
+    -0.2,
+    0.0,
+    0.1
+  ],
+  "screw_holes": [
+    {
+      "interface": "M2_clearance",
+      "cad_d_mm": 2.6,
+      "nominal_hardware_d_mm": 2.0,
+      "diametral_clearance_by_scenario_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "in_H1": true
+    },
+    {
+      "interface": "M3_clearance",
+      "cad_d_mm": 3.6,
+      "nominal_hardware_d_mm": 3.0,
+      "diametral_clearance_by_scenario_mm": [
+        0.2,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "in_H1": true
+    },
+    {
+      "interface": "M4_clearance",
+      "cad_d_mm": 4.8,
+      "nominal_hardware_d_mm": 4.0,
+      "diametral_clearance_by_scenario_mm": [
+        0.4,
+        0.6,
+        0.8,
+        0.9
+      ],
+      "in_H1": true
+    },
+    {
+      "interface": "M5_clearance",
+      "cad_d_mm": 5.8,
+      "nominal_hardware_d_mm": 5.0,
+      "diametral_clearance_by_scenario_mm": [
+        0.4,
+        0.6,
+        0.8,
+        0.9
+      ],
+      "in_H1": false
+    },
+    {
+      "interface": "M6_clearance",
+      "cad_d_mm": 6.8,
+      "nominal_hardware_d_mm": 6.0,
+      "diametral_clearance_by_scenario_mm": [
+        0.4,
+        0.6,
+        0.8,
+        0.9
+      ],
+      "in_H1": true
+    },
+    {
+      "interface": "M3_aligned_frame",
+      "cad_d_mm": 3.8,
+      "nominal_hardware_d_mm": 3,
+      "diametral_clearance_by_scenario_mm": [
+        0.4,
+        0.6,
+        0.8,
+        0.9
+      ],
+      "in_H1": true
+    }
+  ],
+  "precision_interfaces": [
+    {
+      "interface": "POM_housing",
+      "cad_d_mm": 10.2,
+      "nominal_part_d_mm": 10.0,
+      "diametral_clearance_by_scenario_mm": [
+        -0.2,
+        0.0,
+        0.2,
+        0.3
+      ],
+      "conclusion": "range spans interference and clearance; retention/centring design and later fit test required"
+    },
+    {
+      "interface": "magnet_seat",
+      "cad_d_mm": 6.2,
+      "nominal_part_d_mm": 6.0,
+      "diametral_clearance_by_scenario_mm": [
+        -0.2,
+        0.0,
+        0.2,
+        0.3
+      ],
+      "conclusion": "range spans interference and clearance; retention/centring design and later fit test required"
+    }
+  ],
+  "omissions": [
+    "actual fastener dimensional tolerance",
+    "hole centre misalignment",
+    "horizontal-hole sag",
+    "ovality",
+    "elephant foot",
+    "long-hole straightness",
+    "load/creep"
+  ],
+  "design_blocked_by_missing_user_measurements": false,
+  "user_testing_requested_now": false,
+  "physical_tests": "not_run"
+}

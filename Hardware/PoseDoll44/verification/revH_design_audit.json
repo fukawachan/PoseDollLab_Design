@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "verification/revH_manny.json": "70204294771af26f5004f530ce9080f512cd231b5c36cb201f8a84b3fc5226e9",
+    "mechanical_manifest/physical_manny_44_revG_humanform_trial.json": "c4da2d61d0c079b406ae46e6b8e80630c836cee9abccbee10ec67d89cee2ddfc",
+    "verification/revH_quinn.json": "59aef329a0a2f3ff21da558f28f665532485291522b7704f3c9baab18188d88c",
+    "mechanical_manifest/physical_quinn_44_revG_humanform_trial.json": "e10426f26c128bb924b65b43ed780a95432656914bcc9333f38dc55f64f96a49",
+    "cad/revH/build_review.py": "1062665707e092f0f0024f911ae48372591bdc3a5217109dd25826f8e7fe4b49",
+    "cad/revH/find_crossed_pose.py": "a559aa7cfcfadfcc1337aa00f3b5c637bb65ab9f86062844e11e64a28a6d1a10",
+    "cad/revH/open_in_cq_editor.py": "90a82ad683c2075c04c6b77e46ae352745d6e606bc13c306cdbe6738efd79280",
+    "cad/revH/refine_crossed_pose.py": "c4351837523e6a13710f3a3122b93c1a5cd987aa8a09d8662bacb2675df59da8",
+    "cad/revH/refresh_selected_pose.py": "3c3b31f9fbef2d843a669cfbc36ad8a514a4bc50264c1c42a7fe07baea476296",
+    "cad/revH/review.template.html": "65af765157854d0368422fa853b5b3db8f27ab49defdce4c9ab00b79b4f48f3b",
+    "cad/revH/shoulder_mechanism.py": "67efaf32fb5f77dd8061207faf495cebbdc6e268aad606a499515d52feedca76",
+    "cad/collision_policy.py": "c828fdedc455083373967a68dd59d21cfe772dc3343739b318cf98820d641ce1",
+    "cad/revG/centerline_study.py": "afbe4c276896e4bd63e34b048bb8e1d5dac24e3a292795d379ed619e4250b397",
+    "verification/revG_surface_envelopes.json": "7b12f563490f9400ddc0fe352c247d39ca36caf88e0618444a80863e13f126e4",
+    "verification/revE_proportion_baselines.json": "2f79597fac1165780e6d43dea0d641162a8246b50bfa80d36b982680510dca29",
+    "mechanical_manifest/shell_coverage_revG.json": "a6c314a04d58abe13bd94cf3a685f0688e377f134d10bb27ec249d95a20c9d98",
+    "tools/report_revH.py": "7d6a35538651d21afa64c8a9aea0968be5454d80f98b78b003356d60c2577229"
+  },
+  "all_sample_angles_within_original_limits": true,
+  "all_44_axis_ids_preserved": true,
+  "all_bearing_axes_numerically_aligned": true,
+  "physical_tested": false,
+  "manufacturing_released": false
+}

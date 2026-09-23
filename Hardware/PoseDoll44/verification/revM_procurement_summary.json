@@ -1,0 +1,44 @@
+{
+  "manny": {
+    "entities": 1999,
+    "categories": {
+      "加工塑料": 190,
+      "加工金属": 400,
+      "打印": 187,
+      "采购标准件": 67,
+      "采购碟簧": 126,
+      "采购紧固件": 671,
+      "PCBA内含": 294,
+      "模切软垫": 56,
+      "采购辅件": 8
+    },
+    "individual_calibration_observations": 123,
+    "PCBA_order": {
+      "sensor_small": 39,
+      "sensor_large": 2,
+      "regional": 6,
+      "power": 1
+    }
+  },
+  "quinn": {
+    "entities": 1999,
+    "categories": {
+      "加工塑料": 190,
+      "加工金属": 400,
+      "打印": 187,
+      "采购标准件": 67,
+      "采购碟簧": 126,
+      "采购紧固件": 671,
+      "PCBA内含": 294,
+      "模切软垫": 56,
+      "采购辅件": 8
+    },
+    "individual_calibration_observations": 123,
+    "PCBA_order": {
+      "sensor_small": 39,
+      "sensor_large": 2,
+      "regional": 6,
+      "power": 1
+    }
+  }
+}

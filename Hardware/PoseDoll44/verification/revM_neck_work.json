@@ -1,0 +1,69 @@
+{
+  "quinn": [
+    {
+      "pose": "neutral",
+      "angles_deg": {},
+      "hits": []
+    },
+    {
+      "pose": "turn",
+      "angles_deg": {
+        "head.yaw": 75
+      },
+      "hits": []
+    },
+    {
+      "pose": "nod",
+      "angles_deg": {
+        "head.pitch": 55
+      },
+      "hits": []
+    },
+    {
+      "pose": "look_up",
+      "angles_deg": {
+        "head.pitch": -45
+      },
+      "hits": []
+    },
+    {
+      "pose": "tilt_l",
+      "angles_deg": {
+        "head.roll": 35
+      },
+      "hits": []
+    },
+    {
+      "pose": "tilt_r",
+      "angles_deg": {
+        "head.roll": -35
+      },
+      "hits": []
+    },
+    {
+      "pose": "up_tilt",
+      "angles_deg": {
+        "head.pitch": -45,
+        "head.roll": 35
+      },
+      "hits": []
+    },
+    {
+      "pose": "down_tilt",
+      "angles_deg": {
+        "head.pitch": 55,
+        "head.roll": -35
+      },
+      "hits": []
+    },
+    {
+      "pose": "combo",
+      "angles_deg": {
+        "head.yaw": -75,
+        "head.pitch": 55,
+        "head.roll": 35
+      },
+      "hits": []
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+﻿已绘制到 'E:\UnrealProjects\DollSimulation\Hardware\PoseDoll44\generated\schematic\PoseDoll_AS5048A_revA.svg'。
+完成。

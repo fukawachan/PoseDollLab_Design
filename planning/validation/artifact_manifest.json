@@ -1,0 +1,85 @@
+{
+  "scope": "ARTIFACT_INTEGRITY_ONLY",
+  "files": [
+    {
+      "path": "CODEX_START_HERE.md",
+      "sha256": "7622dade6d56796e4236bb0a3084bc89824a68500e6dfa102ab733820f9610d9",
+      "bytes": 4062
+    },
+    {
+      "path": "README.zh-CN.md",
+      "sha256": "ba490b2586c1c97f27220c92b3f557c0d0a1682d50ff5c204400004a68bff0f2",
+      "bytes": 1697
+    },
+    {
+      "path": "contracts/acceptance_targets.json",
+      "sha256": "4c44a4a76d6296cac07e5d3f716085fdc817e4074a48c0dc86efd898ceaa0411",
+      "bytes": 3095
+    },
+    {
+      "path": "contracts/architecture.json",
+      "sha256": "8c64ce2b60519d9b5facc9e9fc1483b245afdd05182756aa4934ecd03c529cfa",
+      "bytes": 2950
+    },
+    {
+      "path": "contracts/axis_allocation.json",
+      "sha256": "1b78e961705779599ee6bc9ae21212df13279e6ba15a164a713a0a5dc81a4556",
+      "bytes": 35997
+    },
+    {
+      "path": "docs/AXIS_MAP.zh-CN.md",
+      "sha256": "39635c07696ced3a06fdbddc27ad5218b4802b13be613bc91b7ce10905a37d94",
+      "bytes": 3441
+    },
+    {
+      "path": "docs/DECISIONS_AND_RISKS.zh-CN.md",
+      "sha256": "3d8f300ee42bb848f5781034cf321d86e5b23b287620bfa8bdfecc98f39b774a",
+      "bytes": 3307
+    },
+    {
+      "path": "docs/HARDWARE_DESIGN.zh-CN.md",
+      "sha256": "d38eee2626ace437b023178b1ed0ed61e593d17eaebccbaa348ca406a82d5d6e",
+      "bytes": 16697
+    },
+    {
+      "path": "docs/INTEGRATION_AND_PROTOCOL.zh-CN.md",
+      "sha256": "6c459802b9a37dd31f1fade6aa51816636d4d84dffc18d715b1a4356d8b6c7fd",
+      "bytes": 10560
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "sha256": "a00629013467dc6d7e5c1c00a547be63293b0c7960221e5db7694bed97885dd2",
+      "bytes": 4399
+    },
+    {
+      "path": "docs/TEST_AND_RELEASE.zh-CN.md",
+      "sha256": "90ee8fce5f56bff804813ac4f4eb63fa3f5af862149fc3d39addd48388be2f41",
+      "bytes": 8018
+    },
+    {
+      "path": "docs/TOOLCHAIN.zh-CN.md",
+      "sha256": "b99c90381bb8478a92922982670a1401e7f5d3a2d94f345a872c10903a261148",
+      "bytes": 5145
+    },
+    {
+      "path": "tools/check_plan.py",
+      "sha256": "93c08bf1452f333dd127cb1fb2932d75769c747f45da377d1746177c4dce5c0a",
+      "bytes": 7600
+    },
+    {
+      "path": "tools/test_check_plan.py",
+      "sha256": "4190e63b31ae6c5b0c051a35144007fb2656633c7209c61108faeccf6fd070b6",
+      "bytes": 2035
+    },
+    {
+      "path": "validation/checker_tests.txt",
+      "sha256": "125cc50ca1d0a50deb4d2f26d0f71f0a2ab568f675de7dcc6a2301943dc6de18",
+      "bytes": 877
+    },
+    {
+      "path": "validation/plan_consistency.json",
+      "sha256": "faa244ec44451c8ffcab178b0d13d20250d0204c56a442991ba3778904d55e4d",
+      "bytes": 2847
+    }
+  ]
+}

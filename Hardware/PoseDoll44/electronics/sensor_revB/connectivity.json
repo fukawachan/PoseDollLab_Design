@@ -1,0 +1,160 @@
+[
+  {
+    "ref": "U1",
+    "lib": "Sensor_Magnetic",
+    "sym": "AS5048A",
+    "value": "AS5048A-HTSP-500",
+    "xy": [
+      90,
+      75
+    ],
+    "pcb": [
+      109,
+      110
+    ],
+    "fp": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "nets": {
+      "1": "CS_N",
+      "2": "SCK",
+      "3": "MISO_IC",
+      "4": "MOSI",
+      "5": "GND",
+      "6": null,
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": "+3V3",
+      "12": "+3V3",
+      "13": "GND",
+      "14": null
+    }
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x06",
+    "value": "SM06B-GHS-TB",
+    "xy": [
+      40,
+      70
+    ],
+    "pcb": [
+      109,
+      103.4
+    ],
+    "fp": "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "SCK",
+      "4": "MOSI",
+      "5": "MISO",
+      "6": "CS_N"
+    }
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "sym": "C",
+    "value": "100n X7R 16V",
+    "xy": [
+      150,
+      65
+    ],
+    "pcb": [
+      114.7,
+      108.6
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    }
+  },
+  {
+    "ref": "C2",
+    "lib": "Device",
+    "sym": "C",
+    "value": "10u X7R 10V",
+    "xy": [
+      170,
+      65
+    ],
+    "pcb": [
+      114.7,
+      112.3
+    ],
+    "fp": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    }
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "sym": "R",
+    "value": "33R",
+    "xy": [
+      150,
+      100
+    ],
+    "pcb": [
+      103,
+      109.35
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "MISO_IC",
+      "2": "MISO"
+    }
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "sym": "R",
+    "value": "10k",
+    "xy": [
+      170,
+      100
+    ],
+    "pcb": [
+      103,
+      112.4
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+3V3",
+      "2": "CS_N"
+    }
+  },
+  {
+    "ref": "#FLG01",
+    "lib": "power",
+    "sym": "PWR_FLAG",
+    "value": "PWR_FLAG",
+    "xy": [
+      35,
+      110
+    ],
+    "fp": "",
+    "nets": {
+      "1": "+3V3"
+    }
+  },
+  {
+    "ref": "#FLG02",
+    "lib": "power",
+    "sym": "PWR_FLAG",
+    "value": "PWR_FLAG",
+    "xy": [
+      55,
+      110
+    ],
+    "fp": "",
+    "nets": {
+      "1": "GND"
+    }
+  }
+]

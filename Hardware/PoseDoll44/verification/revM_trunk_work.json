@@ -1,0 +1,170 @@
+{
+  "manny": {
+    "meta": {
+      "trunk_joints": {
+        "waist": [
+          "waist.yaw",
+          "waist.pitch",
+          "waist.roll"
+        ],
+        "chest": [
+          "chest.yaw",
+          "chest.pitch",
+          "chest.roll"
+        ]
+      },
+      "stage": "trunk_integration"
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "hits": []
+      },
+      {
+        "pose": "bend",
+        "angles_deg": {
+          "waist.pitch": 40,
+          "chest.pitch": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "extend",
+        "angles_deg": {
+          "waist.pitch": -20,
+          "chest.pitch": -20
+        },
+        "hits": []
+      },
+      {
+        "pose": "lean",
+        "angles_deg": {
+          "waist.roll": 25,
+          "chest.roll": 20
+        },
+        "hits": []
+      },
+      {
+        "pose": "twist",
+        "angles_deg": {
+          "waist.yaw": 35,
+          "chest.yaw": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "lean_other",
+        "angles_deg": {
+          "waist.roll": -25,
+          "chest.roll": -20
+        },
+        "hits": []
+      },
+      {
+        "pose": "opposed",
+        "angles_deg": {
+          "waist.pitch": 40,
+          "chest.pitch": -20,
+          "waist.roll": 25,
+          "chest.roll": -20
+        },
+        "hits": []
+      },
+      {
+        "pose": "reverse",
+        "angles_deg": {
+          "waist.yaw": -35,
+          "chest.yaw": -35,
+          "waist.pitch": -20,
+          "chest.pitch": 30
+        },
+        "hits": []
+      }
+    ]
+  },
+  "quinn": {
+    "meta": {
+      "trunk_joints": {
+        "waist": [
+          "waist.yaw",
+          "waist.pitch",
+          "waist.roll"
+        ],
+        "chest": [
+          "chest.yaw",
+          "chest.pitch",
+          "chest.roll"
+        ]
+      },
+      "stage": "trunk_integration"
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "hits": []
+      },
+      {
+        "pose": "bend",
+        "angles_deg": {
+          "waist.pitch": 40,
+          "chest.pitch": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "extend",
+        "angles_deg": {
+          "waist.pitch": -20,
+          "chest.pitch": -20
+        },
+        "hits": []
+      },
+      {
+        "pose": "lean",
+        "angles_deg": {
+          "waist.roll": 25,
+          "chest.roll": 20
+        },
+        "hits": []
+      },
+      {
+        "pose": "twist",
+        "angles_deg": {
+          "waist.yaw": 35,
+          "chest.yaw": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "lean_other",
+        "angles_deg": {
+          "waist.roll": -25,
+          "chest.roll": -20
+        },
+        "hits": []
+      },
+      {
+        "pose": "opposed",
+        "angles_deg": {
+          "waist.pitch": 40,
+          "chest.pitch": -20,
+          "waist.roll": 25,
+          "chest.roll": -20
+        },
+        "hits": []
+      },
+      {
+        "pose": "reverse",
+        "angles_deg": {
+          "waist.yaw": -35,
+          "chest.yaw": -35,
+          "waist.pitch": -20,
+          "chest.pitch": 30
+        },
+        "hits": []
+      }
+    ]
+  }
+}

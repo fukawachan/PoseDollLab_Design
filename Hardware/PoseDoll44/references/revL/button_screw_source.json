@@ -1,0 +1,18 @@
+{
+  "source_url": "https://accu-components.com/us/socket-button-screws/422924-SSB-M3-8-TI5",
+  "supplier": "Accu",
+  "product_code": "SSB-M3-8-TI5",
+  "observed_on": "2026-09-22",
+  "thread": "M3 x 0.5",
+  "length_mm": 8,
+  "material_stated": "Titanium Grade 5",
+  "head_diameter_mm": 5.7,
+  "head_height_mm": 1.65,
+  "hex_socket_AF_mm": 2,
+  "socket_depth_min_mm": 1.04,
+  "standard_stated": "ISO 7380",
+  "cad_representation": "Conservative cylindrical head envelope with nominal socket, not a supplier STEP",
+  "procurement_verified": false,
+  "strength_and_magnetic_tested": false,
+  "note": "Dimensions transcribed from the supplier technical specification; availability is not inferred from the page template. A substitute must preserve geometry and be qualified for the existing spring load."
+}

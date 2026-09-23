@@ -1,0 +1,23 @@
+{
+  "status": "JOINT_CENTRE_CAD_AND_REFERENCE_SURFACES_NOT_MANUFACTURED_PARTS",
+  "characters": {
+    "manny": {
+      "step": "generated\\revE\\manny\\Manny_44_proportion_layout.step",
+      "entity_count": 92,
+      "axis_count": 44,
+      "all_reference_shapes_valid": true,
+      "surface_vertices": 46098,
+      "surface_triangles": 92178,
+      "manufacturing_release": false
+    },
+    "quinn": {
+      "step": "generated\\revE\\quinn\\Quinn_44_proportion_layout.step",
+      "entity_count": 92,
+      "axis_count": 44,
+      "all_reference_shapes_valid": true,
+      "surface_vertices": 43761,
+      "surface_triangles": 87280,
+      "manufacturing_release": false
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "status": "FAIL_REVC_NOT_PROPORTION_MATCHED",
+  "target_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+  "target_rig": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+  "source_basis": "Existing project mesh-reference capture; cached validated target, not a fresh current-editor interrogation.",
+  "target_fingerprint_matches_fixture": true,
+  "target_rig_fingerprint": "8178edddcdbf500319aa1ce6b548fa9633bfd0ecf244122ecdeacb65d8d8e9f6",
+  "whole_mesh_height_mm": null,
+  "physical_whole_height_mm": null,
+  "height_note": "head_tip Z=550mm is a CAD reference coordinate, not sole-to-crown stature. No arm/height claim is made without actual mesh surface bounds.",
+  "rows": [
+    {
+      "side": "l",
+      "segment": "upper_arm",
+      "target_bone_start": "upperarm_l",
+      "target_bone_end": "lowerarm_l",
+      "hardware_start": "upperarm_l.abduct_frame",
+      "hardware_end": "elbow_l",
+      "target_mm": 277.71139144897467,
+      "current_revC_mm": 130.0,
+      "comparison_scale": 0.274663550321401,
+      "equivalent_target_at_current_leg_length_mm": 76.27719674007174,
+      "deviation_percent": 70.43101419025449
+    },
+    {
+      "side": "l",
+      "segment": "forearm",
+      "target_bone_start": "lowerarm_l",
+      "target_bone_end": "hand_l",
+      "hardware_start": "elbow_l",
+      "hardware_end": "hand_l.flex_frame",
+      "target_mm": 272.5107383728028,
+      "current_revC_mm": 130.0,
+      "comparison_scale": 0.274663550321401,
+      "equivalent_target_at_current_leg_length_mm": 74.84876690218046,
+      "deviation_percent": 73.68355602958223
+    },
+    {
+      "side": "l",
+      "segment": "thigh",
+      "target_bone_start": "thigh_l",
+      "target_bone_end": "calf_l",
+      "hardware_start": "thigh_l.flex_frame",
+      "hardware_end": "calf_l",
+      "target_mm": 433.4130859375,
+      "current_revC_mm": 130.0,
+      "comparison_scale": 0.274663550321401,
+      "equivalent_target_at_current_leg_length_mm": 119.04277693934823,
+      "deviation_percent": 9.204441749737091
+    },
+    {
+      "side": "l",
+      "segment": "shin",
+      "target_bone_start": "calf_l",
+      "target_bone_end": "foot_l",
+      "hardware_start": "calf_l",
+      "hardware_end": "foot_l.dorsiflex_frame",
+      "target_mm": 422.17914581298834,
+      "current_revC_mm": 105.0,
+      "comparison_scale": 0.274663550321401,
+      "equivalent_target_at_current_leg_length_mm": 115.95722306065181,
+      "deviation_percent": -9.44936656073645
+    },
+    {
+      "side": "r",
+      "segment": "upper_arm",
+      "target_bone_start": "upperarm_r",
+      "target_bone_end": "lowerarm_r",
+      "hardware_start": "upperarm_r.abduct_frame",
+      "hardware_end": "elbow_r",
+      "target_mm": 277.7069473266602,
+      "current_revC_mm": 130.0,
+      "comparison_scale": 0.2746635870594075,
+      "equivalent_target_at_current_leg_length_mm": 76.27598630405843,
+      "deviation_percent": 70.43371878769537
+    },
+    {
+      "side": "r",
+      "segment": "forearm",
+      "target_bone_start": "lowerarm_r",
+      "target_bone_end": "hand_r",
+      "hardware_start": "elbow_r",
+      "hardware_end": "hand_r.flex_frame",
+      "target_mm": 272.5101089477539,
+      "current_revC_mm": 130.0,
+      "comparison_scale": 0.2746635870594075,
+      "equivalent_target_at_current_leg_length_mm": 74.84860403354003,
+      "deviation_percent": 73.68393396054034
+    },
+    {
+      "side": "r",
+      "segment": "thigh",
+      "target_bone_start": "thigh_r",
+      "target_bone_end": "calf_r",
+      "hardware_start": "thigh_r.flex_frame",
+      "hardware_end": "calf_r",
+      "target_mm": 433.4126281738282,
+      "current_revC_mm": 130.0,
+      "comparison_scale": 0.2746635870594075,
+      "equivalent_target_at_current_leg_length_mm": 119.04266713106888,
+      "deviation_percent": 9.204542482962697
+    },
+    {
+      "side": "r",
+      "segment": "shin",
+      "target_bone_start": "calf_r",
+      "target_bone_end": "foot_r",
+      "hardware_start": "calf_r",
+      "hardware_end": "foot_r.dorsiflex_frame",
+      "target_mm": 422.1794891357422,
+      "current_revC_mm": 105.0,
+      "comparison_scale": 0.2746635870594075,
+      "equivalent_target_at_current_leg_length_mm": 115.95733286893112,
+      "deviation_percent": -9.449452309597717
+    }
+  ],
+  "ratios": {
+    "l": {
+      "manny_arm_chain_divided_by_leg_chain": 0.6430892069883072,
+      "revC_arm_chain_divided_by_leg_chain": 1.1063829787234043,
+      "arm_ratio_excess_percent": 72.04191373460895,
+      "shoulder_flex_abduct_axis_separation_mm": 56.0,
+      "shoulder_abduct_twist_axis_origin_separation_mm": 40.0
+    },
+    "r": {
+      "manny_arm_chain_divided_by_leg_chain": 0.6430833631387168,
+      "revC_arm_chain_divided_by_leg_chain": 1.1063829787234043,
+      "arm_ratio_excess_percent": 72.04347711989418,
+      "shoulder_flex_abduct_axis_separation_mm": 56.0,
+      "shoulder_abduct_twist_axis_origin_separation_mm": 40.0
+    }
+  },
+  "widths": {
+    "manny_shoulder_joint_centres_mm": 380.19761594006184,
+    "revC_shoulder_flex_axes_mm": 216.0,
+    "revC_shoulder_abduct_axes_mm": 328.0,
+    "manny_hip_joint_centres_mm": 199.38296647353454,
+    "revC_hip_flex_axes_mm": 150.0
+  },
+  "sources_sha256": {
+    "Shared\\Profiles\\manny_body_ue582_v1.json": "4843fb26f3ddd9dbee9579618935c969a3042b212289128f8efbc3f2336e493f",
+    "reports\\rig_runtime_probe.json": "fffec1f12409ffc2715fb7c1ee98253e94289949528e6b7a0862ed2617ca2cf7",
+    "reports\\rig_fixture_results.json": "eb03cc5484de89ec232e7751235b47049322c9c3e005b6cfc748dce7e191be33",
+    "Hardware\\PoseDoll44\\mechanical_manifest\\physical_humanoid_44_revC_design.json": "4fe123418c650c59f87d163009ce70d3adace7ec32625708312b34d45532bd06"
+  },
+  "limitations": [
+    "Arm chain means shoulder abduction centre -> elbow -> wrist; excludes hand and fingers.",
+    "Leg chain means hip flexion centre -> knee -> ankle; excludes foot.",
+    "Separate shoulder pivots cannot be represented by a single anatomical shoulder centre; quoted arm-chain lengths alone do not qualify this mechanism.",
+    "Matching link lengths alone cannot prove endpoint equivalence; torso motion distribution and joint centre trajectories must also be checked.",
+    "No new user measurements are required."
+  ]
+}

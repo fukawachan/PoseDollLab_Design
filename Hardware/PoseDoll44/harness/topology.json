@@ -1,0 +1,24 @@
+{
+  "revision": "M-digital-candidate",
+  "CAN_linear_order": [
+    "N6",
+    "N1",
+    "N5",
+    "N3",
+    "N2",
+    "N4"
+  ],
+  "terminations": [
+    "N6",
+    "N4"
+  ],
+  "gateway": "N1",
+  "power": "six fused radial 5 V feeds from pelvis-mounted power PCB; USB data only",
+  "sensor_count": 41,
+  "logical_channel_count": 44,
+  "character_harness_files": [
+    "manny_revM.json",
+    "quinn_revM.json"
+  ],
+  "physical_validated": false
+}

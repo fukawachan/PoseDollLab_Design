@@ -1,0 +1,2048 @@
+{
+  "status": "ASSUMPTION_BUDGET_NOT_LOAD_RATING",
+  "densities_g_cm3_assumed": {
+    "frame": 1.24,
+    "shell": 1.24,
+    "metal": 7.85,
+    "fastener": 7.85,
+    "spring": 7.85,
+    "bush": 1.41,
+    "lining": 1.3,
+    "thrust": 7.85,
+    "aluminum": 2.7,
+    "brass": 8.5,
+    "nylon": 1.14,
+    "magnet": 7.5,
+    "pcb": 1.85,
+    "pcb_component": 3.0
+  },
+  "assumptions": [
+    "Printed geometry treated as solid PLA, not a slicer mass",
+    "Inherited metal geometry treated as steel; new hubs/journals as aluminum, radial screws as brass; materials unqualified",
+    "Unmodeled hand/wrist provision is a 100g point at wrist, not a measured part",
+    "PCB components approximated at 3.0 g/cm3; not supplier weights",
+    "Reservation volumes omitted",
+    "No cable return force, dynamic load, contact force, wear, creep or tolerances",
+    "Any-gravity bound covers arbitrary gravity direction at sampled pose; not a torso assembly check"
+  ],
+  "friction_effective_radius_mm": 9.022922922922922,
+  "force_catalog_N": 552,
+  "friction_torque_estimate_Nm_by_assumed_mu": {
+    "0.08": 0.3984522762762762,
+    "0.15": 0.7470980180180179,
+    "0.25": 1.2451633633633632
+  },
+  "preload_force_validation": "Not measured; force assumes catalog test height and ideal stack",
+  "variants": {
+    "manny": {
+      "peak": {
+        "pose": "scan_twist_-90",
+        "axis": "upperarm_l.flex",
+        "moving_model_mass_g": 182.39467246837586,
+        "modeled_only_any_gravity_Nm": 0.10298977808912174,
+        "modeled_plus_100g_wrist_upright_Nm": 0.011599056639014069,
+        "modeled_plus_100g_wrist_any_gravity_Nm": 0.3723070491996025
+      },
+      "samples": [
+        {
+          "pose": "neutral",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404053,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37218585971167795
+        },
+        {
+          "pose": "neutral",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.000494518225057916,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350684
+        },
+        {
+          "pose": "neutral",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "neutral",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005589733960899389,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404053,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026171,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37218585971167795
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0004945182250579282,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350684
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086109,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202233,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005589733960899195,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404053,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026155,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37218585971167795
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0004945182250579402,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3720936779435069
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086089,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889464
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005589733960899242,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.1025508150940406,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0057649848560473995,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116782
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.1856184093205632,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444717,
+          "modeled_plus_100g_wrist_upright_Nm": 0.005764985826913776,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388947
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202228,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18557054518128932,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "down",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404063,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0064300050971802785,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "down",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679768,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09678251328831161,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "down",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430006180041015,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "down",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0968488903637071,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250526
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404061,
+          "modeled_plus_100g_wrist_upright_Nm": 0.005764984856047414,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116782
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18561840932056323,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444717,
+          "modeled_plus_100g_wrist_upright_Nm": 0.005764985826913788,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889464
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202228,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18557054518128935,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "back_down",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404064,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430005097180287,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "back_down",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679766,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09678251328831163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "back_down",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430006180041026,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "back_down",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09684889036370711,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250526
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404061,
+          "modeled_plus_100g_wrist_upright_Nm": 0.005764984856047414,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116782
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18561840932056323,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430006180041026,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09684889036370711,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250526
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404056,
+          "modeled_plus_100g_wrist_upright_Nm": 0.37212632367087434,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679768,
+          "modeled_plus_100g_wrist_upright_Nm": 5.490255195560634e-20,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3720762863728347,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889464
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 6.205851344919676e-20,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404063,
+          "modeled_plus_100g_wrist_upright_Nm": 0.12101932347867915,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.1023027520867977,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0004646951269310688,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444721,
+          "modeled_plus_100g_wrist_upright_Nm": 0.12100220866138028,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889475
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005252631755213544,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225055
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.0066776978761699775,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.006677697876169991
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679768,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3720933493321956,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.00667758118502818,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.006677581185028184
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.37210926068468575,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.06584994430702545,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11787768773988498,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.14830156400547062
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.08205760145158342,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17159477013357846,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.1937447705641059
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.06583681395661466,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11787746669653619,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.14829198415534933
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.08206944958765444,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17155118278698722,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.19372960153018579
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.08627880847822793,
+          "modeled_plus_100g_wrist_upright_Nm": 0.12737800199360907,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.22875857386824827
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.08331328405196006,
+          "modeled_plus_100g_wrist_upright_Nm": 0.02427224272122637,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.19781974181719658
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005589733960899389,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.07563430356395695,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09586965631568918,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.13843379033836534
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.07311811202416021,
+          "modeled_plus_100g_wrist_upright_Nm": 0.000494518225057916,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.09983277521744685
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.07558831743654724,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09586948041525441,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.13839798142422285
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.07313697490046066,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005589733960899389,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.09984958783525988
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.09920028611630864,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0064300050971802785,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.35963715474675756
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679766,
+          "modeled_plus_100g_wrist_upright_Nm": 0.000494518225057931,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.09916886292422485,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430006180041015,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3596032633369908
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005589733960899398,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.09656385215483669,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430005097180267,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.349918809420215
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679766,
+          "modeled_plus_100g_wrist_upright_Nm": 0.031937435798598895,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.09653730135833866,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006430006180041019,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34988986277826817
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202228,
+          "modeled_plus_100g_wrist_upright_Nm": 0.031874612664696614,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250526
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.09269980874906475,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2808745365744398,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.33571352489836603
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679762,
+          "modeled_plus_100g_wrist_upright_Nm": 0.20640025388870778,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3720936779435069
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.09267841019232051,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2808548202109596,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.33568983313647865
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.20640907991905674,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.07313881850534029,
+          "modeled_plus_100g_wrist_upright_Nm": 0.12777380217723167,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.127833495736107
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.08113771547554932,
+          "modeled_plus_100g_wrist_upright_Nm": 0.08454733841558486,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.2010025549631916
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.08227656476141064,
+          "modeled_plus_100g_wrist_upright_Nm": 0.20887835918505002,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.2237594579692014
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.08783305951147963,
+          "modeled_plus_100g_wrist_upright_Nm": 0.04047722678156416,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.23922621909493275
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404056,
+          "modeled_plus_100g_wrist_upright_Nm": 0.28078637382456734,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0003178701878314079,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3720936779435069
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444718,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2807480423098519,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889464
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.000359301173151019,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404053,
+          "modeled_plus_100g_wrist_upright_Nm": 0.1512342421793931,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.1023027520867976,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00044818571820153186,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.1025033659244471,
+          "modeled_plus_100g_wrist_upright_Nm": 0.15121309448744807,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721358304388946
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202226,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0005066019416226334,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250526
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404054,
+          "modeled_plus_100g_wrist_upright_Nm": 0.26784013734975815,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679764,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0003496771903587877,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444714,
+          "modeled_plus_100g_wrist_upright_Nm": 0.26780475642971113,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889464
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0003952538788780698,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250537
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10255081509404056,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2584259565016325,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721858597116781
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679768,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0003496771903587876,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10250336592444717,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2583905739961674,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213583043889475
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202231,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00039525387887806975,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210968052250537
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.0891249309533484,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3225912173852348
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18561840932056323,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.08910719373460822,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.32257128022530396
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202224,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18557054518128932,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.05203954087434499,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18662667418089932
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.1023027520867976,
+          "modeled_plus_100g_wrist_upright_Nm": 0.32199503398838986,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350684
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.05203861935619177,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18662450244502654
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202228,
+          "modeled_plus_100g_wrist_upright_Nm": 0.321976586038339,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.051124776174083265,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18570478474701704
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.1023027520867977,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3224895522134479,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.05114394020869536,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18572285767693356
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10232148276202228,
+          "modeled_plus_100g_wrist_upright_Nm": 0.32253555943442896,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.08856603948220358,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656831117026163,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3220308700333011
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10230275208679765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.18647494001163234,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209367794350695
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.08861555431971335,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006656832238086091,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.32207836060867046
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023214827620223,
+          "modeled_plus_100g_wrist_upright_Nm": 0.1865387155033964,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721096805225053
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10298977808912174,
+          "modeled_plus_100g_wrist_upright_Nm": 0.011599056639014069,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3723070491996025
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10239541706302084,
+          "modeled_plus_100g_wrist_upright_Nm": 0.004383252131934962,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37211916574734955
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.1029425313042021,
+          "modeled_plus_100g_wrist_upright_Nm": 0.011599057760074026,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3722570362288955
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10241657816786381,
+          "modeled_plus_100g_wrist_upright_Nm": 0.004447707302966956,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213584077263545
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10275812661838911,
+          "modeled_plus_100g_wrist_upright_Nm": 0.009320746224922355,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37224303496370437
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10238189327988831,
+          "modeled_plus_100g_wrist_upright_Nm": 0.004055062923873581,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37211544465739105
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10271077324936627,
+          "modeled_plus_100g_wrist_upright_Nm": 0.009320747345982303,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721930133843021
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1024028506082499,
+          "modeled_plus_100g_wrist_upright_Nm": 0.004119518094905573,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721320630053767
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10260985774458029,
+          "modeled_plus_100g_wrist_upright_Nm": 0.007511766132642974,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3722021324485282
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10233540108627712,
+          "modeled_plus_100g_wrist_upright_Nm": 0.002631687525398693,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37210265572350143
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10256243589964555,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00751176725370291,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721521053659021
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.1023554716114425,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0026961426964306886,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721190280981919
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10257264150285576,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006985020325087539,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.372191874276887
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10231710732243912,
+          "modeled_plus_100g_wrist_upright_Nm": 0.001783792189033792,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37209762500159144
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10252520243822119,
+          "modeled_plus_100g_wrist_upright_Nm": 0.006985021446147464,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721418458136666
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.102334400389814,
+          "modeled_plus_100g_wrist_upright_Nm": 0.001719337018001801,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721132327761066
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10267939128459765,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008408395723562445,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3722213076752112
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.10236462547639805,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0035927722813131747,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.372110694054762
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10263200157792769,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008408396844622364,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721712831728105
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10238077165655667,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0035283171102811935,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37212598795157276
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 182.39467246837586,
+          "modeled_only_any_gravity_Nm": 0.10287645608984036,
+          "modeled_plus_100g_wrist_upright_Nm": 0.010545565023903197,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37227571732584647
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 124.24951105808587,
+          "modeled_only_any_gravity_Nm": 0.1023981964511926,
+          "modeled_plus_100g_wrist_upright_Nm": 0.004447707296929988,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3721199305566022
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 182.39467822518253,
+          "modeled_only_any_gravity_Nm": 0.10282915722553058,
+          "modeled_plus_100g_wrist_upright_Nm": 0.01054556614496312,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37222570014215495
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 124.24951108797796,
+          "modeled_only_any_gravity_Nm": 0.10241379927802935,
+          "modeled_plus_100g_wrist_upright_Nm": 0.004383252125898016,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.37213507599593804
+        }
+      ],
+      "force_required_N_at_mu_0p15_margin_1p5": 412.6235504614018
+    },
+    "quinn": {
+      "peak": {
+        "pose": "scan_twist_-90",
+        "axis": "upperarm_l.flex",
+        "moving_model_mass_g": 173.4680493422953,
+        "modeled_only_any_gravity_Nm": 0.0889819961191583,
+        "modeled_plus_100g_wrist_upright_Nm": 0.011315247350530003,
+        "modeled_plus_100g_wrist_any_gravity_Nm": 0.34922883384051173
+      },
+      "samples": [
+        {
+          "pose": "neutral",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.0886821472711783,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884192,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605133
+        },
+        {
+          "pose": "neutral",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843062,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00021070893657386758,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "neutral",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839977,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "neutral",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002751641076058052,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.0886821472711783,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884187,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605133
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843062,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002107089365738471,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839977,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944171,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "forward",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.000275164107605798,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117833,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884197,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605133
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843063,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002107089365738534,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901256418810245
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839979,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944159,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "backward",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081946,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00027516410760580463,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117824,
+          "modeled_plus_100g_wrist_upright_Nm": 0.007488112272832694,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491525540460512
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843051,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17432377099940752,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901256418810234
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.0886350698083998,
+          "modeled_plus_100g_wrist_upright_Nm": 0.007488113243699112,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "shrug",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17427704484289488,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565004
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117826,
+          "modeled_plus_100g_wrist_upright_Nm": 0.007488112272832713,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605133
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843051,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17432377099940755,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901256418810234
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.0886350698083998,
+          "modeled_plus_100g_wrist_upright_Nm": 0.007488113243699128,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "forward_up",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081943,
+          "modeled_plus_100g_wrist_upright_Nm": 0.1742770448428949,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565004
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117826,
+          "modeled_plus_100g_wrist_upright_Nm": 0.007488112272832713,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605133
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843051,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17432377099940755,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901256418810234
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839984,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008351905083452429,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34910480739088884
+        },
+        {
+          "pose": "asymmetric",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.09060157747190892,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565015
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117829,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3490454749212487,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605133
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843058,
+          "modeled_plus_100g_wrist_upright_Nm": 2.3393391287858953e-20,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839977,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3489977135887314,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34910480739088867
+        },
+        {
+          "pose": "arms_forward",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081943,
+          "modeled_plus_100g_wrist_upright_Nm": 3.0549352781439906e-20,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.0886821472711782,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11125550548598821,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34915255404605117
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.0882268989084305,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00019800163283210936,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881023
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839965,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11123916909474343,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34910480739088856
+        },
+        {
+          "pose": "arms_overhead",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081935,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002585696814223148,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.008649960428774722,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884192,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.008649960428774688
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843058,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3490125005825699,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.008649919604507898,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.008649919604507918
+        },
+        {
+          "pose": "arms_side",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.34903068790058245,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.057723394730009356,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11241535542425786,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.1395375874465126
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.07153955535623141,
+          "modeled_plus_100g_wrist_upright_Nm": 0.16132276619279673,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18125427028808563
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.05771056646210736,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11241654142216438,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.13952879219424305
+        },
+        {
+          "pose": "hands_on_hips",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.07155140345547256,
+          "modeled_plus_100g_wrist_upright_Nm": 0.16127994682918234,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18123873197910056
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.07551860074918618,
+          "modeled_plus_100g_wrist_upright_Nm": 0.117654558488575,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.21487487534483185
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.07254431823753975,
+          "modeled_plus_100g_wrist_upright_Nm": 0.023146037332915998,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.1848550129295109
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839977,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "forehead",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002751641076058052,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.06691247726572823,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0919140275410488,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.13027155334624171
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.06426489539943592,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00021070893657386758,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.0922845947722223
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.06686702440442431,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0919149727767473,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.13023625720684198
+        },
+        {
+          "pose": "elbows_closed",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.06428378446709146,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002751641076058052,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.09229995734984331
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08574497905274117,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008351904000591628,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.33731853479015017
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843052,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00021070893657386858,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881023
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08571388237301644,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008351905083452411,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3372868464110137
+        },
+        {
+          "pose": "down_arms_vertical",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081943,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002751641076058209,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565004
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08346007219202643,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008351904000591612,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3281834355958511
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843052,
+          "modeled_plus_100g_wrist_upright_Nm": 0.030208536591035916,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881023
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08343383175176636,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008351905083452398,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3281566317387194
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081942,
+          "modeled_plus_100g_wrist_upright_Nm": 0.030145911820599273,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.0801185793157542,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2639395563912886,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3148385844076152
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843055,
+          "modeled_plus_100g_wrist_upright_Nm": 0.19359730255824154,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901256418810234
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08009747163490917,
+          "modeled_plus_100g_wrist_upright_Nm": 0.26392154700195014,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.31481694768734353
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.1936073910671124,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.06419412216072021,
+          "modeled_plus_100g_wrist_upright_Nm": 0.11922504337101253,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.11937076652461329
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.07080028487353449,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0797510893457243,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.18840157853600228
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.07190360670004303,
+          "modeled_plus_100g_wrist_upright_Nm": 0.1953097924529199,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.21027405023417609
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.07621550737076847,
+          "modeled_plus_100g_wrist_upright_Nm": 0.03809224361788663,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.22374439989203967
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117836,
+          "modeled_plus_100g_wrist_upright_Nm": 0.26182646586142044,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491525540460514
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843059,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00013544109367990897,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839979,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2617898778374462,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34910480739088867
+        },
+        {
+          "pose": "scan_flex_-50",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081942,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0001768720789994652,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.0886821472711783,
+          "modeled_plus_100g_wrist_upright_Nm": 0.13967657688143528,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491525540460512
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843056,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00019096715001510776,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839976,
+          "modeled_plus_100g_wrist_upright_Nm": 0.13965639105408306,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "scan_flex_-25",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081939,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0002493833734361319,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565004
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117826,
+          "modeled_plus_100g_wrist_upright_Nm": 0.25292644032766476,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491525540460514
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843058,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0001489937179079879,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839983,
+          "modeled_plus_100g_wrist_upright_Nm": 0.2528926687582724,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908887
+        },
+        {
+          "pose": "scan_flex_45",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081949,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0001945704064272097,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656502
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08868214727117821,
+          "modeled_plus_100g_wrist_upright_Nm": 0.24069840419092314,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491525540460512
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843051,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0001489937179079879,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08863506980839972,
+          "modeled_plus_100g_wrist_upright_Nm": 0.24066463103611252,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491048073908886
+        },
+        {
+          "pose": "scan_flex_135",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081939,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00019457040642720968,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.07703165572161151,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884192,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.30251561368972824
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843058,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17432377099940755,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.07701419341397153,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3024976506784441
+        },
+        {
+          "pose": "scan_abduct_30",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081943,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17427704484289488,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.04516417749505203,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884192,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.17493552027885093
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843056,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3021483372745497,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.04516338657587577,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.17493448642351697
+        },
+        {
+          "pose": "scan_abduct_60",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081944,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3021318603684593,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490307963656501
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.04474131676495419,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884192,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.17450514099737055
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843051,
+          "modeled_plus_100g_wrist_upright_Nm": 0.30235904621112364,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901256418810234
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.0447604020710975,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.17452433993857455
+        },
+        {
+          "pose": "scan_abduct_120",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081939,
+          "modeled_plus_100g_wrist_upright_Nm": 0.3024070244760652,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565004
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.07675675275426887,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646527272884192,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3022390692080588
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08822689890843055,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17468872958316226,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490125641881024
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.07680630428135785,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008646528393944168,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.30228852073912216
+        },
+        {
+          "pose": "scan_abduct_150",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08824572188081939,
+          "modeled_plus_100g_wrist_upright_Nm": 0.17475364305768745,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903079636565015
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.0889819961191583,
+          "modeled_plus_100g_wrist_upright_Nm": 0.011315247350530003,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34922883384051173
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08825910946159098,
+          "modeled_plus_100g_wrist_upright_Nm": 0.002393555976076925,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.349020708086367
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08893507741406895,
+          "modeled_plus_100g_wrist_upright_Nm": 0.011315248471589897,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491810976243358
+        },
+        {
+          "pose": "scan_twist_-90",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08827951933364915,
+          "modeled_plus_100g_wrist_upright_Nm": 0.002458011147108872,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903934293307554
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08883221177546896,
+          "modeled_plus_100g_wrist_upright_Nm": 0.010069808249194182,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491906994769127
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08825382443793982,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00219003086284625,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34901937166592717
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08878521390088484,
+          "modeled_plus_100g_wrist_upright_Nm": 0.010069809370254106,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34914295804285583
+        },
+        {
+          "pose": "scan_twist_-60",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08827408692395393,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0022544860338781763,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903796899997963
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08872678996772096,
+          "modeled_plus_100g_wrist_upright_Nm": 0.009092988905186236,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491638956281561
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08823761285464901,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0013910533938124774,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.349015272720898
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08867973621008371,
+          "modeled_plus_100g_wrist_upright_Nm": 0.009092990026246181,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491161505255515
+        },
+        {
+          "pose": "scan_twist_-30",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08825729556338761,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0014555085648444252,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490337227282431
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08870222228322809,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008850052386114868,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491576534894188
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08823271479024292,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0010347301647619742,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490140344304399
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.0886551554832119,
+          "modeled_plus_100g_wrist_upright_Nm": 0.008850053507174861,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34910990753234433
+        },
+        {
+          "pose": "scan_twist_30",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08825062690170693,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0009702749937299984,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34903203653807663
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08878549762146845,
+          "modeled_plus_100g_wrist_upright_Nm": 0.009649029855148646,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3491788185731569
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08824957577330735,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0020115495087699156,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490182973632251
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.08873847500071462,
+          "modeled_plus_100g_wrist_upright_Nm": 0.00964903097620864,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34913107551311146
+        },
+        {
+          "pose": "scan_twist_60",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08826677116186404,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0019470943377379105,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490361188655321
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_l.flex",
+          "moving_model_mass_g": 173.4680493422953,
+          "modeled_only_any_gravity_Nm": 0.08892151684909577,
+          "modeled_plus_100g_wrist_upright_Nm": 0.010829374312387268,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3492134288812471
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_l.abduct",
+          "moving_model_mass_g": 115.32288793200533,
+          "modeled_only_any_gravity_Nm": 0.08826088098082932,
+          "modeled_plus_100g_wrist_upright_Nm": 0.0024580111410719505,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490211560660299
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_r.flex",
+          "moving_model_mass_g": 173.46805509910192,
+          "modeled_only_any_gravity_Nm": 0.0888745662096371,
+          "modeled_plus_100g_wrist_upright_Nm": 0.010829375433447244,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.34916569055742097
+        },
+        {
+          "pose": "scan_twist_90",
+          "axis": "upperarm_r.abduct",
+          "moving_model_mass_g": 115.32288796189735,
+          "modeled_only_any_gravity_Nm": 0.08827774818810534,
+          "modeled_plus_100g_wrist_upright_Nm": 0.002393555970039924,
+          "modeled_plus_100g_wrist_any_gravity_Nm": 0.3490388949766709
+        }
+      ],
+      "force_required_N_at_mu_0p15_margin_1p5": 387.0462341568813
+    }
+  }
+}

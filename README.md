@@ -1,0 +1,89 @@
+# PoseDoll 人偶硬件设计
+
+Manny / Quinn 传感器可动人偶的独立设计仓库。原来位于 `DollSimulation` UE 工程中的硬件、固件与硬件诊断工具已经迁入本目录；UE 插件、角色资产与完整 Python 模拟器留在原项目。
+
+## 当前状态
+
+- **机械基线为 Rev N1**：两款分别按 UE 人物参考比例设计，参考身高约 91 cm；胸前大挡板已取消，左肩局部刮碰已修正。
+- **下一项为“局部采集 + 外置电源/USB 接口盒”**：方向已确定，新电路板、安装结构和线束尚未实施。
+- **小型化仍待比较**：当前尺寸不是已证明的下限，不能直接缩放现有文件，也不能认定重新设计的小型关节必然昂贵。
+- 44 个协议槽中，41 轴测量，骨盆 3 轴固定参考；整体位置和全部整体旋转在 UE 调整。
+- 当前交付是数字原型候选，尚未实物鉴定。
+
+## 阅读入口
+
+1. [最新 Rev N1 设计入口](Hardware/PoseDoll44/START_HERE_REVN.zh-CN.md)
+2. [胸部修订与设备外置方案](Hardware/PoseDoll44/docs/CHEST_AND_EXTERNAL_REVN.zh-CN.md)
+3. [尺寸、磁铁和关节小型化评估](Hardware/PoseDoll44/docs/SIZE_REVIEW_BEFORE_EXTERNAL.zh-CN.md)
+4. [制造说明](Hardware/PoseDoll44/docs/FABRICATION_REVM.zh-CN.md)、[装配说明](Hardware/PoseDoll44/docs/ASSEMBLY_REVM.zh-CN.md)、[测试和校准](Hardware/PoseDoll44/docs/BUILD_AND_CALIBRATE_REVM.zh-CN.md)
+5. [迁移记录和验证](docs/MIGRATION.zh-CN.md)
+
+Rev M 文档描述原完整基线，使用时应应用 Rev N1 的取消件和左肩修订。更早版本与 `planning/` 是历史依据，不能混作当前制造说明。
+
+## 目录组织
+
+| 路径 | 用途 |
+|---|---|
+| `Hardware/PoseDoll44/cad/` | 参数化机械模型，保留当前模型仍引用的历史模块 |
+| `Hardware/PoseDoll44/electronics/` | 原生 KiCad 工程、符号/封装及板级 STEP 输入 |
+| `Hardware/PoseDoll44/mechanical_manifest/` | 轴、接口、比例和网络定义 |
+| `Hardware/PoseDoll44/docs/`、`verification/` | 设计说明、数字检查和原型验收依据 |
+| `Hardware/PoseDoll44/generated/` | 总装、打印件、查看器、交付清单和本地 CAD 缓存 |
+| `Hardware/PoseDoll44/reference/`、`references/` | UE 参考数据及元件资料 |
+| `Hardware/PoseDoll44/harness/` | 两款线束与下料表 |
+| `Firmware/PoseDollFullBody/` | 六节点完整固件与主机端 C 核心测试 |
+| `Firmware/PoseDollHardware/` | 早期单关节固件，历史用途 |
+| `Tools/PoseDollHardwareBridge/` | 诊断、校准、数据转换和测试 |
+| `Tools/PoseDollSimulator/`、`Shared/` | 硬件需要的协议/运动学代码及配置快照，不含模拟器 GUI |
+| `planning/` | 原始规划包副本，父目录中的原下载包也保留 |
+| `scripts/` | 独立仓库的检查、构建和查看器入口 |
+| `.local/` | 本机迁移清单、运行结果等，不入 Git |
+
+保留 `Hardware/`、`Firmware/`、`Tools/` 层级，以保持已有相对路径及历史资料的可追溯性。协议快照来源与逐文件哈希见 [software_snapshot.json](docs/software_snapshot.json)。
+
+## 环境与离线检查
+
+在本目录打开 PowerShell。本机已经建立独立 `.venv`；新克隆可执行：
+
+```powershell
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe scripts/check_repository.py
+.\scripts\Build-Design.ps1 -Stage OfflineTests
+```
+
+离线检查包括协议配置、Python 测试、C 核心测试和 C/Python 数据帧一致性；不连接硬件或操作 UE。C 测试需要 Visual Studio C 工具链，`-VcVars` 可指定 `vcvars64.bat`。本机迁移后结果为 **81 个 Python 测试、9 个 C 场景通过，数据帧逐字节一致**。
+
+## 打开三维查看器
+
+```powershell
+.\scripts\Start-Viewer.ps1
+```
+
+默认地址为 `http://127.0.0.1:8874/generated/revN/RevN_Chest_Review.html`，仅绑定本机。`-NoBrowser` 只启动服务；端口冲突时可用 `-Port` 指定另一端口，不会自动终止其他进程。
+
+查看器需要本地 `generated/` 网格与零件文件；**仅克隆 Git 不含这些大型导出**，请复制已有输出或按构建阶段生成。原有完整输出已迁入本机，无需为打开模型重新生成。
+
+## CAD、电路和固件
+
+- CAD：CadQuery 2.7。现有 `Hardware/PoseDoll44/tools/run_cad.py` 可使用本机 CQ-editor 2.7 的环境，需要 CQ-editor 保持开启、Python 版本匹配；也可自行安装常规 CadQuery 环境。
+- 电路：KiCad 10，打开 `electronics/` 中对应 `.kicad_pro`。搬迁前已打开的 CQ-editor/KiCad 文件，应从新目录重新打开，避免保存回原路径。
+- 固件：ESP-IDF 6.1、ESP32-S3。旧构建缓存已保留，但含旧绝对路径；不要直接在其中增量构建。
+- 布线工具：Freerouting 2.4.1 JAR 保留在本机 `Hardware/PoseDoll44/tools/vendor/`，不入 Git；许可证与说明保留。
+
+```powershell
+.\scripts\Build-Design.ps1 -Stage CAD
+.\scripts\Build-Design.ps1 -Stage Firmware
+```
+
+CAD 阶段生成/复核 Rev M 完整基线，耗时较长。Rev N1 的修订脚本位于 `cad/revN/`，依赖 Rev M 完整输出及其复核结果，不是上述命令自动生成的另一套角色。当前源码与必要 CAD 输入纳入 Git。
+
+新构建入口使用本仓库 `.venv`。Firmware 阶段会把检测到旧工程路径的节点缓存移入 `.local/legacy-firmware-builds/` 后重新构建，不删除缓存、不烧录。旧脚本中的 CQ-editor、KiCad、ESP-IDF 安装盘符仍是本机配置；换电脑须配置工具路径，历史工具可参考 `local_toolchain.example.json`。UE 参考重新导出需要原 UE 工程及插件，但导出脚本现在将数据写到本设计仓库。
+
+## Git 与本地成果
+
+Git 收录设计源码、KiCad 工程、固件、必要板级 STEP/角色参考输入、协议快照、说明、交付元数据和检查记录。`.gitattributes` 保留原行尾，避免检出时破坏来源文件的字节哈希。
+
+总装 STEP、打印 STL、查看器大网格、CAD 缓存、ESP-IDF 构建目录、Python 环境和第三方工具二进制保留在磁盘，由 `.gitignore` 排除；没有启用 Git LFS。其他机器如需完整本地成果，应另外复制 `Hardware/PoseDoll44/generated/`。**推送 Git 不等于备份全部 6.87 GB 本地成果。**
+
+现有验证报告保留为历史快照，迁移后的路径修复和检查另列记录；没有把迁移当成新一轮全身工程验证。仓库尚未设置 remote，也没有执行 push。

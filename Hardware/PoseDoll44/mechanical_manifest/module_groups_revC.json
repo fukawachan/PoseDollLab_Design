@@ -1,0 +1,462 @@
+[
+  {
+    "id": "pelvis_yaw",
+    "kind": "inline",
+    "axes": [
+      "pelvis.yaw"
+    ],
+    "radius_mm": 26,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "pelvis_gimbal",
+    "kind": "gimbal",
+    "axes": [
+      "pelvis.pitch",
+      "pelvis.roll"
+    ],
+    "radius_mm": 26,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "waist_yaw",
+    "kind": "inline",
+    "axes": [
+      "waist.yaw"
+    ],
+    "radius_mm": 23,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "waist_gimbal",
+    "kind": "gimbal",
+    "axes": [
+      "waist.pitch",
+      "waist.roll"
+    ],
+    "radius_mm": 23,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "chest_yaw",
+    "kind": "inline",
+    "axes": [
+      "chest.yaw"
+    ],
+    "radius_mm": 20,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "chest_gimbal",
+    "kind": "gimbal",
+    "axes": [
+      "chest.pitch",
+      "chest.roll"
+    ],
+    "radius_mm": 20,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "head_yaw",
+    "kind": "inline",
+    "axes": [
+      "head.yaw"
+    ],
+    "radius_mm": 16,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "head_gimbal",
+    "kind": "gimbal",
+    "axes": [
+      "head.pitch",
+      "head.roll"
+    ],
+    "radius_mm": 16,
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "clavicle_l",
+    "kind": "gimbal",
+    "axes": [
+      "clavicle_l.protract",
+      "clavicle_l.elevate"
+    ],
+    "radius_mm": 14,
+    "direction": [
+      0,
+      1,
+      0
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "shoulder_flex_l",
+    "kind": "hinge",
+    "axes": [
+      "upperarm_l.flex"
+    ],
+    "radius_mm": 18,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": true
+  },
+  {
+    "id": "shoulder_abduct_l",
+    "kind": "hinge",
+    "axes": [
+      "upperarm_l.abduct"
+    ],
+    "radius_mm": 18,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "upperarm_twist_l",
+    "kind": "inline",
+    "axes": [
+      "upperarm_l.twist"
+    ],
+    "radius_mm": 14,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "elbow_l",
+    "kind": "hinge",
+    "axes": [
+      "elbow_l.flex"
+    ],
+    "radius_mm": 17,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "forearm_twist_l",
+    "kind": "inline",
+    "axes": [
+      "forearm_l.twist"
+    ],
+    "radius_mm": 12,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "wrist_l",
+    "kind": "gimbal",
+    "axes": [
+      "hand_l.flex",
+      "hand_l.deviate"
+    ],
+    "radius_mm": 14,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "hip_l",
+    "kind": "gimbal",
+    "axes": [
+      "thigh_l.flex",
+      "thigh_l.abduct"
+    ],
+    "radius_mm": 20,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "thigh_twist_l",
+    "kind": "inline",
+    "axes": [
+      "thigh_l.twist"
+    ],
+    "radius_mm": 16,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "knee_l",
+    "kind": "hinge",
+    "axes": [
+      "calf_l.flex"
+    ],
+    "radius_mm": 19,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "ankle_l",
+    "kind": "gimbal",
+    "axes": [
+      "foot_l.dorsiflex",
+      "foot_l.invert"
+    ],
+    "radius_mm": 16,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "toe_l",
+    "kind": "hinge",
+    "axes": [
+      "ball_l.flex"
+    ],
+    "radius_mm": 12,
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "clavicle_r",
+    "kind": "gimbal",
+    "axes": [
+      "clavicle_r.protract",
+      "clavicle_r.elevate"
+    ],
+    "radius_mm": 14,
+    "direction": [
+      0,
+      -1,
+      0
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "shoulder_flex_r",
+    "kind": "hinge",
+    "axes": [
+      "upperarm_r.flex"
+    ],
+    "radius_mm": 18,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": true
+  },
+  {
+    "id": "shoulder_abduct_r",
+    "kind": "hinge",
+    "axes": [
+      "upperarm_r.abduct"
+    ],
+    "radius_mm": 18,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "upperarm_twist_r",
+    "kind": "inline",
+    "axes": [
+      "upperarm_r.twist"
+    ],
+    "radius_mm": 14,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "elbow_r",
+    "kind": "hinge",
+    "axes": [
+      "elbow_r.flex"
+    ],
+    "radius_mm": 17,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "forearm_twist_r",
+    "kind": "inline",
+    "axes": [
+      "forearm_r.twist"
+    ],
+    "radius_mm": 12,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "wrist_r",
+    "kind": "gimbal",
+    "axes": [
+      "hand_r.flex",
+      "hand_r.deviate"
+    ],
+    "radius_mm": 14,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "hip_r",
+    "kind": "gimbal",
+    "axes": [
+      "thigh_r.flex",
+      "thigh_r.abduct"
+    ],
+    "radius_mm": 20,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "thigh_twist_r",
+    "kind": "inline",
+    "axes": [
+      "thigh_r.twist"
+    ],
+    "radius_mm": 16,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "knee_r",
+    "kind": "hinge",
+    "axes": [
+      "calf_r.flex"
+    ],
+    "radius_mm": 19,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "ankle_r",
+    "kind": "gimbal",
+    "axes": [
+      "foot_r.dorsiflex",
+      "foot_r.invert"
+    ],
+    "radius_mm": 16,
+    "direction": [
+      0,
+      0,
+      -1
+    ],
+    "axial_output": false
+  },
+  {
+    "id": "toe_r",
+    "kind": "hinge",
+    "axes": [
+      "ball_r.flex"
+    ],
+    "radius_mm": 12,
+    "direction": [
+      1,
+      0,
+      0
+    ],
+    "axial_output": false
+  }
+]

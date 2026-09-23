@@ -1,0 +1,1102 @@
+[
+  {
+    "axis": "clavicle_l.protract",
+    "selected": {
+      "axis": "clavicle_l.protract",
+      "fixed": "clavicle_l_protract_G4_fixed_reaction_plate",
+      "rotor": "clavicle_l_protract_G4_D4_friction_rotor",
+      "family": "G4",
+      "sign": -1.0,
+      "phase_deg": 45,
+      "limits_deg": [
+        -20.0,
+        29.999999999999996
+      ],
+      "physical_tested": false,
+      "endpoint_checks": [
+        {
+          "angle_deg": -21.0,
+          "volume_mm3": 2.2698006922186433,
+          "outside": true
+        },
+        {
+          "angle_deg": -20.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 4.999999999999998,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 29.999999999999996,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 30.999999999999996,
+          "volume_mm3": 2.2698006922186282,
+          "outside": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "phase": 90,
+        "structural": 2,
+        "first": [
+          {
+            "a": "l_flex_sensor_threaded_standoff_0",
+            "b": "clavicle_l_protract_G4_fixed_reaction_plate",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.7372,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_sensor_threaded_standoff_0",
+            "b": "clavicle_l_protract_G4_fixed_reaction_plate",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.7372,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 270,
+        "error": "disconnected guard"
+      },
+      {
+        "phase": 0,
+        "error": "disconnected guard"
+      },
+      {
+        "phase": 180,
+        "error": "disconnected guard"
+      },
+      {
+        "phase": 45,
+        "structural": 0,
+        "first": []
+      }
+    ]
+  },
+  {
+    "axis": "clavicle_r.protract",
+    "selected": {
+      "axis": "clavicle_r.protract",
+      "fixed": "clavicle_r_protract_G4_fixed_reaction_plate",
+      "rotor": "clavicle_r_protract_G4_D4_friction_rotor",
+      "family": "G4",
+      "sign": 1.0,
+      "phase_deg": 270,
+      "limits_deg": [
+        -20.0,
+        29.999999999999996
+      ],
+      "physical_tested": false,
+      "endpoint_checks": [
+        {
+          "angle_deg": -21.0,
+          "volume_mm3": 2.2698006922186216,
+          "outside": true
+        },
+        {
+          "angle_deg": -20.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 4.999999999999998,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 29.999999999999996,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 30.999999999999996,
+          "volume_mm3": 2.2698006922185385,
+          "outside": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "phase": 90,
+        "error": "disconnected guard"
+      },
+      {
+        "phase": 270,
+        "structural": 0,
+        "first": []
+      }
+    ]
+  },
+  {
+    "axis": "upperarm_l.flex",
+    "selected": null,
+    "trials": [
+      {
+        "phase": 90,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 270,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 0,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 180,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 45,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 135,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 225,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 315,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 30,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 60,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 120,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 150,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 210,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 240,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 300,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      },
+      {
+        "phase": 330,
+        "structural": 4,
+        "first": [
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          },
+          {
+            "a": "l_flex_clutch_reaction_plate",
+            "b": "chest_M_body_frame",
+            "owner_a": "clavicle_l",
+            "owner_b": "chest",
+            "volume_mm3": 0.1617,
+            "region_a": "girdle_l",
+            "region_b": "chest",
+            "classification": "structural",
+            "reason": "internal_or_neighbouring_mechanisms"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "axis": "upperarm_l.abduct",
+    "selected": {
+      "axis": "upperarm_l.abduct",
+      "fixed": "l_abduct_clutch_reaction_plate",
+      "rotor": "l_abduct_clutch_flanged_shaft",
+      "family": "L6",
+      "sign": 1.0,
+      "phase_deg": 90,
+      "limits_deg": [
+        -29.999999999999996,
+        150.0
+      ],
+      "physical_tested": false,
+      "endpoint_checks": [
+        {
+          "angle_deg": -30.999999999999996,
+          "volume_mm3": 0.15358897417538458,
+          "outside": true
+        },
+        {
+          "angle_deg": -29.999999999999996,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 60.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 150.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 151.0,
+          "volume_mm3": 0.15358897417565004,
+          "outside": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "phase": 90,
+        "structural": 0,
+        "first": []
+      }
+    ]
+  },
+  {
+    "axis": "upperarm_r.flex",
+    "selected": {
+      "axis": "upperarm_r.flex",
+      "fixed": "r_flex_clutch_reaction_plate",
+      "rotor": "r_flex_clutch_flanged_shaft",
+      "family": "L6",
+      "sign": -1.0,
+      "phase_deg": 90,
+      "limits_deg": [
+        -50.0,
+        160.0
+      ],
+      "physical_tested": false,
+      "endpoint_checks": [
+        {
+          "angle_deg": -51.0,
+          "volume_mm3": 0.15358897417567746,
+          "outside": true
+        },
+        {
+          "angle_deg": -50.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 55.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 160.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 161.0,
+          "volume_mm3": 0.15358897417562523,
+          "outside": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "phase": 90,
+        "structural": 0,
+        "first": []
+      }
+    ]
+  },
+  {
+    "axis": "upperarm_r.abduct",
+    "selected": {
+      "axis": "upperarm_r.abduct",
+      "fixed": "r_abduct_clutch_reaction_plate",
+      "rotor": "r_abduct_clutch_flanged_shaft",
+      "family": "L6",
+      "sign": -1.0,
+      "phase_deg": 90,
+      "limits_deg": [
+        -29.999999999999996,
+        150.0
+      ],
+      "physical_tested": false,
+      "endpoint_checks": [
+        {
+          "angle_deg": -30.999999999999996,
+          "volume_mm3": 0.1535889741754694,
+          "outside": true
+        },
+        {
+          "angle_deg": -29.999999999999996,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 60.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 150.0,
+          "volume_mm3": 0.0,
+          "outside": false
+        },
+        {
+          "angle_deg": 151.0,
+          "volume_mm3": 0.15358897417528264,
+          "outside": true
+        }
+      ]
+    },
+    "trials": [
+      {
+        "phase": 90,
+        "structural": 0,
+        "first": []
+      }
+    ]
+  }
+]

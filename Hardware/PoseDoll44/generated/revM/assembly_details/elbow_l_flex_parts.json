@@ -1,0 +1,349 @@
+{
+  "axis": "elbow_l.flex",
+  "parts": [
+    {
+      "name": "elbow_l_flex_M_fixed_metal_eye",
+      "stage": 3,
+      "material": "aluminum_7075",
+      "note": "Machined 6061-T6 eye; 2 x M3 tapped mounting holes; friction lining reacts into this eye; integral angular travel guards reacting directly into bearing eye; D14.50 x0.85 upper retaining counterbore, flat Z3.15"
+    },
+    {
+      "name": "elbow_l_flex_M_radial_bush",
+      "stage": 3,
+      "material": "pom",
+      "note": "D6 journal +0.06 mm nominal diametral clearance; not part of axial preload loop; D14.40 x0.70 flange at Z3.20..3.90, captured below thrust washer Z4.00; 0.15 total nominal axial float"
+    },
+    {
+      "name": "elbow_l_flex_M_friction_lining",
+      "stage": 2,
+      "material": "peek",
+      "note": "1 mm replaceable lining with positive edge tabs; friction coefficient is an untested assumption; unfilled machined PEEK candidate, dry contact; actual torque and creep must be qualified"
+    },
+    {
+      "name": "elbow_l_flex_M_flanged_rotor_shaft",
+      "stage": 1,
+      "material": "aluminum_7075",
+      "note": "Integral D6 drive, journal and friction flange; blind M3 end thread and M2 radial retention; no threaded running surface; integral load-bearing flange stop tab; magnetic cup is not a stop"
+    },
+    {
+      "name": "elbow_l_flex_M_thrust_wear_washer",
+      "stage": 3,
+      "material": "ptfe_composite",
+      "note": "SKF PCMW102001.5 E envelope; radial bush is unloaded axially"
+    },
+    {
+      "name": "elbow_l_flex_M_spring_seat",
+      "stage": 4,
+      "material": "spring",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_disc_spring_0_0",
+      "stage": 4,
+      "material": "spring",
+      "note": "SCHNORR 002100; 1 nested parallel per group, two groups opposed in series"
+    },
+    {
+      "name": "elbow_l_flex_M_disc_spring_1_0",
+      "stage": 4,
+      "material": "spring",
+      "note": "SCHNORR 002100; 1 nested parallel per group, two groups opposed in series"
+    },
+    {
+      "name": "elbow_l_flex_M_D_stop_cap",
+      "stage": 5,
+      "material": "aluminum",
+      "note": "Metal shoulder fixes nominal spring height; actual preload requires selected shims and a physical torque test"
+    },
+    {
+      "name": "elbow_l_flex_M_M3x8_button_retainer",
+      "stage": 5,
+      "material": "titanium",
+      "note": "Accu SSB-M3-8-TI5 nominal head envelope; thread and bearing stress unqualified"
+    },
+    {
+      "name": "elbow_l_flex_M_keyed_magnet_cup",
+      "stage": 6,
+      "material": "aluminum",
+      "note": "External D key transmits angle; 0.05 mm nominal fit and two radial brass retainers"
+    },
+    {
+      "name": "elbow_l_flex_M_cup_M2x4_0",
+      "stage": 6,
+      "material": "brass",
+      "note": "Thread envelope; slotted brass M2x4"
+    },
+    {
+      "name": "elbow_l_flex_M_cup_M2x4_1",
+      "stage": 6,
+      "material": "brass",
+      "note": "Thread envelope; slotted brass M2x4"
+    },
+    {
+      "name": "elbow_l_flex_M_diametric_magnet_6x2p5",
+      "stage": 6,
+      "material": "magnet",
+      "note": "Diametric magnet; magnetic field and interference require bench qualification"
+    },
+    {
+      "name": "elbow_l_flex_M_magnet_keeper",
+      "stage": 6,
+      "material": "frame",
+      "note": "1.2 mm radial wall, 0.20 mm nominal radial fit allowance, 0.8 mm face; mechanical retention outside sensor air gap"
+    },
+    {
+      "name": "elbow_l_flex_M_keeper_M2x3_0",
+      "stage": 6,
+      "material": "brass",
+      "note": "Slotted brass M2x3 thread envelope"
+    },
+    {
+      "name": "elbow_l_flex_M_keeper_M2x3_1",
+      "stage": 6,
+      "material": "brass",
+      "note": "Slotted brass M2x3 thread envelope"
+    },
+    {
+      "name": "elbow_l_flex_M_D_output_cleat",
+      "stage": 0,
+      "material": "aluminum",
+      "note": "Two M3 attachment bores; drive on D-flat, axial retention by radial M2 into shaft"
+    },
+    {
+      "name": "elbow_l_flex_M_output_M2x6",
+      "stage": 0,
+      "material": "brass",
+      "note": "Nominal M2x6 radial retainer; install before connecting distal segment"
+    },
+    {
+      "name": "elbow_l_flex_M_board_post_0",
+      "stage": 7,
+      "material": "brass",
+      "note": "Custom AF3.5 male/female M2 spacer; 2.5 mm nominal engagement in metal eye"
+    },
+    {
+      "name": "elbow_l_flex_M_PCB_edge_saddle_0",
+      "stage": 7,
+      "material": "frame",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_PCB_edge_cap_0",
+      "stage": 7,
+      "material": "nylon",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_PCB_M2x6_0",
+      "stage": 7,
+      "material": "nylon",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_board_post_1",
+      "stage": 7,
+      "material": "brass",
+      "note": "Custom AF3.5 male/female M2 spacer; 2.5 mm nominal engagement in metal eye"
+    },
+    {
+      "name": "elbow_l_flex_M_PCB_edge_saddle_1",
+      "stage": 7,
+      "material": "frame",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_PCB_edge_cap_1",
+      "stage": 7,
+      "material": "nylon",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_PCB_M2x6_1",
+      "stage": 7,
+      "material": "nylon",
+      "note": ""
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_AS5048A",
+      "stage": 7,
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_C1",
+      "stage": 7,
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_C2",
+      "stage": 7,
+      "material": "pcb_component",
+      "note": "Murata GRM219R61E106KA12D 10 uF 25 V X5R, max .95 mm body + .10 mm solder seating allocation"
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_R1",
+      "stage": 7,
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_R2",
+      "stage": 7,
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_board",
+      "stage": 7,
+      "material": "pcb",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "elbow_l_flex_M_pcb_J1_dimension_envelope",
+      "stage": 7,
+      "material": "pcb_component",
+      "note": "JST SM06B-SRSS-TB side-entry SH6, conservative 9.4 x9.6 x3.3 mm mated plug allocation; cable bend remains a separate harness requirement"
+    },
+    {
+      "name": "elbow_l_flex_M_fixed_mount_M3x8_0",
+      "stage": 0,
+      "material": "metal",
+      "note": "M3x8 from outer carrier face into metal eye; 3 mm nominal threaded engagement"
+    },
+    {
+      "name": "elbow_l_flex_M_fixed_mount_M3x8_1",
+      "stage": 0,
+      "material": "metal",
+      "note": "M3x8 from outer carrier face into metal eye; 3 mm nominal threaded engagement"
+    },
+    {
+      "name": "elbow_l_flex_M_rotor_mount_M3x12_0",
+      "stage": 0,
+      "material": "metal",
+      "note": "M3x12 socket screw; unmodelled helical thread"
+    },
+    {
+      "name": "elbow_l_flex_M_rotor_mount_nut_M3_0",
+      "stage": 0,
+      "material": "metal",
+      "note": "M3 nut envelope; removable thread locking method pending"
+    },
+    {
+      "name": "elbow_l_flex_M_rotor_mount_M3x12_1",
+      "stage": 0,
+      "material": "metal",
+      "note": "M3x12 socket screw; unmodelled helical thread"
+    },
+    {
+      "name": "elbow_l_flex_M_rotor_mount_nut_M3_1",
+      "stage": 0,
+      "material": "metal",
+      "note": "M3 nut envelope; removable thread locking method pending"
+    }
+  ],
+  "groups": [
+    "output cleat / retention",
+    "integral rotor shaft",
+    "lower PEEK lining",
+    "fixed eye / bush / reaction / upper lining",
+    "pressure plate / spring stack",
+    "keyed stop and axial retainer",
+    "magnet cup / magnet / retaining cover",
+    "sensor board and its mounting"
+  ],
+  "meta": {
+    "family": "M6",
+    "clutch_outer_radius_mm": 13,
+    "mount_reference_radius_mm": 13,
+    "board_rotation_deg": 0,
+    "shaft_mm": 6,
+    "clutch_force_nominal_N": 326,
+    "spring": {
+      "ro": 13,
+      "spring": "002100",
+      "de": 12,
+      "di": 6.2,
+      "t": 0.5,
+      "free": 0.85,
+      "test": 0.588,
+      "F": 326
+    },
+    "friction_mu_assumed": 0.15,
+    "nominal_torque_Nm": 0.4558471345029241,
+    "cap_bottom_mm": 7.176,
+    "shaft_end_mm": 9.176,
+    "board_back_mm": 18.421000000000003,
+    "magnet_face_mm": 14.926,
+    "package_face_mm": 16.426000000000002,
+    "gap_mm": 1.5,
+    "fixed_mounts_mm": [
+      [
+        21,
+        -6,
+        2.5
+      ],
+      [
+        21,
+        6,
+        2.5
+      ]
+    ],
+    "rotor_mounts_mm": [
+      [
+        -17,
+        -6,
+        -5.525
+      ],
+      [
+        -17,
+        6,
+        -5.525
+      ]
+    ],
+    "intended_thread_pairs": [
+      [
+        "flanged_rotor_shaft",
+        "M3x8_button_retainer"
+      ],
+      [
+        "D_stop_cap",
+        "cup_M2x4_0"
+      ],
+      [
+        "D_stop_cap",
+        "cup_M2x4_1"
+      ],
+      [
+        "keyed_magnet_cup",
+        "keeper_M2x3_0"
+      ],
+      [
+        "keyed_magnet_cup",
+        "keeper_M2x3_1"
+      ],
+      [
+        "flanged_rotor_shaft",
+        "output_M2x6"
+      ],
+      [
+        "fixed_metal_eye",
+        "board_post_0"
+      ],
+      [
+        "board_post_0",
+        "PCB_M2x6_0"
+      ],
+      [
+        "fixed_metal_eye",
+        "board_post_1"
+      ],
+      [
+        "board_post_1",
+        "PCB_M2x6_1"
+      ]
+    ],
+    "physical_tested": false,
+    "manufacturing_released": false
+  }
+}

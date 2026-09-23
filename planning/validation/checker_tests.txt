@@ -1,0 +1,15 @@
+test_baseline (test_check_plan.PlanChecks.test_baseline) ... ok
+test_duplicate_axis (test_check_plan.PlanChecks.test_duplicate_axis) ... ok
+test_false_hardware_pass (test_check_plan.PlanChecks.test_false_hardware_pass) ... ok
+test_missing_checkout (test_check_plan.PlanChecks.test_missing_checkout) ... ok
+test_missing_region_index (test_check_plan.PlanChecks.test_missing_region_index) ... ok
+test_overloaded_bus (test_check_plan.PlanChecks.test_overloaded_bus) ... ok
+test_port_collision (test_check_plan.PlanChecks.test_port_collision) ... ok
+test_premature_release (test_check_plan.PlanChecks.test_premature_release) ... ok
+test_wrong_can_format (test_check_plan.PlanChecks.test_wrong_can_format) ... ok
+test_wrong_order (test_check_plan.PlanChecks.test_wrong_order) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.005s
+
+OK

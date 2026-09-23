@@ -1,0 +1,171 @@
+{
+  "complete": true,
+  "design_sha256": "d2baa68333cc89b7be2dfb800ea510d1b9b09c1a75417af725c57c2dc6b9cc90",
+  "sensor_step_sha256": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+  "scope": "44-axis rigid body samples with presently modeled components",
+  "physical_tested": false,
+  "poses": [
+    {
+      "name": "neutral",
+      "angles_deg": {},
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "arms_forward",
+      "angles_deg": {
+        "upperarm_l.flex": 90,
+        "upperarm_r.flex": 90
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "arms_overhead",
+      "angles_deg": {
+        "upperarm_l.flex": 160,
+        "upperarm_r.flex": 160
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "arms_side",
+      "angles_deg": {
+        "upperarm_l.abduct": 90,
+        "upperarm_r.abduct": 90
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "hands_on_hips",
+      "angles_deg": {
+        "upperarm_l.abduct": 35,
+        "upperarm_r.abduct": 35,
+        "elbow_l.flex": 110,
+        "elbow_r.flex": 110,
+        "upperarm_l.twist": -40,
+        "upperarm_r.twist": -40
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "arms_crossed",
+      "angles_deg": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 65,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 115,
+        "upperarm_l.twist": 60,
+        "upperarm_r.twist": 60
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "forehead",
+      "angles_deg": {
+        "upperarm_l.flex": 110,
+        "elbow_l.flex": 105,
+        "upperarm_l.twist": -30
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "sitting",
+      "angles_deg": {
+        "thigh_l.flex": 90,
+        "thigh_r.flex": 90,
+        "calf_l.flex": 90,
+        "calf_r.flex": 90
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "crouch",
+      "angles_deg": {
+        "thigh_l.flex": 115,
+        "thigh_r.flex": 115,
+        "calf_l.flex": 135,
+        "calf_r.flex": 135,
+        "waist.pitch": 25
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "head_tilt",
+      "angles_deg": {
+        "head.roll": 30,
+        "head.pitch": 20
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "hip_abduction",
+      "angles_deg": {
+        "thigh_l.abduct": 60,
+        "thigh_r.abduct": 60
+      },
+      "collisions": [
+        {
+          "a": "wrist_l__middle_yoke",
+          "b": "knee_l__input_fork",
+          "volume_mm3": 170.53
+        },
+        {
+          "a": "wrist_l__output_hub",
+          "b": "knee_l__input_fork",
+          "volume_mm3": 2.877
+        },
+        {
+          "a": "wrist_r__middle_yoke",
+          "b": "knee_r__input_fork",
+          "volume_mm3": 170.53
+        },
+        {
+          "a": "wrist_r__output_hub",
+          "b": "knee_r__input_fork",
+          "volume_mm3": 2.877
+        }
+      ],
+      "collision_count": 4
+    },
+    {
+      "name": "palms_turn",
+      "angles_deg": {
+        "elbow_l.flex": 90,
+        "elbow_r.flex": 90,
+        "forearm_l.twist": 85,
+        "forearm_r.twist": -85
+      },
+      "collisions": [],
+      "collision_count": 0
+    },
+    {
+      "name": "hip_abduction_arms_clear",
+      "angles_deg": {
+        "thigh_l.abduct": 60,
+        "thigh_r.abduct": 60,
+        "upperarm_l.abduct": 35,
+        "upperarm_r.abduct": 35
+      },
+      "collisions": [],
+      "collision_count": 0
+    }
+  ],
+  "sample_count": 13,
+  "limitations": [
+    "Discrete poses only, not path planning or continuous collision detection.",
+    "Same-rigid-owner pairs excluded; this cannot certify fastening or assembly access.",
+    "Cable plugs, protective covers, final friction mechanisms and fixed stand are not in this body model.",
+    "hip_abduction with arms down is an intentional retained self-contact stress case; raise arms before moving legs outward."
+  ]
+}

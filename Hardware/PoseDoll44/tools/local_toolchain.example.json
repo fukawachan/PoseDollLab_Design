@@ -1,0 +1,12 @@
+{
+  "python": "python",
+  "kicad": "kicad-cli",
+  "kicad_python": "PATH_TO_KICAD_PYTHON",
+  "idf_python": "PATH_TO_IDF_PYTHON",
+  "idf_root": "PATH_TO_ESP_IDF_6_1",
+  "idf_activation": "PATH_TO_IDF_ACTIVATION",
+  "simulator_python": ".venv/Scripts/python.exe",
+  "cadquery": "2.7.0 (installed CQ-editor bundle; keep CQ-editor open)",
+  "kicad_version": "10.0.6",
+  "idf_version": "6.1"
+}

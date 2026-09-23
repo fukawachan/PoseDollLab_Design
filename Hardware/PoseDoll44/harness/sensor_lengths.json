@@ -1,0 +1,12 @@
+{
+  "status": "superseded_by_character_specific_revM_cut_lists",
+  "note": "Use Manny or Quinn complete 52-cable harness. The former Rev A 44-sensor/base layout is retained only in sensor_lengths_revA_archived.json.",
+  "current_files": [
+    "manny_revM.json",
+    "quinn_revM.json"
+  ],
+  "current_cut_lists": [
+    "manny_cut_list_revM.csv",
+    "quinn_cut_list_revM.csv"
+  ]
+}

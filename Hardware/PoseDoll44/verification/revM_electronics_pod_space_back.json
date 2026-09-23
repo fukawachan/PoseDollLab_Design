@@ -1,0 +1,2414 @@
+{
+  "quinn": [
+    {
+      "id": "chest_-100_-46_45",
+      "owner": "chest",
+      "xyz": [
+        -93.07017626086106,
+        -45.99999999999838,
+        664.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_-46_60",
+      "owner": "chest",
+      "xyz": [
+        -93.07017626086106,
+        -45.99999999999838,
+        679.0790686142906
+      ],
+      "hits": [
+        {
+          "pose": "neutral",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "forward",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 58.8533
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 38.8039
+            }
+          ]
+        },
+        {
+          "pose": "shrug",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "down",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "forward_up",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 58.8533
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 38.8039
+            }
+          ]
+        },
+        {
+          "pose": "arms_forward",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 58.8533
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 38.8039
+            }
+          ]
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "trunk_bend",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "trunk_extend",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "waist_roll",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "sit",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "hips_back",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "hips_out",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "hip_turn",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        },
+        {
+          "pose": "head_nod",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_-46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 0.0323
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chest_-100_0_45",
+      "owner": "chest",
+      "xyz": [
+        -93.07017626086106,
+        1.6183174909744876e-12,
+        664.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_0_60",
+      "owner": "chest",
+      "xyz": [
+        -93.07017626086106,
+        1.6183174909744876e-12,
+        679.0790686142906
+      ],
+      "hits": [
+        {
+          "pose": "neutral",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "backward",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 95.1782
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 6.4732
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 108.3655
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 17.6127
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 5.417
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 12.7249
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 37.0702
+            }
+          ]
+        },
+        {
+          "pose": "shrug",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "down",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "back_down",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 95.1782
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 6.4732
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 108.3655
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 17.6127
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 5.417
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 12.7249
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 37.0702
+            }
+          ]
+        },
+        {
+          "pose": "asymmetric",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 95.1782
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 6.4732
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 108.3655
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 17.6127
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 5.417
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 12.7249
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 37.0702
+            }
+          ]
+        },
+        {
+          "pose": "arms_forward",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "trunk_bend",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "trunk_extend",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "waist_roll",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "sit",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "hips_back",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "hips_out",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "hip_turn",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        },
+        {
+          "pose": "head_nod",
+          "hits": [
+            {
+              "a": "r_yaw_carriage",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 84.8326
+            },
+            {
+              "a": "clavicle_r_elevate_G4_spring_lower_washer",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.8093
+            },
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 9.4552
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 160.1925
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.0062
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1869
+            },
+            {
+              "a": "clavicle_r_elevate_G4_fixed_mount_M3x6_0",
+              "b": "chest_-100_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.4731
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chest_-100_46_45",
+      "owner": "chest",
+      "xyz": [
+        -93.07017626086106,
+        46.00000000000162,
+        664.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_46_60",
+      "owner": "chest",
+      "xyz": [
+        -93.07017626086106,
+        46.00000000000162,
+        679.0790686142906
+      ],
+      "hits": [
+        {
+          "pose": "backward",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.0921
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 2.4298
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 3.3179
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 5.3668
+            }
+          ]
+        },
+        {
+          "pose": "back_down",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.0921
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 2.4298
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 3.3179
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 5.3668
+            }
+          ]
+        },
+        {
+          "pose": "asymmetric",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 0.0921
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 2.4298
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 3.3179
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-100_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 5.3668
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chest_-115_-46_45",
+      "owner": "chest",
+      "xyz": [
+        -108.07017626086106,
+        -45.99999999999838,
+        664.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_-46_60",
+      "owner": "chest",
+      "xyz": [
+        -108.07017626086106,
+        -45.99999999999838,
+        679.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_0_45",
+      "owner": "chest",
+      "xyz": [
+        -108.07017626086106,
+        1.6183174909744876e-12,
+        664.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_0_60",
+      "owner": "chest",
+      "xyz": [
+        -108.07017626086106,
+        1.6183174909744876e-12,
+        679.0790686142906
+      ],
+      "hits": [
+        {
+          "pose": "neutral",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "backward",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 1.2185
+            }
+          ]
+        },
+        {
+          "pose": "shrug",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "down",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "back_down",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 1.2185
+            }
+          ]
+        },
+        {
+          "pose": "asymmetric",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 1.2185
+            }
+          ]
+        },
+        {
+          "pose": "arms_forward",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "trunk_bend",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "trunk_extend",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "waist_roll",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "sit",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "hips_back",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "hips_out",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "hip_turn",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        },
+        {
+          "pose": "head_nod",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_magnet_keeper",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r",
+              "owner_b": "chest",
+              "volume_mm3": 1.1906
+            },
+            {
+              "a": "clavicle_r_elevate_G4_post_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 9.0072
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_saddle_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 39.9479
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_cap_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 16.1194
+            },
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_0_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 32.0418
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chest_-115_46_45",
+      "owner": "chest",
+      "xyz": [
+        -108.07017626086106,
+        46.00000000000162,
+        664.0790686142906
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_46_60",
+      "owner": "chest",
+      "xyz": [
+        -108.07017626086106,
+        46.00000000000162,
+        679.0790686142906
+      ],
+      "hits": [
+        {
+          "pose": "backward",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 1.7144
+            }
+          ]
+        },
+        {
+          "pose": "back_down",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 1.7144
+            }
+          ]
+        },
+        {
+          "pose": "asymmetric",
+          "hits": [
+            {
+              "a": "clavicle_r_elevate_G4_board_M2x6_0",
+              "b": "chest_-115_46_60",
+              "owner_a": "clavicle_r.protract_frame",
+              "owner_b": "chest",
+              "volume_mm3": 1.7144
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pelvis_-100_-46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -100.0,
+        -46.0,
+        485.47778335105454
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-100_0_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -100.0,
+        0.0,
+        485.47778335105454
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-100_46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -100.0,
+        46.0,
+        485.47778335105454
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-115_-46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -115.0,
+        -46.0,
+        485.47778335105454
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-115_0_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -115.0,
+        0.0,
+        485.47778335105454
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-115_46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -115.0,
+        46.0,
+        485.47778335105454
+      ],
+      "hits": []
+    }
+  ],
+  "manny": [
+    {
+      "id": "chest_-100_-46_45",
+      "owner": "chest",
+      "xyz": [
+        -92.81449494645672,
+        -46.0,
+        659.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_-46_60",
+      "owner": "chest",
+      "xyz": [
+        -92.81449494645672,
+        -46.0,
+        674.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_0_45",
+      "owner": "chest",
+      "xyz": [
+        -92.81449494645672,
+        -9.724861368043147e-16,
+        659.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_0_60",
+      "owner": "chest",
+      "xyz": [
+        -92.81449494645672,
+        -9.724861368043147e-16,
+        674.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_46_45",
+      "owner": "chest",
+      "xyz": [
+        -92.81449494645672,
+        46.0,
+        659.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-100_46_60",
+      "owner": "chest",
+      "xyz": [
+        -92.81449494645672,
+        46.0,
+        674.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_-46_45",
+      "owner": "chest",
+      "xyz": [
+        -107.81449494645672,
+        -46.0,
+        659.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_-46_60",
+      "owner": "chest",
+      "xyz": [
+        -107.81449494645672,
+        -46.0,
+        674.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_0_45",
+      "owner": "chest",
+      "xyz": [
+        -107.81449494645672,
+        -9.724861368043147e-16,
+        659.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_0_60",
+      "owner": "chest",
+      "xyz": [
+        -107.81449494645672,
+        -9.724861368043147e-16,
+        674.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_46_45",
+      "owner": "chest",
+      "xyz": [
+        -107.81449494645672,
+        46.0,
+        659.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "chest_-115_46_60",
+      "owner": "chest",
+      "xyz": [
+        -107.81449494645672,
+        46.0,
+        674.9442901084931
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-100_-46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -100.0,
+        -46.0,
+        469.79619570812025
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-100_0_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -100.0,
+        0.0,
+        469.79619570812025
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-100_46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -100.0,
+        46.0,
+        469.79619570812025
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-115_-46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -115.0,
+        -46.0,
+        469.79619570812025
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-115_0_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -115.0,
+        0.0,
+        469.79619570812025
+      ],
+      "hits": []
+    },
+    {
+      "id": "pelvis_-115_46_-15",
+      "owner": "pelvis",
+      "xyz": [
+        -115.0,
+        46.0,
+        469.79619570812025
+      ],
+      "hits": []
+    }
+  ]
+}

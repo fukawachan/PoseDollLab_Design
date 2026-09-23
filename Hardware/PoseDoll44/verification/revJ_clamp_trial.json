@@ -1,0 +1,1831 @@
+{
+  "status": "SUPERSEDED_DEVELOPMENT_SNAPSHOT_NOT_CURRENT_DESIGN",
+  "data": {
+    "parts": [
+      {
+        "name": "l_yaw_bush_top",
+        "material": "bush",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_yaw_bush_lower",
+        "material": "bush",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_yaw_shaft",
+        "material": "metal",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": "4 mm shaft candidate; keyed retention and bending verification pending"
+      },
+      {
+        "name": "l_elev_bush_27",
+        "material": "bush",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_elev_bush_43",
+        "material": "bush",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_yaw_carriage",
+        "material": "frame",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": "Front/rear offset bearings share the original elevation axis line"
+      },
+      {
+        "name": "l_elev_shaft",
+        "material": "metal",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "4 mm shaft candidate; final retention pending"
+      },
+      {
+        "name": "l_flex_bush_-36.5",
+        "material": "bush",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_flex_bush_-27.5",
+        "material": "bush",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_clavicle_output_frame",
+        "material": "frame",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "Rev I dogleg clavicle frame clears medial clutch; both kinematic axes unchanged; Rev I integral clutch support and captive M3 mounting nuts"
+      },
+      {
+        "name": "l_yaw_fixed_face",
+        "material": "metal",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_yaw_friction",
+        "material": "lining",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_yaw_rotor_face",
+        "material": "metal",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_yaw_preload_space",
+        "material": "spring_space",
+        "owner": "chest",
+        "role": "reservation",
+        "note": "Preload load path, spring selection and fasteners not completed"
+      },
+      {
+        "name": "l_yaw_magnet_space",
+        "material": "transfer_space",
+        "owner": "clavicle_l.protract_frame",
+        "role": "reservation",
+        "note": "Magnet holder and field test pending"
+      },
+      {
+        "name": "l_yaw_pcb_space",
+        "material": "sensor_space",
+        "owner": "chest",
+        "role": "reservation",
+        "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending"
+      },
+      {
+        "name": "l_yaw_chip_space",
+        "material": "sensor_space",
+        "owner": "chest",
+        "role": "reservation",
+        "note": "Nominal 2 mm magnet face gap; not magnetically validated"
+      },
+      {
+        "name": "l_elev_fixed_face",
+        "material": "metal",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_elev_friction",
+        "material": "lining",
+        "owner": "clavicle_l.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_elev_rotor_face",
+        "material": "metal",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_elev_preload_space",
+        "material": "spring_space",
+        "owner": "clavicle_l.protract_frame",
+        "role": "reservation",
+        "note": "Preload load path, spring selection and fasteners not completed"
+      },
+      {
+        "name": "l_elev_magnet_space",
+        "material": "transfer_space",
+        "owner": "clavicle_l",
+        "role": "reservation",
+        "note": "Magnet holder and field test pending"
+      },
+      {
+        "name": "l_elev_pcb_space",
+        "material": "sensor_space",
+        "owner": "clavicle_l.protract_frame",
+        "role": "reservation",
+        "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending"
+      },
+      {
+        "name": "l_elev_chip_space",
+        "material": "sensor_space",
+        "owner": "clavicle_l.protract_frame",
+        "role": "reservation",
+        "note": "Nominal 2 mm magnet face gap; not magnetically validated"
+      },
+      {
+        "name": "l_abduct_bush_-20.5",
+        "material": "bush",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_abduct_bush_20.5",
+        "material": "bush",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_flex_ring",
+        "material": "frame",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified"
+      },
+      {
+        "name": "l_abduct_ring_and_twist_seat",
+        "material": "frame",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified"
+      },
+      {
+        "name": "l_twist_bush",
+        "material": "bush",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_twist_shaft",
+        "material": "metal",
+        "owner": "upperarm_l",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_twist_fixed_face",
+        "material": "metal",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_twist_rotor_face",
+        "material": "metal",
+        "owner": "upperarm_l",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_twist_lining",
+        "material": "lining",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "l_arm_coupling",
+        "material": "frame",
+        "owner": "upperarm_l",
+        "role": "structural_concept",
+        "note": "Interface only; clamps/fasteners not completed"
+      },
+      {
+        "name": "l_arm_upperarm_centreline_fork",
+        "material": "frame",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": "Axial preload compliance/guidance and mounting details pending; not a finalized load-rated clevis"
+      },
+      {
+        "name": "l_arm_forearm_centreline_link",
+        "material": "frame",
+        "owner": "elbow_l",
+        "role": "solid_concept",
+        "note": "Elbow-to-wrist centre distance retained; distal wrist integration pending"
+      },
+      {
+        "name": "l_arm_rotor_radial_bush",
+        "material": "bush",
+        "owner": "elbow_l",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "l_arm_friction_face_-6",
+        "material": "lining",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "l_arm_friction_face_5",
+        "material": "lining",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "l_arm_smooth_pivot_pin",
+        "material": "metal",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": "6mm stationary pin; thread/retention details not finalized"
+      },
+      {
+        "name": "l_arm_left_load_washer",
+        "material": "metal",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "l_arm_right_spring_seat",
+        "material": "metal",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "l_arm_spring_stack_reserved",
+        "material": "spring_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": "Two series springs: nominal envelope only, preload adjustment pending"
+      },
+      {
+        "name": "l_arm_preload_cap_reserved",
+        "material": "spring_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "l_arm_preload_screw_reserved",
+        "material": "spring_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "l_arm_input_gear_reserved",
+        "material": "transfer_space",
+        "owner": "elbow_l",
+        "role": "reservation",
+        "note": "m0.6, 40T candidate pitch diameter24; teeth, fastening, backlash and tolerances pending"
+      },
+      {
+        "name": "l_arm_pickup_gear_reserved",
+        "material": "transfer_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": "1:1 external gear reading candidate; nominal sensor angle = -elbow angle; actual rotor must rotate, envelope is stationary"
+      },
+      {
+        "name": "l_arm_pickup_shaft_reserved",
+        "material": "transfer_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "l_arm_magnet_reserved",
+        "material": "transfer_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": "6x3 diametric magnet dimension candidate; field and alignment untested"
+      },
+      {
+        "name": "l_arm_sensor_package_reserved",
+        "material": "sensor_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "l_arm_sensor_PCB_reserved",
+        "material": "sensor_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": "New board outline reservation; not routed or electrically reviewed"
+      },
+      {
+        "name": "l_arm_flat_cable_exit_reserved",
+        "material": "sensor_space",
+        "owner": "upperarm_l",
+        "role": "reservation",
+        "note": "Flat cable route space; bend radius and fastening pending"
+      },
+      {
+        "name": "l_arm_upperarm_shell_front",
+        "material": "shell",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "l_arm_upperarm_shell_back",
+        "material": "shell",
+        "owner": "upperarm_l",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "l_arm_forearm_shell_front",
+        "material": "shell",
+        "owner": "elbow_l",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "l_arm_forearm_shell_back",
+        "material": "shell",
+        "owner": "elbow_l",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "r_yaw_bush_top",
+        "material": "bush",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_yaw_bush_lower",
+        "material": "bush",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_yaw_shaft",
+        "material": "metal",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": "4 mm shaft candidate; keyed retention and bending verification pending"
+      },
+      {
+        "name": "r_elev_bush_27",
+        "material": "bush",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_elev_bush_43",
+        "material": "bush",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_yaw_carriage",
+        "material": "frame",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": "Front/rear offset bearings share the original elevation axis line"
+      },
+      {
+        "name": "r_elev_shaft",
+        "material": "metal",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "4 mm shaft candidate; final retention pending"
+      },
+      {
+        "name": "r_flex_bush_-36.5",
+        "material": "bush",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_flex_bush_-27.5",
+        "material": "bush",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_clavicle_output_frame",
+        "material": "frame",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "Rev I dogleg clavicle frame clears medial clutch; both kinematic axes unchanged; Rev I integral clutch support and captive M3 mounting nuts"
+      },
+      {
+        "name": "r_yaw_fixed_face",
+        "material": "metal",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_yaw_friction",
+        "material": "lining",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_yaw_rotor_face",
+        "material": "metal",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_yaw_preload_space",
+        "material": "spring_space",
+        "owner": "chest",
+        "role": "reservation",
+        "note": "Preload load path, spring selection and fasteners not completed"
+      },
+      {
+        "name": "r_yaw_magnet_space",
+        "material": "transfer_space",
+        "owner": "clavicle_r.protract_frame",
+        "role": "reservation",
+        "note": "Magnet holder and field test pending"
+      },
+      {
+        "name": "r_yaw_pcb_space",
+        "material": "sensor_space",
+        "owner": "chest",
+        "role": "reservation",
+        "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending"
+      },
+      {
+        "name": "r_yaw_chip_space",
+        "material": "sensor_space",
+        "owner": "chest",
+        "role": "reservation",
+        "note": "Nominal 2 mm magnet face gap; not magnetically validated"
+      },
+      {
+        "name": "r_elev_fixed_face",
+        "material": "metal",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_elev_friction",
+        "material": "lining",
+        "owner": "clavicle_r.protract_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_elev_rotor_face",
+        "material": "metal",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_elev_preload_space",
+        "material": "spring_space",
+        "owner": "clavicle_r.protract_frame",
+        "role": "reservation",
+        "note": "Preload load path, spring selection and fasteners not completed"
+      },
+      {
+        "name": "r_elev_magnet_space",
+        "material": "transfer_space",
+        "owner": "clavicle_r",
+        "role": "reservation",
+        "note": "Magnet holder and field test pending"
+      },
+      {
+        "name": "r_elev_pcb_space",
+        "material": "sensor_space",
+        "owner": "clavicle_r.protract_frame",
+        "role": "reservation",
+        "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending"
+      },
+      {
+        "name": "r_elev_chip_space",
+        "material": "sensor_space",
+        "owner": "clavicle_r.protract_frame",
+        "role": "reservation",
+        "note": "Nominal 2 mm magnet face gap; not magnetically validated"
+      },
+      {
+        "name": "r_abduct_bush_-20.5",
+        "material": "bush",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_abduct_bush_20.5",
+        "material": "bush",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_flex_ring",
+        "material": "frame",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified"
+      },
+      {
+        "name": "r_abduct_ring_and_twist_seat",
+        "material": "frame",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified"
+      },
+      {
+        "name": "r_twist_bush",
+        "material": "bush",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_twist_shaft",
+        "material": "metal",
+        "owner": "upperarm_r",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_twist_fixed_face",
+        "material": "metal",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_twist_rotor_face",
+        "material": "metal",
+        "owner": "upperarm_r",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_twist_lining",
+        "material": "lining",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": ""
+      },
+      {
+        "name": "r_arm_coupling",
+        "material": "frame",
+        "owner": "upperarm_r",
+        "role": "structural_concept",
+        "note": "Interface only; clamps/fasteners not completed"
+      },
+      {
+        "name": "r_arm_upperarm_centreline_fork",
+        "material": "frame",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": "Axial preload compliance/guidance and mounting details pending; not a finalized load-rated clevis"
+      },
+      {
+        "name": "r_arm_forearm_centreline_link",
+        "material": "frame",
+        "owner": "elbow_r",
+        "role": "solid_concept",
+        "note": "Elbow-to-wrist centre distance retained; distal wrist integration pending"
+      },
+      {
+        "name": "r_arm_rotor_radial_bush",
+        "material": "bush",
+        "owner": "elbow_r",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "r_arm_friction_face_-6",
+        "material": "lining",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "r_arm_friction_face_5",
+        "material": "lining",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "r_arm_smooth_pivot_pin",
+        "material": "metal",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": "6mm stationary pin; thread/retention details not finalized"
+      },
+      {
+        "name": "r_arm_left_load_washer",
+        "material": "metal",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "r_arm_right_spring_seat",
+        "material": "metal",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": ""
+      },
+      {
+        "name": "r_arm_spring_stack_reserved",
+        "material": "spring_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": "Two series springs: nominal envelope only, preload adjustment pending"
+      },
+      {
+        "name": "r_arm_preload_cap_reserved",
+        "material": "spring_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "r_arm_preload_screw_reserved",
+        "material": "spring_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "r_arm_input_gear_reserved",
+        "material": "transfer_space",
+        "owner": "elbow_r",
+        "role": "reservation",
+        "note": "m0.6, 40T candidate pitch diameter24; teeth, fastening, backlash and tolerances pending"
+      },
+      {
+        "name": "r_arm_pickup_gear_reserved",
+        "material": "transfer_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": "1:1 external gear reading candidate; nominal sensor angle = -elbow angle; actual rotor must rotate, envelope is stationary"
+      },
+      {
+        "name": "r_arm_pickup_shaft_reserved",
+        "material": "transfer_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "r_arm_magnet_reserved",
+        "material": "transfer_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": "6x3 diametric magnet dimension candidate; field and alignment untested"
+      },
+      {
+        "name": "r_arm_sensor_package_reserved",
+        "material": "sensor_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": ""
+      },
+      {
+        "name": "r_arm_sensor_PCB_reserved",
+        "material": "sensor_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": "New board outline reservation; not routed or electrically reviewed"
+      },
+      {
+        "name": "r_arm_flat_cable_exit_reserved",
+        "material": "sensor_space",
+        "owner": "upperarm_r",
+        "role": "reservation",
+        "note": "Flat cable route space; bend radius and fastening pending"
+      },
+      {
+        "name": "r_arm_upperarm_shell_front",
+        "material": "shell",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "r_arm_upperarm_shell_back",
+        "material": "shell",
+        "owner": "upperarm_r",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "r_arm_forearm_shell_front",
+        "material": "shell",
+        "owner": "elbow_r",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "r_arm_forearm_shell_back",
+        "material": "shell",
+        "owner": "elbow_r",
+        "role": "solid_concept",
+        "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending"
+      },
+      {
+        "name": "common_chest_bearing_frame",
+        "material": "frame",
+        "owner": "chest",
+        "role": "structural_concept",
+        "note": "Shared top bearing block; minimum inter-bore web is reported, strength pending"
+      },
+      {
+        "name": "l_flex_clutch_flanged_shaft",
+        "material": "metal",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads"
+      },
+      {
+        "name": "l_flex_clutch_keyed_lining",
+        "material": "lining",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "1 mm replaceable lining; coefficient and wear unqualified"
+      },
+      {
+        "name": "l_flex_clutch_reaction_plate",
+        "material": "metal",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate"
+      },
+      {
+        "name": "l_flex_clutch_radial_bush",
+        "material": "bush",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "POM radial guide, clear of thrust faces; press fit/retention pending"
+      },
+      {
+        "name": "l_flex_clutch_thrust_washer",
+        "material": "thrust",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending"
+      },
+      {
+        "name": "l_flex_clutch_spring_seat",
+        "material": "metal",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate"
+      },
+      {
+        "name": "l_flex_clutch_disc_spring_a",
+        "material": "spring",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "SCHNORR 002 200 dimensional candidate at catalog test height"
+      },
+      {
+        "name": "l_flex_clutch_disc_spring_b",
+        "material": "spring",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Opposed pair in series: force is not doubled"
+      },
+      {
+        "name": "l_flex_clutch_keyed_stop_cap",
+        "material": "metal",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation"
+      },
+      {
+        "name": "l_flex_clutch_outer_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Simplified thread envelope; axial cap retention, not hand tightness setting"
+      },
+      {
+        "name": "l_flex_clutch_drive_retainer_washer",
+        "material": "metal",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Separate washer retains D drive in printed output hub"
+      },
+      {
+        "name": "l_flex_clutch_inner_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Independent output-hub retention; does not set clutch spring compression"
+      },
+      {
+        "name": "l_flex_clutch_mount_M3x10_0",
+        "material": "fastener",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "l_flex_clutch_mount_M3_nut_0",
+        "material": "fastener",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "l_flex_clutch_mount_M3x10_1",
+        "material": "fastener",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "l_flex_clutch_mount_M3_nut_1",
+        "material": "fastener",
+        "owner": "clavicle_l",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "l_abduct_clutch_flanged_shaft",
+        "material": "metal",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads"
+      },
+      {
+        "name": "l_abduct_clutch_keyed_lining",
+        "material": "lining",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "1 mm replaceable lining; coefficient and wear unqualified"
+      },
+      {
+        "name": "l_abduct_clutch_reaction_plate",
+        "material": "metal",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate"
+      },
+      {
+        "name": "l_abduct_clutch_radial_bush",
+        "material": "bush",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "POM radial guide, clear of thrust faces; press fit/retention pending"
+      },
+      {
+        "name": "l_abduct_clutch_thrust_washer",
+        "material": "thrust",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending"
+      },
+      {
+        "name": "l_abduct_clutch_spring_seat",
+        "material": "metal",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate"
+      },
+      {
+        "name": "l_abduct_clutch_disc_spring_a",
+        "material": "spring",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "SCHNORR 002 200 dimensional candidate at catalog test height"
+      },
+      {
+        "name": "l_abduct_clutch_disc_spring_b",
+        "material": "spring",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Opposed pair in series: force is not doubled"
+      },
+      {
+        "name": "l_abduct_clutch_keyed_stop_cap",
+        "material": "metal",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation"
+      },
+      {
+        "name": "l_abduct_clutch_outer_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Simplified thread envelope; axial cap retention, not hand tightness setting"
+      },
+      {
+        "name": "l_abduct_clutch_drive_retainer_washer",
+        "material": "metal",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Separate washer retains D drive in printed output hub"
+      },
+      {
+        "name": "l_abduct_clutch_inner_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Independent output-hub retention; does not set clutch spring compression"
+      },
+      {
+        "name": "l_abduct_clutch_mount_M3x10_0",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "l_abduct_clutch_mount_M3_nut_0",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "l_abduct_clutch_mount_M3x10_1",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "l_abduct_clutch_mount_M3_nut_1",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "r_flex_clutch_flanged_shaft",
+        "material": "metal",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads"
+      },
+      {
+        "name": "r_flex_clutch_keyed_lining",
+        "material": "lining",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "1 mm replaceable lining; coefficient and wear unqualified"
+      },
+      {
+        "name": "r_flex_clutch_reaction_plate",
+        "material": "metal",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate"
+      },
+      {
+        "name": "r_flex_clutch_radial_bush",
+        "material": "bush",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "POM radial guide, clear of thrust faces; press fit/retention pending"
+      },
+      {
+        "name": "r_flex_clutch_thrust_washer",
+        "material": "thrust",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending"
+      },
+      {
+        "name": "r_flex_clutch_spring_seat",
+        "material": "metal",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate"
+      },
+      {
+        "name": "r_flex_clutch_disc_spring_a",
+        "material": "spring",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "SCHNORR 002 200 dimensional candidate at catalog test height"
+      },
+      {
+        "name": "r_flex_clutch_disc_spring_b",
+        "material": "spring",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Opposed pair in series: force is not doubled"
+      },
+      {
+        "name": "r_flex_clutch_keyed_stop_cap",
+        "material": "metal",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation"
+      },
+      {
+        "name": "r_flex_clutch_outer_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Simplified thread envelope; axial cap retention, not hand tightness setting"
+      },
+      {
+        "name": "r_flex_clutch_drive_retainer_washer",
+        "material": "metal",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Separate washer retains D drive in printed output hub"
+      },
+      {
+        "name": "r_flex_clutch_inner_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Independent output-hub retention; does not set clutch spring compression"
+      },
+      {
+        "name": "r_flex_clutch_mount_M3x10_0",
+        "material": "fastener",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "r_flex_clutch_mount_M3_nut_0",
+        "material": "fastener",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "r_flex_clutch_mount_M3x10_1",
+        "material": "fastener",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "r_flex_clutch_mount_M3_nut_1",
+        "material": "fastener",
+        "owner": "clavicle_r",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "r_abduct_clutch_flanged_shaft",
+        "material": "metal",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads"
+      },
+      {
+        "name": "r_abduct_clutch_keyed_lining",
+        "material": "lining",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "1 mm replaceable lining; coefficient and wear unqualified"
+      },
+      {
+        "name": "r_abduct_clutch_reaction_plate",
+        "material": "metal",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate"
+      },
+      {
+        "name": "r_abduct_clutch_radial_bush",
+        "material": "bush",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "POM radial guide, clear of thrust faces; press fit/retention pending"
+      },
+      {
+        "name": "r_abduct_clutch_thrust_washer",
+        "material": "thrust",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending"
+      },
+      {
+        "name": "r_abduct_clutch_spring_seat",
+        "material": "metal",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate"
+      },
+      {
+        "name": "r_abduct_clutch_disc_spring_a",
+        "material": "spring",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "SCHNORR 002 200 dimensional candidate at catalog test height"
+      },
+      {
+        "name": "r_abduct_clutch_disc_spring_b",
+        "material": "spring",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Opposed pair in series: force is not doubled"
+      },
+      {
+        "name": "r_abduct_clutch_keyed_stop_cap",
+        "material": "metal",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation"
+      },
+      {
+        "name": "r_abduct_clutch_outer_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Simplified thread envelope; axial cap retention, not hand tightness setting"
+      },
+      {
+        "name": "r_abduct_clutch_drive_retainer_washer",
+        "material": "metal",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Separate washer retains D drive in printed output hub"
+      },
+      {
+        "name": "r_abduct_clutch_inner_M3x8",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Independent output-hub retention; does not set clutch spring compression"
+      },
+      {
+        "name": "r_abduct_clutch_mount_M3x10_0",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "r_abduct_clutch_mount_M3_nut_0",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "r_abduct_clutch_mount_M3x10_1",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Reaction plate to printed support; simplified thread"
+      },
+      {
+        "name": "r_abduct_clutch_mount_M3_nut_1",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured hex nut, accessible from inside of support"
+      },
+      {
+        "name": "l_flex_drive_split_hub",
+        "material": "aluminum",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated"
+      },
+      {
+        "name": "l_flex_drive_pinch_M2x10",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified"
+      },
+      {
+        "name": "l_flex_drive_mount_M2x4_0",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "l_flex_drive_mount_M2_nut_0",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "l_flex_drive_mount_M2x4_1",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "l_flex_drive_mount_M2_nut_1",
+        "material": "fastener",
+        "owner": "upperarm_l.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "l_abduct_drive_split_hub",
+        "material": "aluminum",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated"
+      },
+      {
+        "name": "l_abduct_drive_pinch_M2x10",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified"
+      },
+      {
+        "name": "l_abduct_drive_mount_M2x4_0",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "l_abduct_drive_mount_M2_nut_0",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "l_abduct_drive_mount_M2x4_1",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "l_abduct_drive_mount_M2_nut_1",
+        "material": "fastener",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "r_flex_drive_split_hub",
+        "material": "aluminum",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated"
+      },
+      {
+        "name": "r_flex_drive_pinch_M2x10",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified"
+      },
+      {
+        "name": "r_flex_drive_mount_M2x4_0",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "r_flex_drive_mount_M2_nut_0",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "r_flex_drive_mount_M2x4_1",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "r_flex_drive_mount_M2_nut_1",
+        "material": "fastener",
+        "owner": "upperarm_r.flex_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "r_abduct_drive_split_hub",
+        "material": "aluminum",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated"
+      },
+      {
+        "name": "r_abduct_drive_pinch_M2x10",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified"
+      },
+      {
+        "name": "r_abduct_drive_mount_M2x4_0",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "r_abduct_drive_mount_M2_nut_0",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "r_abduct_drive_mount_M2x4_1",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement"
+      },
+      {
+        "name": "r_abduct_drive_mount_M2_nut_1",
+        "material": "fastener",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "structural_concept",
+        "note": "Captured nut inside output yoke; fit and creep require testing"
+      },
+      {
+        "name": "l_abduct_sensor_rear_journal",
+        "material": "aluminum",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Custom nonferromagnetic 4 mm journal; inner radial M2 and outer axial M2 retention"
+      },
+      {
+        "name": "l_abduct_sensor_journal_radial_M2x4",
+        "material": "brass",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Candidate nonferromagnetic M2x4; keyed shaft is installed after front clutch screw, before twist shaft"
+      },
+      {
+        "name": "l_abduct_sensor_magnet_carrier",
+        "material": "frame",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "D driven magnet cup with separate axial screw; printed fit, anti-backlash and magnet bedding pending"
+      },
+      {
+        "name": "l_abduct_sensor_carrier_axial_M2x6",
+        "material": "nylon",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Insert before magnet; nonmagnetic M2 screw into rear journal"
+      },
+      {
+        "name": "l_abduct_sensor_diametric_magnet_6x2p5",
+        "material": "magnet",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "6 x 2.5 mm diametrically magnetized candidate, never axially magnetized; grade and diagnostics require testing"
+      },
+      {
+        "name": "l_abduct_sensor_magnet_retaining_bridge",
+        "material": "frame",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Positive removable cover; magnet face seats at 36.5 mm, no adhesive-only axial retention"
+      },
+      {
+        "name": "l_abduct_sensor_magnet_cover_M2x6_0",
+        "material": "nylon",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Nominal M2 nylon screw into cup; printed threads not qualified"
+      },
+      {
+        "name": "l_abduct_sensor_magnet_cover_M2x6_1",
+        "material": "nylon",
+        "owner": "upperarm_l.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Nominal M2 nylon screw into cup; printed threads not qualified"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_AS5048A",
+        "material": "pcb_component",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_passive_1",
+        "material": "pcb_component",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_passive_2",
+        "material": "pcb_component",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_passive_3",
+        "material": "pcb_component",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_passive_4",
+        "material": "pcb_component",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_J1_back_connector",
+        "material": "pcb_component",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_pcb_board",
+        "material": "pcb",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "l_abduct_sensor_nylon_spacer_0",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "M2 female 6 mm spacer; electrical insulation and spreaders required"
+      },
+      {
+        "name": "l_abduct_sensor_nylon_spreader_0",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "0.5 mm insulating spreader, OD4.4/ID2.2"
+      },
+      {
+        "name": "l_abduct_sensor_board_M2x4_0",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Front board screw; 1.99 mm nominal engagement"
+      },
+      {
+        "name": "l_abduct_sensor_support_M2x6_0",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw"
+      },
+      {
+        "name": "l_abduct_sensor_nylon_spacer_1",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "M2 female 6 mm spacer; electrical insulation and spreaders required"
+      },
+      {
+        "name": "l_abduct_sensor_nylon_spreader_1",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "0.5 mm insulating spreader, OD4.4/ID2.2"
+      },
+      {
+        "name": "l_abduct_sensor_board_M2x4_1",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Front board screw; 1.99 mm nominal engagement"
+      },
+      {
+        "name": "l_abduct_sensor_support_M2x6_1",
+        "material": "nylon",
+        "owner": "upperarm_l.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw"
+      },
+      {
+        "name": "l_abduct_sensor_plug_service_envelope",
+        "material": "sensor_space",
+        "owner": "upperarm_l.flex_frame",
+        "role": "reservation",
+        "note": "Unverified mated plug insertion envelope beyond actual connector"
+      },
+      {
+        "name": "l_abduct_sensor_wire_service_envelope",
+        "material": "sensor_space",
+        "owner": "upperarm_l.flex_frame",
+        "role": "reservation",
+        "note": "Initial cable bend allowance only; no routed harness"
+      },
+      {
+        "name": "r_abduct_sensor_rear_journal",
+        "material": "aluminum",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Custom nonferromagnetic 4 mm journal; inner radial M2 and outer axial M2 retention"
+      },
+      {
+        "name": "r_abduct_sensor_journal_radial_M2x4",
+        "material": "brass",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Candidate nonferromagnetic M2x4; keyed shaft is installed after front clutch screw, before twist shaft"
+      },
+      {
+        "name": "r_abduct_sensor_magnet_carrier",
+        "material": "frame",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "D driven magnet cup with separate axial screw; printed fit, anti-backlash and magnet bedding pending"
+      },
+      {
+        "name": "r_abduct_sensor_carrier_axial_M2x6",
+        "material": "nylon",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Insert before magnet; nonmagnetic M2 screw into rear journal"
+      },
+      {
+        "name": "r_abduct_sensor_diametric_magnet_6x2p5",
+        "material": "magnet",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "6 x 2.5 mm diametrically magnetized candidate, never axially magnetized; grade and diagnostics require testing"
+      },
+      {
+        "name": "r_abduct_sensor_magnet_retaining_bridge",
+        "material": "frame",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Positive removable cover; magnet face seats at 36.5 mm, no adhesive-only axial retention"
+      },
+      {
+        "name": "r_abduct_sensor_magnet_cover_M2x6_0",
+        "material": "nylon",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Nominal M2 nylon screw into cup; printed threads not qualified"
+      },
+      {
+        "name": "r_abduct_sensor_magnet_cover_M2x6_1",
+        "material": "nylon",
+        "owner": "upperarm_r.abduct_frame",
+        "role": "sensor_candidate",
+        "note": "Nominal M2 nylon screw into cup; printed threads not qualified"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_AS5048A",
+        "material": "pcb_component",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_passive_1",
+        "material": "pcb_component",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_passive_2",
+        "material": "pcb_component",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_passive_3",
+        "material": "pcb_component",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_passive_4",
+        "material": "pcb_component",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_J1_back_connector",
+        "material": "pcb_component",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_pcb_board",
+        "material": "pcb",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication"
+      },
+      {
+        "name": "r_abduct_sensor_nylon_spacer_0",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "M2 female 6 mm spacer; electrical insulation and spreaders required"
+      },
+      {
+        "name": "r_abduct_sensor_nylon_spreader_0",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "0.5 mm insulating spreader, OD4.4/ID2.2"
+      },
+      {
+        "name": "r_abduct_sensor_board_M2x4_0",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Front board screw; 1.99 mm nominal engagement"
+      },
+      {
+        "name": "r_abduct_sensor_support_M2x6_0",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw"
+      },
+      {
+        "name": "r_abduct_sensor_nylon_spacer_1",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "M2 female 6 mm spacer; electrical insulation and spreaders required"
+      },
+      {
+        "name": "r_abduct_sensor_nylon_spreader_1",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "0.5 mm insulating spreader, OD4.4/ID2.2"
+      },
+      {
+        "name": "r_abduct_sensor_board_M2x4_1",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Front board screw; 1.99 mm nominal engagement"
+      },
+      {
+        "name": "r_abduct_sensor_support_M2x6_1",
+        "material": "nylon",
+        "owner": "upperarm_r.flex_frame",
+        "role": "sensor_candidate",
+        "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw"
+      },
+      {
+        "name": "r_abduct_sensor_plug_service_envelope",
+        "material": "sensor_space",
+        "owner": "upperarm_r.flex_frame",
+        "role": "reservation",
+        "note": "Unverified mated plug insertion envelope beyond actual connector"
+      },
+      {
+        "name": "r_abduct_sensor_wire_service_envelope",
+        "material": "sensor_space",
+        "owner": "upperarm_r.flex_frame",
+        "role": "reservation",
+        "note": "Initial cable bend allowance only; no routed harness"
+      }
+    ],
+    "motion_checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "hits": [],
+        "structural_hits": 0,
+        "pose_restriction_hits": 0
+      },
+      {
+        "pose": "arms_forward",
+        "angles_deg": {
+          "upperarm_l.flex": 90,
+          "upperarm_r.flex": 90
+        },
+        "hits": [],
+        "structural_hits": 0,
+        "pose_restriction_hits": 0
+      },
+      {
+        "pose": "arms_side",
+        "angles_deg": {
+          "upperarm_l.abduct": 90,
+          "upperarm_r.abduct": 90
+        },
+        "hits": [],
+        "structural_hits": 0,
+        "pose_restriction_hits": 0
+      },
+      {
+        "pose": "arms_overhead",
+        "angles_deg": {
+          "upperarm_l.flex": 160,
+          "upperarm_r.flex": 160
+        },
+        "hits": [],
+        "structural_hits": 0,
+        "pose_restriction_hits": 0
+      },
+      {
+        "pose": "forehead",
+        "angles_deg": {
+          "upperarm_l.flex": 110,
+          "elbow_l.flex": 105,
+          "upperarm_l.twist": -30
+        },
+        "hits": [],
+        "structural_hits": 0,
+        "pose_restriction_hits": 0
+      },
+      {
+        "pose": "crossed_clearance_candidate",
+        "angles_deg": {
+          "upperarm_l.flex": 60,
+          "upperarm_r.flex": 75,
+          "elbow_l.flex": 115,
+          "elbow_r.flex": 90,
+          "upperarm_l.abduct": -20,
+          "upperarm_r.abduct": -20,
+          "upperarm_l.twist": 65,
+          "upperarm_r.twist": 35
+        },
+        "hits": [],
+        "structural_hits": 0,
+        "pose_restriction_hits": 0
+      }
+    ],
+    "collision_policy": "cross_arm_contact_is_pose_restriction_v1"
+  }
+}

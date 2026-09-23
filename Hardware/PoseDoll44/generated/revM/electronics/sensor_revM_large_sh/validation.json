@@ -1,0 +1,10 @@
+{
+  "kind": "sensor_revM_large_sh",
+  "pcb_sha256": "ef1489c2a59024333f5702cb925bebfce70326dddce2db629b4546e858ba01a6",
+  "schematic_sha256": "f58121d1826917f3e77f82709b74be1a5ee90b54872fb341ce7038aaf9fee204",
+  "erc_pass": true,
+  "drc_parity_pass": true,
+  "missing_vendor_3D_models": [],
+  "manufacturing_released": false,
+  "hardware_tested": false
+}

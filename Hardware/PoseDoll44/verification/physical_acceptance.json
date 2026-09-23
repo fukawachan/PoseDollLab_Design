@@ -1,0 +1,88 @@
+{
+  "metrics": [
+    {
+      "id": "axis_absolute_error",
+      "target": "<=1.5 deg, independent reference <=0.3 deg uncertainty",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "axis_repeatability",
+      "target": "<=0.5 deg",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "static_noise",
+      "target": "<=0.15 deg RMS / 10s",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "magnetic_crosstalk",
+      "target": "<=0.3 deg",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "pose_holding",
+      "target": "<=1 deg / 5min at declared load",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "early_wear_screen",
+      "target": "1000 cycles",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "internal_acquisition",
+      "target": "100Hz complete fresh cohort",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "ue_stream",
+      "target": "60Hz",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "acquisition_window",
+      "target": "<=5ms",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "can_bus_load",
+      "target": "<60% measured",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "fault_reporting",
+      "target": "<=100ms after detection",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    },
+    {
+      "id": "system_soak",
+      "target": ">=60min",
+      "status": "not_run",
+      "evidence": null,
+      "measured_value": null
+    }
+  ]
+}

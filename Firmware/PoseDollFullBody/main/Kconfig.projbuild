@@ -1,0 +1,6 @@
+menu "PoseDoll full-body diagnostic"
+config PD_NODE_ID
+    int "Regional board number (N1 gateway, N2-N6 regional)"
+    range 1 6
+    default 1
+endmenu

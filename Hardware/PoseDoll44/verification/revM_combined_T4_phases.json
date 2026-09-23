@@ -1,0 +1,546 @@
+{
+  "manny": [
+    {
+      "axis": "head.yaw",
+      "selected": 45,
+      "trials": [
+        {
+          "phase": 0,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": -75,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_yaw_T4_rotor_face",
+                  "b": "head_roll_T4_M_split_stop_collar_right",
+                  "owner_a": "head.yaw_frame",
+                  "owner_b": "head",
+                  "volume_mm3": 0.0331,
+                  "region_a": "head",
+                  "region_b": "head",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_yaw_T4_rotor_face",
+                  "b": "head_roll_T4_M_collar_M2x8_0",
+                  "owner_a": "head.yaw_frame",
+                  "owner_b": "head",
+                  "volume_mm3": 0.0404,
+                  "region_a": "head",
+                  "region_b": "head",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.3611,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 270,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": 0,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 2.7526,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_T4_pitch_roll_frame",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head.pitch_frame",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.1505,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 90,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": 0,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 2.7526,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_T4_pitch_roll_frame",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head.pitch_frame",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.1505,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 180,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": -75,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.6317,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 45,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "axis": "upperarm_l.twist",
+      "selected": 45,
+      "trials": [
+        {
+          "phase": 0,
+          "error": "('upperarm_l.twist', 0.0, 0.19414210738128984)"
+        },
+        {
+          "phase": 270,
+          "error": "('upperarm_l.twist', -90.0, 0.1941421073807172)"
+        },
+        {
+          "phase": 90,
+          "error": "('upperarm_l.twist', 90.0, 0.19414210738129845)"
+        },
+        {
+          "phase": 180,
+          "bad": [
+            {
+              "pose": {
+                "upperarm_l.abduct": -29.999999999999996,
+                "upperarm_l.twist": -90.0,
+                "upperarm_l.flex": -50.0
+              },
+              "hits": [
+                {
+                  "a": "l_abduct_ring_and_twist_seat",
+                  "b": "l_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_l.abduct_frame",
+                  "owner_b": "upperarm_l.flex_frame",
+                  "volume_mm3": 0.4308,
+                  "region_a": "upperarm_l",
+                  "region_b": "upperarm_l",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "l_twist_rotor_face",
+                  "b": "l_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_l",
+                  "owner_b": "upperarm_l.flex_frame",
+                  "volume_mm3": 0.3057,
+                  "region_a": "upperarm_l",
+                  "region_b": "upperarm_l",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 45,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "axis": "upperarm_r.twist",
+      "selected": 45,
+      "trials": [
+        {
+          "phase": 0,
+          "bad": [
+            {
+              "pose": {
+                "upperarm_r.abduct": -29.999999999999996,
+                "upperarm_r.twist": -90.0,
+                "upperarm_r.flex": -50.0
+              },
+              "hits": [
+                {
+                  "a": "r_abduct_ring_and_twist_seat",
+                  "b": "r_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_r.abduct_frame",
+                  "owner_b": "upperarm_r.flex_frame",
+                  "volume_mm3": 0.4308,
+                  "region_a": "upperarm_r",
+                  "region_b": "upperarm_r",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "r_twist_rotor_face",
+                  "b": "r_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_r",
+                  "owner_b": "upperarm_r.flex_frame",
+                  "volume_mm3": 0.3057,
+                  "region_a": "upperarm_r",
+                  "region_b": "upperarm_r",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 270,
+          "error": "('upperarm_r.twist', -90.0, 0.19414210738137008)"
+        },
+        {
+          "phase": 90,
+          "error": "('upperarm_r.twist', 90.0, 0.19414210738083287)"
+        },
+        {
+          "phase": 180,
+          "error": "('upperarm_r.twist', 0.0, 0.19414210738136845)"
+        },
+        {
+          "phase": 45,
+          "bad": []
+        }
+      ]
+    }
+  ],
+  "quinn": [
+    {
+      "axis": "head.yaw",
+      "selected": 45,
+      "trials": [
+        {
+          "phase": 0,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": -75,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_yaw_T4_rotor_face",
+                  "b": "head_roll_T4_M_split_stop_collar_right",
+                  "owner_a": "head.yaw_frame",
+                  "owner_b": "head",
+                  "volume_mm3": 0.0331,
+                  "region_a": "head",
+                  "region_b": "head",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_yaw_T4_rotor_face",
+                  "b": "head_roll_T4_M_collar_M2x8_0",
+                  "owner_a": "head.yaw_frame",
+                  "owner_b": "head",
+                  "volume_mm3": 0.0404,
+                  "region_a": "head",
+                  "region_b": "head",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.3611,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 270,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": 0,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 2.7526,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_T4_pitch_roll_frame",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head.pitch_frame",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.1505,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 90,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": 0,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 2.7526,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "head_T4_pitch_roll_frame",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head.pitch_frame",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.1505,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 180,
+          "bad": [
+            {
+              "pose": {
+                "head.yaw": -75,
+                "head.pitch": -45,
+                "head.roll": -35
+              },
+              "hits": [
+                {
+                  "a": "head_roll_T4_rotor_face",
+                  "b": "chest_M_body_frame",
+                  "owner_a": "head",
+                  "owner_b": "chest",
+                  "volume_mm3": 0.6317,
+                  "region_a": "head",
+                  "region_b": "chest",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 45,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "axis": "upperarm_l.twist",
+      "selected": 45,
+      "trials": [
+        {
+          "phase": 0,
+          "error": "('upperarm_l.twist', 0.0, 0.1941421073799386)"
+        },
+        {
+          "phase": 270,
+          "error": "('upperarm_l.twist', -90.0, 0.19414210738025323)"
+        },
+        {
+          "phase": 90,
+          "error": "('upperarm_l.twist', 90.0, 0.1941421073799386)"
+        },
+        {
+          "phase": 180,
+          "bad": [
+            {
+              "pose": {
+                "upperarm_l.abduct": -29.999999999999996,
+                "upperarm_l.twist": -90.0,
+                "upperarm_l.flex": -50.0
+              },
+              "hits": [
+                {
+                  "a": "l_abduct_ring_and_twist_seat",
+                  "b": "l_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_l.abduct_frame",
+                  "owner_b": "upperarm_l.flex_frame",
+                  "volume_mm3": 0.4308,
+                  "region_a": "upperarm_l",
+                  "region_b": "upperarm_l",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "l_twist_rotor_face",
+                  "b": "l_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_l",
+                  "owner_b": "upperarm_l.flex_frame",
+                  "volume_mm3": 0.3057,
+                  "region_a": "upperarm_l",
+                  "region_b": "upperarm_l",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 45,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "axis": "upperarm_r.twist",
+      "selected": 45,
+      "trials": [
+        {
+          "phase": 0,
+          "bad": [
+            {
+              "pose": {
+                "upperarm_r.abduct": -29.999999999999996,
+                "upperarm_r.twist": -90.0,
+                "upperarm_r.flex": -50.0
+              },
+              "hits": [
+                {
+                  "a": "r_abduct_ring_and_twist_seat",
+                  "b": "r_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_r.abduct_frame",
+                  "owner_b": "upperarm_r.flex_frame",
+                  "volume_mm3": 0.4308,
+                  "region_a": "upperarm_r",
+                  "region_b": "upperarm_r",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                },
+                {
+                  "a": "r_twist_rotor_face",
+                  "b": "r_flex_clutch_inner_M3x8",
+                  "owner_a": "upperarm_r",
+                  "owner_b": "upperarm_r.flex_frame",
+                  "volume_mm3": 0.3057,
+                  "region_a": "upperarm_r",
+                  "region_b": "upperarm_r",
+                  "classification": "structural",
+                  "reason": "internal_or_neighbouring_mechanisms"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "phase": 270,
+          "error": "('upperarm_r.twist', -90.0, 0.1941421073817769)"
+        },
+        {
+          "phase": 90,
+          "error": "('upperarm_r.twist', 90.0, 0.19414210738118406)"
+        },
+        {
+          "phase": 180,
+          "error": "('upperarm_r.twist', 0.0, 0.19414210738091875)"
+        },
+        {
+          "phase": 45,
+          "bad": []
+        }
+      ]
+    }
+  ]
+}

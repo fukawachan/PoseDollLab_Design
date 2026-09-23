@@ -1,0 +1,146 @@
+{
+  "-1": {
+    "meta": {
+      "shaft_end": 42,
+      "clip_sign": -1,
+      "nominal_force_N": 1114,
+      "gap_mm": 1.5,
+      "magnet_face_mm": -18.3,
+      "board_back_mm": -21.795,
+      "intended_thread_pairs": [
+        [
+          "stepped_D4_shaft",
+          "preload_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "jam_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_0"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_1"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_0"
+        ],
+        [
+          "post_0",
+          "board_M2x6_0"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_1"
+        ],
+        [
+          "post_1",
+          "board_M2x6_1"
+        ]
+      ],
+      "manufacturing_released": false
+    },
+    "static": [],
+    "motion": [
+      {
+        "angle": -20,
+        "hits": []
+      },
+      {
+        "angle": 0,
+        "hits": []
+      },
+      {
+        "angle": 15,
+        "hits": []
+      },
+      {
+        "angle": 30,
+        "hits": []
+      }
+    ]
+  },
+  "1": {
+    "meta": {
+      "shaft_end": 42,
+      "clip_sign": 1,
+      "nominal_force_N": 1114,
+      "gap_mm": 1.5,
+      "magnet_face_mm": -18.3,
+      "board_back_mm": -21.795,
+      "intended_thread_pairs": [
+        [
+          "stepped_D4_shaft",
+          "preload_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "jam_nut"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_0"
+        ],
+        [
+          "stepped_D4_shaft",
+          "cup_M2x5_1"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_0"
+        ],
+        [
+          "removable_D3_magnet_cup",
+          "keeper_M2x3_1"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_0"
+        ],
+        [
+          "post_0",
+          "board_M2x6_0"
+        ],
+        [
+          "fixed_reaction_plate",
+          "post_1"
+        ],
+        [
+          "post_1",
+          "board_M2x6_1"
+        ]
+      ],
+      "manufacturing_released": false
+    },
+    "static": [],
+    "motion": [
+      {
+        "angle": -20,
+        "hits": []
+      },
+      {
+        "angle": 0,
+        "hits": []
+      },
+      {
+        "angle": 15,
+        "hits": []
+      },
+      {
+        "angle": 30,
+        "hits": []
+      }
+    ]
+  }
+}

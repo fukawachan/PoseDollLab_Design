@@ -1,0 +1,7066 @@
+{
+  "schema": "posedoll.harness/1",
+  "character": "quinn",
+  "source_cad_sha256": {
+    "cad\\build.py": "3e1f8124d1566cf97256f5c6725186d8e77dc0b49b25fd5b7c5ad914f126c4f2",
+    "cad\\collision_policy.py": "c828fdedc455083373967a68dd59d21cfe772dc3343739b318cf98820d641ce1",
+    "cad\\fits.py": "1e0c5e46c0f5af77cb5efd344a475f3513d0cbe19963f30dfca4f08b333c1d67",
+    "cad\\model.py": "022f0bf7157c10d062c55667e3813cd4015412576c6091a5b4ae69151c08002b",
+    "cad\\parts.py": "1f5539e86409e7db174b840ebb374be091f317366983c76943239eed2bf3c660",
+    "cad\\revE\\character_reference.py": "402f17060a8e832c9d6177ad460031a8e16f52c3808f4fa02d2434a07bec0236",
+    "cad\\revG\\centerline_study.py": "afbe4c276896e4bd63e34b048bb8e1d5dac24e3a292795d379ed619e4250b397",
+    "cad\\revH\\shoulder_mechanism.py": "67efaf32fb5f77dd8061207faf495cebbdc6e268aad606a499515d52feedca76",
+    "cad\\revI\\shoulder_clutch.py": "234072eada33b490e5f60f493bce06f9348ebad5ac88f6a2cb15558ae2b2c63e",
+    "cad\\revI\\shoulder_integration.py": "99594e2b06c220d7c6966853d9326a30b4fe3e21afce5ba98834f3a8b6f6ad00",
+    "cad\\revJ\\abduct_encoder.py": "a2cdc911be011f1bff5133a5946ef95dfe767bd13b6b0c3cafff66d367d8bc23",
+    "cad\\revJ\\assembly_audit.py": "2905b46f8431086e6d525f4a5ea66ef7335b74b9a643d5042cc7cb4a361253f9",
+    "cad\\revJ\\build_and_verify.py": "d78d455d438cd37b154d1993188b6edf28172e85e4fe4c4694feb7194c952c02",
+    "cad\\revJ\\drive_clamp.py": "7cd801c483059d12cf8256d50380e0c74f7f927eef04067925ec1230353fbae8",
+    "cad\\revJ\\shoulder_revision.py": "079e01d1b33311a4321bd47695f0e3086f7dce13851bafcaca020197f7587810",
+    "cad\\revK\\assembly_check_k.py": "3504a9c067098c849a72129f5114ac055461e26fdc16b8ac00f127147f5605c4",
+    "cad\\revK\\compact_twist.py": "85ba974e53064ba4d2c9640ba5ccc20913bc088e71792b7e7748efe337c240e8",
+    "cad\\revK\\mini_head.py": "718374a4b32483123f3f3af6750a179c20a00cb72afc4efc07dd570e5220245e",
+    "cad\\revK\\verify_k.py": "e1f39dda2c1ee9904b5d774394d3b90cd6cf4d439b971573ad528616ce2cb213",
+    "cad\\revL\\flex_encoder.py": "b88b233cd14bf4246c310a73bb5254cc915d2afd75e66f608322d0430cf0be01",
+    "cad\\revM\\arm_integration.py": "fed533e052965dbdd6ac73dcad03ca4e63eb35a6cdb9aed3ffcf61306a81c5bf",
+    "cad\\revM\\assembly_core.py": "356b6eea947436b39fc919414e335f280c3aefbc68df080a5a9c0791b7df3fb9",
+    "cad\\revM\\body_integration.py": "a560d90993d5fdd24fadd65659e2c6f3ea48ee7c12f9daf31cfc325eb0a8dbc4",
+    "cad\\revM\\cad_cache.py": "b1dc0fc3b075b7f21fac7081dd88d3163d0a1a0f05c96dceb58b2b9bbaaa25c4",
+    "cad\\revM\\collision_cache.py": "7fc288e63f70103bee13079871c39abc7e27cb5afaa7c57ade6de1f790a399ab",
+    "cad\\revM\\collision_review.py": "2c464ba4ffa9e92e439c49b6ea7720162c7ca8cdc5dfcd67e548f184f13dae3c",
+    "cad\\revM\\compact_axis.py": "195e4b40b5acd2489c1667b85498ec1761e75bbbaede747bd06731d195bcfbea",
+    "cad\\revM\\completed_body.py": "eacc60e9b13a8e0a613f989cdb7ac7e56a196e066076eed91417b182080b0275",
+    "cad\\revM\\electronics_pods.py": "17eb2914c31a7bd3986451cbe29e1d6154114cb3c9e9245706aa89a74db1af78",
+    "cad\\revM\\final_model.py": "0e8aedcb7f1382a63a0c2a783c4844b5a47fa54357323fb1425b8c7d3067e9ed",
+    "cad\\revM\\foot_shells.py": "f53b8020468436f315e0ae3bf1fd6a0b868974f67020132a11c37611d31214fb",
+    "cad\\revM\\full_body_audit.py": "7330757870bacb51746fcfd4c2210bcac85d2b07008727796eef2b0fbd079de7",
+    "cad\\revM\\full_packaging.py": "2ff7a2b59af1a0a4ab54f09063c07564750de18f4c87b4005aafd5037b5e5dda",
+    "cad\\revM\\girdle_cartridge.py": "77eb513fccb77cbed0bf23642e865de3e954f7b5d50176ba8fc707b0d55f05e0",
+    "cad\\revM\\girdle_integration.py": "3d4c29637ecf7bc522e6aa7c4bdf0fdc8b4e4500c06f2fceb57496dd36834587",
+    "cad\\revM\\hand_shells.py": "a7f7981159c6d9dfcb4322980f36d577bfcf06b90f55896968900b65a953b478",
+    "cad\\revM\\head_shells.py": "9bea38ae895d3aceab8ab475e37a55efee390ea9d811544e02dbd0f475be7c6d",
+    "cad\\revM\\large_sensor_heads.py": "80ce44e1e0f23bf610eef386badb7295f173d694457cbcd95f49f962ce2e974c",
+    "cad\\revM\\leg_integration.py": "34ff4512b1b7256b261f168e1986fc999f6df17150aa00c67825e44cf11ca671",
+    "cad\\revM\\legacy_threads.py": "612fb1c50d9337e70d90ac2f8acce4c65ebb387272e5ce2892cb893b8087627e",
+    "cad\\revM\\mechanism_modules.py": "26269685563afc121ed1ee5ef53da1fc424a5d85d2b619064ed0647f1d59c330",
+    "cad\\revM\\neck_module.py": "66084a5537b9572cb39a58a71e6319d8f53235a6c35ae1bd135fcac8b9271f81",
+    "cad\\revM\\power_case.py": "664d10576a78f2efd67ee7282d21e9fdda89232280a8bf3c4d739a8d1825995f",
+    "cad\\revM\\retained_bushes.py": "7c0fd798acac337d67c50d262cf4d7e3a96ab866f8ae49bd5627a63beeb4fea5",
+    "cad\\revM\\rigid_shells.py": "c6a211ed20870ea56b5076305b3d214ec8c1a212baaf97bc195d2c992deb314b",
+    "cad\\revM\\sensor_cable_heads.py": "f3c5885cb6f26ac4b51b4ca593c0eb438c8266931c5f45409e60b191f8c591aa",
+    "cad\\revM\\shell_mounts.py": "9cff8e7ced2f92656b9d6b92e06fb613243793c6462a26b425c8e92a0805c046",
+    "cad\\revM\\special_travel_stops.py": "e386fdb88ff9e49882ed35ba4734a8296d31b16a3d88f0410e2f64e09515cd79",
+    "cad\\revM\\toe_caps.py": "1627ce10d7bcb054fac48dc6da95ade622acc5440a78e24ec722496d0f0b440f",
+    "cad\\revM\\torso_shells.py": "6319228ada377263d24e77841c2c034fa6cfff4f04992a91dae9949b166fcc27",
+    "cad\\revM\\travel_stops.py": "4bddcc72015d6c77e0e1371b9f0ed49fa3be1ad10209128b84e33d25bfd54cc5",
+    "cad\\revM\\trunk_dual_friction.py": "45f52ea1b3ba53235e9f62f93fbe47d54583d51e263b3e01f4d46bb8040a3e6b",
+    "cad\\revM\\trunk_integration.py": "ab670bf34e70cfa0272c24cec29ef2f5e44c8f3e36345cfa9366e349ed2eb02d",
+    "cad\\revM\\twist_completion.py": "2144fb515d9aa0eb2fb7bf0bd9c0d1a637f5b9a6bee66c480bdd469feb35298c",
+    "cad\\revM\\wire_saddles.py": "46f54ee86b418c833e0609463d67d6b9ec6089c40170396ef90a06adb6f69fc9",
+    "cad\\revM\\wrist_integration.py": "f1820de14a870424b2e13d3019c099c9c1ac817e5eb03fa6416beecc68144a9e",
+    "electronics\\power_revM\\pad_map.json": "8429cb0a21c4e555a4a483974719f85ff41a71a07e1e4d29438f4c9f9e6077cf",
+    "electronics\\power_revM\\power_assembly_work.step": "bb0b73133e8c8522fe06e67095e64930e305bda9a33a37dc5662de48b42e3455",
+    "electronics\\regional_revM\\regional_assembly_work.step": "21643a6fb2441387af1ebb8c1921555f715d4b727fed4ae00f7cecb3ca9f767d",
+    "generated\\revC\\step\\sensor_revB.step": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+    "generated\\revE\\manny\\neutral_landmarks.json": "b779173a4eb6fbc75b519aa520ebc73054376c74487f42afe6d0873f11ad7a22",
+    "generated\\revE\\quinn\\neutral_landmarks.json": "e84429a17fabc4c452b3ceb8ab5a946a27e35092145f2ee592fe093618fb4c3c",
+    "generated\\revK\\components\\sensor_revC_mini.step": "7cdc9c2099518fb0b673eafbd911d888b35d03a63a7fae74a5ed48d57f1e098f",
+    "mechanical_manifest\\physical_manny_44_revG_humanform_trial.json": "c4da2d61d0c079b406ae46e6b8e80630c836cee9abccbee10ec67d89cee2ddfc",
+    "mechanical_manifest\\physical_quinn_44_revG_humanform_trial.json": "e10426f26c128bb924b65b43ed780a95432656914bcc9333f38dc55f64f96a49",
+    "verification\\revE_proportion_baselines.json": "2f79597fac1165780e6d43dea0d641162a8246b50bfa80d36b982680510dca29",
+    "verification\\revG_surface_envelopes.json": "7b12f563490f9400ddc0fe352c247d39ca36caf88e0618444a80863e13f126e4"
+  },
+  "source_sha256": {
+    "mechanical_manifest/interfaces_revM_quinn.json": "315d8443869da174747a99cb0ca9148b730f4f48ea8a497d3b2451bcc88c668c",
+    "mechanical_manifest/wire_anchors_revM_quinn.json": "704a57900fd96ab882fa62085864c9d8a6037cfc6e50b2a2cc173346eccaa141",
+    "mechanical_manifest/network_revM.json": "91aae06b78ab7208afa6b0e7c610bad29bd738db016b9f7fd5188ed9301a05e2"
+  },
+  "physical_validated": false,
+  "CAN_linear_order": [
+    6,
+    1,
+    5,
+    3,
+    2,
+    4
+  ],
+  "termination_nodes": [
+    6,
+    4
+  ],
+  "sensor_count": 41,
+  "cables": [
+    {
+      "id": "S03",
+      "kind": "sensor",
+      "axis_id": "waist.yaw",
+      "node": 1,
+      "port": 1,
+      "from_connector": "N1.J11",
+      "to_connector": "waist.yaw.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 290,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -12.0,
+            -18.649999999999977
+          ],
+          "label": "N1.J11",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            -12.0,
+            -30.86600407021683
+          ],
+          "label": "N1.internal_S_1",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -7.0,
+            -78.0
+          ],
+          "label": "N1.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            0.4695540685706243,
+            4.795410864729652e-13,
+            5.369509269895502
+          ],
+          "label": "waist.yaw.J1",
+          "attachment": "waist_yaw_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N1.J11",
+          "to_label": "N1.internal_S_1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N1.internal_S_1",
+          "to_label": "N1.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N1.exit",
+          "to_label": "waist.yaw.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 140.98,
+          "allocated_mm": 144.98,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.624
+    },
+    {
+      "id": "S04",
+      "kind": "sensor",
+      "axis_id": "waist.pitch",
+      "node": 1,
+      "port": 2,
+      "from_connector": "N1.J12",
+      "to_connector": "waist.pitch.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 430,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            0.0,
+            -18.649999999999977
+          ],
+          "label": "N1.J12",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            0.0,
+            -30.86600407021683
+          ],
+          "label": "N1.internal_S_2",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -78.0
+          ],
+          "label": "N1.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "waist.yaw_frame",
+          "local_mm": [
+            0.0,
+            59.871,
+            -6.899999999999977
+          ],
+          "label": "waist.pitch.J1",
+          "attachment": "waist_pitch_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N1.J12",
+          "to_label": "N1.internal_S_2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N1.internal_S_2",
+          "to_label": "N1.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.29,
+          "allocated_mm": 51.29,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N1.exit",
+          "to_label": "waist.pitch.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 240.02,
+          "allocated_mm": 287.72,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.505
+    },
+    {
+      "id": "S05",
+      "kind": "sensor",
+      "axis_id": "waist.roll",
+      "node": 1,
+      "port": 3,
+      "from_connector": "N1.J13",
+      "to_connector": "waist.roll.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 440,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            12.0,
+            -18.649999999999977
+          ],
+          "label": "N1.J13",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            12.0,
+            -30.86600407021683
+          ],
+          "label": "N1.internal_S_3",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            7.0,
+            -78.0
+          ],
+          "label": "N1.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "waist.pitch_frame",
+          "local_mm": [
+            67.871,
+            4.225031457058123e-16,
+            6.899999999999977
+          ],
+          "label": "waist.roll.J1",
+          "attachment": "waist_roll_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N1.J13",
+          "to_label": "N1.internal_S_3",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N1.internal_S_3",
+          "to_label": "N1.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N1.exit",
+          "to_label": "waist.roll.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 248.11,
+          "allocated_mm": 295.81,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.568
+    },
+    {
+      "id": "S06",
+      "kind": "sensor",
+      "axis_id": "chest.yaw",
+      "node": 2,
+      "port": 1,
+      "from_connector": "N2.J11",
+      "to_connector": "chest.yaw.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 370,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -12.0,
+            46.35000000000002
+          ],
+          "label": "N2.J11",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            -12.0,
+            34.13399592978317
+          ],
+          "label": "N2.internal_S_1",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -7.0,
+            -13.0
+          ],
+          "label": "N2.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "waist",
+          "local_mm": [
+            -7.339730329431689,
+            1.1387764045015224e-12,
+            0.4317759933404659
+          ],
+          "label": "chest.yaw.J1",
+          "attachment": "chest_yaw_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J11",
+          "to_label": "N2.internal_S_1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.internal_S_1",
+          "to_label": "N2.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.exit",
+          "to_label": "chest.yaw.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 177.01,
+          "allocated_mm": 224.71,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.128
+    },
+    {
+      "id": "S07",
+      "kind": "sensor",
+      "axis_id": "chest.pitch",
+      "node": 2,
+      "port": 2,
+      "from_connector": "N2.J12",
+      "to_connector": "chest.pitch.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 370,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            0.0,
+            46.35000000000002
+          ],
+          "label": "N2.J12",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            0.0,
+            34.13399592978317
+          ],
+          "label": "N2.internal_S_2",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -13.0
+          ],
+          "label": "N2.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest.yaw_frame",
+          "local_mm": [
+            0.0,
+            -58.671,
+            6.899999999999977
+          ],
+          "label": "chest.pitch.J1",
+          "attachment": "chest_pitch_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J12",
+          "to_label": "N2.internal_S_2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.internal_S_2",
+          "to_label": "N2.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.29,
+          "allocated_mm": 51.29,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.exit",
+          "to_label": "chest.pitch.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 172.82,
+          "allocated_mm": 220.52,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.128
+    },
+    {
+      "id": "S08",
+      "kind": "sensor",
+      "axis_id": "chest.roll",
+      "node": 2,
+      "port": 3,
+      "from_connector": "N2.J13",
+      "to_connector": "chest.roll.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 350,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            12.0,
+            46.35000000000002
+          ],
+          "label": "N2.J13",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            12.0,
+            34.13399592978317
+          ],
+          "label": "N2.internal_S_3",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            7.0,
+            -13.0
+          ],
+          "label": "N2.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest.pitch_frame",
+          "local_mm": [
+            41.67099999999999,
+            -4.225031457058123e-16,
+            -6.899999999999977
+          ],
+          "label": "chest.roll.J1",
+          "attachment": "chest_roll_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J13",
+          "to_label": "N2.internal_S_3",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.internal_S_3",
+          "to_label": "N2.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.exit",
+          "to_label": "chest.roll.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 156.2,
+          "allocated_mm": 203.9,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.002
+    },
+    {
+      "id": "S09",
+      "kind": "sensor",
+      "axis_id": "head.yaw",
+      "node": 2,
+      "port": 4,
+      "from_connector": "N2.J14",
+      "to_connector": "head.yaw.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 300,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -12.0,
+            35.35000000000002
+          ],
+          "label": "N2.J14",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            -12.0,
+            24.09166975080234
+          ],
+          "label": "N2.internal_S_4",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -7.0,
+            -13.0
+          ],
+          "label": "N2.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -24.397654000237946,
+            6.89999765749673,
+            124.04601764750839
+          ],
+          "label": "head.yaw.J1",
+          "attachment": "head_yaw_T4_sensor_board_seat_saddle_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J14",
+          "to_label": "N2.internal_S_4",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.internal_S_4",
+          "to_label": "N2.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.exit",
+          "to_label": "head.yaw.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 163.78,
+          "allocated_mm": 167.78,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.687
+    },
+    {
+      "id": "S10",
+      "kind": "sensor",
+      "axis_id": "head.pitch",
+      "node": 2,
+      "port": 5,
+      "from_connector": "N2.J15",
+      "to_connector": "head.pitch.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 440,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            0.0,
+            35.35000000000002
+          ],
+          "label": "N2.J15",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            0.0,
+            24.09166975080234
+          ],
+          "label": "N2.internal_S_5",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -13.0
+          ],
+          "label": "N2.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "head.yaw_frame",
+          "local_mm": [
+            0.0,
+            -52.145,
+            -6.899999999999977
+          ],
+          "label": "head.pitch.J1",
+          "attachment": "head_pitch_T4_sensor_board_seat_saddle_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J15",
+          "to_label": "N2.internal_S_5",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.internal_S_5",
+          "to_label": "N2.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.13,
+          "allocated_mm": 41.13,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.exit",
+          "to_label": "head.pitch.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 257.89,
+          "allocated_mm": 305.59,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.568
+    },
+    {
+      "id": "S11",
+      "kind": "sensor",
+      "axis_id": "head.roll",
+      "node": 2,
+      "port": 6,
+      "from_connector": "N2.J16",
+      "to_connector": "head.roll.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 440,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            12.0,
+            35.35000000000002
+          ],
+          "label": "N2.J16",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            12.0,
+            24.09166975080234
+          ],
+          "label": "N2.internal_S_6",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            7.0,
+            -13.0
+          ],
+          "label": "N2.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "head.pitch_frame",
+          "local_mm": [
+            -52.144999999999996,
+            0.0,
+            6.899999999999977
+          ],
+          "label": "head.roll.J1",
+          "attachment": "head_roll_T4_sensor_board_seat_saddle_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J16",
+          "to_label": "N2.internal_S_6",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.internal_S_6",
+          "to_label": "N2.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N2.exit",
+          "to_label": "head.roll.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 258.01,
+          "allocated_mm": 305.71,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.568
+    },
+    {
+      "id": "S12",
+      "kind": "sensor",
+      "axis_id": "clavicle_l.protract",
+      "node": 3,
+      "port": 1,
+      "from_connector": "N3.J11",
+      "to_connector": "clavicle_l.protract.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 260,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            34.0,
+            46.35000000000002
+          ],
+          "label": "N3.J11",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            34.0,
+            34.13399592978317
+          ],
+          "label": "N3.internal_S_1",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            39.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -29.252577674576198,
+            11.556799445539976,
+            54.569624690630235
+          ],
+          "label": "clavicle_l.protract.J1",
+          "attachment": "clavicle_l_protract_G4_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J11",
+          "to_label": "N3.internal_S_1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_1",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "clavicle_l.protract.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 111.05,
+          "allocated_mm": 115.05,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.436
+    },
+    {
+      "id": "S13",
+      "kind": "sensor",
+      "axis_id": "clavicle_l.elevate",
+      "node": 3,
+      "port": 2,
+      "from_connector": "N3.J12",
+      "to_connector": "clavicle_l.elevate.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 430,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            46.0,
+            46.35000000000002
+          ],
+          "label": "N3.J12",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            46.0,
+            34.13399592978317
+          ],
+          "label": "N3.internal_S_2",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "clavicle_l.protract_frame",
+          "local_mm": [
+            81.445,
+            -6.9,
+            0.0
+          ],
+          "label": "clavicle_l.elevate.J1",
+          "attachment": "clavicle_l_elevate_G4_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J12",
+          "to_label": "N3.internal_S_2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_2",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.29,
+          "allocated_mm": 51.29,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "clavicle_l.elevate.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 238.59,
+          "allocated_mm": 286.29,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.505
+    },
+    {
+      "id": "S14",
+      "kind": "sensor",
+      "axis_id": "upperarm_l.flex",
+      "node": 3,
+      "port": 3,
+      "from_connector": "N3.J13",
+      "to_connector": "upperarm_l.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 370,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            58.0,
+            46.35000000000002
+          ],
+          "label": "N3.J13",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            58.0,
+            34.13399592978317
+          ],
+          "label": "N3.internal_S_3",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            53.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "clavicle_l",
+          "local_mm": [
+            4.7862623288991415,
+            12.198931265523584,
+            -10.89837752347023
+          ],
+          "label": "upperarm_l.flex.J1",
+          "attachment": "l_flex_sensor_threaded_standoff_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J13",
+          "to_label": "N3.internal_S_3",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_3",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "upperarm_l.flex.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 175.88,
+          "allocated_mm": 223.58,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.128
+    },
+    {
+      "id": "S15",
+      "kind": "sensor",
+      "axis_id": "upperarm_l.abduct",
+      "node": 3,
+      "port": 4,
+      "from_connector": "N3.J14",
+      "to_connector": "upperarm_l.abduct.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 460,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            34.0,
+            35.35000000000002
+          ],
+          "label": "N3.J14",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            34.0,
+            24.09166975080234
+          ],
+          "label": "N3.internal_S_4",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            39.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_l.flex_frame",
+          "local_mm": [
+            -43.544999999999995,
+            0.29999999999999716,
+            0.0
+          ],
+          "label": "upperarm_l.abduct.J1",
+          "attachment": "l_abduct_sensor_nylon_spacer_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J14",
+          "to_label": "N3.internal_S_4",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_4",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "upperarm_l.abduct.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 275.13,
+          "allocated_mm": 322.83,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.694
+    },
+    {
+      "id": "S16",
+      "kind": "sensor",
+      "axis_id": "upperarm_l.twist",
+      "node": 3,
+      "port": 5,
+      "from_connector": "N3.J15",
+      "to_connector": "upperarm_l.twist.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 430,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            46.0,
+            35.35000000000002
+          ],
+          "label": "N3.J15",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            46.0,
+            24.09166975080234
+          ],
+          "label": "N3.internal_S_5",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_l.abduct_frame",
+          "local_mm": [
+            0.0,
+            6.900000000000006,
+            14.144999999999982
+          ],
+          "label": "upperarm_l.twist.J1",
+          "attachment": "l_twist_sensor_board_seat_saddle_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J15",
+          "to_label": "N3.internal_S_5",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_5",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.13,
+          "allocated_mm": 41.13,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "upperarm_l.twist.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 249.02,
+          "allocated_mm": 296.72,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.505
+    },
+    {
+      "id": "S17",
+      "kind": "sensor",
+      "axis_id": "elbow_l.flex",
+      "node": 3,
+      "port": 6,
+      "from_connector": "N3.J16",
+      "to_connector": "elbow_l.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 560,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            58.0,
+            35.35000000000002
+          ],
+          "label": "N3.J16",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            58.0,
+            24.09166975080234
+          ],
+          "label": "N3.internal_S_6",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            53.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_l",
+          "local_mm": [
+            2.4868995751603507e-14,
+            8.800000000000082,
+            -70.47588253021206
+          ],
+          "label": "A_upperarm_l",
+          "attachment": "elbow_l_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "upperarm_l",
+          "local_mm": [
+            6.8999999999999915,
+            25.59599999999999,
+            -135.4517650604247
+          ],
+          "label": "elbow_l.flex.J1",
+          "attachment": "elbow_l_flex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J16",
+          "to_label": "N3.internal_S_6",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_6",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "A_upperarm_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 306.29,
+          "allocated_mm": 353.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_l",
+          "to_label": "elbow_l.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 67.47,
+          "allocated_mm": 71.47,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.323
+    },
+    {
+      "id": "S18",
+      "kind": "sensor",
+      "axis_id": "forearm_l.twist",
+      "node": 3,
+      "port": 7,
+      "from_connector": "N3.J17",
+      "to_connector": "forearm_l.twist.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 620,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            34.0,
+            24.350000000000023
+          ],
+          "label": "N3.J17",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -112.89376107407499,
+            34.0,
+            14.391422239453277
+          ],
+          "label": "N3.internal_S_7",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            39.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_l",
+          "local_mm": [
+            2.4868995751603507e-14,
+            8.800000000000082,
+            -70.47588253021206
+          ],
+          "label": "A_upperarm_l",
+          "attachment": "elbow_l_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "elbow_l",
+          "local_mm": [
+            -1.7763568394002505e-14,
+            -6.90000000000002,
+            -38.89310894393918
+          ],
+          "label": "forearm_l.twist.J1",
+          "attachment": "forearm_l_twist_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J17",
+          "to_label": "N3.internal_S_7",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_7",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.84,
+          "allocated_mm": 31.84,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "A_upperarm_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 302.61,
+          "allocated_mm": 350.31,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_l",
+          "to_label": "forearm_l.twist.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 105.07,
+          "allocated_mm": 152.77,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.701
+    },
+    {
+      "id": "S19",
+      "kind": "sensor",
+      "axis_id": "hand_l.flex",
+      "node": 3,
+      "port": 8,
+      "from_connector": "N3.J18",
+      "to_connector": "hand_l.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 740,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            46.0,
+            24.350000000000023
+          ],
+          "label": "N3.J18",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -112.89376107407499,
+            46.0,
+            14.391422239453277
+          ],
+          "label": "N3.internal_S_8",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_l",
+          "local_mm": [
+            2.4868995751603507e-14,
+            8.800000000000082,
+            -70.47588253021206
+          ],
+          "label": "A_upperarm_l",
+          "attachment": "elbow_l_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "forearm_l",
+          "local_mm": [
+            -20.00000000000001,
+            38.79999999999997,
+            -54.40584435462927
+          ],
+          "label": "A_forearm_l",
+          "attachment": "forearm_l_twist_M_distal_forearm_carrier"
+        },
+        {
+          "owner": "forearm_l",
+          "local_mm": [
+            -6.900000000000009,
+            45.82099999999997,
+            -71.76168870925909
+          ],
+          "label": "hand_l.flex.J1",
+          "attachment": "hand_l_flex_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J18",
+          "to_label": "N3.internal_S_8",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_8",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.39,
+          "allocated_mm": 31.39,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "A_upperarm_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 304.31,
+          "allocated_mm": 352.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_l",
+          "to_label": "A_forearm_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 194.04,
+          "allocated_mm": 241.73,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_forearm_l",
+          "to_label": "hand_l.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 22.85,
+          "allocated_mm": 26.85,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 5.456
+    },
+    {
+      "id": "S20",
+      "kind": "sensor",
+      "axis_id": "hand_l.deviate",
+      "node": 3,
+      "port": 9,
+      "from_connector": "N3.J19",
+      "to_connector": "hand_l.deviate.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 850,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            58.0,
+            24.350000000000023
+          ],
+          "label": "N3.J19",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -112.89376107407499,
+            58.0,
+            14.391422239453277
+          ],
+          "label": "N3.internal_S_9",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            53.0,
+            -13.0
+          ],
+          "label": "N3.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_l",
+          "local_mm": [
+            2.4868995751603507e-14,
+            8.800000000000082,
+            -70.47588253021206
+          ],
+          "label": "A_upperarm_l",
+          "attachment": "elbow_l_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "forearm_l",
+          "local_mm": [
+            -20.00000000000001,
+            38.79999999999997,
+            -54.40584435462927
+          ],
+          "label": "A_forearm_l",
+          "attachment": "forearm_l_twist_M_distal_forearm_carrier"
+        },
+        {
+          "owner": "hand_l.flex_frame",
+          "local_mm": [
+            33.821,
+            0.0,
+            -6.899999999999977
+          ],
+          "label": "hand_l.deviate.J1",
+          "attachment": "hand_l_deviate_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J19",
+          "to_label": "N3.internal_S_9",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.internal_S_9",
+          "to_label": "N3.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.84,
+          "allocated_mm": 31.84,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N3.exit",
+          "to_label": "A_upperarm_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 306.29,
+          "allocated_mm": 353.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_l",
+          "to_label": "A_forearm_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 194.04,
+          "allocated_mm": 241.73,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_forearm_l",
+          "to_label": "hand_l.deviate.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 81.49,
+          "allocated_mm": 129.19,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 6.148
+    },
+    {
+      "id": "S28",
+      "kind": "sensor",
+      "axis_id": "clavicle_r.protract",
+      "node": 4,
+      "port": 1,
+      "from_connector": "N4.J11",
+      "to_connector": "clavicle_r.protract.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 250,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -58.0,
+            46.35000000000002
+          ],
+          "label": "N4.J11",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            -58.0,
+            34.13399592978317
+          ],
+          "label": "N4.internal_S_1",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -53.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -29.252565268527082,
+            -11.556798532594236,
+            13.567350941794984
+          ],
+          "label": "clavicle_r.protract.J1",
+          "attachment": "clavicle_r_protract_G4_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J11",
+          "to_label": "N4.internal_S_1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_1",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "clavicle_r.protract.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 97.14,
+          "allocated_mm": 101.14,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.373
+    },
+    {
+      "id": "S29",
+      "kind": "sensor",
+      "axis_id": "clavicle_r.elevate",
+      "node": 4,
+      "port": 2,
+      "from_connector": "N4.J12",
+      "to_connector": "clavicle_r.elevate.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 430,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -46.0,
+            46.35000000000002
+          ],
+          "label": "N4.J12",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            -46.0,
+            34.13399592978317
+          ],
+          "label": "N4.internal_S_2",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "clavicle_r.protract_frame",
+          "local_mm": [
+            -81.445,
+            6.9,
+            0.0
+          ],
+          "label": "clavicle_r.elevate.J1",
+          "attachment": "clavicle_r_elevate_G4_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J12",
+          "to_label": "N4.internal_S_2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_2",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.29,
+          "allocated_mm": 51.29,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "clavicle_r.elevate.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 238.59,
+          "allocated_mm": 286.29,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.505
+    },
+    {
+      "id": "S30",
+      "kind": "sensor",
+      "axis_id": "upperarm_r.flex",
+      "node": 4,
+      "port": 3,
+      "from_connector": "N4.J13",
+      "to_connector": "upperarm_r.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 370,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -34.0,
+            46.35000000000002
+          ],
+          "label": "N4.J13",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -116.8037381367663,
+            -34.0,
+            34.13399592978317
+          ],
+          "label": "N4.internal_S_3",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -39.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "clavicle_r",
+          "local_mm": [
+            4.786243572367788,
+            -12.19869795879805,
+            -10.896314245616281
+          ],
+          "label": "upperarm_r.flex.J1",
+          "attachment": "r_flex_sensor_threaded_standoff_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J13",
+          "to_label": "N4.internal_S_3",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_3",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "upperarm_r.flex.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 172.19,
+          "allocated_mm": 219.89,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.128
+    },
+    {
+      "id": "S31",
+      "kind": "sensor",
+      "axis_id": "upperarm_r.abduct",
+      "node": 4,
+      "port": 4,
+      "from_connector": "N4.J14",
+      "to_connector": "upperarm_r.abduct.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 460,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -58.0,
+            35.35000000000002
+          ],
+          "label": "N4.J14",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            -58.0,
+            24.09166975080234
+          ],
+          "label": "N4.internal_S_4",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -53.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_r.flex_frame",
+          "local_mm": [
+            -43.54499999999999,
+            -0.29999999999999716,
+            0.0
+          ],
+          "label": "upperarm_r.abduct.J1",
+          "attachment": "r_abduct_sensor_nylon_spacer_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J14",
+          "to_label": "N4.internal_S_4",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_4",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "upperarm_r.abduct.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 278.81,
+          "allocated_mm": 326.51,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.694
+    },
+    {
+      "id": "S32",
+      "kind": "sensor",
+      "axis_id": "upperarm_r.twist",
+      "node": 4,
+      "port": 5,
+      "from_connector": "N4.J15",
+      "to_connector": "upperarm_r.twist.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 430,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -46.0,
+            35.35000000000002
+          ],
+          "label": "N4.J15",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            -46.0,
+            24.09166975080234
+          ],
+          "label": "N4.internal_S_5",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_r.abduct_frame",
+          "local_mm": [
+            0.0,
+            -6.900000000000006,
+            14.144999999999982
+          ],
+          "label": "upperarm_r.twist.J1",
+          "attachment": "r_twist_sensor_board_seat_saddle_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J15",
+          "to_label": "N4.internal_S_5",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_5",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.13,
+          "allocated_mm": 41.13,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "upperarm_r.twist.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 249.02,
+          "allocated_mm": 296.72,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.505
+    },
+    {
+      "id": "S33",
+      "kind": "sensor",
+      "axis_id": "elbow_r.flex",
+      "node": 4,
+      "port": 6,
+      "from_connector": "N4.J16",
+      "to_connector": "elbow_r.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 560,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -34.0,
+            35.35000000000002
+          ],
+          "label": "N4.J16",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -114.75,
+            -34.0,
+            24.09166975080234
+          ],
+          "label": "N4.internal_S_6",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -39.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_r",
+          "local_mm": [
+            3.552713678800501e-15,
+            -8.800000000000011,
+            -70.47480964660633
+          ],
+          "label": "A_upperarm_r",
+          "attachment": "elbow_r_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "upperarm_r",
+          "local_mm": [
+            -6.900000000000002,
+            -25.59599999999999,
+            -135.44961929321278
+          ],
+          "label": "elbow_r.flex.J1",
+          "attachment": "elbow_r_flex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J16",
+          "to_label": "N4.internal_S_6",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_6",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "A_upperarm_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 302.6,
+          "allocated_mm": 350.3,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_r",
+          "to_label": "elbow_r.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 67.46,
+          "allocated_mm": 71.46,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.323
+    },
+    {
+      "id": "S34",
+      "kind": "sensor",
+      "axis_id": "forearm_r.twist",
+      "node": 4,
+      "port": 7,
+      "from_connector": "N4.J17",
+      "to_connector": "forearm_r.twist.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 630,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -58.0,
+            24.350000000000023
+          ],
+          "label": "N4.J17",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -112.89376107407499,
+            -58.0,
+            14.391422239453277
+          ],
+          "label": "N4.internal_S_7",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -53.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_r",
+          "local_mm": [
+            3.552713678800501e-15,
+            -8.800000000000011,
+            -70.47480964660633
+          ],
+          "label": "A_upperarm_r",
+          "attachment": "elbow_r_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "elbow_r",
+          "local_mm": [
+            1.0658141036401503e-14,
+            -6.900000000000006,
+            -38.893864253997776
+          ],
+          "label": "forearm_r.twist.J1",
+          "attachment": "forearm_r_twist_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J17",
+          "to_label": "N4.internal_S_7",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_7",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.84,
+          "allocated_mm": 31.84,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "A_upperarm_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 306.29,
+          "allocated_mm": 353.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_r",
+          "to_label": "forearm_r.twist.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 105.07,
+          "allocated_mm": 152.77,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.763
+    },
+    {
+      "id": "S35",
+      "kind": "sensor",
+      "axis_id": "hand_r.flex",
+      "node": 4,
+      "port": 8,
+      "from_connector": "N4.J18",
+      "to_connector": "hand_r.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 750,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -46.0,
+            24.350000000000023
+          ],
+          "label": "N4.J18",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -112.89376107407499,
+            -46.0,
+            14.391422239453277
+          ],
+          "label": "N4.internal_S_8",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_r",
+          "local_mm": [
+            3.552713678800501e-15,
+            -8.800000000000011,
+            -70.47480964660633
+          ],
+          "label": "A_upperarm_r",
+          "attachment": "elbow_r_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "forearm_r",
+          "local_mm": [
+            -19.999999999999986,
+            -38.8,
+            -54.406305932998464
+          ],
+          "label": "A_forearm_r",
+          "attachment": "forearm_r_twist_M_distal_forearm_carrier"
+        },
+        {
+          "owner": "forearm_r",
+          "local_mm": [
+            6.900000000000013,
+            -45.821,
+            -71.76261186599743
+          ],
+          "label": "hand_r.flex.J1",
+          "attachment": "hand_r_flex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J18",
+          "to_label": "N4.internal_S_8",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_8",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.39,
+          "allocated_mm": 31.39,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "A_upperarm_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 304.3,
+          "allocated_mm": 352.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_r",
+          "to_label": "A_forearm_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 194.04,
+          "allocated_mm": 241.74,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_forearm_r",
+          "to_label": "hand_r.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 32.77,
+          "allocated_mm": 36.77,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 5.518
+    },
+    {
+      "id": "S36",
+      "kind": "sensor",
+      "axis_id": "hand_r.deviate",
+      "node": 4,
+      "port": 9,
+      "from_connector": "N4.J19",
+      "to_connector": "hand_r.deviate.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 840,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -108.25,
+            -34.0,
+            24.350000000000023
+          ],
+          "label": "N4.J19",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -112.89376107407499,
+            -34.0,
+            14.391422239453277
+          ],
+          "label": "N4.internal_S_9",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -39.0,
+            -13.0
+          ],
+          "label": "N4.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "upperarm_r",
+          "local_mm": [
+            3.552713678800501e-15,
+            -8.800000000000011,
+            -70.47480964660633
+          ],
+          "label": "A_upperarm_r",
+          "attachment": "elbow_r_flex_M_upperarm_carrier"
+        },
+        {
+          "owner": "forearm_r",
+          "local_mm": [
+            -19.999999999999986,
+            -38.8,
+            -54.406305932998464
+          ],
+          "label": "A_forearm_r",
+          "attachment": "forearm_r_twist_M_distal_forearm_carrier"
+        },
+        {
+          "owner": "hand_r.flex_frame",
+          "local_mm": [
+            33.821,
+            0.0,
+            -6.899999999999977
+          ],
+          "label": "hand_r.deviate.J1",
+          "attachment": "hand_r_deviate_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N4.J19",
+          "to_label": "N4.internal_S_9",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.internal_S_9",
+          "to_label": "N4.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.84,
+          "allocated_mm": 31.84,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N4.exit",
+          "to_label": "A_upperarm_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 302.6,
+          "allocated_mm": 350.3,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_upperarm_r",
+          "to_label": "A_forearm_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 194.04,
+          "allocated_mm": 241.74,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_forearm_r",
+          "to_label": "hand_r.deviate.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 81.49,
+          "allocated_mm": 129.19,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 6.085
+    },
+    {
+      "id": "S21",
+      "kind": "sensor",
+      "axis_id": "thigh_l.flex",
+      "node": 5,
+      "port": 1,
+      "from_connector": "N5.J11",
+      "to_connector": "thigh_l.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 300,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            34.0,
+            -18.649999999999977
+          ],
+          "label": "N5.J11",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            34.0,
+            -30.86600407021683
+          ],
+          "label": "N5.internal_S_1",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            39.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            1.3549231073653971,
+            113.24392919158934,
+            -9.206648368837818
+          ],
+          "label": "thigh_l.flex.J1",
+          "attachment": "thigh_l_flex_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J11",
+          "to_label": "N5.internal_S_1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_1",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "thigh_l.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 152.71,
+          "allocated_mm": 156.71,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.687
+    },
+    {
+      "id": "S22",
+      "kind": "sensor",
+      "axis_id": "thigh_l.abduct",
+      "node": 5,
+      "port": 2,
+      "from_connector": "N5.J12",
+      "to_connector": "thigh_l.abduct.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 360,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            46.0,
+            -18.649999999999977
+          ],
+          "label": "N5.J12",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            46.0,
+            -30.86600407021683
+          ],
+          "label": "N5.internal_S_2",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_l.flex_frame",
+          "local_mm": [
+            40.471000000000004,
+            0.0,
+            -6.899999999999977
+          ],
+          "label": "thigh_l.abduct.J1",
+          "attachment": "thigh_l_abduct_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J12",
+          "to_label": "N5.internal_S_2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_2",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.29,
+          "allocated_mm": 51.29,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "thigh_l.abduct.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 171.45,
+          "allocated_mm": 219.15,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.065
+    },
+    {
+      "id": "S23",
+      "kind": "sensor",
+      "axis_id": "thigh_l.twist",
+      "node": 5,
+      "port": 3,
+      "from_connector": "N5.J13",
+      "to_connector": "thigh_l.twist.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 380,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            58.0,
+            -18.649999999999977
+          ],
+          "label": "N5.J13",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            58.0,
+            -30.86600407021683
+          ],
+          "label": "N5.internal_S_3",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            53.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_l.abduct_frame",
+          "local_mm": [
+            0.0,
+            6.899999999999999,
+            -58.528999999999996
+          ],
+          "label": "thigh_l.twist.J1",
+          "attachment": "thigh_l_twist_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J13",
+          "to_label": "N5.internal_S_3",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_3",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "thigh_l.twist.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 188.99,
+          "allocated_mm": 236.69,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.191
+    },
+    {
+      "id": "S24",
+      "kind": "sensor",
+      "axis_id": "calf_l.flex",
+      "node": 5,
+      "port": 4,
+      "from_connector": "N5.J14",
+      "to_connector": "calf_l.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 550,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            34.0,
+            -29.649999999999977
+          ],
+          "label": "N5.J14",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -114.75,
+            34.0,
+            -40.90833024919772
+          ],
+          "label": "N5.internal_S_4",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            39.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_l",
+          "local_mm": [
+            -7.771561172376096e-15,
+            8.799999999999969,
+            -149.40509262084925
+          ],
+          "label": "A_thigh_l",
+          "attachment": "thigh_l_M_centreline_frame"
+        },
+        {
+          "owner": "thigh_l",
+          "local_mm": [
+            6.9,
+            25.795999999999992,
+            -228.76018524169916
+          ],
+          "label": "calf_l.flex.J1",
+          "attachment": "calf_l_flex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J14",
+          "to_label": "N5.internal_S_4",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_4",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "A_thigh_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 280.77,
+          "allocated_mm": 328.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_l",
+          "to_label": "calf_l.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 81.45,
+          "allocated_mm": 85.45,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.26
+    },
+    {
+      "id": "S25",
+      "kind": "sensor",
+      "axis_id": "foot_l.dorsiflex",
+      "node": 5,
+      "port": 5,
+      "from_connector": "N5.J15",
+      "to_connector": "foot_l.dorsiflex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 810,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            46.0,
+            -29.649999999999977
+          ],
+          "label": "N5.J15",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -114.75,
+            46.0,
+            -40.90833024919772
+          ],
+          "label": "N5.internal_S_5",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_l",
+          "local_mm": [
+            -7.771561172376096e-15,
+            8.799999999999969,
+            -149.40509262084925
+          ],
+          "label": "A_thigh_l",
+          "attachment": "thigh_l_M_centreline_frame"
+        },
+        {
+          "owner": "calf_l",
+          "local_mm": [
+            -3.6193270602780103e-14,
+            8.799999999999969,
+            -125.76355361938465
+          ],
+          "label": "A_calf_l",
+          "attachment": "calf_l_M_centreline_frame"
+        },
+        {
+          "owner": "calf_l",
+          "local_mm": [
+            -6.9,
+            50.071,
+            -208.52710723876956
+          ],
+          "label": "foot_l.dorsiflex.J1",
+          "attachment": "foot_l_dorsiflex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J15",
+          "to_label": "N5.internal_S_5",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_5",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.13,
+          "allocated_mm": 41.13,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "A_thigh_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 280.06,
+          "allocated_mm": 327.76,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_l",
+          "to_label": "A_calf_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 205.91,
+          "allocated_mm": 253.61,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_calf_l",
+          "to_label": "foot_l.dorsiflex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 92.74,
+          "allocated_mm": 96.74,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 5.896
+    },
+    {
+      "id": "S26",
+      "kind": "sensor",
+      "axis_id": "foot_l.invert",
+      "node": 5,
+      "port": 6,
+      "from_connector": "N5.J16",
+      "to_connector": "foot_l.invert.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 880,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            58.0,
+            -29.649999999999977
+          ],
+          "label": "N5.J16",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -114.75,
+            58.0,
+            -40.90833024919772
+          ],
+          "label": "N5.internal_S_6",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            53.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_l",
+          "local_mm": [
+            -7.771561172376096e-15,
+            8.799999999999969,
+            -149.40509262084925
+          ],
+          "label": "A_thigh_l",
+          "attachment": "thigh_l_M_centreline_frame"
+        },
+        {
+          "owner": "calf_l",
+          "local_mm": [
+            -3.6193270602780103e-14,
+            8.799999999999969,
+            -125.76355361938465
+          ],
+          "label": "A_calf_l",
+          "attachment": "calf_l_M_centreline_frame"
+        },
+        {
+          "owner": "foot_l.dorsiflex_frame",
+          "local_mm": [
+            36.071000000000005,
+            0.0,
+            -6.899999999999999
+          ],
+          "label": "foot_l.invert.J1",
+          "attachment": "foot_l_invert_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J16",
+          "to_label": "N5.internal_S_6",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_6",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "A_thigh_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 279.72,
+          "allocated_mm": 327.42,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_l",
+          "to_label": "A_calf_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 205.91,
+          "allocated_mm": 253.61,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_calf_l",
+          "to_label": "foot_l.invert.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 119.96,
+          "allocated_mm": 167.65,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 6.336
+    },
+    {
+      "id": "S27",
+      "kind": "sensor",
+      "axis_id": "ball_l.flex",
+      "node": 5,
+      "port": 7,
+      "from_connector": "N5.J17",
+      "to_connector": "ball_l.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 910,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            34.0,
+            -40.64999999999998
+          ],
+          "label": "N5.J17",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -112.89376107407499,
+            34.0,
+            -50.60857776054672
+          ],
+          "label": "N5.internal_S_7",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            39.0,
+            -78.0
+          ],
+          "label": "N5.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_l",
+          "local_mm": [
+            -7.771561172376096e-15,
+            8.799999999999969,
+            -149.40509262084925
+          ],
+          "label": "A_thigh_l",
+          "attachment": "thigh_l_M_centreline_frame"
+        },
+        {
+          "owner": "calf_l",
+          "local_mm": [
+            -3.6193270602780103e-14,
+            8.799999999999969,
+            -125.76355361938465
+          ],
+          "label": "A_calf_l",
+          "attachment": "calf_l_M_centreline_frame"
+        },
+        {
+          "owner": "foot_l",
+          "local_mm": [
+            75.57894629277348,
+            25.346000000000004,
+            6.899999999999999
+          ],
+          "label": "ball_l.flex.J1",
+          "attachment": "ball_l_flex_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J17",
+          "to_label": "N5.internal_S_7",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.internal_S_7",
+          "to_label": "N5.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.84,
+          "allocated_mm": 31.84,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N5.exit",
+          "to_label": "A_thigh_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 280.77,
+          "allocated_mm": 328.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_l",
+          "to_label": "A_calf_l",
+          "moving": true,
+          "all_angles_chord_bound_mm": 205.91,
+          "allocated_mm": 253.61,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_calf_l",
+          "to_label": "ball_l.flex.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 163.24,
+          "allocated_mm": 210.94,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 6.525
+    },
+    {
+      "id": "S37",
+      "kind": "sensor",
+      "axis_id": "thigh_r.flex",
+      "node": 6,
+      "port": 1,
+      "from_connector": "N6.J11",
+      "to_connector": "thigh_r.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 300,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -58.0,
+            -18.649999999999977
+          ],
+          "label": "N6.J11",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            -58.0,
+            -30.86600407021683
+          ],
+          "label": "N6.internal_S_1",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -53.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            1.3547415689683286,
+            -113.24400071716309,
+            -9.206920189521327
+          ],
+          "label": "thigh_r.flex.J1",
+          "attachment": "thigh_r_flex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J11",
+          "to_label": "N6.internal_S_1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_1",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "thigh_r.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 146.42,
+          "allocated_mm": 150.42,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.687
+    },
+    {
+      "id": "S38",
+      "kind": "sensor",
+      "axis_id": "thigh_r.abduct",
+      "node": 6,
+      "port": 2,
+      "from_connector": "N6.J12",
+      "to_connector": "thigh_r.abduct.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 360,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -46.0,
+            -18.649999999999977
+          ],
+          "label": "N6.J12",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            -46.0,
+            -30.86600407021683
+          ],
+          "label": "N6.internal_S_2",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_r.flex_frame",
+          "local_mm": [
+            40.471,
+            0.0,
+            -6.899999999999977
+          ],
+          "label": "thigh_r.abduct.J1",
+          "attachment": "thigh_r_abduct_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J12",
+          "to_label": "N6.internal_S_2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_2",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.29,
+          "allocated_mm": 51.29,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "thigh_r.abduct.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 171.45,
+          "allocated_mm": 219.15,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.065
+    },
+    {
+      "id": "S39",
+      "kind": "sensor",
+      "axis_id": "thigh_r.twist",
+      "node": 6,
+      "port": 3,
+      "from_connector": "N6.J13",
+      "to_connector": "thigh_r.twist.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 380,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -34.0,
+            -18.649999999999977
+          ],
+          "label": "N6.J13",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -116.8037381367663,
+            -34.0,
+            -30.86600407021683
+          ],
+          "label": "N6.internal_S_3",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -39.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_r.abduct_frame",
+          "local_mm": [
+            0.0,
+            6.899999999999999,
+            -58.528999999999996
+          ],
+          "label": "thigh_r.twist.J1",
+          "attachment": "thigh_r_twist_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J13",
+          "to_label": "N6.internal_S_3",
+          "moving": false,
+          "all_angles_chord_bound_mm": 14.91,
+          "allocated_mm": 18.91,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_3",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 47.55,
+          "allocated_mm": 51.55,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "thigh_r.twist.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 190.04,
+          "allocated_mm": 237.74,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.191
+    },
+    {
+      "id": "S40",
+      "kind": "sensor",
+      "axis_id": "calf_r.flex",
+      "node": 6,
+      "port": 4,
+      "from_connector": "N6.J14",
+      "to_connector": "calf_r.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 550,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -58.0,
+            -29.649999999999977
+          ],
+          "label": "N6.J14",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -114.75,
+            -58.0,
+            -40.90833024919772
+          ],
+          "label": "N6.internal_S_4",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -53.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_r",
+          "local_mm": [
+            -7.993605777301127e-15,
+            -8.800000000000033,
+            -149.40484466552726
+          ],
+          "label": "A_thigh_r",
+          "attachment": "thigh_r_M_centreline_frame"
+        },
+        {
+          "owner": "thigh_r",
+          "local_mm": [
+            -6.9,
+            -25.796,
+            -228.7596893310547
+          ],
+          "label": "calf_r.flex.J1",
+          "attachment": "calf_r_flex_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J14",
+          "to_label": "N6.internal_S_4",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_4",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "A_thigh_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 279.72,
+          "allocated_mm": 327.42,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_r",
+          "to_label": "calf_r.flex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 81.45,
+          "allocated_mm": 85.45,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.26
+    },
+    {
+      "id": "S41",
+      "kind": "sensor",
+      "axis_id": "foot_r.dorsiflex",
+      "node": 6,
+      "port": 5,
+      "from_connector": "N6.J15",
+      "to_connector": "foot_r.dorsiflex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 810,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -46.0,
+            -29.649999999999977
+          ],
+          "label": "N6.J15",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -114.75,
+            -46.0,
+            -40.90833024919772
+          ],
+          "label": "N6.internal_S_5",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_r",
+          "local_mm": [
+            -7.993605777301127e-15,
+            -8.800000000000033,
+            -149.40484466552726
+          ],
+          "label": "A_thigh_r",
+          "attachment": "thigh_r_M_centreline_frame"
+        },
+        {
+          "owner": "calf_r",
+          "local_mm": [
+            -2.042810365310288e-14,
+            -8.800000000000033,
+            -125.76366806030256
+          ],
+          "label": "A_calf_r",
+          "attachment": "calf_r_M_centreline_frame"
+        },
+        {
+          "owner": "calf_r",
+          "local_mm": [
+            6.8999999999999995,
+            -50.071000000000005,
+            -208.52733612060555
+          ],
+          "label": "foot_r.dorsiflex.J1",
+          "attachment": "foot_r_dorsiflex_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J15",
+          "to_label": "N6.internal_S_5",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_5",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.13,
+          "allocated_mm": 41.13,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "A_thigh_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 280.06,
+          "allocated_mm": 327.76,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_r",
+          "to_label": "A_calf_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 205.91,
+          "allocated_mm": 253.61,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_calf_r",
+          "to_label": "foot_r.dorsiflex.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 92.74,
+          "allocated_mm": 96.74,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 5.896
+    },
+    {
+      "id": "S42",
+      "kind": "sensor",
+      "axis_id": "foot_r.invert",
+      "node": 6,
+      "port": 6,
+      "from_connector": "N6.J16",
+      "to_connector": "foot_r.invert.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 880,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -34.0,
+            -29.649999999999977
+          ],
+          "label": "N6.J16",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -114.75,
+            -34.0,
+            -40.90833024919772
+          ],
+          "label": "N6.internal_S_6",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -39.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_r",
+          "local_mm": [
+            -7.993605777301127e-15,
+            -8.800000000000033,
+            -149.40484466552726
+          ],
+          "label": "A_thigh_r",
+          "attachment": "thigh_r_M_centreline_frame"
+        },
+        {
+          "owner": "calf_r",
+          "local_mm": [
+            -2.042810365310288e-14,
+            -8.800000000000033,
+            -125.76366806030256
+          ],
+          "label": "A_calf_r",
+          "attachment": "calf_r_M_centreline_frame"
+        },
+        {
+          "owner": "foot_r.dorsiflex_frame",
+          "local_mm": [
+            36.071000000000005,
+            0.0,
+            -6.899999999999999
+          ],
+          "label": "foot_r.invert.J1",
+          "attachment": "foot_r_invert_M_board_post_0",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J16",
+          "to_label": "N6.internal_S_6",
+          "moving": false,
+          "all_angles_chord_bound_mm": 13.0,
+          "allocated_mm": 17.0,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_6",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 37.47,
+          "allocated_mm": 41.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "A_thigh_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 280.77,
+          "allocated_mm": 328.47,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_r",
+          "to_label": "A_calf_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 205.91,
+          "allocated_mm": 253.61,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_calf_r",
+          "to_label": "foot_r.invert.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 119.96,
+          "allocated_mm": 167.65,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 6.336
+    },
+    {
+      "id": "S43",
+      "kind": "sensor",
+      "axis_id": "ball_r.flex",
+      "node": 6,
+      "port": 7,
+      "from_connector": "N6.J17",
+      "to_connector": "ball_r.flex.J1",
+      "pin_map": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "pins": [
+        "GND",
+        "3V3",
+        "SCK",
+        "MOSI",
+        "MISO",
+        "CS_N"
+      ],
+      "wire": "Alpha 2841/7 AWG30 7/38 PTFE OD0.61",
+      "housing_both_ends": "SHR-06V-S",
+      "contact": "SSH-003T-P0.2-H",
+      "wires": 6,
+      "cut_length_each_mm": 910,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -108.25,
+            -58.0,
+            -40.64999999999998
+          ],
+          "label": "N6.J17",
+          "attachment": "connector housing pin numbering"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -112.89376107407499,
+            -58.0,
+            -50.60857776054672
+          ],
+          "label": "N6.internal_S_7",
+          "attachment": "fixed loose wire dressing; R6.5 minimum"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -53.0,
+            -78.0
+          ],
+          "label": "N6.exit",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "thigh_r",
+          "local_mm": [
+            -7.993605777301127e-15,
+            -8.800000000000033,
+            -149.40484466552726
+          ],
+          "label": "A_thigh_r",
+          "attachment": "thigh_r_M_centreline_frame"
+        },
+        {
+          "owner": "calf_r",
+          "local_mm": [
+            -2.042810365310288e-14,
+            -8.800000000000033,
+            -125.76366806030256
+          ],
+          "label": "A_calf_r",
+          "attachment": "calf_r_M_centreline_frame"
+        },
+        {
+          "owner": "foot_r",
+          "local_mm": [
+            75.57895379298513,
+            -25.345999999999997,
+            -6.899999999999999
+          ],
+          "label": "ball_r.flex.J1",
+          "attachment": "ball_r_flex_M_board_post_1",
+          "strain_relief": "silicone sleeve + loose 2.5 mm tie on fixed post/saddle; retain 35 mm free lead at connector"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J17",
+          "to_label": "N6.internal_S_7",
+          "moving": false,
+          "all_angles_chord_bound_mm": 10.99,
+          "allocated_mm": 14.99,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.internal_S_7",
+          "to_label": "N6.exit",
+          "moving": false,
+          "all_angles_chord_bound_mm": 27.84,
+          "allocated_mm": 31.84,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "N6.exit",
+          "to_label": "A_thigh_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 279.72,
+          "allocated_mm": 327.42,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_thigh_r",
+          "to_label": "A_calf_r",
+          "moving": true,
+          "all_angles_chord_bound_mm": 205.91,
+          "allocated_mm": 253.61,
+          "minimum_bend_radius_mm": 12
+        },
+        {
+          "from_label": "A_calf_r",
+          "to_label": "ball_r.flex.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 163.24,
+          "allocated_mm": 210.94,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 6.525
+    },
+    {
+      "id": "C1",
+      "kind": "can",
+      "from_connector": "N6.J3",
+      "to_connector": "N1.J2",
+      "pin_map": [
+        1,
+        2,
+        3
+      ],
+      "pins": [
+        "GND",
+        "CAN_L",
+        "CAN_H"
+      ],
+      "wire": "Alpha 5851 AWG30 PTFE OD0.81; twist H/L together, 20 mm pitch",
+      "housing_both_ends": "GHR-03V-S",
+      "contact": "SSHL-002T-P0.2",
+      "wires": 3,
+      "cut_length_each_mm": 230,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -78.0
+          ],
+          "label": "N6.J3",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -78.0
+          ],
+          "label": "N1.J2",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N6.J3",
+          "to_label": "N1.J2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 46.0,
+          "allocated_mm": 50.0,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 1.862
+    },
+    {
+      "id": "C2",
+      "kind": "can",
+      "from_connector": "N1.J3",
+      "to_connector": "N5.J2",
+      "pin_map": [
+        1,
+        2,
+        3
+      ],
+      "pins": [
+        "GND",
+        "CAN_L",
+        "CAN_H"
+      ],
+      "wire": "Alpha 5851 AWG30 PTFE OD0.81; twist H/L together, 20 mm pitch",
+      "housing_both_ends": "GHR-03V-S",
+      "contact": "SSHL-002T-P0.2",
+      "wires": 3,
+      "cut_length_each_mm": 230,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -78.0
+          ],
+          "label": "N1.J3",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -78.0
+          ],
+          "label": "N5.J2",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N1.J3",
+          "to_label": "N5.J2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 46.0,
+          "allocated_mm": 50.0,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 1.862
+    },
+    {
+      "id": "C3",
+      "kind": "can",
+      "from_connector": "N5.J3",
+      "to_connector": "N3.J2",
+      "pin_map": [
+        1,
+        2,
+        3
+      ],
+      "pins": [
+        "GND",
+        "CAN_L",
+        "CAN_H"
+      ],
+      "wire": "Alpha 5851 AWG30 PTFE OD0.81; twist H/L together, 20 mm pitch",
+      "housing_both_ends": "GHR-03V-S",
+      "contact": "SSHL-002T-P0.2",
+      "wires": 3,
+      "cut_length_each_mm": 600,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -78.0
+          ],
+          "label": "N5.J3",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -13.0
+          ],
+          "label": "N3.J2",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N5.J3",
+          "to_label": "N3.J2",
+          "moving": true,
+          "all_angles_chord_bound_mm": 371.34,
+          "allocated_mm": 419.04,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 3.571
+    },
+    {
+      "id": "C4",
+      "kind": "can",
+      "from_connector": "N3.J3",
+      "to_connector": "N2.J2",
+      "pin_map": [
+        1,
+        2,
+        3
+      ],
+      "pins": [
+        "GND",
+        "CAN_L",
+        "CAN_H"
+      ],
+      "wire": "Alpha 5851 AWG30 PTFE OD0.81; twist H/L together, 20 mm pitch",
+      "housing_both_ends": "GHR-03V-S",
+      "contact": "SSHL-002T-P0.2",
+      "wires": 3,
+      "cut_length_each_mm": 230,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -13.0
+          ],
+          "label": "N3.J3",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -13.0
+          ],
+          "label": "N2.J2",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N3.J3",
+          "to_label": "N2.J2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 46.0,
+          "allocated_mm": 50.0,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 1.862
+    },
+    {
+      "id": "C5",
+      "kind": "can",
+      "from_connector": "N2.J3",
+      "to_connector": "N4.J2",
+      "pin_map": [
+        1,
+        2,
+        3
+      ],
+      "pins": [
+        "GND",
+        "CAN_L",
+        "CAN_H"
+      ],
+      "wire": "Alpha 5851 AWG30 PTFE OD0.81; twist H/L together, 20 mm pitch",
+      "housing_both_ends": "GHR-03V-S",
+      "contact": "SSHL-002T-P0.2",
+      "wires": 3,
+      "cut_length_each_mm": 230,
+      "route": [
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -13.0
+          ],
+          "label": "N2.J3",
+          "attachment": "case bottom exit; silicone edge liner"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -13.0
+          ],
+          "label": "N4.J2",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "N2.J3",
+          "to_label": "N4.J2",
+          "moving": false,
+          "all_angles_chord_bound_mm": 46.0,
+          "allocated_mm": 50.0,
+          "minimum_bend_radius_mm": 12
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 1.862
+    },
+    {
+      "id": "P1",
+      "kind": "power",
+      "from_connector": "POWER.J2",
+      "to_connector": "N1.J1",
+      "pin_map": [
+        1,
+        2
+      ],
+      "pins": [
+        "5V",
+        "GND"
+      ],
+      "wire": "Alpha 3049 AWG26 7/34 PVC OD1.30",
+      "housing_both_ends": "PHR-2",
+      "contact": "SPH-002T-P0.5S",
+      "wires": 2,
+      "cut_length_each_mm": 300,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -124.8,
+            0.0,
+            31.0
+          ],
+          "label": "POWER.J2",
+          "attachment": "power case upper relief; 100 mm internal dressing"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -78.0
+          ],
+          "label": "N1.J1",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "POWER.J2",
+          "to_label": "N1.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 109.64,
+          "allocated_mm": 113.64,
+          "minimum_bend_radius_mm": 15
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.886
+    },
+    {
+      "id": "P2",
+      "kind": "power",
+      "from_connector": "POWER.J3",
+      "to_connector": "N2.J1",
+      "pin_map": [
+        1,
+        2
+      ],
+      "pins": [
+        "5V",
+        "GND"
+      ],
+      "wire": "Alpha 3049 AWG26 7/34 PVC OD1.30",
+      "housing_both_ends": "PHR-2",
+      "contact": "SPH-002T-P0.5S",
+      "wires": 2,
+      "cut_length_each_mm": 550,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -124.8,
+            0.0,
+            31.0
+          ],
+          "label": "POWER.J3",
+          "attachment": "power case upper relief; 100 mm internal dressing"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            0.0,
+            -13.0
+          ],
+          "label": "N2.J1",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "POWER.J3",
+          "to_label": "N2.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 311.27,
+          "allocated_mm": 368.39,
+          "minimum_bend_radius_mm": 15
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.374
+    },
+    {
+      "id": "P3",
+      "kind": "power",
+      "from_connector": "POWER.J4",
+      "to_connector": "N3.J1",
+      "pin_map": [
+        1,
+        2
+      ],
+      "pins": [
+        "5V",
+        "GND"
+      ],
+      "wire": "Alpha 3049 AWG26 7/34 PVC OD1.30",
+      "housing_both_ends": "PHR-2",
+      "contact": "SPH-002T-P0.5S",
+      "wires": 2,
+      "cut_length_each_mm": 560,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -124.8,
+            0.0,
+            31.0
+          ],
+          "label": "POWER.J4",
+          "attachment": "power case upper relief; 100 mm internal dressing"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -13.0
+          ],
+          "label": "N3.J1",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "POWER.J4",
+          "to_label": "N3.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 320.22,
+          "allocated_mm": 377.34,
+          "minimum_bend_radius_mm": 15
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.433
+    },
+    {
+      "id": "P4",
+      "kind": "power",
+      "from_connector": "POWER.J5",
+      "to_connector": "N4.J1",
+      "pin_map": [
+        1,
+        2
+      ],
+      "pins": [
+        "5V",
+        "GND"
+      ],
+      "wire": "Alpha 3049 AWG26 7/34 PVC OD1.30",
+      "housing_both_ends": "PHR-2",
+      "contact": "SPH-002T-P0.5S",
+      "wires": 2,
+      "cut_length_each_mm": 560,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -124.8,
+            0.0,
+            31.0
+          ],
+          "label": "POWER.J5",
+          "attachment": "power case upper relief; 100 mm internal dressing"
+        },
+        {
+          "owner": "chest",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -13.0
+          ],
+          "label": "N4.J1",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "POWER.J5",
+          "to_label": "N4.J1",
+          "moving": true,
+          "all_angles_chord_bound_mm": 320.22,
+          "allocated_mm": 377.34,
+          "minimum_bend_radius_mm": 15
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 4.433
+    },
+    {
+      "id": "P5",
+      "kind": "power",
+      "from_connector": "POWER.J6",
+      "to_connector": "N5.J1",
+      "pin_map": [
+        1,
+        2
+      ],
+      "pins": [
+        "5V",
+        "GND"
+      ],
+      "wire": "Alpha 3049 AWG26 7/34 PVC OD1.30",
+      "housing_both_ends": "PHR-2",
+      "contact": "SPH-002T-P0.5S",
+      "wires": 2,
+      "cut_length_each_mm": 310,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -124.8,
+            0.0,
+            31.0
+          ],
+          "label": "POWER.J6",
+          "attachment": "power case upper relief; 100 mm internal dressing"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            46.0,
+            -78.0
+          ],
+          "label": "N5.J1",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "POWER.J6",
+          "to_label": "N5.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 118.9,
+          "allocated_mm": 122.9,
+          "minimum_bend_radius_mm": 15
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.945
+    },
+    {
+      "id": "P6",
+      "kind": "power",
+      "from_connector": "POWER.J7",
+      "to_connector": "N6.J1",
+      "pin_map": [
+        1,
+        2
+      ],
+      "pins": [
+        "5V",
+        "GND"
+      ],
+      "wire": "Alpha 3049 AWG26 7/34 PVC OD1.30",
+      "housing_both_ends": "PHR-2",
+      "contact": "SPH-002T-P0.5S",
+      "wires": 2,
+      "cut_length_each_mm": 310,
+      "route": [
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -124.8,
+            0.0,
+            31.0
+          ],
+          "label": "POWER.J7",
+          "attachment": "power case upper relief; 100 mm internal dressing"
+        },
+        {
+          "owner": "pelvis",
+          "local_mm": [
+            -113.0,
+            -46.0,
+            -78.0
+          ],
+          "label": "N6.J1",
+          "attachment": "case bottom exit; silicone edge liner"
+        }
+      ],
+      "spans": [
+        {
+          "from_label": "POWER.J7",
+          "to_label": "N6.J1",
+          "moving": false,
+          "all_angles_chord_bound_mm": 118.9,
+          "allocated_mm": 122.9,
+          "minimum_bend_radius_mm": 15
+        }
+      ],
+      "physical_routing_validated": false,
+      "estimated_mass_g": 2.945
+    }
+  ],
+  "mass_lumps": [
+    {
+      "name": "S03_N1.internal_S_1",
+      "owner": "pelvis",
+      "kg": 0.0002648663943557371,
+      "local_com_mm": [
+        -116.8037381367663,
+        -12.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S03_N1.exit",
+      "owner": "pelvis",
+      "kg": 0.0007220445599702931,
+      "local_com_mm": [
+        -113.0,
+        -7.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S03_waist.yaw.J1",
+      "owner": "pelvis",
+      "kg": 0.002030689045673969,
+      "local_com_mm": [
+        0.4695540685706243,
+        4.795410864729652e-13,
+        5.369509269895502
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S04_N1.internal_S_2",
+      "owner": "pelvis",
+      "kg": 0.00021295675709655785,
+      "local_com_mm": [
+        -116.8037381367663,
+        0.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S04_N1.exit",
+      "owner": "pelvis",
+      "kg": 0.0005776071957420652,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S04_waist.pitch.J1",
+      "owner": "waist.yaw_frame",
+      "kg": 0.0032401860471613767,
+      "local_com_mm": [
+        0.0,
+        59.871,
+        -6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S05_N1.internal_S_3",
+      "owner": "pelvis",
+      "kg": 0.00021184238949408904,
+      "local_com_mm": [
+        -116.8037381367663,
+        12.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S05_N1.exit",
+      "owner": "pelvis",
+      "kg": 0.000577497365331586,
+      "local_com_mm": [
+        -113.0,
+        7.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S05_waist.roll.J1",
+      "owner": "waist.pitch_frame",
+      "kg": 0.003313860245174325,
+      "local_com_mm": [
+        67.871,
+        4.225031457058123e-16,
+        6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S06_N2.internal_S_1",
+      "owner": "chest",
+      "kg": 0.00023045381305688247,
+      "local_com_mm": [
+        -116.8037381367663,
+        -12.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S06_N2.exit",
+      "owner": "chest",
+      "kg": 0.0006282334248060439,
+      "local_com_mm": [
+        -113.0,
+        -7.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S06_chest.yaw.J1",
+      "owner": "chest",
+      "kg": 0.0027385127621370733,
+      "local_com_mm": [
+        -113.0,
+        -7.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S07_N2.internal_S_2",
+      "owner": "chest",
+      "kg": 0.00023398132911392404,
+      "local_com_mm": [
+        -116.8037381367663,
+        0.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S07_N2.exit",
+      "owner": "chest",
+      "kg": 0.0006346325949367087,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S07_chest.pitch.J1",
+      "owner": "chest",
+      "kg": 0.002728586075949367,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S08_N2.internal_S_3",
+      "owner": "chest",
+      "kg": 0.0002379464681440443,
+      "local_com_mm": [
+        -116.8037381367663,
+        12.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S08_N2.exit",
+      "owner": "chest",
+      "kg": 0.0006486589335180054,
+      "local_com_mm": [
+        -113.0,
+        7.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S08_chest.roll.J1",
+      "owner": "chest",
+      "kg": 0.00256569459833795,
+      "local_com_mm": [
+        -113.0,
+        7.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S09_N2.internal_S_4",
+      "owner": "chest",
+      "kg": 0.0002321805524861878,
+      "local_com_mm": [
+        -114.75,
+        -12.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S09_N2.exit",
+      "owner": "chest",
+      "kg": 0.0005663839712707182,
+      "local_com_mm": [
+        -113.0,
+        -7.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S09_head.yaw.J1",
+      "owner": "chest",
+      "kg": 0.0022914854762430934,
+      "local_com_mm": [
+        -24.397654000237946,
+        6.89999765749673,
+        124.04601764750839
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S10_N2.internal_S_5",
+      "owner": "chest",
+      "kg": 0.00019178049048718796,
+      "local_com_mm": [
+        -114.75,
+        0.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S10_N2.exit",
+      "owner": "chest",
+      "kg": 0.00046399597492576705,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S10_head.pitch.J1",
+      "owner": "head.yaw_frame",
+      "kg": 0.003447423534587044,
+      "local_com_mm": [
+        0.0,
+        -52.145,
+        -6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S11_N2.internal_S_6",
+      "owner": "chest",
+      "kg": 0.00019153825031577792,
+      "local_com_mm": [
+        -114.75,
+        12.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S11_N2.exit",
+      "owner": "chest",
+      "kg": 0.0004672406612114888,
+      "local_com_mm": [
+        -113.0,
+        7.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S11_head.roll.J1",
+      "owner": "head.pitch_frame",
+      "kg": 0.003444421088472733,
+      "local_com_mm": [
+        -52.144999999999996,
+        0.0,
+        6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S12_N3.internal_S_1",
+      "owner": "chest",
+      "kg": 0.0002855612851059242,
+      "local_com_mm": [
+        -116.8037381367663,
+        34.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S12_N3.exit",
+      "owner": "chest",
+      "kg": 0.0007784602986361919,
+      "local_com_mm": [
+        -113.0,
+        39.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S12_clavicle_l.protract.J1",
+      "owner": "chest",
+      "kg": 0.0017373784162578833,
+      "local_com_mm": [
+        -29.252577674576198,
+        11.556799445539976,
+        54.569624690630235
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S13_N3.internal_S_2",
+      "owner": "chest",
+      "kg": 0.00021381099750343626,
+      "local_com_mm": [
+        -116.8037381367663,
+        46.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S13_N3.exit",
+      "owner": "chest",
+      "kg": 0.0005799241703834609,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S13_clavicle_l.elevate.J1",
+      "owner": "clavicle_l.protract_frame",
+      "kg": 0.0032370148321131027,
+      "local_com_mm": [
+        81.445,
+        -6.9,
+        0.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S14_N3.internal_S_3",
+      "owner": "chest",
+      "kg": 0.00023133945041490953,
+      "local_com_mm": [
+        -116.8037381367663,
+        58.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S14_N3.exit",
+      "owner": "chest",
+      "kg": 0.0006306477350020405,
+      "local_com_mm": [
+        -113.0,
+        53.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S14_upperarm_l.flex.J1",
+      "owner": "clavicle_l",
+      "kg": 0.0027352128145830498,
+      "local_com_mm": [
+        4.7862623288991415,
+        12.198931265523584,
+        -10.89837752347023
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S15_N3.internal_S_4",
+      "owner": "chest",
+      "kg": 0.00018939863624442698,
+      "local_com_mm": [
+        -114.75,
+        34.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S15_N3.exit",
+      "owner": "chest",
+      "kg": 0.00046202126147390504,
+      "local_com_mm": [
+        -113.0,
+        39.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S15_upperarm_l.abduct.J1",
+      "owner": "upperarm_l.flex_frame",
+      "kg": 0.0035966801022816676,
+      "local_com_mm": [
+        -43.544999999999995,
+        0.29999999999999716,
+        0.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S16_N3.internal_S_5",
+      "owner": "chest",
+      "kg": 0.00019310342398196417,
+      "local_com_mm": [
+        -114.75,
+        46.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S16_N3.exit",
+      "owner": "chest",
+      "kg": 0.0004671966957869522,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S16_upperarm_l.twist.J1",
+      "owner": "upperarm_l.abduct_frame",
+      "kg": 0.0033704498802310835,
+      "local_com_mm": [
+        0.0,
+        6.900000000000006,
+        14.144999999999982
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S17_N3.internal_S_6",
+      "owner": "chest",
+      "kg": 0.00017464230363895607,
+      "local_com_mm": [
+        -114.75,
+        58.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S17_N3.exit",
+      "owner": "chest",
+      "kg": 0.00042602449011220635,
+      "local_com_mm": [
+        -113.0,
+        53.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S17_A_upperarm_l",
+      "owner": "upperarm_l",
+      "kg": 0.003636566415597298,
+      "local_com_mm": [
+        2.4868995751603507e-14,
+        8.800000000000082,
+        -70.47588253021206
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S17_elbow_l.flex.J1",
+      "owner": "upperarm_l",
+      "kg": 0.0007342167906515406,
+      "local_com_mm": [
+        6.8999999999999915,
+        25.59599999999999,
+        -135.4517650604247
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S18_N3.internal_S_7",
+      "owner": "chest",
+      "kg": 0.00014736627539051845,
+      "local_com_mm": [
+        -112.89376107407499,
+        34.0,
+        14.391422239453277
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S18_N3.exit",
+      "owner": "chest",
+      "kg": 0.0003130181593351639,
+      "local_com_mm": [
+        -113.0,
+        39.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S18_A_upperarm_l",
+      "owner": "upperarm_l",
+      "kg": 0.003443887920750668,
+      "local_com_mm": [
+        2.4868995751603507e-14,
+        8.800000000000082,
+        -70.47588253021206
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S18_forearm_l.twist.J1",
+      "owner": "elbow_l",
+      "kg": 0.0015018776445236495,
+      "local_com_mm": [
+        -1.7763568394002505e-14,
+        -6.90000000000002,
+        -38.89310894393918
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S19_N3.internal_S_8",
+      "owner": "chest",
+      "kg": 0.00014101783615209308,
+      "local_com_mm": [
+        -112.89376107407499,
+        46.0,
+        14.391422239453277
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S19_N3.exit",
+      "owner": "chest",
+      "kg": 0.00029530019191555714,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S19_A_upperarm_l",
+      "owner": "upperarm_l",
+      "kg": 0.003311426172484107,
+      "local_com_mm": [
+        2.4868995751603507e-14,
+        8.800000000000082,
+        -70.47588253021206
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S19_A_forearm_l",
+      "owner": "forearm_l",
+      "kg": 0.0022740654791891567,
+      "local_com_mm": [
+        -20.00000000000001,
+        38.79999999999997,
+        -54.40584435462927
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S19_hand_l.flex.J1",
+      "owner": "forearm_l",
+      "kg": 0.00025259032025908603,
+      "local_com_mm": [
+        -6.900000000000009,
+        45.82099999999997,
+        -71.76168870925909
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S20_N3.internal_S_9",
+      "owner": "chest",
+      "kg": 0.00013732902013631533,
+      "local_com_mm": [
+        -112.89376107407499,
+        58.0,
+        14.391422239453277
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S20_N3.exit",
+      "owner": "chest",
+      "kg": 0.00029169819887526886,
+      "local_com_mm": [
+        -113.0,
+        53.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S20_A_upperarm_l",
+      "owner": "upperarm_l",
+      "kg": 0.0032430353461010185,
+      "local_com_mm": [
+        2.4868995751603507e-14,
+        8.800000000000082,
+        -70.47588253021206
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S20_A_forearm_l",
+      "owner": "forearm_l",
+      "kg": 0.002214579322051468,
+      "local_com_mm": [
+        -20.00000000000001,
+        38.79999999999997,
+        -54.40584435462927
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S20_hand_l.deviate.J1",
+      "owner": "hand_l.flex_frame",
+      "kg": 0.001183558112835929,
+      "local_com_mm": [
+        33.821,
+        0.0,
+        -6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S28_N4.internal_S_1",
+      "owner": "chest",
+      "kg": 0.00030072520104895104,
+      "local_com_mm": [
+        -116.8037381367663,
+        -58.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S28_N4.exit",
+      "owner": "chest",
+      "kg": 0.000819798208041958,
+      "local_com_mm": [
+        -113.0,
+        -53.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S28_clavicle_r.protract.J1",
+      "owner": "chest",
+      "kg": 0.001608426590909091,
+      "local_com_mm": [
+        -29.252565268527082,
+        -11.556798532594236,
+        13.567350941794984
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S29_N4.internal_S_2",
+      "owner": "chest",
+      "kg": 0.00021381099750343626,
+      "local_com_mm": [
+        -116.8037381367663,
+        -46.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S29_N4.exit",
+      "owner": "chest",
+      "kg": 0.0005799241703834609,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S29_clavicle_r.elevate.J1",
+      "owner": "clavicle_r.protract_frame",
+      "kg": 0.0032370148321131027,
+      "local_com_mm": [
+        -81.445,
+        6.9,
+        0.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S30_N4.internal_S_3",
+      "owner": "chest",
+      "kg": 0.00023427949715860172,
+      "local_com_mm": [
+        -116.8037381367663,
+        -34.0,
+        34.13399592978317
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S30_N4.exit",
+      "owner": "chest",
+      "kg": 0.0006386625107628724,
+      "local_com_mm": [
+        -113.0,
+        -39.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S30_upperarm_r.flex.J1",
+      "owner": "clavicle_r",
+      "kg": 0.002724257992078526,
+      "local_com_mm": [
+        4.786243572367788,
+        -12.19869795879805,
+        -10.896314245616281
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S31_N4.internal_S_4",
+      "owner": "chest",
+      "kg": 0.00018758818639929344,
+      "local_com_mm": [
+        -114.75,
+        -58.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S31_N4.exit",
+      "owner": "chest",
+      "kg": 0.0004576048288222764,
+      "local_com_mm": [
+        -113.0,
+        -53.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S31_upperarm_r.abduct.J1",
+      "owner": "upperarm_r.flex_frame",
+      "kg": 0.0036029069847784297,
+      "local_com_mm": [
+        -43.54499999999999,
+        -0.29999999999999716,
+        0.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S32_N4.internal_S_5",
+      "owner": "chest",
+      "kg": 0.00019310342398196417,
+      "local_com_mm": [
+        -114.75,
+        -46.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S32_N4.exit",
+      "owner": "chest",
+      "kg": 0.0004671966957869522,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S32_upperarm_r.twist.J1",
+      "owner": "upperarm_r.abduct_frame",
+      "kg": 0.0033704498802310835,
+      "local_com_mm": [
+        0.0,
+        -6.900000000000006,
+        14.144999999999982
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S33_N4.internal_S_6",
+      "owner": "chest",
+      "kg": 0.0001759878599837578,
+      "local_com_mm": [
+        -114.75,
+        -34.0,
+        24.09166975080234
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S33_N4.exit",
+      "owner": "chest",
+      "kg": 0.0004293068560897903,
+      "local_com_mm": [
+        -113.0,
+        -39.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S33_A_upperarm_r",
+      "owner": "upperarm_r",
+      "kg": 0.0036263851383711975,
+      "local_com_mm": [
+        3.552713678800501e-15,
+        -8.800000000000011,
+        -70.47480964660633
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S33_elbow_r.flex.J1",
+      "owner": "upperarm_r",
+      "kg": 0.0007397701455552549,
+      "local_com_mm": [
+        -6.900000000000002,
+        -25.59599999999999,
+        -135.44961929321278
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S34_N4.internal_S_7",
+      "owner": "chest",
+      "kg": 0.00014831730251630264,
+      "local_com_mm": [
+        -112.89376107407499,
+        -58.0,
+        14.391422239453277
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S34_N4.exit",
+      "owner": "chest",
+      "kg": 0.0003150382196210191,
+      "local_com_mm": [
+        -113.0,
+        -53.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S34_A_upperarm_r",
+      "owner": "upperarm_r",
+      "kg": 0.0035025244775013994,
+      "local_com_mm": [
+        3.552713678800501e-15,
+        -8.800000000000011,
+        -70.47480964660633
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S34_forearm_r.twist.J1",
+      "owner": "elbow_r",
+      "kg": 0.0015115700003612781,
+      "local_com_mm": [
+        1.0658141036401503e-14,
+        -6.900000000000006,
+        -38.893864253997776
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S35_N4.internal_S_8",
+      "owner": "chest",
+      "kg": 0.0001405280665987088,
+      "local_com_mm": [
+        -112.89376107407499,
+        -46.0,
+        14.391422239453277
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S35_N4.exit",
+      "owner": "chest",
+      "kg": 0.00029427458375806995,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S35_A_upperarm_r",
+      "owner": "upperarm_r",
+      "kg": 0.0032999252463472646,
+      "local_com_mm": [
+        3.552713678800501e-15,
+        -8.800000000000011,
+        -70.47480964660633
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S35_A_forearm_r",
+      "owner": "forearm_r",
+      "kg": 0.0022662611620795107,
+      "local_com_mm": [
+        -19.999999999999986,
+        -38.8,
+        -54.406305932998464
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S35_hand_r.flex.J1",
+      "owner": "forearm_r",
+      "kg": 0.0003447109412164458,
+      "local_com_mm": [
+        6.900000000000013,
+        -45.821,
+        -71.76261186599743
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S36_N4.internal_S_9",
+      "owner": "chest",
+      "kg": 0.0001365730183839804,
+      "local_com_mm": [
+        -112.89376107407499,
+        -34.0,
+        14.391422239453277
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S36_N4.exit",
+      "owner": "chest",
+      "kg": 0.0002900923886154727,
+      "local_com_mm": [
+        -113.0,
+        -39.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S36_A_upperarm_r",
+      "owner": "upperarm_r",
+      "kg": 0.00319156293128141,
+      "local_com_mm": [
+        3.552713678800501e-15,
+        -8.800000000000011,
+        -70.47480964660633
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S36_A_forearm_r",
+      "owner": "forearm_r",
+      "kg": 0.0022024790836653384,
+      "local_com_mm": [
+        -19.999999999999986,
+        -38.8,
+        -54.406305932998464
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S36_hand_r.deviate.J1",
+      "owner": "hand_r.flex_frame",
+      "kg": 0.0011770425780537976,
+      "local_com_mm": [
+        33.821,
+        0.0,
+        -6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S21_N5.internal_S_1",
+      "owner": "pelvis",
+      "kg": 0.00025722078399436537,
+      "local_com_mm": [
+        -116.8037381367663,
+        34.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S21_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.0007012020843421224,
+      "local_com_mm": [
+        -113.0,
+        39.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S21_thigh_l.flex.J1",
+      "owner": "pelvis",
+      "kg": 0.0021316271316635113,
+      "local_com_mm": [
+        1.3549231073653971,
+        113.24392919158934,
+        -9.206648368837818
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S22_N5.internal_S_2",
+      "owner": "pelvis",
+      "kg": 0.00023035432002764812,
+      "local_com_mm": [
+        -116.8037381367663,
+        46.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S22_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.0006247949801278728,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S22_thigh_l.abduct.J1",
+      "owner": "thigh_l.flex_frame",
+      "kg": 0.0026696006998444786,
+      "local_com_mm": [
+        40.471000000000004,
+        0.0,
+        -6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S23_N5.internal_S_3",
+      "owner": "pelvis",
+      "kg": 0.00022592570893700147,
+      "local_com_mm": [
+        -116.8037381367663,
+        58.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S23_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.0006158894921048347,
+      "local_com_mm": [
+        -113.0,
+        53.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S23_thigh_l.twist.J1",
+      "owner": "thigh_l.abduct_frame",
+      "kg": 0.0028278347989581635,
+      "local_com_mm": [
+        0.0,
+        6.899999999999999,
+        -58.528999999999996
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S24_N5.internal_S_4",
+      "owner": "pelvis",
+      "kg": 0.00017630136116344544,
+      "local_com_mm": [
+        -114.75,
+        34.0,
+        -40.90833024919772
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S24_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.0004300716145557695,
+      "local_com_mm": [
+        -113.0,
+        39.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S24_A_thigh_l",
+      "owner": "thigh_l",
+      "kg": 0.003406453417726878,
+      "local_com_mm": [
+        -7.771561172376096e-15,
+        8.799999999999969,
+        -149.40509262084925
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S24_calf_l.flex.J1",
+      "owner": "thigh_l",
+      "kg": 0.0008861736065539067,
+      "local_com_mm": [
+        6.9,
+        25.795999999999992,
+        -228.76018524169916
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S25_N5.internal_S_5",
+      "owner": "pelvis",
+      "kg": 0.00015656144735412366,
+      "local_com_mm": [
+        -114.75,
+        46.0,
+        -40.90833024919772
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S25_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.0003787866076279474,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S25_A_thigh_l",
+      "owner": "thigh_l",
+      "kg": 0.0030185047049875037,
+      "local_com_mm": [
+        -7.771561172376096e-15,
+        8.799999999999969,
+        -149.40509262084925
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S25_A_calf_l",
+      "owner": "calf_l",
+      "kg": 0.0023356205096164294,
+      "local_com_mm": [
+        -3.6193270602780103e-14,
+        8.799999999999969,
+        -125.76355361938465
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S25_foot_l.dorsiflex.J1",
+      "owner": "calf_l",
+      "kg": 0.0008909267304139953,
+      "local_com_mm": [
+        -6.9,
+        50.071,
+        -208.52710723876956
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S26_N5.internal_S_6",
+      "owner": "pelvis",
+      "kg": 0.0001534644118193644,
+      "local_com_mm": [
+        -114.75,
+        58.0,
+        -40.90833024919772
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S26_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.00037436289165582604,
+      "local_com_mm": [
+        -113.0,
+        53.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S26_A_thigh_l",
+      "owner": "thigh_l",
+      "kg": 0.002955724571640959,
+      "local_com_mm": [
+        -7.771561172376096e-15,
+        8.799999999999969,
+        -149.40509262084925
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S26_A_calf_l",
+      "owner": "calf_l",
+      "kg": 0.0022894182047946475,
+      "local_com_mm": [
+        -3.6193270602780103e-14,
+        8.799999999999969,
+        -125.76355361938465
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S26_foot_l.invert.J1",
+      "owner": "foot_l.dorsiflex_frame",
+      "kg": 0.0015134299200892027,
+      "local_com_mm": [
+        36.071000000000005,
+        0.0,
+        -6.899999999999999
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S27_N5.internal_S_7",
+      "owner": "pelvis",
+      "kg": 0.00013393012145025896,
+      "local_com_mm": [
+        -112.89376107407499,
+        34.0,
+        -50.60857776054672
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S27_N5.exit",
+      "owner": "pelvis",
+      "kg": 0.0002844786569030184,
+      "local_com_mm": [
+        -113.0,
+        39.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S27_A_thigh_l",
+      "owner": "thigh_l",
+      "kg": 0.0029347583050544743,
+      "local_com_mm": [
+        -7.771561172376096e-15,
+        8.799999999999969,
+        -149.40509262084925
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S27_A_calf_l",
+      "owner": "calf_l",
+      "kg": 0.002265911814609752,
+      "local_com_mm": [
+        -3.6193270602780103e-14,
+        8.799999999999969,
+        -125.76355361938465
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S27_ball_l.flex.J1",
+      "owner": "foot_l",
+      "kg": 0.0018846711019824968,
+      "local_com_mm": [
+        75.57894629277348,
+        25.346000000000004,
+        6.899999999999999
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S37_N6.internal_S_1",
+      "owner": "pelvis",
+      "kg": 0.0002645456605396595,
+      "local_com_mm": [
+        -116.8037381367663,
+        -58.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S37_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.0007211702168598332,
+      "local_com_mm": [
+        -113.0,
+        -53.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S37_thigh_r.flex.J1",
+      "owner": "pelvis",
+      "kg": 0.0021043341226005064,
+      "local_com_mm": [
+        1.3547415689683286,
+        -113.24400071716309,
+        -9.206920189521327
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S38_N6.internal_S_2",
+      "owner": "pelvis",
+      "kg": 0.00023035432002764812,
+      "local_com_mm": [
+        -116.8037381367663,
+        -46.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S38_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.0006247949801278728,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S38_thigh_r.abduct.J1",
+      "owner": "thigh_r.flex_frame",
+      "kg": 0.0026696006998444786,
+      "local_com_mm": [
+        40.471,
+        0.0,
+        -6.899999999999977
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S39_N6.internal_S_3",
+      "owner": "pelvis",
+      "kg": 0.00022515600746268657,
+      "local_com_mm": [
+        -116.8037381367663,
+        -34.0,
+        -30.86600407021683
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S39_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.0006137912313432835,
+      "local_com_mm": [
+        -113.0,
+        -39.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S39_thigh_r.twist.J1",
+      "owner": "thigh_r.abduct_frame",
+      "kg": 0.0028307027611940297,
+      "local_com_mm": [
+        0.0,
+        6.899999999999999,
+        -58.528999999999996
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S40_N6.internal_S_4",
+      "owner": "pelvis",
+      "kg": 0.00017669410616540074,
+      "local_com_mm": [
+        -114.75,
+        -58.0,
+        -40.90833024919772
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S40_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.00043102968133406874,
+      "local_com_mm": [
+        -113.0,
+        -53.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S40_A_thigh_r",
+      "owner": "thigh_r",
+      "kg": 0.0034031284847456183,
+      "local_com_mm": [
+        -7.993605777301127e-15,
+        -8.800000000000033,
+        -149.40484466552726
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S40_calf_r.flex.J1",
+      "owner": "thigh_r",
+      "kg": 0.0008881477277549115,
+      "local_com_mm": [
+        -6.9,
+        -25.796,
+        -228.7596893310547
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S41_N6.internal_S_5",
+      "owner": "pelvis",
+      "kg": 0.00015656144735412366,
+      "local_com_mm": [
+        -114.75,
+        -46.0,
+        -40.90833024919772
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S41_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.0003787866076279474,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S41_A_thigh_r",
+      "owner": "thigh_r",
+      "kg": 0.0030185047049875037,
+      "local_com_mm": [
+        -7.993605777301127e-15,
+        -8.800000000000033,
+        -149.40484466552726
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S41_A_calf_r",
+      "owner": "calf_r",
+      "kg": 0.0023356205096164294,
+      "local_com_mm": [
+        -2.042810365310288e-14,
+        -8.800000000000033,
+        -125.76366806030256
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S41_foot_r.dorsiflex.J1",
+      "owner": "calf_r",
+      "kg": 0.0008909267304139953,
+      "local_com_mm": [
+        6.8999999999999995,
+        -50.071000000000005,
+        -208.52733612060555
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S42_N6.internal_S_6",
+      "owner": "pelvis",
+      "kg": 0.00015326503340757237,
+      "local_com_mm": [
+        -114.75,
+        -34.0,
+        -40.90833024919772
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S42_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.00037387652561247215,
+      "local_com_mm": [
+        -113.0,
+        -39.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S42_A_thigh_r",
+      "owner": "thigh_r",
+      "kg": 0.002961350913140312,
+      "local_com_mm": [
+        -7.993605777301127e-15,
+        -8.800000000000033,
+        -149.40484466552726
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S42_A_calf_r",
+      "owner": "calf_r",
+      "kg": 0.0022864438307349665,
+      "local_com_mm": [
+        -2.042810365310288e-14,
+        -8.800000000000033,
+        -125.76366806030256
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S42_foot_r.invert.J1",
+      "owner": "foot_r.dorsiflex_frame",
+      "kg": 0.001511463697104677,
+      "local_com_mm": [
+        36.071000000000005,
+        0.0,
+        -6.899999999999999
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S43_N6.internal_S_7",
+      "owner": "pelvis",
+      "kg": 0.0001340977736051502,
+      "local_com_mm": [
+        -112.89376107407499,
+        -58.0,
+        -50.60857776054672
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S43_N6.exit",
+      "owner": "pelvis",
+      "kg": 0.0002848347639484978,
+      "local_com_mm": [
+        -113.0,
+        -53.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S43_A_thigh_r",
+      "owner": "thigh_r",
+      "kg": 0.0029290388948497855,
+      "local_com_mm": [
+        -7.993605777301127e-15,
+        -8.800000000000033,
+        -149.40484466552726
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S43_A_calf_r",
+      "owner": "calf_r",
+      "kg": 0.0022687482564377683,
+      "local_com_mm": [
+        -2.042810365310288e-14,
+        -8.800000000000033,
+        -125.76366806030256
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "S43_ball_r.flex.J1",
+      "owner": "foot_r",
+      "kg": 0.0018870303111587982,
+      "local_com_mm": [
+        75.57895379298513,
+        -25.345999999999997,
+        -6.899999999999999
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "C1_N1.J2",
+      "owner": "pelvis",
+      "kg": 0.0021413,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "C2_N5.J2",
+      "owner": "pelvis",
+      "kg": 0.0021413,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "C3_N3.J2",
+      "owner": "chest",
+      "kg": 0.00410665,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "C4_N2.J2",
+      "owner": "chest",
+      "kg": 0.0021413,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "C5_N4.J2",
+      "owner": "chest",
+      "kg": 0.0021413,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "P1_N1.J1",
+      "owner": "pelvis",
+      "kg": 0.0033189,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "P2_N2.J1",
+      "owner": "chest",
+      "kg": 0.005030099999999999,
+      "local_com_mm": [
+        -113.0,
+        0.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "P3_N3.J1",
+      "owner": "chest",
+      "kg": 0.005097949999999999,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "P4_N4.J1",
+      "owner": "chest",
+      "kg": 0.005097949999999999,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -13.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "P5_N5.J1",
+      "owner": "pelvis",
+      "kg": 0.0033867499999999996,
+      "local_com_mm": [
+        -113.0,
+        46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    },
+    {
+      "name": "P6_N6.J1",
+      "owner": "pelvis",
+      "kg": 0.0033867499999999996,
+      "local_com_mm": [
+        -113.0,
+        -46.0,
+        -78.0
+      ],
+      "material": "harness_estimate"
+    }
+  ],
+  "gravity_mass_with_15_percent_reserve_g": 229.45144999999997,
+  "total_estimated_mass_g": 199.523,
+  "limits": [
+    "Reach bound guarantees only available chord length, not an unobstructed elastic route.",
+    "Service loops must be dressed outside each joint, with no wrap around a rotating shaft.",
+    "Loose lead and minimum bend radius need physical inspection across the motion range.",
+    "SPI cable capacitance / ringing and repeated flex life are not qualified by length calculation."
+  ]
+}

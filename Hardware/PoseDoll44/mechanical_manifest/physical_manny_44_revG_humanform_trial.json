@@ -1,0 +1,2622 @@
+{
+  "schema_version": "1.0",
+  "profile_id": "physical_manny_44_revG_humanform_trial",
+  "status": "HUMAN_FORM_HALF_SCALE_TRIAL_NOT_MANUFACTURING_RELEASE",
+  "coordinate_system": {
+    "handedness": "right",
+    "x": "forward",
+    "y": "left",
+    "z": "up",
+    "length": "m",
+    "angle": "rad",
+    "quaternion": "xyzw_hamilton_active",
+    "vectors": "column"
+  },
+  "neutral_pose": "N_pose_arms_down_palms_forward_legs_down_feet_forward",
+  "notes_zh": [
+    "沿用对应角色比例及44轴定义，按1:2试算。",
+    "约90.8cm为人形封装候选，不是已经冻结的整机高度。",
+    "稳定节段包壳，活动与形变区裸露；肩带及全身机构尚未完成。"
+  ],
+  "nodes": [
+    {
+      "id": "device_base",
+      "parent": null,
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "pelvis.yaw_frame",
+      "parent": "device_base",
+      "kind": "revolute",
+      "axis_id": "pelvis.yaw",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.48479619570812027
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "pelvis.pitch_frame",
+      "parent": "pelvis.yaw_frame",
+      "kind": "revolute",
+      "axis_id": "pelvis.pitch",
+      "axis_local": [
+        0,
+        1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "pelvis",
+      "parent": "pelvis.pitch_frame",
+      "kind": "revolute",
+      "axis_id": "pelvis.roll",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "waist.yaw_frame",
+      "parent": "pelvis",
+      "kind": "revolute",
+      "axis_id": "waist.yaw",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.007533436581984716,
+          8.270207350842228e-19,
+          0.06966560275360544
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "waist.pitch_frame",
+      "parent": "waist.yaw_frame",
+      "kind": "revolute",
+      "axis_id": "waist.pitch",
+      "axis_local": [
+        0,
+        1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "waist",
+      "parent": "waist.pitch_frame",
+      "kind": "revolute",
+      "axis_id": "waist.roll",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "chest.yaw_frame",
+      "parent": "waist",
+      "kind": "revolute",
+      "axis_id": "chest.yaw",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -0.000347931528441428,
+          -1.7995068718885375e-18,
+          0.06048249164676738
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "chest.pitch_frame",
+      "parent": "chest.yaw_frame",
+      "kind": "revolute",
+      "axis_id": "chest.pitch",
+      "axis_local": [
+        0,
+        1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "chest",
+      "parent": "chest.pitch_frame",
+      "kind": "revolute",
+      "axis_id": "chest.roll",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "head.yaw_frame",
+      "parent": "chest",
+      "kind": "revolute",
+      "axis_id": "head.yaw",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -0.020676295927497753,
+          -1.7077768582111084e-13,
+          0.17894624153443855
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "head.pitch_frame",
+      "parent": "head.yaw_frame",
+      "kind": "revolute",
+      "axis_id": "head.pitch",
+      "axis_local": [
+        0,
+        1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "head",
+      "parent": "head.pitch_frame",
+      "kind": "revolute",
+      "axis_id": "head.roll",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "head_tip",
+      "parent": "head",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          0.014728370458076132,
+          -2.448579760897555e-13,
+          0.11403985748559888
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "clavicle_l.protract_frame",
+      "parent": "chest",
+      "kind": "revolute",
+      "axis_id": "clavicle_l.protract",
+      "axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -0.027288903954140464,
+          0.007139521241290423,
+          0.12187324876661168
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "clavicle_l",
+      "parent": "clavicle_l.protract_frame",
+      "kind": "revolute",
+      "axis_id": "clavicle_l.elevate",
+      "axis_local": [
+        1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "upperarm_l.flex_frame",
+      "parent": "clavicle_l",
+      "kind": "revolute",
+      "axis_id": "upperarm_l.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -0.004087098387250857,
+          0.08790987430679936,
+          -0.01358775304327594
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "upperarm_l.abduct_frame",
+      "parent": "upperarm_l.flex_frame",
+      "kind": "revolute",
+      "axis_id": "upperarm_l.abduct",
+      "axis_local": [
+        1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "upperarm_l",
+      "parent": "upperarm_l.abduct_frame",
+      "kind": "revolute",
+      "axis_id": "upperarm_l.twist",
+      "axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "elbow_l",
+      "parent": "upperarm_l",
+      "kind": "revolute",
+      "axis_id": "elbow_l.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          2.1316282072803006e-17,
+          -0.13885569572448733
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "forearm_l",
+      "parent": "elbow_l",
+      "kind": "revolute",
+      "axis_id": "forearm_l.twist",
+      "axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          5.3290705182007515e-18,
+          0.0,
+          -0.06131491613388053
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "hand_l.flex_frame",
+      "parent": "forearm_l",
+      "kind": "revolute",
+      "axis_id": "hand_l.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          1.0658141036401503e-17,
+          0.0,
+          -0.07494045305252078
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "hand_l",
+      "parent": "hand_l.flex_frame",
+      "kind": "revolute",
+      "axis_id": "hand_l.deviate",
+      "axis_local": [
+        1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "hand_tip_l",
+      "parent": "hand_l",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          -0.03504964759781946,
+          0.0020583922798146047,
+          -0.08417275767951772
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "thigh_l.flex_frame",
+      "parent": "pelvis",
+      "kind": "revolute",
+      "axis_id": "thigh_l.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0012986554424513682,
+          0.049846014976501464,
+          -0.011769918150759479
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "thigh_l.abduct_frame",
+      "parent": "thigh_l.flex_frame",
+      "kind": "revolute",
+      "axis_id": "thigh_l.abduct",
+      "axis_local": [
+        1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "thigh_l",
+      "parent": "thigh_l.abduct_frame",
+      "kind": "revolute",
+      "axis_id": "thigh_l.twist",
+      "axis_local": [
+        0,
+        0,
+        -1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "calf_l",
+      "parent": "thigh_l",
+      "kind": "revolute",
+      "axis_id": "calf_l.flex",
+      "axis_local": [
+        0,
+        1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          -0.21670654296874992
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "foot_l.dorsiflex_frame",
+      "parent": "calf_l",
+      "kind": "revolute",
+      "axis_id": "foot_l.dorsiflex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -2.6645352591003758e-18,
+          0.0,
+          -0.21108957290649416
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "foot_l",
+      "parent": "foot_l.dorsiflex_frame",
+      "kind": "revolute",
+      "axis_id": "foot_l.invert",
+      "axis_local": [
+        1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "sole_l",
+      "parent": "foot_l",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          0.0013747810969197366,
+          0.0013546853761879872,
+          -0.04520989986829092
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "heel_l",
+      "parent": "foot_l",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          -0.01935096678125316,
+          0.001422309613143007,
+          -0.004670728422099316
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ball_l",
+      "parent": "foot_l",
+      "kind": "revolute",
+      "axis_id": "ball_l.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.08390570841386463,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "toe_tip_l",
+      "parent": "ball_l",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          0.03190862597656062,
+          -0.0028147444787089493,
+          0.01891154278643567
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "clavicle_r.protract_frame",
+      "parent": "chest",
+      "kind": "revolute",
+      "axis_id": "clavicle_r.protract",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -0.027289083539251517,
+          -0.007139363288777017,
+          0.12187296962378212
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "clavicle_r",
+      "parent": "clavicle_r.protract_frame",
+      "kind": "revolute",
+      "axis_id": "clavicle_r.elevate",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "upperarm_r.flex_frame",
+      "parent": "clavicle_r",
+      "kind": "revolute",
+      "axis_id": "upperarm_r.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          -0.0040871001355634535,
+          -0.08791004911634026,
+          -0.013589996495689944
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "upperarm_r.abduct_frame",
+      "parent": "upperarm_r.flex_frame",
+      "kind": "revolute",
+      "axis_id": "upperarm_r.abduct",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "upperarm_r",
+      "parent": "upperarm_r.abduct_frame",
+      "kind": "revolute",
+      "axis_id": "upperarm_r.twist",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "elbow_r",
+      "parent": "upperarm_r",
+      "kind": "revolute",
+      "axis_id": "elbow_r.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          -3.197442310920451e-17,
+          -0.13885347366333012
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "forearm_r",
+      "parent": "elbow_r",
+      "kind": "revolute",
+      "axis_id": "forearm_r.twist",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          1.0658141036401503e-17,
+          -0.061314774513244547
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "hand_r.flex_frame",
+      "parent": "forearm_r",
+      "kind": "revolute",
+      "axis_id": "hand_r.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          5.3290705182007515e-18,
+          2.1316282072803006e-17,
+          -0.07494027996063235
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "hand_r",
+      "parent": "hand_r.flex_frame",
+      "kind": "revolute",
+      "axis_id": "hand_r.deviate",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "hand_tip_r",
+      "parent": "hand_r",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          -0.03505098172888981,
+          -0.0020584505273632133,
+          -0.08417236285385295
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "thigh_r.flex_frame",
+      "parent": "pelvis",
+      "kind": "revolute",
+      "axis_id": "thigh_r.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0013457854428732556,
+          -0.04984545707702637,
+          -0.011767000893857814
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "thigh_r.abduct_frame",
+      "parent": "thigh_r.flex_frame",
+      "kind": "revolute",
+      "axis_id": "thigh_r.abduct",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "thigh_r",
+      "parent": "thigh_r.abduct_frame",
+      "kind": "revolute",
+      "axis_id": "thigh_r.twist",
+      "axis_local": [
+        0,
+        0,
+        1
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "calf_r",
+      "parent": "thigh_r",
+      "kind": "revolute",
+      "axis_id": "calf_r.flex",
+      "axis_local": [
+        0,
+        1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          -0.216706314086914
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "foot_r.dorsiflex_frame",
+      "parent": "calf_r",
+      "kind": "revolute",
+      "axis_id": "foot_r.dorsiflex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          -0.2110897445678711
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "foot_r",
+      "parent": "foot_r.dorsiflex_frame",
+      "kind": "revolute",
+      "axis_id": "foot_r.invert",
+      "axis_local": [
+        -1,
+        0,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "sole_r",
+      "parent": "foot_r",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          0.0013340064622128524,
+          -0.001358680433425942,
+          -0.04523313615947741
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "heel_r",
+      "parent": "foot_r",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          -0.019393855762543235,
+          -0.0014250086759703144,
+          -0.004688127792649365
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "ball_r",
+      "parent": "foot_r",
+      "kind": "revolute",
+      "axis_id": "ball_r.flex",
+      "axis_local": [
+        0,
+        -1,
+        0
+      ],
+      "parent_to_axis": {
+        "translation_m": [
+          0.08390574373362375,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "id": "toe_tip_r",
+      "parent": "ball_r",
+      "kind": "fixed",
+      "parent_to_axis": {
+        "translation_m": [
+          0.031868094340991124,
+          0.002810177354729726,
+          0.01888761212777368
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "axis_to_child": {
+        "translation_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_xyzw": [
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  ],
+  "axes": [
+    {
+      "id": "pelvis.yaw",
+      "node": "pelvis.yaw_frame",
+      "label_zh": "骨盆支架左右转动",
+      "category": "pelvis",
+      "side": "center",
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "pelvis.pitch",
+      "node": "pelvis.pitch_frame",
+      "label_zh": "骨盆支架前后俯仰",
+      "category": "pelvis",
+      "side": "center",
+      "limits_rad": [
+        -0.5235987755982988,
+        0.7853981633974483
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "pelvis.roll",
+      "node": "pelvis",
+      "label_zh": "骨盆支架左右侧倾",
+      "category": "pelvis",
+      "side": "center",
+      "limits_rad": [
+        -0.4363323129985824,
+        0.4363323129985824
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "waist.yaw",
+      "node": "waist.yaw_frame",
+      "label_zh": "腰部左右转动",
+      "category": "spine",
+      "side": "center",
+      "limits_rad": [
+        -0.6108652381980153,
+        0.6108652381980153
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "waist.pitch",
+      "node": "waist.pitch_frame",
+      "label_zh": "腰部前后俯仰",
+      "category": "spine",
+      "side": "center",
+      "limits_rad": [
+        -0.3490658503988659,
+        0.6981317007977318
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "waist.roll",
+      "node": "waist",
+      "label_zh": "腰部左右侧倾",
+      "category": "spine",
+      "side": "center",
+      "limits_rad": [
+        -0.4363323129985824,
+        0.4363323129985824
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "chest.yaw",
+      "node": "chest.yaw_frame",
+      "label_zh": "胸部左右转动",
+      "category": "spine",
+      "side": "center",
+      "limits_rad": [
+        -0.6108652381980153,
+        0.6108652381980153
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "chest.pitch",
+      "node": "chest.pitch_frame",
+      "label_zh": "胸部前后俯仰",
+      "category": "spine",
+      "side": "center",
+      "limits_rad": [
+        -0.3490658503988659,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "chest.roll",
+      "node": "chest",
+      "label_zh": "胸部左右侧倾",
+      "category": "spine",
+      "side": "center",
+      "limits_rad": [
+        -0.3490658503988659,
+        0.3490658503988659
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "head.yaw",
+      "node": "head.yaw_frame",
+      "label_zh": "颈头左右转动",
+      "category": "head",
+      "side": "center",
+      "limits_rad": [
+        -1.3089969389957472,
+        1.3089969389957472
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "head.pitch",
+      "node": "head.pitch_frame",
+      "label_zh": "颈头前后俯仰",
+      "category": "head",
+      "side": "center",
+      "limits_rad": [
+        -0.7853981633974483,
+        0.9599310885968813
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "head.roll",
+      "node": "head",
+      "label_zh": "颈头左右侧倾",
+      "category": "head",
+      "side": "center",
+      "limits_rad": [
+        -0.6108652381980153,
+        0.6108652381980153
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": null
+    },
+    {
+      "id": "clavicle_l.protract",
+      "node": "clavicle_l.protract_frame",
+      "label_zh": "左肩带前伸/后收",
+      "category": "shoulder_girdle",
+      "side": "left",
+      "limits_rad": [
+        -0.3490658503988659,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "clavicle_r.protract"
+    },
+    {
+      "id": "clavicle_l.elevate",
+      "node": "clavicle_l",
+      "label_zh": "左肩带抬高/下压",
+      "category": "shoulder_girdle",
+      "side": "left",
+      "limits_rad": [
+        -0.2617993877991494,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "clavicle_r.elevate"
+    },
+    {
+      "id": "upperarm_l.flex",
+      "node": "upperarm_l.flex_frame",
+      "label_zh": "左肩前举/后摆",
+      "category": "arms",
+      "side": "left",
+      "limits_rad": [
+        -0.8726646259971648,
+        2.792526803190927
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "upperarm_r.flex"
+    },
+    {
+      "id": "upperarm_l.abduct",
+      "node": "upperarm_l.abduct_frame",
+      "label_zh": "左肩外展/内收",
+      "category": "arms",
+      "side": "left",
+      "limits_rad": [
+        -0.5235987755982988,
+        2.6179938779914944
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "upperarm_r.abduct"
+    },
+    {
+      "id": "upperarm_l.twist",
+      "node": "upperarm_l",
+      "label_zh": "左上臂轴向旋转",
+      "category": "arms",
+      "side": "left",
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "upperarm_r.twist"
+    },
+    {
+      "id": "elbow_l.flex",
+      "node": "elbow_l",
+      "label_zh": "左肘屈曲",
+      "category": "arms",
+      "side": "left",
+      "limits_rad": [
+        0.0,
+        2.530727415391778
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "elbow_r.flex"
+    },
+    {
+      "id": "forearm_l.twist",
+      "node": "forearm_l",
+      "label_zh": "左前臂轴向旋转",
+      "category": "arms",
+      "side": "left",
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "forearm_r.twist"
+    },
+    {
+      "id": "hand_l.flex",
+      "node": "hand_l.flex_frame",
+      "label_zh": "左手腕掌背屈",
+      "category": "hands",
+      "side": "left",
+      "limits_rad": [
+        -1.1344640137963142,
+        1.1344640137963142
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "hand_r.flex"
+    },
+    {
+      "id": "hand_l.deviate",
+      "node": "hand_l",
+      "label_zh": "左手腕侧偏",
+      "category": "hands",
+      "side": "left",
+      "limits_rad": [
+        -0.4363323129985824,
+        0.6108652381980153
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "hand_r.deviate"
+    },
+    {
+      "id": "thigh_l.flex",
+      "node": "thigh_l.flex_frame",
+      "label_zh": "左髋前抬/后伸",
+      "category": "legs",
+      "side": "left",
+      "limits_rad": [
+        -0.5235987755982988,
+        2.181661564992912
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "thigh_r.flex"
+    },
+    {
+      "id": "thigh_l.abduct",
+      "node": "thigh_l.abduct_frame",
+      "label_zh": "左髋外展/内收",
+      "category": "legs",
+      "side": "left",
+      "limits_rad": [
+        -0.4363323129985824,
+        1.1344640137963142
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "thigh_r.abduct"
+    },
+    {
+      "id": "thigh_l.twist",
+      "node": "thigh_l",
+      "label_zh": "左大腿轴向旋转",
+      "category": "legs",
+      "side": "left",
+      "limits_rad": [
+        -0.8726646259971648,
+        0.8726646259971648
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "thigh_r.twist"
+    },
+    {
+      "id": "calf_l.flex",
+      "node": "calf_l",
+      "label_zh": "左膝屈曲",
+      "category": "legs",
+      "side": "left",
+      "limits_rad": [
+        0.0,
+        2.530727415391778
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "calf_r.flex"
+    },
+    {
+      "id": "foot_l.dorsiflex",
+      "node": "foot_l.dorsiflex_frame",
+      "label_zh": "左脚踝抬脚尖/压脚尖",
+      "category": "feet",
+      "side": "left",
+      "limits_rad": [
+        -0.7853981633974483,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "foot_r.dorsiflex"
+    },
+    {
+      "id": "foot_l.invert",
+      "node": "foot_l",
+      "label_zh": "左脚踝侧倾",
+      "category": "feet",
+      "side": "left",
+      "limits_rad": [
+        -0.4363323129985824,
+        0.4363323129985824
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "foot_r.invert"
+    },
+    {
+      "id": "ball_l.flex",
+      "node": "ball_l",
+      "label_zh": "左前脚掌弯曲",
+      "category": "feet",
+      "side": "left",
+      "limits_rad": [
+        -0.3490658503988659,
+        1.0471975511965976
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "ball_r.flex"
+    },
+    {
+      "id": "clavicle_r.protract",
+      "node": "clavicle_r.protract_frame",
+      "label_zh": "右肩带前伸/后收",
+      "category": "shoulder_girdle",
+      "side": "right",
+      "limits_rad": [
+        -0.3490658503988659,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "clavicle_l.protract"
+    },
+    {
+      "id": "clavicle_r.elevate",
+      "node": "clavicle_r",
+      "label_zh": "右肩带抬高/下压",
+      "category": "shoulder_girdle",
+      "side": "right",
+      "limits_rad": [
+        -0.2617993877991494,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "clavicle_l.elevate"
+    },
+    {
+      "id": "upperarm_r.flex",
+      "node": "upperarm_r.flex_frame",
+      "label_zh": "右肩前举/后摆",
+      "category": "arms",
+      "side": "right",
+      "limits_rad": [
+        -0.8726646259971648,
+        2.792526803190927
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "upperarm_l.flex"
+    },
+    {
+      "id": "upperarm_r.abduct",
+      "node": "upperarm_r.abduct_frame",
+      "label_zh": "右肩外展/内收",
+      "category": "arms",
+      "side": "right",
+      "limits_rad": [
+        -0.5235987755982988,
+        2.6179938779914944
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "upperarm_l.abduct"
+    },
+    {
+      "id": "upperarm_r.twist",
+      "node": "upperarm_r",
+      "label_zh": "右上臂轴向旋转",
+      "category": "arms",
+      "side": "right",
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "upperarm_l.twist"
+    },
+    {
+      "id": "elbow_r.flex",
+      "node": "elbow_r",
+      "label_zh": "右肘屈曲",
+      "category": "arms",
+      "side": "right",
+      "limits_rad": [
+        0.0,
+        2.530727415391778
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "elbow_l.flex"
+    },
+    {
+      "id": "forearm_r.twist",
+      "node": "forearm_r",
+      "label_zh": "右前臂轴向旋转",
+      "category": "arms",
+      "side": "right",
+      "limits_rad": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "forearm_l.twist"
+    },
+    {
+      "id": "hand_r.flex",
+      "node": "hand_r.flex_frame",
+      "label_zh": "右手腕掌背屈",
+      "category": "hands",
+      "side": "right",
+      "limits_rad": [
+        -1.1344640137963142,
+        1.1344640137963142
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "hand_l.flex"
+    },
+    {
+      "id": "hand_r.deviate",
+      "node": "hand_r",
+      "label_zh": "右手腕侧偏",
+      "category": "hands",
+      "side": "right",
+      "limits_rad": [
+        -0.4363323129985824,
+        0.6108652381980153
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "hand_l.deviate"
+    },
+    {
+      "id": "thigh_r.flex",
+      "node": "thigh_r.flex_frame",
+      "label_zh": "右髋前抬/后伸",
+      "category": "legs",
+      "side": "right",
+      "limits_rad": [
+        -0.5235987755982988,
+        2.181661564992912
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "thigh_l.flex"
+    },
+    {
+      "id": "thigh_r.abduct",
+      "node": "thigh_r.abduct_frame",
+      "label_zh": "右髋外展/内收",
+      "category": "legs",
+      "side": "right",
+      "limits_rad": [
+        -0.4363323129985824,
+        1.1344640137963142
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "thigh_l.abduct"
+    },
+    {
+      "id": "thigh_r.twist",
+      "node": "thigh_r",
+      "label_zh": "右大腿轴向旋转",
+      "category": "legs",
+      "side": "right",
+      "limits_rad": [
+        -0.8726646259971648,
+        0.8726646259971648
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "thigh_l.twist"
+    },
+    {
+      "id": "calf_r.flex",
+      "node": "calf_r",
+      "label_zh": "右膝屈曲",
+      "category": "legs",
+      "side": "right",
+      "limits_rad": [
+        0.0,
+        2.530727415391778
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "calf_l.flex"
+    },
+    {
+      "id": "foot_r.dorsiflex",
+      "node": "foot_r.dorsiflex_frame",
+      "label_zh": "右脚踝抬脚尖/压脚尖",
+      "category": "feet",
+      "side": "right",
+      "limits_rad": [
+        -0.7853981633974483,
+        0.5235987755982988
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "foot_l.dorsiflex"
+    },
+    {
+      "id": "foot_r.invert",
+      "node": "foot_r",
+      "label_zh": "右脚踝侧倾",
+      "category": "feet",
+      "side": "right",
+      "limits_rad": [
+        -0.4363323129985824,
+        0.4363323129985824
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "foot_l.invert"
+    },
+    {
+      "id": "ball_r.flex",
+      "node": "ball_r",
+      "label_zh": "右前脚掌弯曲",
+      "category": "feet",
+      "side": "right",
+      "limits_rad": [
+        -0.3490658503988659,
+        1.0471975511965976
+      ],
+      "positive_rule": "right_hand_about_axis_local",
+      "mirrored_axis_id": "ball_l.flex"
+    }
+  ],
+  "anatomical_segments": {
+    "pelvis": "pelvis",
+    "waist": "waist",
+    "chest": "chest",
+    "head": "head",
+    "clavicle_l": "clavicle_l",
+    "upperarm_l": "upperarm_l",
+    "lowerarm_l": "forearm_l",
+    "hand_l": "hand_l",
+    "thigh_l": "thigh_l",
+    "calf_l": "calf_l",
+    "foot_l": "foot_l",
+    "ball_l": "ball_l",
+    "clavicle_r": "clavicle_r",
+    "upperarm_r": "upperarm_r",
+    "lowerarm_r": "forearm_r",
+    "hand_r": "hand_r",
+    "thigh_r": "thigh_r",
+    "calf_r": "calf_r",
+    "foot_r": "foot_r",
+    "ball_r": "ball_r"
+  },
+  "end_effectors": {
+    "hand_tip_l": "hand_tip_l",
+    "sole_l": "sole_l",
+    "toe_tip_l": "toe_tip_l",
+    "hand_tip_r": "hand_tip_r",
+    "sole_r": "sole_r",
+    "toe_tip_r": "toe_tip_r"
+  },
+  "axis_order": [
+    "pelvis.yaw",
+    "pelvis.pitch",
+    "pelvis.roll",
+    "waist.yaw",
+    "waist.pitch",
+    "waist.roll",
+    "chest.yaw",
+    "chest.pitch",
+    "chest.roll",
+    "head.yaw",
+    "head.pitch",
+    "head.roll",
+    "clavicle_l.protract",
+    "clavicle_l.elevate",
+    "upperarm_l.flex",
+    "upperarm_l.abduct",
+    "upperarm_l.twist",
+    "elbow_l.flex",
+    "forearm_l.twist",
+    "hand_l.flex",
+    "hand_l.deviate",
+    "thigh_l.flex",
+    "thigh_l.abduct",
+    "thigh_l.twist",
+    "calf_l.flex",
+    "foot_l.dorsiflex",
+    "foot_l.invert",
+    "ball_l.flex",
+    "clavicle_r.protract",
+    "clavicle_r.elevate",
+    "upperarm_r.flex",
+    "upperarm_r.abduct",
+    "upperarm_r.twist",
+    "elbow_r.flex",
+    "forearm_r.twist",
+    "hand_r.flex",
+    "hand_r.deviate",
+    "thigh_r.flex",
+    "thigh_r.abduct",
+    "thigh_r.twist",
+    "calf_r.flex",
+    "foot_r.dorsiflex",
+    "foot_r.invert",
+    "ball_r.flex"
+  ],
+  "design_reference": {
+    "mesh_asset": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "scale": 0.5,
+    "mesh_N_pose_surface_height_mm": 907.9303891285306,
+    "mesh_to_protocol_axes": "[UE_Y,UE_X,UE_Z]",
+    "neutral_floor_shift_mm": [
+      -11.404330730438232,
+      1.7157499379583108e-16,
+      5.3122861011867695
+    ]
+  }
+}

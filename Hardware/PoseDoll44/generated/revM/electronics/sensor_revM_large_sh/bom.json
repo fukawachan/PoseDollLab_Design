@@ -1,0 +1,56 @@
+[
+  {
+    "reference": "R2",
+    "value": "10k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "side": "F",
+    "x_mm": 103.0,
+    "y_mm": 112.4,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "C1",
+    "value": "100n X7R 16V",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "side": "F",
+    "x_mm": 114.7,
+    "y_mm": 108.6,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "U1",
+    "value": "AS5048A-HTSP-500",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "side": "F",
+    "x_mm": 109.0,
+    "y_mm": 110.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "C2",
+    "value": "10u X5R 25V / GRM219R61E106KA12D",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "side": "F",
+    "x_mm": 114.7,
+    "y_mm": 112.3,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "R1",
+    "value": "33R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "side": "F",
+    "x_mm": 103.0,
+    "y_mm": 109.35,
+    "rotation_deg": 180.0
+  },
+  {
+    "reference": "J1",
+    "value": "SM06B-SRSS-TB(LF)(SN)",
+    "footprint": "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal",
+    "side": "B",
+    "x_mm": 109.0,
+    "y_mm": 103.4,
+    "rotation_deg": 180.0
+  }
+]

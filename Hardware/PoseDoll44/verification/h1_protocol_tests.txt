@@ -1,0 +1,26 @@
+﻿python.exe : test_disconnect_preserves_raw_evidence (test_diagnose.TestDiagnostic.test_disconnect_preserves_raw_evidenc
+e) ... ok
+At E:\UnrealProjects\DollSimulation\Hardware\PoseDoll44\tools\Build-Hardware.ps1:13 char:5
++     & $exe @argv 2>&1 | Out-File -LiteralPath $log -Encoding utf8
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_disconnect...vidence) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_never_overwrite_record (test_diagnose.TestDiagnostic.test_never_overwrite_record) ... ok
+test_wrap_and_dropped_epochs (test_diagnose.TestDiagnostic.test_wrap_and_dropped_epochs) ... ok
+test_bounds_and_resync (test_h1_protocol.TestH1.test_bounds_and_resync) ... ok
+test_cobs (test_h1_protocol.TestH1.test_cobs) ... ok
+test_crc_fault_recovers (test_h1_protocol.TestH1.test_crc_fault_recovers) ... ok
+test_crc_reference (test_h1_protocol.TestH1.test_crc_reference) ... ok
+test_duplicate_and_old_time (test_h1_protocol.TestH1.test_duplicate_and_old_time) ... ok
+test_fake_health_rejected (test_h1_protocol.TestH1.test_fake_health_rejected) ... ok
+test_fragmented (test_h1_protocol.TestH1.test_fragmented) ... ok
+test_invalid_count_rejected (test_h1_protocol.TestH1.test_invalid_count_rejected) ... ok
+test_magnet_fault (test_h1_protocol.TestH1.test_magnet_fault) ... ok
+test_restart_requires_reconnect (test_h1_protocol.TestH1.test_restart_requires_reconnect) ... ok
+test_wrong_axis_rejected (test_h1_protocol.TestH1.test_wrong_axis_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.012s
+
+OK

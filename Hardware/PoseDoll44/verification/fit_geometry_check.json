@@ -1,0 +1,317 @@
+{
+  "profile_sha256": "efea8c9c158538726fb2a840d5d7933b79e407d16155c2fb3cf5214286b72d4a",
+  "method": "STEP imports: design diameter minus 0.02mm probe is clear and plus 0.02mm intersects; skip 0.05mm at each end",
+  "step_sha256": {
+    "H1-010_base": "17eca0f47f222247cf98a2af0845668ed105f2e654aed156df8c5e2b677f28ab",
+    "H1-012_upper_fork": "8f90f3c19a70d1b36f5e3da48cf9596f835a6a5689a1ea9a0676d5ecf9b9565f",
+    "H1-011_spine": "aa4fe3385762542703ea2fa7d065f5499b45fa017746c0d93c073b842905013a",
+    "H1-017_sensor_carrier": "6a7b3c1002ad4445ae9d36e9c993212dac0cc9af9f0bd741e576084477c31564",
+    "H1-013_rotor_lever": "29a664b62996132e08864e248cca0de75c46511a3b88e2d8bee1287697888b4e",
+    "H1-014_magnet_bridge": "51b0afcc415ed0de11c17cd82b0d6f1ffbd416f135c995f4de042f442f5aeff8",
+    "H1-001_fit_coupon": "2837336101e0c488b2575ea4bb8e7216978a9b6f2e515152d397ab9a0b5b78db",
+    "H1-002_nut_magnet_coupon": "b023eded1ea4b7355a64807dcbe8d516e4ef528b2ba05e0a94f5d9e299198903"
+  },
+  "features": [
+    {
+      "part": "H1-010_base",
+      "feature": "M6_base",
+      "design_d_mm": 6.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.262261,
+      "pass": true
+    },
+    {
+      "part": "H1-012_upper_fork",
+      "feature": "M6_fork",
+      "design_d_mm": 6.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.048318,
+      "pass": true
+    },
+    {
+      "part": "H1-011_spine",
+      "feature": "M3_long_frame",
+      "design_d_mm": 3.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 7.822047,
+      "pass": true
+    },
+    {
+      "part": "H1-012_upper_fork",
+      "feature": "M3_pressure",
+      "design_d_mm": 3.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.215482,
+      "pass": true
+    },
+    {
+      "part": "H1-017_sensor_carrier",
+      "feature": "M2_PCB",
+      "design_d_mm": 2.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.319783,
+      "pass": true
+    },
+    {
+      "part": "H1-013_rotor_lever",
+      "feature": "M4_load",
+      "design_d_mm": 4.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.891553,
+      "pass": true
+    },
+    {
+      "part": "H1-013_rotor_lever",
+      "feature": "POM_housing",
+      "design_d_mm": 10.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 6.0623,
+      "pass": true
+    },
+    {
+      "part": "H1-014_magnet_bridge",
+      "feature": "magnet_seat",
+      "design_d_mm": 6.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.487732,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M2_A",
+      "design_d_mm": 2.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.409632,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M2_B",
+      "design_d_mm": 2.4,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.446703,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M2_C",
+      "design_d_mm": 2.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.483774,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M2_D",
+      "design_d_mm": 2.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.520845,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M2_E",
+      "design_d_mm": 3.0,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.557915,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M3_A",
+      "design_d_mm": 3.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.594986,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M3_B",
+      "design_d_mm": 3.4,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.632057,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M3_C",
+      "design_d_mm": 3.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.669128,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M3_D",
+      "design_d_mm": 3.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.706199,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M3_E",
+      "design_d_mm": 4.0,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.743269,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M4_A",
+      "design_d_mm": 4.4,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.817411,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M4_B",
+      "design_d_mm": 4.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.854482,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M4_C",
+      "design_d_mm": 4.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.891553,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M4_D",
+      "design_d_mm": 5.0,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.928623,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M4_E",
+      "design_d_mm": 5.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.965694,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M6_A",
+      "design_d_mm": 6.4,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.188119,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M6_B",
+      "design_d_mm": 6.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.22519,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M6_C",
+      "design_d_mm": 6.8,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.262261,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M6_D",
+      "design_d_mm": 7.0,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.299331,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "M6_E",
+      "design_d_mm": 7.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.336402,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "POM10_A",
+      "design_d_mm": 10.0,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.855393,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "POM10_B",
+      "design_d_mm": 10.1,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.873929,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "POM10_C",
+      "design_d_mm": 10.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.892464,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "POM10_D",
+      "design_d_mm": 10.3,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.910999,
+      "pass": true
+    },
+    {
+      "part": "H1-001_fit_coupon",
+      "feature": "POM10_E",
+      "design_d_mm": 10.4,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 1.929535,
+      "pass": true
+    },
+    {
+      "part": "H1-002_nut_magnet_coupon",
+      "feature": "magnet_A",
+      "design_d_mm": 6.0,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.472024,
+      "pass": true
+    },
+    {
+      "part": "H1-002_nut_magnet_coupon",
+      "feature": "magnet_B",
+      "design_d_mm": 6.2,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.487732,
+      "pass": true
+    },
+    {
+      "part": "H1-002_nut_magnet_coupon",
+      "feature": "magnet_C",
+      "design_d_mm": 6.4,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.50344,
+      "pass": true
+    },
+    {
+      "part": "H1-002_nut_magnet_coupon",
+      "feature": "magnet_D",
+      "design_d_mm": 6.6,
+      "inner_probe_overlap_mm3": 0.0,
+      "outer_probe_overlap_mm3": 0.519148,
+      "pass": true
+    }
+  ],
+  "all_passed": true,
+  "limitations": [
+    "representative bores only; slots/hex pockets not measured here",
+    "nominal CAD only, not printed size, strength, concentricity or procurement tolerance"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "model": "manny",
+      "pose": "relaxed",
+      "focus": "all",
+      "shells": true,
+      "electronics": true,
+      "showAnchors": false,
+      "parts": 1999,
+      "rendered": 1,
+      "selected": -1,
+      "reportMatches": true
+    },
+    {
+      "picking": {
+        "model": "manny",
+        "pose": "relaxed",
+        "focus": "all",
+        "shells": true,
+        "electronics": true,
+        "showAnchors": false,
+        "parts": 1999,
+        "rendered": 3,
+        "selected": 1866,
+        "reportMatches": true
+      },
+      "href": "manny/parts/pelvis_electronics_carrier.step",
+      "http": 200
+    },
+    {
+      "model": "quinn",
+      "pose": "sit",
+      "focus": "all",
+      "shells": true,
+      "electronics": true,
+      "showAnchors": false,
+      "parts": 1999,
+      "rendered": 6,
+      "selected": -1,
+      "reportMatches": true
+    },
+    {
+      "model": "quinn",
+      "pose": "sit",
+      "focus": "electronics",
+      "shells": false,
+      "electronics": true,
+      "showAnchors": true,
+      "parts": 1999,
+      "rendered": 8,
+      "selected": -1,
+      "reportMatches": true
+    },
+    {
+      "state": {
+        "model": "quinn",
+        "pose": "sit",
+        "focus": "all",
+        "shells": false,
+        "electronics": true,
+        "showAnchors": true,
+        "parts": 1999,
+        "rendered": 11,
+        "selected": -1,
+        "reportMatches": true
+      },
+      "overflow": false
+    }
+  ],
+  "source_sha256": {
+    "generated/revM/RevM_Full_Body_Review.html": "5a77a18d9b2f3893cc95e85f218f8963929f9fea1d3cdc90592d57e368f8934f",
+    "generated/revM/manny/viewer.json": "2437938735f5b5ff5c510a0612e279145e1e4fe987506657d6e71270a3839cdd",
+    "generated/revM/quinn/viewer.json": "da0d5fc566a6c2bded654eece1994be0dba885f8b70c8efb34919bbc7b95bc01",
+    "verification/revM_complete_audit.json": "6f14bb69bbc36e488e0f0a38e0fef9258085e2d572ab9ef24dc591390e014ed5"
+  }
+}

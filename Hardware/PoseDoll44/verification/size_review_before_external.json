@@ -1,0 +1,174 @@
+{
+  "review_date": "2026-09-23",
+  "basis": "Rev N1 manufacturing candidates",
+  "status": "DIMENSION_AND_ASSEMBLY_FEASIBILITY_REVIEW_ONLY",
+  "decision": "NO_UNIFORM_FILE_SCALING_MINIATURIZATION_COST_AND_FEASIBILITY_UNDETERMINED",
+  "decision_reason": "Current drawings remain the comparison baseline; fixed-part mismatch only rules out direct scaling. Smaller magnets exist. Compact joint design, revised load budget, assembly comparison and supplier quotes are needed before accepting or rejecting a smaller full-body design.",
+  "characters": {
+    "manny": {
+      "source_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+      "UE_length_scale": 0.5,
+      "reference_surface_height_mm": 907.9303891285306,
+      "height_definition": "Scaled UE reference surface height, not a new physical measurement",
+      "estimated_N1_mass_kg": 3.1998012024614497,
+      "small_sensor_board_plan_dimensions_from_current_CAD_mm": [
+        10.000000000000007,
+        12.0
+      ],
+      "shoulder_span_mm": 190.09880797003086
+    },
+    "quinn": {
+      "source_mesh": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple",
+      "UE_length_scale": 0.5,
+      "reference_surface_height_mm": 907.6993867446095,
+      "height_definition": "Scaled UE reference surface height, not a new physical measurement",
+      "estimated_N1_mass_kg": 3.1576805835269455,
+      "small_sensor_board_plan_dimensions_from_current_CAD_mm": [
+        10.000000000000007,
+        12.0
+      ],
+      "shoulder_span_mm": 160.55322720259392
+    }
+  },
+  "illustrative_scale_cases": [
+    {
+      "relative_linear_scale": 1,
+      "reference_heights_mm": {
+        "manny": 907.9303891285306,
+        "quinn": 907.6993867446095
+      },
+      "illustrative_uniform_scaled_magnet_bore_mm": 6.2,
+      "existing_magnet_diameter_mm": 6.0,
+      "existing_magnet_fits_scaled_nominal_bore": true,
+      "illustrative_uniform_scaled_board_slot_width_mm": 12.2,
+      "existing_board_width_mm": 12.0,
+      "existing_board_fits_scaled_nominal_slot": true,
+      "ideal_all_material_volume_factor": 1,
+      "ideal_all_material_gravity_moment_factor": 1,
+      "resized_mechanism_verified": false
+    },
+    {
+      "relative_linear_scale": 0.9,
+      "reference_heights_mm": {
+        "manny": 817.1373502156775,
+        "quinn": 816.9294480701485
+      },
+      "illustrative_uniform_scaled_magnet_bore_mm": 5.58,
+      "existing_magnet_diameter_mm": 6.0,
+      "existing_magnet_fits_scaled_nominal_bore": false,
+      "illustrative_uniform_scaled_board_slot_width_mm": 10.98,
+      "existing_board_width_mm": 12.0,
+      "existing_board_fits_scaled_nominal_slot": false,
+      "ideal_all_material_volume_factor": 0.7290000000000001,
+      "ideal_all_material_gravity_moment_factor": 0.6561,
+      "resized_mechanism_verified": false
+    },
+    {
+      "relative_linear_scale": 0.8,
+      "reference_heights_mm": {
+        "manny": 726.3443113028245,
+        "quinn": 726.1595093956876
+      },
+      "illustrative_uniform_scaled_magnet_bore_mm": 4.960000000000001,
+      "existing_magnet_diameter_mm": 6.0,
+      "existing_magnet_fits_scaled_nominal_bore": false,
+      "illustrative_uniform_scaled_board_slot_width_mm": 9.76,
+      "existing_board_width_mm": 12.0,
+      "existing_board_fits_scaled_nominal_slot": false,
+      "ideal_all_material_volume_factor": 0.5120000000000001,
+      "ideal_all_material_gravity_moment_factor": 0.4096000000000001,
+      "resized_mechanism_verified": false
+    },
+    {
+      "relative_linear_scale": 0.6666666666666666,
+      "reference_heights_mm": {
+        "manny": 605.286926085687,
+        "quinn": 605.1329244964063
+      },
+      "illustrative_uniform_scaled_magnet_bore_mm": 4.133333333333333,
+      "existing_magnet_diameter_mm": 6.0,
+      "existing_magnet_fits_scaled_nominal_bore": false,
+      "illustrative_uniform_scaled_board_slot_width_mm": 8.133333333333333,
+      "existing_board_width_mm": 12.0,
+      "existing_board_fits_scaled_nominal_slot": false,
+      "ideal_all_material_volume_factor": 0.2962962962962962,
+      "ideal_all_material_gravity_moment_factor": 0.19753086419753083,
+      "resized_mechanism_verified": false
+    }
+  ],
+  "equations_scope": "lambda^3 mass and lambda^4 gravity torque only for ideal uniform scaling of every material at fixed density and orientation; not forecasts for a design retaining real boards, fasteners and wires.",
+  "upcoming_external_revision": {
+    "user_authorized": true,
+    "implemented": false,
+    "architecture": "local compact acquisition nodes plus external power and USB gateway",
+    "keep_joint_centres_and_bone_proportions": true,
+    "keep_41_measured_and_3_fixed_protocol_slots": true,
+    "world_placement_and_all_rotation": "manual_in_UE",
+    "compact_local_electronics": true,
+    "retire_rear_boxes_and_electronics_only_projections": true,
+    "preserve_assembly_and_wire_service_access": true,
+    "recalculate_mass_holding_torque_and_handling_after_layout": true,
+    "dimension_policy_clarification": "This preserves the current unmodified delivery baseline, not a prohibition on a separately verified proportion-preserving smaller candidate."
+  },
+  "current_CAD_or_firmware_changed_by_review": false,
+  "source_sha256": {
+    "verification/revM_proportions.json": "1dd365daf2690d669c20d93243acd69fa05c6e2d36dfcf29ef619eb314aa5d7c",
+    "verification/revN_review_summary.json": "ed3947376f64ab1eefdbdc80d5a184a3b14fd1ade79f17b8778a63f997b4c6b1",
+    "verification/revN_external_tradeoff.json": "8470a786b9c529000656b603e52106152c02c8bdb2c729d773587748ac2ae814",
+    "generated/revN/manny/manufacturing_manifest.json": "f38a51c24fab46c06d4af6d54e8ae6fec84d64bd2e16ed22d7891b9b30b79360",
+    "generated/revN/quinn/manufacturing_manifest.json": "7de7ea819f20c720ea70930735ed46b24887cfacd670d083af64d32629525c53",
+    "cad/revM/compact_axis.py": "195e4b40b5acd2489c1667b85498ec1761e75bbbaede747bd06731d195bcfbea",
+    "cad/revM/sensor_cable_heads.py": "f3c5885cb6f26ac4b51b4ca593c0eb438c8266931c5f45409e60b191f8c591aa",
+    "docs/FABRICATION_REVM.zh-CN.md": "b7785e9adc42b29e3b410516b7e2325193e03ba8fa1a8a06c28f94fe20574a1b",
+    "docs/ASSEMBLY_REVM.zh-CN.md": "e7b5f318ba0d3ac657493ee5a0709277d2438e1db2348d4183f0e8f67165592f",
+    "docs/WIRING_REVM.zh-CN.md": "261f60649217a57e69d5d3aa6976004b2755439c7f764956a3dce0a6ffda04bf",
+    "docs/BOM_AND_SUPPLIER.zh-CN.md": "871b27e89bec970224b1169a4c044903833d013829a528f63f1a7eccf7b21234",
+    "cad/revM/neck_light.py": "57116c77153d81cd81e2bb33762a5a4258506232683473793610acf66d1a0d85",
+    "cad/revM/trunk_dual_friction.py": "45f52ea1b3ba53235e9f62f93fbe47d54583d51e263b3e01f4d46bb8040a3e6b"
+  },
+  "manufacturer_reference": {
+    "JST_SH": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+    "scope": "Fixed 1 mm pitch and connector dimensions; no flexible cable fatigue certification inferred"
+  },
+  "superseded_decision": "KEEP_CURRENT_1_TO_2_SKELETON_SCALE_FOR_EXTERNAL_ELECTRONICS_REVISION",
+  "followup_review": {
+    "date": "2026-09-23",
+    "smaller_diametric_magnets_catalogued": true,
+    "chosen_6mm_is_not_a_proven_market_minimum": true,
+    "magnet_cost_increase_proven": false,
+    "joint_miniaturization_cost_increase_proven": false,
+    "compact_joint_CAD_generated": false,
+    "shrunk_joint_field_or_physical_tested": false,
+    "quoted_costs_available": false,
+    "magnet_bar_on_catalog": {
+      "url": "https://themagnetbaron.com/products/100pcs-3mm-x-2mm-1-8-x-1-16-disc-magnets-diametrically-magnetized",
+      "nominal_mm": [
+        3,
+        2
+      ],
+      "price_USD_per_100": 16.99,
+      "immediate_stock_confirmed": false,
+      "sensor_compatible_verified": false
+    },
+    "KJ_catalog": {
+      "url": "https://www.kjmagnetics.com/d24dia-neodymium-diametric-cylinder-magnet",
+      "nominal_inch": [
+        0.125,
+        0.25
+      ],
+      "price_USD_each_1_49": 0.35,
+      "sensor_compatible_verified": false
+    },
+    "AS5048A_manufacturer": "https://www.infineon.com/part/AS5048A",
+    "manny_elbow_example_mm": {
+      "magnet_diameter": 6,
+      "magnet_cup_outer_diameter": 16.4,
+      "keeper_outer_diameter": 19.2,
+      "friction_annulus_outer_diameter_excluding_tabs": 26
+    },
+    "trunk_lower_friction_ring_diameter_mm": {
+      "waist": 36,
+      "chest": 32
+    }
+  }
+}

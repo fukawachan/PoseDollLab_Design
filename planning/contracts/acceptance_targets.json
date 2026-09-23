@@ -1,0 +1,126 @@
+{
+  "status": "TARGETS_NOT_MEASURED",
+  "metrics": [
+    {
+      "id": "axis_absolute_error",
+      "target": "1.5 deg maximum",
+      "method_note": "Independent angular reference; otherwise not_verified",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "axis_repeatability",
+      "target": "0.5 deg maximum",
+      "method_note": "Bidirectional repeated approach to same reference",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "static_noise",
+      "target": "0.15 deg RMS in 10 s",
+      "method_note": "Raw series retained; filtering declared",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "magnetic_crosstalk",
+      "target": "0.3 deg maximum change",
+      "method_note": "Mechanically fixed sensor axis; neighbors swept",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "pose_holding",
+      "target": "1 deg maximum drift over 5 minutes",
+      "method_note": "Declared working load; separate holding torque review",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "early_wear_screen",
+      "target": "1000 cycles",
+      "method_note": "All previous requirements still met",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "internal_acquisition",
+      "target": "100 Hz target",
+      "method_note": "Complete new cohorts; not repeat frames",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "ue_stream",
+      "target": "60 Hz target",
+      "method_note": "Existing protocol and safety behavior preserved",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "acquisition_window",
+      "target": "5 ms maximum target",
+      "method_note": "Report clock domain and actual read window",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "can_bus_load",
+      "target": "below 60 percent steady state",
+      "method_note": "Measured with retries and diagnostics",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "fault_reporting",
+      "target": "within 100 ms after detection target",
+      "method_note": "No stale valid capture; actual UE regression required",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "system_soak",
+      "target": "60 minutes minimum",
+      "method_note": "44 real sensors, raw results retained",
+      "status": "not_run",
+      "evidence": null
+    }
+  ],
+  "release_stages": [
+    {
+      "id": "H0",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "H1",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "H2",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "H3",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "H4",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "H5",
+      "status": "not_run",
+      "evidence": null
+    },
+    {
+      "id": "H6",
+      "status": "not_run",
+      "evidence": null
+    }
+  ]
+}

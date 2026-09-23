@@ -1,0 +1,1978 @@
+{
+  "physical_sensor_tested": false,
+  "raw_sensor_sign_calibrated": false,
+  "channels": {
+    "manny": [
+      {
+        "pose": "neutral",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "neutral",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "forward",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "forward",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "backward",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 7.882583474838611e-15,
+        "package_face_gap_mm": 2.8
+      },
+      {
+        "pose": "backward",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.1086244689504383e-15,
+        "package_face_gap_mm": 2.800000000000013
+      },
+      {
+        "pose": "shrug",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -2.3283276230823412e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "shrug",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 2.3283276230823412e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "down",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 8.882319949067214e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "down",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -8.882319949067214e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "forward_up",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 4.2611352919058793e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "forward_up",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -4.2611352919058793e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "back_down",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 7.798572221934163e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.1086244689504383e-15,
+        "package_face_gap_mm": 2.800000000000013
+      },
+      {
+        "pose": "back_down",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -7.798572221934163e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.1086244689504383e-15,
+        "package_face_gap_mm": 2.800000000000013
+      },
+      {
+        "pose": "asymmetric",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 4.2611352919058793e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "asymmetric",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -7.798572221934163e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.1086244689504383e-15,
+        "package_face_gap_mm": 2.800000000000013
+      },
+      {
+        "pose": "arms_forward",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.108624468950388e-16,
+        "package_face_gap_mm": 2.7999999999999545
+      },
+      {
+        "pose": "arms_forward",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.108624468950388e-16,
+        "package_face_gap_mm": 2.7999999999999545
+      },
+      {
+        "pose": "arms_overhead",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.1538326677728037e-14,
+        "package_face_gap_mm": 2.7999999999999967
+      },
+      {
+        "pose": "arms_overhead",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.1538326677728037e-14,
+        "package_face_gap_mm": 2.7999999999999967
+      },
+      {
+        "pose": "arms_side",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -90.0,
+        "expected_deg": -90,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "arms_side",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 90.0,
+        "expected_deg": 90,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.263256414560601e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "hands_on_hips",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -35.0,
+        "expected_deg": -35,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "hands_on_hips",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 35.0,
+        "expected_deg": 35,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "arms_crossed",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 20.0,
+        "expected_deg": 20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.9317880628477724e-14,
+        "package_face_gap_mm": 2.7999999999999616
+      },
+      {
+        "pose": "arms_crossed",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -20.0,
+        "expected_deg": -20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.3981845294153116e-14,
+        "package_face_gap_mm": 2.7999999999999616
+      },
+      {
+        "pose": "forehead",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.219646771412954e-14,
+        "package_face_gap_mm": 2.799999999999918
+      },
+      {
+        "pose": "forehead",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "forward_shrug_reach",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -2.0163908699223464e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.641039255032168e-14,
+        "package_face_gap_mm": 2.799999999999919
+      },
+      {
+        "pose": "forward_shrug_reach",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 2.0163908699223464e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.641039255032168e-14,
+        "package_face_gap_mm": 2.799999999999919
+      },
+      {
+        "pose": "elbows_closed",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "elbows_closed",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "down_arms_vertical",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -15.000000000000002,
+        "expected_deg": -15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "down_arms_vertical",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 15.000000000000002,
+        "expected_deg": 15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "back_down_arms_clear",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -19.999999999999993,
+        "expected_deg": -20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.1086244689504383e-15,
+        "package_face_gap_mm": 2.800000000000013
+      },
+      {
+        "pose": "back_down_arms_clear",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 19.999999999999993,
+        "expected_deg": 20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.6542323066914832e-14,
+        "package_face_gap_mm": 2.800000000000018
+      },
+      {
+        "pose": "shrug_reach_parallel",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -25.658906273999992,
+        "expected_deg": -25.658906274,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.958119638251647e-14,
+        "package_face_gap_mm": 2.8000000000000167
+      },
+      {
+        "pose": "shrug_reach_parallel",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 25.658906273999992,
+        "expected_deg": 25.658906274,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.5816291050524084e-14,
+        "package_face_gap_mm": 2.799999999999993
+      },
+      {
+        "pose": "crossed_staggered",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 14.999999999999996,
+        "expected_deg": 15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 6.217248937900877e-15,
+        "package_face_gap_mm": 2.8000000000000376
+      },
+      {
+        "pose": "crossed_staggered",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -14.999999999999998,
+        "expected_deg": -15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.9328086879686912e-14,
+        "package_face_gap_mm": 2.799999999999988
+      },
+      {
+        "pose": "crossed_clearance_candidate",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 20.0,
+        "expected_deg": 20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.395683899678261e-14,
+        "package_face_gap_mm": 2.7999999999999177
+      },
+      {
+        "pose": "crossed_clearance_candidate",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -20.0,
+        "expected_deg": -20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4217791915866692e-14,
+        "package_face_gap_mm": 2.800000000000005
+      },
+      {
+        "pose": "scan_flex_-50",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.3100631690576847e-14,
+        "package_face_gap_mm": 2.799999999999988
+      },
+      {
+        "pose": "scan_flex_-50",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.3100631690576847e-14,
+        "package_face_gap_mm": 2.799999999999988
+      },
+      {
+        "pose": "scan_flex_-25",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1546319456101628e-14,
+        "package_face_gap_mm": 2.799999999999994
+      },
+      {
+        "pose": "scan_flex_-25",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1546319456101628e-14,
+        "package_face_gap_mm": 2.799999999999994
+      },
+      {
+        "pose": "scan_flex_45",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.5289106626332796e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_flex_45",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.5289106626332796e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_flex_135",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.551115123125783e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_flex_135",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.551115123125783e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_abduct_-30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 29.999999999999996,
+        "expected_deg": 30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_abduct_-30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -29.999999999999996,
+        "expected_deg": -30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -29.999999999999996,
+        "expected_deg": -30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_abduct_30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 29.999999999999996,
+        "expected_deg": 30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_60",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -59.99999999999999,
+        "expected_deg": -60,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_abduct_60",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 59.99999999999999,
+        "expected_deg": 60,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.263256414560601e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_120",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -119.99999999999999,
+        "expected_deg": -120,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_abduct_120",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 119.99999999999999,
+        "expected_deg": 120,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.263256414560601e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_150",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -150.0,
+        "expected_deg": -150,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.842170943040401e-14,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_abduct_150",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 150.0,
+        "expected_deg": 150,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1457157353758233e-13,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_-90",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_twist_-90",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_-60",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_twist_-60",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_-30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_twist_-30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_twist_30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_60",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_twist_60",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_90",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000114
+      },
+      {
+        "pose": "scan_twist_90",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      }
+    ],
+    "quinn": [
+      {
+        "pose": "neutral",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "neutral",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "forward",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 9.325873406851315e-15,
+        "package_face_gap_mm": 2.8
+      },
+      {
+        "pose": "forward",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 9.325873406851315e-15,
+        "package_face_gap_mm": 2.8
+      },
+      {
+        "pose": "backward",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.552713678800501e-15,
+        "package_face_gap_mm": 2.8000000000000105
+      },
+      {
+        "pose": "backward",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.2212453270876722e-15,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "shrug",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -2.3283276230823412e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "shrug",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 2.3283276230823412e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "down",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 8.882319949067214e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "down",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -8.882319949067214e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "forward_up",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 4.2611352919058793e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "forward_up",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -4.2611352919058793e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "back_down",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 7.798572221934163e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.2212453270876722e-15,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "back_down",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -7.798572221934163e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.552713678800501e-15,
+        "package_face_gap_mm": 2.8000000000000105
+      },
+      {
+        "pose": "asymmetric",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 4.2611352919058793e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.886579864025407e-15,
+        "package_face_gap_mm": 2.800000000000007
+      },
+      {
+        "pose": "asymmetric",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -7.798572221934163e-16,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.552713678800501e-15,
+        "package_face_gap_mm": 2.8000000000000105
+      },
+      {
+        "pose": "arms_forward",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.108624468950388e-16,
+        "package_face_gap_mm": 2.7999999999999545
+      },
+      {
+        "pose": "arms_forward",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.108624468950388e-16,
+        "package_face_gap_mm": 2.7999999999999545
+      },
+      {
+        "pose": "arms_overhead",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.1538326677728037e-14,
+        "package_face_gap_mm": 2.7999999999999967
+      },
+      {
+        "pose": "arms_overhead",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.1538326677728037e-14,
+        "package_face_gap_mm": 2.7999999999999967
+      },
+      {
+        "pose": "arms_side",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -90.0,
+        "expected_deg": -90,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "arms_side",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 90.0,
+        "expected_deg": 90,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.263256414560601e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "hands_on_hips",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -35.0,
+        "expected_deg": -35,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "hands_on_hips",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 35.0,
+        "expected_deg": 35,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "arms_crossed",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 20.0,
+        "expected_deg": 20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.9317880628477724e-14,
+        "package_face_gap_mm": 2.7999999999999616
+      },
+      {
+        "pose": "arms_crossed",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -20.0,
+        "expected_deg": -20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 2.3981845294153116e-14,
+        "package_face_gap_mm": 2.7999999999999616
+      },
+      {
+        "pose": "forehead",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.219646771412954e-14,
+        "package_face_gap_mm": 2.799999999999918
+      },
+      {
+        "pose": "forehead",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "forward_shrug_reach",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -2.0163908699223464e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.641039255032168e-14,
+        "package_face_gap_mm": 2.799999999999919
+      },
+      {
+        "pose": "forward_shrug_reach",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 2.0163908699223464e-15,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.641039255032168e-14,
+        "package_face_gap_mm": 2.799999999999919
+      },
+      {
+        "pose": "elbows_closed",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "elbows_closed",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "down_arms_vertical",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -15.000000000000002,
+        "expected_deg": -15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "down_arms_vertical",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 15.000000000000002,
+        "expected_deg": 15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "back_down_arms_clear",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -19.999999999999993,
+        "expected_deg": -20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.2101430968414206e-14,
+        "package_face_gap_mm": 2.7999999999999923
+      },
+      {
+        "pose": "back_down_arms_clear",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 19.999999999999993,
+        "expected_deg": 20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.552713678800501e-15,
+        "package_face_gap_mm": 2.8000000000000105
+      },
+      {
+        "pose": "shrug_reach_parallel",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -25.658906273999992,
+        "expected_deg": -25.658906274,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.193925008202113e-15,
+        "package_face_gap_mm": 2.800000000000001
+      },
+      {
+        "pose": "shrug_reach_parallel",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 25.658906273999992,
+        "expected_deg": 25.658906274,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 3.1555927009810553e-14,
+        "package_face_gap_mm": 2.8000000000000247
+      },
+      {
+        "pose": "crossed_staggered",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 14.999999999999996,
+        "expected_deg": 15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 6.217248937900877e-15,
+        "package_face_gap_mm": 2.8000000000000376
+      },
+      {
+        "pose": "crossed_staggered",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -14.999999999999998,
+        "expected_deg": -15,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.9328086879686912e-14,
+        "package_face_gap_mm": 2.799999999999988
+      },
+      {
+        "pose": "crossed_clearance_candidate",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 20.0,
+        "expected_deg": 20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.395683899678261e-14,
+        "package_face_gap_mm": 2.7999999999999177
+      },
+      {
+        "pose": "crossed_clearance_candidate",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -20.0,
+        "expected_deg": -20,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4217791915866692e-14,
+        "package_face_gap_mm": 2.800000000000005
+      },
+      {
+        "pose": "scan_flex_-50",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.3100631690576847e-14,
+        "package_face_gap_mm": 2.799999999999988
+      },
+      {
+        "pose": "scan_flex_-50",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.3100631690576847e-14,
+        "package_face_gap_mm": 2.799999999999988
+      },
+      {
+        "pose": "scan_flex_-25",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1546319456101628e-14,
+        "package_face_gap_mm": 2.799999999999994
+      },
+      {
+        "pose": "scan_flex_-25",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1546319456101628e-14,
+        "package_face_gap_mm": 2.799999999999994
+      },
+      {
+        "pose": "scan_flex_45",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.5289106626332796e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_flex_45",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.5289106626332796e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_flex_135",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.551115123125783e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_flex_135",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 5.551115123125783e-14,
+        "package_face_gap_mm": 2.799999999999949
+      },
+      {
+        "pose": "scan_abduct_-30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 29.999999999999996,
+        "expected_deg": 30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_abduct_-30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": -29.999999999999996,
+        "expected_deg": -30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -29.999999999999996,
+        "expected_deg": -30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_abduct_30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 29.999999999999996,
+        "expected_deg": 30,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.4210854715202004e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_60",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -59.99999999999999,
+        "expected_deg": -60,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_abduct_60",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 59.99999999999999,
+        "expected_deg": 60,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.263256414560601e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_120",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -119.99999999999999,
+        "expected_deg": -120,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_abduct_120",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 119.99999999999999,
+        "expected_deg": 120,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 4.263256414560601e-14,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_abduct_150",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": -150.0,
+        "expected_deg": -150,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1368683772161603e-13,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_abduct_150",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 150.0,
+        "expected_deg": 150,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 1.1457157353758233e-13,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_-90",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_twist_-90",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_-60",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_twist_-60",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_-30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_twist_-30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_30",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_twist_30",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_60",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_twist_60",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      },
+      {
+        "pose": "scan_twist_90",
+        "axis_id": "upperarm_l.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.8000000000000043
+      },
+      {
+        "pose": "scan_twist_90",
+        "axis_id": "upperarm_r.abduct",
+        "geometric_angle_deg": 0.0,
+        "expected_deg": 0,
+        "angle_error_deg": 0.0,
+        "lateral_axis_error_mm": 0.0,
+        "package_face_gap_mm": 2.799999999999997
+      }
+    ]
+  },
+  "remaining_axis_probes": [
+    {
+      "character": "manny",
+      "axis_id": "upperarm_l.flex",
+      "board_datum_from_axis_mm": 70.395,
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "fixed_owner": "clavicle_l",
+      "accepted": false,
+      "status": "clear_samples_but_no_mount_design",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "manny",
+      "axis_id": "upperarm_l.twist",
+      "board_datum_from_axis_mm": 22.895,
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "fixed_owner": "upperarm_l.abduct_frame",
+      "accepted": false,
+      "status": "rejected_straight_placement",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "part": "l_clavicle_output_frame",
+              "volume_mm3": 15.7445
+            },
+            {
+              "part": "l_flex_ring",
+              "volume_mm3": 99.503
+            },
+            {
+              "part": "l_flex_clutch_flanged_shaft",
+              "volume_mm3": 48.0713
+            },
+            {
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 17.0353
+            },
+            {
+              "part": "l_flex_drive_split_hub",
+              "volume_mm3": 151.5854
+            },
+            {
+              "part": "l_flex_drive_pinch_M2x10",
+              "volume_mm3": 34.6009
+            },
+            {
+              "part": "l_flex_drive_mount_M2x4_0",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "l_flex_drive_mount_M2_nut_0",
+              "volume_mm3": 17.8871
+            },
+            {
+              "part": "l_flex_drive_mount_M2x4_1",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "l_flex_drive_mount_M2_nut_1",
+              "volume_mm3": 17.8871
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "manny",
+      "axis_id": "upperarm_r.flex",
+      "board_datum_from_axis_mm": 70.395,
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "fixed_owner": "clavicle_r",
+      "accepted": false,
+      "status": "clear_samples_but_no_mount_design",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "manny",
+      "axis_id": "upperarm_r.twist",
+      "board_datum_from_axis_mm": 22.895,
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "fixed_owner": "upperarm_r.abduct_frame",
+      "accepted": false,
+      "status": "rejected_straight_placement",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "part": "r_clavicle_output_frame",
+              "volume_mm3": 15.7445
+            },
+            {
+              "part": "r_flex_ring",
+              "volume_mm3": 99.503
+            },
+            {
+              "part": "r_flex_clutch_flanged_shaft",
+              "volume_mm3": 48.0713
+            },
+            {
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 17.0353
+            },
+            {
+              "part": "r_flex_drive_split_hub",
+              "volume_mm3": 151.5854
+            },
+            {
+              "part": "r_flex_drive_pinch_M2x10",
+              "volume_mm3": 34.6009
+            },
+            {
+              "part": "r_flex_drive_mount_M2x4_0",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "r_flex_drive_mount_M2_nut_0",
+              "volume_mm3": 17.8871
+            },
+            {
+              "part": "r_flex_drive_mount_M2x4_1",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "r_flex_drive_mount_M2_nut_1",
+              "volume_mm3": 17.8871
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis_id": "upperarm_l.flex",
+      "board_datum_from_axis_mm": 70.395,
+      "normal_neutral": [
+        0,
+        -1,
+        0
+      ],
+      "fixed_owner": "clavicle_l",
+      "accepted": false,
+      "status": "rejected_straight_placement",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": [
+            {
+              "part": "l_yaw_bush_top",
+              "volume_mm3": 7.7483
+            },
+            {
+              "part": "l_yaw_shaft",
+              "volume_mm3": 5.6609
+            },
+            {
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 51.7359
+            }
+          ]
+        },
+        {
+          "pose": "arms_forward",
+          "hits": [
+            {
+              "part": "l_yaw_bush_top",
+              "volume_mm3": 7.7483
+            },
+            {
+              "part": "l_yaw_shaft",
+              "volume_mm3": 5.6609
+            },
+            {
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 51.7359
+            }
+          ]
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "part": "l_yaw_bush_top",
+              "volume_mm3": 7.7483
+            },
+            {
+              "part": "l_yaw_shaft",
+              "volume_mm3": 5.6609
+            },
+            {
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 51.7359
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": [
+            {
+              "part": "l_yaw_bush_top",
+              "volume_mm3": 7.7483
+            },
+            {
+              "part": "l_yaw_shaft",
+              "volume_mm3": 5.6609
+            },
+            {
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 51.7359
+            }
+          ]
+        },
+        {
+          "pose": "forehead",
+          "hits": [
+            {
+              "part": "l_yaw_bush_top",
+              "volume_mm3": 7.7483
+            },
+            {
+              "part": "l_yaw_shaft",
+              "volume_mm3": 5.6609
+            },
+            {
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 51.7359
+            }
+          ]
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": [
+            {
+              "part": "l_yaw_bush_top",
+              "volume_mm3": 7.7483
+            },
+            {
+              "part": "l_yaw_shaft",
+              "volume_mm3": 5.6609
+            },
+            {
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 51.7359
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis_id": "upperarm_l.twist",
+      "board_datum_from_axis_mm": 22.895,
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "fixed_owner": "upperarm_l.abduct_frame",
+      "accepted": false,
+      "status": "rejected_straight_placement",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "part": "l_clavicle_output_frame",
+              "volume_mm3": 15.7445
+            },
+            {
+              "part": "l_flex_ring",
+              "volume_mm3": 99.503
+            },
+            {
+              "part": "l_flex_clutch_flanged_shaft",
+              "volume_mm3": 48.0713
+            },
+            {
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 17.0353
+            },
+            {
+              "part": "l_flex_drive_split_hub",
+              "volume_mm3": 151.5854
+            },
+            {
+              "part": "l_flex_drive_pinch_M2x10",
+              "volume_mm3": 34.6009
+            },
+            {
+              "part": "l_flex_drive_mount_M2x4_0",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "l_flex_drive_mount_M2_nut_0",
+              "volume_mm3": 17.8871
+            },
+            {
+              "part": "l_flex_drive_mount_M2x4_1",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "l_flex_drive_mount_M2_nut_1",
+              "volume_mm3": 17.8871
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis_id": "upperarm_r.flex",
+      "board_datum_from_axis_mm": 70.395,
+      "normal_neutral": [
+        0,
+        1,
+        0
+      ],
+      "fixed_owner": "clavicle_r",
+      "accepted": false,
+      "status": "rejected_straight_placement",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": [
+            {
+              "part": "r_yaw_shaft",
+              "volume_mm3": 5.2652
+            },
+            {
+              "part": "r_yaw_carriage",
+              "volume_mm3": 43.8044
+            }
+          ]
+        },
+        {
+          "pose": "arms_forward",
+          "hits": [
+            {
+              "part": "r_yaw_shaft",
+              "volume_mm3": 5.2652
+            },
+            {
+              "part": "r_yaw_carriage",
+              "volume_mm3": 43.8044
+            }
+          ]
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "part": "r_yaw_shaft",
+              "volume_mm3": 5.2652
+            },
+            {
+              "part": "r_yaw_carriage",
+              "volume_mm3": 43.8044
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": [
+            {
+              "part": "r_yaw_shaft",
+              "volume_mm3": 5.2652
+            },
+            {
+              "part": "r_yaw_carriage",
+              "volume_mm3": 43.8044
+            }
+          ]
+        },
+        {
+          "pose": "forehead",
+          "hits": [
+            {
+              "part": "r_yaw_shaft",
+              "volume_mm3": 5.2652
+            },
+            {
+              "part": "r_yaw_carriage",
+              "volume_mm3": 43.8044
+            }
+          ]
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": [
+            {
+              "part": "r_yaw_shaft",
+              "volume_mm3": 5.2652
+            },
+            {
+              "part": "r_yaw_carriage",
+              "volume_mm3": 43.8044
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis_id": "upperarm_r.twist",
+      "board_datum_from_axis_mm": 22.895,
+      "normal_neutral": [
+        0,
+        0,
+        1
+      ],
+      "fixed_owner": "upperarm_r.abduct_frame",
+      "accepted": false,
+      "status": "rejected_straight_placement",
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "part": "r_clavicle_output_frame",
+              "volume_mm3": 15.7445
+            },
+            {
+              "part": "r_flex_ring",
+              "volume_mm3": 99.503
+            },
+            {
+              "part": "r_flex_clutch_flanged_shaft",
+              "volume_mm3": 48.0713
+            },
+            {
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 17.0353
+            },
+            {
+              "part": "r_flex_drive_split_hub",
+              "volume_mm3": 151.5854
+            },
+            {
+              "part": "r_flex_drive_pinch_M2x10",
+              "volume_mm3": 34.6009
+            },
+            {
+              "part": "r_flex_drive_mount_M2x4_0",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "r_flex_drive_mount_M2_nut_0",
+              "volume_mm3": 17.8871
+            },
+            {
+              "part": "r_flex_drive_mount_M2x4_1",
+              "volume_mm3": 4.7483
+            },
+            {
+              "part": "r_flex_drive_mount_M2_nut_1",
+              "volume_mm3": 17.8871
+            }
+          ]
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "probe_scope": "Actual Rev B PCB only at a straight axial continuation; no holder. A failed probe rejects this placement, not all possible designs.",
+  "isolated_encoder_rotation_checks": [
+    {
+      "angle_deg": -30,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": -15,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 0,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 15,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 30,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 45,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 60,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 75,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 90,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 105,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 120,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 135,
+      "unexpected_hits": []
+    },
+    {
+      "angle_deg": 150,
+      "unexpected_hits": []
+    }
+  ],
+  "unclamped_D_fit": {
+    "assumption": "Centered shaft, rigid nominal section only. Ignores translation, flange slip and elastic clamp closure.",
+    "old_print_socket_total_deg": 7.261749790612933,
+    "new_metal_socket_total_deg": 2.1022267463963464,
+    "is_measured_backlash": false,
+    "assembled_backlash_qualified": false
+  }
+}

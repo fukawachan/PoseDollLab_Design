@@ -1,0 +1,167 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-23T05:46:45",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "connected_work.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/CS5_MCU] (F.Cu), 长度: 6.3268 mm",
+                    "pos": {
+                        "x": 90.2483,
+                        "y": 102.6868
+                    },
+                    "uuid": "e47b3b47-9713-40ac-8607-a0ebe6339459"
+                },
+                {
+                    "description": "走线 [/CS5_MCU] (F.Cu), 长度: 5.0556 mm",
+                    "pos": {
+                        "x": 87.7435,
+                        "y": 110.2472
+                    },
+                    "uuid": "9a1bc76d-434b-45d6-9938-ad8e0e524730"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [/P7_CS] (B.Cu), 长度: 0.3816 mm",
+                    "pos": {
+                        "x": 85.5,
+                        "y": 141.325
+                    },
+                    "uuid": "3b485d3d-1c21-40ba-81c8-d42764bec6c1"
+                },
+                {
+                    "description": "走线 [/P7_CS] (B.Cu), 长度: 2.9831 mm",
+                    "pos": {
+                        "x": 87.6094,
+                        "y": 145.7918
+                    },
+                    "uuid": "1cbee7a7-d793-45fa-8579-2c74eedc815b"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 U2 的焊盘 7 [/SW_BUCK]",
+                    "pos": {
+                        "x": 89.05,
+                        "y": 103.75
+                    },
+                    "uuid": "c026c49b-2266-4cb1-b287-b6ba305eb20b"
+                },
+                {
+                    "description": "B.Cu 上 L1 的焊盘 1 [/SW_BUCK]",
+                    "pos": {
+                        "x": 93.6,
+                        "y": 103.0
+                    },
+                    "uuid": "24b3093c-1cb5-4f5e-9559-ff8b16b42194"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/CS5_MCU] (F.Cu), 长度: 5.0556 mm",
+                    "pos": {
+                        "x": 87.7435,
+                        "y": 110.2472
+                    },
+                    "uuid": "9a1bc76d-434b-45d6-9938-ad8e0e524730"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/CS5_MCU] (F.Cu), 长度: 6.3268 mm",
+                    "pos": {
+                        "x": 90.2483,
+                        "y": 102.6868
+                    },
+                    "uuid": "e47b3b47-9713-40ac-8607-a0ebe6339459"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "Track has unconnected end",
+            "items": [
+                {
+                    "description": "走线 [/P7_CS] (B.Cu), 长度: 2.9831 mm",
+                    "pos": {
+                        "x": 87.6094,
+                        "y": 145.7918
+                    },
+                    "uuid": "1cbee7a7-d793-45fa-8579-2c74eedc815b"
+                }
+            ],
+            "severity": "warning",
+            "type": "track_dangling"
+        },
+        {
+            "description": "封装 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' 与库 'Connector_USB' 中的副本不匹配",
+            "items": [
+                {
+                    "description": "封装 J4",
+                    "pos": {
+                        "x": 100.0,
+                        "y": 162.56
+                    },
+                    "uuid": "14b24118-2550-4c68-ae80-3dbdf46d2207"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

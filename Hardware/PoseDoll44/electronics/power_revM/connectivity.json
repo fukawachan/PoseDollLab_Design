@@ -1,0 +1,503 @@
+[
+  {
+    "ref": "J2",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x02",
+    "value": "N1: +5V / GND",
+    "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "nets": {
+      "1": "NODE1_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      36,
+      40
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      54.61,
+      54.61
+    ]
+  },
+  {
+    "ref": "F1",
+    "lib": "Device",
+    "sym": "Polyfuse",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "NODE1_5V",
+      "2": "+5V_BUS"
+    },
+    "pcb": [
+      45,
+      40
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      139.7,
+      54.61
+    ]
+  },
+  {
+    "ref": "J3",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x02",
+    "value": "N2: +5V / GND",
+    "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "nets": {
+      "1": "NODE2_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      62,
+      40
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      224.79,
+      54.61
+    ]
+  },
+  {
+    "ref": "F2",
+    "lib": "Device",
+    "sym": "Polyfuse",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "+5V_BUS",
+      "2": "NODE2_5V"
+    },
+    "pcb": [
+      55,
+      40
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      309.88,
+      54.61
+    ]
+  },
+  {
+    "ref": "J4",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x02",
+    "value": "N3: +5V / GND",
+    "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "nets": {
+      "1": "NODE3_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      36,
+      55
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      394.97,
+      54.61
+    ]
+  },
+  {
+    "ref": "F3",
+    "lib": "Device",
+    "sym": "Polyfuse",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "NODE3_5V",
+      "2": "+5V_BUS"
+    },
+    "pcb": [
+      45,
+      55
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      480.06,
+      54.61
+    ]
+  },
+  {
+    "ref": "J5",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x02",
+    "value": "N4: +5V / GND",
+    "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "nets": {
+      "1": "NODE4_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      62,
+      55
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      565.15,
+      54.61
+    ]
+  },
+  {
+    "ref": "F4",
+    "lib": "Device",
+    "sym": "Polyfuse",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "+5V_BUS",
+      "2": "NODE4_5V"
+    },
+    "pcb": [
+      55,
+      55
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      650.24,
+      54.61
+    ]
+  },
+  {
+    "ref": "J6",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x02",
+    "value": "N5: +5V / GND",
+    "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "nets": {
+      "1": "NODE5_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      36,
+      70
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      735.33,
+      54.61
+    ]
+  },
+  {
+    "ref": "F5",
+    "lib": "Device",
+    "sym": "Polyfuse",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "NODE5_5V",
+      "2": "+5V_BUS"
+    },
+    "pcb": [
+      45,
+      70
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      820.42,
+      54.61
+    ]
+  },
+  {
+    "ref": "J7",
+    "lib": "Connector_Generic",
+    "sym": "Conn_01x02",
+    "value": "N6: +5V / GND",
+    "fp": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "nets": {
+      "1": "NODE6_5V",
+      "2": "GND"
+    },
+    "pcb": [
+      62,
+      70
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      905.51,
+      54.61
+    ]
+  },
+  {
+    "ref": "F6",
+    "lib": "Device",
+    "sym": "Polyfuse",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "fp": "Fuse:Fuse_1206_3216Metric",
+    "nets": {
+      "1": "+5V_BUS",
+      "2": "NODE6_5V"
+    },
+    "pcb": [
+      55,
+      70
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "output",
+    "schematic_xy": [
+      990.6,
+      54.61
+    ]
+  },
+  {
+    "ref": "J1",
+    "lib": "Connector",
+    "sym": "Barrel_Jack_Switch",
+    "value": "PJ-002AH / regulated 5V center +",
+    "fp": "PoseDoll:PJ_002AH_verified",
+    "nets": {
+      "1": "RAW_5V",
+      "2": "GND",
+      "3": "GND"
+    },
+    "pcb": [
+      50,
+      86.3
+    ],
+    "angle": 90,
+    "back": false,
+    "section": "input",
+    "schematic_xy": [
+      54.61,
+      130.81
+    ]
+  },
+  {
+    "ref": "F0",
+    "lib": "Device",
+    "sym": "Fuse",
+    "value": "0451003.MRL / 3A",
+    "fp": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "nets": {
+      "1": "RAW_5V",
+      "2": "FUSED_5V"
+    },
+    "pcb": [
+      60,
+      86.3
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "input",
+    "schematic_xy": [
+      139.7,
+      130.81
+    ]
+  },
+  {
+    "ref": "Q1",
+    "lib": "PoseDoll",
+    "sym": "AO4409",
+    "value": "AO4409 / reverse polarity",
+    "fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "nets": {
+      "1": "+5V_BUS",
+      "2": "+5V_BUS",
+      "3": "+5V_BUS",
+      "4": "GATE",
+      "5": "FUSED_5V",
+      "6": "FUSED_5V",
+      "7": "FUSED_5V",
+      "8": "FUSED_5V"
+    },
+    "pcb": [
+      50,
+      80
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "input",
+    "schematic_xy": [
+      224.79,
+      130.81
+    ]
+  },
+  {
+    "ref": "R1",
+    "lib": "Device",
+    "sym": "R",
+    "value": "100k",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "GATE",
+      "2": "GND"
+    },
+    "pcb": [
+      42,
+      83
+    ],
+    "angle": 180,
+    "back": false,
+    "section": "input",
+    "schematic_xy": [
+      309.88,
+      130.81
+    ]
+  },
+  {
+    "ref": "C1",
+    "lib": "Device",
+    "sym": "C_Polarized",
+    "value": "EEEFP1C101AP / 100u 16V",
+    "fp": "Capacitor_SMD:CP_Elec_6.3x5.8",
+    "nets": {
+      "1": "+5V_BUS",
+      "2": "GND"
+    },
+    "pcb": [
+      40,
+      91
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "input",
+    "schematic_xy": [
+      394.97,
+      130.81
+    ]
+  },
+  {
+    "ref": "R2",
+    "lib": "Device",
+    "sym": "R",
+    "value": "1k",
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V_BUS",
+      "2": "LED_A"
+    },
+    "pcb": [
+      62,
+      93
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "indicator",
+    "schematic_xy": [
+      480.06,
+      130.81
+    ]
+  },
+  {
+    "ref": "D1",
+    "lib": "Device",
+    "sym": "LED",
+    "value": "LTST-C190KGKT / green",
+    "fp": "LED_SMD:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "LED_A"
+    },
+    "pcb": [
+      62,
+      96
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "indicator",
+    "schematic_xy": [
+      565.15,
+      130.81
+    ]
+  },
+  {
+    "ref": "H1",
+    "lib": "Mechanical",
+    "sym": "MountingHole",
+    "value": "M2 clearance",
+    "fp": "MountingHole:MountingHole_2.2mm_M2",
+    "nets": {},
+    "pcb": [
+      33,
+      33
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "mount",
+    "schematic_xy": [
+      650.24,
+      130.81
+    ]
+  },
+  {
+    "ref": "H2",
+    "lib": "Mechanical",
+    "sym": "MountingHole",
+    "value": "M2 clearance",
+    "fp": "MountingHole:MountingHole_2.2mm_M2",
+    "nets": {},
+    "pcb": [
+      67,
+      33
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "mount",
+    "schematic_xy": [
+      735.33,
+      130.81
+    ]
+  },
+  {
+    "ref": "H3",
+    "lib": "Mechanical",
+    "sym": "MountingHole",
+    "value": "M2 clearance",
+    "fp": "MountingHole:MountingHole_2.2mm_M2",
+    "nets": {},
+    "pcb": [
+      33,
+      88
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "mount",
+    "schematic_xy": [
+      820.42,
+      130.81
+    ]
+  },
+  {
+    "ref": "H4",
+    "lib": "Mechanical",
+    "sym": "MountingHole",
+    "value": "M2 clearance",
+    "fp": "MountingHole:MountingHole_2.2mm_M2",
+    "nets": {},
+    "pcb": [
+      67,
+      88
+    ],
+    "angle": 0,
+    "back": false,
+    "section": "mount",
+    "schematic_xy": [
+      905.51,
+      130.81
+    ]
+  }
+]

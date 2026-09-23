@@ -1,0 +1,4038 @@
+{
+  "status": "SIZING_SCENARIOS_NOT_CAPACITY_OR_FEA",
+  "design_sha256": "d2baa68333cc89b7be2dfb800ea510d1b9b09c1a75417af725c57c2dc6b9cc90",
+  "source_sha256": "99ded079af552034bf36eb68e1368ce24bcf46c0aea993f3a2f9d1898ca45c84",
+  "sensor_step_sha256": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+  "mass_total_g": 2010.3755392873306,
+  "cad_mass_g": 915.3755392873306,
+  "scenario_count": 357,
+  "axis_loads": {
+    "pelvis.yaw": {
+      "max_gravity_nm": 0,
+      "pose": null,
+      "downstream_mass_g": 1982.6705079495132,
+      "sizing_hold_target_nm": 0.02,
+      "all_configuration_triangle_bound_nm": 0.0,
+      "bound_hold_target_nm": 0.02,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 6.903353057199211,
+      "preload_at_mu_030_N": 3.4516765285996054,
+      "grip_force_N": 0.5714285714285714,
+      "grip_arm_mm": 35
+    },
+    "pelvis.pitch": {
+      "max_gravity_nm": 1.6649379579706451,
+      "pose": "combined_random_097",
+      "downstream_mass_g": 1927.8907108388214,
+      "sizing_hold_target_nm": 2.5174069369559677,
+      "all_configuration_triangle_bound_nm": 4.590478224982031,
+      "bound_hold_target_nm": 6.905717337473046,
+      "candidate_clutch_family": "L",
+      "friction_outer_radius_mm": 27,
+      "friction_inner_radius_mm": 6.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 447.0171917490594,
+      "preload_at_mu_030_N": 223.5085958745297,
+      "grip_force_N": 22.885517608690616,
+      "grip_arm_mm": 110
+    },
+    "pelvis.roll": {
+      "max_gravity_nm": 1.0706158347893804,
+      "pose": "combined_random_252",
+      "downstream_mass_g": 1882.70383072816,
+      "sizing_hold_target_nm": 1.6259237521840706,
+      "all_configuration_triangle_bound_nm": 4.587705648301217,
+      "bound_hold_target_nm": 6.901558472451825,
+      "candidate_clutch_family": "L",
+      "friction_outer_radius_mm": 27,
+      "friction_inner_radius_mm": 6.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 288.7160828190447,
+      "preload_at_mu_030_N": 144.35804140952234,
+      "grip_force_N": 14.781125019855187,
+      "grip_arm_mm": 110
+    },
+    "waist.yaw": {
+      "max_gravity_nm": 0.5101062907395282,
+      "pose": "combined_random_211",
+      "downstream_mass_g": 1123.9513457794883,
+      "sizing_hold_target_nm": 0.7851594361092923,
+      "all_configuration_triangle_bound_nm": 2.73181781660613,
+      "bound_hold_target_nm": 4.117726724909195,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 195.14479453049128,
+      "preload_at_mu_030_N": 97.57239726524564,
+      "grip_force_N": 12.079375940142958,
+      "grip_arm_mm": 65
+    },
+    "waist.pitch": {
+      "max_gravity_nm": 1.1015604475559693,
+      "pose": "combined_random_102",
+      "downstream_mass_g": 1072.1661009113034,
+      "sizing_hold_target_nm": 1.672340671333954,
+      "all_configuration_triangle_bound_nm": 2.3607923928874666,
+      "bound_hold_target_nm": 3.5611885893312,
+      "candidate_clutch_family": "L",
+      "friction_outer_radius_mm": 27,
+      "friction_inner_radius_mm": 6.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 296.958358052112,
+      "preload_at_mu_030_N": 148.479179026056,
+      "grip_force_N": 15.203097012126854,
+      "grip_arm_mm": 110
+    },
+    "waist.roll": {
+      "max_gravity_nm": 0.881560951243975,
+      "pose": "combined_random_187",
+      "downstream_mass_g": 1027.8234039119989,
+      "sizing_hold_target_nm": 1.3423414268659626,
+      "all_configuration_triangle_bound_nm": 2.358243858149373,
+      "bound_hold_target_nm": 3.5573657872240596,
+      "candidate_clutch_family": "L",
+      "friction_outer_radius_mm": 27,
+      "friction_inner_radius_mm": 6.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 238.36022940797335,
+      "preload_at_mu_030_N": 119.18011470398667,
+      "grip_force_N": 12.20310388059966,
+      "grip_arm_mm": 110
+    },
+    "chest.yaw": {
+      "max_gravity_nm": 0.4460954487570503,
+      "pose": "combined_random_100",
+      "downstream_mass_g": 965.1919931817417,
+      "sizing_hold_target_nm": 0.6891431731355755,
+      "all_configuration_triangle_bound_nm": 2.011849083923048,
+      "bound_hold_target_nm": 3.037773625884572,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 171.2807574344849,
+      "preload_at_mu_030_N": 85.64037871724246,
+      "grip_force_N": 10.602202663624238,
+      "grip_arm_mm": 65
+    },
+    "chest.pitch": {
+      "max_gravity_nm": 0.7326856997578106,
+      "pose": "combined_random_003",
+      "downstream_mass_g": 916.1207552245086,
+      "sizing_hold_target_nm": 1.1190285496367158,
+      "all_configuration_triangle_bound_nm": 1.721680929152871,
+      "bound_hold_target_nm": 2.6025213937293064,
+      "candidate_clutch_family": "L",
+      "friction_outer_radius_mm": 27,
+      "friction_inner_radius_mm": 6.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 198.70645162775966,
+      "preload_at_mu_030_N": 99.35322581387983,
+      "grip_force_N": 10.172986814879234,
+      "grip_arm_mm": 110
+    },
+    "chest.roll": {
+      "max_gravity_nm": 0.4906923055890683,
+      "pose": "combined_random_181",
+      "downstream_mass_g": 872.6213181839184,
+      "sizing_hold_target_nm": 0.7560384583836024,
+      "all_configuration_triangle_bound_nm": 1.7193564335965283,
+      "bound_hold_target_nm": 2.5990346503947923,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 187.90701968699346,
+      "preload_at_mu_030_N": 93.95350984349673,
+      "grip_force_N": 11.631360898209268,
+      "grip_arm_mm": 65
+    },
+    "head.yaw": {
+      "max_gravity_nm": 0.001424882221487931,
+      "pose": "combined_random_100",
+      "downstream_mass_g": 85.52822464288208,
+      "sizing_hold_target_nm": 0.022137323332231895,
+      "all_configuration_triangle_bound_nm": 0.019735846152347736,
+      "bound_hold_target_nm": 0.04960376922852161,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.641087935188524,
+      "preload_at_mu_030_N": 3.820543967594262,
+      "grip_force_N": 0.6324949523494826,
+      "grip_arm_mm": 35
+    },
+    "head.pitch": {
+      "max_gravity_nm": 0.0010112570663253855,
+      "pose": "combined_random_145",
+      "downstream_mass_g": 54.63917624515821,
+      "sizing_hold_target_nm": 0.02151688559948808,
+      "all_configuration_triangle_bound_nm": 0.002478644087496703,
+      "bound_hold_target_nm": 0.023717966131245057,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.426932899231586,
+      "preload_at_mu_030_N": 3.713466449615793,
+      "grip_force_N": 0.6147681599853737,
+      "grip_arm_mm": 35
+    },
+    "head.roll": {
+      "max_gravity_nm": 0.00028089854982919435,
+      "pose": "combined_random_101",
+      "downstream_mass_g": 27.26153318319827,
+      "sizing_hold_target_nm": 0.020421347824743794,
+      "all_configuration_triangle_bound_nm": 0.00045286200584390766,
+      "bound_hold_target_nm": 0.02067929300876586,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.048788696903676,
+      "preload_at_mu_030_N": 3.524394348451838,
+      "grip_force_N": 0.5834670807069655,
+      "grip_arm_mm": 35
+    },
+    "clavicle_l.protract": {
+      "max_gravity_nm": 0.48406216047920825,
+      "pose": "combined_random_015",
+      "downstream_mass_g": 333.78962434902246,
+      "sizing_hold_target_nm": 0.7460932407188123,
+      "all_configuration_triangle_bound_nm": 0.5846049801678771,
+      "bound_hold_target_nm": 0.8969074702518156,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 185.43521922392634,
+      "preload_at_mu_030_N": 92.71760961196317,
+      "grip_force_N": 11.47835754952019,
+      "grip_arm_mm": 65
+    },
+    "clavicle_l.elevate": {
+      "max_gravity_nm": 0.528028348957977,
+      "pose": "arms_side",
+      "downstream_mass_g": 306.9722509340174,
+      "sizing_hold_target_nm": 0.8120425234369655,
+      "all_configuration_triangle_bound_nm": 0.5827285518928661,
+      "bound_hold_target_nm": 0.8940928278392992,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 201.82636047956788,
+      "preload_at_mu_030_N": 100.91318023978394,
+      "grip_force_N": 12.492961899030238,
+      "grip_arm_mm": 65
+    },
+    "upperarm_l.flex": {
+      "max_gravity_nm": 0.2840001860780867,
+      "pose": "arms_forward",
+      "downstream_mass_g": 269.24259861313635,
+      "sizing_hold_target_nm": 0.44600027911713,
+      "all_configuration_triangle_bound_nm": 0.43509315593795833,
+      "bound_hold_target_nm": 0.6726397339069375,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 110.84962980275395,
+      "preload_at_mu_030_N": 55.424814901376976,
+      "grip_force_N": 6.861542755648154,
+      "grip_arm_mm": 65
+    },
+    "upperarm_l.abduct": {
+      "max_gravity_nm": 0.285600413582434,
+      "pose": "arms_side",
+      "downstream_mass_g": 230.97888802060436,
+      "sizing_hold_target_nm": 0.448400620373651,
+      "all_configuration_triangle_bound_nm": 0.30108151452529663,
+      "bound_hold_target_nm": 0.47162227178794497,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 111.44621449595715,
+      "preload_at_mu_030_N": 55.723107247978575,
+      "grip_force_N": 6.898471082671554,
+      "grip_arm_mm": 65
+    },
+    "upperarm_l.twist": {
+      "max_gravity_nm": 0.07637177664176575,
+      "pose": "combined_random_085",
+      "downstream_mass_g": 193.08681573796738,
+      "sizing_hold_target_nm": 0.13455766496264862,
+      "all_configuration_triangle_bound_nm": 0.22190137179962371,
+      "bound_hold_target_nm": 0.3528520576994356,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 46.44495338947437,
+      "preload_at_mu_030_N": 23.222476694737185,
+      "grip_force_N": 3.8445047132185315,
+      "grip_arm_mm": 35
+    },
+    "elbow_l.flex": {
+      "max_gravity_nm": 0.09220202266125763,
+      "pose": "palms_turn",
+      "downstream_mass_g": 119.74828228436424,
+      "sizing_hold_target_nm": 0.15830303399188642,
+      "all_configuration_triangle_bound_nm": 0.09501165510725676,
+      "bound_hold_target_nm": 0.16251748266088514,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 54.64108668358998,
+      "preload_at_mu_030_N": 27.32054334179499,
+      "grip_force_N": 4.522943828339612,
+      "grip_arm_mm": 35
+    },
+    "forearm_l.twist": {
+      "max_gravity_nm": 0.0012616896358572044,
+      "pose": "combined_random_085",
+      "downstream_mass_g": 84.5096776400288,
+      "sizing_hold_target_nm": 0.021892534453785806,
+      "all_configuration_triangle_bound_nm": 0.05473208318755959,
+      "bound_hold_target_nm": 0.10209812478133938,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.5565947325690646,
+      "preload_at_mu_030_N": 3.7782973662845323,
+      "grip_force_N": 0.6255009843938801,
+      "grip_arm_mm": 35
+    },
+    "hand_l.flex": {
+      "max_gravity_nm": 0.0009493326705517341,
+      "pose": "arms_overhead",
+      "downstream_mass_g": 53.39579822303432,
+      "sizing_hold_target_nm": 0.0214239990058276,
+      "all_configuration_triangle_bound_nm": 0.0022872606592579006,
+      "bound_hold_target_nm": 0.02343089098888685,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.394871451715641,
+      "preload_at_mu_030_N": 3.6974357258578205,
+      "grip_force_N": 0.61211425730936,
+      "grip_arm_mm": 35
+    },
+    "hand_l.deviate": {
+      "max_gravity_nm": 0.0002535646214637764,
+      "pose": "arms_side",
+      "downstream_mass_g": 26.57842480802914,
+      "sizing_hold_target_nm": 0.020380346932195665,
+      "all_configuration_triangle_bound_nm": 0.0004108323842468981,
+      "bound_hold_target_nm": 0.020616248576370347,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.034636515057675,
+      "preload_at_mu_030_N": 3.5173182575288373,
+      "grip_force_N": 0.5822956266341618,
+      "grip_arm_mm": 35
+    },
+    "thigh_l.flex": {
+      "max_gravity_nm": 0.3723847519782241,
+      "pose": "combined_random_064",
+      "downstream_mass_g": 303.57549316826316,
+      "sizing_hold_target_nm": 0.5785771279673362,
+      "all_configuration_triangle_bound_nm": 0.39763491531350836,
+      "bound_hold_target_nm": 0.6164523729702626,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 143.80049396936917,
+      "preload_at_mu_030_N": 71.90024698468459,
+      "grip_force_N": 8.901186584112864,
+      "grip_arm_mm": 65
+    },
+    "thigh_l.abduct": {
+      "max_gravity_nm": 0.3320772070240218,
+      "pose": "thigh_l.abduct__max",
+      "downstream_mass_g": 260.076056127673,
+      "sizing_hold_target_nm": 0.5181158105360327,
+      "all_configuration_triangle_bound_nm": 0.3953104197571658,
+      "bound_hold_target_nm": 0.6129656296357487,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 128.7733404709144,
+      "preload_at_mu_030_N": 64.3866702354572,
+      "grip_force_N": 7.971012469785118,
+      "grip_arm_mm": 65
+    },
+    "thigh_l.twist": {
+      "max_gravity_nm": 0.10909858449828816,
+      "pose": "combined_random_083",
+      "downstream_mass_g": 203.72925985281668,
+      "sizing_hold_target_nm": 0.18364787674743224,
+      "all_configuration_triangle_bound_nm": 0.2264024121901873,
+      "bound_hold_target_nm": 0.359603618285281,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 63.38930656962651,
+      "preload_at_mu_030_N": 31.694653284813256,
+      "grip_force_N": 5.247082192783778,
+      "grip_arm_mm": 35
+    },
+    "calf_l.flex": {
+      "max_gravity_nm": 0.11677144672197204,
+      "pose": "combined_random_072",
+      "downstream_mass_g": 171.2403880887711,
+      "sizing_hold_target_nm": 0.19515717008295805,
+      "all_configuration_triangle_bound_nm": 0.1377007599266872,
+      "bound_hold_target_nm": 0.2265511398900308,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 67.36194233632673,
+      "preload_at_mu_030_N": 33.68097116816337,
+      "grip_force_N": 5.575919145227372,
+      "grip_arm_mm": 35
+    },
+    "foot_l.dorsiflex": {
+      "max_gravity_nm": 0.017916244120713125,
+      "pose": "foot_l.dorsiflex__max",
+      "downstream_mass_g": 90.33202933053377,
+      "sizing_hold_target_nm": 0.04687436618106969,
+      "all_configuration_triangle_bound_nm": 0.0218992952541901,
+      "bound_hold_target_nm": 0.05284894288128515,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 16.179514954018135,
+      "preload_at_mu_030_N": 8.089757477009067,
+      "grip_force_N": 1.3392676051734196,
+      "grip_arm_mm": 35
+    },
+    "foot_l.invert": {
+      "max_gravity_nm": 0.006650084890349602,
+      "pose": "combined_random_083",
+      "downstream_mass_g": 62.95438626857385,
+      "sizing_hold_target_nm": 0.029975127335524404,
+      "all_configuration_triangle_bound_nm": 0.019873513172537306,
+      "bound_hold_target_nm": 0.04981026975880596,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 10.346444346581402,
+      "preload_at_mu_030_N": 5.173222173290701,
+      "grip_force_N": 0.8564322095864114,
+      "grip_arm_mm": 35
+    },
+    "ball_l.flex": {
+      "max_gravity_nm": 0.00022468350213899758,
+      "pose": "thigh_l.twist__min",
+      "downstream_mass_g": 26.302467314308544,
+      "sizing_hold_target_nm": 0.020337025253208497,
+      "all_configuration_triangle_bound_nm": 0.00048534767041735023,
+      "bound_hold_target_nm": 0.020728021505626026,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.0196832728037215,
+      "preload_at_mu_030_N": 3.5098416364018608,
+      "grip_force_N": 0.5810578643773856,
+      "grip_arm_mm": 35
+    },
+    "clavicle_r.protract": {
+      "max_gravity_nm": 0.5090540228798734,
+      "pose": "combined_random_100",
+      "downstream_mass_g": 335.03895544539205,
+      "sizing_hold_target_nm": 0.7835810343198102,
+      "all_configuration_triangle_bound_nm": 0.5849598662967961,
+      "bound_hold_target_nm": 0.8974397994451941,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 194.75249600011716,
+      "preload_at_mu_030_N": 97.37624800005858,
+      "grip_force_N": 12.055092835689386,
+      "grip_arm_mm": 65
+    },
+    "clavicle_r.elevate": {
+      "max_gravity_nm": 0.528406194727708,
+      "pose": "arms_side",
+      "downstream_mass_g": 308.22158203038686,
+      "sizing_hold_target_nm": 0.812609292091562,
+      "all_configuration_triangle_bound_nm": 0.5830834380217851,
+      "bound_hold_target_nm": 0.8946251570326776,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 201.96722607649124,
+      "preload_at_mu_030_N": 100.98361303824562,
+      "grip_force_N": 12.50168141679326,
+      "grip_arm_mm": 65
+    },
+    "upperarm_r.flex": {
+      "max_gravity_nm": 0.28399821494148353,
+      "pose": "arms_forward",
+      "downstream_mass_g": 269.2426099193081,
+      "sizing_hold_target_nm": 0.44599732241222534,
+      "all_configuration_triangle_bound_nm": 0.43509226735145445,
+      "bound_hold_target_nm": 0.6726384010271818,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 110.84889493854094,
+      "preload_at_mu_030_N": 55.42444746927047,
+      "grip_force_N": 6.86149726788039,
+      "grip_arm_mm": 65
+    },
+    "upperarm_r.abduct": {
+      "max_gravity_nm": 0.2855984424458307,
+      "pose": "arms_side",
+      "downstream_mass_g": 230.97889932677637,
+      "sizing_hold_target_nm": 0.4483976636687461,
+      "all_configuration_triangle_bound_nm": 0.30108061972975525,
+      "bound_hold_target_nm": 0.47162092959463287,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 111.44547963174406,
+      "preload_at_mu_030_N": 55.72273981587203,
+      "grip_force_N": 6.898425594903786,
+      "grip_arm_mm": 65
+    },
+    "upperarm_r.twist": {
+      "max_gravity_nm": 0.07747093431014623,
+      "pose": "combined_random_156",
+      "downstream_mass_g": 193.08682704413937,
+      "sizing_hold_target_nm": 0.13620640146521934,
+      "all_configuration_triangle_bound_nm": 0.22190047256905548,
+      "bound_hold_target_nm": 0.3528507088535833,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 47.01404389825125,
+      "preload_at_mu_030_N": 23.507021949125626,
+      "grip_force_N": 3.891611470434838,
+      "grip_arm_mm": 35
+    },
+    "elbow_r.flex": {
+      "max_gravity_nm": 0.09227465776112025,
+      "pose": "combined_random_084",
+      "downstream_mass_g": 119.74829359053624,
+      "sizing_hold_target_nm": 0.15841198664168035,
+      "all_configuration_triangle_bound_nm": 0.09501074589787808,
+      "bound_hold_target_nm": 0.16251611884681713,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 54.67869361399223,
+      "preload_at_mu_030_N": 27.339346806996115,
+      "grip_force_N": 4.526056761190866,
+      "grip_arm_mm": 35
+    },
+    "forearm_r.twist": {
+      "max_gravity_nm": 0.001293077649993,
+      "pose": "combined_random_072",
+      "downstream_mass_g": 84.5096889462008,
+      "sizing_hold_target_nm": 0.0219396164749895,
+      "all_configuration_triangle_bound_nm": 0.05473116898877568,
+      "bound_hold_target_nm": 0.10209675348316354,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.572845923319847,
+      "preload_at_mu_030_N": 3.7864229616599236,
+      "grip_force_N": 0.6268461849997,
+      "grip_arm_mm": 35
+    },
+    "hand_r.flex": {
+      "max_gravity_nm": 0.0009489906757594122,
+      "pose": "arms_overhead",
+      "downstream_mass_g": 53.395798692762526,
+      "sizing_hold_target_nm": 0.02142348601363912,
+      "all_configuration_triangle_bound_nm": 0.002287260709603263,
+      "bound_hold_target_nm": 0.023430891064404893,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.394694383406008,
+      "preload_at_mu_030_N": 3.697347191703004,
+      "grip_force_N": 0.612099600389689,
+      "grip_arm_mm": 35
+    },
+    "hand_r.deviate": {
+      "max_gravity_nm": 0.00025356467180913844,
+      "pose": "arms_side",
+      "downstream_mass_g": 26.578425277757347,
+      "sizing_hold_target_nm": 0.020380347007713708,
+      "all_configuration_triangle_bound_nm": 0.0004108324345922597,
+      "bound_hold_target_nm": 0.02061624865188839,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.034636541124061,
+      "preload_at_mu_030_N": 3.5173182705620305,
+      "grip_force_N": 0.5822956287918202,
+      "grip_arm_mm": 35
+    },
+    "thigh_r.flex": {
+      "max_gravity_nm": 0.35925548045934497,
+      "pose": "combined_random_215",
+      "downstream_mass_g": 305.77952655680076,
+      "sizing_hold_target_nm": 0.5588832206890175,
+      "all_configuration_triangle_bound_nm": 0.40193690558803147,
+      "bound_hold_target_nm": 0.6229053583820472,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 138.90573844255016,
+      "preload_at_mu_030_N": 69.45286922127508,
+      "grip_force_N": 8.598203395215654,
+      "grip_arm_mm": 65
+    },
+    "thigh_r.abduct": {
+      "max_gravity_nm": 0.3367562501382974,
+      "pose": "thigh_r.abduct__max",
+      "downstream_mass_g": 262.2800895162106,
+      "sizing_hold_target_nm": 0.5251343752074461,
+      "all_configuration_triangle_bound_nm": 0.3996124100316889,
+      "bound_hold_target_nm": 0.6194186150475334,
+      "candidate_clutch_family": "M",
+      "friction_outer_radius_mm": 19,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 130.5177458715409,
+      "preload_at_mu_030_N": 65.25887293577046,
+      "grip_force_N": 8.078990387806863,
+      "grip_arm_mm": 65
+    },
+    "thigh_r.twist": {
+      "max_gravity_nm": 0.11101638937608331,
+      "pose": "combined_random_209",
+      "downstream_mass_g": 205.93329276018088,
+      "sizing_hold_target_nm": 0.18652458406412495,
+      "all_configuration_triangle_bound_nm": 0.22897526806805774,
+      "bound_hold_target_nm": 0.36346290210208665,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 64.3822528820944,
+      "preload_at_mu_030_N": 32.1911264410472,
+      "grip_force_N": 5.32927383040357,
+      "grip_arm_mm": 35
+    },
+    "calf_r.flex": {
+      "max_gravity_nm": 0.12039818853954459,
+      "pose": "combined_random_114",
+      "downstream_mass_g": 172.73588438153166,
+      "sizing_hold_target_nm": 0.20059728280931688,
+      "all_configuration_triangle_bound_nm": 0.1394908743864456,
+      "bound_hold_target_nm": 0.22923631157966842,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 69.23969327737761,
+      "preload_at_mu_030_N": 34.619846638688806,
+      "grip_force_N": 5.731350937409053,
+      "grip_arm_mm": 35
+    },
+    "foot_r.dorsiflex": {
+      "max_gravity_nm": 0.018186324199277723,
+      "pose": "combined_random_069",
+      "downstream_mass_g": 91.82751467702057,
+      "sizing_hold_target_nm": 0.04727948629891658,
+      "all_configuration_triangle_bound_nm": 0.02215044222875282,
+      "bound_hold_target_nm": 0.05322566334312924,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 16.3193493142217,
+      "preload_at_mu_030_N": 8.15967465711085,
+      "grip_force_N": 1.3508424656833307,
+      "grip_arm_mm": 35
+    },
+    "foot_r.invert": {
+      "max_gravity_nm": 0.006783794280154214,
+      "pose": "combined_random_209",
+      "downstream_mass_g": 64.44987161506063,
+      "sizing_hold_target_nm": 0.03017569142023132,
+      "all_configuration_triangle_bound_nm": 0.020124660147100026,
+      "bound_hold_target_nm": 0.05018699022065004,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 10.415672580947694,
+      "preload_at_mu_030_N": 5.207836290473847,
+      "grip_force_N": 0.862162612006609,
+      "grip_arm_mm": 35
+    },
+    "ball_r.flex": {
+      "max_gravity_nm": 0.00022468350213899796,
+      "pose": "thigh_r.twist__max",
+      "downstream_mass_g": 26.302467314308544,
+      "sizing_hold_target_nm": 0.020337025253208497,
+      "all_configuration_triangle_bound_nm": 0.00048534767041735023,
+      "bound_hold_target_nm": 0.020728021505626026,
+      "candidate_clutch_family": "S",
+      "friction_outer_radius_mm": 13,
+      "friction_inner_radius_mm": 5.2,
+      "assumed_two_faces": true,
+      "preload_at_mu_015_N": 7.0196832728037215,
+      "preload_at_mu_030_N": 3.5098416364018608,
+      "grip_force_N": 0.5810578643773856,
+      "grip_arm_mm": 35
+    }
+  },
+  "mass_items": [
+    {
+      "name": "pelvis_yaw__stator_shell",
+      "owner": "device_base",
+      "mass_g": 25.505031337817506,
+      "local_com_mm": [
+        0.9308542777609541,
+        -1.979653376358412e-08,
+        244.6481401485947
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_yaw__output_flange",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 8.59955948216915,
+      "local_com_mm": [
+        -6.114549971080433e-15,
+        -3.363151850769847e-16,
+        3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_yaw__shaft",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 2.5786192500665024,
+      "local_com_mm": [
+        -3.571149116029212e-16,
+        -5.110398491127152e-17,
+        -2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_yaw__axis_pcb_assembly",
+      "owner": "device_base",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        0.023175351181003136,
+        1.1052752104569168,
+        228.74938334053263
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "pelvis_yaw__axis_magnet",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 0.5301437602932776,
+      "local_com_mm": [
+        -5.528667890741521e-16,
+        -1.769054806638435e-16,
+        -16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__input_fork",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 9.820533181352703,
+      "local_com_mm": [
+        2.274744870106093e-06,
+        2.6970937051621733e-05,
+        16.201452952838736
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__a_stub_-1",
+      "owner": "pelvis.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        -32.00000000000001,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__a_stub_1",
+      "owner": "pelvis.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        32.00000000000001,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__middle_yoke",
+      "owner": "pelvis.pitch_frame",
+      "mass_g": 7.570931455505403,
+      "local_com_mm": [
+        -2.5113422652703975e-08,
+        4.981592852733414e-07,
+        3.1807303457753733e-09
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__output_hub",
+      "owner": "pelvis",
+      "mass_g": 4.018151134033068,
+      "local_com_mm": [
+        4.3606108057147445e-09,
+        2.217764240734496e-09,
+        12.298401910407108
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__b_shaft",
+      "owner": "pelvis",
+      "mass_g": 11.128777816076497,
+      "local_com_mm": [
+        0.0,
+        9.060819238674659e-17,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__b_axis_pcb_assembly",
+      "owner": "pelvis.pitch_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -47.25061665946735,
+        1.1052752104569141,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "pelvis_gimbal__b_axis_magnet",
+      "owner": "pelvis",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -42.24999999999999,
+        -1.27369488072062e-16,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__a_axis_pcb_assembly",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569141,
+        47.25061665946735,
+        37.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "pelvis_gimbal__a_axis_magnet",
+      "owner": "pelvis.pitch_frame",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -1.27369488072062e-16,
+        42.24999999999999,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_yaw__stator_shell",
+      "owner": "pelvis",
+      "mass_g": 19.779026715578333,
+      "local_com_mm": [
+        -1.0755956741109516,
+        -1.7632875929248968e-09,
+        38.54621711596491
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_yaw__output_flange",
+      "owner": "waist.yaw_frame",
+      "mass_g": 6.495949041325424,
+      "local_com_mm": [
+        5.78344321275952e-15,
+        7.71168706948268e-16,
+        3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_yaw__shaft",
+      "owner": "waist.yaw_frame",
+      "mass_g": 2.5786192500665024,
+      "local_com_mm": [
+        3.571149116029212e-16,
+        5.110398491127152e-17,
+        -2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_yaw__axis_pcb_assembly",
+      "owner": "pelvis",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -0.02317535118100291,
+        -1.1052752104569101,
+        22.749383340532688
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "waist_yaw__axis_magnet",
+      "owner": "waist.yaw_frame",
+      "mass_g": 0.5301437602932776,
+      "local_com_mm": [
+        5.528667890741521e-16,
+        1.769054806638435e-16,
+        -16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__input_fork",
+      "owner": "waist.yaw_frame",
+      "mass_g": 9.072582818893162,
+      "local_com_mm": [
+        2.4492200090831543e-06,
+        2.5949375525519008e-05,
+        15.435813442549659
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__a_stub_-1",
+      "owner": "waist.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        -29.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__a_stub_1",
+      "owner": "waist.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        29.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__middle_yoke",
+      "owner": "waist.pitch_frame",
+      "mass_g": 6.726748344148346,
+      "local_com_mm": [
+        -1.6485337775651757e-08,
+        2.2267787591130377e-07,
+        -2.2435585833591176e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__output_hub",
+      "owner": "waist",
+      "mass_g": 3.8077900916821714,
+      "local_com_mm": [
+        4.497006477578484e-09,
+        2.060694551516751e-09,
+        11.182366316430375
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__b_shaft",
+      "owner": "waist",
+      "mass_g": 10.314477000266022,
+      "local_com_mm": [
+        0.0,
+        3.3106228848013414e-17,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__b_axis_pcb_assembly",
+      "owner": "waist.pitch_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -44.25061665946736,
+        1.1052752104569163,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "waist_gimbal__b_axis_magnet",
+      "owner": "waist",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -39.25,
+        -1.27369488072062e-16,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__a_axis_pcb_assembly",
+      "owner": "waist.yaw_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569163,
+        44.25061665946736,
+        34.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "waist_gimbal__a_axis_magnet",
+      "owner": "waist.pitch_frame",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -1.27369488072062e-16,
+        39.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_yaw__stator_shell",
+      "owner": "waist",
+      "mass_g": 14.754391012676665,
+      "local_com_mm": [
+        -1.2746742643344549,
+        -2.2723621525405174e-09,
+        30.391571523223718
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_yaw__output_flange",
+      "owner": "chest.yaw_frame",
+      "mass_g": 4.672819992594195,
+      "local_com_mm": [
+        5.6716662853836404e-15,
+        -4.629831919037749e-16,
+        3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_yaw__shaft",
+      "owner": "chest.yaw_frame",
+      "mass_g": 2.5786192500665024,
+      "local_com_mm": [
+        3.571149116029212e-16,
+        5.110398491127152e-17,
+        -2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_yaw__axis_pcb_assembly",
+      "owner": "waist",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -0.023175351181002758,
+        -1.1052752104569117,
+        14.749383340532631
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "chest_yaw__axis_magnet",
+      "owner": "chest.yaw_frame",
+      "mass_g": 0.5301437602932776,
+      "local_com_mm": [
+        5.528667890741521e-16,
+        1.769054806638435e-16,
+        -16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__input_fork",
+      "owner": "chest.yaw_frame",
+      "mass_g": 8.324632454473468,
+      "local_com_mm": [
+        2.6554705209208307e-06,
+        2.4885252325616076e-05,
+        14.667363573014313
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__a_stub_-1",
+      "owner": "chest.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        -26.000000000000004,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__a_stub_1",
+      "owner": "chest.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        26.000000000000004,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__middle_yoke",
+      "owner": "chest.pitch_frame",
+      "mass_g": 5.883488385434057,
+      "local_com_mm": [
+        -7.1866777707426275e-09,
+        -8.000241895610053e-08,
+        -1.2902432899863925e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__output_hub",
+      "owner": "chest",
+      "mass_g": 3.597429049331276,
+      "local_com_mm": [
+        4.64935263058221e-09,
+        1.8852554013547956e-09,
+        10.111235655438065
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__b_shaft",
+      "owner": "chest",
+      "mass_g": 9.500176184455547,
+      "local_com_mm": [
+        0.0,
+        8.985385966966669e-17,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__b_axis_pcb_assembly",
+      "owner": "chest.pitch_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -41.250616659467354,
+        1.1052752104569135,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "chest_gimbal__b_axis_magnet",
+      "owner": "chest",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -36.25,
+        -1.27369488072062e-16,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__a_axis_pcb_assembly",
+      "owner": "chest.yaw_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569135,
+        41.250616659467354,
+        31.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "chest_gimbal__a_axis_magnet",
+      "owner": "chest.pitch_frame",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -1.27369488072062e-16,
+        36.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_yaw__stator_shell",
+      "owner": "chest",
+      "mass_g": 9.152532228557812,
+      "local_com_mm": [
+        -1.7039686061475166,
+        -1.3273582185037296e-08,
+        37.01734821892762
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_yaw__output_flange",
+      "owner": "head.yaw_frame",
+      "mass_g": 2.6782856486831075,
+      "local_com_mm": [
+        6.079347401385544e-15,
+        5.480325564327044e-16,
+        3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_yaw__shaft",
+      "owner": "head.yaw_frame",
+      "mass_g": 2.5786192500665024,
+      "local_com_mm": [
+        3.571149116029212e-16,
+        5.110398491127152e-17,
+        -2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_yaw__axis_pcb_assembly",
+      "owner": "chest",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -0.023175351181002737,
+        -1.1052752104569101,
+        21.74938334053263
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "head_yaw__axis_magnet",
+      "owner": "head.yaw_frame",
+      "mass_g": 0.5301437602932776,
+      "local_com_mm": [
+        5.528667890741521e-16,
+        1.769054806638435e-16,
+        -16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__input_fork",
+      "owner": "head.yaw_frame",
+      "mass_g": 7.3273653035247825,
+      "local_com_mm": [
+        2.995788843755588e-06,
+        2.3400109214949706e-05,
+        13.636904592382791
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__a_stub_-1",
+      "owner": "head.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        -22.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__a_stub_1",
+      "owner": "head.pitch_frame",
+      "mass_g": 2.442902447431426,
+      "local_com_mm": [
+        8.614210213694177e-17,
+        22.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__middle_yoke",
+      "owner": "head.pitch_frame",
+      "mass_g": 4.761694406803809,
+      "local_com_mm": [
+        -2.0508540220474485e-09,
+        4.589394117667568e-08,
+        2.8762258352799108e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__output_hub",
+      "owner": "head",
+      "mass_g": 3.316947659530082,
+      "local_com_mm": [
+        4.882541166254108e-09,
+        1.6167211116317626e-09,
+        8.76768031206609
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__b_shaft",
+      "owner": "head",
+      "mass_g": 8.414441763374912,
+      "local_com_mm": [
+        -5.836716834800426e-16,
+        1.0172352518639648e-16,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__b_axis_pcb_assembly",
+      "owner": "head.pitch_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -37.250616659467376,
+        1.1052752104569166,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "head_gimbal__b_axis_magnet",
+      "owner": "head",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -32.25,
+        -1.27369488072062e-16,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__a_axis_pcb_assembly",
+      "owner": "head.yaw_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569166,
+        37.250616659467376,
+        27.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "head_gimbal__a_axis_magnet",
+      "owner": "head.pitch_frame",
+      "mass_g": 0.5301437602932771,
+      "local_com_mm": [
+        -1.27369488072062e-16,
+        32.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__input_fork",
+      "owner": "chest",
+      "mass_g": 6.828720891682477,
+      "local_com_mm": [
+        5.949726764277698e-08,
+        55.118318851199234,
+        19.99996622238325
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__a_stub_-1",
+      "owner": "clavicle_l.protract_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        1.0142487370305143e-16,
+        0.0,
+        20.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__a_stub_1",
+      "owner": "clavicle_l.protract_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        1.0142487370305143e-16,
+        0.0,
+        -20.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__middle_yoke",
+      "owner": "clavicle_l.protract_frame",
+      "mass_g": 4.201424759849052,
+      "local_com_mm": [
+        -1.1080791015093012e-08,
+        -1.0277065598529589e-07,
+        3.528573415678693e-07
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__output_hub",
+      "owner": "clavicle_l",
+      "mass_g": 3.176706494901281,
+      "local_com_mm": [
+        2.0444663702089896e-07,
+        8.139371892216914,
+        2.2796484699938446e-09
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__b_shaft",
+      "owner": "clavicle_l",
+      "mass_g": 7.871574552834581,
+      "local_com_mm": [
+        -6.239249030303914e-16,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__b_axis_pcb_assembly",
+      "owner": "clavicle_l.protract_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -35.250616659467354,
+        0.023175351181009773,
+        1.1052752104569095
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "clavicle_l__b_axis_magnet",
+      "owner": "clavicle_l",
+      "mass_g": 0.5301437602932779,
+      "local_com_mm": [
+        -30.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__a_axis_pcb_assembly",
+      "owner": "chest",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -1.105275210456913,
+        68.02317535118101,
+        -15.250616659467369
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "clavicle_l__a_axis_magnet",
+      "owner": "clavicle_l.protract_frame",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        1.840371216206371e-16,
+        0.0,
+        -30.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_l__input_fork",
+      "owner": "clavicle_l",
+      "mass_g": 7.82598782300978,
+      "local_com_mm": [
+        30.00000005712101,
+        39.999964459798974,
+        -4.153082474293683
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_l__output_hub",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 1.2188498433066548,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_l__a_shaft",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 9.364459381820469,
+      "local_com_mm": [
+        0.0,
+        1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_l__a_axis_pcb_assembly",
+      "owner": "clavicle_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        28.894724789543083,
+        0.7493833405326598,
+        -20.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "shoulder_flex_l__a_axis_magnet",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 0.530143760293277,
+      "local_com_mm": [
+        0.0,
+        -34.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_l__input_fork",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 7.825987823009779,
+      "local_com_mm": [
+        3.554020101859123e-05,
+        56.000000057121014,
+        15.846917525706317
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_l__output_hub",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 3.4571878770723123,
+      "local_com_mm": [
+        -1.908837532482721e-09,
+        1.907283717628161e-07,
+        -9.426143447582547
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_l__a_shaft",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 9.364459381820462,
+      "local_com_mm": [
+        -1.5,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_l__a_axis_pcb_assembly",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        39.25061665946738,
+        54.89472478954309,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "shoulder_abduct_l__a_axis_magnet",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 0.5301437602932774,
+      "local_com_mm": [
+        34.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_l__stator_shell",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 6.82631259976237,
+      "local_com_mm": [
+        9.379892773608844e-08,
+        2.057335363338211,
+        -33.67825868691375
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_l__output_flange",
+      "owner": "upperarm_l",
+      "mass_g": 1.8680060714692277,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        -3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_l__shaft",
+      "owner": "upperarm_l",
+      "mass_g": 2.578619250066503,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_l__axis_pcb_assembly",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569095,
+        0.023175351181009773,
+        -18.74938334053263
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "upperarm_twist_l__axis_magnet",
+      "owner": "upperarm_l",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_l__input_fork",
+      "owner": "upperarm_l",
+      "mass_g": 8.160282062153339,
+      "local_com_mm": [
+        -9.589448630653358,
+        -3.627500058200894e-05,
+        -75.01648625564519
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_l__output_hub",
+      "owner": "elbow_l",
+      "mass_g": 3.387067531529554,
+      "local_com_mm": [
+        1.939449454368969e-07,
+        1.9957724362029694e-09,
+        -9.09337641511081
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_l__a_shaft",
+      "owner": "elbow_l",
+      "mass_g": 9.09302577655031,
+      "local_com_mm": [
+        0.0,
+        1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_l__a_axis_pcb_assembly",
+      "owner": "upperarm_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -1.1052752104569166,
+        -38.25061665946737,
+        -90.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "elbow_l__a_axis_magnet",
+      "owner": "elbow_l",
+      "mass_g": 0.530143760293277,
+      "local_com_mm": [
+        0.0,
+        -33.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_l__stator_shell",
+      "owner": "elbow_l",
+      "mass_g": 4.8149537044332895,
+      "local_com_mm": [
+        2.5927239070155323,
+        3.518729840834567e-08,
+        -38.11832778971444
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_l__output_flange",
+      "owner": "forearm_l",
+      "mass_g": 1.1823848907497916,
+      "local_com_mm": [
+        -1.0658141036401503e-14,
+        0.0,
+        -3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_l__shaft",
+      "owner": "forearm_l",
+      "mass_g": 2.5786192500665006,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_l__axis_pcb_assembly",
+      "owner": "elbow_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        0.023175351181002668,
+        -1.1052752104569095,
+        -23.749383340532688
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "forearm_twist_l__axis_magnet",
+      "owner": "forearm_l",
+      "mass_g": 0.5301437602932778,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__input_fork",
+      "owner": "forearm_l",
+      "mass_g": 6.828720891682479,
+      "local_com_mm": [
+        5.949726755716256e-08,
+        -3.3777616721408776e-05,
+        -72.11831885119923
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__a_stub_-1",
+      "owner": "hand_l.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__a_stub_1",
+      "owner": "hand_l.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        0.0,
+        -20.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__middle_yoke",
+      "owner": "hand_l.flex_frame",
+      "mass_g": 4.2014247598490515,
+      "local_com_mm": [
+        -1.1080789619200004e-08,
+        3.5285731314615987e-07,
+        1.0277065598529589e-07
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__output_hub",
+      "owner": "hand_l",
+      "mass_g": 3.1767064949012793,
+      "local_com_mm": [
+        2.0444663562102505e-07,
+        2.2796484699938446e-09,
+        -8.1393718922169
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__b_shaft",
+      "owner": "hand_l",
+      "mass_g": 7.871574552834583,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__b_axis_pcb_assembly",
+      "owner": "hand_l.flex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -35.25061665946734,
+        1.1052752104569095,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "wrist_l__b_axis_magnet",
+      "owner": "hand_l",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -30.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__a_axis_pcb_assembly",
+      "owner": "forearm_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -1.105275210456913,
+        -35.25061665946734,
+        -85.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "wrist_l__a_axis_magnet",
+      "owner": "hand_l.flex_frame",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        0.0,
+        -30.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__input_fork",
+      "owner": "pelvis",
+      "mass_g": 10.42160632761786,
+      "local_com_mm": [
+        -20.97911429112226,
+        75.00004023845813,
+        -26.216710691333674
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__a_stub_-1",
+      "owner": "thigh_l.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        -1.1216295427659287e-16,
+        26.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__a_stub_1",
+      "owner": "thigh_l.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        -1.1216295427659287e-16,
+        -26.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__middle_yoke",
+      "owner": "thigh_l.flex_frame",
+      "mass_g": 5.883488385434056,
+      "local_com_mm": [
+        7.1866764289512465e-09,
+        8.000242246453126e-08,
+        -1.2902404478154494e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__output_hub",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 3.5974285681578335,
+      "local_com_mm": [
+        1.8467143187358134e-07,
+        1.7451071698815213e-09,
+        -10.111235540339123
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__b_shaft",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 9.500176184455537,
+      "local_com_mm": [
+        -5.169663482251811e-16,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__b_axis_pcb_assembly",
+      "owner": "thigh_l.flex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -41.25061665946733,
+        1.1052752104569095,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "hip_l__b_axis_magnet",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -36.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__a_axis_pcb_assembly",
+      "owner": "pelvis",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.105275210456916,
+        116.25061665946734,
+        -43.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "hip_l__a_axis_magnet",
+      "owner": "thigh_l.flex_frame",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        -3.386202580354592e-16,
+        36.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_l__stator_shell",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 9.152532228557815,
+      "local_com_mm": [
+        1.7039686061475143,
+        -1.3273577792460856e-08,
+        -74.01734821892762
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_l__output_flange",
+      "owner": "thigh_l",
+      "mass_g": 2.6782856486831075,
+      "local_com_mm": [
+        -6.658332868184167e-15,
+        0.0,
+        -3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_l__shaft",
+      "owner": "thigh_l",
+      "mass_g": 2.5786192500665024,
+      "local_com_mm": [
+        -3.571149116029212e-16,
+        0.0,
+        2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_l__axis_pcb_assembly",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        0.02317535118100312,
+        -1.1052752104569095,
+        -58.74938334053263
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "thigh_twist_l__axis_magnet",
+      "owner": "thigh_l",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -4.020849375084741e-16,
+        0.0,
+        16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_l__input_fork",
+      "owner": "thigh_l",
+      "mass_g": 8.621895170716535,
+      "local_com_mm": [
+        9.747107604727104,
+        4.4570078259198453e-05,
+        -33.551755983099554
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_l__output_hub",
+      "owner": "calf_l",
+      "mass_g": 3.527308222615075,
+      "local_com_mm": [
+        -1.8763970168218742e-07,
+        -1.8253416556035518e-09,
+        -9.765559422491492
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_l__a_shaft",
+      "owner": "calf_l",
+      "mass_g": 9.635892987090616,
+      "local_com_mm": [
+        -1.4328084639884233e-16,
+        -1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_l__a_axis_pcb_assembly",
+      "owner": "thigh_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.105275210456916,
+        40.25061665946734,
+        -50.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "knee_l__a_axis_magnet",
+      "owner": "calf_l",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        -1.840371216206371e-16,
+        35.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__input_fork",
+      "owner": "calf_l",
+      "mass_g": 7.3273543572510444,
+      "local_com_mm": [
+        5.824485178574191e-08,
+        -3.4685830328839984e-05,
+        -90.63688353360966
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__a_stub_-1",
+      "owner": "foot_l.dorsiflex_frame",
+      "mass_g": 2.442902447431423,
+      "local_com_mm": [
+        -8.419053822646651e-17,
+        22.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__a_stub_1",
+      "owner": "foot_l.dorsiflex_frame",
+      "mass_g": 2.442902447431423,
+      "local_com_mm": [
+        -1.0500721993818848e-16,
+        -22.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__middle_yoke",
+      "owner": "foot_l.dorsiflex_frame",
+      "mass_g": 4.761694406803803,
+      "local_com_mm": [
+        2.050851653618623e-09,
+        -4.5893941091890156e-08,
+        2.8762240589230714e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__output_hub",
+      "owner": "foot_l",
+      "mass_g": 3.316947185986798,
+      "local_com_mm": [
+        1.972975045439667e-07,
+        2.0864092675765278e-09,
+        -8.767680001498993
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__b_shaft",
+      "owner": "foot_l",
+      "mass_g": 8.414441763374901,
+      "local_com_mm": [
+        5.836716834800433e-16,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__b_axis_pcb_assembly",
+      "owner": "foot_l.dorsiflex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -37.25061665946737,
+        1.1052752104569095,
+        -0.023175351181002668
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "ankle_l__b_axis_magnet",
+      "owner": "foot_l",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -32.25000000000001,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__a_axis_pcb_assembly",
+      "owner": "calf_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -1.1052752104569166,
+        -37.25061665946735,
+        -105.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "ankle_l__a_axis_magnet",
+      "owner": "foot_l.dorsiflex_frame",
+      "mass_g": 0.5301437602932776,
+      "local_com_mm": [
+        2.0466105627947237e-16,
+        -32.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_l__input_fork",
+      "owner": "foot_l",
+      "mass_g": 6.330087424945718,
+      "local_com_mm": [
+        41.596829362450116,
+        -3.280875910149916e-05,
+        -17.999999939122585
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_l__output_hub",
+      "owner": "ball_l",
+      "mass_g": 3.036465803815761,
+      "local_com_mm": [
+        7.545397337650968,
+        2.4907649276428856e-09,
+        2.12256142440026e-07
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_l__a_shaft",
+      "owner": "ball_l",
+      "mass_g": 7.735857750199507,
+      "local_com_mm": [
+        0.0,
+        1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_l__a_axis_pcb_assembly",
+      "owner": "foot_l",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        53.023175351181,
+        -33.25061665946735,
+        -19.105275210456913
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "toe_l__a_axis_magnet",
+      "owner": "ball_l",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        0.0,
+        -28.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__input_fork",
+      "owner": "chest",
+      "mass_g": 6.828731728126264,
+      "local_com_mm": [
+        3.2030215424908883e-06,
+        -55.118338925892175,
+        20.00002261372208
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__a_stub_-1",
+      "owner": "clavicle_r.protract_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        -1.0142487370305143e-16,
+        0.0,
+        -20.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__a_stub_1",
+      "owner": "clavicle_r.protract_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        -1.0142487370305143e-16,
+        0.0,
+        20.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__middle_yoke",
+      "owner": "clavicle_r.protract_frame",
+      "mass_g": 4.201424759849052,
+      "local_com_mm": [
+        1.1080790478240161e-08,
+        -1.0277065598529589e-07,
+        -3.528573415678693e-07
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__output_hub",
+      "owner": "clavicle_r",
+      "mass_g": 3.1767069646294845,
+      "local_com_mm": [
+        5.014577719641179e-09,
+        -8.139372304752797,
+        1.4646843737864401e-09
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__b_shaft",
+      "owner": "clavicle_r",
+      "mass_g": 7.871574552834581,
+      "local_com_mm": [
+        6.239249030303914e-16,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__b_axis_pcb_assembly",
+      "owner": "clavicle_r.protract_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -35.250616659467354,
+        0.023175351180995563,
+        1.1052752104569095
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "clavicle_r__b_axis_magnet",
+      "owner": "clavicle_r",
+      "mass_g": 0.5301437602932779,
+      "local_com_mm": [
+        -30.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__a_axis_pcb_assembly",
+      "owner": "chest",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569141,
+        -67.976824648819,
+        55.25061665946737
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "clavicle_r__a_axis_magnet",
+      "owner": "clavicle_r.protract_frame",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        -1.840371216206371e-16,
+        0.0,
+        30.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_r__input_fork",
+      "owner": "clavicle_r",
+      "mass_g": 7.82598782300978,
+      "local_com_mm": [
+        30.00000005712101,
+        -40.00003554020101,
+        -4.153082474293626
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_r__output_hub",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 1.2188498433066548,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_r__a_shaft",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 9.364459381820469,
+      "local_com_mm": [
+        0.0,
+        -1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_r__a_axis_pcb_assembly",
+      "owner": "clavicle_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        31.105275210456917,
+        -0.7493833405326455,
+        -20.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "shoulder_flex_r__a_axis_magnet",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 0.530143760293277,
+      "local_com_mm": [
+        0.0,
+        34.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_r__input_fork",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 7.825987823009779,
+      "local_com_mm": [
+        -3.554020102214395e-05,
+        -56.000000057121014,
+        15.846917525706317
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_r__output_hub",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 3.457187877072312,
+      "local_com_mm": [
+        1.908837532482721e-09,
+        -1.907283717628161e-07,
+        -9.426143447582547
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_r__a_shaft",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 9.364459381820462,
+      "local_com_mm": [
+        1.5,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_r__a_axis_pcb_assembly",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -39.250616659467354,
+        -54.89472478954309,
+        -0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "shoulder_abduct_r__a_axis_magnet",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 0.5301437602932774,
+      "local_com_mm": [
+        -34.24999999999999,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_r__stator_shell",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 6.82631259976237,
+      "local_com_mm": [
+        -9.379892773608844e-08,
+        -2.057335363338211,
+        -33.67825868691375
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_r__output_flange",
+      "owner": "upperarm_r",
+      "mass_g": 1.8680060714692277,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        -3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_r__shaft",
+      "owner": "upperarm_r",
+      "mass_g": 2.578619250066503,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_r__axis_pcb_assembly",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -1.1052752104569095,
+        -0.023175351181009773,
+        -18.749383340532688
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "upperarm_twist_r__axis_magnet",
+      "owner": "upperarm_r",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_r__input_fork",
+      "owner": "upperarm_r",
+      "mass_g": 8.160282062153339,
+      "local_com_mm": [
+        -9.589448630653358,
+        -3.627500058200894e-05,
+        -75.01648625564519
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_r__output_hub",
+      "owner": "elbow_r",
+      "mass_g": 3.387067531529554,
+      "local_com_mm": [
+        1.939449454368969e-07,
+        1.9957724362029694e-09,
+        -9.09337641511081
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_r__a_shaft",
+      "owner": "elbow_r",
+      "mass_g": 9.09302577655031,
+      "local_com_mm": [
+        0.0,
+        1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_r__a_axis_pcb_assembly",
+      "owner": "upperarm_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -1.1052752104569166,
+        -38.25061665946734,
+        -90.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "elbow_r__a_axis_magnet",
+      "owner": "elbow_r",
+      "mass_g": 0.530143760293277,
+      "local_com_mm": [
+        0.0,
+        -33.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_r__stator_shell",
+      "owner": "elbow_r",
+      "mass_g": 4.8149537044332895,
+      "local_com_mm": [
+        2.5927239070155323,
+        3.518729840834567e-08,
+        -38.11832778971444
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_r__output_flange",
+      "owner": "forearm_r",
+      "mass_g": 1.1823848907497916,
+      "local_com_mm": [
+        -1.0658141036401503e-14,
+        0.0,
+        -3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_r__shaft",
+      "owner": "forearm_r",
+      "mass_g": 2.5786192500665006,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_r__axis_pcb_assembly",
+      "owner": "elbow_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        0.023175351181002668,
+        -1.1052752104569095,
+        -23.749383340532688
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "forearm_twist_r__axis_magnet",
+      "owner": "forearm_r",
+      "mass_g": 0.5301437602932778,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__input_fork",
+      "owner": "forearm_r",
+      "mass_g": 6.828731728126266,
+      "local_com_mm": [
+        3.2030215422196306e-06,
+        -2.26137221090994e-05,
+        -72.1183389258922
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__a_stub_-1",
+      "owner": "hand_r.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        0.0,
+        20.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__a_stub_1",
+      "owner": "hand_r.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        0.0,
+        -20.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__middle_yoke",
+      "owner": "hand_r.flex_frame",
+      "mass_g": 4.201424759849051,
+      "local_com_mm": [
+        1.1080789619200004e-08,
+        3.5285731314615987e-07,
+        -1.0277065598529589e-07
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__output_hub",
+      "owner": "hand_r",
+      "mass_g": 3.176706964629484,
+      "local_com_mm": [
+        5.0145771979259735e-09,
+        -1.4646843737864401e-09,
+        -8.139372304752783
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__b_shaft",
+      "owner": "hand_r",
+      "mass_g": 7.871574552834583,
+      "local_com_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__b_axis_pcb_assembly",
+      "owner": "hand_r.flex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -35.25061665946737,
+        -1.1052752104569095,
+        0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "wrist_r__b_axis_magnet",
+      "owner": "hand_r",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -30.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__a_axis_pcb_assembly",
+      "owner": "forearm_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569166,
+        -35.25061665946734,
+        -84.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "wrist_r__a_axis_magnet",
+      "owner": "hand_r.flex_frame",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        0.0,
+        -30.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__input_fork",
+      "owner": "pelvis",
+      "mass_g": 10.421627315869452,
+      "local_com_mm": [
+        -20.979071332603812,
+        -74.99999103889829,
+        -26.216742920446904
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__a_stub_-1",
+      "owner": "thigh_r.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        1.1216295427659287e-16,
+        26.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__a_stub_1",
+      "owner": "thigh_r.flex_frame",
+      "mass_g": 2.4429024474314236,
+      "local_com_mm": [
+        1.1216295427659287e-16,
+        -26.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__middle_yoke",
+      "owner": "thigh_r.flex_frame",
+      "mass_g": 5.883488385434054,
+      "local_com_mm": [
+        -7.186676620635732e-09,
+        8.000242246453126e-08,
+        1.2902404478154494e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__output_hub",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 3.5974290493312777,
+      "local_com_mm": [
+        4.649352160340787e-09,
+        -1.8852546190828434e-09,
+        -10.111235655438037
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__b_shaft",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 9.500176184455537,
+      "local_com_mm": [
+        5.169663482251811e-16,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__b_axis_pcb_assembly",
+      "owner": "thigh_r.flex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -41.25061665946731,
+        -1.1052752104569095,
+        0.023175351181009773
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "hip_r__b_axis_magnet",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -36.25,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__a_axis_pcb_assembly",
+      "owner": "pelvis",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569137,
+        -116.25061665946731,
+        -42.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "hip_r__a_axis_magnet",
+      "owner": "thigh_r.flex_frame",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        -3.386202580354592e-16,
+        -36.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_r__stator_shell",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 9.152532228557815,
+      "local_com_mm": [
+        -1.7039686061475143,
+        1.3273577792460856e-08,
+        -74.01734821892762
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_r__output_flange",
+      "owner": "thigh_r",
+      "mass_g": 2.6782856486831075,
+      "local_com_mm": [
+        6.658332868184167e-15,
+        0.0,
+        -3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_r__shaft",
+      "owner": "thigh_r",
+      "mass_g": 2.5786192500665024,
+      "local_com_mm": [
+        3.571149116029212e-16,
+        0.0,
+        2.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_r__axis_pcb_assembly",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -0.02317535118100312,
+        1.1052752104569095,
+        -58.74938334053263
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "thigh_twist_r__axis_magnet",
+      "owner": "thigh_r",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        4.020849375084741e-16,
+        0.0,
+        16.25
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_r__input_fork",
+      "owner": "thigh_r",
+      "mass_g": 8.621895170716535,
+      "local_com_mm": [
+        9.747107604727104,
+        4.4570078259198453e-05,
+        -33.551755983099554
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_r__output_hub",
+      "owner": "calf_r",
+      "mass_g": 3.527308222615075,
+      "local_com_mm": [
+        -1.8763970168218742e-07,
+        -1.8253416556035518e-09,
+        -9.765559422491492
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_r__a_shaft",
+      "owner": "calf_r",
+      "mass_g": 9.635892987090616,
+      "local_com_mm": [
+        -1.4328084639884233e-16,
+        -1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_r__a_axis_pcb_assembly",
+      "owner": "thigh_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569115,
+        40.25061665946733,
+        -50.02317535118101
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "knee_r__a_axis_magnet",
+      "owner": "calf_r",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        -1.840371216206371e-16,
+        35.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__input_fork",
+      "owner": "calf_r",
+      "mass_g": 7.327365303524778,
+      "local_com_mm": [
+        2.995788843383434e-06,
+        -2.3400109213866926e-05,
+        -90.63690459238278
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__a_stub_-1",
+      "owner": "foot_r.dorsiflex_frame",
+      "mass_g": 2.442902447431423,
+      "local_com_mm": [
+        1.0500721993818848e-16,
+        22.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__a_stub_1",
+      "owner": "foot_r.dorsiflex_frame",
+      "mass_g": 2.442902447431423,
+      "local_com_mm": [
+        8.419053822646651e-17,
+        -22.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__middle_yoke",
+      "owner": "foot_r.dorsiflex_frame",
+      "mass_g": 4.761694406803806,
+      "local_com_mm": [
+        -2.050851653618622e-09,
+        -4.5893941091890156e-08,
+        -2.8762240589230714e-08
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__output_hub",
+      "owner": "foot_r",
+      "mass_g": 3.316947659530082,
+      "local_com_mm": [
+        4.882541081253262e-09,
+        -1.6167263083843864e-09,
+        -8.767680312066108
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__b_shaft",
+      "owner": "foot_r",
+      "mass_g": 8.414441763374901,
+      "local_com_mm": [
+        -5.836716834800433e-16,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__b_axis_pcb_assembly",
+      "owner": "foot_r.dorsiflex_frame",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        -37.25061665946737,
+        -1.1052752104569095,
+        0.023175351181002668
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "ankle_r__b_axis_magnet",
+      "owner": "foot_r",
+      "mass_g": 0.5301437602932777,
+      "local_com_mm": [
+        -32.25000000000001,
+        0.0,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__a_axis_pcb_assembly",
+      "owner": "calf_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        1.1052752104569155,
+        -37.25061665946737,
+        -104.97682464881899
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "ankle_r__a_axis_magnet",
+      "owner": "foot_r.dorsiflex_frame",
+      "mass_g": 0.5301437602932776,
+      "local_com_mm": [
+        -1.7998943351002444e-16,
+        -32.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_r__input_fork",
+      "owner": "foot_r",
+      "mass_g": 6.330087424945718,
+      "local_com_mm": [
+        41.596829362450116,
+        -3.280875910149916e-05,
+        -17.999999939122585
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_r__output_hub",
+      "owner": "ball_r",
+      "mass_g": 3.036465803815761,
+      "local_com_mm": [
+        7.545397337650968,
+        2.4907649276428856e-09,
+        2.12256142440026e-07
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_r__a_shaft",
+      "owner": "ball_r",
+      "mass_g": 7.735857750199507,
+      "local_com_mm": [
+        0.0,
+        1.5,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_r__a_axis_pcb_assembly",
+      "owner": "foot_r",
+      "mass_g": 2.2,
+      "local_com_mm": [
+        53.023175351181,
+        -33.25061665946734,
+        -19.105275210456917
+      ],
+      "basis": "assembled_PCB_2.2g_assumption"
+    },
+    {
+      "name": "toe_r__a_axis_magnet",
+      "owner": "ball_r",
+      "mass_g": 0.5301437602932775,
+      "local_com_mm": [
+        0.0,
+        -28.25,
+        0.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis_gimbal__link_route_candidate",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 1.050941436810037,
+      "local_com_mm": [
+        11.0,
+        -8.496178006068031e-17,
+        4.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_yaw__link_route_candidate",
+      "owner": "pelvis",
+      "mass_g": 0.9117044588233192,
+      "local_com_mm": [
+        -22.499999999999996,
+        -1.2830386263396641e-17,
+        26.999999999999943
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "waist_gimbal__link_route_candidate",
+      "owner": "waist.yaw_frame",
+      "mass_g": 0.9079499976067904,
+      "local_com_mm": [
+        -9.5,
+        7.447872990192506e-17,
+        4.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_yaw__link_route_candidate",
+      "owner": "waist",
+      "mass_g": 1.024608865338935,
+      "local_com_mm": [
+        -21.0,
+        -5.311109818962742e-18,
+        21.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "chest_gimbal__link_route_candidate",
+      "owner": "chest.yaw_frame",
+      "mass_g": 0.7650224998056596,
+      "local_com_mm": [
+        -7.999999999999998,
+        1.749119849367685e-17,
+        4.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_yaw__link_route_candidate",
+      "owner": "chest",
+      "mass_g": 0.5161792917987632,
+      "local_com_mm": [
+        -19.0,
+        -3.1712960187867396e-17,
+        23.499999999999943
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "head_gimbal__link_route_candidate",
+      "owner": "head.yaw_frame",
+      "mass_g": 0.5746344351561941,
+      "local_com_mm": [
+        -6.0,
+        -2.0461350141921926e-17,
+        4.5
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_l__link_route_candidate",
+      "owner": "chest",
+      "mass_g": 2.355300306188211,
+      "local_com_mm": [
+        -7.999999999999997,
+        23.000000000000007,
+        24.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_l__link_route_candidate",
+      "owner": "clavicle_l",
+      "mass_g": 1.1252396898420831,
+      "local_com_mm": [
+        23.000000000000004,
+        31.000000000000014,
+        3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_l__link_route_candidate",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 2.124269784101761,
+      "local_com_mm": [
+        3.907985046680551e-14,
+        40.44131430816935,
+        18.458575996915897
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_l__link_route_candidate",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 0.5139686636885781,
+      "local_com_mm": [
+        0.0,
+        18.0,
+        -21.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_l__link_route_candidate",
+      "owner": "upperarm_l",
+      "mass_g": 3.0014823096207937,
+      "local_com_mm": [
+        -8.0,
+        4.999999999999972,
+        -34.99999999999994
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_l__link_route_candidate",
+      "owner": "elbow_l",
+      "mass_g": 0.2134138715290174,
+      "local_com_mm": [
+        16.999999999999993,
+        -5.684341886080802e-14,
+        -23.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_l__link_route_candidate",
+      "owner": "forearm_l",
+      "mass_g": 2.794010624202433,
+      "local_com_mm": [
+        4.000000000000007,
+        0.0,
+        -33.99999999999997
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_l__link_route_candidate",
+      "owner": "pelvis",
+      "mass_g": 7.7932138476585475,
+      "local_com_mm": [
+        -40.93478974626639,
+        63.25138368217108,
+        17.46095053805186
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_l__link_route_candidate",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 1.3665155333918304,
+      "local_com_mm": [
+        19.000000000000004,
+        1.4210854715202004e-14,
+        -42.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_l__link_route_candidate",
+      "owner": "thigh_l",
+      "mass_g": 0.8799279342861357,
+      "local_com_mm": [
+        14.0,
+        0.0,
+        -13.999999999999972
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_l__link_route_candidate",
+      "owner": "calf_l",
+      "mass_g": 2.6876594309873445,
+      "local_com_mm": [
+        -7.999999999999998,
+        -1.4210854715202004e-14,
+        -54.00000000000001
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_l__link_route_candidate",
+      "owner": "foot_l",
+      "mass_g": 0.8602988196646053,
+      "local_com_mm": [
+        24.5,
+        -1.4210854715202004e-14,
+        -21.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "clavicle_r__link_route_candidate",
+      "owner": "chest",
+      "mass_g": 2.35530030618821,
+      "local_com_mm": [
+        -7.999999999999998,
+        -23.000000000000007,
+        24.000000000000114
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_flex_r__link_route_candidate",
+      "owner": "clavicle_r",
+      "mass_g": 2.3745590103116583,
+      "local_com_mm": [
+        7.000000000000002,
+        -31.0,
+        3.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "shoulder_abduct_r__link_route_candidate",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 2.1242697841015294,
+      "local_com_mm": [
+        4.263256414560601e-14,
+        -40.441314308169524,
+        18.458575996915783
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "upperarm_twist_r__link_route_candidate",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 0.513968663688578,
+      "local_com_mm": [
+        0.0,
+        -17.99999999999997,
+        -20.999999999999943
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "elbow_r__link_route_candidate",
+      "owner": "upperarm_r",
+      "mass_g": 3.001482309620793,
+      "local_com_mm": [
+        -8.0,
+        -5.0,
+        -35.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "forearm_twist_r__link_route_candidate",
+      "owner": "elbow_r",
+      "mass_g": 0.2134138715290174,
+      "local_com_mm": [
+        16.999999999999993,
+        5.684341886080802e-14,
+        -23.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "wrist_r__link_route_candidate",
+      "owner": "forearm_r",
+      "mass_g": 2.794010624202433,
+      "local_com_mm": [
+        4.000000000000007,
+        0.0,
+        -33.99999999999997
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "hip_r__link_route_candidate",
+      "owner": "pelvis",
+      "mass_g": 7.793213847657168,
+      "local_com_mm": [
+        -40.93478974626463,
+        -63.25138368216627,
+        17.460950538051918
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "thigh_twist_r__link_route_candidate",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 1.3665155333918304,
+      "local_com_mm": [
+        -19.0,
+        -1.4210854715202004e-14,
+        -42.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "knee_r__link_route_candidate",
+      "owner": "thigh_r",
+      "mass_g": 1.5884645488897815,
+      "local_com_mm": [
+        2.000000000000002,
+        0.0,
+        -13.999999999999972
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "ankle_r__link_route_candidate",
+      "owner": "calf_r",
+      "mass_g": 2.6876594309873445,
+      "local_com_mm": [
+        -7.999999999999998,
+        1.4210854715202004e-14,
+        -54.00000000000001
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "toe_r__link_route_candidate",
+      "owner": "foot_r",
+      "mass_g": 2.355783692608114,
+      "local_com_mm": [
+        8.5,
+        0.0,
+        -21.0
+      ],
+      "basis": "CAD_volume_times_assumed_density"
+    },
+    {
+      "name": "pelvis.yaw__unmodeled_hardware_allowance",
+      "owner": "pelvis.yaw_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "pelvis.pitch__unmodeled_hardware_allowance",
+      "owner": "pelvis.pitch_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "pelvis.roll__unmodeled_hardware_allowance",
+      "owner": "pelvis",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "waist.yaw__unmodeled_hardware_allowance",
+      "owner": "waist.yaw_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "waist.pitch__unmodeled_hardware_allowance",
+      "owner": "waist.pitch_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "waist.roll__unmodeled_hardware_allowance",
+      "owner": "waist",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "chest.yaw__unmodeled_hardware_allowance",
+      "owner": "chest.yaw_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "chest.pitch__unmodeled_hardware_allowance",
+      "owner": "chest.pitch_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "chest.roll__unmodeled_hardware_allowance",
+      "owner": "chest",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "head.yaw__unmodeled_hardware_allowance",
+      "owner": "head.yaw_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "head.pitch__unmodeled_hardware_allowance",
+      "owner": "head.pitch_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "head.roll__unmodeled_hardware_allowance",
+      "owner": "head",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "clavicle_l.protract__unmodeled_hardware_allowance",
+      "owner": "clavicle_l.protract_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "clavicle_l.elevate__unmodeled_hardware_allowance",
+      "owner": "clavicle_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "upperarm_l.flex__unmodeled_hardware_allowance",
+      "owner": "upperarm_l.flex_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "upperarm_l.abduct__unmodeled_hardware_allowance",
+      "owner": "upperarm_l.abduct_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "upperarm_l.twist__unmodeled_hardware_allowance",
+      "owner": "upperarm_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "elbow_l.flex__unmodeled_hardware_allowance",
+      "owner": "elbow_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "forearm_l.twist__unmodeled_hardware_allowance",
+      "owner": "forearm_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "hand_l.flex__unmodeled_hardware_allowance",
+      "owner": "hand_l.flex_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "hand_l.deviate__unmodeled_hardware_allowance",
+      "owner": "hand_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "thigh_l.flex__unmodeled_hardware_allowance",
+      "owner": "thigh_l.flex_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "thigh_l.abduct__unmodeled_hardware_allowance",
+      "owner": "thigh_l.abduct_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "thigh_l.twist__unmodeled_hardware_allowance",
+      "owner": "thigh_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "calf_l.flex__unmodeled_hardware_allowance",
+      "owner": "calf_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "foot_l.dorsiflex__unmodeled_hardware_allowance",
+      "owner": "foot_l.dorsiflex_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "foot_l.invert__unmodeled_hardware_allowance",
+      "owner": "foot_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "ball_l.flex__unmodeled_hardware_allowance",
+      "owner": "ball_l",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "clavicle_r.protract__unmodeled_hardware_allowance",
+      "owner": "clavicle_r.protract_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "clavicle_r.elevate__unmodeled_hardware_allowance",
+      "owner": "clavicle_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "upperarm_r.flex__unmodeled_hardware_allowance",
+      "owner": "upperarm_r.flex_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "upperarm_r.abduct__unmodeled_hardware_allowance",
+      "owner": "upperarm_r.abduct_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "upperarm_r.twist__unmodeled_hardware_allowance",
+      "owner": "upperarm_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "elbow_r.flex__unmodeled_hardware_allowance",
+      "owner": "elbow_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "forearm_r.twist__unmodeled_hardware_allowance",
+      "owner": "forearm_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "hand_r.flex__unmodeled_hardware_allowance",
+      "owner": "hand_r.flex_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "hand_r.deviate__unmodeled_hardware_allowance",
+      "owner": "hand_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "thigh_r.flex__unmodeled_hardware_allowance",
+      "owner": "thigh_r.flex_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "thigh_r.abduct__unmodeled_hardware_allowance",
+      "owner": "thigh_r.abduct_frame",
+      "mass_g": 30,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "thigh_r.twist__unmodeled_hardware_allowance",
+      "owner": "thigh_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "calf_r.flex__unmodeled_hardware_allowance",
+      "owner": "calf_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "foot_r.dorsiflex__unmodeled_hardware_allowance",
+      "owner": "foot_r.dorsiflex_frame",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "foot_r.invert__unmodeled_hardware_allowance",
+      "owner": "foot_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "ball_r.flex__unmodeled_hardware_allowance",
+      "owner": "ball_r",
+      "mass_g": 15,
+      "local_com_mm": [
+        0,
+        0,
+        0
+      ],
+      "basis": "unmodeled_mass_allowance_not_BOM"
+    },
+    {
+      "name": "N1__node_harness",
+      "owner": "pelvis",
+      "mass_g": 40,
+      "local_com_mm": [
+        -30,
+        0,
+        0
+      ],
+      "basis": "25g_node_plus_15g_harness_allowance"
+    },
+    {
+      "name": "N2__node_harness",
+      "owner": "chest",
+      "mass_g": 40,
+      "local_com_mm": [
+        -30,
+        0,
+        0
+      ],
+      "basis": "25g_node_plus_15g_harness_allowance"
+    },
+    {
+      "name": "N3__node_harness",
+      "owner": "upperarm_l",
+      "mass_g": 40,
+      "local_com_mm": [
+        -30,
+        0,
+        0
+      ],
+      "basis": "25g_node_plus_15g_harness_allowance"
+    },
+    {
+      "name": "N4__node_harness",
+      "owner": "upperarm_r",
+      "mass_g": 40,
+      "local_com_mm": [
+        -30,
+        0,
+        0
+      ],
+      "basis": "25g_node_plus_15g_harness_allowance"
+    },
+    {
+      "name": "N5__node_harness",
+      "owner": "calf_l",
+      "mass_g": 40,
+      "local_com_mm": [
+        -30,
+        0,
+        0
+      ],
+      "basis": "25g_node_plus_15g_harness_allowance"
+    },
+    {
+      "name": "N6__node_harness",
+      "owner": "calf_r",
+      "mass_g": 40,
+      "local_com_mm": [
+        -30,
+        0,
+        0
+      ],
+      "basis": "25g_node_plus_15g_harness_allowance"
+    }
+  ],
+  "assumptions": [
+    "Printed CAD modeled fully solid PLA; shafts modeled aluminum. These are estimates, not a measured BOM.",
+    "30g/15g per axis reserved for not-yet-modeled friction/retention hardware; 40g per node plus harness.",
+    "Torque is axis-projected gravity moment, not the sum of absolute mass-distance terms.",
+    "1.5x gravity plus 0.02Nm cable allowance; no impact, hand force, creep, joint wear or magnetic acceptance covered.",
+    "mu 0.15 and 0.30 are sensitivity values, not supplier-qualified material properties.",
+    "Includes 256 deterministic simultaneous random axis scenarios (seed44032026). These may self-collide; sampled targets are not certified worst cases.",
+    "Triangle bounds use full kinematic path lengths and COM distances; they are conservative configuration-independent gravity bounds, not reachable demonstrated poses.",
+    "Clutch family is based on sampled torque only. Bearing strength, diagonal loading, comfort and bound coverage remain unapproved."
+  ]
+}

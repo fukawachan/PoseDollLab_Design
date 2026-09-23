@@ -1,0 +1,242 @@
+{
+  "parts": [
+    {
+      "name": "integral_magnet_shaft",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        10.6000002,
+        10.60000020982612,
+        33.0000001
+      ],
+      "material": "aluminum",
+      "note": "Custom machined aluminum shaft and magnet cup in one piece; bottom D4 transmits arm rotation; torsion, bending and radial-thread fatigue unqualified"
+    },
+    {
+      "name": "diametric_magnet_6x2p5",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        2.5
+      ],
+      "material": "magnet",
+      "note": "6 x 2.5 diametric magnet; 0.1 mm radial adhesive allowance; grade and field not qualified"
+    },
+    {
+      "name": "magnet_keeper",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0000002,
+        13.0000002,
+        2.6000001999999993
+      ],
+      "material": "frame",
+      "note": "Removable rigid cover retains outer 0.5 mm of magnet face; 0.6 mm cover, radial brass screw attachment; print durability pending"
+    },
+    {
+      "name": "keeper_set_M2x3_0",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        3.0,
+        2.0
+      ],
+      "material": "brass",
+      "note": "Nominal slotted brass M2x3 set screw; exact purchased part and slot specification pending"
+    },
+    {
+      "name": "keeper_set_M2x3_1",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        3.0,
+        2.0
+      ],
+      "material": "brass",
+      "note": "Nominal slotted brass M2x3 set screw; exact purchased part and slot specification pending"
+    },
+    {
+      "name": "arm_radial_M2x6",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        3.8,
+        3.799999999999997
+      ],
+      "material": "brass",
+      "note": "Simplified brass M2x6; 1.5 mm nominal thread engagement through the D flat; head tool recess is an envelope"
+    },
+    {
+      "name": "pcb_AS5048A",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.4,
+        5.000000200000001,
+        1.0000000999999994
+      ],
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_C1",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999999,
+        0.8000000000000007,
+        0.7999999999999989
+      ],
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_C2",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        1.2500000000000009,
+        1.25
+      ],
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_R1",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.6000000000000003,
+        0.8000000000000007,
+        0.4499999999999993
+      ],
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_R2",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999999,
+        0.8000000000000007,
+        0.45000000000000107
+      ],
+      "material": "pcb_component",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_board",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        10.0,
+        0.9100000000000037
+      ],
+      "material": "pcb",
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_J1_dimension_envelope",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.15,
+        3.15,
+        1.0
+      ],
+      "material": "pcb_component",
+      "note": "manufacturer_dimension_envelope"
+    },
+    {
+      "name": "board_seat_saddle_0",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.25,
+        4.0,
+        1.8000000000000007
+      ],
+      "material": "frame",
+      "note": "Separate L saddle installed after complete magnet shaft; locating wall at +/-6.1, nominal 1.0 mm board slot; never fuse to base posts"
+    },
+    {
+      "name": "board_seat_saddle_1",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.25,
+        4.0,
+        1.8000000000000007
+      ],
+      "material": "frame",
+      "note": "Separate L saddle installed after complete magnet shaft; locating wall at +/-6.1, nominal 1.0 mm board slot; never fuse to base posts"
+    },
+    {
+      "name": "board_edge_cap_0",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.25,
+        4.0,
+        0.8000000000000007
+      ],
+      "material": "nylon",
+      "note": "Removable insulating edge retainer; nominal 1.0 mm board stack; STEP FR4 body is 0.91 mm excluding copper/model offsets; fit requires physical verification"
+    },
+    {
+      "name": "board_cap_M2x6_0",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.4
+      ],
+      "material": "nylon",
+      "note": "Nominal nylon M2x6 into replaceable printed support; 3.4 mm engagement, creep and repeated assembly unqualified"
+    },
+    {
+      "name": "board_edge_cap_1",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.25,
+        4.0,
+        0.8000000000000007
+      ],
+      "material": "nylon",
+      "note": "Removable insulating edge retainer; nominal 1.0 mm board stack; STEP FR4 body is 0.91 mm excluding copper/model offsets; fit requires physical verification"
+    },
+    {
+      "name": "board_cap_M2x6_1",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.4
+      ],
+      "material": "nylon",
+      "note": "Nominal nylon M2x6 into replaceable printed support; 3.4 mm engagement, creep and repeated assembly unqualified"
+    }
+  ],
+  "cradle_note": "Reference posts only; production shape is fused to the revised abduction frame in character assembly",
+  "sensor_source_sha256": "7cdc9c2099518fb0b673eafbd911d888b35d03a63a7fae74a5ed48d57f1e098f",
+  "nominal_board_size_mm": [
+    12,
+    10,
+    1
+  ],
+  "model_FR4_body_mm": 0.91,
+  "connector_model": "Dimension envelope from Hirose drawing, not supplier STEP",
+  "manufacturing_released": false
+}

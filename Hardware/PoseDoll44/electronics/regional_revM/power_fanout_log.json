@@ -1,0 +1,2286 @@
+{
+  "fanouts": [
+    {
+      "ref": "R127",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        101.175,
+        113.7
+      ],
+      "via_mm": [
+        101.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R183",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        95.175,
+        135.7
+      ],
+      "via_mm": [
+        94.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R117",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        89.175,
+        113.7
+      ],
+      "via_mm": [
+        89.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R3",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        115.175,
+        108.0
+      ],
+      "via_mm": [
+        114.175,
+        108.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R187",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        101.175,
+        135.7
+      ],
+      "via_mm": [
+        101.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R9",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        93.825,
+        157.0
+      ],
+      "via_mm": [
+        93.825,
+        156.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U18",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        97.1375,
+        141.95
+      ],
+      "via_mm": [
+        97.1375,
+        142.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U18",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        102.8625,
+        138.7
+      ],
+      "via_mm": [
+        101.6125,
+        138.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U18",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        102.8625,
+        138.05
+      ],
+      "via_mm": [
+        102.8625,
+        137.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R8",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        104.175,
+        150.0
+      ],
+      "via_mm": [
+        103.175,
+        150.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C8",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        106.225,
+        152.0
+      ],
+      "via_mm": [
+        105.225,
+        152.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C8",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        107.775,
+        152.0
+      ],
+      "via_mm": [
+        107.775,
+        151.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R167",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        113.175,
+        124.7
+      ],
+      "via_mm": [
+        113.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U12",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        97.1375,
+        119.95
+      ],
+      "via_mm": [
+        97.1375,
+        120.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U12",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        102.8625,
+        116.7
+      ],
+      "via_mm": [
+        101.6125,
+        116.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U12",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        102.8625,
+        116.05
+      ],
+      "via_mm": [
+        102.8625,
+        115.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R123",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        95.175,
+        113.7
+      ],
+      "via_mm": [
+        94.175,
+        113.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R153",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        95.175,
+        124.7
+      ],
+      "via_mm": [
+        94.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U14",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        85.1375,
+        130.95
+      ],
+      "via_mm": [
+        85.1375,
+        131.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U14",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        90.8625,
+        127.7
+      ],
+      "via_mm": [
+        89.6125,
+        127.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U14",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        90.8625,
+        127.05
+      ],
+      "via_mm": [
+        90.8625,
+        126.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "TP3",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        83.0,
+        104.0
+      ],
+      "via_mm": [
+        82.0,
+        104.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R173",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        83.175,
+        135.7
+      ],
+      "via_mm": [
+        82.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U11",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        85.1375,
+        119.95
+      ],
+      "via_mm": [
+        85.1375,
+        120.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U11",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        90.8625,
+        116.7
+      ],
+      "via_mm": [
+        89.6125,
+        116.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U11",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        90.8625,
+        116.05
+      ],
+      "via_mm": [
+        90.8625,
+        115.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R7",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        113.825,
+        155.0
+      ],
+      "via_mm": [
+        113.825,
+        154.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R157",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        101.175,
+        124.7
+      ],
+      "via_mm": [
+        101.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R137",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        113.175,
+        113.7
+      ],
+      "via_mm": [
+        113.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "D2",
+      "pad": "3",
+      "net": "/GND",
+      "from_mm": [
+        100.0,
+        156.3875
+      ],
+      "via_mm": [
+        100.0,
+        155.3875
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U1",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        91.25,
+        88.74
+      ],
+      "via_mm": [
+        91.25,
+        87.74
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U1",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        91.25,
+        90.01
+      ],
+      "via_mm": [
+        90.0,
+        90.01
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U1",
+      "pad": "40",
+      "net": "/GND",
+      "from_mm": [
+        108.75,
+        88.74
+      ],
+      "via_mm": [
+        108.75,
+        87.74
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R113",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        82.175,
+        113.7
+      ],
+      "via_mm": [
+        82.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.5,
+        97.6
+      ],
+      "via_mm": [
+        114.25,
+        97.6
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "SW2",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.5,
+        90.4
+      ],
+      "via_mm": [
+        114.25,
+        90.4
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R143",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        83.175,
+        124.7
+      ],
+      "via_mm": [
+        82.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R133",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        107.175,
+        113.7
+      ],
+      "via_mm": [
+        106.175,
+        113.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R163",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        107.175,
+        124.7
+      ],
+      "via_mm": [
+        106.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U4",
+      "pad": "5",
+      "net": "/GND",
+      "from_mm": [
+        100.0,
+        150.9
+      ],
+      "via_mm": [
+        99.5,
+        151.4
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U4",
+      "pad": "9",
+      "net": "/GND",
+      "from_mm": [
+        100.675,
+        149.25
+      ],
+      "via_mm": [
+        101.175,
+        148.75
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U4",
+      "pad": "10",
+      "net": "/+3V3",
+      "from_mm": [
+        100.0,
+        149.1
+      ],
+      "via_mm": [
+        99.5,
+        148.6
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R4",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        115.175,
+        102.0
+      ],
+      "via_mm": [
+        114.175,
+        102.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "D1",
+      "pad": "3",
+      "net": "/GND",
+      "from_mm": [
+        106.9375,
+        110.0
+      ],
+      "via_mm": [
+        106.9375,
+        109.25
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        87.5,
+        97.6
+      ],
+      "via_mm": [
+        86.25,
+        97.6
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "SW1",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        87.5,
+        90.4
+      ],
+      "via_mm": [
+        86.25,
+        90.4
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U16",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        109.1375,
+        130.95
+      ],
+      "via_mm": [
+        109.1375,
+        131.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U16",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        114.8625,
+        127.7
+      ],
+      "via_mm": [
+        113.6125,
+        127.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U16",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        114.8625,
+        127.05
+      ],
+      "via_mm": [
+        114.8625,
+        126.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J4",
+      "pad": "A1",
+      "net": "/GND",
+      "from_mm": [
+        96.75,
+        158.515
+      ],
+      "via_mm": [
+        96.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J4",
+      "pad": "A12",
+      "net": "/GND",
+      "from_mm": [
+        103.25,
+        158.515
+      ],
+      "via_mm": [
+        104.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J4",
+      "pad": "B1",
+      "net": "/GND",
+      "from_mm": [
+        103.25,
+        158.515
+      ],
+      "via_mm": [
+        104.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J4",
+      "pad": "B12",
+      "net": "/GND",
+      "from_mm": [
+        96.75,
+        158.515
+      ],
+      "via_mm": [
+        96.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J4",
+      "pad": "SH",
+      "net": "/GND",
+      "from_mm": [
+        95.68,
+        159.43
+      ],
+      "via_mm": [
+        96.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J4",
+      "pad": "SH",
+      "net": "/GND",
+      "from_mm": [
+        95.68,
+        163.61
+      ],
+      "via_mm": [
+        94.68,
+        163.61
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J4",
+      "pad": "SH",
+      "net": "/GND",
+      "from_mm": [
+        104.32,
+        159.43
+      ],
+      "via_mm": [
+        104.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J4",
+      "pad": "SH",
+      "net": "/GND",
+      "from_mm": [
+        104.32,
+        163.61
+      ],
+      "via_mm": [
+        103.32,
+        163.61
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R193",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        107.175,
+        135.7
+      ],
+      "via_mm": [
+        106.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U17",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        85.1375,
+        141.95
+      ],
+      "via_mm": [
+        85.1375,
+        142.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U17",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        90.8625,
+        138.7
+      ],
+      "via_mm": [
+        89.6125,
+        138.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U17",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        90.8625,
+        138.05
+      ],
+      "via_mm": [
+        90.8625,
+        137.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R177",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        89.175,
+        135.7
+      ],
+      "via_mm": [
+        90.8625,
+        137.3
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J1",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        86.4,
+        154.0
+      ],
+      "via_mm": [
+        85.4,
+        154.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U13",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        109.1375,
+        119.95
+      ],
+      "via_mm": [
+        109.1375,
+        120.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U13",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        114.8625,
+        116.7
+      ],
+      "via_mm": [
+        113.6125,
+        116.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U13",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        114.8625,
+        116.05
+      ],
+      "via_mm": [
+        114.8625,
+        115.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R10",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        93.825,
+        160.0
+      ],
+      "via_mm": [
+        96.0,
+        158.015
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "U19",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        109.1375,
+        141.95
+      ],
+      "via_mm": [
+        109.1375,
+        142.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U19",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        114.8625,
+        138.7
+      ],
+      "via_mm": [
+        113.6125,
+        138.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U19",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        114.8625,
+        138.05
+      ],
+      "via_mm": [
+        114.8625,
+        137.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U15",
+      "pad": "7",
+      "net": "/GND",
+      "from_mm": [
+        97.1375,
+        130.95
+      ],
+      "via_mm": [
+        97.1375,
+        131.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U15",
+      "pad": "13",
+      "net": "/GND",
+      "from_mm": [
+        102.8625,
+        127.7
+      ],
+      "via_mm": [
+        101.6125,
+        127.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U15",
+      "pad": "14",
+      "net": "/+3V3",
+      "from_mm": [
+        102.8625,
+        127.05
+      ],
+      "via_mm": [
+        102.8625,
+        126.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R147",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        89.175,
+        124.7
+      ],
+      "via_mm": [
+        90.8625,
+        126.3
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "R197",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        113.175,
+        135.7
+      ],
+      "via_mm": [
+        114.8625,
+        137.3
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "Q1",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        104.0625,
+        155.95
+      ],
+      "via_mm": [
+        102.05,
+        156.1
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "C24",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        92.775,
+        133.3
+      ],
+      "via_mm": [
+        94.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "C24",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        91.225,
+        133.3
+      ],
+      "via_mm": [
+        91.225,
+        132.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R184",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        95.175,
+        135.7
+      ],
+      "via_mm": [
+        95.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C7",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        116.775,
+        104.0
+      ],
+      "via_mm": [
+        116.775,
+        103.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C7",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.225,
+        104.0
+      ],
+      "via_mm": [
+        114.225,
+        104.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R155",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        99.175,
+        124.7
+      ],
+      "via_mm": [
+        98.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R134",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        107.175,
+        113.7
+      ],
+      "via_mm": [
+        107.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R124",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        95.175,
+        113.7
+      ],
+      "via_mm": [
+        95.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R195",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        111.175,
+        135.7
+      ],
+      "via_mm": [
+        110.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J14",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        90.5,
+        130.325
+      ],
+      "via_mm": [
+        89.6125,
+        127.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J14",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        89.5,
+        130.325
+      ],
+      "via_mm": [
+        89.5,
+        129.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C4",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        93.95,
+        97.0
+      ],
+      "via_mm": [
+        94.95,
+        97.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C4",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        92.05,
+        97.0
+      ],
+      "via_mm": [
+        92.8,
+        96.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C23",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        116.775,
+        122.3
+      ],
+      "via_mm": [
+        116.775,
+        121.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C23",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.225,
+        122.3
+      ],
+      "via_mm": [
+        115.225,
+        121.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R135",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        111.175,
+        113.7
+      ],
+      "via_mm": [
+        110.175,
+        113.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R166",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.175,
+        124.7
+      ],
+      "via_mm": [
+        115.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R136",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.175,
+        113.7
+      ],
+      "via_mm": [
+        115.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R194",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        107.175,
+        135.7
+      ],
+      "via_mm": [
+        107.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C5",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        94.775,
+        93.0
+      ],
+      "via_mm": [
+        94.775,
+        92.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C5",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        93.225,
+        93.0
+      ],
+      "via_mm": [
+        93.225,
+        92.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C26",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        116.775,
+        133.3
+      ],
+      "via_mm": [
+        116.775,
+        132.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C26",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.225,
+        133.3
+      ],
+      "via_mm": [
+        115.225,
+        132.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R1",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        94.825,
+        99.6
+      ],
+      "via_mm": [
+        94.95,
+        97.0
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "U3",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        111.475,
+        101.365
+      ],
+      "via_mm": [
+        110.225,
+        100.615
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "U3",
+      "pad": "3",
+      "net": "/+3V3",
+      "from_mm": [
+        111.475,
+        102.635
+      ],
+      "via_mm": [
+        114.175,
+        102.0
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J13",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        114.5,
+        119.325
+      ],
+      "via_mm": [
+        113.6125,
+        116.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J13",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        113.5,
+        119.325
+      ],
+      "via_mm": [
+        113.5,
+        118.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R175",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        87.175,
+        135.7
+      ],
+      "via_mm": [
+        86.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C28",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        104.775,
+        144.3
+      ],
+      "via_mm": [
+        104.775,
+        143.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C28",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        103.225,
+        144.3
+      ],
+      "via_mm": [
+        103.225,
+        143.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R114",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        83.175,
+        113.7
+      ],
+      "via_mm": [
+        83.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J19",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        114.5,
+        141.325
+      ],
+      "via_mm": [
+        113.6125,
+        138.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J19",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        113.5,
+        141.325
+      ],
+      "via_mm": [
+        113.5,
+        140.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R126",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        103.175,
+        113.7
+      ],
+      "via_mm": [
+        103.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R156",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        103.175,
+        124.7
+      ],
+      "via_mm": [
+        103.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R176",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        91.175,
+        135.7
+      ],
+      "via_mm": [
+        91.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C29",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        116.775,
+        144.3
+      ],
+      "via_mm": [
+        116.775,
+        143.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C29",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.225,
+        144.3
+      ],
+      "via_mm": [
+        115.225,
+        143.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R144",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        83.175,
+        124.7
+      ],
+      "via_mm": [
+        83.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R164",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        107.175,
+        124.7
+      ],
+      "via_mm": [
+        107.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J16",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        114.5,
+        130.325
+      ],
+      "via_mm": [
+        113.6125,
+        127.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J16",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        113.5,
+        130.325
+      ],
+      "via_mm": [
+        113.5,
+        129.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C27",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        92.775,
+        144.3
+      ],
+      "via_mm": [
+        92.775,
+        143.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C27",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        91.225,
+        144.3
+      ],
+      "via_mm": [
+        91.225,
+        143.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J15",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        102.5,
+        130.325
+      ],
+      "via_mm": [
+        101.6125,
+        127.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J15",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        101.5,
+        130.325
+      ],
+      "via_mm": [
+        101.5,
+        129.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        101.25,
+        110.95
+      ],
+      "via_mm": [
+        103.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "R145",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        87.175,
+        124.7
+      ],
+      "via_mm": [
+        86.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R174",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        83.175,
+        135.7
+      ],
+      "via_mm": [
+        83.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R125",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        99.175,
+        113.7
+      ],
+      "via_mm": [
+        98.175,
+        113.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J18",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        102.5,
+        141.325
+      ],
+      "via_mm": [
+        101.6125,
+        138.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J18",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        101.5,
+        141.325
+      ],
+      "via_mm": [
+        101.5,
+        140.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C25",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        104.775,
+        133.3
+      ],
+      "via_mm": [
+        106.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "C25",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        103.225,
+        133.3
+      ],
+      "via_mm": [
+        103.225,
+        132.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R186",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        103.175,
+        135.7
+      ],
+      "via_mm": [
+        103.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R116",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        91.175,
+        113.7
+      ],
+      "via_mm": [
+        91.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J17",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        90.5,
+        141.325
+      ],
+      "via_mm": [
+        89.6125,
+        138.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J17",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        89.5,
+        141.325
+      ],
+      "via_mm": [
+        89.5,
+        140.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J12",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        102.5,
+        119.325
+      ],
+      "via_mm": [
+        101.6125,
+        116.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J12",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        101.5,
+        119.325
+      ],
+      "via_mm": [
+        101.5,
+        118.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R2",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        104.825,
+        98.0
+      ],
+      "via_mm": [
+        104.825,
+        97.0
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J11",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        90.5,
+        119.325
+      ],
+      "via_mm": [
+        89.6125,
+        116.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "J11",
+      "pad": "2",
+      "net": "/+3V3",
+      "from_mm": [
+        89.5,
+        119.325
+      ],
+      "via_mm": [
+        89.5,
+        118.075
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R196",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        115.175,
+        135.7
+      ],
+      "via_mm": [
+        115.175,
+        134.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C21",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        92.775,
+        122.3
+      ],
+      "via_mm": [
+        94.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "C21",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        91.225,
+        122.3
+      ],
+      "via_mm": [
+        91.225,
+        121.3
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C22",
+      "pad": "1",
+      "net": "/+3V3",
+      "from_mm": [
+        104.775,
+        122.3
+      ],
+      "via_mm": [
+        106.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "C22",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        103.225,
+        122.3
+      ],
+      "via_mm": [
+        103.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "R165",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        111.175,
+        124.7
+      ],
+      "via_mm": [
+        110.175,
+        124.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R154",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        95.175,
+        124.7
+      ],
+      "via_mm": [
+        95.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "J3",
+      "pad": "1",
+      "net": "/GND",
+      "from_mm": [
+        113.25,
+        110.95
+      ],
+      "via_mm": [
+        115.175,
+        112.7
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "R146",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        91.175,
+        124.7
+      ],
+      "via_mm": [
+        91.175,
+        123.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "C6",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        100.225,
+        98.0
+      ],
+      "via_mm": [
+        99.2,
+        95.76
+      ],
+      "width_mm": 0.2,
+      "reused": true
+    },
+    {
+      "ref": "R185",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        99.175,
+        135.7
+      ],
+      "via_mm": [
+        98.175,
+        135.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    },
+    {
+      "ref": "R115",
+      "pad": "2",
+      "net": "/GND",
+      "from_mm": [
+        87.175,
+        113.7
+      ],
+      "via_mm": [
+        86.175,
+        113.7
+      ],
+      "width_mm": 0.2,
+      "reused": false
+    }
+  ],
+  "remaining": [],
+  "physical_tested": false
+}

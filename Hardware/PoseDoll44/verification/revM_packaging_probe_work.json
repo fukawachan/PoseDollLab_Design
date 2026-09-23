@@ -1,0 +1,440 @@
+[
+  {
+    "pose": "neutral",
+    "hits": []
+  },
+  {
+    "pose": "backward",
+    "hits": [
+      {
+        "a": "r_clavicle_output_frame",
+        "b": "chest_M_body_frame",
+        "owner_a": "clavicle_r",
+        "owner_b": "chest",
+        "volume_mm3": 7.9258,
+        "C": [
+          -66.338,
+          -10.899,
+          124.062
+        ],
+        "N": [
+          -41.94,
+          -10.899,
+          -48.129
+        ]
+      }
+    ]
+  },
+  {
+    "pose": "shrug",
+    "hits": [
+      {
+        "a": "r_clavicle_output_frame",
+        "b": "chest_M_body_frame",
+        "owner_a": "clavicle_r",
+        "owner_b": "chest",
+        "volume_mm3": 131.2891,
+        "C": [
+          -62.892,
+          -12.644,
+          125.719
+        ],
+        "N": [
+          -38.494,
+          -12.644,
+          -46.472
+        ]
+      }
+    ]
+  },
+  {
+    "pose": "down",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_-45",
+    "hits": [
+      {
+        "a": "chest_M_body_frame",
+        "b": "head_roll_M_keyed_magnet_cup",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 2.6499,
+        "C": [
+          -53.31,
+          -1.051,
+          132.103
+        ],
+        "N": [
+          -28.912,
+          -1.051,
+          -40.088
+        ]
+      },
+      {
+        "a": "chest_M_body_frame",
+        "b": "head_roll_M_magnet_keeper",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 1.6601,
+        "C": [
+          -54.106,
+          -1.55,
+          129.705
+        ],
+        "N": [
+          -29.708,
+          -1.55,
+          -42.487
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_roll_M_fixed_metal_eye",
+        "owner_a": "chest",
+        "owner_b": "head.pitch_frame",
+        "volume_mm3": 3.0219,
+        "C": [
+          -46.005,
+          -0.0,
+          134.928
+        ],
+        "N": [
+          -21.607,
+          -0.0,
+          -37.263
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_roll_M_D_output_cleat",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 59.8269,
+        "C": [
+          -34.869,
+          -0.0,
+          134.809
+        ],
+        "N": [
+          -10.471,
+          0.0,
+          -37.382
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_roll_M_rotor_mount_M3x12_0",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 5.0314,
+        "C": [
+          -39.715,
+          -6.0,
+          134.74
+        ],
+        "N": [
+          -15.317,
+          -6.0,
+          -37.451
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_roll_M_rotor_mount_nut_M3_0",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 14.8356,
+        "C": [
+          -38.344,
+          -6.0,
+          134.544
+        ],
+        "N": [
+          -13.946,
+          -6.0,
+          -37.647
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_roll_M_rotor_mount_M3x12_1",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 5.0314,
+        "C": [
+          -39.715,
+          6.0,
+          134.74
+        ],
+        "N": [
+          -15.317,
+          6.0,
+          -37.451
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_roll_M_rotor_mount_nut_M3_1",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 14.8356,
+        "C": [
+          -38.344,
+          6.0,
+          134.544
+        ],
+        "N": [
+          -13.946,
+          6.0,
+          -37.647
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_metal_eye",
+        "b": "head_M_skull_frame",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 4.7775,
+        "C": [
+          -29.426,
+          -0.0,
+          135.188
+        ],
+        "N": [
+          -5.029,
+          0.0,
+          -37.003
+        ]
+      },
+      {
+        "a": "head_yaw_M_friction_lining",
+        "b": "head_roll_M_D_output_cleat",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 14.575,
+        "C": [
+          -33.503,
+          -0.0,
+          135.746
+        ],
+        "N": [
+          -9.106,
+          -0.0,
+          -36.445
+        ]
+      },
+      {
+        "a": "head_yaw_M_friction_lining",
+        "b": "head_M_skull_frame",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 36.3023,
+        "C": [
+          -29.311,
+          -0.0,
+          135.776
+        ],
+        "N": [
+          -4.913,
+          -0.0,
+          -36.415
+        ]
+      },
+      {
+        "a": "head_yaw_M_flanged_rotor_shaft",
+        "b": "head_roll_M_D_output_cleat",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 86.8,
+        "C": [
+          -33.698,
+          -0.0,
+          137.417
+        ],
+        "N": [
+          -9.301,
+          -0.0,
+          -34.774
+        ]
+      },
+      {
+        "a": "head_yaw_M_flanged_rotor_shaft",
+        "b": "head_roll_M_rotor_mount_M3x12_0",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 0.4686,
+        "C": [
+          -34.769,
+          -5.557,
+          138.938
+        ],
+        "N": [
+          -10.371,
+          -5.557,
+          -33.253
+        ]
+      },
+      {
+        "a": "head_yaw_M_flanged_rotor_shaft",
+        "b": "head_roll_M_rotor_mount_M3x12_1",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 0.4686,
+        "C": [
+          -34.769,
+          5.557,
+          138.938
+        ],
+        "N": [
+          -10.371,
+          5.557,
+          -33.253
+        ]
+      },
+      {
+        "a": "head_yaw_M_flanged_rotor_shaft",
+        "b": "head_M_skull_frame",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 295.7158,
+        "C": [
+          -29.755,
+          -0.0,
+          137.811
+        ],
+        "N": [
+          -5.357,
+          0.0,
+          -34.38
+        ]
+      },
+      {
+        "a": "head_yaw_M_D_output_cleat",
+        "b": "head_M_skull_frame",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 12.9461,
+        "C": [
+          -29.418,
+          -0.0,
+          139.848
+        ],
+        "N": [
+          -5.021,
+          0.0,
+          -32.343
+        ]
+      },
+      {
+        "a": "head_yaw_M_output_M2x6",
+        "b": "head_M_skull_frame",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 17.4548,
+        "C": [
+          -31.502,
+          -0.0,
+          141.346
+        ],
+        "N": [
+          -7.104,
+          -0.0,
+          -30.845
+        ]
+      }
+    ]
+  },
+  {
+    "pose": "head_pitch_-35",
+    "hits": [
+      {
+        "a": "head_yaw_M_flanged_rotor_shaft",
+        "b": "head_M_skull_frame",
+        "owner_a": "head.yaw_frame",
+        "owner_b": "head",
+        "volume_mm3": 84.106,
+        "C": [
+          -34.499,
+          -0.0,
+          138.138
+        ],
+        "N": [
+          -10.101,
+          0.0,
+          -34.053
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_mount_M3x8_0",
+        "b": "head_roll_M_rotor_mount_nut_M3_0",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 0.0453,
+        "C": [
+          -44.566,
+          -6.0,
+          136.113
+        ],
+        "N": [
+          -20.168,
+          -6.0,
+          -36.078
+        ]
+      },
+      {
+        "a": "head_yaw_M_fixed_mount_M3x8_1",
+        "b": "head_roll_M_rotor_mount_nut_M3_1",
+        "owner_a": "chest",
+        "owner_b": "head",
+        "volume_mm3": 0.0453,
+        "C": [
+          -44.566,
+          6.0,
+          136.113
+        ],
+        "N": [
+          -20.168,
+          6.0,
+          -36.078
+        ]
+      }
+    ]
+  },
+  {
+    "pose": "head_pitch_-25",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_-15",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_-5",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_5",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_15",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_25",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_35",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_45",
+    "hits": []
+  },
+  {
+    "pose": "head_pitch_55",
+    "hits": []
+  }
+]

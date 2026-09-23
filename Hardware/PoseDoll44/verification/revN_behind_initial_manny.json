@@ -1,0 +1,2512 @@
+{
+  "character": "manny",
+  "angles_deg": {
+    "upperarm_l.flex": -50,
+    "upperarm_l.abduct": 10,
+    "upperarm_l.twist": 45,
+    "elbow_l.flex": 75,
+    "upperarm_r.flex": -50,
+    "upperarm_r.abduct": 10,
+    "upperarm_r.twist": 45,
+    "elbow_r.flex": 75
+  },
+  "target_info": {
+    "target_wrist_mm": [
+      -100.0,
+      30.0,
+      539.7961957081202
+    ],
+    "left_wrist_mm": [
+      -108.10776718985659,
+      33.63492685934011,
+      531.3282186218099
+    ],
+    "target_error_mm": 12.274168729976909,
+    "label": "Hands behind lower trunk: kinematic position candidate, no contact success implied"
+  },
+  "raw_contacts": [
+    {
+      "a": "l_abduct_ring_and_twist_seat",
+      "b": "l_twist_rotor_face",
+      "owner_a": "upperarm_l.abduct_frame",
+      "owner_b": "upperarm_l",
+      "volume_mm3": 0.1941
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 79.9553
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_lid_M2x25_1_1",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.4635
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_board_pad_front_1_1",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 4.6564
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_board_pad_rear_1_1",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.2556
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 295.3182
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_case_rear",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 40.7124
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_regional_PCBA",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 365.9917
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 64.5976
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_lid_M2x25_-1_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.4539
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_board_pad_front_-1_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 4.658
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_board_pad_rear_-1_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.256
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_mount_nut_M3_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 16.2025
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_mount_M3x10_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 50.5837
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 363.2257
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_case_rear",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 40.6936
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_regional_PCBA",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 363.1734
+    },
+    {
+      "a": "hand_l_flex_M_fixed_metal_eye",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 108.5486
+    },
+    {
+      "a": "hand_l_flex_M_radial_bush",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 8.2632
+    },
+    {
+      "a": "hand_l_flex_M_friction_lining",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.125
+    },
+    {
+      "a": "hand_l_flex_M_flanged_rotor_shaft",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.0664
+    },
+    {
+      "a": "hand_l_flex_M_thrust_wear_washer",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 31.4427
+    },
+    {
+      "a": "hand_l_flex_M_spring_seat",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.9661
+    },
+    {
+      "a": "hand_l_flex_M_disc_spring_0_0",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.7322
+    },
+    {
+      "a": "hand_l_flex_M_disc_spring_1_0",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.9774
+    },
+    {
+      "a": "hand_l_flex_M_D_stop_cap",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.1239
+    },
+    {
+      "a": "hand_l_flex_M_M3x8_button_retainer",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 20.2942
+    },
+    {
+      "a": "hand_l_flex_M_keyed_magnet_cup",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 261.7877
+    },
+    {
+      "a": "hand_l_flex_M_cup_M2x4_1",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.9678
+    },
+    {
+      "a": "hand_l_flex_M_diametric_magnet_6x2p5",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 24.6202
+    },
+    {
+      "a": "hand_l_flex_M_magnet_keeper",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 95.5163
+    },
+    {
+      "a": "hand_l_flex_M_keeper_M2x3_1",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 9.4248
+    },
+    {
+      "a": "hand_l_flex_M_board_post_1",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 33.3659
+    },
+    {
+      "a": "hand_l_flex_M_PCB_edge_saddle_1",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0332
+    },
+    {
+      "a": "hand_l_flex_M_pcb_AS5048A",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0474
+    },
+    {
+      "a": "hand_l_flex_M_pcb_C2",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 2.9753
+    },
+    {
+      "a": "hand_l_flex_M_pcb_R2",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.5372
+    },
+    {
+      "a": "hand_l_flex_M_pcb_board",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 12.0153
+    },
+    {
+      "a": "hand_l_flex_M_pcb_J1_dimension_envelope",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 32.1117
+    },
+    {
+      "a": "hand_l_deviate_M_D_output_cleat",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0803
+    },
+    {
+      "a": "hand_l_flex_M_fixed_mount_M3x8_0",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0752
+    },
+    {
+      "a": "hand_l_flex_M_fixed_mount_M3x8_1",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 11.6732
+    },
+    {
+      "a": "hand_l_deviate_M_rotor_mount_M3x12_0",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.9757
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "hand_r_M_palm_rail",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 363.3326
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 240.4652
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_lid_M2x25_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.088
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_lid_nut_M2_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 18.9361
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_board_pad_front_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_board_pad_rear_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 750.3622
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 397.3996
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.0012
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.529
+    },
+    {
+      "a": "hand_r_flex_M_fixed_metal_eye",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 108.4655
+    },
+    {
+      "a": "hand_r_flex_M_radial_bush",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 8.269
+    },
+    {
+      "a": "hand_r_flex_M_friction_lining",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.1311
+    },
+    {
+      "a": "hand_r_flex_M_flanged_rotor_shaft",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.1019
+    },
+    {
+      "a": "hand_r_flex_M_thrust_wear_washer",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 31.4421
+    },
+    {
+      "a": "hand_r_flex_M_spring_seat",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.9668
+    },
+    {
+      "a": "hand_r_flex_M_disc_spring_0_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.7329
+    },
+    {
+      "a": "hand_r_flex_M_disc_spring_1_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.9771
+    },
+    {
+      "a": "hand_r_flex_M_D_stop_cap",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.1186
+    },
+    {
+      "a": "hand_r_flex_M_M3x8_button_retainer",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 20.3013
+    },
+    {
+      "a": "hand_r_flex_M_keyed_magnet_cup",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 261.8023
+    },
+    {
+      "a": "hand_r_flex_M_cup_M2x4_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.9637
+    },
+    {
+      "a": "hand_r_flex_M_diametric_magnet_6x2p5",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 24.6006
+    },
+    {
+      "a": "hand_r_flex_M_magnet_keeper",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 95.5084
+    },
+    {
+      "a": "hand_r_flex_M_keeper_M2x3_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 9.4248
+    },
+    {
+      "a": "hand_r_flex_M_board_post_1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 33.3602
+    },
+    {
+      "a": "hand_r_flex_M_PCB_edge_saddle_1",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0331
+    },
+    {
+      "a": "hand_r_flex_M_pcb_AS5048A",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0465
+    },
+    {
+      "a": "hand_r_flex_M_pcb_C1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.8553
+    },
+    {
+      "a": "hand_r_flex_M_pcb_R1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.5372
+    },
+    {
+      "a": "hand_r_flex_M_pcb_board",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 11.9995
+    },
+    {
+      "a": "hand_r_deviate_M_D_output_cleat",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0808
+    },
+    {
+      "a": "hand_r_flex_M_fixed_mount_M3x8_0",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.025
+    },
+    {
+      "a": "hand_r_flex_M_fixed_mount_M3x8_1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0741
+    },
+    {
+      "a": "hand_r_deviate_M_rotor_mount_M3x12_1",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.9791
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "hand_l_M_shell_front",
+      "owner_a": "hand_r",
+      "owner_b": "hand_l",
+      "volume_mm3": 240.4907
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.5449
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_lid_M2x25_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.0838
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_lid_nut_M2_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 18.9364
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_board_pad_front_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_board_pad_rear_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 750.4165
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 397.2837
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.0207
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.7239
+    },
+    {
+      "a": "hand_l_M_shell_nut_M2_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.9305
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "hand_r_M_shell_M2x16_1",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 15.2614
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 7.4391
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.8729
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0485
+    },
+    {
+      "a": "hand_l_M_shell_nut_M2_1",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 0.3962
+    },
+    {
+      "a": "hand_l_M_shell_nut_M2_1",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.2052
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_M2x16_1",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 7.437
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_nut_M2_1",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 0.3961
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 390.9536
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_back",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 183.2873
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N1_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 58.1703
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 192.4597
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 312.0662
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 34.0737
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.4974
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 183.2954
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "hand_r_M_shell_back",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 552.7885
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N1_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 60.3358
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 471.3665
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 1.4606
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 76.0009
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N5_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 56.5263
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N5_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.5642
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "POWER_PCB_M2x8_17.0_17.0",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.9255
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "POWER_PCB_nut_17.0_17.0",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.3768
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 254.7142
+    },
+    {
+      "a": "hand_r_M_shell_M2x16_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.723
+    },
+    {
+      "a": "hand_r_M_shell_nut_M2_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.9318
+    },
+    {
+      "a": "hand_r_M_shell_M2x16_1",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.8729
+    },
+    {
+      "a": "hand_r_M_shell_M2x16_1",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0488
+    },
+    {
+      "a": "hand_r_M_shell_nut_M2_1",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.2042
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 34.0756
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N1_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 58.1726
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 192.4495
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 303.3394
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.4916
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 76.0093
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N6_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 56.525
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N6_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.7036
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N1_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 60.3416
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 471.3776
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 1.4615
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "POWER_PCB_M2x8_-17.0_17.0",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.9254
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "POWER_PCB_nut_-17.0_17.0",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.378
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 254.719
+    }
+  ],
+  "review": [
+    {
+      "a": "l_abduct_ring_and_twist_seat",
+      "b": "l_twist_rotor_face",
+      "owner_a": "upperarm_l.abduct_frame",
+      "owner_b": "upperarm_l",
+      "volume_mm3": 0.1941,
+      "region_a": "upperarm_l",
+      "region_b": "upperarm_l",
+      "classification": "structural",
+      "reason": "internal_or_neighbouring_mechanisms"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 79.9553,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_lid_M2x25_1_1",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.4635,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_board_pad_front_1_1",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 4.6564,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_board_pad_rear_1_1",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.2556,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 295.3182,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_case_rear",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 40.7124,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_l_twist_M_distal_forearm_carrier",
+      "b": "N5_regional_PCBA",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 365.9917,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 64.5976,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_lid_M2x25_-1_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.4539,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_board_pad_front_-1_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 4.658,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_board_pad_rear_-1_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.256,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_mount_nut_M3_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 16.2025,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_mount_M3x10_1",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 50.5837,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 363.2257,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_case_rear",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 40.6936,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "forearm_r_twist_M_distal_forearm_carrier",
+      "b": "N6_regional_PCBA",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 363.1734,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_fixed_metal_eye",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 108.5486,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_radial_bush",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 8.2632,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_friction_lining",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.125,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_flanged_rotor_shaft",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.0664,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_thrust_wear_washer",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 31.4427,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_spring_seat",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.9661,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_disc_spring_0_0",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.7322,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_disc_spring_1_0",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.9774,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_D_stop_cap",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.1239,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_M3x8_button_retainer",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 20.2942,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_keyed_magnet_cup",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 261.7877,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_cup_M2x4_1",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.9678,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_diametric_magnet_6x2p5",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 24.6202,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_magnet_keeper",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 95.5163,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_keeper_M2x3_1",
+      "b": "N5_case_front",
+      "owner_a": "hand_l.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 9.4248,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_board_post_1",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 33.3659,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_PCB_edge_saddle_1",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0332,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_pcb_AS5048A",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0474,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_pcb_C2",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 2.9753,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_pcb_R2",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.5372,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_pcb_board",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 12.0153,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_pcb_J1_dimension_envelope",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 32.1117,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_deviate_M_D_output_cleat",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0803,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_fixed_mount_M3x8_0",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0752,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_flex_M_fixed_mount_M3x8_1",
+      "b": "N5_case_front",
+      "owner_a": "forearm_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 11.6732,
+      "region_a": "forearm_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_deviate_M_rotor_mount_M3x12_0",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.9757,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "hand_r_M_palm_rail",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 363.3326,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 240.4652,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_lid_M2x25_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.088,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_lid_nut_M2_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 18.9361,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_board_pad_front_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_board_pad_rear_1_1",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 750.3622,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 397.3996,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.0012,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_palm_rail",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.529,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_fixed_metal_eye",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 108.4655,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_radial_bush",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 8.269,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_friction_lining",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.1311,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_flanged_rotor_shaft",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.1019,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_thrust_wear_washer",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 31.4421,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_spring_seat",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.9668,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_disc_spring_0_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.7329,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_disc_spring_1_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.9771,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_D_stop_cap",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.1186,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_M3x8_button_retainer",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 20.3013,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_keyed_magnet_cup",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 261.8023,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_cup_M2x4_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.9637,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_diametric_magnet_6x2p5",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 24.6006,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_magnet_keeper",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 95.5084,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_keeper_M2x3_0",
+      "b": "N6_case_front",
+      "owner_a": "hand_r.flex_frame",
+      "owner_b": "pelvis",
+      "volume_mm3": 9.4248,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_board_post_1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 33.3602,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_PCB_edge_saddle_1",
+      "b": "pelvis_electronics_carrier",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0331,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_pcb_AS5048A",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0465,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_pcb_C1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.8553,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_pcb_R1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.5372,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_pcb_board",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 11.9995,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_deviate_M_D_output_cleat",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0808,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_fixed_mount_M3x8_0",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.025,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_flex_M_fixed_mount_M3x8_1",
+      "b": "N6_case_front",
+      "owner_a": "forearm_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0741,
+      "region_a": "forearm_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_deviate_M_rotor_mount_M3x12_1",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.9791,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "hand_l_M_shell_front",
+      "owner_a": "hand_r",
+      "owner_b": "hand_l",
+      "volume_mm3": 240.4907,
+      "region_a": "hand_r",
+      "region_b": "hand_l",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.5449,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_lid_M2x25_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 43.0838,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_lid_nut_M2_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 18.9364,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_board_pad_front_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_board_pad_rear_-1_1",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 5.568,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 750.4165,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 397.2837,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_palm_rail",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 52.0207,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.7239,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_nut_M2_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.9305,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "hand_r_M_shell_M2x16_1",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 15.2614,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 7.4391,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.8729,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_M2x16_1",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0485,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_nut_M2_1",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 0.3962,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_nut_M2_1",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.2052,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_M2x16_1",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 7.437,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_nut_M2_1",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 0.3961,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 390.9536,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "hand_r_M_shell_back",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 183.2873,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N1_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 58.1703,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 192.4597,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 312.0662,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 34.0737,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_front",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.4974,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "hand_r_M_shell_front",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 183.2954,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "hand_r_M_shell_back",
+      "owner_a": "hand_l",
+      "owner_b": "hand_r",
+      "volume_mm3": 552.7885,
+      "region_a": "hand_l",
+      "region_b": "hand_r",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N1_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 60.3358,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N1_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 471.3665,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 1.4606,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N5_case_front",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 76.0009,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N5_case_rear",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 56.5263,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "N5_regional_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.5642,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "POWER_PCB_M2x8_17.0_17.0",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.9255,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "POWER_PCB_nut_17.0_17.0",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.3768,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_l_M_shell_back",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_l",
+      "owner_b": "pelvis",
+      "volume_mm3": 254.7142,
+      "region_a": "hand_l",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_M2x16_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.723,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_nut_M2_0",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.9318,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_M2x16_1",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.8729,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_M2x16_1",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.0488,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_nut_M2_1",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 0.2042,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 34.0756,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N1_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 58.1726,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 192.4495,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 303.3394,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_front",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 7.4916,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N6_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 76.0093,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N6_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 56.525,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N6_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 15.7036,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N1_case_front",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 60.3416,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N1_case_rear",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 471.3776,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "N1_regional_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 1.4615,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "POWER_PCB_M2x8_-17.0_17.0",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 6.9254,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "POWER_PCB_nut_-17.0_17.0",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 13.378,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    },
+    {
+      "a": "hand_r_M_shell_back",
+      "b": "POWER_PCBA",
+      "owner_a": "hand_r",
+      "owner_b": "pelvis",
+      "volume_mm3": 254.719,
+      "region_a": "hand_r",
+      "region_b": "pelvis",
+      "classification": "pose_restriction",
+      "reason": "separated_body_segments_adjust_pose"
+    }
+  ],
+  "source_sha256": {
+    "cad\\build.py": "3e1f8124d1566cf97256f5c6725186d8e77dc0b49b25fd5b7c5ad914f126c4f2",
+    "cad\\collision_policy.py": "c828fdedc455083373967a68dd59d21cfe772dc3343739b318cf98820d641ce1",
+    "cad\\fits.py": "1e0c5e46c0f5af77cb5efd344a475f3513d0cbe19963f30dfca4f08b333c1d67",
+    "cad\\model.py": "022f0bf7157c10d062c55667e3813cd4015412576c6091a5b4ae69151c08002b",
+    "cad\\parts.py": "1f5539e86409e7db174b840ebb374be091f317366983c76943239eed2bf3c660",
+    "cad\\revE\\character_reference.py": "402f17060a8e832c9d6177ad460031a8e16f52c3808f4fa02d2434a07bec0236",
+    "cad\\revG\\centerline_study.py": "afbe4c276896e4bd63e34b048bb8e1d5dac24e3a292795d379ed619e4250b397",
+    "cad\\revH\\shoulder_mechanism.py": "67efaf32fb5f77dd8061207faf495cebbdc6e268aad606a499515d52feedca76",
+    "cad\\revI\\shoulder_clutch.py": "234072eada33b490e5f60f493bce06f9348ebad5ac88f6a2cb15558ae2b2c63e",
+    "cad\\revI\\shoulder_integration.py": "99594e2b06c220d7c6966853d9326a30b4fe3e21afce5ba98834f3a8b6f6ad00",
+    "cad\\revJ\\abduct_encoder.py": "a2cdc911be011f1bff5133a5946ef95dfe767bd13b6b0c3cafff66d367d8bc23",
+    "cad\\revJ\\assembly_audit.py": "2905b46f8431086e6d525f4a5ea66ef7335b74b9a643d5042cc7cb4a361253f9",
+    "cad\\revJ\\build_and_verify.py": "d78d455d438cd37b154d1993188b6edf28172e85e4fe4c4694feb7194c952c02",
+    "cad\\revJ\\drive_clamp.py": "7cd801c483059d12cf8256d50380e0c74f7f927eef04067925ec1230353fbae8",
+    "cad\\revJ\\shoulder_revision.py": "079e01d1b33311a4321bd47695f0e3086f7dce13851bafcaca020197f7587810",
+    "cad\\revK\\assembly_check_k.py": "3504a9c067098c849a72129f5114ac055461e26fdc16b8ac00f127147f5605c4",
+    "cad\\revK\\compact_twist.py": "85ba974e53064ba4d2c9640ba5ccc20913bc088e71792b7e7748efe337c240e8",
+    "cad\\revK\\mini_head.py": "718374a4b32483123f3f3af6750a179c20a00cb72afc4efc07dd570e5220245e",
+    "cad\\revK\\verify_k.py": "e1f39dda2c1ee9904b5d774394d3b90cd6cf4d439b971573ad528616ce2cb213",
+    "cad\\revL\\flex_encoder.py": "b88b233cd14bf4246c310a73bb5254cc915d2afd75e66f608322d0430cf0be01",
+    "cad\\revM\\arm_integration.py": "fed533e052965dbdd6ac73dcad03ca4e63eb35a6cdb9aed3ffcf61306a81c5bf",
+    "cad\\revM\\assembly_core.py": "356b6eea947436b39fc919414e335f280c3aefbc68df080a5a9c0791b7df3fb9",
+    "cad\\revM\\body_integration.py": "a560d90993d5fdd24fadd65659e2c6f3ea48ee7c12f9daf31cfc325eb0a8dbc4",
+    "cad\\revM\\cad_cache.py": "b1dc0fc3b075b7f21fac7081dd88d3163d0a1a0f05c96dceb58b2b9bbaaa25c4",
+    "cad\\revM\\collision_cache.py": "7fc288e63f70103bee13079871c39abc7e27cb5afaa7c57ade6de1f790a399ab",
+    "cad\\revM\\collision_review.py": "2c464ba4ffa9e92e439c49b6ea7720162c7ca8cdc5dfcd67e548f184f13dae3c",
+    "cad\\revM\\compact_axis.py": "195e4b40b5acd2489c1667b85498ec1761e75bbbaede747bd06731d195bcfbea",
+    "cad\\revM\\completed_body.py": "eacc60e9b13a8e0a613f989cdb7ac7e56a196e066076eed91417b182080b0275",
+    "cad\\revM\\electronics_pods.py": "17eb2914c31a7bd3986451cbe29e1d6154114cb3c9e9245706aa89a74db1af78",
+    "cad\\revM\\final_model.py": "0e8aedcb7f1382a63a0c2a783c4844b5a47fa54357323fb1425b8c7d3067e9ed",
+    "cad\\revM\\foot_shells.py": "f53b8020468436f315e0ae3bf1fd6a0b868974f67020132a11c37611d31214fb",
+    "cad\\revM\\full_body_audit.py": "7330757870bacb51746fcfd4c2210bcac85d2b07008727796eef2b0fbd079de7",
+    "cad\\revM\\full_packaging.py": "2ff7a2b59af1a0a4ab54f09063c07564750de18f4c87b4005aafd5037b5e5dda",
+    "cad\\revM\\girdle_cartridge.py": "77eb513fccb77cbed0bf23642e865de3e954f7b5d50176ba8fc707b0d55f05e0",
+    "cad\\revM\\girdle_integration.py": "3d4c29637ecf7bc522e6aa7c4bdf0fdc8b4e4500c06f2fceb57496dd36834587",
+    "cad\\revM\\hand_shells.py": "a7f7981159c6d9dfcb4322980f36d577bfcf06b90f55896968900b65a953b478",
+    "cad\\revM\\head_shells.py": "9bea38ae895d3aceab8ab475e37a55efee390ea9d811544e02dbd0f475be7c6d",
+    "cad\\revM\\large_sensor_heads.py": "80ce44e1e0f23bf610eef386badb7295f173d694457cbcd95f49f962ce2e974c",
+    "cad\\revM\\leg_integration.py": "34ff4512b1b7256b261f168e1986fc999f6df17150aa00c67825e44cf11ca671",
+    "cad\\revM\\legacy_threads.py": "612fb1c50d9337e70d90ac2f8acce4c65ebb387272e5ce2892cb893b8087627e",
+    "cad\\revM\\mechanism_modules.py": "26269685563afc121ed1ee5ef53da1fc424a5d85d2b619064ed0647f1d59c330",
+    "cad\\revM\\neck_module.py": "66084a5537b9572cb39a58a71e6319d8f53235a6c35ae1bd135fcac8b9271f81",
+    "cad\\revM\\power_case.py": "664d10576a78f2efd67ee7282d21e9fdda89232280a8bf3c4d739a8d1825995f",
+    "cad\\revM\\retained_bushes.py": "7c0fd798acac337d67c50d262cf4d7e3a96ab866f8ae49bd5627a63beeb4fea5",
+    "cad\\revM\\rigid_shells.py": "c6a211ed20870ea56b5076305b3d214ec8c1a212baaf97bc195d2c992deb314b",
+    "cad\\revM\\sensor_cable_heads.py": "f3c5885cb6f26ac4b51b4ca593c0eb438c8266931c5f45409e60b191f8c591aa",
+    "cad\\revM\\shell_mounts.py": "9cff8e7ced2f92656b9d6b92e06fb613243793c6462a26b425c8e92a0805c046",
+    "cad\\revM\\special_travel_stops.py": "e386fdb88ff9e49882ed35ba4734a8296d31b16a3d88f0410e2f64e09515cd79",
+    "cad\\revM\\toe_caps.py": "1627ce10d7bcb054fac48dc6da95ade622acc5440a78e24ec722496d0f0b440f",
+    "cad\\revM\\torso_shells.py": "6319228ada377263d24e77841c2c034fa6cfff4f04992a91dae9949b166fcc27",
+    "cad\\revM\\travel_stops.py": "4bddcc72015d6c77e0e1371b9f0ed49fa3be1ad10209128b84e33d25bfd54cc5",
+    "cad\\revM\\trunk_dual_friction.py": "45f52ea1b3ba53235e9f62f93fbe47d54583d51e263b3e01f4d46bb8040a3e6b",
+    "cad\\revM\\trunk_integration.py": "ab670bf34e70cfa0272c24cec29ef2f5e44c8f3e36345cfa9366e349ed2eb02d",
+    "cad\\revM\\twist_completion.py": "2144fb515d9aa0eb2fb7bf0bd9c0d1a637f5b9a6bee66c480bdd469feb35298c",
+    "cad\\revM\\wire_saddles.py": "46f54ee86b418c833e0609463d67d6b9ec6089c40170396ef90a06adb6f69fc9",
+    "cad\\revM\\wrist_integration.py": "f1820de14a870424b2e13d3019c099c9c1ac817e5eb03fa6416beecc68144a9e",
+    "electronics\\power_revM\\pad_map.json": "8429cb0a21c4e555a4a483974719f85ff41a71a07e1e4d29438f4c9f9e6077cf",
+    "electronics\\power_revM\\power_assembly_work.step": "bb0b73133e8c8522fe06e67095e64930e305bda9a33a37dc5662de48b42e3455",
+    "electronics\\regional_revM\\regional_assembly_work.step": "21643a6fb2441387af1ebb8c1921555f715d4b727fed4ae00f7cecb3ca9f767d",
+    "generated\\revC\\step\\sensor_revB.step": "24386c5403b949ac0288e2cb6d92df00ec12fec28d5d190b1c65ba510032a09c",
+    "generated\\revE\\manny\\neutral_landmarks.json": "b779173a4eb6fbc75b519aa520ebc73054376c74487f42afe6d0873f11ad7a22",
+    "generated\\revE\\quinn\\neutral_landmarks.json": "e84429a17fabc4c452b3ceb8ab5a946a27e35092145f2ee592fe093618fb4c3c",
+    "generated\\revK\\components\\sensor_revC_mini.step": "7cdc9c2099518fb0b673eafbd911d888b35d03a63a7fae74a5ed48d57f1e098f",
+    "mechanical_manifest\\physical_manny_44_revG_humanform_trial.json": "c4da2d61d0c079b406ae46e6b8e80630c836cee9abccbee10ec67d89cee2ddfc",
+    "mechanical_manifest\\physical_quinn_44_revG_humanform_trial.json": "e10426f26c128bb924b65b43ed780a95432656914bcc9333f38dc55f64f96a49",
+    "verification\\revE_proportion_baselines.json": "2f79597fac1165780e6d43dea0d641162a8246b50bfa80d36b982680510dca29",
+    "verification\\revG_surface_envelopes.json": "7b12f563490f9400ddc0fe352c247d39ca36caf88e0618444a80863e13f126e4"
+  }
+}

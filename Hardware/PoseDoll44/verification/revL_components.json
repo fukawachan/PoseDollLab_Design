@@ -1,0 +1,305 @@
+{
+  "parts": [
+    {
+      "name": "D_keyed_magnet_cup",
+      "material": "aluminum",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        17.400000199999997,
+        17.400000236198338,
+        7.700000199999998
+      ],
+      "note": "Machined aluminum cup keyed to flat on metal stop cap; 0.05 mm nominal fit and 0.6 mm floor; install after the outer clutch M3 is tightened"
+    },
+    {
+      "name": "cap_set_M2x4_0",
+      "material": "brass",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        3.999999999999999,
+        2.0
+      ],
+      "note": "Nominal slotted brass M2x4 retaining cup on keyed cap; 2.3 mm nominal thread engagement; exact product pending"
+    },
+    {
+      "name": "cap_set_M2x4_1",
+      "material": "brass",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        3.999999999999999,
+        2.0
+      ],
+      "note": "Nominal slotted brass M2x4 retaining cup on keyed cap; 2.3 mm nominal thread engagement; exact product pending"
+    },
+    {
+      "name": "diametric_magnet_6x2p5",
+      "material": "magnet",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        2.5
+      ],
+      "note": "6x2.5 diametric magnet, 0.1 mm radial adhesive gap; rotational bonding and magnetic field unverified"
+    },
+    {
+      "name": "magnet_keeper",
+      "material": "frame",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        19.0000002,
+        19.0000002,
+        2.6000001000000026
+      ],
+      "note": "Printed removable cover positively retains magnet face; minimum radial wall 0.75 mm, stiffness and wear unqualified"
+    },
+    {
+      "name": "keeper_set_M2x3_0",
+      "material": "brass",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        3.0,
+        2.0
+      ],
+      "note": "Nominal slotted brass M2x3 into aluminum cup; exact purchased part pending"
+    },
+    {
+      "name": "keeper_set_M2x3_1",
+      "material": "brass",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        3.0,
+        2.0
+      ],
+      "note": "Nominal slotted brass M2x3 into aluminum cup; exact purchased part pending"
+    },
+    {
+      "name": "pcb_AS5048A",
+      "material": "pcb_component",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.0000002000000014,
+        6.400000000000001,
+        1.0000001000000012
+      ],
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_C1",
+      "material": "pcb_component",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.8000000000000007,
+        1.6000000000000005,
+        0.7999999999999972
+      ],
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_C2",
+      "material": "pcb_component",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.2500000000000009,
+        2.0,
+        1.25
+      ],
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_R1",
+      "material": "pcb_component",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.8000000000000007,
+        1.5999999999999996,
+        0.45000000000000995
+      ],
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_R2",
+      "material": "pcb_component",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.8000000000000007,
+        1.6000000000000005,
+        0.45000000000000284
+      ],
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_board",
+      "material": "pcb",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        10.000000000000002,
+        12.000000000000002,
+        0.9100000000000037
+      ],
+      "note": "actual_KiCad_STEP"
+    },
+    {
+      "name": "pcb_J1_dimension_envelope",
+      "material": "pcb_component",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.1500000000000004,
+        5.15,
+        1.0
+      ],
+      "note": "manufacturer_dimension_envelope"
+    },
+    {
+      "name": "threaded_standoff_0",
+      "material": "brass",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.04145188432738,
+        3.5000000000000018,
+        15.270999999999994
+      ],
+      "note": "Custom AF3.5 brass male/female M2 standoff; 2.5 mm male engagement into reaction plate; nominal height 12.771 mm, locking and bending pending"
+    },
+    {
+      "name": "board_saddle_0",
+      "material": "frame",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        8.3,
+        2.0
+      ],
+      "note": "Separate insulating saddle, bearing edge at +/-6.1 mm in Y; installed after rotating magnet cup"
+    },
+    {
+      "name": "board_cap_0",
+      "material": "nylon",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        8.3,
+        0.7999999999999972
+      ],
+      "note": "Removable edge cap with 1.0 mm nominal board slot; board thickness tolerance pending"
+    },
+    {
+      "name": "board_M2x6_0",
+      "material": "nylon",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "note": "Nominal nylon M2x6 into brass standoff, 3.2 mm nominal engagement; creep and locking pending"
+    },
+    {
+      "name": "threaded_standoff_1",
+      "material": "brass",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.04145188432738,
+        3.5000000000000018,
+        15.270999999999994
+      ],
+      "note": "Custom AF3.5 brass male/female M2 standoff; 2.5 mm male engagement into reaction plate; nominal height 12.771 mm, locking and bending pending"
+    },
+    {
+      "name": "board_saddle_1",
+      "material": "frame",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        8.3,
+        2.0
+      ],
+      "note": "Separate insulating saddle, bearing edge at +/-6.1 mm in Y; installed after rotating magnet cup"
+    },
+    {
+      "name": "board_cap_1",
+      "material": "nylon",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        8.3,
+        0.7999999999999972
+      ],
+      "note": "Removable edge cap with 1.0 mm nominal board slot; board thickness tolerance pending"
+    },
+    {
+      "name": "board_M2x6_1",
+      "material": "nylon",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.5,
+        3.5,
+        7.399999999999999
+      ],
+      "note": "Nominal nylon M2x6 into brass standoff, 3.2 mm nominal engagement; creep and locking pending"
+    },
+    {
+      "name": "aluminum_keyed_stop_cap",
+      "material": "aluminum",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.800000200000001,
+        14.0000002,
+        3.0000002000000023
+      ],
+      "note": "Same original stop datums, added external flat; not strength-qualified"
+    },
+    {
+      "name": "titanium_M3x8_button",
+      "material": "titanium",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.7,
+        5.7,
+        9.649999999999999
+      ],
+      "note": "Accu SSB-M3-8-TI5 dimensional candidate, conservative cylindrical head"
+    }
+  ],
+  "reference_note": "Isolated module omits original reaction plate and clutch cartridge; actual connection is in character assembly",
+  "manufacturing_released": false,
+  "nominal": {
+    "board_datum_mm": 61.770999999999994,
+    "magnet_bottom_mm": 55.775999999999996,
+    "magnet_face_mm": 58.275999999999996,
+    "magnet_gap_mm": 1.5,
+    "cap_stop_bottom_mm": 50.376,
+    "cap_stop_top_mm": 53.376,
+    "custom_standoff_height_mm": 12.770999999999994,
+    "old_head_probe_board_datum_mm": 63.995,
+    "board_datum_reduction_mm": 2.2240000000000038
+  }
+}

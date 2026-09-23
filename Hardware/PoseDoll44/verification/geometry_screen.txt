@@ -1,0 +1,1 @@
+{"H1_all_sampled_clear": true, "full44": {"neutral": 23, "arms_forward": 23, "arms_overhead": 29, "arms_side": 23, "hands_on_hips": 24, "arms_crossed": 32, "forehead": 24, "sitting": 23, "crouch": 29, "head_tilt": 23, "hip_abduction": 23, "palms_turn": 23}}

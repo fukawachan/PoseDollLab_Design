@@ -1,0 +1,2850 @@
+{
+  "manny": {
+    "meta": {
+      "character": "manny",
+      "revision": "M-work",
+      "inherited_revision": "L",
+      "removed": [
+        "l_arm_coupling",
+        "l_arm_upperarm_centreline_fork",
+        "l_arm_forearm_centreline_link",
+        "l_arm_rotor_radial_bush",
+        "l_arm_friction_face_-6",
+        "l_arm_friction_face_5",
+        "l_arm_smooth_pivot_pin",
+        "l_arm_left_load_washer",
+        "l_arm_right_spring_seat",
+        "l_arm_spring_stack_reserved",
+        "l_arm_preload_cap_reserved",
+        "l_arm_preload_screw_reserved",
+        "l_arm_input_gear_reserved",
+        "l_arm_pickup_gear_reserved",
+        "l_arm_pickup_shaft_reserved",
+        "l_arm_magnet_reserved",
+        "l_arm_sensor_package_reserved",
+        "l_arm_sensor_PCB_reserved",
+        "l_arm_flat_cable_exit_reserved",
+        "r_arm_coupling",
+        "r_arm_upperarm_centreline_fork",
+        "r_arm_forearm_centreline_link",
+        "r_arm_rotor_radial_bush",
+        "r_arm_friction_face_-6",
+        "r_arm_friction_face_5",
+        "r_arm_smooth_pivot_pin",
+        "r_arm_left_load_washer",
+        "r_arm_right_spring_seat",
+        "r_arm_spring_stack_reserved",
+        "r_arm_preload_cap_reserved",
+        "r_arm_preload_screw_reserved",
+        "r_arm_input_gear_reserved",
+        "r_arm_pickup_gear_reserved",
+        "r_arm_pickup_shaft_reserved",
+        "r_arm_magnet_reserved",
+        "r_arm_sensor_package_reserved",
+        "r_arm_sensor_PCB_reserved",
+        "r_arm_flat_cable_exit_reserved"
+      ],
+      "channels": [
+        {
+          "axis_id": "elbow_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "upperarm_l",
+          "magnet_owner": "elbow_l",
+          "origin_neutral_mm": [
+            -24.190497287848036,
+            100.57439554808983,
+            584.3740901073415
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "forearm_l.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "elbow_l",
+          "magnet_owner": "forearm_l",
+          "origin_neutral_mm": [
+            -24.190497287848032,
+            95.04939554808982,
+            523.059173973461
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "elbow_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "upperarm_r",
+          "magnet_owner": "elbow_r",
+          "origin_neutral_mm": [
+            -24.190678621271683,
+            -100.57441240511731,
+            584.3737895732553
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "forearm_r.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "elbow_r",
+          "magnet_owner": "forearm_r",
+          "origin_neutral_mm": [
+            -24.190678621271683,
+            -95.0494124051173,
+            523.0590150600108
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "forearm_l",
+          "magnet_owner": "hand_l.flex_frame",
+          "origin_neutral_mm": [
+            -24.19049728784802,
+            121.04939554808982,
+            448.1187209209403
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_l.deviate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "hand_l.flex_frame",
+          "magnet_owner": "hand_l",
+          "origin_neutral_mm": [
+            -10.190497287848022,
+            95.04939554808982,
+            448.1187209209403
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "forearm_r",
+          "magnet_owner": "hand_r.flex_frame",
+          "origin_neutral_mm": [
+            -24.19067862127168,
+            -121.04941240511727,
+            448.11873509937845
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_r.deviate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "hand_r.flex_frame",
+          "magnet_owner": "hand_r",
+          "origin_neutral_mm": [
+            -10.19067862127168,
+            -95.04941240511727,
+            448.11873509937845
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "pelvis",
+          "magnet_owner": "thigh_l.flex_frame",
+          "origin_neutral_mm": [
+            1.298655442451368,
+            85.84601497650146,
+            473.0262775573608
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_l.abduct",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_l.flex_frame",
+          "magnet_owner": "thigh_l.abduct_frame",
+          "origin_neutral_mm": [
+            20.29865544245137,
+            49.846014976501465,
+            473.0262775573608
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_l.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_l.abduct_frame",
+          "magnet_owner": "thigh_l",
+          "origin_neutral_mm": [
+            1.298655442451368,
+            49.846014976501465,
+            393.0262775573608
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "calf_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_l",
+          "magnet_owner": "calf_l",
+          "origin_neutral_mm": [
+            1.298655442451368,
+            55.37101497650146,
+            256.3197345886109
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 15.126,
+          "package_face_mm": 16.625999999999998,
+          "gap_mm": 1.5,
+          "family": "H6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_l.dorsiflex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "calf_l",
+          "magnet_owner": "foot_l.dorsiflex_frame",
+          "origin_neutral_mm": [
+            1.2986554424513654,
+            79.84601497650146,
+            45.230161682116744
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_l.invert",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_l.dorsiflex_frame",
+          "magnet_owner": "foot_l",
+          "origin_neutral_mm": [
+            17.298655442451366,
+            49.846014976501465,
+            45.230161682116744
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "ball_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_l",
+          "magnet_owner": "ball_l",
+          "origin_neutral_mm": [
+            85.204363856316,
+            55.37101497650146,
+            45.230161682116744
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "pelvis",
+          "magnet_owner": "thigh_r.flex_frame",
+          "origin_neutral_mm": [
+            1.3457854428732556,
+            -85.84545707702637,
+            473.02919481426244
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_r.abduct",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_r.flex_frame",
+          "magnet_owner": "thigh_r.abduct_frame",
+          "origin_neutral_mm": [
+            20.345785442873257,
+            -49.84545707702637,
+            473.02919481426244
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_r.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_r.abduct_frame",
+          "magnet_owner": "thigh_r",
+          "origin_neutral_mm": [
+            1.3457854428732556,
+            -49.84545707702637,
+            393.02919481426244
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "calf_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_r",
+          "magnet_owner": "calf_r",
+          "origin_neutral_mm": [
+            1.3457854428732556,
+            -55.370457077026366,
+            256.32288072734843
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 15.126,
+          "package_face_mm": 16.625999999999998,
+          "gap_mm": 1.5,
+          "family": "H6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_r.dorsiflex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "calf_r",
+          "magnet_owner": "foot_r.dorsiflex_frame",
+          "origin_neutral_mm": [
+            1.3457854428732556,
+            -79.84545707702637,
+            45.23313615947734
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_r.invert",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_r.dorsiflex_frame",
+          "magnet_owner": "foot_r",
+          "origin_neutral_mm": [
+            17.345785442873257,
+            -49.84545707702637,
+            45.23313615947734
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "ball_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_r",
+          "magnet_owner": "ball_r",
+          "origin_neutral_mm": [
+            85.251529176497,
+            -55.370457077026366,
+            45.23313615947734
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "waist.yaw",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "pelvis",
+          "magnet_owner": "waist.yaw_frame",
+          "origin_neutral_mm": [
+            7.5334365819847156,
+            8.270207350842228e-16,
+            480.4617984617257
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.726,
+          "package_face_mm": 20.226,
+          "gap_mm": 1.5,
+          "family": "H6P4",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "waist.pitch",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "waist.yaw_frame",
+          "magnet_owner": "waist.pitch_frame",
+          "origin_neutral_mm": [
+            7.5334365819847156,
+            36.0,
+            554.4617984617257
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.726,
+          "package_face_mm": 20.226,
+          "gap_mm": 1.5,
+          "family": "H6P4",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "waist.roll",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "waist.pitch_frame",
+          "magnet_owner": "waist",
+          "origin_neutral_mm": [
+            51.533436581984716,
+            8.270207350842228e-16,
+            554.4617984617257
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 18.726,
+          "package_face_mm": 20.226,
+          "gap_mm": 1.5,
+          "family": "H6P4",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "chest.yaw",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "waist",
+          "magnet_owner": "chest.yaw_frame",
+          "origin_neutral_mm": [
+            7.185505053543287,
+            -9.724861368043147e-16,
+            574.9442901084931
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 17.526,
+          "package_face_mm": 19.026,
+          "gap_mm": 1.5,
+          "family": "H6P3",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "chest.pitch",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest.yaw_frame",
+          "magnet_owner": "chest.pitch_frame",
+          "origin_neutral_mm": [
+            7.185505053543287,
+            -36.0,
+            614.9442901084931
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 17.526,
+          "package_face_mm": 19.026,
+          "gap_mm": 1.5,
+          "family": "H6P3",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "chest.roll",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest.pitch_frame",
+          "magnet_owner": "chest",
+          "origin_neutral_mm": [
+            26.185505053543288,
+            -9.724861368043147e-16,
+            614.9442901084931
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 17.526,
+          "package_face_mm": 19.026,
+          "gap_mm": 1.5,
+          "family": "H6P3",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "head.yaw",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest",
+          "magnet_owner": "head.yaw_frame",
+          "origin_neutral_mm": [
+            -13.490790873954467,
+            -1.7077865830724765e-10,
+            757.8905316429316
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "head.pitch",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "head.yaw_frame",
+          "magnet_owner": "head.pitch_frame",
+          "origin_neutral_mm": [
+            -13.490790873954467,
+            25.99999999982922,
+            793.8905316429316
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "head.roll",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "head.pitch_frame",
+          "magnet_owner": "head",
+          "origin_neutral_mm": [
+            0.5092091260455334,
+            -1.7077865830724765e-10,
+            793.8905316429316
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_l.protract",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest",
+          "magnet_owner": "clavicle_l.protract_frame",
+          "origin_neutral_mm": [
+            -20.103398900597178,
+            7.139521241290422,
+            701.8175388751048
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_l.elevate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "clavicle_l.protract_frame",
+          "magnet_owner": "clavicle_l",
+          "origin_neutral_mm": [
+            37.89660109940282,
+            7.139521241290422,
+            736.8175388751048
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_r.protract",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest",
+          "magnet_owner": "clavicle_r.protract_frame",
+          "origin_neutral_mm": [
+            -20.10357848570823,
+            -7.139363288777018,
+            660.8172597322753
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_r.elevate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "clavicle_r.protract_frame",
+          "magnet_owner": "clavicle_r",
+          "origin_neutral_mm": [
+            -78.10357848570823,
+            -7.139363288777018,
+            736.8172597322753
+          ],
+          "normal_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        }
+      ],
+      "stage": "continuous_body_frame",
+      "legs": [
+        {
+          "side": "l",
+          "hip_twist_offset_mm": -80.0,
+          "hip_pivot": [
+            1.298655442451368,
+            49.846014976501465,
+            473.0262775573608
+          ],
+          "knee_pivot": [
+            1.298655442451368,
+            49.846014976501465,
+            256.3197345886109
+          ],
+          "ankle_pivot": [
+            1.2986554424513654,
+            49.846014976501465,
+            45.230161682116744
+          ],
+          "toe_pivot": [
+            85.204363856316,
+            49.846014976501465,
+            45.230161682116744
+          ]
+        },
+        {
+          "side": "r",
+          "hip_twist_offset_mm": -80.0,
+          "hip_pivot": [
+            1.3457854428732556,
+            -49.84545707702637,
+            473.02919481426244
+          ],
+          "knee_pivot": [
+            1.3457854428732556,
+            -49.84545707702637,
+            256.32288072734843
+          ],
+          "ankle_pivot": [
+            1.3457854428732556,
+            -49.84545707702637,
+            45.23313615947734
+          ],
+          "toe_pivot": [
+            85.251529176497,
+            -49.84545707702637,
+            45.23313615947734
+          ]
+        }
+      ],
+      "root_reference": "pelvis_local_fixed",
+      "measured_axes": 41,
+      "trunk_joints": {
+        "waist": [
+          "waist.yaw",
+          "waist.pitch",
+          "waist.roll"
+        ],
+        "chest": [
+          "chest.yaw",
+          "chest.pitch",
+          "chest.roll"
+        ]
+      },
+      "head_joints": [
+        "head.yaw",
+        "head.pitch",
+        "head.roll"
+      ],
+      "shoulder_twist_preload": "294N_catalog_candidate",
+      "shoulder_girdle": "four_direct_encoders_preloaded",
+      "measured_encoder_installations": 41,
+      "neck_packaging": "T4_integral_housings_yaw34_pitch38_roll38_posterior_roll"
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "hits": []
+      },
+      {
+        "pose": "forward",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 0
+        },
+        "hits": []
+      },
+      {
+        "pose": "backward",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": 0
+        },
+        "hits": []
+      },
+      {
+        "pose": "shrug",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "down",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": -15
+        },
+        "hits": []
+      },
+      {
+        "pose": "forward_up",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "back_down",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "hits": []
+      },
+      {
+        "pose": "asymmetric",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_turn",
+        "angles_deg": {
+          "head.yaw": 75
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_other",
+        "angles_deg": {
+          "head.yaw": -75
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_nod",
+        "angles_deg": {
+          "head.pitch": 55
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_up",
+        "angles_deg": {
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_tilt",
+        "angles_deg": {
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_tilt_other",
+        "angles_deg": {
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "chest_bend",
+        "angles_deg": {
+          "chest.pitch": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "chest_roll",
+        "angles_deg": {
+          "chest.roll": 20
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_-45_-35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": -45,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_-45_35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": -45,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_55_-35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": 55,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_55_35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": 55,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_-45_-35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": -45,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_-45_35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": -45,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_55_-35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": 55,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_55_35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": 55,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_-45_-35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": -45,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_-45_35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": -45,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_55_-35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": 55,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_55_35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": 55,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "forward_up_head_-75_-45",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "head.yaw": -75,
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "forward_up_head_75_55",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "head.yaw": 75,
+          "head.pitch": 55
+        },
+        "hits": []
+      },
+      {
+        "pose": "back_down_head_-75_-45",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": -75,
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "back_down_head_75_55",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": 75,
+          "head.pitch": 55
+        },
+        "hits": []
+      },
+      {
+        "pose": "asymmetric_head_-75_-45",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": -75,
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "asymmetric_head_75_55",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": 75,
+          "head.pitch": 55
+        },
+        "hits": []
+      }
+    ]
+  },
+  "quinn": {
+    "meta": {
+      "character": "quinn",
+      "revision": "M-work",
+      "inherited_revision": "L",
+      "removed": [
+        "l_arm_coupling",
+        "l_arm_upperarm_centreline_fork",
+        "l_arm_forearm_centreline_link",
+        "l_arm_rotor_radial_bush",
+        "l_arm_friction_face_-6",
+        "l_arm_friction_face_5",
+        "l_arm_smooth_pivot_pin",
+        "l_arm_left_load_washer",
+        "l_arm_right_spring_seat",
+        "l_arm_spring_stack_reserved",
+        "l_arm_preload_cap_reserved",
+        "l_arm_preload_screw_reserved",
+        "l_arm_input_gear_reserved",
+        "l_arm_pickup_gear_reserved",
+        "l_arm_pickup_shaft_reserved",
+        "l_arm_magnet_reserved",
+        "l_arm_sensor_package_reserved",
+        "l_arm_sensor_PCB_reserved",
+        "l_arm_flat_cable_exit_reserved",
+        "r_arm_coupling",
+        "r_arm_upperarm_centreline_fork",
+        "r_arm_forearm_centreline_link",
+        "r_arm_rotor_radial_bush",
+        "r_arm_friction_face_-6",
+        "r_arm_friction_face_5",
+        "r_arm_smooth_pivot_pin",
+        "r_arm_left_load_washer",
+        "r_arm_right_spring_seat",
+        "r_arm_spring_stack_reserved",
+        "r_arm_preload_cap_reserved",
+        "r_arm_preload_screw_reserved",
+        "r_arm_input_gear_reserved",
+        "r_arm_pickup_gear_reserved",
+        "r_arm_pickup_shaft_reserved",
+        "r_arm_magnet_reserved",
+        "r_arm_sensor_package_reserved",
+        "r_arm_sensor_PCB_reserved",
+        "r_arm_flat_cable_exit_reserved"
+      ],
+      "channels": [
+        {
+          "axis_id": "elbow_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "upperarm_l",
+          "magnet_owner": "elbow_l",
+          "origin_neutral_mm": [
+            -24.436491606538127,
+            85.80173071106516,
+            585.7435507210259
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "forearm_l.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "elbow_l",
+          "magnet_owner": "forearm_l",
+          "origin_neutral_mm": [
+            -24.436491606538144,
+            80.27673071106514,
+            527.0294417770867
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "elbow_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "upperarm_r",
+          "magnet_owner": "elbow_r",
+          "origin_neutral_mm": [
+            -24.43649795702036,
+            -85.80149649139065,
+            585.7454860172566
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "forearm_r.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "elbow_r",
+          "magnet_owner": "forearm_r",
+          "origin_neutral_mm": [
+            -24.43649795702035,
+            -80.27649649139065,
+            527.0306217632588
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "forearm_l",
+          "magnet_owner": "hand_l.flex_frame",
+          "origin_neutral_mm": [
+            -24.436491606538155,
+            106.27673071106511,
+            455.26775306782764
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_l.deviate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "hand_l.flex_frame",
+          "magnet_owner": "hand_l",
+          "origin_neutral_mm": [
+            -10.436491606538155,
+            80.27673071106511,
+            455.26775306782764
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "forearm_r",
+          "magnet_owner": "hand_r.flex_frame",
+          "origin_neutral_mm": [
+            -24.43649795702034,
+            -106.27649649139065,
+            455.2680098972613
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "hand_r.deviate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "hand_r.flex_frame",
+          "magnet_owner": "hand_r",
+          "origin_neutral_mm": [
+            -10.43649795702034,
+            -80.27649649139065,
+            455.2680098972613
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "pelvis",
+          "magnet_owner": "thigh_l.flex_frame",
+          "origin_neutral_mm": [
+            1.3549231073653976,
+            91.77292919158934,
+            484.37113498221674
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_l.abduct",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_l.flex_frame",
+          "magnet_owner": "thigh_l.abduct_frame",
+          "origin_neutral_mm": [
+            20.354923107365398,
+            55.77292919158934,
+            484.37113498221674
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_l.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_l.abduct_frame",
+          "magnet_owner": "thigh_l",
+          "origin_neutral_mm": [
+            1.3549231073653976,
+            55.77292919158934,
+            404.37113498221674
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "calf_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_l",
+          "magnet_owner": "calf_l",
+          "origin_neutral_mm": [
+            1.3549231073653976,
+            61.29792919158934,
+            255.61094974051758
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 15.126,
+          "package_face_mm": 16.625999999999998,
+          "gap_mm": 1.5,
+          "family": "H6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_l.dorsiflex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "calf_l",
+          "magnet_owner": "foot_l.dorsiflex_frame",
+          "origin_neutral_mm": [
+            1.3549231073653976,
+            85.77292919158934,
+            47.08384250174802
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_l.invert",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_l.dorsiflex_frame",
+          "magnet_owner": "foot_l",
+          "origin_neutral_mm": [
+            17.354923107365398,
+            55.77292919158934,
+            47.08384250174802
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "ball_l.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_l",
+          "magnet_owner": "ball_l",
+          "origin_neutral_mm": [
+            76.93386940013887,
+            61.29792919158934,
+            47.08384250174802
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "pelvis",
+          "magnet_owner": "thigh_r.flex_frame",
+          "origin_neutral_mm": [
+            1.3547415689683282,
+            -91.77300071716309,
+            484.37086316153324
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_r.abduct",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_r.flex_frame",
+          "magnet_owner": "thigh_r.abduct_frame",
+          "origin_neutral_mm": [
+            20.35474156896833,
+            -55.77300071716308,
+            484.37086316153324
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "thigh_r.twist",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_r.abduct_frame",
+          "magnet_owner": "thigh_r",
+          "origin_neutral_mm": [
+            1.3547415689683282,
+            -55.77300071716308,
+            404.37086316153324
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 16.326,
+          "package_face_mm": 17.826,
+          "gap_mm": 1.5,
+          "family": "H6P2",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "calf_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "thigh_r",
+          "magnet_owner": "calf_r",
+          "origin_neutral_mm": [
+            1.3547415689683282,
+            -61.29800071716308,
+            255.61117383047855
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 15.126,
+          "package_face_mm": 16.625999999999998,
+          "gap_mm": 1.5,
+          "family": "H6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_r.dorsiflex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "calf_r",
+          "magnet_owner": "foot_r.dorsiflex_frame",
+          "origin_neutral_mm": [
+            1.3547415689683282,
+            -85.77300071716309,
+            47.083837709872995
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "foot_r.invert",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_r.dorsiflex_frame",
+          "magnet_owner": "foot_r",
+          "origin_neutral_mm": [
+            17.35474156896833,
+            -55.77300071716308,
+            47.083837709872995
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.926,
+          "package_face_mm": 16.426000000000002,
+          "gap_mm": 1.5,
+          "family": "M6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "ball_r.flex",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "foot_r",
+          "magnet_owner": "ball_r",
+          "origin_neutral_mm": [
+            76.93369536195345,
+            -61.29800071716308,
+            47.083837709872995
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "waist.yaw",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "pelvis",
+          "magnet_owner": "waist.yaw_frame",
+          "origin_neutral_mm": [
+            7.369554068570625,
+            4.791185833272594e-13,
+            481.97629262095006
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.726,
+          "package_face_mm": 20.226,
+          "gap_mm": 1.5,
+          "family": "H6P4",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "waist.pitch",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "waist.yaw_frame",
+          "magnet_owner": "waist.pitch_frame",
+          "origin_neutral_mm": [
+            7.369554068570625,
+            36.000000000000476,
+            555.9762926209501
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.726,
+          "package_face_mm": 20.226,
+          "gap_mm": 1.5,
+          "family": "H6P4",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "waist.roll",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "waist.pitch_frame",
+          "magnet_owner": "waist",
+          "origin_neutral_mm": [
+            51.36955406857062,
+            4.791185833272594e-13,
+            555.9762926209501
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 18.726,
+          "package_face_mm": 20.226,
+          "gap_mm": 1.5,
+          "family": "H6P4",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "chest.yaw",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "waist",
+          "magnet_owner": "chest.yaw_frame",
+          "origin_neutral_mm": [
+            6.929823739138936,
+            1.6183174909744876e-12,
+            579.0790686142906
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 17.526,
+          "package_face_mm": 19.026,
+          "gap_mm": 1.5,
+          "family": "H6P3",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "chest.pitch",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest.yaw_frame",
+          "magnet_owner": "chest.pitch_frame",
+          "origin_neutral_mm": [
+            6.929823739138936,
+            -35.99999999999838,
+            619.0790686142906
+          ],
+          "normal_neutral": [
+            0,
+            -1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 17.526,
+          "package_face_mm": 19.026,
+          "gap_mm": 1.5,
+          "family": "H6P3",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "chest.roll",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest.pitch_frame",
+          "magnet_owner": "chest",
+          "origin_neutral_mm": [
+            25.929823739138936,
+            1.6183174909744876e-12,
+            619.0790686142906
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 17.526,
+          "package_face_mm": 19.026,
+          "gap_mm": 1.5,
+          "family": "H6P3",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "head.yaw",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest",
+          "magnet_owner": "head.yaw_frame",
+          "origin_neutral_mm": [
+            -17.46783026109901,
+            -2.3425016519521944e-06,
+            755.270086261799
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "head.pitch",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "head.yaw_frame",
+          "magnet_owner": "head.pitch_frame",
+          "origin_neutral_mm": [
+            -17.46783026109901,
+            25.999997657498348,
+            791.270086261799
+          ],
+          "normal_neutral": [
+            0,
+            1,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 0,
+          "calibrated": false
+        },
+        {
+          "axis_id": "head.roll",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "head.pitch_frame",
+          "magnet_owner": "head",
+          "origin_neutral_mm": [
+            -3.46783026109901,
+            -2.3425016519521944e-06,
+            791.270086261799
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 14.676,
+          "package_face_mm": 16.176000000000002,
+          "gap_mm": 1.5,
+          "family": "S6",
+          "board_rotation_deg": 90,
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_l.protract",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest",
+          "magnet_owner": "clavicle_l.protract_frame",
+          "origin_neutral_mm": [
+            -22.322753935437262,
+            4.656799445541594,
+            697.0936933049209
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_l.elevate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "clavicle_l.protract_frame",
+          "magnet_owner": "clavicle_l",
+          "origin_neutral_mm": [
+            35.67724606456274,
+            4.656799445541594,
+            732.0936933049209
+          ],
+          "normal_neutral": [
+            1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_r.protract",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "chest",
+          "magnet_owner": "clavicle_r.protract_frame",
+          "origin_neutral_mm": [
+            -22.322741529388146,
+            -4.656798532592617,
+            656.0914195560856
+          ],
+          "normal_neutral": [
+            0,
+            0,
+            -1
+          ],
+          "xdir_neutral": [
+            1,
+            0,
+            0
+          ],
+          "geometric_sign": -1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        },
+        {
+          "axis_id": "clavicle_r.elevate",
+          "kind": "AS5048A_direct",
+          "fixed_owner": "clavicle_r.protract_frame",
+          "magnet_owner": "clavicle_r",
+          "origin_neutral_mm": [
+            -80.32274152938814,
+            -4.656798532592617,
+            732.0914195560856
+          ],
+          "normal_neutral": [
+            -1,
+            0,
+            0
+          ],
+          "xdir_neutral": [
+            0,
+            0,
+            1
+          ],
+          "geometric_sign": 1.0,
+          "magnet_face_mm": 18.3,
+          "package_face_mm": 19.8,
+          "gap_mm": 1.5,
+          "family": "G4P2",
+          "calibrated": false
+        }
+      ],
+      "stage": "continuous_body_frame",
+      "legs": [
+        {
+          "side": "l",
+          "hip_twist_offset_mm": -80.0,
+          "hip_pivot": [
+            1.3549231073653976,
+            55.77292919158934,
+            484.37113498221674
+          ],
+          "knee_pivot": [
+            1.3549231073653976,
+            55.77292919158934,
+            255.61094974051758
+          ],
+          "ankle_pivot": [
+            1.3549231073653976,
+            55.77292919158934,
+            47.08384250174802
+          ],
+          "toe_pivot": [
+            76.93386940013887,
+            55.77292919158934,
+            47.08384250174802
+          ]
+        },
+        {
+          "side": "r",
+          "hip_twist_offset_mm": -80.0,
+          "hip_pivot": [
+            1.3547415689683282,
+            -55.77300071716308,
+            484.37086316153324
+          ],
+          "knee_pivot": [
+            1.3547415689683282,
+            -55.77300071716308,
+            255.61117383047855
+          ],
+          "ankle_pivot": [
+            1.3547415689683282,
+            -55.77300071716308,
+            47.083837709872995
+          ],
+          "toe_pivot": [
+            76.93369536195345,
+            -55.77300071716308,
+            47.083837709872995
+          ]
+        }
+      ],
+      "root_reference": "pelvis_local_fixed",
+      "measured_axes": 41,
+      "trunk_joints": {
+        "waist": [
+          "waist.yaw",
+          "waist.pitch",
+          "waist.roll"
+        ],
+        "chest": [
+          "chest.yaw",
+          "chest.pitch",
+          "chest.roll"
+        ]
+      },
+      "head_joints": [
+        "head.yaw",
+        "head.pitch",
+        "head.roll"
+      ],
+      "shoulder_twist_preload": "294N_catalog_candidate",
+      "shoulder_girdle": "four_direct_encoders_preloaded",
+      "measured_encoder_installations": 41,
+      "neck_packaging": "T4_integral_housings_yaw34_pitch38_roll38_posterior_roll"
+    },
+    "checks": [
+      {
+        "pose": "neutral",
+        "angles_deg": {},
+        "hits": []
+      },
+      {
+        "pose": "forward",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 0
+        },
+        "hits": []
+      },
+      {
+        "pose": "backward",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": 0,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": 0
+        },
+        "hits": []
+      },
+      {
+        "pose": "shrug",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "down",
+        "angles_deg": {
+          "clavicle_l.protract": 0,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": 0,
+          "clavicle_r.elevate": -15
+        },
+        "hits": []
+      },
+      {
+        "pose": "forward_up",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "back_down",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "hits": [
+          {
+            "a": "l_arm_upperarm_shell_back",
+            "b": "chest_M_body_frame",
+            "owner_a": "upperarm_l",
+            "owner_b": "chest",
+            "volume_mm3": 39.4928
+          }
+        ]
+      },
+      {
+        "pose": "asymmetric",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_turn",
+        "angles_deg": {
+          "head.yaw": 75
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_other",
+        "angles_deg": {
+          "head.yaw": -75
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_nod",
+        "angles_deg": {
+          "head.pitch": 55
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_up",
+        "angles_deg": {
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_tilt",
+        "angles_deg": {
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_tilt_other",
+        "angles_deg": {
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "chest_bend",
+        "angles_deg": {
+          "chest.pitch": 30
+        },
+        "hits": []
+      },
+      {
+        "pose": "chest_roll",
+        "angles_deg": {
+          "chest.roll": 20
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_-45_-35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": -45,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_-45_35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": -45,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_55_-35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": 55,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_-75_55_35",
+        "angles_deg": {
+          "head.yaw": -75,
+          "head.pitch": 55,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_-45_-35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": -45,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_-45_35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": -45,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_55_-35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": 55,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_0_55_35",
+        "angles_deg": {
+          "head.yaw": 0,
+          "head.pitch": 55,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_-45_-35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": -45,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_-45_35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": -45,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_55_-35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": 55,
+          "head.roll": -35
+        },
+        "hits": []
+      },
+      {
+        "pose": "head_combo_75_55_35",
+        "angles_deg": {
+          "head.yaw": 75,
+          "head.pitch": 55,
+          "head.roll": 35
+        },
+        "hits": []
+      },
+      {
+        "pose": "forward_up_head_-75_-45",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "head.yaw": -75,
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "forward_up_head_75_55",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": 30,
+          "clavicle_r.elevate": 30,
+          "head.yaw": 75,
+          "head.pitch": 55
+        },
+        "hits": []
+      },
+      {
+        "pose": "back_down_head_-75_-45",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": -75,
+          "head.pitch": -45
+        },
+        "hits": [
+          {
+            "a": "l_arm_upperarm_shell_back",
+            "b": "chest_M_body_frame",
+            "owner_a": "upperarm_l",
+            "owner_b": "chest",
+            "volume_mm3": 39.4928
+          }
+        ]
+      },
+      {
+        "pose": "back_down_head_75_55",
+        "angles_deg": {
+          "clavicle_l.protract": -20,
+          "clavicle_l.elevate": -15,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": 75,
+          "head.pitch": 55
+        },
+        "hits": [
+          {
+            "a": "l_arm_upperarm_shell_back",
+            "b": "chest_M_body_frame",
+            "owner_a": "upperarm_l",
+            "owner_b": "chest",
+            "volume_mm3": 39.4928
+          }
+        ]
+      },
+      {
+        "pose": "asymmetric_head_-75_-45",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": -75,
+          "head.pitch": -45
+        },
+        "hits": []
+      },
+      {
+        "pose": "asymmetric_head_75_55",
+        "angles_deg": {
+          "clavicle_l.protract": 30,
+          "clavicle_l.elevate": 30,
+          "clavicle_r.protract": -20,
+          "clavicle_r.elevate": -15,
+          "head.yaw": 75,
+          "head.pitch": 55
+        },
+        "hits": []
+      }
+    ]
+  }
+}

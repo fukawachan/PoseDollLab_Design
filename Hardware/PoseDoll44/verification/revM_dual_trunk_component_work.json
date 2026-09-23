@@ -1,0 +1,198 @@
+{
+  "manny": {
+    "modules": [
+      {
+        "axis": "waist.yaw",
+        "lower_radius_mm": 18,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 5.187110904977376,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "waist.pitch",
+        "lower_radius_mm": 18,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 5.187110904977376,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "waist.roll",
+        "lower_radius_mm": 18,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 5.187110904977376,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "chest.yaw",
+        "lower_radius_mm": 16,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 4.868444328358208,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "chest.pitch",
+        "lower_radius_mm": 16,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 4.868444328358208,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "chest.roll",
+        "lower_radius_mm": 16,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 4.868444328358208,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      }
+    ],
+    "checks": [
+      {
+        "pose": "neutral",
+        "review": []
+      },
+      {
+        "pose": "bend",
+        "review": []
+      },
+      {
+        "pose": "extend",
+        "review": []
+      },
+      {
+        "pose": "roll",
+        "review": []
+      },
+      {
+        "pose": "yaw",
+        "review": []
+      }
+    ]
+  },
+  "quinn": {
+    "modules": [
+      {
+        "axis": "waist.yaw",
+        "lower_radius_mm": 18,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 5.187110904977376,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "waist.pitch",
+        "lower_radius_mm": 18,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 5.187110904977376,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "waist.roll",
+        "lower_radius_mm": 18,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 5.187110904977376,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "chest.yaw",
+        "lower_radius_mm": 16,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 4.868444328358208,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "chest.pitch",
+        "lower_radius_mm": 16,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 4.868444328358208,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      },
+      {
+        "axis": "chest.roll",
+        "lower_radius_mm": 16,
+        "upper_radius_mm": 11,
+        "upper_ID_mm": 10,
+        "upper_lining_thickness_mm": 0.5,
+        "force_nominal_N": 1656,
+        "upper_mean_pressure_MPa": 5.490845536670389,
+        "nominal_torque_Nm": 4.868444328358208,
+        "measured_torque_Nm": null,
+        "encoder_datum_changed": false
+      }
+    ],
+    "checks": [
+      {
+        "pose": "neutral",
+        "review": []
+      },
+      {
+        "pose": "bend",
+        "review": []
+      },
+      {
+        "pose": "extend",
+        "review": []
+      },
+      {
+        "pose": "roll",
+        "review": []
+      },
+      {
+        "pose": "yaw",
+        "review": []
+      }
+    ]
+  }
+}

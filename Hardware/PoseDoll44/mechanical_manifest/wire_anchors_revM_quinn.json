@@ -1,0 +1,194 @@
+[
+  {
+    "id": "A_upperarm_l",
+    "owner": "upperarm_l",
+    "mount_part": "elbow_l_flex_M_upperarm_carrier",
+    "origin_neutral_mm": [
+      -24.436491606538095,
+      89.07673071106525,
+      650.7194332512386
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 90,
+    "wire_centre_local_mm": [
+      2.4868995751603507e-14,
+      8.800000000000082,
+      -70.47588253021206
+    ]
+  },
+  {
+    "id": "A_forearm_l",
+    "owner": "forearm_l",
+    "mount_part": "forearm_l_twist_M_distal_forearm_carrier",
+    "origin_neutral_mm": [
+      -44.436491606538155,
+      119.07673071106511,
+      472.62359742245746
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 70,
+    "wire_centre_local_mm": [
+      -20.00000000000001,
+      38.79999999999997,
+      -54.40584435462927
+    ]
+  },
+  {
+    "id": "A_thigh_l",
+    "owner": "thigh_l",
+    "mount_part": "thigh_l_M_centreline_frame",
+    "origin_neutral_mm": [
+      1.3549231073653898,
+      64.57292919158931,
+      334.9660423613675
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 90,
+    "wire_centre_local_mm": [
+      -7.771561172376096e-15,
+      8.799999999999969,
+      -149.40509262084925
+    ]
+  },
+  {
+    "id": "A_calf_l",
+    "owner": "calf_l",
+    "mount_part": "calf_l_M_centreline_frame",
+    "origin_neutral_mm": [
+      1.3549231073653614,
+      64.57292919158931,
+      129.84739612113293
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 90,
+    "wire_centre_local_mm": [
+      -3.6193270602780103e-14,
+      8.799999999999969,
+      -125.76355361938465
+    ]
+  },
+  {
+    "id": "A_upperarm_r",
+    "owner": "upperarm_r",
+    "mount_part": "elbow_r_flex_M_upperarm_carrier",
+    "origin_neutral_mm": [
+      -24.436497957020357,
+      -89.07649649139067,
+      650.720295663863
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 90,
+    "wire_centre_local_mm": [
+      3.552713678800501e-15,
+      -8.800000000000011,
+      -70.47480964660633
+    ]
+  },
+  {
+    "id": "A_forearm_r",
+    "owner": "forearm_r",
+    "mount_part": "forearm_r_twist_M_distal_forearm_carrier",
+    "origin_neutral_mm": [
+      -44.436497957020336,
+      -119.07649649139064,
+      472.6243158302603
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 70,
+    "wire_centre_local_mm": [
+      -19.999999999999986,
+      -38.8,
+      -54.406305932998464
+    ]
+  },
+  {
+    "id": "A_thigh_r",
+    "owner": "thigh_r",
+    "mount_part": "thigh_r_M_centreline_frame",
+    "origin_neutral_mm": [
+      1.3547415689683202,
+      -64.57300071716311,
+      334.966018496006
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 90,
+    "wire_centre_local_mm": [
+      -7.993605777301127e-15,
+      -8.800000000000033,
+      -149.40484466552726
+    ]
+  },
+  {
+    "id": "A_calf_r",
+    "owner": "calf_r",
+    "mount_part": "calf_r_M_centreline_frame",
+    "origin_neutral_mm": [
+      1.3547415689683078,
+      -64.57300071716311,
+      129.84750577017599
+    ],
+    "direction": [
+      0,
+      0,
+      1
+    ],
+    "inner_diameter_mm": 4.8,
+    "pad_free_thickness_mm": 0.5,
+    "strap_width_mm": 2.5,
+    "strap_length_mm": 90,
+    "wire_centre_local_mm": [
+      -2.042810365310288e-14,
+      -8.800000000000033,
+      -125.76366806030256
+    ]
+  }
+]

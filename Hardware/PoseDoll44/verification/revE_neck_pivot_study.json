@@ -1,0 +1,30 @@
+{
+  "manny": {
+    "baseline_max": 6.001299353939794,
+    "candidate_max": 5.7048064471257245,
+    "delta_x_z_mm": [
+      0.7199999999999999,
+      -0.5949999999999986
+    ],
+    "method": "minimax grid search on 232 design poses; needs independent holdout",
+    "head_pivot_initial_mm": [
+      -8.99386058263631,
+      -1.1385243887149841e-10,
+      529.2603544286211
+    ]
+  },
+  "quinn": {
+    "baseline_max": 6.9055996479224415,
+    "candidate_max": 6.560583954929523,
+    "delta_x_z_mm": [
+      0.8450000000000002,
+      -0.6949999999999996
+    ],
+    "method": "minimax grid search on 232 design poses; needs independent holdout",
+    "head_pivot_initial_mm": [
+      -11.645220174066006,
+      -1.5616677679681295e-06,
+      527.5133908411993
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "38": [
+    {
+      "pose": "neutral",
+      "hits": []
+    },
+    {
+      "pose": "yaw_-75",
+      "hits": []
+    },
+    {
+      "pose": "yaw_75",
+      "hits": []
+    },
+    {
+      "pose": "pitch_-45",
+      "hits": []
+    },
+    {
+      "pose": "pitch_-35",
+      "hits": []
+    },
+    {
+      "pose": "pitch_-25",
+      "hits": []
+    },
+    {
+      "pose": "pitch_-15",
+      "hits": []
+    },
+    {
+      "pose": "pitch_-5",
+      "hits": []
+    },
+    {
+      "pose": "pitch_5",
+      "hits": []
+    },
+    {
+      "pose": "pitch_15",
+      "hits": []
+    },
+    {
+      "pose": "pitch_25",
+      "hits": []
+    },
+    {
+      "pose": "pitch_35",
+      "hits": []
+    },
+    {
+      "pose": "pitch_45",
+      "hits": []
+    },
+    {
+      "pose": "pitch_55",
+      "hits": []
+    },
+    {
+      "pose": "roll_-35",
+      "hits": []
+    },
+    {
+      "pose": "roll_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_-75_-45_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_-75_-45_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_-75_0_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_-75_0_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_-75_55_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_-75_55_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_0_-45_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_0_-45_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_0_0_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_0_0_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_0_55_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_0_55_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_75_-45_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_75_-45_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_75_0_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_75_0_35",
+      "hits": []
+    },
+    {
+      "pose": "combined_75_55_-35",
+      "hits": []
+    },
+    {
+      "pose": "combined_75_55_35",
+      "hits": []
+    }
+  ]
+}

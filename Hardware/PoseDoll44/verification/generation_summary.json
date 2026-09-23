@@ -1,0 +1,26 @@
+{
+  "cadquery": "2.7.0",
+  "mechanical_revision": "B",
+  "fit_profile_id": "a1mini_pla_04_assumed_revB",
+  "fit_profile_sha256": "efea8c9c158538726fb2a840d5d7933b79e407d16155c2fb3cf5214286b72d4a",
+  "user_testing_requested_now": false,
+  "axis_count": 44,
+  "regions": {
+    "N1": 6,
+    "N2": 6,
+    "N3": 9,
+    "N4": 9,
+    "N5": 7,
+    "N6": 7
+  },
+  "part_count": 13,
+  "neutral_head_tip_mm": [
+    0.0,
+    0.0,
+    681.0
+  ],
+  "all_part_solids_valid": true,
+  "fit_only_release": true,
+  "manufacturing_full_body_release": false,
+  "physical_tests": "not_run"
+}

@@ -1,0 +1,198 @@
+{
+  "nodes": [
+    {
+      "node": 1,
+      "chip": "esp32s3",
+      "flash_settings": {
+        "flash_mode": "dio",
+        "flash_size": "8MB",
+        "flash_freq": "80m"
+      },
+      "images": [
+        {
+          "offset": "0x0",
+          "file": "bootloader/bootloader.bin",
+          "bytes": 21120,
+          "sha256": "4593e1ee1325bbb9f4e12ddc42721da9d0ee41da580096ef992bae4461e9118f"
+        },
+        {
+          "offset": "0x8000",
+          "file": "partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "offset": "0x10000",
+          "file": "PoseDollFullBody.bin",
+          "bytes": 246736,
+          "sha256": "c4dea6024c4c5b6ba1e32d586b3ea9388ad6601ef88100cc30c7f248493d40a9"
+        }
+      ],
+      "hardware_flashed": false
+    },
+    {
+      "node": 2,
+      "chip": "esp32s3",
+      "flash_settings": {
+        "flash_mode": "dio",
+        "flash_size": "8MB",
+        "flash_freq": "80m"
+      },
+      "images": [
+        {
+          "offset": "0x0",
+          "file": "bootloader/bootloader.bin",
+          "bytes": 21120,
+          "sha256": "f3d96bc50b89b58df5e5e0c6a21fc82622bc57036d0766fe420d5629cd556f07"
+        },
+        {
+          "offset": "0x8000",
+          "file": "partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "offset": "0x10000",
+          "file": "PoseDollFullBody.bin",
+          "bytes": 233632,
+          "sha256": "e23ac3e3745ec9a64693d9617faa3c5a057cc9b0c925582fc18f2df04c8c6ed2"
+        }
+      ],
+      "hardware_flashed": false
+    },
+    {
+      "node": 3,
+      "chip": "esp32s3",
+      "flash_settings": {
+        "flash_mode": "dio",
+        "flash_size": "8MB",
+        "flash_freq": "80m"
+      },
+      "images": [
+        {
+          "offset": "0x0",
+          "file": "bootloader/bootloader.bin",
+          "bytes": 21120,
+          "sha256": "3f8b683dfcb2ac114b34cf886d7c58ca11535ebeac011c4776971e911c113fb8"
+        },
+        {
+          "offset": "0x8000",
+          "file": "partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "offset": "0x10000",
+          "file": "PoseDollFullBody.bin",
+          "bytes": 233632,
+          "sha256": "ead73cb79b90e8a8ca65275bdf5dd667640f9c435796d51b5cae130382832cf3"
+        }
+      ],
+      "hardware_flashed": false
+    },
+    {
+      "node": 4,
+      "chip": "esp32s3",
+      "flash_settings": {
+        "flash_mode": "dio",
+        "flash_size": "8MB",
+        "flash_freq": "80m"
+      },
+      "images": [
+        {
+          "offset": "0x0",
+          "file": "bootloader/bootloader.bin",
+          "bytes": 21120,
+          "sha256": "0cf80fbf4e9dddfb154816d3fae91a409303246a4c7b5a35e91c9bfc2e2bb135"
+        },
+        {
+          "offset": "0x8000",
+          "file": "partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "offset": "0x10000",
+          "file": "PoseDollFullBody.bin",
+          "bytes": 233632,
+          "sha256": "3f4cf481c33edc1d7ad5b65ee9e448b83c32c115a669f0c60f103446017a7edc"
+        }
+      ],
+      "hardware_flashed": false
+    },
+    {
+      "node": 5,
+      "chip": "esp32s3",
+      "flash_settings": {
+        "flash_mode": "dio",
+        "flash_size": "8MB",
+        "flash_freq": "80m"
+      },
+      "images": [
+        {
+          "offset": "0x0",
+          "file": "bootloader/bootloader.bin",
+          "bytes": 21120,
+          "sha256": "f21c401fcf9b399a66a3c19a18508713811e335f8ee9342543bd0558a5c03636"
+        },
+        {
+          "offset": "0x8000",
+          "file": "partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "offset": "0x10000",
+          "file": "PoseDollFullBody.bin",
+          "bytes": 233632,
+          "sha256": "f9b2e8978b0d45b62228ee70024616dcf750b9e891bb014f360bf765a62cbbb2"
+        }
+      ],
+      "hardware_flashed": false
+    },
+    {
+      "node": 6,
+      "chip": "esp32s3",
+      "flash_settings": {
+        "flash_mode": "dio",
+        "flash_size": "8MB",
+        "flash_freq": "80m"
+      },
+      "images": [
+        {
+          "offset": "0x0",
+          "file": "bootloader/bootloader.bin",
+          "bytes": 21120,
+          "sha256": "fa646021d2086f15358e0e156bd8052ca6c6ae49a1e3a177657ec14142900e13"
+        },
+        {
+          "offset": "0x8000",
+          "file": "partition_table/partition-table.bin",
+          "bytes": 3072,
+          "sha256": "7f00b6c042a89b15b0cac534f82ed988caf29278ff5700b0c511eb1b5bb7c820"
+        },
+        {
+          "offset": "0x10000",
+          "file": "PoseDollFullBody.bin",
+          "bytes": 233632,
+          "sha256": "07e3aa63f68004851c07659723714d851dcff746b2c25e895d9abfb915ca9440"
+        }
+      ],
+      "hardware_flashed": false
+    }
+  ],
+  "source_sha256": {
+    "Firmware\\PoseDollFullBody\\main\\CMakeLists.txt": "4356ac28fa0d19e282b869c47038097fc8d727706e6e3a6e76bcb95331d4fc18",
+    "Firmware\\PoseDollFullBody\\main\\Kconfig.projbuild": "e43d3831987ebbe9ea313a5796d8d9a2889ff0f0424a952785228c2bd61bfc27",
+    "Firmware\\PoseDollFullBody\\main\\main.c": "33a520c040066448365b12106ce274ef578796bc64139259ec82ffa8d251344d",
+    "Firmware\\PoseDollFullBody\\main\\pd41_config.h": "90037c5f21536761d052c7ad4ad816e3392fe402045f65ee5044679cf04f6922",
+    "Firmware\\PoseDollFullBody\\main\\pd41_core.c": "3c311204bbc4a7598c9a354c4ec9d90dab562f1d863f026fcadd44ed8ebb8fad",
+    "Firmware\\PoseDollFullBody\\main\\pd41_core.h": "676a13ccecef3aefaf41eb9b1ab089f0e3c1c034c5f2f61b607c108d252e595c",
+    "Firmware\\PoseDollFullBody\\CMakeLists.txt": "f6b07bed2577245db56a9f539561ff793497036085a24506ed5fadb78597ff3d",
+    "Firmware\\PoseDollFullBody\\sdkconfig.defaults": "fefafcfdff2937c4a066f6bea1c45e4ac6b04a0ef4b1dde14d0c05156b4e88f1",
+    "Firmware\\PoseDollFullBody\\tools\\build.ps1": "5b2bdb34cf2385fdb137b07a4e08fadb5b591fa44efeb92ab18d148072cd5d7b",
+    "Firmware\\PoseDollFullBody\\tools\\generate_config.py": "3607e81f52ae02876cf8549f81211e602f45e100b894c17ae8ea69e2c82070ae"
+  },
+  "built_with": "ESP-IDF v6.1",
+  "hardware_flashed": false
+}

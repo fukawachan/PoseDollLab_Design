@@ -1,0 +1,1 @@
+{"axes": 44, "meshes": 12, "body_clear_samples": 12, "H2_angles": 72, "physical_tests": "not_run", "manufacturing_release": false}

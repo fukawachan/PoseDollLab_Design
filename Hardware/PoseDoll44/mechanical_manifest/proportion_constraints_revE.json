@@ -1,0 +1,64 @@
+{
+  "revision": "RevE_dual_character_requirement",
+  "status": "NEUTRAL_PROPORTION_PASS_DYNAMIC_AND_MECHANICAL_PENDING",
+  "target_rig": "/Game/Characters/Mannequins/Rigs/CR_Mannequin_Body",
+  "user_requirement": "Manny 和 Quinn 两款人偶分别保持与对应 UE 角色一致的体格比例，摆姿势尽量所见即所得。",
+  "single_uniform_scale_required": true,
+  "selected_scale": 0.3333333333333333,
+  "preferred_height_mm_exploratory": 500,
+  "stature_definition": "Neutral sole surface to crown surface, excluding fixed stand and protruding electronics.",
+  "design_targets_not_validated": {
+    "major_link_length_relative_error_max": 0.01,
+    "shoulder_and_hip_span_relative_error_max": 0.01,
+    "neutral_semantic_landmark_error_divided_by_stature_max": 0.005,
+    "sampled_wrist_ankle_head_position_error_divided_by_stature_max": 0.01,
+    "task_contact_point_error_divided_by_stature_max": 0.01
+  },
+  "required_lengths": [
+    "upper_arm",
+    "forearm",
+    "thigh",
+    "shin",
+    "shoulder_span",
+    "hip_span",
+    "pelvis_to_shoulder_height",
+    "head_extent",
+    "hand_extent",
+    "foot_extent"
+  ],
+  "required_pose_checks": [
+    "neutral",
+    "arms_forward",
+    "arms_side",
+    "arms_overhead",
+    "arms_crossed",
+    "hands_together",
+    "hand_to_forehead",
+    "hands_on_hips",
+    "sitting",
+    "crouch",
+    "kneeling",
+    "foot_contacts"
+  ],
+  "policies": [
+    "Choose joint centres before packing hardware.",
+    "Do not independently lengthen limbs or widen shoulders to fit components.",
+    "Use global scale or mechanism redesign when components do not fit.",
+    "Include moving multi-axis pivot offsets in kinematics, not only reference-pose link lengths.",
+    "Compare actual mapped Manny endpoint positions and contact surfaces; visual pose names alone are not acceptance.",
+    "Keep 44 axis IDs and existing virtual profile unchanged; export a new physical profile.",
+    "Quinn must use her own mesh reference lengths, never Manny lengths copied from the shared Control Rig."
+  ],
+  "manufacturing_release": false,
+  "user_testing_required_now": false,
+  "physical_validation": "not_run",
+  "target_meshes": {
+    "manny": "/Game/Characters/Mannequins/Meshes/SKM_Manny_Simple",
+    "quinn": "/Game/Characters/Mannequins/Meshes/SKM_Quinn_Simple"
+  },
+  "body_height_mm_by_character": {
+    "manny": 605.286926085687,
+    "quinn": 605.1329244964063
+  },
+  "supersedes": "proportion_constraints_revD.json"
+}

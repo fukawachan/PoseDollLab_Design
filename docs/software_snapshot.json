@@ -1,0 +1,126 @@
+{
+  "upstream_commit": "7c22e075fe0efe295ce2935a8bb2a92cff0b6def",
+  "scope": "Read-only compatibility snapshot for hardware tools. Original UE project and simulator remain in place. No simulator GUI copied.",
+  "files": [
+    {
+      "path": "Shared/Contracts/device_profile.schema.json",
+      "sha256": "2d6b1771a1afb5088850c8cf5aa3459d22a2ba0f7ed31aa0881687c8a3c007f2"
+    },
+    {
+      "path": "Shared/Contracts/sample.schema.json",
+      "sha256": "3094546fdcb228ef52a88929abec4d5282013b54b8c7f19e81b87c8172af6d7f"
+    },
+    {
+      "path": "Shared/Fixtures/asymmetric_pose.sample.json",
+      "sha256": "5ae6274d53d1ed79eb9e15e75c1fdf62e36aab0964de37c5dde61e656bc97b0c"
+    },
+    {
+      "path": "Shared/Fixtures/axis_sweep.sample.json",
+      "sha256": "2e825f1f660bc7dc2e5d2436ed755d26566d56bf0d799d0d6056292d6a01de1f"
+    },
+    {
+      "path": "Shared/Fixtures/euler_boundary_a.sample.json",
+      "sha256": "510a377f3ef84532caae27a430c486b6326f2a7be0407ca862f527a31289180d"
+    },
+    {
+      "path": "Shared/Fixtures/euler_boundary_b.sample.json",
+      "sha256": "aa3200ec02c235babc62d36669d28b597f0259e1a3ba475e332ab44ba54398e7"
+    },
+    {
+      "path": "Shared/Fixtures/golden_vectors.json",
+      "sha256": "cb5e6dfdea54cdbf9bfe56c26641e2cab98446845c206df586cc930801e9e6bb"
+    },
+    {
+      "path": "Shared/Fixtures/head_world_-90.sample.json",
+      "sha256": "5ac9251b7537e26a79d18956e93773b08d223d36404ffd99811946f54df9eeaa"
+    },
+    {
+      "path": "Shared/Fixtures/head_world_-92.sample.json",
+      "sha256": "4ab85e8d4437c98e15c74806fef7f3dd1b4b503e56e6c19e09968680e7ff6b99"
+    },
+    {
+      "path": "Shared/Fixtures/head_world_179.sample.json",
+      "sha256": "792f89bfe742df9e3d9b1f3788a765a582665b92ce201888ed768aac044bb484"
+    },
+    {
+      "path": "Shared/Fixtures/head_world_181.sample.json",
+      "sha256": "264b16ab98b8f3763a67b475656c9cb4f7344315356a00fd5ae19393866ba207"
+    },
+    {
+      "path": "Shared/Fixtures/hello.json",
+      "sha256": "7cabe3309198d8adef533d9edf81b152ff4c2c44eeacfcb42542bbeb1f0accff"
+    },
+    {
+      "path": "Shared/Fixtures/left_elbow_90.sample.json",
+      "sha256": "379690294e5089c49f7644b04a66a48f14271032a80ff13545b3bac5479cb4fc"
+    },
+    {
+      "path": "Shared/Fixtures/left_knee_90.sample.json",
+      "sha256": "e1528689c3711ae9c954763fc0ea7d28a5b06c8c6c2ae93fa166c54b6d83f6ad"
+    },
+    {
+      "path": "Shared/Fixtures/left_shoulder_forward_90.sample.json",
+      "sha256": "d7d4c1d02df5970a50c8751ce5525a77cc2596373ced51b1e8a7c7db21be01c0"
+    },
+    {
+      "path": "Shared/Fixtures/neutral.sample.json",
+      "sha256": "98d148da23cb5ada3c81bdeac996997b54a01712f6aa6d16eef1229a430654a8"
+    },
+    {
+      "path": "Shared/Fixtures/poses_degrees.json",
+      "sha256": "b201ee600638ecfe08d4cd7a8b6fadb9ae44351c672c640c4baa3252ba2fe05b"
+    },
+    {
+      "path": "Shared/Fixtures/profile_hashes.json",
+      "sha256": "05813bfb27bed3d61768e6e6ce4a7cf5cf4c598f38b81b89cc6220d04054208a"
+    },
+    {
+      "path": "Shared/Fixtures/winding_probe.sample.json",
+      "sha256": "35ccecb2a53e1c44a14149405c4c6782fe5b100168b481648b5e71663d910859"
+    },
+    {
+      "path": "Shared/Profiles/body35_capabilities.json",
+      "sha256": "8a1a069b129c9775749f0ded3510b0edfbd330381635f1220fb8925d821ec7ba"
+    },
+    {
+      "path": "Shared/Profiles/manny_body_ue582_v1.json",
+      "sha256": "4843fb26f3ddd9dbee9579618935c969a3042b212289128f8efbc3f2336e493f"
+    },
+    {
+      "path": "Shared/Profiles/virtual_humanoid_44_v1.json",
+      "sha256": "a7047b7c1bdefaee37acf547d5a823cc2f89d08f5c3e9cd9710a6f6bf79ef224"
+    },
+    {
+      "path": "Shared/Profiles/virtual_zero_pi_v1.json",
+      "sha256": "fe8480bff00c451f3b8eb7e3fab9bf1e65fb422ce482a08cebc7d33ba3f8989f"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/src/posedoll_sim/core.py",
+      "sha256": "b85f2a8b693edd49df42ea71e9f20952d6788a8dca81dde694d93fc0955b21dc"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/src/posedoll_sim/diagnostics.py",
+      "sha256": "85a9ac8e8a79a4c4a6c9aa5ee16f971357597d148a8414ce3abe2b1be4d9ebd5"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/src/posedoll_sim/transport.py",
+      "sha256": "6a36e11fe1bce348cd27f3dfdecad0cd01e082cfc90284177d22b31de858b86f"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/src/posedoll_sim/__init__.py",
+      "sha256": "a27535071875e50a74fe54535493669a22fd036aa88d9a7e032d48e5a6ee2606"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/tests/test_core.py",
+      "sha256": "0c3dd0d2c86ec6483d4e32195a7bd3cc77a646b87e277a5c7fe550760f2db411"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/tests/test_diagnostics.py",
+      "sha256": "4eea23ba9e233f28048d7082fac33212d24ea5e0f2ceccf624caae9443cc22e3"
+    },
+    {
+      "path": "Tools/PoseDollSimulator/tests/test_transport.py",
+      "sha256": "e05c14305ffac653998449b2ea49ae31214f6577dcfc9eb5dcb184a1d3946bdf"
+    }
+  ]
+}

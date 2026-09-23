@@ -1,0 +1,57 @@
+﻿python.exe : Your environment is not configured to handle Unicode characters.
+At E:\UnrealProjects\DollSimulation\Hardware\PoseDoll44\tools\Build-Hardware.ps1:13 char:5
++     & $exe @argv 2>&1 | Out-File -LiteralPath $log -Encoding utf8
++     ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Your environmen...ode characters.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+Recommended fix (persistent):
+ - Enable "Beta: Use Unicode UTF-8 for worldwide language support" in Windows language/region settings.
+
+If you still see issues or this warning persists, you can also try one of these workarounds:
+ - Run "chcp 65001" in the current console before running idf.py.
+ - Set PYTHONUTF8=1 before running idf.py (or set it globally).
+
+Note: "chcp 65001" must be run in each new console session unless your console/profile is configured to apply it automa
+tically.
+[1/9] Performing build step for 'bootloader'
+[1/1] C:\Windows\system32\cmd.exe /C "cd /D E:\UnrealProjects\DollSimulation\Firmware\PoseDollHardware\build\bootloader && C:\Espressif\tools\python\v6.1\venv\Scripts\python.exe D:/ProgramFiles/esp/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 E:/UnrealProjects/DollSimulation/Firmware/PoseDollHardware/build/bootloader/bootloader.bin"
+
+Bootloader binary size 0x5280 bytes. 0x2d80 bytes (36%) free.
+
+
+[2/9] No install step for 'bootloader'
+[3/9] Completed 'bootloader'
+[4/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+[5/9] Linking C static library esp-idf\main\libmain.a
+[6/9] Generating esp-idf/esp_system/ld/sections.ld
+Skipping linker script generation, section names unchanged
+
+[7/9] Linking CXX executable posedoll_h1_diagnostic.elf
+[8/9] Generating binary image from built executable
+esptool v5.3.1
+
+Creating ESP32-S3 image...
+
+Merged 3 ELF sections.
+
+Successfully created ESP32-S3 image.
+
+Generated E:/UnrealProjects/DollSimulation/Firmware/PoseDollHardware/build/posedoll_h1_diagnostic.bin
+[9/9] C:\Windows\system32\cmd.exe /C "cd /D E:\UnrealProjects\DollSimulation\Firmware\PoseDollHardware\build && C:\Espressif\tools\python\v6.1\venv\Scripts\python.exe D:/ProgramFiles/esp/v6.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app E:/UnrealProjects/DollSimulation/Firmware/PoseDollHardware/build/partition_table/partition-table.bin E:/UnrealProjects/DollSimulation/Firmware/PoseDollHardware/build/posedoll_h1_diagnostic.bin"
+posedoll_h1_diagnostic.bin binary size 0x362a0 bytes. Smallest app partition is 0x100000 bytes. 0xc9d60 bytes (79%) free.
+
+Executing action: all (aliases: build)
+Running ninja in directory E:\UnrealProjects\DollSimulation\Firmware\PoseDollHardware\build
+Executing "ninja all"...
+
+
+Project build complete. To flash, run:
+ idf.py flash
+or
+ idf.py -p PORT flash
+or
+ python -m esptool --chip esp32s3 -b 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-size 8MB --flash-freq 80m 0x0 build\bootloader\bootloader.bin 0x8000 build\partition_table\partition-table.bin 0x10000 build\posedoll_h1_diagnostic.bin
+or from the "E:\UnrealProjects\DollSimulation\Firmware\PoseDollHardware\build" directory
+ python -m esptool --chip esp32s3 -b 460800 --before default-reset --after hard-reset write-flash "@flash_args"

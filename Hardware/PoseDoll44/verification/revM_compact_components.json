@@ -1,0 +1,585 @@
+{
+  "status": "COMPONENT_GEOMETRY_CHECK",
+  "physical_tested": false,
+  "families": {
+    "S6": {
+      "meta": {
+        "family": "S6",
+        "shaft_mm": 6,
+        "clutch_force_nominal_N": 151,
+        "spring": {
+          "ro": 11,
+          "spring": "002050",
+          "de": 12.5,
+          "di": 6.2,
+          "t": 0.35,
+          "free": 0.8,
+          "test": 0.463,
+          "F": 151
+        },
+        "friction_mu_assumed": 0.15,
+        "nominal_torque_Nm": 0.18291,
+        "cap_bottom_mm": 6.926,
+        "shaft_end_mm": 8.926,
+        "board_back_mm": 18.171000000000003,
+        "magnet_face_mm": 14.676,
+        "package_face_mm": 16.176000000000002,
+        "gap_mm": 1.5,
+        "fixed_mounts_mm": [
+          [
+            19,
+            -6,
+            2.5
+          ],
+          [
+            19,
+            6,
+            2.5
+          ]
+        ],
+        "rotor_mounts_mm": [
+          [
+            -14,
+            -6,
+            -5.525
+          ],
+          [
+            -14,
+            6,
+            -5.525
+          ]
+        ],
+        "intended_thread_pairs": [
+          [
+            "flanged_rotor_shaft",
+            "M3x8_button_retainer"
+          ],
+          [
+            "D_stop_cap",
+            "cup_M2x4_0"
+          ],
+          [
+            "D_stop_cap",
+            "cup_M2x4_1"
+          ],
+          [
+            "keyed_magnet_cup",
+            "keeper_M2x3_0"
+          ],
+          [
+            "keyed_magnet_cup",
+            "keeper_M2x3_1"
+          ],
+          [
+            "flanged_rotor_shaft",
+            "output_M2x6"
+          ],
+          [
+            "fixed_metal_eye",
+            "board_post_0"
+          ],
+          [
+            "board_post_0",
+            "PCB_M2x6_0"
+          ],
+          [
+            "fixed_metal_eye",
+            "board_post_1"
+          ],
+          [
+            "board_post_1",
+            "PCB_M2x6_1"
+          ]
+        ],
+        "physical_tested": false,
+        "manufacturing_released": false
+      },
+      "parts": 35,
+      "unplanned_assembly_hits": [],
+      "motion": [
+        {
+          "degrees": 0,
+          "hits": []
+        },
+        {
+          "degrees": 15,
+          "hits": []
+        },
+        {
+          "degrees": 30,
+          "hits": []
+        },
+        {
+          "degrees": 45,
+          "hits": []
+        },
+        {
+          "degrees": 60,
+          "hits": []
+        },
+        {
+          "degrees": 75,
+          "hits": []
+        },
+        {
+          "degrees": 90,
+          "hits": []
+        },
+        {
+          "degrees": 105,
+          "hits": []
+        },
+        {
+          "degrees": 120,
+          "hits": []
+        },
+        {
+          "degrees": 135,
+          "hits": []
+        },
+        {
+          "degrees": 150,
+          "hits": []
+        },
+        {
+          "degrees": 165,
+          "hits": []
+        },
+        {
+          "degrees": 180,
+          "hits": []
+        },
+        {
+          "degrees": 195,
+          "hits": []
+        },
+        {
+          "degrees": 210,
+          "hits": []
+        },
+        {
+          "degrees": 225,
+          "hits": []
+        },
+        {
+          "degrees": 240,
+          "hits": []
+        },
+        {
+          "degrees": 255,
+          "hits": []
+        },
+        {
+          "degrees": 270,
+          "hits": []
+        },
+        {
+          "degrees": 285,
+          "hits": []
+        },
+        {
+          "degrees": 300,
+          "hits": []
+        },
+        {
+          "degrees": 315,
+          "hits": []
+        },
+        {
+          "degrees": 330,
+          "hits": []
+        },
+        {
+          "degrees": 345,
+          "hits": []
+        }
+      ]
+    },
+    "M6": {
+      "meta": {
+        "family": "M6",
+        "shaft_mm": 6,
+        "clutch_force_nominal_N": 326,
+        "spring": {
+          "ro": 13,
+          "spring": "002100",
+          "de": 12,
+          "di": 6.2,
+          "t": 0.5,
+          "free": 0.85,
+          "test": 0.588,
+          "F": 326
+        },
+        "friction_mu_assumed": 0.15,
+        "nominal_torque_Nm": 0.4558471345029241,
+        "cap_bottom_mm": 7.176,
+        "shaft_end_mm": 9.176,
+        "board_back_mm": 18.421000000000003,
+        "magnet_face_mm": 14.926,
+        "package_face_mm": 16.426000000000002,
+        "gap_mm": 1.5,
+        "fixed_mounts_mm": [
+          [
+            21,
+            -6,
+            2.5
+          ],
+          [
+            21,
+            6,
+            2.5
+          ]
+        ],
+        "rotor_mounts_mm": [
+          [
+            -16,
+            -6,
+            -5.525
+          ],
+          [
+            -16,
+            6,
+            -5.525
+          ]
+        ],
+        "intended_thread_pairs": [
+          [
+            "flanged_rotor_shaft",
+            "M3x8_button_retainer"
+          ],
+          [
+            "D_stop_cap",
+            "cup_M2x4_0"
+          ],
+          [
+            "D_stop_cap",
+            "cup_M2x4_1"
+          ],
+          [
+            "keyed_magnet_cup",
+            "keeper_M2x3_0"
+          ],
+          [
+            "keyed_magnet_cup",
+            "keeper_M2x3_1"
+          ],
+          [
+            "flanged_rotor_shaft",
+            "output_M2x6"
+          ],
+          [
+            "fixed_metal_eye",
+            "board_post_0"
+          ],
+          [
+            "board_post_0",
+            "PCB_M2x6_0"
+          ],
+          [
+            "fixed_metal_eye",
+            "board_post_1"
+          ],
+          [
+            "board_post_1",
+            "PCB_M2x6_1"
+          ]
+        ],
+        "physical_tested": false,
+        "manufacturing_released": false
+      },
+      "parts": 35,
+      "unplanned_assembly_hits": [],
+      "motion": [
+        {
+          "degrees": 0,
+          "hits": []
+        },
+        {
+          "degrees": 15,
+          "hits": []
+        },
+        {
+          "degrees": 30,
+          "hits": []
+        },
+        {
+          "degrees": 45,
+          "hits": []
+        },
+        {
+          "degrees": 60,
+          "hits": []
+        },
+        {
+          "degrees": 75,
+          "hits": []
+        },
+        {
+          "degrees": 90,
+          "hits": []
+        },
+        {
+          "degrees": 105,
+          "hits": []
+        },
+        {
+          "degrees": 120,
+          "hits": []
+        },
+        {
+          "degrees": 135,
+          "hits": []
+        },
+        {
+          "degrees": 150,
+          "hits": []
+        },
+        {
+          "degrees": 165,
+          "hits": []
+        },
+        {
+          "degrees": 180,
+          "hits": []
+        },
+        {
+          "degrees": 195,
+          "hits": []
+        },
+        {
+          "degrees": 210,
+          "hits": []
+        },
+        {
+          "degrees": 225,
+          "hits": []
+        },
+        {
+          "degrees": 240,
+          "hits": []
+        },
+        {
+          "degrees": 255,
+          "hits": []
+        },
+        {
+          "degrees": 270,
+          "hits": []
+        },
+        {
+          "degrees": 285,
+          "hits": []
+        },
+        {
+          "degrees": 300,
+          "hits": []
+        },
+        {
+          "degrees": 315,
+          "hits": []
+        },
+        {
+          "degrees": 330,
+          "hits": []
+        },
+        {
+          "degrees": 345,
+          "hits": []
+        }
+      ]
+    },
+    "H6": {
+      "meta": {
+        "family": "H6",
+        "shaft_mm": 6,
+        "clutch_force_nominal_N": 552,
+        "spring": {
+          "ro": 16,
+          "spring": "002200",
+          "de": 12,
+          "di": 6.2,
+          "t": 0.6,
+          "free": 0.95,
+          "test": 0.688,
+          "F": 552
+        },
+        "friction_mu_assumed": 0.15,
+        "nominal_torque_Nm": 0.929364776119403,
+        "cap_bottom_mm": 7.3759999999999994,
+        "shaft_end_mm": 9.376,
+        "board_back_mm": 18.621,
+        "magnet_face_mm": 15.126,
+        "package_face_mm": 16.625999999999998,
+        "gap_mm": 1.5,
+        "fixed_mounts_mm": [
+          [
+            24,
+            -6,
+            2.5
+          ],
+          [
+            24,
+            6,
+            2.5
+          ]
+        ],
+        "rotor_mounts_mm": [
+          [
+            -19,
+            -6,
+            -5.525
+          ],
+          [
+            -19,
+            6,
+            -5.525
+          ]
+        ],
+        "intended_thread_pairs": [
+          [
+            "flanged_rotor_shaft",
+            "M3x8_button_retainer"
+          ],
+          [
+            "D_stop_cap",
+            "cup_M2x4_0"
+          ],
+          [
+            "D_stop_cap",
+            "cup_M2x4_1"
+          ],
+          [
+            "keyed_magnet_cup",
+            "keeper_M2x3_0"
+          ],
+          [
+            "keyed_magnet_cup",
+            "keeper_M2x3_1"
+          ],
+          [
+            "flanged_rotor_shaft",
+            "output_M2x6"
+          ],
+          [
+            "fixed_metal_eye",
+            "board_post_0"
+          ],
+          [
+            "board_post_0",
+            "PCB_M2x6_0"
+          ],
+          [
+            "fixed_metal_eye",
+            "board_post_1"
+          ],
+          [
+            "board_post_1",
+            "PCB_M2x6_1"
+          ]
+        ],
+        "physical_tested": false,
+        "manufacturing_released": false
+      },
+      "parts": 35,
+      "unplanned_assembly_hits": [],
+      "motion": [
+        {
+          "degrees": 0,
+          "hits": []
+        },
+        {
+          "degrees": 15,
+          "hits": []
+        },
+        {
+          "degrees": 30,
+          "hits": []
+        },
+        {
+          "degrees": 45,
+          "hits": []
+        },
+        {
+          "degrees": 60,
+          "hits": []
+        },
+        {
+          "degrees": 75,
+          "hits": []
+        },
+        {
+          "degrees": 90,
+          "hits": []
+        },
+        {
+          "degrees": 105,
+          "hits": []
+        },
+        {
+          "degrees": 120,
+          "hits": []
+        },
+        {
+          "degrees": 135,
+          "hits": []
+        },
+        {
+          "degrees": 150,
+          "hits": []
+        },
+        {
+          "degrees": 165,
+          "hits": []
+        },
+        {
+          "degrees": 180,
+          "hits": []
+        },
+        {
+          "degrees": 195,
+          "hits": []
+        },
+        {
+          "degrees": 210,
+          "hits": []
+        },
+        {
+          "degrees": 225,
+          "hits": []
+        },
+        {
+          "degrees": 240,
+          "hits": []
+        },
+        {
+          "degrees": 255,
+          "hits": []
+        },
+        {
+          "degrees": 270,
+          "hits": []
+        },
+        {
+          "degrees": 285,
+          "hits": []
+        },
+        {
+          "degrees": 300,
+          "hits": []
+        },
+        {
+          "degrees": 315,
+          "hits": []
+        },
+        {
+          "degrees": 330,
+          "hits": []
+        },
+        {
+          "degrees": 345,
+          "hits": []
+        }
+      ]
+    }
+  }
+}

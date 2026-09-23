@@ -1,0 +1,39 @@
+{
+  "checked_utc_date": "2026-09-23",
+  "sources": [
+    {
+      "url": "https://online.kaiseraluminum.com/depot/PublicProductInformation/Document/1017/Kaiser_Aluminum_7075_Sheet_Coil_and_Plate.pdf",
+      "manufacturer": "Kaiser Aluminum",
+      "material": "7075-T651",
+      "typical_yield_MPa": 503,
+      "typical_E_GPa": 71,
+      "note": "Typical published properties, not a minimum certificate or a finished-part rating; machining and stock qualification remain required."
+    },
+    {
+      "url": "https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf",
+      "manufacturer": "SCHNORR",
+      "pdf_page_index": 10,
+      "selected": [
+        {
+          "article": "001200",
+          "De_mm": 10,
+          "Di_mm": 4.2,
+          "t_mm": 0.5,
+          "l0_mm": 0.75,
+          "test_height_mm": 0.563,
+          "F_N": 294
+        },
+        {
+          "article": "001800",
+          "De_mm": 12,
+          "Di_mm": 4.2,
+          "t_mm": 0.6,
+          "l0_mm": 1.0,
+          "test_height_mm": 0.7,
+          "F_N": 557
+        }
+      ],
+      "note": "Catalog forces at specified compressed height; parallel forces add, series travel adds. Material, tolerances and preload must be verified physically."
+    }
+  ]
+}

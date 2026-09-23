@@ -1,0 +1,5 @@
+(sym_lib_table
+(lib (name "Connector_Generic") (type "KiCad") (uri "D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/Connector_Generic.kicad_sym") (options "") (descr ""))
+(lib (name "Device") (type "KiCad") (uri "D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/Device.kicad_sym") (options "") (descr ""))
+(lib (name "Sensor_Magnetic") (type "KiCad") (uri "D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/Sensor_Magnetic.kicad_sym") (options "") (descr ""))
+(lib (name "power") (type "KiCad") (uri "D:/ProgramFiles/KiCad/10.0/share/kicad/symbols/power.kicad_sym") (options "") (descr "")))

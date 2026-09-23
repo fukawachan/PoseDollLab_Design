@@ -1,0 +1,21 @@
+{
+  "revision": "2026-09-23_user_accepted_pelvis_local_reference",
+  "fixed_external_stand_required": false,
+  "external_support_design": "deferred_by_user",
+  "focus": "human_form_doll_body",
+  "target_pose_families": [
+    "standing",
+    "sitting",
+    "lying_supine",
+    "lying_prone",
+    "side_lying"
+  ],
+  "internal_structure": "Retain necessary skeleton, joint bearings and sensor brackets; these are not the external support.",
+  "world_placement": "All global translation and all three rotations (yaw, pitch, roll) are set manually in Unreal Placement. No world orientation or translation is inferred from joint encoders.",
+  "pelvis_reference": "Pelvis forward defines local +X. pelvis.yaw/pitch/roll are declared fixed 0 rad with null raw samples; the other 41 axes are measured. Fixed reference is not a missing or zero-valued sensor.",
+  "current_validation": "Rev M complete rigid bodies, finite-pose checks in verification/revM_complete_audit.json. No self-standing claim, continuous collision proof or physical qualification. Laying the whole doll down is a world transform and remains manual in UE.",
+  "orientation_sensor_required": false,
+  "global_orientation_tracks_doll": false,
+  "physical_sensor_count": 41,
+  "logical_channel_count": 44
+}

@@ -1,0 +1,81 @@
+{
+  "plan_id": "PoseDoll_HW44_Plan_v0.1",
+  "status": "ARCHITECTURE_BASELINE_NOT_VALIDATED_HARDWARE",
+  "reviewed_on": "2026-09-19",
+  "baseline_repository": "fukawachan/DollSimulation",
+  "baseline_commit": "7c22e075fe0efe295ce2935a8bb2a92cff0b6def",
+  "baseline_profile_path": "Shared/Profiles/virtual_humanoid_44_v1.json",
+  "baseline_profile_git_blob": "54f4718d5aeb3b25060c5e2b17648c69b5a8a352",
+  "baseline_profile_sha256": "a7047b7c1bdefaee37acf547d5a823cc2f89d08f5c3e9cd9710a6f6bf79ef224",
+  "baseline_calibration_path": "Shared/Profiles/virtual_zero_pi_v1.json",
+  "baseline_calibration_git_blob": "8582f2df988d0ae760b64db9533a9475b042828f",
+  "baseline_calibration_sha256": "fe8480bff00c451f3b8eb7e3fab9bf1e65fb422ce482a08cebc7d33ba3f8989f",
+  "scope": {
+    "measured_rotary_axes": 44,
+    "acquisition_nodes": 6,
+    "gateway_nodes": 1,
+    "source_semantic_segments": 20,
+    "motors": false,
+    "battery": false,
+    "wireless": false,
+    "world_translation_tracking": false,
+    "fingers": false,
+    "facial_tracking": false
+  },
+  "mechanical_targets": {
+    "nominal_assembled_height_mm": 500,
+    "height_status": "PACKAGING_TARGET_NOT_FROZEN",
+    "printer": "Bambu Lab A1 mini",
+    "printer_volume_mm": [
+      180,
+      180,
+      180
+    ],
+    "preferred_part_envelope_mm": [
+      160,
+      160,
+      160
+    ],
+    "part_envelope_excludes_brim_and_support": true,
+    "support": "locked_metal_desk_stand_to_measured_pelvis_module",
+    "bearing_preload_not_carried_by_sensor_pcb": true
+  },
+  "electronics_baseline": {
+    "encoder_candidate": "AS5048A",
+    "encoder_counts_per_turn": 16384,
+    "sensor_logic_nominal_v": 3.3,
+    "acquisition_mcu_family": "ESP32-S3",
+    "external_can_transceiver_required": true,
+    "spi_selection": "independent_chip_select_with_signal_integrity_review",
+    "max_sensor_ports_per_node": 10,
+    "initial_spi_clock_hz": 250000,
+    "can_format": "classic_11bit_not_CAN_FD",
+    "can_bitrate": 500000,
+    "can_physical_topology": "linear_trunk_two_end_terminations_no_passive_star",
+    "external_power_input_nominal_v": 5,
+    "power_supply_current_rating_a": null,
+    "power_supply_purchase_released": false
+  },
+  "timing_targets": {
+    "acquisition_hz": 100,
+    "ue_output_hz": 60,
+    "can_sync_period_ms": 10,
+    "cohort_deadline_ms": 8,
+    "acquisition_window_target_ms": 5,
+    "diagnostic_node_hz": 10,
+    "normal_bus_load_budget_fraction": 0.6
+  },
+  "data_ownership": {
+    "firmware": "unmodified_absolute_encoder_counts_and_health",
+    "bridge": "raw_radians_and_existing_protocol_framing",
+    "ue": "unwrap_zero_sign_ratio_kinematics_and_control_rig",
+    "profile": "new_physical_profile_from_CAD_not_overwrite_virtual"
+  },
+  "release_gates": {
+    "cad_manufacturing_released": false,
+    "pcb_manufacturing_released": false,
+    "full_bom_purchase_released": false,
+    "physical_accuracy_verified": false,
+    "electrical_safety_verified": false
+  }
+}

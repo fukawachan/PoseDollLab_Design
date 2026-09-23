@@ -1,0 +1,653 @@
+{
+  "status": "FOUR_SHOULDER_CLUTCHES_INTEGRATED_CANDIDATE",
+  "manufacturing_released": false,
+  "physical_tested": false,
+  "coverage_rule": "Rigid segment shells; deforming regions exposed",
+  "collision_policy": "Cross-arm contacts constrain poses; local, adjacent or unresolved contacts remain structural findings",
+  "variants": {
+    "manny": {
+      "source_profile": "mechanical_manifest/physical_manny_44_revG_humanform_trial.json",
+      "height_mm": 907.9303891285306,
+      "parts": 179,
+      "samples": 36,
+      "no_local_structural_conflict_samples": 36,
+      "collision_free_samples": 32,
+      "pose_restriction_samples": 4,
+      "unexpected_new_assembly_contacts": 0,
+      "axes": [
+        {
+          "axis_id": "pelvis.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "pelvis.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "pelvis.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "waist.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "waist.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "waist.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "chest.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "chest.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "chest.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "head.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "head.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "head.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_l.protract",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_l.elevate",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_l.flex",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_l.abduct",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_l.twist",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "elbow_l.flex",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "elbow_transfer_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "forearm_l.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_l.deviate",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_l.abduct",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_l.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "calf_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_l.dorsiflex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_l.invert",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "ball_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_r.protract",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_r.elevate",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_r.flex",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_r.abduct",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_r.twist",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "elbow_r.flex",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "elbow_transfer_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "forearm_r.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_r.deviate",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_r.abduct",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_r.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "calf_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_r.dorsiflex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_r.invert",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "ball_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        }
+      ],
+      "assumed_holding_margin_mu_0p15": 2.0065416223053227,
+      "bearing_axis_error_mm": 4.549693413077341e-13
+    },
+    "quinn": {
+      "source_profile": "mechanical_manifest/physical_quinn_44_revG_humanform_trial.json",
+      "height_mm": 907.6993867446095,
+      "parts": 179,
+      "samples": 36,
+      "no_local_structural_conflict_samples": 36,
+      "collision_free_samples": 30,
+      "pose_restriction_samples": 6,
+      "unexpected_new_assembly_contacts": 0,
+      "axes": [
+        {
+          "axis_id": "pelvis.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "pelvis.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "pelvis.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "waist.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "waist.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "waist.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "chest.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "chest.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "chest.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "head.yaw",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "head.pitch",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "head.roll",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_l.protract",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_l.elevate",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_l.flex",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_l.abduct",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_l.twist",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "elbow_l.flex",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "elbow_transfer_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "forearm_l.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_l.deviate",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_l.abduct",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_l.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "calf_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_l.dorsiflex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_l.invert",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "ball_l.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_r.protract",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "clavicle_r.elevate",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "girdle_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_r.flex",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_r.abduct",
+          "articulated": true,
+          "holding_status": "new_spring_face_clutch_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "upperarm_r.twist",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "elbow_r.flex",
+          "articulated": true,
+          "holding_status": "inherited_incomplete_candidate",
+          "readout_status": "elbow_transfer_envelope_only",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "forearm_r.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "hand_r.deviate",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_r.abduct",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "thigh_r.twist",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "calf_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_r.dorsiflex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "foot_r.invert",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        },
+        {
+          "axis_id": "ball_r.flex",
+          "articulated": false,
+          "holding_status": "not_integrated",
+          "readout_status": "not_integrated",
+          "manufacturing_released": false
+        }
+      ],
+      "assumed_holding_margin_mu_0p15": 2.139120146519877,
+      "bearing_axis_error_mm": 6.430804311694326e-13
+    }
+  }
+}

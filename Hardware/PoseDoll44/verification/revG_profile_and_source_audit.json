@@ -1,0 +1,30 @@
+{
+  "manufacturing_released": false,
+  "physical_tested": false,
+  "profile_checks": {
+    "manny": {
+      "axis_count": 44,
+      "axis_ids_order_unchanged": true,
+      "node_changes_only_uniform_translation_scale": true,
+      "translation_factor": 1.5
+    },
+    "quinn": {
+      "axis_count": 44,
+      "axis_ids_order_unchanged": true,
+      "node_changes_only_uniform_translation_scale": true,
+      "translation_factor": 1.5
+    }
+  },
+  "source_sha256": {
+    "cad/revG/analyze_envelopes.py": "1d73a3c353d40628a952adbf0ce6286e95dfd44b56fae0878e6adb9a228f1056",
+    "cad/revG/centerline_study.py": "afbe4c276896e4bd63e34b048bb8e1d5dac24e3a292795d379ed619e4250b397",
+    "cad/revG/render_exposed_arms.py": "cc78569fa8a5691b3394a0759a5f8d64060fad86ff36618b13bf95e1a85a307f",
+    "cad/revG/shoulder_review.template.html": "10f61789063b573188b46352e089a1c2f76fd6cb2ffcc4340cc4c37f63bd936e",
+    "cad/revG/shoulder_study.py": "393bd81af893c27857b309716692696e8faf653871bc8e3c80d7336139df1d02",
+    "verification/revG_surface_envelopes.json": "7b12f563490f9400ddc0fe352c247d39ca36caf88e0618444a80863e13f126e4",
+    "verification/revG_centreline_arm.json": "df06936095af34fa880309c77b3b3a11fffba43e633c982c2ba4874fd33dc157",
+    "verification/revG_shoulder_motion.json": "0f98d7213ec4700228b5484fd8a642c39a5d00e064090aabc8b937179056a610",
+    "tools/report_revG.py": "362f06ccc62d15e3f007b0c2ae26da1fe216cadf8e3383e5cdac80afb3999141",
+    "mechanical_manifest/shell_coverage_revG.json": "a6c314a04d58abe13bd94cf3a685f0688e377f134d10bb27ec249d95a20c9d98"
+  }
+}

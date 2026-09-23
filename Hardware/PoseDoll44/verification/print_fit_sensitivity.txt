@@ -1,0 +1,1 @@
+{"screw_interfaces": 6, "precision_interfaces_for_separate_review": 2, "physical_tests": "not_run"}

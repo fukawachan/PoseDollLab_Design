@@ -1,0 +1,242 @@
+{
+  "quinn": [
+    {
+      "depth": 32.0,
+      "structural": [
+        {
+          "pose": "forward_up",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 42.096
+        },
+        {
+          "pose": "asymmetric",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 42.096
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 42.096
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 42.096
+        }
+      ]
+    },
+    {
+      "depth": 30.0,
+      "structural": [
+        {
+          "pose": "forward_up",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 11.8716
+        },
+        {
+          "pose": "asymmetric",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 11.8716
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 11.8716
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 11.8716
+        },
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 0.8794
+        }
+      ]
+    },
+    {
+      "depth": 28.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 22.7778
+        }
+      ]
+    },
+    {
+      "depth": 34.0,
+      "structural": [
+        {
+          "pose": "forward_up",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 83.7831
+        },
+        {
+          "pose": "asymmetric",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 83.7831
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 83.7831
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "a": "l_clavicle_output_frame",
+          "b": "candidate_bridge",
+          "owner_a": "clavicle_l",
+          "owner_b": "chest",
+          "volume_mm3": 83.7831
+        }
+      ]
+    },
+    {
+      "depth": 26.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 57.1464
+        }
+      ]
+    },
+    {
+      "depth": 22.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 77.3456
+        }
+      ]
+    }
+  ],
+  "manny": [
+    {
+      "depth": 32.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 15.5161
+        }
+      ]
+    },
+    {
+      "depth": 30.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 40.1075
+        }
+      ]
+    },
+    {
+      "depth": 28.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 43.8646
+        }
+      ]
+    },
+    {
+      "depth": 34.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 0.0489
+        }
+      ]
+    },
+    {
+      "depth": 26.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 58.3659
+        }
+      ]
+    },
+    {
+      "depth": 22.0,
+      "structural": [
+        {
+          "pose": "head_0_55_0",
+          "a": "head_M_shell_front",
+          "b": "candidate_bridge",
+          "owner_a": "head",
+          "owner_b": "chest",
+          "volume_mm3": 64.8124
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1358 @@
+{
+  "scope": "Actual head, connector dimensional envelope, 4 mm short FPC tail only. No mount/retention/full harness.",
+  "physical_tested": false,
+  "probes": [
+    {
+      "character": "manny",
+      "axis": "upperarm_l.flex",
+      "board_datum_mm": 63.995,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": []
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": []
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": []
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "manny",
+      "axis": "upperarm_l.twist",
+      "board_datum_mm": 15.795,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": []
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 14.5848
+            },
+            {
+              "probe": "J1_dimension_envelope",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 11.9847
+            },
+            {
+              "probe": "FPC_short_tail",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.8978
+            }
+          ]
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": []
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "manny",
+      "axis": "upperarm_r.flex",
+      "board_datum_mm": 63.995,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": []
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": []
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": []
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "manny",
+      "axis": "upperarm_r.twist",
+      "board_datum_mm": 15.795,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": []
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 14.5848
+            },
+            {
+              "probe": "J1_dimension_envelope",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 11.9847
+            },
+            {
+              "probe": "FPC_short_tail",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.8978
+            }
+          ]
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": []
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis": "upperarm_l.flex",
+      "board_datum_mm": 63.995,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 0.3311
+            }
+          ]
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": []
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 0.3311
+            }
+          ]
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis": "upperarm_l.twist",
+      "board_datum_mm": 15.795,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": []
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 14.5848
+            },
+            {
+              "probe": "J1_dimension_envelope",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 11.9847
+            },
+            {
+              "probe": "FPC_short_tail",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.8978
+            }
+          ]
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": []
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "l_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis": "upperarm_r.flex",
+      "board_datum_mm": 63.995,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 0.3305
+            }
+          ]
+        },
+        {
+          "pose": "asymmetric",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 0.3305
+            }
+          ]
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": []
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "common_chest_bearing_frame",
+              "volume_mm3": 0.3305
+            }
+          ]
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    },
+    {
+      "character": "quinn",
+      "axis": "upperarm_r.twist",
+      "board_datum_mm": 15.795,
+      "checks": [
+        {
+          "pose": "neutral",
+          "hits": []
+        },
+        {
+          "pose": "forward",
+          "hits": []
+        },
+        {
+          "pose": "backward",
+          "hits": []
+        },
+        {
+          "pose": "shrug",
+          "hits": []
+        },
+        {
+          "pose": "down",
+          "hits": []
+        },
+        {
+          "pose": "forward_up",
+          "hits": []
+        },
+        {
+          "pose": "back_down",
+          "hits": []
+        },
+        {
+          "pose": "asymmetric",
+          "hits": []
+        },
+        {
+          "pose": "arms_forward",
+          "hits": []
+        },
+        {
+          "pose": "arms_overhead",
+          "hits": []
+        },
+        {
+          "pose": "arms_side",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 14.5848
+            },
+            {
+              "probe": "J1_dimension_envelope",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 11.9847
+            },
+            {
+              "probe": "FPC_short_tail",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.8978
+            }
+          ]
+        },
+        {
+          "pose": "hands_on_hips",
+          "hits": []
+        },
+        {
+          "pose": "arms_crossed",
+          "hits": []
+        },
+        {
+          "pose": "forehead",
+          "hits": []
+        },
+        {
+          "pose": "forward_shrug_reach",
+          "hits": []
+        },
+        {
+          "pose": "elbows_closed",
+          "hits": []
+        },
+        {
+          "pose": "down_arms_vertical",
+          "hits": []
+        },
+        {
+          "pose": "back_down_arms_clear",
+          "hits": []
+        },
+        {
+          "pose": "shrug_reach_parallel",
+          "hits": []
+        },
+        {
+          "pose": "crossed_staggered",
+          "hits": []
+        },
+        {
+          "pose": "crossed_clearance_candidate",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-50",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_-25",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_45",
+          "hits": []
+        },
+        {
+          "pose": "scan_flex_135",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_abduct_60",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_120",
+          "hits": [
+            {
+              "probe": "board",
+              "part": "r_flex_clutch_inner_M3x8",
+              "volume_mm3": 0.5082
+            }
+          ]
+        },
+        {
+          "pose": "scan_abduct_150",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-90",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_-30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_30",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_60",
+          "hits": []
+        },
+        {
+          "pose": "scan_twist_90",
+          "hits": []
+        }
+      ]
+    }
+  ],
+  "status": "EARLY_STRAIGHT_PROBE_NOT_CURRENT_TWIST_INSTALLATION",
+  "superseded_for_twist_by": "cad/revK/compact_twist.py"
+}

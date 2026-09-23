@@ -1,0 +1,596 @@
+{
+  "type": "posedoll.pd41.diagnostic_report/1",
+  "frames": 1,
+  "complete_valid_frames": 1,
+  "framing_or_session_errors": 0,
+  "sequence_gaps": 0,
+  "time_span_source_s": 0,
+  "received_source_rate_hz": null,
+  "maximum_transport_envelope_us": 2000,
+  "node_present_frames": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1
+  },
+  "axes": [
+    {
+      "axis_id": "pelvis.yaw",
+      "states": {
+        "valid": 0,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 1
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 0,
+      "max_contiguous_run_peak_to_peak_deg": null,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "pelvis.pitch",
+      "states": {
+        "valid": 0,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 1
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 0,
+      "max_contiguous_run_peak_to_peak_deg": null,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "pelvis.roll",
+      "states": {
+        "valid": 0,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 1
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 0,
+      "max_contiguous_run_peak_to_peak_deg": null,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "waist.yaw",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "waist.pitch",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "waist.roll",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "chest.yaw",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "chest.pitch",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "chest.roll",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "head.yaw",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "head.pitch",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "head.roll",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "clavicle_l.protract",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "clavicle_l.elevate",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "upperarm_l.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "upperarm_l.abduct",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "upperarm_l.twist",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "elbow_l.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "forearm_l.twist",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "hand_l.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "hand_l.deviate",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "thigh_l.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "thigh_l.abduct",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "thigh_l.twist",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "calf_l.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "foot_l.dorsiflex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "foot_l.invert",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "ball_l.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "clavicle_r.protract",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "clavicle_r.elevate",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "upperarm_r.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "upperarm_r.abduct",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "upperarm_r.twist",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "elbow_r.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "forearm_r.twist",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "hand_r.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "hand_r.deviate",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "thigh_r.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "thigh_r.abduct",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "thigh_r.twist",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "calf_r.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "foot_r.dorsiflex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "foot_r.invert",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    },
+    {
+      "axis_id": "ball_r.flex",
+      "states": {
+        "valid": 1,
+        "invalid": 0,
+        "missing": 0,
+        "fixed": 0
+      },
+      "fault_flags_seen": 0,
+      "valid_run_count": 1,
+      "max_contiguous_run_peak_to_peak_deg": 0.0,
+      "max_contiguous_run_stddev_deg": null
+    }
+  ],
+  "calibrated": false,
+  "physical_acceptance": false,
+  "interpretation": "Raw spread describes each continuous valid run. Keep the doll mechanically stationary to interpret it as noise. Gaps and faults split runs. This is not absolute angle accuracy or an assembly pass.",
+  "trailing_partial_frame_bytes": 0
+}

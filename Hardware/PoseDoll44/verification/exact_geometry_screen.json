@@ -1,0 +1,1709 @@
+{
+  "input_sha256": {
+    "parts.py": "1f5539e86409e7db174b840ebb374be091f317366983c76943239eed2bf3c660",
+    "fits.py": "1e0c5e46c0f5af77cb5efd344a475f3513d0cbe19963f30dfca4f08b333c1d67",
+    "model.py": "022f0bf7157c10d062c55667e3813cd4015412576c6091a5b4ae69151c08002b",
+    "build.py": "3e1f8124d1566cf97256f5c6725186d8e77dc0b49b25fd5b7c5ad914f126c4f2",
+    "inspect_geometry.py": "1aec90d81c711a7a407d1c7be2bf272183a85d15ef55c97fb4e4a51a493622e1"
+  },
+  "configuration_sha256": {
+    "mechanical_manifest/print_fit_profile_revB.json": "efea8c9c158538726fb2a840d5d7933b79e407d16155c2fb3cf5214286b72d4a"
+  },
+  "method": "OpenCascade nominal solid intersection; tolerance 0.02 mm^3 for H1, 0.1 mm^3 for layout",
+  "H1": {
+    "angles": [
+      {
+        "angle_deg": 0,
+        "interferences": []
+      },
+      {
+        "angle_deg": 5,
+        "interferences": []
+      },
+      {
+        "angle_deg": 10,
+        "interferences": []
+      },
+      {
+        "angle_deg": 15,
+        "interferences": []
+      },
+      {
+        "angle_deg": 20,
+        "interferences": []
+      },
+      {
+        "angle_deg": 25,
+        "interferences": []
+      },
+      {
+        "angle_deg": 30,
+        "interferences": []
+      },
+      {
+        "angle_deg": 35,
+        "interferences": []
+      },
+      {
+        "angle_deg": 40,
+        "interferences": []
+      },
+      {
+        "angle_deg": 45,
+        "interferences": []
+      },
+      {
+        "angle_deg": 50,
+        "interferences": []
+      },
+      {
+        "angle_deg": 55,
+        "interferences": []
+      },
+      {
+        "angle_deg": 60,
+        "interferences": []
+      },
+      {
+        "angle_deg": 65,
+        "interferences": []
+      },
+      {
+        "angle_deg": 70,
+        "interferences": []
+      },
+      {
+        "angle_deg": 75,
+        "interferences": []
+      },
+      {
+        "angle_deg": 80,
+        "interferences": []
+      },
+      {
+        "angle_deg": 85,
+        "interferences": []
+      },
+      {
+        "angle_deg": 90,
+        "interferences": []
+      },
+      {
+        "angle_deg": 95,
+        "interferences": []
+      },
+      {
+        "angle_deg": 100,
+        "interferences": []
+      },
+      {
+        "angle_deg": 105,
+        "interferences": []
+      },
+      {
+        "angle_deg": 110,
+        "interferences": []
+      },
+      {
+        "angle_deg": 115,
+        "interferences": []
+      },
+      {
+        "angle_deg": 120,
+        "interferences": []
+      },
+      {
+        "angle_deg": 125,
+        "interferences": []
+      },
+      {
+        "angle_deg": 130,
+        "interferences": []
+      },
+      {
+        "angle_deg": 135,
+        "interferences": []
+      },
+      {
+        "angle_deg": 140,
+        "interferences": []
+      },
+      {
+        "angle_deg": 145,
+        "interferences": []
+      }
+    ],
+    "all_sampled_clear": true,
+    "limitations": [
+      "nominal dimensions; not loaded",
+      "not all nuts/washers/screwheads or tool envelopes modelled",
+      "supplier AB module not substituted for our 32mm PCB",
+      "field/adhesive strength/bearing fits not verified"
+    ]
+  },
+  "full44": {
+    "poses": {
+      "neutral": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "arms_forward": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "arms_overhead": {
+        "interference_count": 29,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "elbow_l.flex",
+            "b": "N3_connector_access",
+            "volume_mm3": 2823.457
+          },
+          {
+            "a": "sensor_elbow_l.flex",
+            "b": "N3_PCB_placeholder",
+            "volume_mm3": 7.837
+          },
+          {
+            "a": "sensor_elbow_l.flex",
+            "b": "N3_connector_access",
+            "volume_mm3": 288.0
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "N4_connector_access",
+            "volume_mm3": 2823.457
+          },
+          {
+            "a": "sensor_elbow_r.flex",
+            "b": "N4_PCB_placeholder",
+            "volume_mm3": 7.837
+          },
+          {
+            "a": "sensor_elbow_r.flex",
+            "b": "N4_connector_access",
+            "volume_mm3": 288.0
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "arms_side": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "hands_on_hips": {
+        "interference_count": 24,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 850.482
+          },
+          {
+            "a": "sensor_elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 13.308
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "arms_crossed": {
+        "interference_count": 32,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "hand_l.flex",
+            "b": "hand_r.flex",
+            "volume_mm3": 1548.324
+          },
+          {
+            "a": "hand_l.flex",
+            "b": "hand_r.deviate",
+            "volume_mm3": 354.495
+          },
+          {
+            "a": "hand_l.flex",
+            "b": "sensor_hand_r.deviate",
+            "volume_mm3": 11.963
+          },
+          {
+            "a": "sensor_hand_l.flex",
+            "b": "hand_r.flex",
+            "volume_mm3": 39.541
+          },
+          {
+            "a": "hand_l.deviate",
+            "b": "hand_r.flex",
+            "volume_mm3": 354.483
+          },
+          {
+            "a": "hand_l.deviate",
+            "b": "sensor_hand_r.flex",
+            "volume_mm3": 4.821
+          },
+          {
+            "a": "hand_l.deviate",
+            "b": "hand_r.deviate",
+            "volume_mm3": 701.711
+          },
+          {
+            "a": "sensor_hand_l.deviate",
+            "b": "hand_r.deviate",
+            "volume_mm3": 270.654
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 847.03
+          },
+          {
+            "a": "sensor_elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 12.414
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "forehead": {
+        "interference_count": 24,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "elbow_l.flex",
+            "b": "N3_PCB_placeholder",
+            "volume_mm3": 1.779
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "sitting": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "crouch": {
+        "interference_count": 29,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "sensor_waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 0.68
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "sensor_chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 0.68
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "elbow_l.flex",
+            "b": "N3_PCB_placeholder",
+            "volume_mm3": 15.937
+          },
+          {
+            "a": "sensor_elbow_l.flex",
+            "b": "N3_PCB_placeholder",
+            "volume_mm3": 8.712
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "N4_PCB_placeholder",
+            "volume_mm3": 15.937
+          },
+          {
+            "a": "sensor_elbow_r.flex",
+            "b": "N4_PCB_placeholder",
+            "volume_mm3": 8.712
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "head_tilt": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "hip_abduction": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      },
+      "palms_turn": {
+        "interference_count": 23,
+        "interferences": [
+          {
+            "a": "pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_pelvis.yaw",
+            "b": "pelvis.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "pelvis.pitch",
+            "b": "pelvis.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "pelvis.roll",
+            "b": "waist.yaw",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_waist.yaw",
+            "b": "waist.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "waist.pitch",
+            "b": "waist.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 191.183
+          },
+          {
+            "a": "sensor_chest.yaw",
+            "b": "chest.pitch",
+            "volume_mm3": 1024.0
+          },
+          {
+            "a": "chest.pitch",
+            "b": "chest.roll",
+            "volume_mm3": 6275.152
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_l.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "chest.roll",
+            "b": "sensor_clavicle_l.protract",
+            "volume_mm3": 208.332
+          },
+          {
+            "a": "chest.roll",
+            "b": "clavicle_r.protract",
+            "volume_mm3": 39.056
+          },
+          {
+            "a": "sensor_head.yaw",
+            "b": "head.pitch",
+            "volume_mm3": 252.638
+          },
+          {
+            "a": "clavicle_l.protract",
+            "b": "clavicle_l.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_l.flex",
+            "b": "upperarm_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_l.flex",
+            "b": "thigh_l.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "clavicle_r.protract",
+            "b": "clavicle_r.elevate",
+            "volume_mm3": 2758.9
+          },
+          {
+            "a": "upperarm_r.flex",
+            "b": "upperarm_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "upperarm_r.abduct",
+            "b": "sensor_upperarm_r.twist",
+            "volume_mm3": 765.763
+          },
+          {
+            "a": "elbow_r.flex",
+            "b": "sensor_forearm_r.twist",
+            "volume_mm3": 819.2
+          },
+          {
+            "a": "thigh_r.flex",
+            "b": "thigh_r.abduct",
+            "volume_mm3": 1222.9
+          },
+          {
+            "a": "thigh_r.abduct",
+            "b": "sensor_thigh_r.twist",
+            "volume_mm3": 765.763
+          }
+        ]
+      }
+    },
+    "status": "layout_candidates_not_manufacturing_geometry",
+    "limitations": [
+      "shells/sensors/node PCB and access envelopes only",
+      "no collision sweep between samples",
+      "no cable flex or grasp/tool path"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "state": {
+        "model": "manny",
+        "pose": "arms_forward",
+        "focus": "all",
+        "shells": true,
+        "electronics": true,
+        "showAnchors": false,
+        "parts": 1994,
+        "rendered": 3,
+        "selected": -1,
+        "reportMatches": true
+      },
+      "status": "此样本未发现超过 0.02 mm³ 的结构接触"
+    },
+    {
+      "state": {
+        "model": "manny",
+        "pose": "hands_behind_lower_back",
+        "focus": "all",
+        "shells": true,
+        "electronics": true,
+        "showAnchors": false,
+        "parts": 1994,
+        "rendered": 5,
+        "selected": -1,
+        "reportMatches": true
+      },
+      "status": "未发现结构接触；133 组非相邻接触需摆姿避让",
+      "class": "status warn"
+    },
+    {
+      "state": {
+        "model": "quinn",
+        "pose": "arms_forward",
+        "focus": "all",
+        "shells": true,
+        "electronics": true,
+        "showAnchors": false,
+        "parts": 1994,
+        "rendered": 8,
+        "selected": -1,
+        "reportMatches": true
+      },
+      "status": "此样本未发现超过 0.02 mm³ 的结构接触"
+    },
+    {
+      "state": {
+        "model": "quinn",
+        "pose": "hands_behind_lower_back",
+        "focus": "all",
+        "shells": true,
+        "electronics": true,
+        "showAnchors": false,
+        "parts": 1994,
+        "rendered": 10,
+        "selected": -1,
+        "reportMatches": true
+      },
+      "status": "未发现结构接触；66 组非相邻接触需摆姿避让",
+      "class": "status warn"
+    }
+  ],
+  "overflow": false,
+  "source_sha256": {
+    "generated/revN/RevN_Chest_Review.html": "f0dfd45ec2a283f2de672df23ff164766a992784fbf1e0fc0553bf9d440bb002",
+    "generated/revN/manny/viewer.json": "209348526721680edd6a53e6d6dddf97626d5303dcd6b5f3c8636bad21614974",
+    "generated/revN/quinn/viewer.json": "9923cae87baaac924e649d7c4c775bfff90e056fc3d316b62d87a8f2d87cce60",
+    "verification/revN_chest_audit.json": "c776c6301b0577df707536af684a9f1fd51ab45bb867c123e7adf606027961e7"
+  }
+}

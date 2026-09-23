@@ -1,0 +1,310 @@
+[
+  {
+    "id": "S-pelvis.yaw",
+    "from": "N1",
+    "to": "pelvis.yaw",
+    "minimum_envelope_length_plus_60mm": 150,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-pelvis.pitch",
+    "from": "N1",
+    "to": "pelvis.pitch",
+    "minimum_envelope_length_plus_60mm": 120,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-pelvis.roll",
+    "from": "N1",
+    "to": "pelvis.roll",
+    "minimum_envelope_length_plus_60mm": 110,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-waist.yaw",
+    "from": "N1",
+    "to": "waist.yaw",
+    "minimum_envelope_length_plus_60mm": 120,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-waist.pitch",
+    "from": "N1",
+    "to": "waist.pitch",
+    "minimum_envelope_length_plus_60mm": 150,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-waist.roll",
+    "from": "N1",
+    "to": "waist.roll",
+    "minimum_envelope_length_plus_60mm": 180,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-chest.yaw",
+    "from": "N2",
+    "to": "chest.yaw",
+    "minimum_envelope_length_plus_60mm": 150,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-chest.pitch",
+    "from": "N2",
+    "to": "chest.pitch",
+    "minimum_envelope_length_plus_60mm": 120,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-chest.roll",
+    "from": "N2",
+    "to": "chest.roll",
+    "minimum_envelope_length_plus_60mm": 110,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-head.yaw",
+    "from": "N2",
+    "to": "head.yaw",
+    "minimum_envelope_length_plus_60mm": 130,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-head.pitch",
+    "from": "N2",
+    "to": "head.pitch",
+    "minimum_envelope_length_plus_60mm": 150,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-head.roll",
+    "from": "N2",
+    "to": "head.roll",
+    "minimum_envelope_length_plus_60mm": 180,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-clavicle_l.protract",
+    "from": "N3",
+    "to": "clavicle_l.protract",
+    "minimum_envelope_length_plus_60mm": 250,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-clavicle_l.elevate",
+    "from": "N3",
+    "to": "clavicle_l.elevate",
+    "minimum_envelope_length_plus_60mm": 230,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-upperarm_l.flex",
+    "from": "N3",
+    "to": "upperarm_l.flex",
+    "minimum_envelope_length_plus_60mm": 190,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-upperarm_l.abduct",
+    "from": "N3",
+    "to": "upperarm_l.abduct",
+    "minimum_envelope_length_plus_60mm": 170,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-upperarm_l.twist",
+    "from": "N3",
+    "to": "upperarm_l.twist",
+    "minimum_envelope_length_plus_60mm": 140,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-elbow_l.flex",
+    "from": "N3",
+    "to": "elbow_l.flex",
+    "minimum_envelope_length_plus_60mm": 110,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-forearm_l.twist",
+    "from": "N3",
+    "to": "forearm_l.twist",
+    "minimum_envelope_length_plus_60mm": 130,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-hand_l.flex",
+    "from": "N3",
+    "to": "hand_l.flex",
+    "minimum_envelope_length_plus_60mm": 220,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-hand_l.deviate",
+    "from": "N3",
+    "to": "hand_l.deviate",
+    "minimum_envelope_length_plus_60mm": 240,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-thigh_l.flex",
+    "from": "N5",
+    "to": "thigh_l.flex",
+    "minimum_envelope_length_plus_60mm": 230,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-thigh_l.abduct",
+    "from": "N5",
+    "to": "thigh_l.abduct",
+    "minimum_envelope_length_plus_60mm": 200,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-thigh_l.twist",
+    "from": "N5",
+    "to": "thigh_l.twist",
+    "minimum_envelope_length_plus_60mm": 170,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-calf_l.flex",
+    "from": "N5",
+    "to": "calf_l.flex",
+    "minimum_envelope_length_plus_60mm": 110,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-foot_l.dorsiflex",
+    "from": "N5",
+    "to": "foot_l.dorsiflex",
+    "minimum_envelope_length_plus_60mm": 170,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-foot_l.invert",
+    "from": "N5",
+    "to": "foot_l.invert",
+    "minimum_envelope_length_plus_60mm": 190,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-ball_l.flex",
+    "from": "N5",
+    "to": "ball_l.flex",
+    "minimum_envelope_length_plus_60mm": 210,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-clavicle_r.protract",
+    "from": "N4",
+    "to": "clavicle_r.protract",
+    "minimum_envelope_length_plus_60mm": 250,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-clavicle_r.elevate",
+    "from": "N4",
+    "to": "clavicle_r.elevate",
+    "minimum_envelope_length_plus_60mm": 230,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-upperarm_r.flex",
+    "from": "N4",
+    "to": "upperarm_r.flex",
+    "minimum_envelope_length_plus_60mm": 190,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-upperarm_r.abduct",
+    "from": "N4",
+    "to": "upperarm_r.abduct",
+    "minimum_envelope_length_plus_60mm": 170,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-upperarm_r.twist",
+    "from": "N4",
+    "to": "upperarm_r.twist",
+    "minimum_envelope_length_plus_60mm": 140,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-elbow_r.flex",
+    "from": "N4",
+    "to": "elbow_r.flex",
+    "minimum_envelope_length_plus_60mm": 110,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-forearm_r.twist",
+    "from": "N4",
+    "to": "forearm_r.twist",
+    "minimum_envelope_length_plus_60mm": 130,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-hand_r.flex",
+    "from": "N4",
+    "to": "hand_r.flex",
+    "minimum_envelope_length_plus_60mm": 220,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-hand_r.deviate",
+    "from": "N4",
+    "to": "hand_r.deviate",
+    "minimum_envelope_length_plus_60mm": 240,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-thigh_r.flex",
+    "from": "N6",
+    "to": "thigh_r.flex",
+    "minimum_envelope_length_plus_60mm": 230,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-thigh_r.abduct",
+    "from": "N6",
+    "to": "thigh_r.abduct",
+    "minimum_envelope_length_plus_60mm": 200,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-thigh_r.twist",
+    "from": "N6",
+    "to": "thigh_r.twist",
+    "minimum_envelope_length_plus_60mm": 170,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-calf_r.flex",
+    "from": "N6",
+    "to": "calf_r.flex",
+    "minimum_envelope_length_plus_60mm": 110,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-foot_r.dorsiflex",
+    "from": "N6",
+    "to": "foot_r.dorsiflex",
+    "minimum_envelope_length_plus_60mm": 170,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-foot_r.invert",
+    "from": "N6",
+    "to": "foot_r.invert",
+    "minimum_envelope_length_plus_60mm": 190,
+    "status": "route_and_bend_validation_pending"
+  },
+  {
+    "id": "S-ball_r.flex",
+    "from": "N6",
+    "to": "ball_r.flex",
+    "minimum_envelope_length_plus_60mm": 210,
+    "status": "route_and_bend_validation_pending"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "baseline": {
+    "state": {
+      "model": "quinn",
+      "pose": "neutral",
+      "shells": true,
+      "reserved": false,
+      "az": -0.45,
+      "el": 0.12,
+      "zoom": 1,
+      "rendered": 1,
+      "triangles": 25980,
+      "hits": 0,
+      "structuralHits": 0
+    },
+    "counts": {
+      "manny": {
+        "parts": 119,
+        "cases": 21,
+        "passes": 18,
+        "localClear": 21
+      },
+      "quinn": {
+        "parts": 119,
+        "cases": 21,
+        "passes": 16,
+        "localClear": 21
+      }
+    }
+  },
+  "checked_cases": 42,
+  "collision_free": 34,
+  "no_local_structural_conflict": 42,
+  "withShells": 25980,
+  "withoutShells": 23772,
+  "withReserved": 27684,
+  "responsive": {
+    "scroll": 745,
+    "width": 760
+  },
+  "errors": [],
+  "links": [
+    "http://127.0.0.1:8874/docs/SHOULDER_REVH.zh-CN.md",
+    "http://127.0.0.1:8874/verification/REVH_REPORT.zh-CN.md",
+    "http://127.0.0.1:8874/generated/revH/quinn/Quinn_shoulder_assembly.step"
+  ],
+  "htmlSha256": "4f61babdf39ae43d152792b6c942a2684cde422eab74d1a560ca26d3f23fed2f"
+}

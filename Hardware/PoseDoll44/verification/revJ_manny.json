@@ -1,0 +1,5786 @@
+{
+  "meta": {
+    "character": "manny",
+    "axis_count_total": 44,
+    "axis_count_articulated_in_this_assembly": 12,
+    "root_spacing_mm": 14.27888453392529,
+    "upper_bearing_min_nominal_web_mm": 7.978884531196759,
+    "datums": {
+      "l": {
+        "root_mm": [
+          -20.103398900597178,
+          7.139521241290422,
+          736.8175388751048
+        ],
+        "shoulder_mm": [
+          -24.190497287848036,
+          95.04939554808979,
+          723.2297858318288
+        ],
+        "elbow_mm": [
+          -24.190497287848036,
+          95.04939554808982,
+          584.3740901073415
+        ],
+        "elevation_bearing_axis_points_mm": [
+          [
+            6.896601099402822,
+            7.139521241290422,
+            736.8175388751048
+          ],
+          [
+            22.896601099402822,
+            7.139521241290422,
+            736.8175388751048
+          ]
+        ],
+        "yaw_clutch_z_offset_mm": -45,
+        "bearing_offset_direction": "front",
+        "pending_shoulder_axes_readout": [
+          "upperarm_l.flex",
+          "upperarm_l.twist"
+        ]
+      },
+      "r": {
+        "root_mm": [
+          -20.10357848570823,
+          -7.139363288777018,
+          736.8172597322753
+        ],
+        "shoulder_mm": [
+          -24.190678621271683,
+          -95.04941240511728,
+          723.2272632365854
+        ],
+        "elbow_mm": [
+          -24.190678621271683,
+          -95.04941240511731,
+          584.3737895732553
+        ],
+        "elevation_bearing_axis_points_mm": [
+          [
+            -47.103578485708226,
+            -7.139363288777018,
+            736.8172597322753
+          ],
+          [
+            -63.103578485708226,
+            -7.139363288777018,
+            736.8172597322753
+          ]
+        ],
+        "yaw_clutch_z_offset_mm": -76,
+        "bearing_offset_direction": "rear",
+        "pending_shoulder_axes_readout": [
+          "upperarm_r.flex",
+          "upperarm_r.twist"
+        ]
+      }
+    },
+    "scope": "Rev J four removable split drive hubs and two actual abduction sensor installation candidates",
+    "revision": "J",
+    "new_shoulder_clutches": 4,
+    "new_clutch_parts": 64,
+    "changed_frames": [
+      "l_abduct_ring_and_twist_seat",
+      "l_clavicle_output_frame",
+      "l_flex_ring",
+      "r_abduct_ring_and_twist_seat",
+      "r_clavicle_output_frame",
+      "r_flex_ring"
+    ],
+    "bridge_rise_mm": 30.0,
+    "preload_nominal_force_N": 552,
+    "preload_loop_excludes_print": true,
+    "spring": {
+      "manufacturer": "SCHNORR",
+      "article": "002 200",
+      "outside_mm": 12.0,
+      "inside_mm": 6.2,
+      "thickness_mm": 0.6,
+      "free_height_mm": 0.95,
+      "catalog_test_height_mm": 0.688,
+      "catalog_force_N": 552,
+      "count_series": 2,
+      "source": "https://www.schnorr-group.com/fileadmin/4_Downloads/Brochures/SCHNORR_Produktbroschuere_EN_2024-02.pdf",
+      "pdf_page": 11
+    },
+    "thrust": {
+      "candidate": "SKF PCMW 102001.5 E",
+      "id_mm": 10,
+      "od_mm": 20,
+      "thickness_mm": 1.5,
+      "source": "https://cdn.skfmediahub.skf.com/api/public/0901d19680090e01/pdf_preview_medium/0901d19680090e01_pdf_preview_medium.pdf",
+      "pdf_page": 37
+    },
+    "new_drive_hubs": 4,
+    "new_drive_parts": 24,
+    "sensor_channels": [
+      {
+        "axis_id": "upperarm_l.abduct",
+        "fixed_owner": "upperarm_l.flex_frame",
+        "magnet_owner": "upperarm_l.abduct_frame",
+        "module_origin_neutral_mm": [
+          -24.190497287848036,
+          95.04939554808979,
+          723.2297858318288
+        ],
+        "module_normal_neutral": [
+          -1,
+          0,
+          0
+        ],
+        "module_xdir_neutral": [
+          0,
+          0,
+          1
+        ],
+        "geometric_angle_sign": -1,
+        "raw_sensor_sign_calibrated": false,
+        "package_to_magnet_gap_mm": 2.8,
+        "board_datum_mm": 41.895,
+        "magnetic_field_verified": false
+      },
+      {
+        "axis_id": "upperarm_r.abduct",
+        "fixed_owner": "upperarm_r.flex_frame",
+        "magnet_owner": "upperarm_r.abduct_frame",
+        "module_origin_neutral_mm": [
+          -24.190678621271683,
+          -95.04941240511728,
+          723.2272632365854
+        ],
+        "module_normal_neutral": [
+          -1,
+          0,
+          0
+        ],
+        "module_xdir_neutral": [
+          0,
+          0,
+          -1
+        ],
+        "geometric_angle_sign": 1,
+        "raw_sensor_sign_calibrated": false,
+        "package_to_magnet_gap_mm": 2.8,
+        "board_datum_mm": 41.895,
+        "magnetic_field_verified": false
+      }
+    ],
+    "new_sensor_parts": 50
+  },
+  "parts": [
+    {
+      "name": "l_yaw_bush_top",
+      "material": "bush",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        5.999999999999999,
+        10.0
+      ],
+      "volume_mm3": 150.7179075559703
+    },
+    {
+      "name": "l_yaw_bush_lower",
+      "material": "bush",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        5.999999999999999,
+        8.0
+      ],
+      "volume_mm3": 120.57432604477627
+    },
+    {
+      "name": "l_yaw_shaft",
+      "material": "metal",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "4 mm shaft candidate; keyed retention and bending verification pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        3.999999999999999,
+        49.0
+      ],
+      "volume_mm3": 615.7521601035993
+    },
+    {
+      "name": "l_elev_bush_27",
+      "material": "bush",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        5.999999999999999,
+        6.0
+      ],
+      "volume_mm3": 90.43074453358251
+    },
+    {
+      "name": "l_elev_bush_43",
+      "material": "bush",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        5.999999999999999,
+        6.0
+      ],
+      "volume_mm3": 90.43074453358251
+    },
+    {
+      "name": "l_yaw_carriage",
+      "material": "frame",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "Front/rear offset bearings share the original elevation axis line",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        50.0000002,
+        11.000000199999999,
+        22.394291563713182
+      ],
+      "volume_mm3": 2451.99490598266
+    },
+    {
+      "name": "l_elev_shaft",
+      "material": "metal",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "4 mm shaft candidate; final retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        36.0,
+        3.999999999999999,
+        4.0
+      ],
+      "volume_mm3": 452.38934211692913
+    },
+    {
+      "name": "l_flex_bush_-36.5",
+      "material": "bush",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        5.0,
+        8.0
+      ],
+      "volume_mm3": 105.20408398708899
+    },
+    {
+      "name": "l_flex_bush_-27.5",
+      "material": "bush",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        5.0,
+        8.0
+      ],
+      "volume_mm3": 105.20408398708899
+    },
+    {
+      "name": "l_clavicle_output_frame",
+      "material": "frame",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "Rev I dogleg clavicle frame clears medial clutch; both kinematic axes unchanged; Rev I integral clutch support and captive M3 mounting nuts",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        62.587098487250856,
+        69.40987450679937,
+        41.5
+      ],
+      "volume_mm3": 7483.179734183824
+    },
+    {
+      "name": "l_yaw_fixed_face",
+      "material": "metal",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        24.0,
+        17.5,
+        1.0
+      ],
+      "volume_mm3": 338.8933085597242
+    },
+    {
+      "name": "l_yaw_friction",
+      "material": "lining",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        24.0,
+        17.5,
+        0.5
+      ],
+      "volume_mm3": 169.4466542798621
+    },
+    {
+      "name": "l_yaw_rotor_face",
+      "material": "metal",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        24.0,
+        17.5,
+        2.0
+      ],
+      "volume_mm3": 679.121793997224
+    },
+    {
+      "name": "l_yaw_preload_space",
+      "material": "spring_space",
+      "owner": "chest",
+      "role": "reservation",
+      "note": "Preload load path, spring selection and fasteners not completed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        12.0,
+        6.0
+      ],
+      "volume_mm3": 681.0923236753191
+    },
+    {
+      "name": "l_yaw_magnet_space",
+      "material": "transfer_space",
+      "owner": "clavicle_l.protract_frame",
+      "role": "reservation",
+      "note": "Magnet holder and field test pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        5.999999999999999,
+        3.0
+      ],
+      "volume_mm3": 84.82300164692442
+    },
+    {
+      "name": "l_yaw_pcb_space",
+      "material": "sensor_space",
+      "owner": "chest",
+      "role": "reservation",
+      "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.0,
+        20.000000000000004,
+        1.6000000000000227
+      ],
+      "volume_mm3": 576.0000000000014
+    },
+    {
+      "name": "l_yaw_chip_space",
+      "material": "sensor_space",
+      "owner": "chest",
+      "role": "reservation",
+      "note": "Nominal 2 mm magnet face gap; not magnetically validated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.400000000000002,
+        4.999999999999999,
+        1.1000000000000227
+      ],
+      "volume_mm3": 35.20000000000012
+    },
+    {
+      "name": "l_elev_fixed_face",
+      "material": "metal",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0,
+        24.0,
+        24.0
+      ],
+      "volume_mm3": 437.8673300757114
+    },
+    {
+      "name": "l_elev_friction",
+      "material": "lining",
+      "owner": "clavicle_l.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        24.0,
+        24.0
+      ],
+      "volume_mm3": 218.9336650378557
+    },
+    {
+      "name": "l_elev_rotor_face",
+      "material": "metal",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        24.0,
+        24.0
+      ],
+      "volume_mm3": 877.0698370291983
+    },
+    {
+      "name": "l_elev_preload_space",
+      "material": "spring_space",
+      "owner": "clavicle_l.protract_frame",
+      "role": "reservation",
+      "note": "Preload load path, spring selection and fasteners not completed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        22.0,
+        22.0
+      ],
+      "volume_mm3": 2193.6641942588785
+    },
+    {
+      "name": "l_elev_magnet_space",
+      "material": "transfer_space",
+      "owner": "clavicle_l",
+      "role": "reservation",
+      "note": "Magnet holder and field test pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.0,
+        5.999999999999999,
+        6.0
+      ],
+      "volume_mm3": 84.82300164692465
+    },
+    {
+      "name": "l_elev_pcb_space",
+      "material": "sensor_space",
+      "owner": "clavicle_l.protract_frame",
+      "role": "reservation",
+      "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.6000000000000014,
+        18.0,
+        20.0
+      ],
+      "volume_mm3": 575.9999999999985
+    },
+    {
+      "name": "l_elev_chip_space",
+      "material": "sensor_space",
+      "owner": "clavicle_l.protract_frame",
+      "role": "reservation",
+      "note": "Nominal 2 mm magnet face gap; not magnetically validated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.1000000000000014,
+        6.4,
+        5.0
+      ],
+      "volume_mm3": 35.19999999999988
+    },
+    {
+      "name": "l_abduct_bush_-20.5",
+      "material": "bush",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 75.35895377798545
+    },
+    {
+      "name": "l_abduct_bush_20.5",
+      "material": "bush",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 105.20408398708894
+    },
+    {
+      "name": "l_flex_ring",
+      "material": "frame",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        77.89500000000001,
+        32.000000099999994,
+        42.0
+      ],
+      "volume_mm3": 3793.3527117748977
+    },
+    {
+      "name": "l_abduct_ring_and_twist_seat",
+      "material": "frame",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        31.000000199999995,
+        28.000000199999988,
+        19.0
+      ],
+      "volume_mm3": 3165.290068452875
+    },
+    {
+      "name": "l_twist_bush",
+      "material": "bush",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        13.0
+      ],
+      "volume_mm3": 195.93327982276145
+    },
+    {
+      "name": "l_twist_shaft",
+      "material": "metal",
+      "owner": "upperarm_l",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        4.0,
+        34.0
+      ],
+      "volume_mm3": 427.25660088821155
+    },
+    {
+      "name": "l_twist_fixed_face",
+      "material": "metal",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        17.999999999999996,
+        18.0,
+        1.0
+      ],
+      "volume_mm3": 223.2965518355286
+    },
+    {
+      "name": "l_twist_rotor_face",
+      "material": "metal",
+      "owner": "upperarm_l",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        17.999999999999996,
+        18.0,
+        2.0
+      ],
+      "volume_mm3": 481.2291626768845
+    },
+    {
+      "name": "l_twist_lining",
+      "material": "lining",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        17.999999999999996,
+        18.0,
+        1.0
+      ],
+      "volume_mm3": 223.2965518355286
+    },
+    {
+      "name": "l_arm_coupling",
+      "material": "frame",
+      "owner": "upperarm_l",
+      "role": "structural_concept",
+      "note": "Interface only; clamps/fasteners not completed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        14.0,
+        12.0,
+        9.0
+      ],
+      "volume_mm3": 1387.3101875790212
+    },
+    {
+      "name": "l_arm_upperarm_centreline_fork",
+      "material": "frame",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "Axial preload compliance/guidance and mounting details pending; not a finalized load-rated clevis",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        24.0,
+        17.0,
+        125.8556957244873
+      ],
+      "volume_mm3": 11415.731513795909
+    },
+    {
+      "name": "l_arm_forearm_centreline_link",
+      "material": "frame",
+      "owner": "elbow_l",
+      "role": "solid_concept",
+      "note": "Elbow-to-wrist centre distance retained; distal wrist integration pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        19.999999999999996,
+        10.0,
+        124.25536918640131
+      ],
+      "volume_mm3": 8500.730990535181
+    },
+    {
+      "name": "l_arm_rotor_radial_bush",
+      "material": "bush",
+      "owner": "elbow_l",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        9.800000000000011,
+        8.0
+      ],
+      "volume_mm3": 209.9437777481236
+    },
+    {
+      "name": "l_arm_friction_face_-6",
+      "material": "lining",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        19.999999999999996,
+        1.0,
+        20.0
+      ],
+      "volume_mm3": 258.74157094965545
+    },
+    {
+      "name": "l_arm_friction_face_5",
+      "material": "lining",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        19.999999999999996,
+        1.0,
+        20.0
+      ],
+      "volume_mm3": 258.74157094965545
+    },
+    {
+      "name": "l_arm_smooth_pivot_pin",
+      "material": "metal",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "6mm stationary pin; thread/retention details not finalized",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        9.600000000000001,
+        26.0,
+        9.599999999999909
+      ],
+      "volume_mm3": 867.4565635092155
+    },
+    {
+      "name": "l_arm_left_load_washer",
+      "material": "metal",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        11.0,
+        1.5,
+        11.0
+      ],
+      "volume_mm3": 95.7910869987699
+    },
+    {
+      "name": "l_arm_right_spring_seat",
+      "material": "metal",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        0.5,
+        13.0
+      ],
+      "volume_mm3": 50.77991825446215
+    },
+    {
+      "name": "l_arm_spring_stack_reserved",
+      "material": "spring_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "Two series springs: nominal envelope only, preload adjustment pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.5,
+        0.9260000000000019,
+        12.5
+      ],
+      "volume_mm3": 85.68070356524416
+    },
+    {
+      "name": "l_arm_preload_cap_reserved",
+      "material": "spring_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        2.0,
+        13.0
+      ],
+      "volume_mm3": 203.1196730178486
+    },
+    {
+      "name": "l_arm_preload_screw_reserved",
+      "material": "spring_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        3.0,
+        5.5
+      ],
+      "volume_mm3": 71.27488332831857
+    },
+    {
+      "name": "l_arm_input_gear_reserved",
+      "material": "transfer_space",
+      "owner": "elbow_l",
+      "role": "reservation",
+      "note": "m0.6, 40T candidate pitch diameter24; teeth, fastening, backlash and tolerances pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        25.199999999999996,
+        2.0,
+        25.200000000000045
+      ],
+      "volume_mm3": 375.4674459937834
+    },
+    {
+      "name": "l_arm_pickup_gear_reserved",
+      "material": "transfer_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "1:1 external gear reading candidate; nominal sensor angle = -elbow angle; actual rotor must rotate, envelope is stationary",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        25.199999999999996,
+        2.0,
+        25.200000000000045
+      ],
+      "volume_mm3": 972.3857581391115
+    },
+    {
+      "name": "l_arm_pickup_shaft_reserved",
+      "material": "transfer_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        9.5,
+        4.0
+      ],
+      "volume_mm3": 119.3805208364121
+    },
+    {
+      "name": "l_arm_magnet_reserved",
+      "material": "transfer_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "6x3 diametric magnet dimension candidate; field and alignment untested",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        3.0,
+        6.0
+      ],
+      "volume_mm3": 84.82300164692464
+    },
+    {
+      "name": "l_arm_sensor_package_reserved",
+      "material": "sensor_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.399999999999999,
+        1.0999999999999943,
+        5.0
+      ],
+      "volume_mm3": 35.19999999999994
+    },
+    {
+      "name": "l_arm_sensor_PCB_reserved",
+      "material": "sensor_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "New board outline reservation; not routed or electrically reviewed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        16.0,
+        1.0,
+        18.0
+      ],
+      "volume_mm3": 288.0
+    },
+    {
+      "name": "l_arm_flat_cable_exit_reserved",
+      "material": "sensor_space",
+      "owner": "upperarm_l",
+      "role": "reservation",
+      "note": "Flat cable route space; bend radius and fastening pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        2.0,
+        8.0
+      ],
+      "volume_mm3": 128.0
+    },
+    {
+      "name": "l_arm_upperarm_shell_front",
+      "material": "shell",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        31.85670891734621,
+        63.42253837626609,
+        79.6417719993118
+      ],
+      "volume_mm3": 5232.171547080334
+    },
+    {
+      "name": "l_arm_upperarm_shell_back",
+      "material": "shell",
+      "owner": "upperarm_l",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        39.43067775054699,
+        63.79508277639533,
+        90.256202430592
+      ],
+      "volume_mm3": 14311.270428526856
+    },
+    {
+      "name": "l_arm_forearm_shell_front",
+      "material": "shell",
+      "owner": "elbow_l",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.19343616621911,
+        54.90692223447084,
+        77.69152708980096
+      ],
+      "volume_mm3": 4868.350840794863
+    },
+    {
+      "name": "l_arm_forearm_shell_back",
+      "material": "shell",
+      "owner": "elbow_l",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        29.1291295947424,
+        55.720175205815934,
+        88.56599017243678
+      ],
+      "volume_mm3": 11703.905358532851
+    },
+    {
+      "name": "r_yaw_bush_top",
+      "material": "bush",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        10.0
+      ],
+      "volume_mm3": 150.71790755597038
+    },
+    {
+      "name": "r_yaw_bush_lower",
+      "material": "bush",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        8.0
+      ],
+      "volume_mm3": 120.57432604477633
+    },
+    {
+      "name": "r_yaw_shaft",
+      "material": "metal",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "4 mm shaft candidate; keyed retention and bending verification pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        4.0,
+        80.0
+      ],
+      "volume_mm3": 1005.3096491487336
+    },
+    {
+      "name": "r_elev_bush_27",
+      "material": "bush",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 90.43074453358248
+    },
+    {
+      "name": "r_elev_bush_43",
+      "material": "bush",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 90.43074453358251
+    },
+    {
+      "name": "r_yaw_carriage",
+      "material": "frame",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "Front/rear offset bearings share the original elevation axis line",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        50.00000019999999,
+        11.000000199999999,
+        22.394291563713182
+      ],
+      "volume_mm3": 2451.994345953587
+    },
+    {
+      "name": "r_elev_shaft",
+      "material": "metal",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "4 mm shaft candidate; final retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        36.0,
+        4.0,
+        4.0
+      ],
+      "volume_mm3": 452.389342116929
+    },
+    {
+      "name": "r_flex_bush_-36.5",
+      "material": "bush",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        5.0,
+        8.0
+      ],
+      "volume_mm3": 105.20408398708881
+    },
+    {
+      "name": "r_flex_bush_-27.5",
+      "material": "bush",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        5.0,
+        8.0
+      ],
+      "volume_mm3": 105.20408398708881
+    },
+    {
+      "name": "r_clavicle_output_frame",
+      "material": "frame",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "Rev I dogleg clavicle frame clears medial clutch; both kinematic axes unchanged; Rev I integral clutch support and captive M3 mounting nuts",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        54.41289996443654,
+        69.41004931634026,
+        41.5
+      ],
+      "volume_mm3": 7168.580164835824
+    },
+    {
+      "name": "r_yaw_fixed_face",
+      "material": "metal",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        23.999999999999996,
+        17.5,
+        1.0
+      ],
+      "volume_mm3": 338.89330855972423
+    },
+    {
+      "name": "r_yaw_friction",
+      "material": "lining",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        23.999999999999996,
+        17.5,
+        0.5
+      ],
+      "volume_mm3": 169.4466542798621
+    },
+    {
+      "name": "r_yaw_rotor_face",
+      "material": "metal",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        23.999999999999996,
+        17.5,
+        2.0
+      ],
+      "volume_mm3": 679.1217939972242
+    },
+    {
+      "name": "r_yaw_preload_space",
+      "material": "spring_space",
+      "owner": "chest",
+      "role": "reservation",
+      "note": "Preload load path, spring selection and fasteners not completed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        12.0,
+        6.0
+      ],
+      "volume_mm3": 681.092323675319
+    },
+    {
+      "name": "r_yaw_magnet_space",
+      "material": "transfer_space",
+      "owner": "clavicle_r.protract_frame",
+      "role": "reservation",
+      "note": "Magnet holder and field test pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        3.0
+      ],
+      "volume_mm3": 84.82300164692441
+    },
+    {
+      "name": "r_yaw_pcb_space",
+      "material": "sensor_space",
+      "owner": "chest",
+      "role": "reservation",
+      "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.000000000000004,
+        20.0,
+        1.6000000000000227
+      ],
+      "volume_mm3": 576.0000000000014
+    },
+    {
+      "name": "r_yaw_chip_space",
+      "material": "sensor_space",
+      "owner": "chest",
+      "role": "reservation",
+      "note": "Nominal 2 mm magnet face gap; not magnetically validated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.399999999999999,
+        5.0,
+        1.1000000000000227
+      ],
+      "volume_mm3": 35.20000000000012
+    },
+    {
+      "name": "r_elev_fixed_face",
+      "material": "metal",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0,
+        24.0,
+        24.0
+      ],
+      "volume_mm3": 437.8673300757114
+    },
+    {
+      "name": "r_elev_friction",
+      "material": "lining",
+      "owner": "clavicle_r.protract_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        24.0,
+        24.0
+      ],
+      "volume_mm3": 218.9336650378557
+    },
+    {
+      "name": "r_elev_rotor_face",
+      "material": "metal",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.0,
+        24.0,
+        24.0
+      ],
+      "volume_mm3": 877.0698370291984
+    },
+    {
+      "name": "r_elev_preload_space",
+      "material": "spring_space",
+      "owner": "clavicle_r.protract_frame",
+      "role": "reservation",
+      "note": "Preload load path, spring selection and fasteners not completed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        22.0,
+        22.0
+      ],
+      "volume_mm3": 2193.6641942588785
+    },
+    {
+      "name": "r_elev_magnet_space",
+      "material": "transfer_space",
+      "owner": "clavicle_r",
+      "role": "reservation",
+      "note": "Magnet holder and field test pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 84.82300164692464
+    },
+    {
+      "name": "r_elev_pcb_space",
+      "material": "sensor_space",
+      "owner": "clavicle_r.protract_frame",
+      "role": "reservation",
+      "note": "18 x 20 outline, yaw board shifted 4 mm outward; new component layout/connector/mounts pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999943,
+        18.0,
+        20.0
+      ],
+      "volume_mm3": 575.9999999999986
+    },
+    {
+      "name": "r_elev_chip_space",
+      "material": "sensor_space",
+      "owner": "clavicle_r.protract_frame",
+      "role": "reservation",
+      "note": "Nominal 2 mm magnet face gap; not magnetically validated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0999999999999943,
+        6.400000000000001,
+        5.0
+      ],
+      "volume_mm3": 35.19999999999988
+    },
+    {
+      "name": "r_abduct_bush_-20.5",
+      "material": "bush",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.0,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 75.35895377798542
+    },
+    {
+      "name": "r_abduct_bush_20.5",
+      "material": "bush",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.0,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 105.20408398708882
+    },
+    {
+      "name": "r_flex_ring",
+      "material": "frame",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        77.895,
+        32.000000099999994,
+        42.0
+      ],
+      "volume_mm3": 3793.357330254433
+    },
+    {
+      "name": "r_abduct_ring_and_twist_seat",
+      "material": "frame",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Rev J removable split metal drive hub; flange fixed with two M2 screws, nut pockets and tool relief; strain/creep not verified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        31.000000200000002,
+        28.000000199999988,
+        19.0
+      ],
+      "volume_mm3": 3165.290092559387
+    },
+    {
+      "name": "r_twist_bush",
+      "material": "bush",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        6.0,
+        13.0
+      ],
+      "volume_mm3": 195.93327982276145
+    },
+    {
+      "name": "r_twist_shaft",
+      "material": "metal",
+      "owner": "upperarm_r",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        4.0,
+        34.0
+      ],
+      "volume_mm3": 427.25660088821155
+    },
+    {
+      "name": "r_twist_fixed_face",
+      "material": "metal",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.000000000000004,
+        18.0,
+        1.0
+      ],
+      "volume_mm3": 223.29655183552856
+    },
+    {
+      "name": "r_twist_rotor_face",
+      "material": "metal",
+      "owner": "upperarm_r",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.000000000000004,
+        18.0,
+        2.0
+      ],
+      "volume_mm3": 481.2291626768845
+    },
+    {
+      "name": "r_twist_lining",
+      "material": "lining",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.000000000000004,
+        18.0,
+        1.0
+      ],
+      "volume_mm3": 223.29655183552856
+    },
+    {
+      "name": "r_arm_coupling",
+      "material": "frame",
+      "owner": "upperarm_r",
+      "role": "structural_concept",
+      "note": "Interface only; clamps/fasteners not completed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        14.0,
+        12.0,
+        9.0
+      ],
+      "volume_mm3": 1387.3101875790212
+    },
+    {
+      "name": "r_arm_upperarm_centreline_fork",
+      "material": "frame",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "Axial preload compliance/guidance and mounting details pending; not a finalized load-rated clevis",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        24.000000000000004,
+        17.0,
+        125.8556957244873
+      ],
+      "volume_mm3": 11415.73151379591
+    },
+    {
+      "name": "r_arm_forearm_centreline_link",
+      "material": "frame",
+      "owner": "elbow_r",
+      "role": "solid_concept",
+      "note": "Elbow-to-wrist centre distance retained; distal wrist integration pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.000000000000004,
+        10.0,
+        124.25536918640131
+      ],
+      "volume_mm3": 8500.73099053518
+    },
+    {
+      "name": "r_arm_rotor_radial_bush",
+      "material": "bush",
+      "owner": "elbow_r",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        9.800000000000011,
+        8.0
+      ],
+      "volume_mm3": 209.9437777481236
+    },
+    {
+      "name": "r_arm_friction_face_-6",
+      "material": "lining",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.000000000000004,
+        1.0,
+        20.0
+      ],
+      "volume_mm3": 258.74157094965557
+    },
+    {
+      "name": "r_arm_friction_face_5",
+      "material": "lining",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.000000000000004,
+        1.0,
+        20.0
+      ],
+      "volume_mm3": 258.7415709496556
+    },
+    {
+      "name": "r_arm_smooth_pivot_pin",
+      "material": "metal",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "6mm stationary pin; thread/retention details not finalized",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        9.600000000000001,
+        26.0,
+        9.600000000000023
+      ],
+      "volume_mm3": 867.4565635092124
+    },
+    {
+      "name": "r_arm_left_load_washer",
+      "material": "metal",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        11.0,
+        1.5,
+        11.0
+      ],
+      "volume_mm3": 95.7910869987698
+    },
+    {
+      "name": "r_arm_right_spring_seat",
+      "material": "metal",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        0.5,
+        13.0
+      ],
+      "volume_mm3": 50.77991825446196
+    },
+    {
+      "name": "r_arm_spring_stack_reserved",
+      "material": "spring_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "Two series springs: nominal envelope only, preload adjustment pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.5,
+        0.9260000000000019,
+        12.5
+      ],
+      "volume_mm3": 85.68070356524426
+    },
+    {
+      "name": "r_arm_preload_cap_reserved",
+      "material": "spring_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        2.0,
+        13.0
+      ],
+      "volume_mm3": 203.11967301784784
+    },
+    {
+      "name": "r_arm_preload_screw_reserved",
+      "material": "spring_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        3.0,
+        5.5
+      ],
+      "volume_mm3": 71.27488332831831
+    },
+    {
+      "name": "r_arm_input_gear_reserved",
+      "material": "transfer_space",
+      "owner": "elbow_r",
+      "role": "reservation",
+      "note": "m0.6, 40T candidate pitch diameter24; teeth, fastening, backlash and tolerances pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        25.199999999999996,
+        2.0,
+        25.200000000000045
+      ],
+      "volume_mm3": 375.4674459937838
+    },
+    {
+      "name": "r_arm_pickup_gear_reserved",
+      "material": "transfer_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "1:1 external gear reading candidate; nominal sensor angle = -elbow angle; actual rotor must rotate, envelope is stationary",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        25.199999999999996,
+        2.0,
+        25.200000000000045
+      ],
+      "volume_mm3": 972.3857581391122
+    },
+    {
+      "name": "r_arm_pickup_shaft_reserved",
+      "material": "transfer_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        9.5,
+        4.0
+      ],
+      "volume_mm3": 119.38052083641188
+    },
+    {
+      "name": "r_arm_magnet_reserved",
+      "material": "transfer_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "6x3 diametric magnet dimension candidate; field and alignment untested",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        3.0,
+        6.0
+      ],
+      "volume_mm3": 84.8230016469244
+    },
+    {
+      "name": "r_arm_sensor_package_reserved",
+      "material": "sensor_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.399999999999999,
+        1.0999999999999943,
+        5.0
+      ],
+      "volume_mm3": 35.19999999999993
+    },
+    {
+      "name": "r_arm_sensor_PCB_reserved",
+      "material": "sensor_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "New board outline reservation; not routed or electrically reviewed",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        16.000000000000004,
+        1.0,
+        18.0
+      ],
+      "volume_mm3": 288.0
+    },
+    {
+      "name": "r_arm_flat_cable_exit_reserved",
+      "material": "sensor_space",
+      "owner": "upperarm_r",
+      "role": "reservation",
+      "note": "Flat cable route space; bend radius and fastening pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        2.0,
+        8.0
+      ],
+      "volume_mm3": 128.0
+    },
+    {
+      "name": "r_arm_upperarm_shell_front",
+      "material": "shell",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        31.85670891734621,
+        63.42253837626606,
+        79.6417719993118
+      ],
+      "volume_mm3": 5232.171547080345
+    },
+    {
+      "name": "r_arm_upperarm_shell_back",
+      "material": "shell",
+      "owner": "upperarm_r",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        39.43067775054699,
+        63.79508277639532,
+        90.25620243059188
+      ],
+      "volume_mm3": 14311.27042852686
+    },
+    {
+      "name": "r_arm_forearm_shell_front",
+      "material": "shell",
+      "owner": "elbow_r",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.19343616621911,
+        54.90692223447083,
+        77.69152708980096
+      ],
+      "volume_mm3": 4868.350840794869
+    },
+    {
+      "name": "r_arm_forearm_shell_back",
+      "material": "shell",
+      "owner": "elbow_r",
+      "role": "solid_concept",
+      "note": "1.8mm axis-offset oval wall; closure bosses/latches and exact wall-thickness audit pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        29.1291295947424,
+        55.72017520581595,
+        88.56599017243678
+      ],
+      "volume_mm3": 11703.905358532835
+    },
+    {
+      "name": "common_chest_bearing_frame",
+      "material": "frame",
+      "owner": "chest",
+      "role": "structural_concept",
+      "note": "Shared top bearing block; minimum inter-bore web is reported, strength pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        38.5000001,
+        27.0000002,
+        102.00000009999997
+      ],
+      "volume_mm3": 14151.3992332064
+    },
+    {
+      "name": "l_flex_clutch_flanged_shaft",
+      "material": "metal",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        26.999999999999996,
+        33.376000000000005,
+        27.0
+      ],
+      "volume_mm3": 2483.9627443825534
+    },
+    {
+      "name": "l_flex_clutch_keyed_lining",
+      "material": "lining",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "1 mm replaceable lining; coefficient and wear unqualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        27.200000000000003,
+        1.0,
+        25.0
+      ],
+      "volume_mm3": 443.54816346061517
+    },
+    {
+      "name": "l_flex_clutch_reaction_plate",
+      "material": "metal",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        42.0,
+        4.0,
+        27.40000000000009
+      ],
+      "volume_mm3": 1957.0562794805237
+    },
+    {
+      "name": "l_flex_clutch_radial_bush",
+      "material": "bush",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "POM radial guide, clear of thrust faces; press fit/retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        2.799999999999997,
+        8.0
+      ],
+      "volume_mm3": 58.9142870327695
+    },
+    {
+      "name": "l_flex_clutch_thrust_washer",
+      "material": "thrust",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        19.999999999999996,
+        1.5,
+        20.0
+      ],
+      "volume_mm3": 353.42917352885115
+    },
+    {
+      "name": "l_flex_clutch_spring_seat",
+      "material": "metal",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        19.999999999999996,
+        0.5,
+        20.0
+      ],
+      "volume_mm3": 141.98427997899057
+    },
+    {
+      "name": "l_flex_clutch_disc_spring_a",
+      "material": "spring",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "SCHNORR 002 200 dimensional candidate at catalog test height",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        0.6880000000000095,
+        12.0
+      ],
+      "volume_mm3": 49.743978076940785
+    },
+    {
+      "name": "l_flex_clutch_disc_spring_b",
+      "material": "spring",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Opposed pair in series: force is not doubled",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        0.6880000000000095,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694078
+    },
+    {
+      "name": "l_flex_clutch_keyed_stop_cap",
+      "material": "metal",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        14.0,
+        3.000000000000007,
+        14.0
+      ],
+      "volume_mm3": 396.88687888604187
+    },
+    {
+      "name": "l_flex_clutch_outer_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Simplified thread envelope; axial cap retention, not hand tightness setting",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        11.0,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245559
+    },
+    {
+      "name": "l_flex_clutch_drive_retainer_washer",
+      "material": "metal",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Separate washer retains D drive in printed output hub",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        10.0,
+        1.0,
+        10.0
+      ],
+      "volume_mm3": 69.98683034034678
+    },
+    {
+      "name": "l_flex_clutch_inner_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Independent output-hub retention; does not set clutch spring compression",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        11.0,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245557
+    },
+    {
+      "name": "l_flex_clutch_mount_M3x10_0",
+      "material": "fastener",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        13.0,
+        5.5
+      ],
+      "volume_mm3": 133.84172987360967
+    },
+    {
+      "name": "l_flex_clutch_mount_M3_nut_0",
+      "material": "fastener",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.350852961085884,
+        2.3999999999999986,
+        5.5
+      ],
+      "volume_mm3": 51.09247186378849
+    },
+    {
+      "name": "l_flex_clutch_mount_M3x10_1",
+      "material": "fastener",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        13.0,
+        5.5
+      ],
+      "volume_mm3": 133.84172987360964
+    },
+    {
+      "name": "l_flex_clutch_mount_M3_nut_1",
+      "material": "fastener",
+      "owner": "clavicle_l",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.350852961085888,
+        2.3999999999999986,
+        5.5
+      ],
+      "volume_mm3": 51.09247186378849
+    },
+    {
+      "name": "l_abduct_clutch_flanged_shaft",
+      "material": "metal",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        25.376,
+        27.0,
+        27.0
+      ],
+      "volume_mm3": 2257.768073324092
+    },
+    {
+      "name": "l_abduct_clutch_keyed_lining",
+      "material": "lining",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "1 mm replaceable lining; coefficient and wear unqualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0,
+        25.0,
+        27.200000000000045
+      ],
+      "volume_mm3": 443.5481634606155
+    },
+    {
+      "name": "l_abduct_clutch_reaction_plate",
+      "material": "metal",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        27.400000000000006,
+        42.0
+      ],
+      "volume_mm3": 1957.0562794805282
+    },
+    {
+      "name": "l_abduct_clutch_radial_bush",
+      "material": "bush",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "POM radial guide, clear of thrust faces; press fit/retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.8,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 58.91428703277059
+    },
+    {
+      "name": "l_abduct_clutch_thrust_washer",
+      "material": "thrust",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 353.4291735288517
+    },
+    {
+      "name": "l_abduct_clutch_spring_seat",
+      "material": "metal",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 141.98427997899063
+    },
+    {
+      "name": "l_abduct_clutch_disc_spring_a",
+      "material": "spring",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "SCHNORR 002 200 dimensional candidate at catalog test height",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.6879999999999988,
+        12.0,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694061
+    },
+    {
+      "name": "l_abduct_clutch_disc_spring_b",
+      "material": "spring",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Opposed pair in series: force is not doubled",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.6880000000000024,
+        12.0,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694071
+    },
+    {
+      "name": "l_abduct_clutch_keyed_stop_cap",
+      "material": "metal",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.0000000000000018,
+        14.0,
+        14.0
+      ],
+      "volume_mm3": 396.88687888604204
+    },
+    {
+      "name": "l_abduct_clutch_outer_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Simplified thread envelope; axial cap retention, not hand tightness setting",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        11.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 119.7045629324553
+    },
+    {
+      "name": "l_abduct_clutch_drive_retainer_washer",
+      "material": "metal",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Separate washer retains D drive in printed output hub",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0,
+        10.0,
+        10.0
+      ],
+      "volume_mm3": 69.98683034034683
+    },
+    {
+      "name": "l_abduct_clutch_inner_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Independent output-hub retention; does not set clutch spring compression",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        11.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245532
+    },
+    {
+      "name": "l_abduct_clutch_mount_M3x10_0",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 133.8417298736094
+    },
+    {
+      "name": "l_abduct_clutch_mount_M3_nut_0",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.4,
+        5.5,
+        6.35085296108582
+      ],
+      "volume_mm3": 51.092471863787885
+    },
+    {
+      "name": "l_abduct_clutch_mount_M3x10_1",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 133.8417298736094
+    },
+    {
+      "name": "l_abduct_clutch_mount_M3_nut_1",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.4,
+        5.5,
+        6.35085296108582
+      ],
+      "volume_mm3": 51.092471863787885
+    },
+    {
+      "name": "r_flex_clutch_flanged_shaft",
+      "material": "metal",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        27.000000000000007,
+        33.376000000000005,
+        27.0
+      ],
+      "volume_mm3": 2483.9627443825534
+    },
+    {
+      "name": "r_flex_clutch_keyed_lining",
+      "material": "lining",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "1 mm replaceable lining; coefficient and wear unqualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        27.200000000000003,
+        1.0,
+        25.0
+      ],
+      "volume_mm3": 443.54816346061517
+    },
+    {
+      "name": "r_flex_clutch_reaction_plate",
+      "material": "metal",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        42.0,
+        4.0,
+        27.40000000000009
+      ],
+      "volume_mm3": 1957.0562794805244
+    },
+    {
+      "name": "r_flex_clutch_radial_bush",
+      "material": "bush",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "POM radial guide, clear of thrust faces; press fit/retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        8.0,
+        2.799999999999997,
+        8.0
+      ],
+      "volume_mm3": 58.914287032769515
+    },
+    {
+      "name": "r_flex_clutch_thrust_washer",
+      "material": "thrust",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.000000000000004,
+        1.5,
+        20.0
+      ],
+      "volume_mm3": 353.4291735288517
+    },
+    {
+      "name": "r_flex_clutch_spring_seat",
+      "material": "metal",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        20.000000000000007,
+        0.5,
+        20.0
+      ],
+      "volume_mm3": 141.98427997899083
+    },
+    {
+      "name": "r_flex_clutch_disc_spring_a",
+      "material": "spring",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "SCHNORR 002 200 dimensional candidate at catalog test height",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        0.6880000000000095,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694078
+    },
+    {
+      "name": "r_flex_clutch_disc_spring_b",
+      "material": "spring",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Opposed pair in series: force is not doubled",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        0.6880000000000095,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694078
+    },
+    {
+      "name": "r_flex_clutch_keyed_stop_cap",
+      "material": "metal",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        14.0,
+        3.000000000000007,
+        14.0
+      ],
+      "volume_mm3": 396.8868788860418
+    },
+    {
+      "name": "r_flex_clutch_outer_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Simplified thread envelope; axial cap retention, not hand tightness setting",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        11.0,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245557
+    },
+    {
+      "name": "r_flex_clutch_drive_retainer_washer",
+      "material": "metal",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Separate washer retains D drive in printed output hub",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        10.0,
+        1.0,
+        10.0
+      ],
+      "volume_mm3": 69.98683034034678
+    },
+    {
+      "name": "r_flex_clutch_inner_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Independent output-hub retention; does not set clutch spring compression",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        11.000000000000014,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245559
+    },
+    {
+      "name": "r_flex_clutch_mount_M3x10_0",
+      "material": "fastener",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        13.0,
+        5.5
+      ],
+      "volume_mm3": 133.84172987360967
+    },
+    {
+      "name": "r_flex_clutch_mount_M3_nut_0",
+      "material": "fastener",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.350852961085884,
+        2.3999999999999986,
+        5.5
+      ],
+      "volume_mm3": 51.092471863788475
+    },
+    {
+      "name": "r_flex_clutch_mount_M3x10_1",
+      "material": "fastener",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        13.0,
+        5.5
+      ],
+      "volume_mm3": 133.84172987360967
+    },
+    {
+      "name": "r_flex_clutch_mount_M3_nut_1",
+      "material": "fastener",
+      "owner": "clavicle_r",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.350852961085886,
+        2.3999999999999986,
+        5.5
+      ],
+      "volume_mm3": 51.09247186378848
+    },
+    {
+      "name": "r_abduct_clutch_flanged_shaft",
+      "material": "metal",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Custom steel 6 mm journal; integral flange, inner D drive, outer D cap seat, two M3 blind threads",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        25.376,
+        27.0,
+        27.0
+      ],
+      "volume_mm3": 2257.768073324092
+    },
+    {
+      "name": "r_abduct_clutch_keyed_lining",
+      "material": "lining",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "1 mm replaceable lining; coefficient and wear unqualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0,
+        25.0,
+        27.200000000000045
+      ],
+      "volume_mm3": 443.5481634606154
+    },
+    {
+      "name": "r_abduct_clutch_reaction_plate",
+      "material": "metal",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "3 mm steel reaction plate with keyed lining recess and two M3 frame mounts; spring thrust closes through plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.0,
+        27.400000000000006,
+        42.0
+      ],
+      "volume_mm3": 1957.056279480528
+    },
+    {
+      "name": "r_abduct_clutch_radial_bush",
+      "material": "bush",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "POM radial guide, clear of thrust faces; press fit/retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.8,
+        8.0,
+        8.0
+      ],
+      "volume_mm3": 58.91428703277052
+    },
+    {
+      "name": "r_abduct_clutch_thrust_washer",
+      "material": "thrust",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "SKF dimension candidate; PTFE face towards rotating spring seat; washer retention pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 353.4291735288517
+    },
+    {
+      "name": "r_abduct_clutch_spring_seat",
+      "material": "metal",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Steel spring seat; thrust washer separates rotation from fixed reaction plate",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        20.0,
+        20.0
+      ],
+      "volume_mm3": 141.98427997899063
+    },
+    {
+      "name": "r_abduct_clutch_disc_spring_a",
+      "material": "spring",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "SCHNORR 002 200 dimensional candidate at catalog test height",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.6879999999999988,
+        12.0,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694061
+    },
+    {
+      "name": "r_abduct_clutch_disc_spring_b",
+      "material": "spring",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Opposed pair in series: force is not doubled",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.6880000000000024,
+        12.0,
+        12.0
+      ],
+      "volume_mm3": 49.74397807694071
+    },
+    {
+      "name": "r_abduct_clutch_keyed_stop_cap",
+      "material": "metal",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "D key follows shaft; cap seats on metal shaft end; shim selection/retention and backlash need physical validation",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.0000000000000018,
+        14.0,
+        14.0
+      ],
+      "volume_mm3": 396.88687888604215
+    },
+    {
+      "name": "r_abduct_clutch_outer_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Simplified thread envelope; axial cap retention, not hand tightness setting",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        11.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245533
+    },
+    {
+      "name": "r_abduct_clutch_drive_retainer_washer",
+      "material": "metal",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Separate washer retains D drive in printed output hub",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0,
+        10.0,
+        10.0
+      ],
+      "volume_mm3": 69.98683034034681
+    },
+    {
+      "name": "r_abduct_clutch_inner_M3x8",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Independent output-hub retention; does not set clutch spring compression",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        11.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 119.70456293245532
+    },
+    {
+      "name": "r_abduct_clutch_mount_M3x10_0",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 133.84172987360938
+    },
+    {
+      "name": "r_abduct_clutch_mount_M3_nut_0",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.4,
+        5.5,
+        6.35085296108582
+      ],
+      "volume_mm3": 51.09247186378787
+    },
+    {
+      "name": "r_abduct_clutch_mount_M3x10_1",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Reaction plate to printed support; simplified thread",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        13.0,
+        5.5,
+        5.5
+      ],
+      "volume_mm3": 133.84172987360938
+    },
+    {
+      "name": "r_abduct_clutch_mount_M3_nut_1",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured hex nut, accessible from inside of support",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.4,
+        5.5,
+        6.35085296108582
+      ],
+      "volume_mm3": 51.092471863787864
+    },
+    {
+      "name": "l_flex_drive_split_hub",
+      "material": "aluminum",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        17.000000000000007,
+        5.5,
+        16.20000010000001
+      ],
+      "volume_mm3": 593.4821423412802
+    },
+    {
+      "name": "l_flex_drive_pinch_M2x10",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        3.8000000000000114,
+        3.7999999999999545
+      ],
+      "volume_mm3": 52.149668336301566
+    },
+    {
+      "name": "l_flex_drive_mount_M2x4_0",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.8000000000000007,
+        6.0,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.105256698911084
+    },
+    {
+      "name": "l_flex_drive_mount_M2_nut_0",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.618802153517009,
+        1.6000000000000085,
+        4.0
+      ],
+      "volume_mm3": 18.95325945960567
+    },
+    {
+      "name": "l_flex_drive_mount_M2x4_1",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.799999999999997,
+        6.0,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.10525669891108
+    },
+    {
+      "name": "l_flex_drive_mount_M2_nut_1",
+      "material": "fastener",
+      "owner": "upperarm_l.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.618802153517009,
+        1.6000000000000085,
+        4.0
+      ],
+      "volume_mm3": 18.953259459605675
+    },
+    {
+      "name": "l_abduct_drive_split_hub",
+      "material": "aluminum",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        16.200000099999997,
+        17.0
+      ],
+      "volume_mm3": 593.4821423412801
+    },
+    {
+      "name": "l_abduct_drive_pinch_M2x10",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.8000000000000007,
+        3.8000000000000114,
+        12.0
+      ],
+      "volume_mm3": 52.149668336301225
+    },
+    {
+      "name": "l_abduct_drive_mount_M2x4_0",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        3.8000000000000114,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.10525669891096
+    },
+    {
+      "name": "l_abduct_drive_mount_M2_nut_0",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999996,
+        4.0,
+        4.618802153517095
+      ],
+      "volume_mm3": 18.9532594596057
+    },
+    {
+      "name": "l_abduct_drive_mount_M2x4_1",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        3.8000000000000114,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.105256698910914
+    },
+    {
+      "name": "l_abduct_drive_mount_M2_nut_1",
+      "material": "fastener",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999996,
+        4.0,
+        4.618802153517095
+      ],
+      "volume_mm3": 18.95325945960572
+    },
+    {
+      "name": "r_flex_drive_split_hub",
+      "material": "aluminum",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        17.000000000000007,
+        5.500000000000014,
+        16.20000010000001
+      ],
+      "volume_mm3": 593.4821423412801
+    },
+    {
+      "name": "r_flex_drive_pinch_M2x10",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        3.8000000000000114,
+        3.7999999999999545
+      ],
+      "volume_mm3": 52.149668336301566
+    },
+    {
+      "name": "r_flex_drive_mount_M2x4_0",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.8000000000000007,
+        6.000000000000014,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.10525669891107
+    },
+    {
+      "name": "r_flex_drive_mount_M2_nut_0",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.618802153517002,
+        1.5999999999999943,
+        4.0
+      ],
+      "volume_mm3": 18.95325945960562
+    },
+    {
+      "name": "r_flex_drive_mount_M2x4_1",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.799999999999997,
+        6.000000000000014,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.10525669891107
+    },
+    {
+      "name": "r_flex_drive_mount_M2_nut_1",
+      "material": "fastener",
+      "owner": "upperarm_r.flex_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.618802153517008,
+        1.5999999999999943,
+        4.0
+      ],
+      "volume_mm3": 18.953259459605597
+    },
+    {
+      "name": "r_abduct_drive_split_hub",
+      "material": "aluminum",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Custom split metal D hub; M2 tapped clamp ear; preload/elastic closure not simulated",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.5,
+        16.200000099999997,
+        17.0
+      ],
+      "volume_mm3": 593.4821423412802
+    },
+    {
+      "name": "r_abduct_drive_pinch_M2x10",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "M2 transverse pinch screw takes up shaft fit clearance; tightening torque not yet qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.8000000000000007,
+        3.8000000000000114,
+        12.0
+      ],
+      "volume_mm3": 52.149668336301225
+    },
+    {
+      "name": "r_abduct_drive_mount_M2x4_0",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        3.8000000000000114,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.105256698910964
+    },
+    {
+      "name": "r_abduct_drive_mount_M2_nut_0",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999996,
+        4.0,
+        4.618802153517095
+      ],
+      "volume_mm3": 18.9532594596057
+    },
+    {
+      "name": "r_abduct_drive_mount_M2x4_1",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Flange screw with trapped M2 nut; 1.6 mm nominal nut engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        3.8000000000000114,
+        3.7999999999999545
+      ],
+      "volume_mm3": 33.10525669891092
+    },
+    {
+      "name": "r_abduct_drive_mount_M2_nut_1",
+      "material": "fastener",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "structural_concept",
+      "note": "Captured nut inside output yoke; fit and creep require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5999999999999996,
+        4.0,
+        4.618802153517095
+      ],
+      "volume_mm3": 18.953259459605725
+    },
+    {
+      "name": "l_abduct_sensor_rear_journal",
+      "material": "aluminum",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Custom nonferromagnetic 4 mm journal; inner radial M2 and outer axial M2 retention",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.0,
+        4.0,
+        4.0
+      ],
+      "volume_mm3": 202.14747738287608
+    },
+    {
+      "name": "l_abduct_sensor_journal_radial_M2x4",
+      "material": "brass",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Candidate nonferromagnetic M2x4; keyed shaft is installed after front clutch screw, before twist shaft",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.8000000000000043,
+        3.8000000000000114,
+        6.0
+      ],
+      "volume_mm3": 33.30011241476248
+    },
+    {
+      "name": "l_abduct_sensor_magnet_carrier",
+      "material": "frame",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "D driven magnet cup with separate axial screw; 0.1 mm radial adhesive bed prevents magnet rotation; adhesive selection and rotational slip test pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.500000000000007,
+        10.599999999999994,
+        14.799999999999955
+      ],
+      "volume_mm3": 983.5430596436539
+    },
+    {
+      "name": "l_abduct_sensor_carrier_axial_M2x6",
+      "material": "nylon",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Insert before magnet; nonmagnetic M2 screw into rear journal",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.31913442380508
+    },
+    {
+      "name": "l_abduct_sensor_diametric_magnet_6x2p5",
+      "material": "magnet",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "6 x 2.5 mm diametrically magnetized candidate, never axially magnetized; grade and diagnostics require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.5,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 70.68583470577057
+    },
+    {
+      "name": "l_abduct_sensor_magnet_retaining_bridge",
+      "material": "frame",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Positive removable cover; magnet face seats at 36.5 mm, no adhesive-only axial retention",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.8000000000000043,
+        4.800000000000011,
+        14.799999999999955
+      ],
+      "volume_mm3": 50.749876622649836
+    },
+    {
+      "name": "l_abduct_sensor_magnet_cover_M2x6_0",
+      "material": "nylon",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Nominal M2 nylon screw into cup; printed threads not qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.31913442380508
+    },
+    {
+      "name": "l_abduct_sensor_magnet_cover_M2x6_1",
+      "material": "nylon",
+      "owner": "upperarm_l.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Nominal M2 nylon screw into cup; printed threads not qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.31913442380508
+    },
+    {
+      "name": "l_abduct_sensor_pcb_AS5048A",
+      "material": "pcb_component",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0000001000000012,
+        5.000000199999988,
+        6.400000000000091
+      ],
+      "volume_mm3": 19.559259977171358
+    },
+    {
+      "name": "l_abduct_sensor_pcb_passive_1",
+      "material": "pcb_component",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.8000000000000114,
+        0.7999999999999972,
+        1.599999999999909
+      ],
+      "volume_mm3": 0.9303638934211351
+    },
+    {
+      "name": "l_abduct_sensor_pcb_passive_2",
+      "material": "pcb_component",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.45000000000000284,
+        0.7999999999999972,
+        1.599999999999909
+      ],
+      "volume_mm3": 0.5372187601976334
+    },
+    {
+      "name": "l_abduct_sensor_pcb_passive_3",
+      "material": "pcb_component",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.250000000000007,
+        1.2500000000000142,
+        2.0
+      ],
+      "volume_mm3": 2.8899330964914802
+    },
+    {
+      "name": "l_abduct_sensor_pcb_passive_4",
+      "material": "pcb_component",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.45000000000000284,
+        0.7999999999999972,
+        1.599999999999909
+      ],
+      "volume_mm3": 0.5372187601976334
+    },
+    {
+      "name": "l_abduct_sensor_pcb_J1_back_connector",
+      "material": "pcb_component",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.25,
+        4.950400000000002,
+        10.75
+      ],
+      "volume_mm3": 104.86443563202135
+    },
+    {
+      "name": "l_abduct_sensor_pcb_board",
+      "material": "pcb",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5100000000000051,
+        20.0,
+        18.0
+      ],
+      "volume_mm3": 532.1199921252529
+    },
+    {
+      "name": "l_abduct_sensor_nylon_spacer_0",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "M2 female 6 mm spacer; electrical insulation and spreaders required",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        4.599999999999994,
+        4.599999999999909
+      ],
+      "volume_mm3": 87.6504350351542
+    },
+    {
+      "name": "l_abduct_sensor_nylon_spreader_0",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "0.5 mm insulating spreader, OD4.4/ID2.2",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        4.400000000000006,
+        4.400000000000091
+      ],
+      "volume_mm3": 5.701990666265587
+    },
+    {
+      "name": "l_abduct_sensor_board_M2x4_0",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Front board screw; 1.99 mm nominal engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.3999999999999915,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 26.03594911662541
+    },
+    {
+      "name": "l_abduct_sensor_support_M2x6_0",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.3999999999999915,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.319134423805025
+    },
+    {
+      "name": "l_abduct_sensor_nylon_spacer_1",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "M2 female 6 mm spacer; electrical insulation and spreaders required",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        4.599999999999994,
+        4.599999999999909
+      ],
+      "volume_mm3": 87.6504350351542
+    },
+    {
+      "name": "l_abduct_sensor_nylon_spreader_1",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "0.5 mm insulating spreader, OD4.4/ID2.2",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        4.400000000000006,
+        4.400000000000091
+      ],
+      "volume_mm3": 5.701990666265587
+    },
+    {
+      "name": "l_abduct_sensor_board_M2x4_1",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Front board screw; 1.99 mm nominal engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.3999999999999915,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 26.03594911662541
+    },
+    {
+      "name": "l_abduct_sensor_support_M2x6_1",
+      "material": "nylon",
+      "owner": "upperarm_l.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.3999999999999915,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.319134423805025
+    },
+    {
+      "name": "l_abduct_sensor_plug_service_envelope",
+      "material": "sensor_space",
+      "owner": "upperarm_l.flex_frame",
+      "role": "reservation",
+      "note": "Unverified mated plug insertion envelope beyond actual connector",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.0,
+        8.0,
+        13.0
+      ],
+      "volume_mm3": 728.0
+    },
+    {
+      "name": "l_abduct_sensor_wire_service_envelope",
+      "material": "sensor_space",
+      "owner": "upperarm_l.flex_frame",
+      "role": "reservation",
+      "note": "Initial cable bend allowance only; no routed harness",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        10.0,
+        12.0
+      ],
+      "volume_mm3": 1439.9999999999995
+    },
+    {
+      "name": "r_abduct_sensor_rear_journal",
+      "material": "aluminum",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Custom nonferromagnetic 4 mm journal; inner radial M2 and outer axial M2 retention",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        18.0,
+        4.0,
+        4.0
+      ],
+      "volume_mm3": 202.14747738287608
+    },
+    {
+      "name": "r_abduct_sensor_journal_radial_M2x4",
+      "material": "brass",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Candidate nonferromagnetic M2x4; keyed shaft is installed after front clutch screw, before twist shaft",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        3.799999999999997,
+        3.8000000000000114,
+        6.0
+      ],
+      "volume_mm3": 33.300112414762474
+    },
+    {
+      "name": "r_abduct_sensor_magnet_carrier",
+      "material": "frame",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "D driven magnet cup with separate axial screw; 0.1 mm radial adhesive bed prevents magnet rotation; adhesive selection and rotational slip test pending",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.500000000000007,
+        10.599999999999994,
+        14.799999999999955
+      ],
+      "volume_mm3": 983.543059643654
+    },
+    {
+      "name": "r_abduct_sensor_carrier_axial_M2x6",
+      "material": "nylon",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Insert before magnet; nonmagnetic M2 screw into rear journal",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.399999999999999,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.31913442380503
+    },
+    {
+      "name": "r_abduct_sensor_diametric_magnet_6x2p5",
+      "material": "magnet",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "6 x 2.5 mm diametrically magnetized candidate, never axially magnetized; grade and diagnostics require testing",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        2.5,
+        6.0,
+        6.0
+      ],
+      "volume_mm3": 70.68583470577056
+    },
+    {
+      "name": "r_abduct_sensor_magnet_retaining_bridge",
+      "material": "frame",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Positive removable cover; magnet face seats at 36.5 mm, no adhesive-only axial retention",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.8000000000000043,
+        4.800000000000011,
+        14.799999999999955
+      ],
+      "volume_mm3": 50.749876622649836
+    },
+    {
+      "name": "r_abduct_sensor_magnet_cover_M2x6_0",
+      "material": "nylon",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Nominal M2 nylon screw into cup; printed threads not qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.399999999999999,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.31913442380503
+    },
+    {
+      "name": "r_abduct_sensor_magnet_cover_M2x6_1",
+      "material": "nylon",
+      "owner": "upperarm_r.abduct_frame",
+      "role": "sensor_candidate",
+      "note": "Nominal M2 nylon screw into cup; printed threads not qualified",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.399999999999999,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.31913442380503
+    },
+    {
+      "name": "r_abduct_sensor_pcb_AS5048A",
+      "material": "pcb_component",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.0000001000000012,
+        5.000000199999988,
+        6.400000000000091
+      ],
+      "volume_mm3": 19.559259977171546
+    },
+    {
+      "name": "r_abduct_sensor_pcb_passive_1",
+      "material": "pcb_component",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.7999999999999972,
+        0.8000000000000114,
+        1.599999999999909
+      ],
+      "volume_mm3": 0.9303638934211331
+    },
+    {
+      "name": "r_abduct_sensor_pcb_passive_2",
+      "material": "pcb_component",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.45000000000000284,
+        0.7999999999999972,
+        1.599999999999909
+      ],
+      "volume_mm3": 0.5372187601976333
+    },
+    {
+      "name": "r_abduct_sensor_pcb_passive_3",
+      "material": "pcb_component",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.2500000000000142,
+        1.2500000000000142,
+        2.0
+      ],
+      "volume_mm3": 2.8899330964914807
+    },
+    {
+      "name": "r_abduct_sensor_pcb_passive_4",
+      "material": "pcb_component",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.45000000000000284,
+        0.7999999999999972,
+        1.599999999999909
+      ],
+      "volume_mm3": 0.5372187601976334
+    },
+    {
+      "name": "r_abduct_sensor_pcb_J1_back_connector",
+      "material": "pcb_component",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        4.250000000000014,
+        4.950400000000002,
+        10.75
+      ],
+      "volume_mm3": 104.86443563202155
+    },
+    {
+      "name": "r_abduct_sensor_pcb_board",
+      "material": "pcb",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Actual sensor_revB STEP; model holes/parts preserved; 1.51 mm STEP board versus 1.6 mm nominal fabrication",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        1.5100000000000051,
+        20.0,
+        18.0
+      ],
+      "volume_mm3": 532.1199921252512
+    },
+    {
+      "name": "r_abduct_sensor_nylon_spacer_0",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "M2 female 6 mm spacer; electrical insulation and spreaders required",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        4.599999999999994,
+        4.599999999999909
+      ],
+      "volume_mm3": 87.6504350351542
+    },
+    {
+      "name": "r_abduct_sensor_nylon_spreader_0",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "0.5 mm insulating spreader, OD4.4/ID2.2",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        4.400000000000006,
+        4.400000000000091
+      ],
+      "volume_mm3": 5.701990666265586
+    },
+    {
+      "name": "r_abduct_sensor_board_M2x4_0",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Front board screw; 1.99 mm nominal engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 26.035949116625456
+    },
+    {
+      "name": "r_abduct_sensor_support_M2x6_0",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.319134423805075
+    },
+    {
+      "name": "r_abduct_sensor_nylon_spacer_1",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "M2 female 6 mm spacer; electrical insulation and spreaders required",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        6.0,
+        4.599999999999994,
+        4.599999999999909
+      ],
+      "volume_mm3": 87.6504350351542
+    },
+    {
+      "name": "r_abduct_sensor_nylon_spreader_1",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "0.5 mm insulating spreader, OD4.4/ID2.2",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        0.5,
+        4.400000000000006,
+        4.400000000000091
+      ],
+      "volume_mm3": 5.701990666265586
+    },
+    {
+      "name": "r_abduct_sensor_board_M2x4_1",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Front board screw; 1.99 mm nominal engagement",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        5.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 26.035949116625456
+    },
+    {
+      "name": "r_abduct_sensor_support_M2x6_1",
+      "material": "nylon",
+      "owner": "upperarm_r.flex_frame",
+      "role": "sensor_candidate",
+      "note": "Rear support screw; 3 mm nominal engagement; 1.01 mm gap to opposing screw",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.400000000000006,
+        3.5,
+        3.5
+      ],
+      "volume_mm3": 32.319134423805075
+    },
+    {
+      "name": "r_abduct_sensor_plug_service_envelope",
+      "material": "sensor_space",
+      "owner": "upperarm_r.flex_frame",
+      "role": "reservation",
+      "note": "Unverified mated plug insertion envelope beyond actual connector",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        7.0,
+        8.0,
+        13.0
+      ],
+      "volume_mm3": 728.0
+    },
+    {
+      "name": "r_abduct_sensor_wire_service_envelope",
+      "material": "sensor_space",
+      "owner": "upperarm_r.flex_frame",
+      "role": "reservation",
+      "note": "Initial cable bend allowance only; no routed harness",
+      "valid": true,
+      "solids": 1,
+      "bbox_mm": [
+        12.0,
+        10.0,
+        12.0
+      ],
+      "volume_mm3": 1439.9999999999986
+    }
+  ],
+  "motion_checks": [
+    {
+      "pose": "neutral",
+      "angles_deg": {},
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "forward",
+      "angles_deg": {
+        "clavicle_l.protract": 30,
+        "clavicle_l.elevate": 0,
+        "clavicle_r.protract": 30,
+        "clavicle_r.elevate": 0
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.548722338290267e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "backward",
+      "angles_deg": {
+        "clavicle_l.protract": -20,
+        "clavicle_l.elevate": 0,
+        "clavicle_r.protract": -20,
+        "clavicle_r.elevate": 0
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 2.2872965534503283e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "shrug",
+      "angles_deg": {
+        "clavicle_l.protract": 0,
+        "clavicle_l.elevate": 30,
+        "clavicle_r.protract": 0,
+        "clavicle_r.elevate": 30
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.441034204774114e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "down",
+      "angles_deg": {
+        "clavicle_l.protract": 0,
+        "clavicle_l.elevate": -15,
+        "clavicle_r.protract": 0,
+        "clavicle_r.elevate": -15
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.570653994744099e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "forward_up",
+      "angles_deg": {
+        "clavicle_l.protract": 30,
+        "clavicle_l.elevate": 30,
+        "clavicle_r.protract": 30,
+        "clavicle_r.elevate": 30
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 2.0292495965882763e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "back_down",
+      "angles_deg": {
+        "clavicle_l.protract": -20,
+        "clavicle_l.elevate": -15,
+        "clavicle_r.protract": -20,
+        "clavicle_r.elevate": -15
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 2.518733689731286e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "asymmetric",
+      "angles_deg": {
+        "clavicle_l.protract": 30,
+        "clavicle_l.elevate": 30,
+        "clavicle_r.protract": -20,
+        "clavicle_r.elevate": -15
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 2.518733689731286e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "arms_forward",
+      "angles_deg": {
+        "upperarm_l.flex": 90,
+        "upperarm_r.flex": 90
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "arms_overhead",
+      "angles_deg": {
+        "upperarm_l.flex": 160,
+        "upperarm_r.flex": 160
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "arms_side",
+      "angles_deg": {
+        "upperarm_l.abduct": 90,
+        "upperarm_r.abduct": 90
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "hands_on_hips",
+      "angles_deg": {
+        "upperarm_l.abduct": 35,
+        "upperarm_r.abduct": 35,
+        "elbow_l.flex": 110,
+        "elbow_r.flex": 110,
+        "upperarm_l.twist": -40,
+        "upperarm_r.twist": -40
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "arms_crossed",
+      "angles_deg": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 65,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 115,
+        "upperarm_l.twist": 60,
+        "upperarm_r.twist": 60
+      },
+      "hits": [
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 310.4617,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 102.1136,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 112.1478,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 102.1159,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 569.3032,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 101.1818,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 112.151,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 101.1645,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 715.6059,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        }
+      ],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 9
+    },
+    {
+      "pose": "forehead",
+      "angles_deg": {
+        "upperarm_l.flex": 110,
+        "elbow_l.flex": 105,
+        "upperarm_l.twist": -30
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "forward_shrug_reach",
+      "angles_deg": {
+        "clavicle_l.protract": 30,
+        "clavicle_l.elevate": 30,
+        "clavicle_r.protract": 30,
+        "clavicle_r.elevate": 30,
+        "upperarm_l.flex": 90,
+        "upperarm_r.flex": 90
+      },
+      "hits": [
+        {
+          "a": "l_arm_upperarm_centreline_fork",
+          "b": "r_arm_upperarm_centreline_fork",
+          "volume_mm3": 89.0159,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "upperarm_l",
+          "owner_b": "upperarm_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_upperarm_centreline_fork",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 3.7921,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "upperarm_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_upperarm_centreline_fork",
+          "b": "r_arm_friction_face_-6",
+          "volume_mm3": 13.015,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "upperarm_l",
+          "owner_b": "upperarm_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_upperarm_centreline_fork",
+          "volume_mm3": 3.7629,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "upperarm_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 329.9007,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 114.405,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_friction_face_-6",
+          "b": "r_arm_upperarm_centreline_fork",
+          "volume_mm3": 13.0398,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "upperarm_l",
+          "owner_b": "upperarm_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_smooth_pivot_pin",
+          "b": "r_arm_smooth_pivot_pin",
+          "volume_mm3": 16.6082,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "upperarm_l",
+          "owner_b": "upperarm_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 50.4568,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 0.2347,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 114.4038,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 0.2399,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 747.5182,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        }
+      ],
+      "bearing_axis_alignment_max_mm": 2.354343040114469e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 13
+    },
+    {
+      "pose": "elbows_closed",
+      "angles_deg": {
+        "elbow_l.flex": 145,
+        "elbow_r.flex": 145
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "down_arms_vertical",
+      "angles_deg": {
+        "clavicle_l.protract": 0,
+        "clavicle_l.elevate": -15,
+        "clavicle_r.protract": 0,
+        "clavicle_r.elevate": -15,
+        "upperarm_l.abduct": 15,
+        "upperarm_r.abduct": 15
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.570653994744099e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "back_down_arms_clear",
+      "angles_deg": {
+        "clavicle_l.protract": -20,
+        "clavicle_l.elevate": -15,
+        "clavicle_r.protract": -20,
+        "clavicle_r.elevate": -15,
+        "upperarm_l.abduct": 20,
+        "upperarm_r.abduct": 20
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 2.518733689731286e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "shrug_reach_parallel",
+      "angles_deg": {
+        "clavicle_l.protract": 30,
+        "clavicle_l.elevate": 30,
+        "clavicle_r.protract": 30,
+        "clavicle_r.elevate": 30,
+        "upperarm_l.flex": 73.897886248,
+        "upperarm_l.abduct": 25.658906274,
+        "upperarm_r.flex": 73.897886248,
+        "upperarm_r.abduct": 25.658906274
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 2.6663500788776274e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "crossed_staggered",
+      "angles_deg": {
+        "upperarm_l.flex": 80,
+        "upperarm_r.flex": 50,
+        "upperarm_l.abduct": -15,
+        "upperarm_r.abduct": -15,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 115,
+        "upperarm_l.twist": 60,
+        "upperarm_r.twist": 60
+      },
+      "hits": [
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 89.2992,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 14.0142,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 1.9982,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 94.5183,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        }
+      ],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 4
+    },
+    {
+      "pose": "crossed_clearance_candidate",
+      "angles_deg": {
+        "upperarm_l.flex": 60,
+        "upperarm_r.flex": 75,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_flex_-50",
+      "angles_deg": {
+        "upperarm_l.flex": -50,
+        "upperarm_r.flex": -50
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_flex_-25",
+      "angles_deg": {
+        "upperarm_l.flex": -25,
+        "upperarm_r.flex": -25
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.999328464867464e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_flex_45",
+      "angles_deg": {
+        "upperarm_l.flex": 45,
+        "upperarm_r.flex": 45
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_flex_135",
+      "angles_deg": {
+        "upperarm_l.flex": 135,
+        "upperarm_r.flex": 135
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 3.4107901638000697e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_abduct_-30",
+      "angles_deg": {
+        "upperarm_l.abduct": -30,
+        "upperarm_r.abduct": -30
+      },
+      "hits": [
+        {
+          "a": "l_arm_upperarm_centreline_fork",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 0.0207,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "upperarm_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 406.4378,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 106.4015,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_centreline_link",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 116.0046,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 106.4021,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_front",
+          "b": "r_arm_forearm_shell_front",
+          "volume_mm3": 152.7361,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_upperarm_centreline_fork",
+          "volume_mm3": 0.021,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "upperarm_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_centreline_link",
+          "volume_mm3": 116.0109,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        },
+        {
+          "a": "l_arm_forearm_shell_back",
+          "b": "r_arm_forearm_shell_back",
+          "volume_mm3": 1086.0109,
+          "reservation_involved": false,
+          "classification": "pose_restriction",
+          "owner_a": "elbow_l",
+          "owner_b": "elbow_r",
+          "reason": "opposite_independent_arms"
+        }
+      ],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 9
+    },
+    {
+      "pose": "scan_abduct_30",
+      "angles_deg": {
+        "upperarm_l.abduct": 30,
+        "upperarm_r.abduct": 30
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_abduct_60",
+      "angles_deg": {
+        "upperarm_l.abduct": 60,
+        "upperarm_r.abduct": 60
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_abduct_120",
+      "angles_deg": {
+        "upperarm_l.abduct": 120,
+        "upperarm_r.abduct": 120
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_abduct_150",
+      "angles_deg": {
+        "upperarm_l.abduct": 150,
+        "upperarm_r.abduct": 150
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_twist_-90",
+      "angles_deg": {
+        "upperarm_l.twist": -90,
+        "upperarm_r.twist": -90
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_twist_-60",
+      "angles_deg": {
+        "upperarm_l.twist": -60,
+        "upperarm_r.twist": -60
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_twist_-30",
+      "angles_deg": {
+        "upperarm_l.twist": -30,
+        "upperarm_r.twist": -30
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_twist_30",
+      "angles_deg": {
+        "upperarm_l.twist": 30,
+        "upperarm_r.twist": 30
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_twist_60",
+      "angles_deg": {
+        "upperarm_l.twist": 60,
+        "upperarm_r.twist": 60
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    },
+    {
+      "pose": "scan_twist_90",
+      "angles_deg": {
+        "upperarm_l.twist": 90,
+        "upperarm_r.twist": 90
+      },
+      "hits": [],
+      "bearing_axis_alignment_max_mm": 4.549693413077341e-13,
+      "bearing_axis_checks": 22,
+      "structural_hits": 0,
+      "pose_restriction_hits": 0
+    }
+  ],
+  "new_same_owner_assembly_contacts": [
+    {
+      "a": "l_flex_clutch_flanged_shaft",
+      "b": "l_flex_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_clutch_flanged_shaft",
+      "b": "l_flex_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_clutch_mount_M3x10_0",
+      "b": "l_flex_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_clutch_mount_M3x10_1",
+      "b": "l_flex_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_flanged_shaft",
+      "b": "l_abduct_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_flanged_shaft",
+      "b": "l_abduct_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_mount_M3x10_0",
+      "b": "l_abduct_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_clutch_mount_M3x10_1",
+      "b": "l_abduct_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_flanged_shaft",
+      "b": "r_flex_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_flanged_shaft",
+      "b": "r_flex_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_mount_M3x10_0",
+      "b": "r_flex_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_clutch_mount_M3x10_1",
+      "b": "r_flex_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_flanged_shaft",
+      "b": "r_abduct_clutch_outer_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_flanged_shaft",
+      "b": "r_abduct_clutch_inner_M3x8",
+      "volume_mm3": 15.1189,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_mount_M3x10_0",
+      "b": "r_abduct_clutch_mount_M3_nut_0",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_clutch_mount_M3x10_1",
+      "b": "r_abduct_clutch_mount_M3_nut_1",
+      "volume_mm3": 5.1836,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_drive_split_hub",
+      "b": "l_flex_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_drive_mount_M2x4_0",
+      "b": "l_flex_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_flex_drive_mount_M2x4_1",
+      "b": "l_flex_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_drive_split_hub",
+      "b": "l_abduct_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_drive_mount_M2x4_0",
+      "b": "l_abduct_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_drive_mount_M2x4_1",
+      "b": "l_abduct_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_drive_split_hub",
+      "b": "r_flex_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_drive_mount_M2x4_0",
+      "b": "r_flex_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_flex_drive_mount_M2x4_1",
+      "b": "r_flex_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_drive_split_hub",
+      "b": "r_abduct_drive_pinch_M2x10",
+      "volume_mm3": 6.4465,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_drive_mount_M2x4_0",
+      "b": "r_abduct_drive_mount_M2_nut_0",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_drive_mount_M2x4_1",
+      "b": "r_abduct_drive_mount_M2_nut_1",
+      "volume_mm3": 1.8096,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_rear_journal",
+      "b": "l_abduct_sensor_journal_radial_M2x4",
+      "volume_mm3": 1.6965,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_rear_journal",
+      "b": "l_abduct_sensor_carrier_axial_M2x6",
+      "volume_mm3": 5.6549,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_magnet_carrier",
+      "b": "l_abduct_sensor_magnet_cover_M2x6_0",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_magnet_carrier",
+      "b": "l_abduct_sensor_magnet_cover_M2x6_1",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_0",
+      "b": "l_abduct_sensor_board_M2x4_0",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_0",
+      "b": "l_abduct_sensor_support_M2x6_0",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_1",
+      "b": "l_abduct_sensor_board_M2x4_1",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "l_abduct_sensor_nylon_spacer_1",
+      "b": "l_abduct_sensor_support_M2x6_1",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_rear_journal",
+      "b": "r_abduct_sensor_journal_radial_M2x4",
+      "volume_mm3": 1.6965,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_rear_journal",
+      "b": "r_abduct_sensor_carrier_axial_M2x6",
+      "volume_mm3": 5.6549,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_magnet_carrier",
+      "b": "r_abduct_sensor_magnet_cover_M2x6_0",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_magnet_carrier",
+      "b": "r_abduct_sensor_magnet_cover_M2x6_1",
+      "volume_mm3": 5.8811,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_0",
+      "b": "r_abduct_sensor_board_M2x4_0",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_0",
+      "b": "r_abduct_sensor_support_M2x6_0",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_1",
+      "b": "r_abduct_sensor_board_M2x4_1",
+      "volume_mm3": 2.2506,
+      "intentional_thread": true
+    },
+    {
+      "a": "r_abduct_sensor_nylon_spacer_1",
+      "b": "r_abduct_sensor_support_M2x6_1",
+      "volume_mm3": 3.3929,
+      "intentional_thread": true
+    }
+  ],
+  "unexpected_new_assembly_contacts": [],
+  "unit_payload_loads": [
+    {
+      "pose": "neutral",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "neutral",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 2.7872175678567144e-17
+    },
+    {
+      "pose": "neutral",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "neutral",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "forward",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.41527167521924e-17
+    },
+    {
+      "pose": "forward",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 2.4263082957564086e-17
+    },
+    {
+      "pose": "forward",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 6.034503049095481e-18
+    },
+    {
+      "pose": "forward",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 3.484021959820892e-18
+    },
+    {
+      "pose": "backward",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.131424221279038e-17
+    },
+    {
+      "pose": "backward",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.0712427525103569e-17
+    },
+    {
+      "pose": "backward",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 6.547819452599503e-18
+    },
+    {
+      "pose": "backward",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 2.383211380095438e-18
+    },
+    {
+      "pose": "shrug",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.2069006098190962e-17
+    },
+    {
+      "pose": "shrug",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489589623541826
+    },
+    {
+      "pose": "shrug",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.0172515245477404e-18
+    },
+    {
+      "pose": "shrug",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489465237283704
+    },
+    {
+      "pose": "down",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3461227161397021e-17
+    },
+    {
+      "pose": "down",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.06982725410379935
+    },
+    {
+      "pose": "down",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.3653067903492553e-18
+    },
+    {
+      "pose": "down",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.06982661023314836
+    },
+    {
+      "pose": "forward_up",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 6.938893903907228e-18
+    },
+    {
+      "pose": "forward_up",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.1348958962354183
+    },
+    {
+      "pose": "forward_up",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 2.0816681711721685e-17
+    },
+    {
+      "pose": "forward_up",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489465237283702
+    },
+    {
+      "pose": "back_down",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 2.0816681711721685e-17
+    },
+    {
+      "pose": "back_down",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.06982725410379935
+    },
+    {
+      "pose": "back_down",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "back_down",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.06982661023314835
+    },
+    {
+      "pose": "asymmetric",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 6.938893903907228e-18
+    },
+    {
+      "pose": "asymmetric",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.1348958962354183
+    },
+    {
+      "pose": "asymmetric",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "asymmetric",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.06982661023314835
+    },
+    {
+      "pose": "arms_forward",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.2697917924708366
+    },
+    {
+      "pose": "arms_forward",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 3.094433118474254e-33
+    },
+    {
+      "pose": "arms_forward",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.26978930474567414
+    },
+    {
+      "pose": "arms_forward",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.547216559237127e-33
+    },
+    {
+      "pose": "arms_overhead",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.09227422752896462
+    },
+    {
+      "pose": "arms_overhead",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 2.6191277810398013e-17
+    },
+    {
+      "pose": "arms_overhead",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.09227337667684803
+    },
+    {
+      "pose": "arms_overhead",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3095638905199007e-17
+    },
+    {
+      "pose": "arms_side",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "arms_side",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.2697917924708365
+    },
+    {
+      "pose": "arms_side",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "arms_side",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.2697893047456741
+    },
+    {
+      "pose": "hands_on_hips",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.09618649142943832
+    },
+    {
+      "pose": "hands_on_hips",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.11800519981066841
+    },
+    {
+      "pose": "hands_on_hips",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.0961862692650296
+    },
+    {
+      "pose": "hands_on_hips",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.11800385777180088
+    },
+    {
+      "pose": "arms_crossed",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.060957369742417375
+    },
+    {
+      "pose": "arms_crossed",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.05317016944184221
+    },
+    {
+      "pose": "arms_crossed",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.06095564097656622
+    },
+    {
+      "pose": "arms_crossed",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.05316977711954353
+    },
+    {
+      "pose": "forehead",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.05723117454731866
+    },
+    {
+      "pose": "forehead",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.02207190242016335
+    },
+    {
+      "pose": "forehead",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "forehead",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "forward_shrug_reach",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.23364654601228377
+    },
+    {
+      "pose": "forward_shrug_reach",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489589623541828
+    },
+    {
+      "pose": "forward_shrug_reach",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.2336443915790954
+    },
+    {
+      "pose": "forward_shrug_reach",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489465237283702
+    },
+    {
+      "pose": "elbows_closed",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.07664178336774545
+    },
+    {
+      "pose": "elbows_closed",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 2.7872175678567144e-17
+    },
+    {
+      "pose": "elbows_closed",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.07664160634625074
+    },
+    {
+      "pose": "elbows_closed",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "down_arms_vertical",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3461227161397021e-17
+    },
+    {
+      "pose": "down_arms_vertical",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "down_arms_vertical",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.3653067903492553e-18
+    },
+    {
+      "pose": "down_arms_vertical",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "back_down_arms_clear",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 9.540979117872439e-18
+    },
+    {
+      "pose": "back_down_arms_clear",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.02351390406001784
+    },
+    {
+      "pose": "back_down_arms_clear",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 4.336808689942018e-18
+    },
+    {
+      "pose": "back_down_arms_clear",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.023513687240483527
+    },
+    {
+      "pose": "shrug_reach_parallel",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.20234384435184977
+    },
+    {
+      "pose": "shrug_reach_parallel",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.14965356022355303
+    },
+    {
+      "pose": "shrug_reach_parallel",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.20234197855797792
+    },
+    {
+      "pose": "shrug_reach_parallel",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.14965218028191726
+    },
+    {
+      "pose": "crossed_staggered",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.0595977409867707
+    },
+    {
+      "pose": "crossed_staggered",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.021173173908955137
+    },
+    {
+      "pose": "crossed_staggered",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.07709971117773437
+    },
+    {
+      "pose": "crossed_staggered",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.07837553338138238
+    },
+    {
+      "pose": "crossed_clearance_candidate",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.05794046962755688
+    },
+    {
+      "pose": "crossed_clearance_candidate",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.06519770320689183
+    },
+    {
+      "pose": "crossed_clearance_candidate",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.1266061359207303
+    },
+    {
+      "pose": "crossed_clearance_candidate",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.030693869361115855
+    },
+    {
+      "pose": "scan_flex_-50",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.20667250342139293
+    },
+    {
+      "pose": "scan_flex_-50",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.7915889181189473e-17
+    },
+    {
+      "pose": "scan_flex_-50",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.20667059771335616
+    },
+    {
+      "pose": "scan_flex_-50",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 8.957944590594737e-18
+    },
+    {
+      "pose": "scan_flex_-25",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.1140189383659325
+    },
+    {
+      "pose": "scan_flex_-25",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 2.5260769859138926e-17
+    },
+    {
+      "pose": "scan_flex_-25",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.11401788700784864
+    },
+    {
+      "pose": "scan_flex_-25",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.2630384929569463e-17
+    },
+    {
+      "pose": "scan_flex_45",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.19077160596460235
+    },
+    {
+      "pose": "scan_flex_45",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.970860442873759e-17
+    },
+    {
+      "pose": "scan_flex_45",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.19076984687727017
+    },
+    {
+      "pose": "scan_flex_45",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 9.854302214368795e-18
+    },
+    {
+      "pose": "scan_flex_135",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 0.19077160596460233
+    },
+    {
+      "pose": "scan_flex_135",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.9708604428737586e-17
+    },
+    {
+      "pose": "scan_flex_135",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.19076984687727017
+    },
+    {
+      "pose": "scan_flex_135",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 9.854302214368793e-18
+    },
+    {
+      "pose": "scan_abduct_-30",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_abduct_-30",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489589623541826
+    },
+    {
+      "pose": "scan_abduct_-30",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_abduct_-30",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489465237283704
+    },
+    {
+      "pose": "scan_abduct_30",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_abduct_30",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489589623541828
+    },
+    {
+      "pose": "scan_abduct_30",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_abduct_30",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489465237283707
+    },
+    {
+      "pose": "scan_abduct_60",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_abduct_60",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.23364654601228377
+    },
+    {
+      "pose": "scan_abduct_60",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_abduct_60",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.2336443915790954
+    },
+    {
+      "pose": "scan_abduct_120",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_abduct_120",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.23364654601228377
+    },
+    {
+      "pose": "scan_abduct_120",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_abduct_120",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.23364439157909545
+    },
+    {
+      "pose": "scan_abduct_150",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_abduct_150",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489589623541823
+    },
+    {
+      "pose": "scan_abduct_150",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_abduct_150",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.13489465237283707
+    },
+    {
+      "pose": "scan_twist_-90",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 2.090413175892536e-17
+    },
+    {
+      "pose": "scan_twist_-90",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_twist_-90",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_-90",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_-60",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 6.968043919641786e-18
+    },
+    {
+      "pose": "scan_twist_-60",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 2.7872175678567144e-17
+    },
+    {
+      "pose": "scan_twist_-60",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_twist_-60",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_twist_-30",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_twist_-30",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_twist_-30",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_-30",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_30",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 2.4388153718746252e-17
+    },
+    {
+      "pose": "scan_twist_30",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_twist_30",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 6.968043919641786e-18
+    },
+    {
+      "pose": "scan_twist_30",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_60",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 2.7872175678567144e-17
+    },
+    {
+      "pose": "scan_twist_60",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_60",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 3.484021959820893e-18
+    },
+    {
+      "pose": "scan_twist_60",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_90",
+      "axis": "upperarm_l.flex",
+      "torque_nm_per_100g_at_wrist": 2.090413175892536e-17
+    },
+    {
+      "pose": "scan_twist_90",
+      "axis": "upperarm_l.abduct",
+      "torque_nm_per_100g_at_wrist": 1.3936087839283572e-17
+    },
+    {
+      "pose": "scan_twist_90",
+      "axis": "upperarm_r.flex",
+      "torque_nm_per_100g_at_wrist": 0.0
+    },
+    {
+      "pose": "scan_twist_90",
+      "axis": "upperarm_r.abduct",
+      "torque_nm_per_100g_at_wrist": 0.0
+    }
+  ],
+  "unit_payload_note": "100g at wrist; excludes real assembly mass, hand forces and torso tilt; not a holding rating",
+  "neutral_reservation_contacts": [
+    {
+      "a": "l_arm_input_gear_reserved",
+      "b": "l_arm_pickup_gear_reserved",
+      "volume_mm3": 12.3538,
+      "reservation_involved": true
+    },
+    {
+      "a": "r_arm_input_gear_reserved",
+      "b": "r_arm_pickup_gear_reserved",
+      "volume_mm3": 12.3538,
+      "reservation_involved": true
+    }
+  ],
+  "manufacturing_released": false,
+  "physical_tested": false,
+  "collision_policy": "cross_arm_contact_is_pose_restriction_v1"
+}

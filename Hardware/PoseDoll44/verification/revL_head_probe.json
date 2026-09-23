@@ -1,0 +1,53 @@
+{
+  "scope": "PCB/head/FPC stub only; no magnet carrier or mounting structure",
+  "candidates": [
+    {
+      "character": "quinn",
+      "datum": 61.771,
+      "rotation": 0,
+      "hits": []
+    },
+    {
+      "character": "quinn",
+      "datum": 61.771,
+      "rotation": 90,
+      "hits": []
+    },
+    {
+      "character": "quinn",
+      "datum": 62.6,
+      "rotation": 0,
+      "hits": []
+    },
+    {
+      "character": "quinn",
+      "datum": 62.6,
+      "rotation": 90,
+      "hits": []
+    },
+    {
+      "character": "manny",
+      "datum": 61.771,
+      "rotation": 0,
+      "hits": []
+    },
+    {
+      "character": "manny",
+      "datum": 61.771,
+      "rotation": 90,
+      "hits": []
+    },
+    {
+      "character": "manny",
+      "datum": 62.6,
+      "rotation": 0,
+      "hits": []
+    },
+    {
+      "character": "manny",
+      "datum": 62.6,
+      "rotation": 90,
+      "hits": []
+    }
+  ]
+}

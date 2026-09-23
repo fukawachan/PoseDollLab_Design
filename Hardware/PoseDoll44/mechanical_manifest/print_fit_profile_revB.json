@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "profile_id": "a1mini_pla_04_assumed_revB",
+  "status": "engineering_assumptions_not_machine_calibration",
+  "revision": "B",
+  "reference_date": "2026-09-20",
+  "reference_conversation": "chatgpt-conversation://6aaf5e4b-487c-83ea-80e1-e14bc6727b53",
+  "workflow": {
+    "continue_digital_design_without_measurements": true,
+    "user_testing_requested_now": false,
+    "physical_tests": "deferred_not_run"
+  },
+  "printer": {
+    "model": "Bambu Lab A1 mini",
+    "nozzle_mm": 0.4,
+    "material": "PLA",
+    "specific_filament": "not_selected"
+  },
+  "slicer_recipe": {
+    "scale_percent": 100,
+    "xy_hole_compensation_mm": 0,
+    "xy_contour_compensation_mm": 0,
+    "auto_circle_compensation": false,
+    "elephant_foot_compensation": "record_actual_preset_value",
+    "scope": "future recipe; no installed slicer settings changed"
+  },
+  "clearance_holes_mm": {
+    "M2": 2.6,
+    "M3": 3.6,
+    "M4": 4.8,
+    "M5": 5.8,
+    "M6": 6.8
+  },
+  "aligned_frame_M3_mm": 3.8,
+  "nut_M3": {
+    "nominal_hardware_af_mm": 5.5,
+    "pocket_af_mm": 6.0,
+    "pocket_depth_mm": 2.8,
+    "coupon_af_mm": [
+      5.8,
+      6.0,
+      6.2,
+      6.4
+    ]
+  },
+  "bushing": {
+    "nominal_od_mm": 10.0,
+    "nominal_id_mm": 8.05,
+    "length_mm": 6,
+    "housing_d_mm": 10.2,
+    "retention_status": "separate_design_review_required_not_a_clearance_hole"
+  },
+  "magnet": {
+    "nominal_d_mm": 6.0,
+    "nominal_thickness_mm": 2.5,
+    "seat_d_mm": 6.2,
+    "seat_depth_mm": 2.6,
+    "coupon_d_mm": [
+      6.0,
+      6.2,
+      6.4,
+      6.6
+    ],
+    "centring_and_retention": "separate_design_review_required"
+  },
+  "coupon": {
+    "size_mm": [
+      110,
+      74,
+      6
+    ],
+    "bottom_left_clip_mm": 6,
+    "top_right_revision_clip_mm": 3,
+    "rows_bottom_to_top": [
+      {
+        "id": "M2",
+        "y_mm": -28,
+        "nominal_part_mm": 2,
+        "diameters_mm": [
+          2.2,
+          2.4,
+          2.6,
+          2.8,
+          3.0
+        ]
+      },
+      {
+        "id": "M3",
+        "y_mm": -14,
+        "nominal_part_mm": 3,
+        "diameters_mm": [
+          3.2,
+          3.4,
+          3.6,
+          3.8,
+          4.0
+        ]
+      },
+      {
+        "id": "M4",
+        "y_mm": 0,
+        "nominal_part_mm": 4,
+        "diameters_mm": [
+          4.4,
+          4.6,
+          4.8,
+          5.0,
+          5.2
+        ]
+      },
+      {
+        "id": "M6",
+        "y_mm": 14,
+        "nominal_part_mm": 6,
+        "diameters_mm": [
+          6.4,
+          6.6,
+          6.8,
+          7.0,
+          7.2
+        ]
+      },
+      {
+        "id": "POM10",
+        "y_mm": 28,
+        "nominal_part_mm": 10,
+        "diameters_mm": [
+          10.0,
+          10.1,
+          10.2,
+          10.3,
+          10.4
+        ]
+      }
+    ]
+  },
+  "diameter_error_scenarios_mm": [
+    -0.4,
+    -0.2,
+    0.0,
+    0.1
+  ],
+  "scenario_interpretation": "Chosen sensitivity cases, not a measured distribution or guaranteed tolerance. Positive means printed hole larger than CAD. No conversion to one-sided/radial error.",
+  "sources": [
+    {
+      "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.00.00.95",
+      "kind": "official_software_documentation",
+      "supports": "auto circle compensation exists; no A1 mini dimensional guarantee"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/bambulab/BambuStudio/master/src/libslic3r/PrintConfig.cpp",
+      "kind": "official_source_code",
+      "supports": "separate XY hole and contour compensation; positive values enlarge holes"
+    },
+    {
+      "url": "https://www.reddit.com/r/BambuLab/comments/1izxcl4/",
+      "kind": "first_person_anecdote",
+      "supports": "one A1 mini user reports roughly 0.4mm smaller holes; no controlled test or population claim"
+    }
+  ]
+}

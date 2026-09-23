@@ -1,0 +1,258 @@
+{
+  "flex": {
+    "parts": 16,
+    "assembly_contacts": [
+      {
+        "a": "flanged_shaft",
+        "b": "outer_M3x8",
+        "volume_mm3": 15.1189,
+        "intentional_thread": true
+      },
+      {
+        "a": "flanged_shaft",
+        "b": "inner_M3x8",
+        "volume_mm3": 15.1189,
+        "intentional_thread": true
+      },
+      {
+        "a": "mount_M3x10_0",
+        "b": "mount_M3_nut_0",
+        "volume_mm3": 5.1836,
+        "intentional_thread": true
+      },
+      {
+        "a": "mount_M3x10_1",
+        "b": "mount_M3_nut_1",
+        "volume_mm3": 5.1836,
+        "intentional_thread": true
+      }
+    ],
+    "unexpected_assembly_contacts": [],
+    "rotation_checks": [
+      {
+        "angle_deg": 0,
+        "hits": []
+      },
+      {
+        "angle_deg": 15,
+        "hits": []
+      },
+      {
+        "angle_deg": 30,
+        "hits": []
+      },
+      {
+        "angle_deg": 45,
+        "hits": []
+      },
+      {
+        "angle_deg": 60,
+        "hits": []
+      },
+      {
+        "angle_deg": 75,
+        "hits": []
+      },
+      {
+        "angle_deg": 90,
+        "hits": []
+      },
+      {
+        "angle_deg": 105,
+        "hits": []
+      },
+      {
+        "angle_deg": 120,
+        "hits": []
+      },
+      {
+        "angle_deg": 135,
+        "hits": []
+      },
+      {
+        "angle_deg": 150,
+        "hits": []
+      },
+      {
+        "angle_deg": 165,
+        "hits": []
+      },
+      {
+        "angle_deg": 180,
+        "hits": []
+      },
+      {
+        "angle_deg": 195,
+        "hits": []
+      },
+      {
+        "angle_deg": 210,
+        "hits": []
+      },
+      {
+        "angle_deg": 225,
+        "hits": []
+      },
+      {
+        "angle_deg": 240,
+        "hits": []
+      },
+      {
+        "angle_deg": 255,
+        "hits": []
+      },
+      {
+        "angle_deg": 270,
+        "hits": []
+      },
+      {
+        "angle_deg": 285,
+        "hits": []
+      },
+      {
+        "angle_deg": 300,
+        "hits": []
+      },
+      {
+        "angle_deg": 315,
+        "hits": []
+      },
+      {
+        "angle_deg": 330,
+        "hits": []
+      },
+      {
+        "angle_deg": 345,
+        "hits": []
+      }
+    ]
+  },
+  "abduct": {
+    "parts": 16,
+    "assembly_contacts": [
+      {
+        "a": "flanged_shaft",
+        "b": "outer_M3x8",
+        "volume_mm3": 15.1189,
+        "intentional_thread": true
+      },
+      {
+        "a": "flanged_shaft",
+        "b": "inner_M3x8",
+        "volume_mm3": 15.1189,
+        "intentional_thread": true
+      },
+      {
+        "a": "mount_M3x10_0",
+        "b": "mount_M3_nut_0",
+        "volume_mm3": 5.1836,
+        "intentional_thread": true
+      },
+      {
+        "a": "mount_M3x10_1",
+        "b": "mount_M3_nut_1",
+        "volume_mm3": 5.1836,
+        "intentional_thread": true
+      }
+    ],
+    "unexpected_assembly_contacts": [],
+    "rotation_checks": [
+      {
+        "angle_deg": 0,
+        "hits": []
+      },
+      {
+        "angle_deg": 15,
+        "hits": []
+      },
+      {
+        "angle_deg": 30,
+        "hits": []
+      },
+      {
+        "angle_deg": 45,
+        "hits": []
+      },
+      {
+        "angle_deg": 60,
+        "hits": []
+      },
+      {
+        "angle_deg": 75,
+        "hits": []
+      },
+      {
+        "angle_deg": 90,
+        "hits": []
+      },
+      {
+        "angle_deg": 105,
+        "hits": []
+      },
+      {
+        "angle_deg": 120,
+        "hits": []
+      },
+      {
+        "angle_deg": 135,
+        "hits": []
+      },
+      {
+        "angle_deg": 150,
+        "hits": []
+      },
+      {
+        "angle_deg": 165,
+        "hits": []
+      },
+      {
+        "angle_deg": 180,
+        "hits": []
+      },
+      {
+        "angle_deg": 195,
+        "hits": []
+      },
+      {
+        "angle_deg": 210,
+        "hits": []
+      },
+      {
+        "angle_deg": 225,
+        "hits": []
+      },
+      {
+        "angle_deg": 240,
+        "hits": []
+      },
+      {
+        "angle_deg": 255,
+        "hits": []
+      },
+      {
+        "angle_deg": 270,
+        "hits": []
+      },
+      {
+        "angle_deg": 285,
+        "hits": []
+      },
+      {
+        "angle_deg": 300,
+        "hits": []
+      },
+      {
+        "angle_deg": 315,
+        "hits": []
+      },
+      {
+        "angle_deg": 330,
+        "hits": []
+      },
+      {
+        "angle_deg": 345,
+        "hits": []
+      }
+    ]
+  }
+}

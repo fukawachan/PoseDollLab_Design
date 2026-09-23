@@ -1,0 +1,2 @@
+cadquery\utils.py:82: FutureWarning: save will be removed in the next release.
+{"components": 295, "head_tip": [0.0, 0.0, 550.0], "neutral_collisions": 2}

@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-20T16:05:19.3449287+08:00",
+  "checks": [
+    {
+      "name": "review",
+      "exit_code": 0,
+      "log": "E:\\UnrealProjects\\DollSimulation\\Hardware\\PoseDoll44\\verification\\revC_review.txt"
+    }
+  ],
+  "physical_tests": "not_run",
+  "manufacturing_release": false
+}

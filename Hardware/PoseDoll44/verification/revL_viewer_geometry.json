@@ -1,0 +1,16 @@
+{
+  "manny": {
+    "parts": 335,
+    "triangles": 109872,
+    "poses": 36,
+    "collision_free_samples": 32,
+    "local_clear_samples": 36
+  },
+  "quinn": {
+    "parts": 335,
+    "triangles": 110014,
+    "poses": 36,
+    "collision_free_samples": 30,
+    "local_clear_samples": 36
+  }
+}

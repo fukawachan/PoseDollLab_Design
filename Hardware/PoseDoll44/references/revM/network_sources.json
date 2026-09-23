@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-09-23",
+  "sources": [
+    {
+      "title": "Espressif ESP32-S3-WROOM-1/1U datasheet",
+      "url": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+    },
+    {
+      "title": "TI TCAN33x Rev F",
+      "url": "https://www.ti.com/lit/ds/symlink/tcan332.pdf"
+    },
+    {
+      "title": "TI LM66100 Rev A",
+      "url": "https://www.ti.com/lit/ds/symlink/lm66100.pdf"
+    },
+    {
+      "title": "TI TPS6216x Rev E",
+      "url": "https://www.ti.com/lit/ds/symlink/tps62162.pdf"
+    },
+    {
+      "title": "TI SN74LVC125A Rev T",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc125a.pdf"
+    }
+  ],
+  "selection_status": "candidates; pin mapping, schematic, layout and power qualification pending"
+}

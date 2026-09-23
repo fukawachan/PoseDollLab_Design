@@ -1,0 +1,89 @@
+{
+  "tested": [
+    {
+      "pose": {
+        "upperarm_l.flex": 65,
+        "upperarm_r.flex": 75,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "hits": {
+        "manny": [],
+        "quinn": [
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 29.4081,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 72.5292,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 60,
+        "upperarm_r.flex": 70,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "hits": {
+        "manny": [],
+        "quinn": [
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_front",
+            "volume_mm3": 29.4081,
+            "reservation_involved": false
+          },
+          {
+            "a": "l_arm_forearm_shell_back",
+            "b": "r_arm_forearm_shell_back",
+            "volume_mm3": 72.5287,
+            "reservation_involved": false
+          }
+        ]
+      }
+    },
+    {
+      "pose": {
+        "upperarm_l.flex": 60,
+        "upperarm_r.flex": 75,
+        "elbow_l.flex": 115,
+        "elbow_r.flex": 90,
+        "upperarm_l.abduct": -20,
+        "upperarm_r.abduct": -20,
+        "upperarm_l.twist": 65,
+        "upperarm_r.twist": 35
+      },
+      "hits": {
+        "manny": [],
+        "quinn": []
+      }
+    }
+  ],
+  "selected": {
+    "upperarm_l.flex": 60,
+    "upperarm_r.flex": 75,
+    "elbow_l.flex": 115,
+    "elbow_r.flex": 90,
+    "upperarm_l.abduct": -20,
+    "upperarm_r.abduct": -20,
+    "upperarm_l.twist": 65,
+    "upperarm_r.twist": 35
+  },
+  "scope": "Local arms only; final hand and torso pose not validated"
+}

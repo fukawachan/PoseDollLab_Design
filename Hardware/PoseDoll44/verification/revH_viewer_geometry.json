@@ -1,0 +1,14 @@
+{
+  "manny": {
+    "parts": 119,
+    "triangles": 29772,
+    "poses": 21,
+    "passes": 18
+  },
+  "quinn": {
+    "parts": 119,
+    "triangles": 29892,
+    "poses": 21,
+    "passes": 16
+  }
+}

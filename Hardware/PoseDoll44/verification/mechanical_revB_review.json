@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-20T14:11:00.740985+08:00",
+  "scope": "mechanical_fit_revision_B",
+  "local_markdown_links_checked": 36,
+  "broken_links": [],
+  "valid_print_solids": 13,
+  "exported_STEP_bores_checked": 37,
+  "sampled_H1_angles_checked": 30,
+  "visually_reviewed_images": {
+    "generated/images/H1_joint_study.png": "631c09e92d6d78ce5fa6ae0e3753fea4a531c330850b943fa3edd8b08eeed612",
+    "generated/images/coupon_map_revB.png": "3d8f9a0f8f510e49c11ed3a40f36c7520e65dc827459d667aed662fa30b45917"
+  },
+  "firmware_and_electronics": "unchanged; previous checks retained, not rerun this revision",
+  "user_testing_requested_now": false,
+  "physical_tests": "not_run",
+  "full_body_design_complete": false
+}

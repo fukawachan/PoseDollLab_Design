@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "revision": "B",
+  "status": "digital_candidate_not_manufacturing_release",
+  "pcb_size_mm": [
+    18,
+    20,
+    1.6
+  ],
+  "component_face_axes": "X = KiCad +X; Y = KiCad +Y, toward mounting holes; Z away from magnet",
+  "chip_center_in_board_mm": [
+    9,
+    10
+  ],
+  "mount_holes_xy_mm": [
+    [
+      -6.5,
+      6.5
+    ],
+    [
+      6.5,
+      6.5
+    ]
+  ],
+  "mount_hole_d_mm": 2.2,
+  "mounting_fastener": "M2 nylon + insulating spreaders; do not substitute conductive washers without copper-clearance review",
+  "footprints": {
+    "U1": {
+      "xy_mm": [
+        0.0,
+        0.0
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 0.0
+    },
+    "H2": {
+      "xy_mm": [
+        6.5,
+        6.5
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 0.0
+    },
+    "C1": {
+      "xy_mm": [
+        5.700000000000003,
+        -1.4000000000000057
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 0.0
+    },
+    "H1": {
+      "xy_mm": [
+        -6.5,
+        6.5
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 0.0
+    },
+    "R1": {
+      "xy_mm": [
+        -6.0,
+        -0.6500000000000057
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 180.0
+    },
+    "C2": {
+      "xy_mm": [
+        5.700000000000003,
+        2.299999999999997
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 0.0
+    },
+    "R2": {
+      "xy_mm": [
+        -6.0,
+        2.4000000000000057
+      ],
+      "layer": "front_sensor_face",
+      "orientation_deg": 0.0
+    },
+    "J1": {
+      "xy_mm": [
+        0.0,
+        -6.599999999999994
+      ],
+      "layer": "back_connector_face",
+      "orientation_deg": 180.0
+    }
+  },
+  "spi_pins": {
+    "1": "GND",
+    "2": "+3V3",
+    "3": "SCK",
+    "4": "MOSI",
+    "5": "MISO",
+    "6": "CS_N"
+  },
+  "connector_side": "back",
+  "source_sha256": "a03fc38a7e5b8a0607116cc73921f325c9a0e344e0df8236ddd03c3e9d02143e",
+  "note": "True component solids are in sensor_revB.step; mated plug and cable bend allowance are not included in that STEP."
+}

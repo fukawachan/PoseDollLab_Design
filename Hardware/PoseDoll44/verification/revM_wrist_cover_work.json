@@ -1,0 +1,2320 @@
+{
+  "manny": [
+    {
+      "pose": "neutral",
+      "angles_deg": {},
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_-65_-25",
+      "angles_deg": {
+        "hand_l.flex": -65,
+        "hand_l.deviate": -25,
+        "hand_r.flex": -65,
+        "hand_r.deviate": -25
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 107.504
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 107.0778
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 107.504,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 107.0778,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_-65_0",
+      "angles_deg": {
+        "hand_l.flex": -65,
+        "hand_l.deviate": 0,
+        "hand_r.flex": -65,
+        "hand_r.deviate": 0
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 2.6955
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 159.6353
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 2.6901
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 159.9381
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 2.6955,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 159.6353,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 2.6901,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 159.9381,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_-65_35",
+      "angles_deg": {
+        "hand_l.flex": -65,
+        "hand_l.deviate": 35,
+        "hand_r.flex": -65,
+        "hand_r.deviate": 35
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_0_-25",
+      "angles_deg": {
+        "hand_l.flex": 0,
+        "hand_l.deviate": -25,
+        "hand_r.flex": 0,
+        "hand_r.deviate": -25
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_0_0",
+      "angles_deg": {
+        "hand_l.flex": 0,
+        "hand_l.deviate": 0,
+        "hand_r.flex": 0,
+        "hand_r.deviate": 0
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_0_35",
+      "angles_deg": {
+        "hand_l.flex": 0,
+        "hand_l.deviate": 35,
+        "hand_r.flex": 0,
+        "hand_r.deviate": 35
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_65_-25",
+      "angles_deg": {
+        "hand_l.flex": 65,
+        "hand_l.deviate": -25,
+        "hand_r.flex": 65,
+        "hand_r.deviate": -25
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 58.2785
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 12.3969
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 12.0521
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_board_post_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.1963
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.6548
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 25.5475
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 64.0658
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 119.5743
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_friction_lining",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 31.0404
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_flanged_rotor_shaft",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 80.2244
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_thrust_wear_washer",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 10.5598
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_spring_seat",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.7811
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_D_stop_cap",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 4.6099
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 78.5062
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 13.9323
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keeper_M2x3_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.8537
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 58.3756
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 12.7995
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 12.1166
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_board_post_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.1759
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.6546
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 25.2905
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 64.1073
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 119.6941
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_friction_lining",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 31.2347
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_flanged_rotor_shaft",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 81.2186
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_thrust_wear_washer",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 11.0076
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_spring_seat",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.9457
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_D_stop_cap",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 4.9652
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 78.6711
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 13.979
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keeper_M2x3_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.7117
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 58.2785,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 12.3969,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 12.0521,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_board_post_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.1963,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.6548,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 25.5475,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 64.0658,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 119.5743,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_friction_lining",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 31.0404,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_flanged_rotor_shaft",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 80.2244,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_thrust_wear_washer",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 10.5598,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_spring_seat",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.7811,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_D_stop_cap",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 4.6099,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 78.5062,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 13.9323,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keeper_M2x3_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.8537,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 58.3756,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 12.7995,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 12.1166,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_board_post_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.1759,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.6546,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 25.2905,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 64.1073,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 119.6941,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_friction_lining",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 31.2347,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_flanged_rotor_shaft",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 81.2186,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_thrust_wear_washer",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 11.0076,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_spring_seat",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.9457,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_D_stop_cap",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 4.9652,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 78.6711,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 13.979,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keeper_M2x3_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.7117,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_65_0",
+      "angles_deg": {
+        "hand_l.flex": 65,
+        "hand_l.deviate": 0,
+        "hand_r.flex": 65,
+        "hand_r.deviate": 0
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_65_35",
+      "angles_deg": {
+        "hand_l.flex": 65,
+        "hand_l.deviate": 35,
+        "hand_r.flex": 65,
+        "hand_r.deviate": 35
+      },
+      "hits": [],
+      "review": []
+    }
+  ],
+  "quinn": [
+    {
+      "pose": "neutral",
+      "angles_deg": {},
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_-65_-25",
+      "angles_deg": {
+        "hand_l.flex": -65,
+        "hand_l.deviate": -25,
+        "hand_r.flex": -65,
+        "hand_r.deviate": -25
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_M2x16_1",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 8.9911
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 391.3444
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_1",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 8.9897
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 390.1857
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_M2x16_1",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 8.9911,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 391.3444,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_1",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 8.9897,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 390.1857,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_-65_0",
+      "angles_deg": {
+        "hand_l.flex": -65,
+        "hand_l.deviate": 0,
+        "hand_r.flex": -65,
+        "hand_r.deviate": 0
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 492.0636
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 75.5393
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 491.4323
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 75.5127
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 492.0636,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 75.5393,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 491.4323,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 75.5127,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_-65_35",
+      "angles_deg": {
+        "hand_l.flex": -65,
+        "hand_l.deviate": 35,
+        "hand_r.flex": -65,
+        "hand_r.deviate": 35
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 97.5132
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 171.6613
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 97.5082
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 171.6274
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 97.5132,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_l",
+          "owner_b": "pelvis",
+          "volume_mm3": 171.6613,
+          "region_a": "hand_l",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 97.5082,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "pelvis_M_body_frame",
+          "owner_a": "hand_r",
+          "owner_b": "pelvis",
+          "volume_mm3": 171.6274,
+          "region_a": "hand_r",
+          "region_b": "pelvis",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_0_-25",
+      "angles_deg": {
+        "hand_l.flex": 0,
+        "hand_l.deviate": -25,
+        "hand_r.flex": 0,
+        "hand_r.deviate": -25
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_0_0",
+      "angles_deg": {
+        "hand_l.flex": 0,
+        "hand_l.deviate": 0,
+        "hand_r.flex": 0,
+        "hand_r.deviate": 0
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_0_35",
+      "angles_deg": {
+        "hand_l.flex": 0,
+        "hand_l.deviate": 35,
+        "hand_r.flex": 0,
+        "hand_r.deviate": 35
+      },
+      "hits": [],
+      "review": []
+    },
+    {
+      "pose": "wrist_65_-25",
+      "angles_deg": {
+        "hand_l.flex": 65,
+        "hand_l.deviate": -25,
+        "hand_r.flex": 65,
+        "hand_r.deviate": -25
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 0.7414
+        },
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "thigh_l_twist_M_pcb_C2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 1.1849
+        },
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 3.4668
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 0.1153
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 2.922
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_pcb_AS5048A",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.1943
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_pcb_C2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.5439
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 1.7114
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 70.2564
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 158.1885
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_D_stop_cap",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 21.4188
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_M3x8_button_retainer",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.58
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 202.3495
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_diametric_magnet_6x2p5",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 41.6911
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 54.2811
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keeper_M2x3_0",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.8407
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keeper_M2x3_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 6.2189
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_board_post_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 7.4886
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_AS5048A",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 6.8096
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_C2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 1.0327
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_R1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.2273
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_R2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.5372
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 31.4858
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_J1_dimension_envelope",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 2.6944
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 4.7742
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 16.2182
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 117.7922
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 0.7402
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "thigh_r_twist_M_pcb_C1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.5079
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 3.4677
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 0.1148
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 2.9194
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_pcb_AS5048A",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.1956
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_pcb_C1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.0443
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 1.7139
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 70.2693
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 158.1619
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_D_stop_cap",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 21.4128
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_M3x8_button_retainer",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.5782
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 202.347
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_diametric_magnet_6x2p5",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 41.6892
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 54.274
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keeper_M2x3_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 6.2175
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keeper_M2x3_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.8416
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_board_post_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 7.4893
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_AS5048A",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 6.8118
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_C1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.2388
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_R1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.5372
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_R2",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.2273
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 31.4952
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_J1_dimension_envelope",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 4.4458
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 16.2236
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 4.7772
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 117.7832
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 0.7414,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "thigh_l_twist_M_pcb_C2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 1.1849,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_M2x16_0",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 3.4668,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 0.1153,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 2.922,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_pcb_AS5048A",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.1943,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_pcb_C2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.5439,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_nut_M2_0",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 1.7114,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 70.2564,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 158.1885,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_D_stop_cap",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 21.4188,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_M3x8_button_retainer",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.58,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 202.3495,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_diametric_magnet_6x2p5",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 41.6911,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 54.2811,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keeper_M2x3_0",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 5.8407,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_keeper_M2x3_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 6.2189,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_board_post_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 7.4886,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_AS5048A",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 6.8096,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_C2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 1.0327,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_R1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.2273,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_R2",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 0.5372,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_board",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 31.4858,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_pcb_J1_dimension_envelope",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 2.6944,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 4.7742,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 16.2182,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 117.7922,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 0.7402,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "thigh_r_twist_M_pcb_C1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.5079,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_M2x16_0",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 3.4677,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 0.1148,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 2.9194,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_pcb_AS5048A",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.1956,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_pcb_C1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.0443,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_nut_M2_0",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 1.7139,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 70.2693,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 158.1619,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_D_stop_cap",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 21.4128,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_M3x8_button_retainer",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.5782,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keyed_magnet_cup",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 202.347,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_diametric_magnet_6x2p5",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 41.6892,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 54.274,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keeper_M2x3_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 6.2175,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_keeper_M2x3_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 5.8416,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_board_post_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 7.4893,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_AS5048A",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 6.8118,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_C1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.2388,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_R1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.5372,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_R2",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 0.2273,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_board",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 31.4952,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_pcb_J1_dimension_envelope",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 4.4458,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 16.2236,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 4.7772,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 117.7832,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_65_0",
+      "angles_deg": {
+        "hand_l.flex": 65,
+        "hand_l.deviate": 0,
+        "hand_r.flex": 65,
+        "hand_r.deviate": 0
+      },
+      "hits": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 4.0275
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 3.4603
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 24.0623
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 4.7456
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 38.8643
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 71.8095
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 4.0258
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 3.46
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 24.0734
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 4.7509
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 38.8708
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 71.8143
+        }
+      ],
+      "review": [
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 4.0275,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_front",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 3.4603,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_metal_eye",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 24.0623,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_magnet_keeper",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l",
+          "volume_mm3": 4.7456,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_fixed_mount_M3x8_1",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 38.8643,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_l_M_shell_back",
+          "b": "thigh_l_twist_M_axial_carrier",
+          "owner_a": "hand_l",
+          "owner_b": "thigh_l.abduct_frame",
+          "volume_mm3": 71.8095,
+          "region_a": "hand_l",
+          "region_b": "thigh_l",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 4.0258,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_front",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 3.46,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_metal_eye",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 24.0734,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_magnet_keeper",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r",
+          "volume_mm3": 4.7509,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_fixed_mount_M3x8_0",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 38.8708,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        },
+        {
+          "a": "hand_r_M_shell_back",
+          "b": "thigh_r_twist_M_axial_carrier",
+          "owner_a": "hand_r",
+          "owner_b": "thigh_r.abduct_frame",
+          "volume_mm3": 71.8143,
+          "region_a": "hand_r",
+          "region_b": "thigh_r",
+          "classification": "pose_restriction",
+          "reason": "separated_body_segments_adjust_pose"
+        }
+      ]
+    },
+    {
+      "pose": "wrist_65_35",
+      "angles_deg": {
+        "hand_l.flex": 65,
+        "hand_l.deviate": 35,
+        "hand_r.flex": 65,
+        "hand_r.deviate": 35
+      },
+      "hits": [],
+      "review": []
+    }
+  ]
+}

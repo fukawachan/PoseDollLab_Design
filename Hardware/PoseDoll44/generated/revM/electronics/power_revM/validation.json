@@ -1,0 +1,15 @@
+{
+  "kind": "power_revM",
+  "pcb_sha256": "c682ffe5083fac43c5d2f57401150cdc3c6fee8190190fba2006aec322cc4391",
+  "schematic_sha256": "41a7aed2937f90a1106108dd87dcfd5372fe8df5a70f906d0f85a957bbd6cb11",
+  "erc_pass": true,
+  "drc_parity_pass": true,
+  "missing_vendor_3D_models": [
+    {
+      "ref": "F0",
+      "model": "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_Littelfuse-NANO2-451_453.step"
+    }
+  ],
+  "manufacturing_released": false,
+  "hardware_tested": false
+}

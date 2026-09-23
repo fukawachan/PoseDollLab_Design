@@ -1,0 +1,65 @@
+{
+  "neutral": {
+    "state": {
+      "mode": "both",
+      "az": 1.02,
+      "el": 0.17,
+      "zoom": 1,
+      "frameOnly": false,
+      "elbow": 0,
+      "wrist": 0,
+      "drawCount": 1,
+      "visibleTriangles": 154128
+    },
+    "counts": {
+      "manny": 138,
+      "quinn": 138,
+      "joint": 59
+    },
+    "scrollWidth": 1465,
+    "windowWidth": 1480
+  },
+  "aligned": {
+    "left": [
+      266.4473684210526,
+      502.5,
+      0
+    ],
+    "right": [
+      858.5526315789474,
+      502.5,
+      0
+    ]
+  },
+  "posed": {
+    "mode": "manny",
+    "az": 1.02,
+    "el": 0.17,
+    "zoom": 1,
+    "frameOnly": false,
+    "elbow": 90,
+    "wrist": 35,
+    "drawCount": 6,
+    "visibleTriangles": 77064
+  },
+  "joint": {
+    "state": {
+      "mode": "joint",
+      "az": 1.02,
+      "el": 0.17,
+      "zoom": 1,
+      "frameOnly": true,
+      "elbow": 90,
+      "wrist": 35,
+      "drawCount": 8,
+      "visibleTriangles": 10602
+    },
+    "wristDisabled": true
+  },
+  "responsive": {
+    "scrollWidth": 745,
+    "windowWidth": 760
+  },
+  "errors": [],
+  "htmlSha256": "3d846fa48f125940a5372e25986c7a60dafc3226b6dd5f531fd39871de6a14c9"
+}

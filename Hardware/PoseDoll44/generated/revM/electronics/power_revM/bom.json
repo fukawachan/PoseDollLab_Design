@@ -1,0 +1,173 @@
+[
+  {
+    "reference": "F0",
+    "value": "0451003.MRL / 3A",
+    "footprint": "Fuse:Fuse_Littelfuse-NANO2-451_453",
+    "side": "F",
+    "x_mm": 60.0,
+    "y_mm": 86.3,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J2",
+    "value": "N1: +5V / GND",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "side": "F",
+    "x_mm": 36.0,
+    "y_mm": 40.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "F1",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "side": "F",
+    "x_mm": 45.0,
+    "y_mm": 40.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J7",
+    "value": "N6: +5V / GND",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "side": "F",
+    "x_mm": 62.0,
+    "y_mm": 70.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "F6",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "side": "F",
+    "x_mm": 55.0,
+    "y_mm": 70.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "F4",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "side": "F",
+    "x_mm": 55.0,
+    "y_mm": 55.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "Q1",
+    "value": "AO4409 / reverse polarity",
+    "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "side": "F",
+    "x_mm": 50.0,
+    "y_mm": 80.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J1",
+    "value": "PJ-002AH / regulated 5V center +",
+    "footprint": "PoseDoll:PJ_002AH_verified",
+    "side": "F",
+    "x_mm": 50.0,
+    "y_mm": 86.3,
+    "rotation_deg": 90.0
+  },
+  {
+    "reference": "F2",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "side": "F",
+    "x_mm": 55.0,
+    "y_mm": 40.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "F5",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "side": "F",
+    "x_mm": 45.0,
+    "y_mm": 70.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J5",
+    "value": "N4: +5V / GND",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "side": "F",
+    "x_mm": 62.0,
+    "y_mm": 55.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J3",
+    "value": "N2: +5V / GND",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "side": "F",
+    "x_mm": 62.0,
+    "y_mm": 40.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "F3",
+    "value": "1206L075/13.2WR / 0.75A hold",
+    "footprint": "Fuse:Fuse_1206_3216Metric",
+    "side": "F",
+    "x_mm": 45.0,
+    "y_mm": 55.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J4",
+    "value": "N3: +5V / GND",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "side": "F",
+    "x_mm": 36.0,
+    "y_mm": 55.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "R1",
+    "value": "100k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "side": "F",
+    "x_mm": 42.0,
+    "y_mm": 83.0,
+    "rotation_deg": 180.0
+  },
+  {
+    "reference": "D1",
+    "value": "LTST-C190KGKT / green",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "side": "F",
+    "x_mm": 62.0,
+    "y_mm": 96.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "J6",
+    "value": "N5: +5V / GND",
+    "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "side": "F",
+    "x_mm": 36.0,
+    "y_mm": 70.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "C1",
+    "value": "EEEFP1C101AP / 100u 16V",
+    "footprint": "Capacitor_SMD:CP_Elec_6.3x5.8",
+    "side": "F",
+    "x_mm": 40.0,
+    "y_mm": 91.0,
+    "rotation_deg": 0.0
+  },
+  {
+    "reference": "R2",
+    "value": "1k",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "side": "F",
+    "x_mm": 62.0,
+    "y_mm": 93.0,
+    "rotation_deg": 0.0
+  }
+]

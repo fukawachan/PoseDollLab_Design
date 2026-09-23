@@ -1,0 +1,18 @@
+{
+  "CAN_linear_order": [
+    "G0",
+    "N1",
+    "N5",
+    "N6",
+    "N3",
+    "N2",
+    "N4"
+  ],
+  "terminations": [
+    "G0",
+    "N4"
+  ],
+  "local_drop_max_mm_target": 30,
+  "power": "separate fused radial feeds from base; no 5V USB/external tie",
+  "status": "layout_candidate_not_wire_cut_list"
+}

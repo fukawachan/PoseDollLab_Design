@@ -1,0 +1,12 @@
+{
+  "component_count": 251,
+  "axis_count": 44,
+  "head_tip_mm": [
+    0.0,
+    0.0,
+    550.0
+  ],
+  "neutral_collisions": [],
+  "status": "development_iteration_not_release",
+  "source_sha256": "d2baa68333cc89b7be2dfb800ea510d1b9b09c1a75417af725c57c2dc6b9cc90"
+}
