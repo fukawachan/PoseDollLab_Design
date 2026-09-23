@@ -4,6 +4,13 @@ Manny / Quinn 传感器可动人偶的独立设计仓库。原来位于 `DollSim
 
 ## 当前状态
 
+- **主方案已切换为 Rev O Desktop**：48 cm 为研究锚点，比较 42/45 cm 及较大后备档；已交付双角色布局、三档关节、原生电气布局和七角色固件。板位、预紧和质量预算仍未达标，完整总装尚未完成。
+- **约 91 cm 的 Rev M/N1 为备用**：原文件与旧输出保留，以哈希清单冻结。新旧源码、报告和导出分目录保存。
+- 新版入口：[Rev O 当前结果与失败清单](Hardware/PoseDoll44/docs/START_HERE_REVO.zh-CN.md)。
+- **本轮独立审查入口：[给 GPT-6 Pro 的审查说明](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO.zh-CN.md)**，包含已知失败、证据链接与下一轮修改要求。
+
+以下为备用版的历史基线：
+
 - **机械基线为 Rev N1**：两款分别按 UE 人物参考比例设计，参考身高约 91 cm；胸前大挡板已取消，左肩局部刮碰已修正。
 - **下一项为“局部采集 + 外置电源/USB 接口盒”**：方向已确定，新电路板、安装结构和线束尚未实施。
 - **小型化仍待比较**：当前尺寸不是已证明的下限，不能直接缩放现有文件，也不能认定重新设计的小型关节必然昂贵。
@@ -11,6 +18,8 @@ Manny / Quinn 传感器可动人偶的独立设计仓库。原来位于 `DollSim
 - 当前交付是数字原型候选，尚未实物鉴定。
 
 ## 阅读入口
+
+0. [当前主方案 Rev O](Hardware/PoseDoll44/docs/START_HERE_REVO.zh-CN.md)；使用显式构建入口 scripts/Build-RevO.ps1。以下 Rev M/N 文档用于备用版。
 
 1. [最新 Rev N1 设计入口](Hardware/PoseDoll44/START_HERE_REVN.zh-CN.md)
 2. [胸部修订与设备外置方案](Hardware/PoseDoll44/docs/CHEST_AND_EXTERNAL_REVN.zh-CN.md)
@@ -60,9 +69,9 @@ py -3.13 -m venv .venv
 .\scripts\Start-Viewer.ps1
 ```
 
-默认地址为 `http://127.0.0.1:8874/generated/revN/RevN_Chest_Review.html`，仅绑定本机。`-NoBrowser` 只启动服务；端口冲突时可用 `-Port` 指定另一端口，不会自动终止其他进程。
+默认打开 Rev O 研究查看器 `http://127.0.0.1:8874/generated/revO/RevO_Design_Review.html`；通过 `-Revision revN` 打开 91 cm 备用版，仅绑定本机。`-NoBrowser` 只启动服务；端口冲突时可用 `-Port` 指定另一端口，不会自动终止其他进程。
 
-查看器需要本地 `generated/` 网格与零件文件；**仅克隆 Git 不含这些大型导出**，请复制已有输出或按构建阶段生成。原有完整输出已迁入本机，无需为打开模型重新生成。
+Rev O 的 HTML、轻量网格、布局数据及三档关节 STEP 已随本次审查提交收录，克隆后即可查看。十份体型布局 STEP 下载需先用 `Build-RevO.ps1 -Stage CAD` 重建。91 cm 备用查看器仍依赖未纳入 Git 的大型网格，需复制旧输出或重建。
 
 ## CAD、电路和固件
 
@@ -84,6 +93,6 @@ CAD 阶段生成/复核 Rev M 完整基线，耗时较长。Rev N1 的修订脚�
 
 Git 收录设计源码、KiCad 工程、固件、必要板级 STEP/角色参考输入、协议快照、说明、交付元数据和检查记录。`.gitattributes` 保留原行尾，避免检出时破坏来源文件的字节哈希。
 
-总装 STEP、打印 STL、查看器大网格、CAD 缓存、ESP-IDF 构建目录、Python 环境和第三方工具二进制保留在磁盘，由 `.gitignore` 排除；没有启用 Git LFS。其他机器如需完整本地成果，应另外复制 `Hardware/PoseDoll44/generated/`。**推送 Git 不等于备份全部 6.87 GB 本地成果。**
+大型总装 STEP、查看器大网格、CAD 缓存、ESP-IDF 构建目录、Python 环境和第三方工具二进制保留在磁盘，由 `.gitignore` 排除；没有启用 Git LFS。Rev O 审查快照额外收录三档单关节总成 STEP、两个 A 级配合样片 STEP/STL、轻量查看器与本轮原始编译/ERC/DRC 日志，未放开整个生成目录。其他机器如需完整本地成果，应另外复制 `Hardware/PoseDoll44/generated/`。**推送 Git 不等于备份全部 6.87 GB 本地成果。**
 
-现有验证报告保留为历史快照，迁移后的路径修复和检查另列记录；没有把迁移当成新一轮全身工程验证。仓库尚未设置 remote，也没有执行 push。
+现有验证报告保留为历史快照，迁移后的路径修复和检查另列记录；没有把迁移当成新一轮全身工程验证。本轮提交由使用者推送到远端；审查应指定 `design/revO-desktop-external` 分支和所读取的完整提交号。
