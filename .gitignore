@@ -59,3 +59,6 @@ Thumbs.db
 !/Hardware/PoseDoll44/generated/revN/quinn/hands_behind.png
 /Hardware/PoseDoll44/verification/viewer_runtime/
 /Hardware/PoseDoll44/verification/firmware_revM/
+
+# O4 tessellated scenes: final h3 is archived in hardware_native_o4_h3.zip.
+/Hardware/PoseDoll44/generated/revO4/runs/*/packaging_scene.json
