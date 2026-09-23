@@ -4,12 +4,16 @@ Manny / Quinn 传感器可动人偶的独立设计仓库。原来位于 `DollSim
 
 ## 当前状态
 
-- **当前推进为 Rev O 第二轮**：[本轮设计、验证与缺口](Hardware/PoseDoll44/docs/START_HERE_REVO2.zh-CN.md)。已重构 L6 承力/装配、生成 N3/N4 拆板候选并修复入网调度；完整板位、质量目标和物理门槛仍待闭合。**[给 GPT-6 Pro 的第二轮审查说明](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO2.zh-CN.md)** 已整理好源码、证据和重点问题。下列 Rev O 审查入口保留为第一轮历史。
+本次审查同时评估用户新明确的“摆稳后采集、无需实时动捕”场景：[放宽实时指标后的优化任务](Hardware/PoseDoll44/docs/NEXT_REVIEW_STATIC_CAPTURE.zh-CN.md)。Rev O3 当前代码与封存证据保留原时序，低频/触发式架构尚待审查实施。
 
-- **主方案已切换为 Rev O Desktop**：48 cm 为研究锚点，比较 42/45 cm 及较大后备档；已交付双角色布局、三档关节、原生电气布局和七角色固件。板位、预紧和质量预算仍未达标，完整总装尚未完成。
+- **当前推进为 Rev O 第三轮**：[本轮设计、验证与剩余问题](Hardware/PoseDoll44/docs/START_HERE_REVO3.zh-CN.md)。已实现一体板托、外耳钢背摩擦件和磨损状态检查；修正载荷/质量账、时序统计与节点恢复；生成顶入/侧入板件候选。**整机 1.2 kg 已改为非强制偏好**，尺寸、手感和精度要求保留。完整多轴总装与制造门槛尚未闭合。[第三轮审查入口](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO3.zh-CN.md)。
+
+- **历史检查点：Rev O 第二轮**：[本轮设计、验证与缺口](Hardware/PoseDoll44/docs/START_HERE_REVO2.zh-CN.md)。已重构 L6 承力/装配、生成 N3/N4 拆板候选并修复入网调度；完整板位、质量目标和物理门槛仍待闭合。**[给 GPT-6 Pro 的第二轮审查说明](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO2.zh-CN.md)** 已整理好源码、证据和重点问题。下列 Rev O 审查入口保留为第一轮历史。
+
+- **历史检查点：Rev O Desktop 初轮**：48 cm 为研究锚点，比较 42/45 cm 及较大后备档；已交付双角色布局、三档关节、原生电气布局和七角色固件。板位、预紧和质量预算仍未达标，完整总装尚未完成。
 - **约 91 cm 的 Rev M/N1 为备用**：原文件与旧输出保留，以哈希清单冻结。新旧源码、报告和导出分目录保存。
-- 新版入口：[Rev O 当前结果与失败清单](Hardware/PoseDoll44/docs/START_HERE_REVO.zh-CN.md)。
-- **本轮独立审查入口：[给 GPT-6 Pro 的审查说明](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO.zh-CN.md)**，包含已知失败、证据链接与下一轮修改要求。
+- 第一轮历史入口：[Rev O 当前结果与失败清单](Hardware/PoseDoll44/docs/START_HERE_REVO.zh-CN.md)。
+- **第一轮历史独立审查入口：[给 GPT-6 Pro 的审查说明](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO.zh-CN.md)**，包含已知失败、证据链接与下一轮修改要求。
 
 以下为备用版的历史基线：
 
@@ -21,7 +25,7 @@ Manny / Quinn 传感器可动人偶的独立设计仓库。原来位于 `DollSim
 
 ## 阅读入口
 
-0. [当前主方案 Rev O](Hardware/PoseDoll44/docs/START_HERE_REVO.zh-CN.md)；使用显式构建入口 scripts/Build-RevO.ps1。以下 Rev M/N 文档用于备用版。
+0. [当前主方案 Rev O3](Hardware/PoseDoll44/docs/START_HERE_REVO3.zh-CN.md)；使用 `scripts/run_revo3.py --run-id <唯一编号>` 复跑，`scripts/Start-Viewer.ps1 -Revision revO3` 查看。以下 Rev M/N 文档用于备用版。
 
 1. [最新 Rev N1 设计入口](Hardware/PoseDoll44/START_HERE_REVN.zh-CN.md)
 2. [胸部修订与设备外置方案](Hardware/PoseDoll44/docs/CHEST_AND_EXTERNAL_REVN.zh-CN.md)
@@ -71,9 +75,9 @@ py -3.13 -m venv .venv
 .\scripts\Start-Viewer.ps1
 ```
 
-默认打开 Rev O 研究查看器 `http://127.0.0.1:8874/generated/revO/RevO_Design_Review.html`；通过 `-Revision revN` 打开 91 cm 备用版，仅绑定本机。`-NoBrowser` 只启动服务；端口冲突时可用 `-Port` 指定另一端口，不会自动终止其他进程。
+默认根据 `verification/revO3/latest.json` 打开 Rev O3 查看器，当前为 `http://127.0.0.1:8874/generated/revO3/runs/o3_20260924_r3/review.html`；通过 `-Revision revN` 打开 91 cm 备用版，仅绑定本机。`-NoBrowser` 只启动服务；端口冲突时可用 `-Port` 指定另一端口，不会自动终止其他进程。
 
-Rev O 的 HTML、轻量网格、布局数据及三档关节 STEP 已随本次审查提交收录，克隆后即可查看。十份体型布局 STEP 下载需先用 `Build-RevO.ps1 -Stage CAD` 重建。91 cm 备用查看器仍依赖未纳入 Git 的大型网格，需复制旧输出或重建。
+Rev O3 的当前及历史检查运行、HTML、网格、STEP、原生 KiCad 板件、固件产物与原始日志随本次审查提交收录；宿主 C 编译产物通过逐件哈希的 portable ZIP 保存。Rev O 第一轮的 HTML、轻量网格、布局数据及三档关节 STEP 也保留。十份体型布局 STEP 下载需先用 `Build-RevO.ps1 -Stage CAD` 重建。91 cm 备用查看器仍依赖未纳入 Git 的大型网格，需复制旧输出或重建。
 
 ## CAD、电路和固件
 
@@ -95,6 +99,6 @@ CAD 阶段生成/复核 Rev M 完整基线，耗时较长。Rev N1 的修订脚�
 
 Git 收录设计源码、KiCad 工程、固件、必要板级 STEP/角色参考输入、协议快照、说明、交付元数据和检查记录。`.gitattributes` 保留原行尾，避免检出时破坏来源文件的字节哈希。
 
-大型总装 STEP、查看器大网格、CAD 缓存、ESP-IDF 构建目录、Python 环境和第三方工具二进制保留在磁盘，由 `.gitignore` 排除；没有启用 Git LFS。Rev O 审查快照额外收录三档单关节总成 STEP、两个 A 级配合样片 STEP/STL、轻量查看器与本轮原始编译/ERC/DRC 日志，未放开整个生成目录。其他机器如需完整本地成果，应另外复制 `Hardware/PoseDoll44/generated/`。**推送 Git 不等于备份全部 6.87 GB 本地成果。**
+大型总装 STEP、查看器大网格、CAD 缓存、ESP-IDF 构建目录、Python 环境和第三方工具二进制保留在磁盘，由 `.gitignore` 排除；没有启用 Git LFS。Rev O 审查快照额外收录三档单关节总成 STEP、两个 A 级配合样片 STEP/STL、轻量查看器与本轮原始编译/ERC/DRC 日志，Rev O3 本次另显式收录三个检查运行及其可追溯产物，仍未放开其他版本的整个生成目录。其他机器如需完整本地成果，应另外复制 `Hardware/PoseDoll44/generated/`。**推送 Git 不等于备份全部 6.87 GB 本地成果。**
 
 现有验证报告保留为历史快照，迁移后的路径修复和检查另列记录；没有把迁移当成新一轮全身工程验证。本轮提交由使用者推送到远端；审查应指定 `design/revO-desktop-external` 分支和所读取的完整提交号。
