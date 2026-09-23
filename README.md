@@ -4,6 +4,8 @@ Manny / Quinn 传感器可动人偶的独立设计仓库。原来位于 `DollSim
 
 ## 当前状态
 
+- **当前推进为 Rev O 第二轮**：[本轮设计、验证与缺口](Hardware/PoseDoll44/docs/START_HERE_REVO2.zh-CN.md)。已重构 L6 承力/装配、生成 N3/N4 拆板候选并修复入网调度；完整板位、质量目标和物理门槛仍待闭合。**[给 GPT-6 Pro 的第二轮审查说明](Hardware/PoseDoll44/docs/REVIEW_REQUEST_REVO2.zh-CN.md)** 已整理好源码、证据和重点问题。下列 Rev O 审查入口保留为第一轮历史。
+
 - **主方案已切换为 Rev O Desktop**：48 cm 为研究锚点，比较 42/45 cm 及较大后备档；已交付双角色布局、三档关节、原生电气布局和七角色固件。板位、预紧和质量预算仍未达标，完整总装尚未完成。
 - **约 91 cm 的 Rev M/N1 为备用**：原文件与旧输出保留，以哈希清单冻结。新旧源码、报告和导出分目录保存。
 - 新版入口：[Rev O 当前结果与失败清单](Hardware/PoseDoll44/docs/START_HERE_REVO.zh-CN.md)。
